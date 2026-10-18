@@ -7,11 +7,10 @@ Extracted from pdxvoiceteacher/triadicbrain-open-alpha at
 adaptations are recorded in SOURCE_MANIFEST.json. UVLM-controlled and otherwise
 licensable material is offered under MPL-2.0, subject to LICENSE_SCOPE.md.
 
-The upstream PoC adapts bounded evidence, integrity and human-review patterns
-from authenticated CoherenceLattice CE alpha.3, IntegrityLock CE alpha.5 and
-Open Web Steward CE alpha.2 public packages. This extraction imports no parallel
-crawler, vault, signature key, entitlement service or component lifecycle.
-See THIRD_PARTY_NOTICES.md for those upstream recorded artifact identities.
+Upstream history records adaptations from CoherenceLattice CE alpha.3,
+IntegrityLock CE alpha.5 and Open Web Steward CE alpha.2 in excluded
+src/triadicbrain/workbench/ paths. Those historical references do not identify
+components or adaptations included in this demo. See THIRD_PARTY_NOTICES.md.
 
 "Aggregation Station" is not adopted as a current rightsholder. AI systems are
 not represented as contributors, owners, officers or rightsholders.
@@ -21,6 +20,8 @@ has been corrected to private preparation; attribution is preserved. The Unicode
 tables and separate public-alpha component/profile files described in the full
 upstream notice are excluded from this exact extraction.
 
-Rights/provenance and formal publication review remain HOLD. This candidate is
+Public visibility awaits a separate final-content decision and the scoped
+checks in PUBLICATION_REVIEW.md. Inherited HOLD labels are not a newly discovered
+third-party claim against this extraction. This candidate is
 not a release, hosted service, deployment, assurance opinion, legal compliance
 attestation, production-readiness claim or truth certification.

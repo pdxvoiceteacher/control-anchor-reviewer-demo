@@ -7,10 +7,11 @@ original bytes; provenance and new/adapted file origins are in SOURCE_MANIFEST.j
 Demo harness, tests, fixtures and documentation are offered on that same posture
 only to the extent rights exist and the human decision covers them.
 
-The source repository and this candidate are PRIVATE. Earlier upstream references
-to a public repository are historical, not this candidate's visibility. All formal
-rights/provenance and publication review remains HOLD; no path is asserted CLEAR.
-This status does not revoke or narrow any applicable existing license grant.
+This candidate is PRIVATE. Earlier upstream public-visibility descriptions are
+historical. The final publication decision and concrete contents checks are in
+PUBLICATION_REVIEW.md. Inherited HOLD metadata is preserved as source history,
+not promoted into a new third-party claim or a blanket certification requirement.
+It does not revoke or narrow any applicable existing license grant.
 
 This extraction does not include the Unicode-derived range tables, TIAIP public
 profile, separate component code, upstream dependencies, or their packages. Their

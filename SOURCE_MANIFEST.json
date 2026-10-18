@@ -3,7 +3,7 @@
   "source_repository": "pdxvoiceteacher/triadicbrain-open-alpha",
   "source_commit": "139932846cb1b6bf1571158464d89513d4e381f8",
   "candidate_visibility": "PRIVATE",
-  "publication_review": "HOLD",
+  "publication_review": "PRIVATE_CANDIDATE_PUBLIC_VISIBILITY_PENDING_FINAL_OWNER_DECISION",
   "source_history_copied": false,
   "copied_files": [
     {
@@ -506,45 +506,56 @@
     },
     {
       "path": "LICENSE_SCOPE.md",
-      "candidate_sha256": "3ba01e87a4010f4dbd7eb51d1cff0b2677acb25372dadbfd1a532aaf6a95c7fd",
+      "candidate_sha256": "83fe2d43c03e7ba2bb5c7c78e6aeff59d6668e4f8075ae6aeb94753527f18f80",
       "origin": "ADAPTED",
       "source_basis_paths": [
         "LICENSE_SCOPE.md"
       ],
       "modifications": "Scoped explanatory notice rewritten for private extraction; required attribution and applicable license retained; stale public wording corrected; excluded material identified.",
       "license": "MPL-2.0 to extent rights exist and covered",
-      "publication_review": "HOLD"
+      "publication_review": "FINAL_CONTENT_DECISION_PENDING",
+      "documentation_successor_modification": "Clarified inherited HOLD metadata and candidate-specific publication scope without changing MPL terms."
     },
     {
       "path": "NOTICE",
-      "candidate_sha256": "77d38fdd96141e4dbf7a27efe5b0128da14aaa2684d17d4bf0ac446da8ec7a46",
+      "candidate_sha256": "a5fbb9d265170112c12f749346bd75801a00e0ba07c243cd661241f5dd83483f",
       "origin": "ADAPTED",
       "source_basis_paths": [
         "NOTICE"
       ],
       "modifications": "Scoped explanatory notice rewritten for private extraction; required attribution and applicable license retained; stale public wording corrected; excluded material identified.",
       "license": "MPL-2.0 to extent rights exist and covered",
-      "publication_review": "HOLD"
+      "publication_review": "FINAL_CONTENT_DECISION_PENDING",
+      "documentation_successor_modification": "Clarified CE/IntegrityLock/Open Web Steward references are excluded workbench history; preserved attribution."
     },
     {
       "path": "PUBLICATION_REVIEW.md",
-      "candidate_sha256": "f7902c9e711e164d28d3e79f62e6822ed00bfeb64308fcc9871f5a13b2ca7f9a",
+      "candidate_sha256": "8f10a8a947f783809c1f832893f61952dd9c5bb0af20b53df8965db06549008f",
       "origin": "NEW",
       "source_basis_paths": [],
       "modifications": "New demo preparation material; AI-assisted under human commissioning.",
       "license": "MPL-2.0 to extent rights exist and covered",
-      "publication_review": "HOLD"
+      "publication_review": "FINAL_CONTENT_DECISION_PENDING",
+      "documentation_successor_modification": "Replaced blanket gates with exact-candidate owner/contents checks; recorded owner attestation and bounded 12-schema inspection, with no specific schema rights blocker identified."
     },
     {
       "path": "README.md",
-      "candidate_sha256": "0dc1e9bd409ef8427d1aa25ff677e7f21953ae582ff3863ab80be94154247306",
+      "candidate_sha256": "b635929a7c151bdac4ad87c720ac8d4994a091f4fd72190c7f619a796f4b44b8",
       "origin": "ADAPTED",
       "source_basis_paths": [
         "docs/current/master-design.md"
       ],
-      "modifications": "New reviewer explanation based on maintained architecture; limits bound to extracted implementation.",
+      "modifications": "New reviewer explanation based on maintained architecture; limits bound to extracted implementation. Added link to a source-attributed methods appendix and its bounded teaching claims.",
       "license": "MPL-2.0 to extent rights exist and covered",
-      "publication_review": "HOLD"
+      "publication_review": "FINAL_CONTENT_DECISION_PENDING",
+      "documentation_successor_modification": "Linked methods appendix and whole-product/customer-function map; separated private merge authority from final publication/content decision.",
+      "additional_source_basis": [
+        "https://github.com/pdxvoiceteacher/triadicbrain-open-alpha/blob/37583fd91ff7f0d912256c10fea89ff6896763cf/README.md",
+        "https://github.com/pdxvoiceteacher/triadicbrain-open-alpha/blob/37583fd91ff7f0d912256c10fea89ff6896763cf/docs/current/product-file-map.md",
+        "https://github.com/pdxvoiceteacher/triadicbrain-open-alpha/blob/37583fd91ff7f0d912256c10fea89ff6896763cf/docs/delivery/WINDOWS_INSTALLER_MAP.md",
+        "https://github.com/pdxvoiceteacher/CoherenceLattice/blob/f0566d8f79c308eaeb9ab10cb8255478e8913a71/docs/provenance/pedagogy/UVLM_PROVENANCE_PEDAGOGY_v1.md",
+        "https://github.com/pdxvoiceteacher/Sophia/blob/36165bdca0c5fbdc58d7500c41af6c9fd775197c/docs/provenance/UVLM_PROVENANCE_PEDAGOGY_REFINEMENT_OVERLAY_v1.1.md"
+      ]
     },
     {
       "path": "tests/test_component.py",
@@ -559,14 +570,15 @@
     },
     {
       "path": "THIRD_PARTY_NOTICES.md",
-      "candidate_sha256": "20eba548fe7ec7d8967c88cd9679c7c91d21abdc19b35407f596d3ba63d593c4",
+      "candidate_sha256": "3e83d6b5f30e57be790ea1bf8bc9a31c7c6e4fec187b19fc5d945a331cf69e26",
       "origin": "ADAPTED",
       "source_basis_paths": [
         "THIRD_PARTY_NOTICES.md"
       ],
       "modifications": "Scoped explanatory notice rewritten for private extraction; required attribution and applicable license retained; stale public wording corrected; excluded material identified.",
       "license": "MPL-2.0 to extent rights exist and covered",
-      "publication_review": "HOLD"
+      "publication_review": "FINAL_CONTENT_DECISION_PENDING",
+      "documentation_successor_modification": "Mapped historical component adaptations to excluded workbench paths, distinguished assurance/web.py and scoped schema/methods source boundaries."
     },
     {
       "path": "validation/observed-demo-summary.json",
@@ -579,12 +591,41 @@
     },
     {
       "path": "VALIDATION.md",
-      "candidate_sha256": "9a2b2128ee88d282d88528530c17e13f57b453effae4c6008d9151273020d1f7",
+      "candidate_sha256": "e13729d15358dbccc340cad325595b739cf01987b3847123c6a3ab952b8b66fd",
       "origin": "NEW",
       "source_basis_paths": [],
       "modifications": "New demo preparation material; AI-assisted under human commissioning.",
       "license": "MPL-2.0 to extent rights exist and covered",
-      "publication_review": "HOLD"
+      "publication_review": "FINAL_CONTENT_DECISION_PENDING",
+      "documentation_successor_modification": "Removed workstation free-resource numbers and internal approval-process narration; retained hard-link failure, ordinary-user success, test result and ZIP limitation."
+    },
+    {
+      "path": "docs/METHODS_APPENDIX.md",
+      "candidate_sha256": "42403326b0c32c487418e8b01a9c83fbf09ba59037299106b583e51723450b30",
+      "origin": "ADAPTED",
+      "source_basis_paths": [
+        "https://github.com/pdxvoiceteacher/CoherenceLattice/blob/f0566d8f79c308eaeb9ab10cb8255478e8913a71/docs/provenance/pedagogy/UVLM_PROVENANCE_PEDAGOGY_v1.md",
+        "https://github.com/pdxvoiceteacher/Sophia/blob/36165bdca0c5fbdc58d7500c41af6c9fd775197c/docs/provenance/UVLM_PROVENANCE_PEDAGOGY_REFINEMENT_OVERLAY_v1.1.md"
+      ],
+      "modifications": "New concise paraphrase of selected pedagogy principles with a synthetic demo-linked exercise and answer key. Omits training ledger, live/learner records, graduation/credit implementation and automatic three-patch control retirement. No measured learning or model-training claims.",
+      "attribution": "Thomas Prislac / UVLM; exact source documents identified in methods_appendix_sources.",
+      "license": "Private adaptation under owner instruction; intended public prose license scope to confirm; no upstream relicensing.",
+      "publication_review": "PUBLIC_PROSE_LICENSE_SCOPE_TO_CONFIRM"
+    },
+    {
+      "path": "docs/PRODUCT_MAP.md",
+      "candidate_sha256": "73278a26c1664d5c43e74cf467130ab2b5c1f522de7539f3c7611db1f786b5cd",
+      "origin": "ADAPTED",
+      "source_basis_paths": [
+        "https://github.com/pdxvoiceteacher/triadicbrain-open-alpha/blob/37583fd91ff7f0d912256c10fea89ff6896763cf/README.md",
+        "https://github.com/pdxvoiceteacher/triadicbrain-open-alpha/blob/37583fd91ff7f0d912256c10fea89ff6896763cf/docs/current/product-file-map.md",
+        "https://github.com/pdxvoiceteacher/triadicbrain-open-alpha/blob/37583fd91ff7f0d912256c10fea89ff6896763cf/docs/delivery/WINDOWS_INSTALLER_MAP.md",
+        "https://github.com/pdxvoiceteacher/triadicbrain-open-alpha/blob/37583fd91ff7f0d912256c10fea89ff6896763cf/CURRENT_PRODUCT.md"
+      ],
+      "modifications": "Compact new whole-product map and customer-function crosswalk adapted from specified README sections and process maps; both interface directions, HERE/ELSEWHERE/PROPOSED statuses and actual relative function/file links; no full inventory or historical readiness tables copied.",
+      "attribution": "Thomas Prislac / UVLM; exact sources in documentation_sources.",
+      "license": "MPL-2.0 to extent rights exist and covered",
+      "publication_review": "FINAL_CONTENT_DECISION_PENDING"
     }
   ],
   "consulted_originals": [
@@ -768,5 +809,91 @@
     "TIAIP public profile",
     "dependencies/model weights",
     "generated run roots"
-  ]
+  ],
+  "methods_appendix_sources": [
+    {
+      "source_repository": "pdxvoiceteacher/CoherenceLattice",
+      "source_commit": "f0566d8f79c308eaeb9ab10cb8255478e8913a71",
+      "original_path": "docs/provenance/pedagogy/UVLM_PROVENANCE_PEDAGOGY_v1.md",
+      "original_git_blob": "905d8d91ecb1b04c10b2264e432d122cbe114d90",
+      "original_sha256": "ae37f972c6db7bcc6ffd45e8ac624d02ba4d4e4a03ccbe01d82913887d1102b9",
+      "source_url": "https://github.com/pdxvoiceteacher/CoherenceLattice/blob/f0566d8f79c308eaeb9ab10cb8255478e8913a71/docs/provenance/pedagogy/UVLM_PROVENANCE_PEDAGOGY_v1.md",
+      "source_bytes_copied": false,
+      "use": "Read and paraphrased in docs/METHODS_APPENDIX.md; no training implementation or live records copied.",
+      "license_boundary": "No applicable grant identified in the source document or a repository license file at the inspected snapshot. No upstream relicensing or title conclusion.",
+      "publication_review": "HOLD"
+    },
+    {
+      "source_repository": "pdxvoiceteacher/Sophia",
+      "source_commit": "36165bdca0c5fbdc58d7500c41af6c9fd775197c",
+      "original_path": "docs/provenance/UVLM_PROVENANCE_PEDAGOGY_REFINEMENT_OVERLAY_v1.1.md",
+      "original_git_blob": "803a72d0ffa1554c5c7c8db7f953e86215d33209",
+      "original_sha256": "bd090870e523e238190f3b1485aea388862ec60f6f73c8a945690ccc685e90b7",
+      "source_url": "https://github.com/pdxvoiceteacher/Sophia/blob/36165bdca0c5fbdc58d7500c41af6c9fd775197c/docs/provenance/UVLM_PROVENANCE_PEDAGOGY_REFINEMENT_OVERLAY_v1.1.md",
+      "source_bytes_copied": false,
+      "use": "Read and paraphrased in docs/METHODS_APPENDIX.md; no training implementation or live records copied.",
+      "license_boundary": "No applicable grant identified in the source document or a repository license file at the inspected snapshot. No upstream relicensing or title conclusion.",
+      "publication_review": "HOLD"
+    }
+  ],
+  "documentation_sources": [
+    {
+      "source_repository": "pdxvoiceteacher/triadicbrain-open-alpha",
+      "source_commit": "37583fd91ff7f0d912256c10fea89ff6896763cf",
+      "original_path": "README.md",
+      "original_git_blob": "724c97412410f584279b3d6def0f093741bdd84d",
+      "original_sha256": "91052e400766e35077a689a60c6e087aae7947aced9ab7aa3e44bcc548168f02",
+      "source_url": "https://github.com/pdxvoiceteacher/triadicbrain-open-alpha/blob/37583fd91ff7f0d912256c10fea89ff6896763cf/README.md",
+      "source_bytes_copied": false,
+      "use": "Read for compact product responsibilities/source-bound delivery context or excluded-component notice correction; no private inventory or run records copied."
+    },
+    {
+      "source_repository": "pdxvoiceteacher/triadicbrain-open-alpha",
+      "source_commit": "37583fd91ff7f0d912256c10fea89ff6896763cf",
+      "original_path": "docs/current/product-file-map.md",
+      "original_git_blob": "55b3916cef28fd43ed8685410281158fa83da532",
+      "original_sha256": "fb608d1ba9bb8474a555bdaf9a71566a1f744c7a2710d2d776b29758efabefb6",
+      "source_url": "https://github.com/pdxvoiceteacher/triadicbrain-open-alpha/blob/37583fd91ff7f0d912256c10fea89ff6896763cf/docs/current/product-file-map.md",
+      "source_bytes_copied": false,
+      "use": "Read for compact product responsibilities/source-bound delivery context or excluded-component notice correction; no private inventory or run records copied."
+    },
+    {
+      "source_repository": "pdxvoiceteacher/triadicbrain-open-alpha",
+      "source_commit": "37583fd91ff7f0d912256c10fea89ff6896763cf",
+      "original_path": "docs/delivery/WINDOWS_INSTALLER_MAP.md",
+      "original_git_blob": "206089f4690b8ecb5bc1ea27c72f2dedf8f63230",
+      "original_sha256": "cc6c4d509b21ea5362f53e5e8b43e5e845f4da76372dae613868033f6b39461d",
+      "source_url": "https://github.com/pdxvoiceteacher/triadicbrain-open-alpha/blob/37583fd91ff7f0d912256c10fea89ff6896763cf/docs/delivery/WINDOWS_INSTALLER_MAP.md",
+      "source_bytes_copied": false,
+      "use": "Read for compact product responsibilities/source-bound delivery context or excluded-component notice correction; no private inventory or run records copied."
+    },
+    {
+      "source_repository": "pdxvoiceteacher/triadicbrain-open-alpha",
+      "source_commit": "37583fd91ff7f0d912256c10fea89ff6896763cf",
+      "original_path": "CURRENT_PRODUCT.md",
+      "original_git_blob": "30c8b90b33b43aa972d42cff4c095b4e4fdb763c",
+      "original_sha256": "b5ddfca9ff2979dba13e3db23e1aa658062792edc39df9889ea3adb965c6b5d0",
+      "source_url": "https://github.com/pdxvoiceteacher/triadicbrain-open-alpha/blob/37583fd91ff7f0d912256c10fea89ff6896763cf/CURRENT_PRODUCT.md",
+      "source_bytes_copied": false,
+      "use": "Read for compact product responsibilities/source-bound delivery context or excluded-component notice correction; no private inventory or run records copied."
+    },
+    {
+      "source_repository": "pdxvoiceteacher/triadicbrain-open-alpha",
+      "source_commit": "139932846cb1b6bf1571158464d89513d4e381f8",
+      "original_path": "COMPONENT_REUSE_DECISIONS.json",
+      "original_git_blob": "74e97d280f15d997c95ae4b18db9291965629b30",
+      "original_sha256": "dd75e3a71d3b694c7e44dc631dc7301abff240d880912ec00d510697c4c9721f",
+      "source_url": "https://github.com/pdxvoiceteacher/triadicbrain-open-alpha/blob/139932846cb1b6bf1571158464d89513d4e381f8/COMPONENT_REUSE_DECISIONS.json",
+      "source_bytes_copied": false,
+      "use": "Read for compact product responsibilities/source-bound delivery context or excluded-component notice correction; no private inventory or run records copied."
+    }
+  ],
+  "publication_review_status_note": "HOLD values retained in the original copied-file/source records are historical review metadata, not a newly identified rights defect or a blanket legal-certification gate. See PUBLICATION_REVIEW.md for exact candidate checks.",
+  "candidate_review_notes": {
+    "schema_scope": "Only the 12 commission-supplied AEP01/PoC01 schemas in copied_files were examined; exact source hashes retained.",
+    "schema_inspection": "No specific third-party license exception, attribution, proprietary criteria text or external $ref identified. JSON Schema dialect declaration is a format identifier.",
+    "ownership_attestation": "Thomas attests sole software ownership and no board ownership; this is owner evidence, not independent title proof.",
+    "specific_remaining_license_scope": "Intended outbound license for the two pedagogy prose sources and private paraphrase; see methods_appendix_sources and PUBLICATION_REVIEW.md.",
+    "runtime_evidence": "Unchanged implementation/tests/fixtures inherit prior observed evidence; documentation checks only for this successor."
+  }
 }

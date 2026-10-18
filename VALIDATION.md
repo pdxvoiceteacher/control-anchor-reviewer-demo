@@ -42,20 +42,17 @@ decision denial, candidate self-authorization rejection, preserved repair lineag
 and duplicate-child rejection, declared-change mismatch, tampered ZIP member
 rejection, and the live snapshot's changed-ZIP detection.
 
-Before this final run, free disk was 73,600,905,216 bytes and available physical
-memory was 3,311,689,728 bytes. The successful demo/test invocations were permitted
-outside the filesystem sandbox as the same ordinary Windows user; no UAC or
-administrator elevation was used.
+The successful demo/test runs used the same ordinary Windows user outside the
+filesystem sandbox; no UAC or administrator elevation was used.
 
 ## Original failures retained
 
 1. Initial `-S demo.py --output demo-output` inside the restricted filesystem
    sandbox failed at store initialization: `EXCLUSIVE_OUTPUT_FAILED`, caused by
    `os.link` returning WinError 5 (access denied). No transaction completed.
-   Partial output was retained. A bounded direct probe identified the same
-   hard-link denial. The implementation's publication mechanism was unchanged.
-   Automatic review then permitted the ordinary-user run outside that sandbox,
-   using a fresh output root.
+   Partial output was retained. The successful ordinary-user run used a fresh
+   output root outside that sandbox, with the implementation's publication
+   mechanism unchanged.
 2. Initial seven-case unittest run returned exit code 1: six passed, one failed
    in 14.714 seconds. The authored adverse test incorrectly expected the standalone
    ZIP verifier to reject appended trailing bytes. Source review and execution

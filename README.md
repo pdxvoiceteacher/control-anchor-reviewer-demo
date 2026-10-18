@@ -3,8 +3,9 @@
 **OFFLINE EVIDENCE AND REVIEW COMPONENT DEMONSTRATION**
 
 Private preparation candidate for review of Thomas Prislac's Sentient funding
-application. Publication and formal rights review remain **HOLD**. This repository
-does not constitute a funding submission or a public release.
+application. The final publication decision and [candidate-specific contents
+checks](PUBLICATION_REVIEW.md) are separate from merge authority. This repository
+remains private and does not constitute a funding submission or public release.
 
 This runs a small, existing part of Control Anchor: retain captured source,
 prompt, settings and candidate bytes; execute deterministic evidence controls;
@@ -13,6 +14,15 @@ packages; export and reopen practitioner evidence. The Python implementation is
 extracted unchanged from `pdxvoiceteacher/triadicbrain-open-alpha` at
 `139932846cb1b6bf1571158464d89513d4e381f8`. See [SOURCE_MANIFEST.json](SOURCE_MANIFEST.json)
 for exact original paths, Git blobs, SHA-256 hashes and adaptation notes.
+
+The [methods appendix](docs/METHODS_APPENDIX.md) adapts the provenance pedagogy
+into a synthetic teaching exercise and answer key. It distinguishes integrity,
+claim support, review and bounded authority without claiming validated learning
+or model training.
+
+The [product map and customer-function crosswalk](docs/PRODUCT_MAP.md) show the
+whole product's responsibilities, both interface directions and the exact
+functions demonstrated here, with source elsewhere and proposed work marked.
 
 All input records are conspicuously synthetic. **No model is called**:
 `provider_invoked=false`. The candidate is an authored fixture. The actor
