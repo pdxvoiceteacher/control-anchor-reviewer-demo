@@ -642,108 +642,157 @@
     },
     {
       "path": "media/Control_Anchor_Introduction_Teleprompter_Reviewer_Update.txt",
-      "candidate_sha256": "a708960a05468aef0124a1a1ea8a0c346e86eb0ee50f37b41c2f615f0254c298",
-      "bytes": 7488,
+      "candidate_sha256": "e1a532330accf3cb15b3155954c6a21a448c23ec24af28f52f730c48d2174bf2",
+      "bytes": 7500,
       "origin": "USER_SUPPLIED_REVIEWED_MEDIA_PACK",
       "source_archive_member": "Control_Anchor_Introduction_Teleprompter_Reviewer_Update.txt",
       "source_member_sha256": "a708960a05468aef0124a1a1ea8a0c346e86eb0ee50f37b41c2f615f0254c298",
       "original_user_source_filename": "Control_Anchor_Introduction_Teleprompter_Slide_Edition(1).txt",
       "original_user_source_sha256": "509bee2c2342965ee29e360faa27566b1d79707de7caefd7c4c4804615e01fd8",
       "upstream_treatment": "revised successor",
-      "modifications": "NONE in this import; exact reviewed archive member bytes retained.",
+      "modifications": "Exact reviewed Project Lead revision reproduced with inspected standard-library byte patch; narrative roles and spoken word counts updated, actual attribution/claims preserved. Notes and pack manifest refreshed; no local Office rewrite.",
       "attribution": "Thomas Prislac / UVLM; supplied source attribution, AI-assistance and exporter metadata preserved.",
       "license": "No new license grant authorized; preserve applicable existing rights/permissions and notices; no automatic code-license inheritance.",
-      "publication_review": "OWNER_FINAL_CONTENT_VISIBILITY_DECISION_PENDING_EXISTING_RIGHTS_PRESERVED"
+      "publication_review": "OWNER_FINAL_CONTENT_VISIBILITY_DECISION_PENDING_EXISTING_RIGHTS_PRESERVED",
+      "reviewed_revision": {
+        "prior_candidate_commit": "95412664352e8d82cbb07ae9a345bb905bf2c418",
+        "prior_member_sha256": "a708960a05468aef0124a1a1ea8a0c346e86eb0ee50f37b41c2f615f0254c298",
+        "reviewed_member_sha256": "e1a532330accf3cb15b3155954c6a21a448c23ec24af28f52f730c48d2174bf2",
+        "delivery": "Deterministic patch supplied by parent after cloud rendering/validation; only reviewed payload imported.",
+        "source_member_hash_semantics": "source_member_sha256 remains the unmodified original supplied-archive member; candidate_sha256 is this reviewed successor."
+      }
     },
     {
       "path": "media/Control_Anchor_Video_Scripts_Reviewer_Update.docx",
-      "candidate_sha256": "02e8bbe5651a1b357cef45202396cf6bf6a0c22bf1aa178745dff94462e025d0",
-      "bytes": 50643,
+      "candidate_sha256": "8c908657b8c1e7510a4c98c1d9a843996a95f01f59f8bcdb70eb92323d1ed76e",
+      "bytes": 887308,
       "origin": "USER_SUPPLIED_REVIEWED_MEDIA_PACK",
       "source_archive_member": "Control_Anchor_Video_Scripts_Reviewer_Update.docx",
       "source_member_sha256": "02e8bbe5651a1b357cef45202396cf6bf6a0c22bf1aa178745dff94462e025d0",
       "original_user_source_filename": "Control_Anchor_Video_Scripts_Slide_Edition(1).docx",
       "original_user_source_sha256": "5216055390f505dcdafe3bab55316c062bf2a2708a6e9743ed41e8de74d5513b",
       "upstream_treatment": "revised successor",
-      "modifications": "NONE in this import; exact reviewed archive member bytes retained.",
+      "modifications": "Exact reviewed Project Lead revision reproduced with inspected standard-library byte patch; narrative roles and spoken word counts updated, actual attribution/claims preserved. Notes and pack manifest refreshed; no local Office rewrite.",
       "attribution": "Thomas Prislac / UVLM; supplied source attribution, AI-assistance and exporter metadata preserved.",
       "license": "No new license grant authorized; preserve applicable existing rights/permissions and notices; no automatic code-license inheritance.",
-      "publication_review": "OWNER_FINAL_CONTENT_VISIBILITY_DECISION_PENDING_EXISTING_RIGHTS_PRESERVED"
+      "publication_review": "OWNER_FINAL_CONTENT_VISIBILITY_DECISION_PENDING_EXISTING_RIGHTS_PRESERVED",
+      "reviewed_revision": {
+        "prior_candidate_commit": "95412664352e8d82cbb07ae9a345bb905bf2c418",
+        "prior_member_sha256": "02e8bbe5651a1b357cef45202396cf6bf6a0c22bf1aa178745dff94462e025d0",
+        "reviewed_member_sha256": "8c908657b8c1e7510a4c98c1d9a843996a95f01f59f8bcdb70eb92323d1ed76e",
+        "delivery": "Deterministic patch supplied by parent after cloud rendering/validation; only reviewed payload imported.",
+        "source_member_hash_semantics": "source_member_sha256 remains the unmodified original supplied-archive member; candidate_sha256 is this reviewed successor."
+      }
     },
     {
       "path": "media/Control_Anchor_Video_Slides_Reviewer_Update.pptx",
-      "candidate_sha256": "437141f8a128347e2057fc4e6eeb6d9dd75732a3315cedd8cc125fb0d7c2ff83",
-      "bytes": 55598,
+      "candidate_sha256": "d0a45bbc38c17e0e44a05ce03da0e3e3de22c61b061bcc042a077ad3483a8ab6",
+      "bytes": 320222,
       "origin": "USER_SUPPLIED_REVIEWED_MEDIA_PACK",
       "source_archive_member": "Control_Anchor_Video_Slides_Reviewer_Update.pptx",
       "source_member_sha256": "437141f8a128347e2057fc4e6eeb6d9dd75732a3315cedd8cc125fb0d7c2ff83",
       "original_user_source_filename": "Control_Anchor_Video_Slides(1).pptx",
       "original_user_source_sha256": "e1c8e8e2a23bb27dc36a02ff75bf6dfb6a4aa6ebd56ea985bedc42154f119515",
       "upstream_treatment": "revised successor",
-      "modifications": "NONE in this import; exact reviewed archive member bytes retained.",
-      "attribution": "Thomas Prislac / UVLM; supplied source attribution, AI-assistance and exporter metadata preserved.",
+      "modifications": "Exact reviewed Project Lead revision reproduced with inspected standard-library byte patch; narrative roles and spoken word counts updated, actual attribution/claims preserved. Notes and pack manifest refreshed; no local Office rewrite.",
+      "attribution": "Thomas Prislac / UVLM; presentation/authorship/source credits and creator/source properties preserved. Reviewed export regenerates timestamps and relationship IDs; relationship targets unchanged.",
       "license": "No new license grant authorized; preserve applicable existing rights/permissions and notices; no automatic code-license inheritance.",
-      "publication_review": "OWNER_FINAL_CONTENT_VISIBILITY_DECISION_PENDING_EXISTING_RIGHTS_PRESERVED"
+      "publication_review": "OWNER_FINAL_CONTENT_VISIBILITY_DECISION_PENDING_EXISTING_RIGHTS_PRESERVED",
+      "reviewed_revision": {
+        "prior_candidate_commit": "95412664352e8d82cbb07ae9a345bb905bf2c418",
+        "prior_member_sha256": "437141f8a128347e2057fc4e6eeb6d9dd75732a3315cedd8cc125fb0d7c2ff83",
+        "reviewed_member_sha256": "d0a45bbc38c17e0e44a05ce03da0e3e3de22c61b061bcc042a077ad3483a8ab6",
+        "delivery": "Deterministic patch supplied by parent after cloud rendering/validation; only reviewed payload imported.",
+        "source_member_hash_semantics": "source_member_sha256 remains the unmodified original supplied-archive member; candidate_sha256 is this reviewed successor."
+      }
     },
     {
       "path": "media/Media_Change_and_Evidence_Notes.md",
-      "candidate_sha256": "8eb32546b7c45de0d2c26b35e5aee7a1b4f4edaebb8eccf2b27549a27ae909e8",
-      "bytes": 3319,
+      "candidate_sha256": "ef8b585b894b899dc88e7ea08782896d326f96e5639cd8dfd930301fe08edcfa",
+      "bytes": 4014,
       "origin": "USER_SUPPLIED_REVIEWED_MEDIA_PACK",
       "source_archive_member": "Media_Change_and_Evidence_Notes.md",
       "source_member_sha256": "8eb32546b7c45de0d2c26b35e5aee7a1b4f4edaebb8eccf2b27549a27ae909e8",
       "original_user_source_filename": null,
       "original_user_source_sha256": null,
       "upstream_treatment": "new change and evidence notes",
-      "modifications": "NONE in this import; exact reviewed archive member bytes retained.",
+      "modifications": "Exact reviewed Project Lead revision reproduced with inspected standard-library byte patch; narrative roles and spoken word counts updated, actual attribution/claims preserved. Notes and pack manifest refreshed; no local Office rewrite.",
       "attribution": "Thomas Prislac / UVLM; supplied source attribution, AI-assistance and exporter metadata preserved.",
       "license": "No new license grant authorized; preserve applicable existing rights/permissions and notices; no automatic code-license inheritance.",
-      "publication_review": "OWNER_FINAL_CONTENT_VISIBILITY_DECISION_PENDING_EXISTING_RIGHTS_PRESERVED"
+      "publication_review": "OWNER_FINAL_CONTENT_VISIBILITY_DECISION_PENDING_EXISTING_RIGHTS_PRESERVED",
+      "reviewed_revision": {
+        "prior_candidate_commit": "95412664352e8d82cbb07ae9a345bb905bf2c418",
+        "prior_member_sha256": "8eb32546b7c45de0d2c26b35e5aee7a1b4f4edaebb8eccf2b27549a27ae909e8",
+        "reviewed_member_sha256": "ef8b585b894b899dc88e7ea08782896d326f96e5639cd8dfd930301fe08edcfa",
+        "delivery": "Deterministic patch supplied by parent after cloud rendering/validation; only reviewed payload imported.",
+        "source_member_hash_semantics": "source_member_sha256 remains the unmodified original supplied-archive member; candidate_sha256 is this reviewed successor."
+      }
     },
     {
       "path": "media/Triadic_Cognition_P2P_Video_Slides_Reviewer_Update.pptx",
-      "candidate_sha256": "6c529d48cc3129f56a53daafef2f32018d2159a45409098be178762aedf03478",
-      "bytes": 74043,
+      "candidate_sha256": "6fe898c2b1f725a96a253f538b5e7335815d63fc78f3508545cde956a0098449",
+      "bytes": 450991,
       "origin": "USER_SUPPLIED_REVIEWED_MEDIA_PACK",
       "source_archive_member": "Triadic_Cognition_P2P_Video_Slides_Reviewer_Update.pptx",
       "source_member_sha256": "6c529d48cc3129f56a53daafef2f32018d2159a45409098be178762aedf03478",
       "original_user_source_filename": "Triadic_Cognition_P2P_Video_Slides(1).pptx",
       "original_user_source_sha256": "18d9909dcd940081eb72f1c342e197b0c1171b19a0e2b194ade65273526d0200",
       "upstream_treatment": "revised successor",
-      "modifications": "NONE in this import; exact reviewed archive member bytes retained.",
-      "attribution": "Thomas Prislac / UVLM; supplied source attribution, AI-assistance and exporter metadata preserved.",
+      "modifications": "Exact reviewed Project Lead revision reproduced with inspected standard-library byte patch; narrative roles and spoken word counts updated, actual attribution/claims preserved. Notes and pack manifest refreshed; no local Office rewrite.",
+      "attribution": "Thomas Prislac / UVLM; presentation/authorship/source credits and creator/source properties preserved. Reviewed export regenerates timestamps and relationship IDs; relationship targets unchanged.",
       "license": "No new license grant authorized; preserve applicable existing rights/permissions and notices; no automatic code-license inheritance.",
-      "publication_review": "OWNER_FINAL_CONTENT_VISIBILITY_DECISION_PENDING_EXISTING_RIGHTS_PRESERVED"
+      "publication_review": "OWNER_FINAL_CONTENT_VISIBILITY_DECISION_PENDING_EXISTING_RIGHTS_PRESERVED",
+      "reviewed_revision": {
+        "prior_candidate_commit": "95412664352e8d82cbb07ae9a345bb905bf2c418",
+        "prior_member_sha256": "6c529d48cc3129f56a53daafef2f32018d2159a45409098be178762aedf03478",
+        "reviewed_member_sha256": "6fe898c2b1f725a96a253f538b5e7335815d63fc78f3508545cde956a0098449",
+        "delivery": "Deterministic patch supplied by parent after cloud rendering/validation; only reviewed payload imported.",
+        "source_member_hash_semantics": "source_member_sha256 remains the unmodified original supplied-archive member; candidate_sha256 is this reviewed successor."
+      }
     },
     {
       "path": "media/Triadic_P2P_Teleprompter_Reviewer_Update.txt",
-      "candidate_sha256": "62ca901d4fc6c0469f1d11072eda490090149b7613955c7cccc06857d9bb527b",
-      "bytes": 11976,
+      "candidate_sha256": "508ab400093024f037773ad288f6d8542d098f95854b03807274f1b132aeeff4",
+      "bytes": 11978,
       "origin": "USER_SUPPLIED_REVIEWED_MEDIA_PACK",
       "source_archive_member": "Triadic_P2P_Teleprompter_Reviewer_Update.txt",
       "source_member_sha256": "62ca901d4fc6c0469f1d11072eda490090149b7613955c7cccc06857d9bb527b",
       "original_user_source_filename": "Triadic_P2P_Teleprompter_Slide_Edition(1).txt",
       "original_user_source_sha256": "b6e97cf6cb29d9f5b754b6d81d2393eac9d043fa615030878fb10f35823c054b",
       "upstream_treatment": "revised successor",
-      "modifications": "NONE in this import; exact reviewed archive member bytes retained.",
+      "modifications": "Exact reviewed Project Lead revision reproduced with inspected standard-library byte patch; narrative roles and spoken word counts updated, actual attribution/claims preserved. Notes and pack manifest refreshed; no local Office rewrite.",
       "attribution": "Thomas Prislac / UVLM; supplied source attribution, AI-assistance and exporter metadata preserved.",
       "license": "No new license grant authorized; preserve applicable existing rights/permissions and notices; no automatic code-license inheritance.",
-      "publication_review": "OWNER_FINAL_CONTENT_VISIBILITY_DECISION_PENDING_EXISTING_RIGHTS_PRESERVED"
+      "publication_review": "OWNER_FINAL_CONTENT_VISIBILITY_DECISION_PENDING_EXISTING_RIGHTS_PRESERVED",
+      "reviewed_revision": {
+        "prior_candidate_commit": "95412664352e8d82cbb07ae9a345bb905bf2c418",
+        "prior_member_sha256": "62ca901d4fc6c0469f1d11072eda490090149b7613955c7cccc06857d9bb527b",
+        "reviewed_member_sha256": "508ab400093024f037773ad288f6d8542d098f95854b03807274f1b132aeeff4",
+        "delivery": "Deterministic patch supplied by parent after cloud rendering/validation; only reviewed payload imported.",
+        "source_member_hash_semantics": "source_member_sha256 remains the unmodified original supplied-archive member; candidate_sha256 is this reviewed successor."
+      }
     },
     {
       "path": "media/Triadic_P2P_Video_Script_Reviewer_Update.docx",
-      "candidate_sha256": "7363b249d7f66cdacfb23d919392eaeb2bbeeb3b81f3c690ae5e5fbaa3457f52",
-      "bytes": 52244,
+      "candidate_sha256": "56cb368c5d1ebda730732aba835b29f1e9d726a8ab52b6a84a1a32e949d39866",
+      "bytes": 900909,
       "origin": "USER_SUPPLIED_REVIEWED_MEDIA_PACK",
       "source_archive_member": "Triadic_P2P_Video_Script_Reviewer_Update.docx",
       "source_member_sha256": "7363b249d7f66cdacfb23d919392eaeb2bbeeb3b81f3c690ae5e5fbaa3457f52",
       "original_user_source_filename": "Triadic_P2P_Video_Script_Slide_Edition(1).docx",
       "original_user_source_sha256": "258f4d3383af3f563927e82f8667ab09670696faa1645bb23059da817e327a20",
       "upstream_treatment": "revised successor",
-      "modifications": "NONE in this import; exact reviewed archive member bytes retained.",
+      "modifications": "Exact reviewed Project Lead revision reproduced with inspected standard-library byte patch; narrative roles and spoken word counts updated, actual attribution/claims preserved. Notes and pack manifest refreshed; no local Office rewrite.",
       "attribution": "Thomas Prislac / UVLM; supplied source attribution, AI-assistance and exporter metadata preserved.",
       "license": "No new license grant authorized; preserve applicable existing rights/permissions and notices; no automatic code-license inheritance.",
-      "publication_review": "OWNER_FINAL_CONTENT_VISIBILITY_DECISION_PENDING_EXISTING_RIGHTS_PRESERVED"
+      "publication_review": "OWNER_FINAL_CONTENT_VISIBILITY_DECISION_PENDING_EXISTING_RIGHTS_PRESERVED",
+      "reviewed_revision": {
+        "prior_candidate_commit": "95412664352e8d82cbb07ae9a345bb905bf2c418",
+        "prior_member_sha256": "7363b249d7f66cdacfb23d919392eaeb2bbeeb3b81f3c690ae5e5fbaa3457f52",
+        "reviewed_member_sha256": "56cb368c5d1ebda730732aba835b29f1e9d726a8ab52b6a84a1a32e949d39866",
+        "delivery": "Deterministic patch supplied by parent after cloud rendering/validation; only reviewed payload imported.",
+        "source_member_hash_semantics": "source_member_sha256 remains the unmodified original supplied-archive member; candidate_sha256 is this reviewed successor."
+      }
     },
     {
       "path": "media/covers/Control Anchor_ Their AI, Your Rules.png",
@@ -792,25 +841,32 @@
     },
     {
       "path": "media/Provenance_SHA256_Manifest.json",
-      "candidate_sha256": "387c951971092b4e420c1072b37fdd57dc72b6c9bb1fd4ca0f5de986316f8ec8",
-      "bytes": 4033,
+      "candidate_sha256": "713672da84432019ab8b60df4e53fda7906eff2991639c2e0cd7e543576f19e9",
+      "bytes": 4080,
       "origin": "USER_SUPPLIED_REVIEWED_MEDIA_PACK",
       "source_archive_member": "Provenance_SHA256_Manifest.json",
       "source_member_sha256": "387c951971092b4e420c1072b37fdd57dc72b6c9bb1fd4ca0f5de986316f8ec8",
       "original_user_source_filename": null,
       "original_user_source_sha256": null,
       "upstream_treatment": "Pack provenance manifest; self-hash bound here",
-      "modifications": "NONE in this import; exact reviewed archive member bytes retained.",
+      "modifications": "Exact reviewed Project Lead revision reproduced with inspected standard-library byte patch; narrative roles and spoken word counts updated, actual attribution/claims preserved. Notes and pack manifest refreshed; no local Office rewrite.",
       "attribution": "Thomas Prislac / UVLM; supplied source attribution, AI-assistance and exporter metadata preserved.",
       "license": "No new license grant authorized; preserve applicable existing rights/permissions and notices; no automatic code-license inheritance.",
-      "publication_review": "OWNER_FINAL_CONTENT_VISIBILITY_DECISION_PENDING_EXISTING_RIGHTS_PRESERVED"
+      "publication_review": "OWNER_FINAL_CONTENT_VISIBILITY_DECISION_PENDING_EXISTING_RIGHTS_PRESERVED",
+      "reviewed_revision": {
+        "prior_candidate_commit": "95412664352e8d82cbb07ae9a345bb905bf2c418",
+        "prior_member_sha256": "387c951971092b4e420c1072b37fdd57dc72b6c9bb1fd4ca0f5de986316f8ec8",
+        "reviewed_member_sha256": "713672da84432019ab8b60df4e53fda7906eff2991639c2e0cd7e543576f19e9",
+        "delivery": "Deterministic patch supplied by parent after cloud rendering/validation; only reviewed payload imported.",
+        "source_member_hash_semantics": "source_member_sha256 remains the unmodified original supplied-archive member; candidate_sha256 is this reviewed successor."
+      }
     },
     {
       "path": "media/README.md",
-      "candidate_sha256": "b668e08f9ef7d197ff9b388323ae22bef837d49340430782dd991b13700525b6",
-      "bytes": 3961,
+      "candidate_sha256": "7653d942a3b15afa799f7123b2866e948f7dcf11f301a29f862c402fe3266f09",
+      "bytes": 4869,
       "origin": "NEW",
-      "modifications": "Concise navigation, archive/inspection provenance and pending CC BY 4.0 recommendation; does not alter the reviewed media.",
+      "modifications": "Navigation and provenance refreshed for exact reviewed role-label successor; original archive remains historical, current payload identities and attributed cloud/local QA distinguished.",
       "license": "No new license grant authorized; preserve applicable existing rights/permissions and notices; no automatic code-license inheritance.",
       "publication_review": "OWNER_FINAL_CONTENT_VISIBILITY_DECISION_PENDING_EXISTING_RIGHTS_PRESERVED",
       "reviewer_successor_modification": "Neutral reviewer navigation and/or clarification that existing rights/notices are preserved, no new media/prose grant is authorized, and optional CC BY is not a visibility/funding prerequisite.",
@@ -1144,14 +1200,29 @@
     "downloaded_original_preserved": true,
     "exact_extracted_member_count": 11,
     "exact_extracted_member_bytes": 5962920,
-    "manifest_verification": "All ten member rows match exact sizes/SHA256; manifest itself bound by this source manifest; three cover hashes equal recorded original-image hashes.",
-    "worker_reported_qa": "Visual review of 24 slides and 27 DOCX pages; DOCX/TXT spoken alignment; only current-evidence slides 9/13 and matching spoken sections revised.",
-    "importer_observed_inspection": "ZIP paths, member CRC/size/hash, Office properties/relationships, comments, tracked changes, active content and text privacy indicators inspected; 10+14 slide members; covers viewed and PNG chunks inspected.",
+    "manifest_verification": "All ten current member rows match exact sizes/SHA256; current manifest itself bound by this source manifest; all three cover hashes remain original.",
+    "worker_reported_qa": "For this exact successor: both decks validated; changed title slides visually checked; all other slide renders unchanged; all 27 DOCX pages checked; DOCX/TXT spoken alignment verified. Report supplied by parent from original cloud rendering environment.",
+    "importer_observed_inspection": "Patch AST/imports and decoded JSON paths/byte operations inspected before execution; original archive and all 11 source/output hashes verified; Office ZIP/XML/role-text deltas, unchanged attribution, relationship targets, creator/source properties, active content and privacy indicators checked.",
     "privacy_disposition": "No unintended private content identified. Only email indicators were the intended info@ultraverbaluxmentis.org business contact. No macros, embedded objects, comments, tracked changes or local user paths found.",
-    "source_metadata_boundary": "Existing creator/source properties retained; exporter page/slide counters are not rendered layout counts.",
-    "runtime_boundary": "All previously tested runtime, tests, fixtures and validation evidence unchanged; no runtime rerun or media rewrite/rerender.",
+    "source_metadata_boundary": "Creator/source properties and attribution preserved. Reviewed deck export regenerated relationship IDs and created/modified timestamps; relationship targets unchanged. Stored Office ZIP members increase bytes. Exporter counters are not rendered layout counts.",
+    "runtime_boundary": "Runtime, tests, fixtures and recorded validation unchanged; no runtime rerun. Local operation reproduced exact already-reviewed media bytes, without local Office rendering or dependency installation.",
     "license_decision": "No new media/prose grant authorized; existing rights/permissions/notices preserved. CC BY 4.0 remains an optional unapplied suggestion, not a prerequisite for visibility or funding eligibility.",
-    "visibility_decision": "Repository remains private pending owner final-content/audience decision"
+    "visibility_decision": "Repository remains private pending owner final-content/audience decision",
+    "original_import_status": "Archive filename/size/hash and exact_extracted_member_* above describe the preserved original import, not current role-revised payload bytes.",
+    "current_revision": {
+      "label": "Professional role wording",
+      "reviewed_archive_filename": "Control_Anchor_Reviewer_Media_Project_Lead_2026-10-18.zip",
+      "reviewed_archive_bytes": 8292446,
+      "reviewed_archive_sha256": "05bc1d207d786bfc4c3999145e56552c6e9e5f824c0dccbc754399529d1e79f5",
+      "payload_member_count": 11,
+      "payload_bytes": 8290578,
+      "patch_script_bytes": 16886,
+      "patch_script_sha256": "7b8af34e8c457021b244357f3dd6bd9cec15b9bb8c5bc26a0d9a40376fe0f068",
+      "patch_archive_and_QA_files_committed": false,
+      "original_download_preserved_and_reverified": true,
+      "cover_files_unchanged": 3,
+      "publication_or_new_license_grant": false
+    }
   },
   "funding_planning_notes": {
     "status": "Program-neutral private planning drafts only; no recruitment, university agreement, outreach or submission.",
@@ -1164,7 +1235,7 @@
   "role_label_editorial_note": {
     "scope": "Contextual reviewer-facing narrative labels only: Project Lead; Founder where the business role matters.",
     "preserved": "Legal/copyright/commissioner/source attribution, source provenance, ownership-attestation quote, original copied-file records, runtime identifiers, tests/fixtures, immutable evidence, licensing and budgets.",
-    "media": "Reviewed PPTX/DOCX/TXT assets unchanged to preserve paired spoken alignment and source hashes; remaining narrative passages reported separately for coordinated media revision."
+    "media": "Coordinated PPTX/DOCX/TXT Project Lead revision now imported as exact cloud-reviewed bytes; title/narrative roles changed, actual attribution retained. Source hashes remain historical; current hashes and QA recorded in media_pack/current file records."
   },
   "historical_funding_planning_sources": {
     "status": "Historical sources consulted for superseded private briefs; preserved as provenance only, not current funding targets or current eligibility advice.",

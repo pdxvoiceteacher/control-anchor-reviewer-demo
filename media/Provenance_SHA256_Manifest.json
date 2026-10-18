@@ -1,59 +1,60 @@
 {
   "edition_date_utc": "2026-10-18",
+  "revision": "Professional role wording",
   "purpose": "Private reviewer-media preparation; reviewer access pending. No publication or access change.",
   "runtime_evidence_commit": "ed5bce3de817b91898f2d63f4b6a8b7952bf1952",
   "original_app_status_commit": "37583fd91ff7f0d912256c10fea89ff6896763cf",
   "files": [
     {
       "file": "Control_Anchor_Introduction_Teleprompter_Reviewer_Update.txt",
-      "bytes": 7488,
-      "sha256": "a708960a05468aef0124a1a1ea8a0c346e86eb0ee50f37b41c2f615f0254c298",
+      "bytes": 7500,
+      "sha256": "e1a532330accf3cb15b3155954c6a21a448c23ec24af28f52f730c48d2174bf2",
       "source_filename": "Control_Anchor_Introduction_Teleprompter_Slide_Edition(1).txt",
       "source_sha256": "509bee2c2342965ee29e360faa27566b1d79707de7caefd7c4c4804615e01fd8",
       "treatment": "revised successor"
     },
     {
       "file": "Control_Anchor_Video_Scripts_Reviewer_Update.docx",
-      "bytes": 50643,
-      "sha256": "02e8bbe5651a1b357cef45202396cf6bf6a0c22bf1aa178745dff94462e025d0",
+      "bytes": 887308,
+      "sha256": "8c908657b8c1e7510a4c98c1d9a843996a95f01f59f8bcdb70eb92323d1ed76e",
       "source_filename": "Control_Anchor_Video_Scripts_Slide_Edition(1).docx",
       "source_sha256": "5216055390f505dcdafe3bab55316c062bf2a2708a6e9743ed41e8de74d5513b",
       "treatment": "revised successor"
     },
     {
       "file": "Control_Anchor_Video_Slides_Reviewer_Update.pptx",
-      "bytes": 55598,
-      "sha256": "437141f8a128347e2057fc4e6eeb6d9dd75732a3315cedd8cc125fb0d7c2ff83",
+      "bytes": 320222,
+      "sha256": "d0a45bbc38c17e0e44a05ce03da0e3e3de22c61b061bcc042a077ad3483a8ab6",
       "source_filename": "Control_Anchor_Video_Slides(1).pptx",
       "source_sha256": "e1c8e8e2a23bb27dc36a02ff75bf6dfb6a4aa6ebd56ea985bedc42154f119515",
       "treatment": "revised successor"
     },
     {
       "file": "Media_Change_and_Evidence_Notes.md",
-      "bytes": 3319,
-      "sha256": "8eb32546b7c45de0d2c26b35e5aee7a1b4f4edaebb8eccf2b27549a27ae909e8",
+      "bytes": 4014,
+      "sha256": "ef8b585b894b899dc88e7ea08782896d326f96e5639cd8dfd930301fe08edcfa",
       "treatment": "new change and evidence notes"
     },
     {
       "file": "Triadic_Cognition_P2P_Video_Slides_Reviewer_Update.pptx",
-      "bytes": 74043,
-      "sha256": "6c529d48cc3129f56a53daafef2f32018d2159a45409098be178762aedf03478",
+      "bytes": 450991,
+      "sha256": "6fe898c2b1f725a96a253f538b5e7335815d63fc78f3508545cde956a0098449",
       "source_filename": "Triadic_Cognition_P2P_Video_Slides(1).pptx",
       "source_sha256": "18d9909dcd940081eb72f1c342e197b0c1171b19a0e2b194ade65273526d0200",
       "treatment": "revised successor"
     },
     {
       "file": "Triadic_P2P_Teleprompter_Reviewer_Update.txt",
-      "bytes": 11976,
-      "sha256": "62ca901d4fc6c0469f1d11072eda490090149b7613955c7cccc06857d9bb527b",
+      "bytes": 11978,
+      "sha256": "508ab400093024f037773ad288f6d8542d098f95854b03807274f1b132aeeff4",
       "source_filename": "Triadic_P2P_Teleprompter_Slide_Edition(1).txt",
       "source_sha256": "b6e97cf6cb29d9f5b754b6d81d2393eac9d043fa615030878fb10f35823c054b",
       "treatment": "revised successor"
     },
     {
       "file": "Triadic_P2P_Video_Script_Reviewer_Update.docx",
-      "bytes": 52244,
-      "sha256": "7363b249d7f66cdacfb23d919392eaeb2bbeeb3b81f3c690ae5e5fbaa3457f52",
+      "bytes": 900909,
+      "sha256": "56cb368c5d1ebda730732aba835b29f1e9d726a8ab52b6a84a1a32e949d39866",
       "source_filename": "Triadic_P2P_Video_Script_Slide_Edition(1).docx",
       "source_sha256": "258f4d3383af3f563927e82f8667ab09670696faa1645bb23059da817e327a20",
       "treatment": "revised successor"

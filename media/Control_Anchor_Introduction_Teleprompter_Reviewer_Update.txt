@@ -3,11 +3,11 @@ REVIEWER UPDATE | 18 OCTOBER 2026 UTC
 Read only the spoken paragraphs. Bracketed cues are not spoken.
 Deck: Control_Anchor_Video_Slides_Reviewer_Update.pptx
 Slide images: Export from the updated deck; replace the older status-slide PNG.
-971 spoken words; estimated 8 to 9 minutes including pauses.
+974 spoken words; estimated 8 to 9 minutes including pauses.
 
 [SECTION 01 — Control Anchor]
 [CAMERA]
-I'm Thomas Prislac. My background includes auditing, internal controls, music and creative work. I'm interested in what people can create with AI, and how we understand what we're relying on.
+I'm the project lead. My background includes auditing, internal controls, music and creative work. I'm interested in what people can create with AI, and how we understand what we're relying on.
 
 [SHOW SLIDE 01]
 I'm building Control Anchor, powered by Triadic Cognitive Systems. The aim is understandable rules, useful evidence and a clear way to correct mistakes. I want it to serve small businesses, community organizations and families, as well as larger institutions. You shouldn't need to become a software engineer to use it.
@@ -73,6 +73,6 @@ I'm looking for engineers, researchers and people who know a recurring task well
 Start with the white paper or repository linked below. Tell me about one task you would like to make easier, what you use today and what would count as a better result.
 
 [RETURN TO CAMERA]
-I'm Thomas. Thanks for taking a look at the work.
+I'm the project lead. Thanks for taking a look at the work.
 
 [HOLD SLIDE 10 FOR ABOUT 3 SECONDS AFTER THE LAST SPOKEN LINE]

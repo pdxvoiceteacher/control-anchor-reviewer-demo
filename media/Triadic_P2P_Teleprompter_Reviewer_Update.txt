@@ -3,11 +3,11 @@ REVIEWER UPDATE | 18 OCTOBER 2026 UTC
 Read only the spoken paragraphs. Bracketed cues are not spoken.
 Deck: Triadic_Cognition_P2P_Video_Slides_Reviewer_Update.pptx
 Slide images: Export from the updated deck; replace the older status-slide PNG.
-1,504 spoken words; estimated 12 to 14 minutes including pauses.
+1,505 spoken words; estimated 12 to 14 minutes including pauses.
 
 [SECTION 01 — Triadic Cognitive Systems]
 [CAMERA]
-What if an AI could benefit from work someone else had already checked, while still recognizing when that work doesn't apply? I'm Thomas Prislac. This is an invitation to computer-science departments, research software engineers, supervised student teams and other collaborators to help build and test that idea.
+What if an AI could benefit from work someone else had already checked, while still recognizing when that work doesn't apply? I'm the project lead. This is an invitation to computer-science departments, research software engineers, supervised student teams and other collaborators to help build and test that idea.
 
 [SHOW SLIDE 01]
 Control Anchor is powered by Triadic Cognitive Systems. We intend one application with connected native and AI-host interfaces, sharing effective controls and attributable history. The plugin is an application connection; it doesn't live inside model weights. Local use should remain useful without joining a peer network. The research question is whether permitted reuse can reduce repeated effort while preserving evidence, uncertainty and local control.

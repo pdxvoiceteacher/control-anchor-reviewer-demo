@@ -28,28 +28,43 @@ promise recipient access. Refresh status and access before distributing.
 
 ## Provenance and inspection
 
-The supplied ZIP was authenticated as **5,644,899 bytes**, SHA-256
+The original supplied ZIP was authenticated as **5,644,899 bytes**, SHA-256
 `0a0c693bacb3b3f59f5fa7cdb0e48fd866c6ffe203361751b9c45ecdaa77960d`.
-Its 11 members total **5,962,920 bytes** and are retained here byte-for-byte.
-Only extracted assets are committed; the downloaded original ZIP remains outside
-the repository. No QA/build files or duplicate archive is included.
+Its 11 members totaled **5,962,920 bytes**. That original remains outside the
+repository; its member identities are retained as source history in the root
+manifest. The current files include the subsequently reviewed role-label revision.
+
+The reviewed successor archive is **8,292,446 bytes**, SHA-256
+`05bc1d207d786bfc4c3999145e56552c6e9e5f824c0dccbc754399529d1e79f5`.
+Its 11 payload files total **8,290,578 bytes** and match the reviewed bytes exactly.
+Only those payload files and this navigation page are committed. The deterministic
+patch, generated ZIP and local inspection files remain outside the repository.
 
 [Provenance_SHA256_Manifest.json](Provenance_SHA256_Manifest.json) records the
 original filenames and source hashes, successor hashes and unchanged cover-art
-identities. All ten listed member sizes/hashes were verified; the root
+identities. All ten current member sizes/hashes were verified; the root
 [SOURCE_MANIFEST.json](../SOURCE_MANIFEST.json) also binds the pack manifest itself.
-All three cover hashes equal their recorded original-image hashes. Attribution
-and existing Office creator/source metadata are preserved.
+All three cover hashes equal their recorded original-image hashes. Actual
+authorship/source credits and Office creator/source properties are preserved.
+The reviewed deck export regenerated relationship IDs and export timestamps;
+relationship targets are unchanged. Stored Office ZIP members account for the
+larger files.
 
-The media worker reported visual review of all 24 slides and 27 DOCX pages, plus
-DOCX/TXT spoken alignment. Only evidence slides 9 and 13 and matching spoken
-sections were revised. This import preserves that reviewed pack without rerendering
-or rewriting it. Import inspection confirmed the slide members and checked Office
-metadata, relationships, comments, tracked changes, active content and privacy
-indicators. No unintended private content was identified; the intended UVLM
-business contact remains. Exporter page/slide counters are stale metadata, not
-layout counts. The existing runtime and its [validation evidence](../VALIDATION.md)
-are unchanged, and no new runtime execution was needed.
+The initial pack updated evidence slides 9 and 13 and matching spoken sections.
+For this successor, the cloud media reviewer reported deck validation, visual
+checks of changed title slides, unchanged renders for all other slides, inspection
+of all 27 DOCX pages and verified DOCX/TXT spoken alignment. Narrative references
+now use Project Lead; actual named attribution remains. This local import
+reproduces those exact reviewed bytes with an inspected standard-library patch;
+it does not claim a new local rendering pass.
+
+Local inspection confirmed 10 and 14 slide members, role-text changes, preserved
+attribution, source properties and relationship targets, and checked comments,
+tracked changes, active content and privacy indicators. No unintended private
+content was identified; the intended UVLM business contact remains. Exporter
+page/slide counters are stale metadata, not layout counts. The existing runtime
+and its [validation evidence](../VALIDATION.md) are unchanged, and no new runtime
+execution was needed.
 
 ## Existing rights and optional license choice
 

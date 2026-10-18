@@ -4,8 +4,8 @@
 
 Private preparation for the Control Anchor reviewer repository. No publication, video upload, repository change, or access change is part of this media update.
 
-- Control Anchor deck: 10 slides retained. Only slide 9's evidence snapshot and notes changed.
-- Triadic cognition / P2P deck: 14 slides retained. Only slide 13's evidence snapshot and notes changed.
+- Control Anchor deck: 10 slides retained. Slide 9 carries the current evidence snapshot. The title-slide presenter label and narrative speaker introductions now use Project Lead.
+- Triadic cognition / P2P deck: 14 slides retained. Slide 13 carries the current evidence snapshot. The title-slide presenter label and narrative speaker introduction now use Project Lead.
 - Matching introduction and P2P spoken sections updated in the TXT and DOCX successors. Other product-vision and research narration remains intact.
 - The full Control Anchor / Powered by Triadic Cognitive Systems architecture remains the subject. The offline component demonstrates a bounded mechanism within that vision.
 
@@ -39,3 +39,7 @@ Suggested caption: “Triadic AI: proposed peer-to-peer reuse research. The artw
 ## Production guidance
 
 Use the updated editable PPTX files as the slide-image source. Do not reuse the previous slide 9/13 PNGs. Keep access-pending wording until verified reviewer access exists. The conditional installed-alpha walkthrough remains conditional on matching observed startup and workflow evidence; the offline reviewer component is not a substitute for that recording gate.
+
+## Professional role wording revision
+
+At the project lead's request, narrative personal-name references now use “Project Lead” on title slides and “the project lead” in spoken scripts, descriptions, production directions and handoff guidance. Actual presentation/authorship credits and original-source provenance retain Thomas Prislac's name. This is a terminology change, not an anonymization or transfer of authorship, ownership or authority. Product claims, budgets and current evidence boundaries are unchanged.
