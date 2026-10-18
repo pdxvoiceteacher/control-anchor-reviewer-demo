@@ -547,7 +547,7 @@
     },
     {
       "path": "README.md",
-      "candidate_sha256": "417b20f3816bb15de4a38739ed52c631d765a84d0b8e4777d54b5b5b0f4c6552",
+      "candidate_sha256": "466d485f0f3f6dab89ad2018667e8c6bfa9e37f0ebbc9368e33a6fef05553225",
       "origin": "ADAPTED",
       "source_basis_paths": [
         "docs/current/master-design.md"
@@ -565,7 +565,8 @@
       ],
       "media_successor_modification": "Link reviewed media and explicitly keep its public-license scope pending, separate from the code license and final visibility decision.",
       "reviewer_successor_modification": "Neutral reviewer navigation and/or clarification that existing rights/notices are preserved, no new media/prose grant is authorized, and optional CC BY is not a visibility/funding prerequisite.",
-      "role_label_editorial_modification": "Use Project Lead for narrative project decisions and Founder for business/budget responsibilities; preserve named legal/source attribution, claims, licenses, amounts and immutable identifiers."
+      "role_label_editorial_modification": "Use Project Lead for narrative project decisions and Founder for business/budget responsibilities; preserve named legal/source attribution, claims, licenses, amounts and immutable identifiers.",
+      "generic_planning_revision": "Program-neutral private planning under owner direction; no submission, recruitment, partnership or new license grant."
     },
     {
       "path": "tests/test_component.py",
@@ -817,51 +818,53 @@
     },
     {
       "path": "docs/funding/README.md",
-      "candidate_sha256": "911115939d42f77cb6a1e5dd00e5a0a9b324f9e83f129d805a4f39a382e5dcf0",
-      "bytes": 2981,
+      "candidate_sha256": "845e8f8d23532a32c91b09c84db88e116b08432d75393b408857517276ff72c6",
+      "bytes": 3350,
       "origin": "NEW_PRIVATE_PLANNING_DRAFT",
-      "source_basis_paths": [
-        "https://sentient.foundation/grants",
-        "https://sentient.foundation/product-requests",
-        "https://futo.tech/grants"
-      ],
-      "modifications": "New funder-specific planning prose under owner direction; same observed component baseline; no submission/outreach, new license grant, secured staffing or award claim.",
+      "modifications": "Replaced program-specific index with scopes and proposed student intern opportunity; shared evidence and non-overlapping costs preserved.",
       "assumption_source": "Owner-supplied provisional scope/budget/staffing assumptions; not evidence of commitments or private financial records.",
       "license": "No new license grant; preserve applicable existing rights and notices.",
       "publication_review": "OWNER_FINAL_CONTENT_VISIBILITY_DECISION_PENDING",
-      "role_label_editorial_modification": "Use Project Lead for narrative project decisions and Founder for business/budget responsibilities; preserve named legal/source attribution, claims, licenses, amounts and immutable identifiers."
+      "role_label_editorial_modification": "Use Project Lead for narrative project decisions and Founder for business/budget responsibilities; preserve named legal/source attribution, claims, licenses, amounts and immutable identifiers.",
+      "generic_planning_revision": "Program-neutral private planning under owner direction; no submission, recruitment, partnership or new license grant."
     },
     {
-      "path": "docs/funding/SENTIENT.md",
-      "candidate_sha256": "a1e7e7024bef0d481c80cbaf5c81624f2b6a0c7d17ae9ef32583ec8594f4893e",
-      "bytes": 6906,
-      "origin": "NEW_PRIVATE_PLANNING_DRAFT",
-      "source_basis_paths": [
-        "https://sentient.foundation/grants",
-        "https://sentient.foundation/product-requests",
-        "https://futo.tech/grants"
-      ],
-      "modifications": "New funder-specific planning prose under owner direction; same observed component baseline; no submission/outreach, new license grant, secured staffing or award claim.",
+      "path": "docs/funding/INTEGRATION_PILOT.md",
+      "candidate_sha256": "42bccf3ff2a7fbc025cc14853a8f592d96399cd6c7f14eab9c6ce086195703aa",
+      "bytes": 6687,
+      "origin": "PROGRAM_NEUTRAL_ADAPTATION_OF_PRIOR_PRIVATE_PLANNING_DRAFT",
+      "modifications": "Organized by project scope; named funding targets and university recruiting preference removed; paid University Student Intern Opportunity, conditional supervision and unchanged illustrative pilot budget retained.",
       "assumption_source": "Owner-supplied provisional scope/budget/staffing assumptions; not evidence of commitments or private financial records.",
       "license": "No new license grant; preserve applicable existing rights and notices.",
       "publication_review": "OWNER_FINAL_CONTENT_VISIBILITY_DECISION_PENDING",
-      "role_label_editorial_modification": "Use Project Lead for narrative project decisions and Founder for business/budget responsibilities; preserve named legal/source attribution, claims, licenses, amounts and immutable identifiers."
+      "role_label_editorial_modification": "Use Project Lead for narrative project decisions and Founder for business/budget responsibilities; preserve named legal/source attribution, claims, licenses, amounts and immutable identifiers.",
+      "prior_candidate_source": {
+        "repository": "pdxvoiceteacher/control-anchor-reviewer-demo",
+        "commit": "e15c920e2cf21dc139d77d7972bbfa8918c616b7",
+        "path": "docs/funding/SENTIENT.md",
+        "sha256": "a1e7e7024bef0d481c80cbaf5c81624f2b6a0c7d17ae9ef32583ec8594f4893e",
+        "status": "Superseded planning presentation; not a current target or submitted application."
+      },
+      "generic_planning_revision": "Program-neutral private planning under owner direction; no submission, recruitment, partnership or new license grant."
     },
     {
-      "path": "docs/funding/FUTO.md",
-      "candidate_sha256": "b026943d8c380828d01003771487ebad7c603f6dbdfa3369844b95cbc817647e",
-      "bytes": 3565,
-      "origin": "NEW_PRIVATE_PLANNING_DRAFT",
-      "source_basis_paths": [
-        "https://sentient.foundation/grants",
-        "https://sentient.foundation/product-requests",
-        "https://futo.tech/grants"
-      ],
-      "modifications": "New funder-specific planning prose under owner direction; same observed component baseline; no submission/outreach, new license grant, secured staffing or award claim.",
+      "path": "docs/funding/OFFLINE_TOOL_IMPROVEMENT.md",
+      "candidate_sha256": "779cecf06f835de420c142a965e11517a10c59cb105f996c4c32795584381433",
+      "bytes": 3282,
+      "origin": "PROGRAM_NEUTRAL_ADAPTATION_OF_PRIOR_PRIVATE_PLANNING_DRAFT",
+      "modifications": "Organized by project scope; named funding targets and university recruiting preference removed; paid University Student Intern Opportunity, conditional supervision and unchanged illustrative pilot budget retained.",
       "assumption_source": "Owner-supplied provisional scope/budget/staffing assumptions; not evidence of commitments or private financial records.",
       "license": "No new license grant; preserve applicable existing rights and notices.",
       "publication_review": "OWNER_FINAL_CONTENT_VISIBILITY_DECISION_PENDING",
-      "role_label_editorial_modification": "Use Project Lead for narrative project decisions and Founder for business/budget responsibilities; preserve named legal/source attribution, claims, licenses, amounts and immutable identifiers."
+      "role_label_editorial_modification": "Use Project Lead for narrative project decisions and Founder for business/budget responsibilities; preserve named legal/source attribution, claims, licenses, amounts and immutable identifiers.",
+      "prior_candidate_source": {
+        "repository": "pdxvoiceteacher/control-anchor-reviewer-demo",
+        "commit": "e15c920e2cf21dc139d77d7972bbfa8918c616b7",
+        "path": "docs/funding/FUTO.md",
+        "sha256": "b026943d8c380828d01003771487ebad7c603f6dbdfa3369844b95cbc817647e",
+        "status": "Superseded planning presentation; not a current target or submitted application."
+      },
+      "generic_planning_revision": "Program-neutral private planning under owner direction; no submission, recruitment, partnership or new license grant."
     }
   ],
   "consulted_originals": [
@@ -1150,33 +1153,38 @@
     "license_decision": "No new media/prose grant authorized; existing rights/permissions/notices preserved. CC BY 4.0 remains an optional unapplied suggestion, not a prerequisite for visibility or funding eligibility.",
     "visibility_decision": "Repository remains private pending owner final-content/audience decision"
   },
-  "funding_planning_sources": [
-    {
-      "url": "https://sentient.foundation/grants",
-      "checked_date_utc": "2026-10-18",
-      "basis": "Official open-source/public-goods grant track; prospective fit only."
-    },
-    {
-      "url": "https://sentient.foundation/product-requests",
-      "checked_date_utc": "2026-10-18",
-      "basis": "Official local/open AI and trust-infrastructure requests; no claim of implementing cryptographic verifiable inference."
-    },
-    {
-      "url": "https://futo.tech/grants",
-      "checked_date_utc": "2026-10-18",
-      "basis": "Official page says applications open and one-time $1,000\u2013$5,000 microgrants for small/early-stage projects; no other terms inferred."
-    }
-  ],
   "funding_planning_notes": {
-    "status": "Private planning drafts only; no outreach or submission",
-    "sentient": "USD 25,000 provisional owner-approval budget: 9600 student + 2400 employer estimate + 4000 mentor + 4000 founder + 2000 infrastructure + 3000 reserve only if allowed. 16 weeks begin after funding, acceptable engagement and qualified supervision. OSU is a recruiting preference only.",
-    "futo": "Scoped offline-tool concept; program range confirmed, request amount/costed plan/work estimate not set or approved.",
-    "shared_boundary": "Same eight-test synthetic provider-free baseline; no installed/live/P2P acceptance or cognitive/novelty/user-demand claims. No double-funded work or costs; NSF pitch pending with no award.",
+    "status": "Program-neutral private planning drafts only; no recruitment, university agreement, outreach or submission.",
+    "integration_pilot": "Illustrative USD 25,000 provisional owner-approval budget: 9600 student + 2400 employer estimate + 4000 mentor + 4000 founder + 2000 infrastructure + 3000 reserve only if allowed. 16 weeks begin after funding, acceptable paid engagement and qualified supervision.",
+    "student_opportunity": "University Student Intern Opportunity: paid advanced university student intern proposed; recruitment, availability, institutional arrangements, academic credit and qualified supervision unconfirmed. No named university or partnership.",
+    "offline_tool_improvement": "Smaller scoped offline-tool concept; request amount, costed plan and work estimate not set or approved. No smaller dollar request invented.",
+    "shared_boundary": "Same eight-test synthetic provider-free baseline; no installed/live/P2P acceptance or cognitive/novelty/user-demand claims. No double-funded work or costs; pending proposals are not awards. Submitted applications unchanged.",
     "license_boundary": "No new media/prose license authorized. Existing licenses/notices preserved; optional CC BY is not a prerequisite for visibility or funding eligibility. Program access/eligibility terms must be checked separately."
   },
   "role_label_editorial_note": {
     "scope": "Contextual reviewer-facing narrative labels only: Project Lead; Founder where the business role matters.",
     "preserved": "Legal/copyright/commissioner/source attribution, source provenance, ownership-attestation quote, original copied-file records, runtime identifiers, tests/fixtures, immutable evidence, licensing and budgets.",
     "media": "Reviewed PPTX/DOCX/TXT assets unchanged to preserve paired spoken alignment and source hashes; remaining narrative passages reported separately for coordinated media revision."
+  },
+  "historical_funding_planning_sources": {
+    "status": "Historical sources consulted for superseded private briefs; preserved as provenance only, not current funding targets or current eligibility advice.",
+    "superseded_candidate_commit": "e15c920e2cf21dc139d77d7972bbfa8918c616b7",
+    "sources": [
+      {
+        "url": "https://sentient.foundation/grants",
+        "checked_date_utc": "2026-10-18",
+        "basis": "Official open-source/public-goods grant track; prospective fit only."
+      },
+      {
+        "url": "https://sentient.foundation/product-requests",
+        "checked_date_utc": "2026-10-18",
+        "basis": "Official local/open AI and trust-infrastructure requests; no claim of implementing cryptographic verifiable inference."
+      },
+      {
+        "url": "https://futo.tech/grants",
+        "checked_date_utc": "2026-10-18",
+        "basis": "Official page says applications open and one-time $1,000\u2013$5,000 microgrants for small/early-stage projects; no other terms inferred."
+      }
+    ]
   }
 }

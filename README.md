@@ -38,7 +38,7 @@ prerequisite for public visibility or funding eligibility.
 
 | Reader / purpose | Start here |
 | --- | --- |
-| Funders | [Funding brief index](docs/funding/README.md): separate draft scopes for Sentient and FUTO, with the same evidence baseline. |
+| Funders and prospective collaborators | [Funding and collaboration planning](docs/funding/README.md): an illustrative integration pilot, a smaller offline-tool scope and a university student intern opportunity, with the same evidence baseline. |
 | Engineers | [Implementation/function crosswalk](docs/PRODUCT_MAP.md#actual-included-function-crosswalk), [focused tests](tests/test_component.py) and [exact source provenance](SOURCE_MANIFEST.json). |
 | Academic collaborators | [Methods exercise and answer key](docs/METHODS_APPENDIX.md), [whole-product map](docs/PRODUCT_MAP.md) and [limitations](KNOWN_LIMITATIONS.md). No novelty or learning benefit is established. |
 | Potential users | Run the local demo and inspect the human-readable review above; [product responsibilities](docs/PRODUCT_MAP.md) distinguish the intended workbench from this component. |

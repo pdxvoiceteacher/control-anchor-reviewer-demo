@@ -1,15 +1,16 @@
-# Funding planning briefs
+# Funding and collaboration planning
 
-These are private planning drafts for the Project Lead's review, not submitted applications,
-offers or awards. Each brief uses the same [reviewer README](../../README.md),
+These program-neutral documents describe possible project scopes for the Project
+Lead's review. They are private planning drafts, not submitted applications, offers
+or awards. Each uses the same [reviewer README](../../README.md),
 [observed evidence](../../VALIDATION.md) and [product map](../PRODUCT_MAP.md).
-Funder fit is a proposal, not endorsement, confirmed eligibility, demonstrated
-demand or a prediction of approval.
+Prospective users, practical benefit and funding fit still need validation.
 
-| Brief | Draft scope | Decision still needed |
+| Planning scope | Proposed work | Decision still needed |
 | --- | --- | --- |
-| [Sentient](SENTIENT.md) | USD 25,000, conditional 16-week local integration plan | Founder's budget/scope approval, acceptable student engagement route, qualified supervision and current program fit. |
-| [FUTO](FUTO.md) | One bounded improvement to offline inspection and reproducible verification/recovery examples | A costed plan, approved request amount/work estimate and program eligibility check. |
+| [Local integration pilot](INTEGRATION_PILOT.md) | Illustrative USD 25,000, conditional 16-week integration plan | Founder's budget/scope approval, acceptable paid student engagement route and qualified technical supervision. |
+| [Offline tool improvement](OFFLINE_TOOL_IMPROVEMENT.md) | One bounded improvement to inspection and reproducible verification/recovery examples | A costed plan, approved request amount and work estimate. No smaller request amount is proposed yet. |
+| [University Student Intern Opportunity](INTEGRATION_PILOT.md#university-student-intern-opportunity) | Proposed paid advanced student engineering within the integration pilot | Recruitment, institutional arrangements, candidate availability, any academic credit and supervision are unconfirmed. |
 
 ## Shared factual core
 
@@ -20,28 +21,28 @@ injected. Separate CoherenceLattice/Sophia/Atlas execution, installed startup,
 live inference, actual human acceptance and P2P are not demonstrated here.
 Hashes and logical roles are not factual truth, signing or independent custody.
 
-Sentient's proposed next integration is one supported installed local-model path
-through retained evidence/controls, analysis/challenge, human review/correction
-and export/reopen. FUTO's smaller concept stays within the offline evidence tool.
-Neither brief claims proven novelty, cognitive gains, measured hallucination
+The integration pilot proposes one supported installed local-model path through
+retained evidence/controls, analysis/challenge, human review/correction and
+export/reopen. The smaller concept stays within the offline evidence tool.
+Neither scope claims proven novelty, cognitive gains, measured hallucination
 reduction, established user demand or a complete operational Sophia network.
 
 These are alternative or explicitly separated funding scopes. Do not charge the
 same work, hours, equipment or reserve to multiple awards. If one source funds a
 deliverable, remove its costs from other requests and disclose the overlap before
-any later submission. An NSF pitch is pending with **no award**; its submitted
-narrative is not changed here and no award proceeds are assumed.
+any later submission. Pending proposals are not awards; no other award proceeds
+are assumed and no previously submitted application is changed here.
 
 ## Permissions and next use
 
-The repository remains private; no outreach or funding submission is authorized
-by these documents. Preserve existing licenses and attribution. No new media/prose
-license has been granted, and choosing CC BY is not a prerequisite for visibility
-or funding eligibility. Confirm each program's actual source-access and license
-requirements before submission; do not assume a private candidate meets them.
+The repository remains private; these documents authorize no recruitment,
+university agreement, outreach or funding submission. No institutional partnership
+or academic credit arrangement is claimed. Preserve existing licenses and
+attribution. No new media/prose license has been granted, and choosing CC BY is
+not a prerequisite for visibility or funding eligibility. Check the actual terms
+and source-access requirements of any future opportunity before submission.
 Public visibility remains the Project Lead's separate final-content decision.
 
-Official program pages were checked on **18 October 2026** and are cited inside
-each brief. Recheck them before use; no additional eligibility or funding terms
-are inferred. These drafts include no private application identifiers, personal
-health data, private financial records, tax identifiers or personal profiles.
+These drafts identify no particular funding program or university as a target.
+They include no private application identifiers, personal health data, private
+financial records, tax identifiers or personal profiles.
