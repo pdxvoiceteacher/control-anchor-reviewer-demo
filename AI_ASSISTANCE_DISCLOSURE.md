@@ -4,11 +4,11 @@ This private preparation candidate was assembled with OpenAI Codex assistance
 under Thomas Prislac's commissioning and scope restrictions. It extracts existing
 implementation bytes, adapts focused source tests to standard-library unittest,
 and adds a small harness, synthetic inputs and reviewer documentation. It does
-not claim that Thomas has reviewed or accepted the final candidate bytes.
+not claim that the Project Lead has reviewed or accepted the final candidate bytes.
 
 The automated work includes source inspection, dependency-closure tracing,
 drafting, deterministic checks, package verification and candidate assembly.
-The synthetic review decisions belong to the demonstration, not to Thomas or an
+The synthetic review decisions belong to the demonstration, not to the Project Lead or an
 independent practitioner. No provider/model is invoked by the demo or its focused
 tests. Codex's assistance in preparing source is distinct from product inference.
 

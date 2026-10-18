@@ -1,6 +1,6 @@
 # Funding planning briefs
 
-These are private planning drafts for Thomas's review, not submitted applications,
+These are private planning drafts for the Project Lead's review, not submitted applications,
 offers or awards. Each brief uses the same [reviewer README](../../README.md),
 [observed evidence](../../VALIDATION.md) and [product map](../PRODUCT_MAP.md).
 Funder fit is a proposal, not endorsement, confirmed eligibility, demonstrated
@@ -8,7 +8,7 @@ demand or a prediction of approval.
 
 | Brief | Draft scope | Decision still needed |
 | --- | --- | --- |
-| [Sentient](SENTIENT.md) | USD 25,000, conditional 16-week local integration plan | Thomas's budget/scope approval, acceptable student engagement route, qualified supervision and current program fit. |
+| [Sentient](SENTIENT.md) | USD 25,000, conditional 16-week local integration plan | Founder's budget/scope approval, acceptable student engagement route, qualified supervision and current program fit. |
 | [FUTO](FUTO.md) | One bounded improvement to offline inspection and reproducible verification/recovery examples | A costed plan, approved request amount/work estimate and program eligibility check. |
 
 ## Shared factual core
@@ -39,7 +39,7 @@ by these documents. Preserve existing licenses and attribution. No new media/pro
 license has been granted, and choosing CC BY is not a prerequisite for visibility
 or funding eligibility. Confirm each program's actual source-access and license
 requirements before submission; do not assume a private candidate meets them.
-Public visibility remains Thomas's separate final-content decision.
+Public visibility remains the Project Lead's separate final-content decision.
 
 Official program pages were checked on **18 October 2026** and are cited inside
 each brief. Recheck them before use; no additional eligibility or funding terms

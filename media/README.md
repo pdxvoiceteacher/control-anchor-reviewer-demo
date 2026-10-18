@@ -1,6 +1,7 @@
 # Reviewer media
 
-Prepared for **Thomas Prislac / UVLM** from his supplied covers, scripts and decks.
+Source attribution: **Thomas Prislac / UVLM**. The Project Lead supplied the covers,
+scripts and decks.
 These editable materials explain the full Control Anchor / Triadic Cognitive
 Systems design and P2P research. Their dated evidence sections distinguish that
 vision from the offline component demonstrated in this repository. Repository
@@ -59,4 +60,4 @@ preserving any applicable existing notices. That optional recommendation is not
 applied as a license grant. No new media/prose grant has been authorized, and
 granting CC BY is not a prerequisite for repository visibility or funding
 eligibility. Preserve actual existing rights/permissions and notices. Final public
-contents/visibility remain Thomas's separate decision; merge authority is separate.
+contents/visibility remain the Project Lead's separate decision; merge authority is separate.

@@ -1,15 +1,15 @@
 # Publication review for this candidate
 
 Private candidate preparation and merging are authorized. Public visibility and
-the final audience remain separate owner decisions. These checks concern this
+the final audience remain separate Project Lead decisions. These checks concern this
 offline source/demo and its documentation; they do not demand qualification of
 the full product or generic independent legal certification for every path.
 They add no license restrictions and do not certify title.
 
-## Owner decision
+## Project Lead decision
 
 - [ ] Identify the exact final commit and intended public contents/audience.
-  Obtain Thomas's decision before changing visibility, inviting reviewers,
+  Obtain the Project Lead's decision before changing visibility, inviting reviewers,
   publishing release artifacts or submitting any funding application. His merge
   delegation and invitation to include meritorious methods do not themselves
   change this repository's private visibility.
@@ -27,7 +27,7 @@ They add no license restrictions and do not certify title.
   distinctions remain; do not automatically extend the code license to them.
   No new media/prose license grant is authorized. CC BY 4.0 is an optional,
   unapplied suggestion, not a condition of public visibility or funding eligibility.
-  Thomas's ownership attestation and instructions support preparation. Address
+  The Project Lead's ownership attestation and instructions support preparation. Address
   any specific conflicting third-party notice if one is actually identified;
   do not replace the final-content decision with a requirement to grant a new license.
 - [ ] Inspect final candidate files for credentials, real learner/customer/user

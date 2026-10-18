@@ -391,14 +391,15 @@
     },
     {
       "path": "AI_ASSISTANCE_DISCLOSURE.md",
-      "candidate_sha256": "198666d8ea7dc48d749460bb6a3a8f9c9c8985167aefc613c11b6adb22aad0fe",
+      "candidate_sha256": "be2b59c6caa9ac4dce740d44735e4fd71477f5733ec042035d171efd73cb6d8f",
       "origin": "ADAPTED",
       "source_basis_paths": [
         "AI_ASSISTANCE_DISCLOSURE.md"
       ],
       "modifications": "Scoped explanatory notice rewritten for private extraction; required attribution and applicable license retained; stale public wording corrected; excluded material identified.",
       "license": "MPL-2.0 to extent rights exist and covered",
-      "publication_review": "HOLD"
+      "publication_review": "HOLD",
+      "role_label_editorial_modification": "Use Project Lead for narrative project decisions and Founder for business/budget responsibilities; preserve named legal/source attribution, claims, licenses, amounts and immutable identifiers."
     },
     {
       "path": "demo.py",
@@ -506,7 +507,7 @@
     },
     {
       "path": "LICENSE_SCOPE.md",
-      "candidate_sha256": "0e1028335b05055d281429a19500208ba4b3538ddac9587421ee9d44c05db96c",
+      "candidate_sha256": "923c44e6459556fcdaee6b28102da4deeb975948a0da9dd78040482913b89809",
       "origin": "ADAPTED",
       "source_basis_paths": [
         "LICENSE_SCOPE.md"
@@ -516,7 +517,8 @@
       "publication_review": "FINAL_CONTENT_DECISION_PENDING",
       "documentation_successor_modification": "Clarified inherited HOLD metadata and candidate-specific publication scope without changing MPL terms.",
       "media_successor_modification": "Link reviewed media and explicitly keep its public-license scope pending, separate from the code license and final visibility decision.",
-      "reviewer_successor_modification": "Neutral reviewer navigation and/or clarification that existing rights/notices are preserved, no new media/prose grant is authorized, and optional CC BY is not a visibility/funding prerequisite."
+      "reviewer_successor_modification": "Neutral reviewer navigation and/or clarification that existing rights/notices are preserved, no new media/prose grant is authorized, and optional CC BY is not a visibility/funding prerequisite.",
+      "role_label_editorial_modification": "Use Project Lead for narrative project decisions and Founder for business/budget responsibilities; preserve named legal/source attribution, claims, licenses, amounts and immutable identifiers."
     },
     {
       "path": "NOTICE",
@@ -532,7 +534,7 @@
     },
     {
       "path": "PUBLICATION_REVIEW.md",
-      "candidate_sha256": "33df5ef26359803430cfbd9a552531865e4bb34d94ba62e4141e79aa030c2a66",
+      "candidate_sha256": "f8b2c837260299eb0a0f8605beeb2b7c02fe2c10a05b2f955ad5033b5fb2c977",
       "origin": "NEW",
       "source_basis_paths": [],
       "modifications": "New demo preparation material; AI-assisted under human commissioning.",
@@ -540,11 +542,12 @@
       "publication_review": "FINAL_CONTENT_DECISION_PENDING",
       "documentation_successor_modification": "Replaced blanket gates with exact-candidate owner/contents checks; recorded owner attestation and bounded 12-schema inspection, with no specific schema rights blocker identified.",
       "media_successor_modification": "Link reviewed media and explicitly keep its public-license scope pending, separate from the code license and final visibility decision.",
-      "reviewer_successor_modification": "Neutral reviewer navigation and/or clarification that existing rights/notices are preserved, no new media/prose grant is authorized, and optional CC BY is not a visibility/funding prerequisite."
+      "reviewer_successor_modification": "Neutral reviewer navigation and/or clarification that existing rights/notices are preserved, no new media/prose grant is authorized, and optional CC BY is not a visibility/funding prerequisite.",
+      "role_label_editorial_modification": "Use Project Lead for narrative project decisions and Founder for business/budget responsibilities; preserve named legal/source attribution, claims, licenses, amounts and immutable identifiers."
     },
     {
       "path": "README.md",
-      "candidate_sha256": "95b77cd0b51bc3c80b5021a9c55d5eec22901b9ffde2bc74dea6d22c12d63682",
+      "candidate_sha256": "417b20f3816bb15de4a38739ed52c631d765a84d0b8e4777d54b5b5b0f4c6552",
       "origin": "ADAPTED",
       "source_basis_paths": [
         "docs/current/master-design.md"
@@ -561,7 +564,8 @@
         "https://github.com/pdxvoiceteacher/Sophia/blob/36165bdca0c5fbdc58d7500c41af6c9fd775197c/docs/provenance/UVLM_PROVENANCE_PEDAGOGY_REFINEMENT_OVERLAY_v1.1.md"
       ],
       "media_successor_modification": "Link reviewed media and explicitly keep its public-license scope pending, separate from the code license and final visibility decision.",
-      "reviewer_successor_modification": "Neutral reviewer navigation and/or clarification that existing rights/notices are preserved, no new media/prose grant is authorized, and optional CC BY is not a visibility/funding prerequisite."
+      "reviewer_successor_modification": "Neutral reviewer navigation and/or clarification that existing rights/notices are preserved, no new media/prose grant is authorized, and optional CC BY is not a visibility/funding prerequisite.",
+      "role_label_editorial_modification": "Use Project Lead for narrative project decisions and Founder for business/budget responsibilities; preserve named legal/source attribution, claims, licenses, amounts and immutable identifiers."
     },
     {
       "path": "tests/test_component.py",
@@ -607,7 +611,7 @@
     },
     {
       "path": "docs/METHODS_APPENDIX.md",
-      "candidate_sha256": "a21754fcfc5e30c9f063b22b0a874ae625c646d3387da6c24bffcb4debc8318c",
+      "candidate_sha256": "fb66376055e5716d8d841aa054df95dbe3cce927163d60ee707f30dd690e52a3",
       "origin": "ADAPTED",
       "source_basis_paths": [
         "https://github.com/pdxvoiceteacher/CoherenceLattice/blob/f0566d8f79c308eaeb9ab10cb8255478e8913a71/docs/provenance/pedagogy/UVLM_PROVENANCE_PEDAGOGY_v1.md",
@@ -617,7 +621,8 @@
       "attribution": "Thomas Prislac / UVLM; exact source documents identified in methods_appendix_sources.",
       "license": "No new license grant authorized; preserve applicable existing rights/permissions and notices; no automatic code-license inheritance.",
       "publication_review": "OWNER_FINAL_CONTENT_VISIBILITY_DECISION_PENDING_EXISTING_RIGHTS_PRESERVED",
-      "reviewer_successor_modification": "Neutral reviewer navigation and/or clarification that existing rights/notices are preserved, no new media/prose grant is authorized, and optional CC BY is not a visibility/funding prerequisite."
+      "reviewer_successor_modification": "Neutral reviewer navigation and/or clarification that existing rights/notices are preserved, no new media/prose grant is authorized, and optional CC BY is not a visibility/funding prerequisite.",
+      "role_label_editorial_modification": "Use Project Lead for narrative project decisions and Founder for business/budget responsibilities; preserve named legal/source attribution, claims, licenses, amounts and immutable identifiers."
     },
     {
       "path": "docs/PRODUCT_MAP.md",
@@ -801,18 +806,19 @@
     },
     {
       "path": "media/README.md",
-      "candidate_sha256": "07f7e949e71dbcc95bebe12595c5494bc091c3e248997a3b728a55de53d44b27",
-      "bytes": 3931,
+      "candidate_sha256": "b668e08f9ef7d197ff9b388323ae22bef837d49340430782dd991b13700525b6",
+      "bytes": 3961,
       "origin": "NEW",
       "modifications": "Concise navigation, archive/inspection provenance and pending CC BY 4.0 recommendation; does not alter the reviewed media.",
       "license": "No new license grant authorized; preserve applicable existing rights/permissions and notices; no automatic code-license inheritance.",
       "publication_review": "OWNER_FINAL_CONTENT_VISIBILITY_DECISION_PENDING_EXISTING_RIGHTS_PRESERVED",
-      "reviewer_successor_modification": "Neutral reviewer navigation and/or clarification that existing rights/notices are preserved, no new media/prose grant is authorized, and optional CC BY is not a visibility/funding prerequisite."
+      "reviewer_successor_modification": "Neutral reviewer navigation and/or clarification that existing rights/notices are preserved, no new media/prose grant is authorized, and optional CC BY is not a visibility/funding prerequisite.",
+      "role_label_editorial_modification": "Use Project Lead for narrative project decisions and Founder for business/budget responsibilities; preserve named legal/source attribution, claims, licenses, amounts and immutable identifiers."
     },
     {
       "path": "docs/funding/README.md",
-      "candidate_sha256": "77437024f2c7ac7b6255e99c2b608da5b58b4e1be6ee8194b97f4382b1014653",
-      "bytes": 2960,
+      "candidate_sha256": "911115939d42f77cb6a1e5dd00e5a0a9b324f9e83f129d805a4f39a382e5dcf0",
+      "bytes": 2981,
       "origin": "NEW_PRIVATE_PLANNING_DRAFT",
       "source_basis_paths": [
         "https://sentient.foundation/grants",
@@ -822,12 +828,13 @@
       "modifications": "New funder-specific planning prose under owner direction; same observed component baseline; no submission/outreach, new license grant, secured staffing or award claim.",
       "assumption_source": "Owner-supplied provisional scope/budget/staffing assumptions; not evidence of commitments or private financial records.",
       "license": "No new license grant; preserve applicable existing rights and notices.",
-      "publication_review": "OWNER_FINAL_CONTENT_VISIBILITY_DECISION_PENDING"
+      "publication_review": "OWNER_FINAL_CONTENT_VISIBILITY_DECISION_PENDING",
+      "role_label_editorial_modification": "Use Project Lead for narrative project decisions and Founder for business/budget responsibilities; preserve named legal/source attribution, claims, licenses, amounts and immutable identifiers."
     },
     {
       "path": "docs/funding/SENTIENT.md",
-      "candidate_sha256": "60225cd71302b20c1366208b0c78e494e0b291dd02d399320398008fafaa3870",
-      "bytes": 6881,
+      "candidate_sha256": "a1e7e7024bef0d481c80cbaf5c81624f2b6a0c7d17ae9ef32583ec8594f4893e",
+      "bytes": 6906,
       "origin": "NEW_PRIVATE_PLANNING_DRAFT",
       "source_basis_paths": [
         "https://sentient.foundation/grants",
@@ -837,12 +844,13 @@
       "modifications": "New funder-specific planning prose under owner direction; same observed component baseline; no submission/outreach, new license grant, secured staffing or award claim.",
       "assumption_source": "Owner-supplied provisional scope/budget/staffing assumptions; not evidence of commitments or private financial records.",
       "license": "No new license grant; preserve applicable existing rights and notices.",
-      "publication_review": "OWNER_FINAL_CONTENT_VISIBILITY_DECISION_PENDING"
+      "publication_review": "OWNER_FINAL_CONTENT_VISIBILITY_DECISION_PENDING",
+      "role_label_editorial_modification": "Use Project Lead for narrative project decisions and Founder for business/budget responsibilities; preserve named legal/source attribution, claims, licenses, amounts and immutable identifiers."
     },
     {
       "path": "docs/funding/FUTO.md",
-      "candidate_sha256": "7a96b06b36608ade1e1e6940fc854e94c21919bb407140b293aed8d761f71861",
-      "bytes": 3550,
+      "candidate_sha256": "b026943d8c380828d01003771487ebad7c603f6dbdfa3369844b95cbc817647e",
+      "bytes": 3565,
       "origin": "NEW_PRIVATE_PLANNING_DRAFT",
       "source_basis_paths": [
         "https://sentient.foundation/grants",
@@ -852,7 +860,8 @@
       "modifications": "New funder-specific planning prose under owner direction; same observed component baseline; no submission/outreach, new license grant, secured staffing or award claim.",
       "assumption_source": "Owner-supplied provisional scope/budget/staffing assumptions; not evidence of commitments or private financial records.",
       "license": "No new license grant; preserve applicable existing rights and notices.",
-      "publication_review": "OWNER_FINAL_CONTENT_VISIBILITY_DECISION_PENDING"
+      "publication_review": "OWNER_FINAL_CONTENT_VISIBILITY_DECISION_PENDING",
+      "role_label_editorial_modification": "Use Project Lead for narrative project decisions and Founder for business/budget responsibilities; preserve named legal/source attribution, claims, licenses, amounts and immutable identifiers."
     }
   ],
   "consulted_originals": [
@@ -1164,5 +1173,10 @@
     "futo": "Scoped offline-tool concept; program range confirmed, request amount/costed plan/work estimate not set or approved.",
     "shared_boundary": "Same eight-test synthetic provider-free baseline; no installed/live/P2P acceptance or cognitive/novelty/user-demand claims. No double-funded work or costs; NSF pitch pending with no award.",
     "license_boundary": "No new media/prose license authorized. Existing licenses/notices preserved; optional CC BY is not a prerequisite for visibility or funding eligibility. Program access/eligibility terms must be checked separately."
+  },
+  "role_label_editorial_note": {
+    "scope": "Contextual reviewer-facing narrative labels only: Project Lead; Founder where the business role matters.",
+    "preserved": "Legal/copyright/commissioner/source attribution, source provenance, ownership-attestation quote, original copied-file records, runtime identifiers, tests/fixtures, immutable evidence, licensing and budgets.",
+    "media": "Reviewed PPTX/DOCX/TXT assets unchanged to preserve paired spoken alignment and source hashes; remaining narrative passages reported separately for coordinated media revision."
   }
 }

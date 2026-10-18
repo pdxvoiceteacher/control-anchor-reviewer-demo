@@ -23,7 +23,7 @@ artifact-byte SHA-256 hashes are recorded in [SOURCE_MANIFEST.json](../SOURCE_MA
 The source documents state no authority or release effect. No applicable license
 grant was identified in these documents or a repository license file at the
 inspected snapshots. The candidate's [license scope](../LICENSE_SCOPE.md) does not
-establish upstream title or relicense those sources. Thomas's ownership attestation
+establish upstream title or relicense those sources. The Project Lead's ownership attestation
 and instruction to include methods support this private adaptation. Preserve
 applicable existing rights and attribution as described in
 [PUBLICATION_REVIEW.md](../PUBLICATION_REVIEW.md). No new prose license is granted,
@@ -90,7 +90,7 @@ Then answer:
    kind of error is that? If a reviewer accepts the counterfactual solely because
    controls passed, what problem could be missed?
 3. Was the advisory discovered by Sophia or an AI? Does the recorded APPROVE
-   establish Thomas's acceptance, publication permission or finding resolution?
+   establish the Project Lead's acceptance, publication permission or finding resolution?
 4. Inspect the parent candidate/findings, repair lineage and child package. What
    is preserved, what is added, and what remains unresolved? Name one defensible
    dissent and one bounded human decision that could follow this exercise.
@@ -111,7 +111,7 @@ Then answer:
    error cases, not measured test rates or a new automatic classifier.
 3. The harness injects the advisory through the existing platform-observation
    API. The demo invokes no separate Sophia implementation or provider. Its
-   reviewer identity and decision are scripted fixtures, not Thomas's actual
+   reviewer identity and decision are scripted fixtures, not the Project Lead's actual
    acceptance. They grant no publication permission and do not resolve the issue.
 4. Original parent candidate/findings bytes remain unchanged. Linked child and
    lifecycle records add the declared candidate change; the parent advisory stays

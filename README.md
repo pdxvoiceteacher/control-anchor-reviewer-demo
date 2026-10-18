@@ -30,7 +30,7 @@ not an assurance opinion or proof of useful cognitive performance.
    `demo-output/summary.json` and follow the [artifact guide](#what-to-inspect).
 
 This repository is **private**. Public visibility and final contents require
-Thomas's separate approval. Existing licenses and notices remain applicable;
+the Project Lead's separate approval. Existing licenses and notices remain applicable;
 no new media/prose license grant has been authorized. Adopting CC BY is not a
 prerequisite for public visibility or funding eligibility.
 
@@ -47,7 +47,7 @@ prerequisite for public visibility or funding eligibility.
 ## Scope in one paragraph
 
 The candidate is an authored fixture; `provider_invoked=false`. The actor
-`SCRIPTED-DEMO-REVIEWER-NOT-THOMAS` records scripted decisions, not Thomas's actual
+`SCRIPTED-DEMO-REVIEWER-NOT-THOMAS` records scripted decisions, not the Project Lead's actual
 acceptance. The repair advisory is injected, not machine-discovered. Records named
 Sophia and Atlas do not execute the separate cognitive components;
 `STANDARD_PROFILE` has no semantic finding rules. Logical roles and a hash chain
@@ -79,7 +79,7 @@ Get-Content .\demo-output\summary.json
 Start-Process .\demo-output\review.html
 ```
 
-On Thomas's workstation, the existing Codex runtime was used instead of the
+On the Project Lead's workstation, the existing Codex runtime was used instead of the
 Windows Store `python` alias:
 
 ```powershell

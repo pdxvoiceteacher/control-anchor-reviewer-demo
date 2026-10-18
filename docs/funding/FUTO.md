@@ -1,7 +1,7 @@
 # FUTO: offline inspection and reproducible verification
 
 **Private microgrant planning concept; not submitted.** Request amount, work
-estimate and costed plan are not yet set and require Thomas's approval.
+estimate and costed plan are not yet set and require the Founder's approval.
 
 ## Program and proposed fit
 
@@ -50,7 +50,7 @@ not promise the full AI product, live-model integration or peer compute.
 The code's existing MPL-2.0 scope/notices remain. No new media/prose license is
 authorized or required by this concept, and no particular license is asserted to
 be FUTO's eligibility rule. Confirm actual access/eligibility requirements before
-submission; the repository is currently private pending Thomas's separate approval.
+submission; the repository is currently private pending the Project Lead's separate approval.
 
 This is distinct from Sentient's proposed installed local-model integration.
 Allocate no overlapping hours or costs to both requests. If either source funds

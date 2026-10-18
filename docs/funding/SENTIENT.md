@@ -1,7 +1,7 @@
 # Sentient: local evidence and review integration
 
 **Private planning draft; not submitted. USD 25,000 and the budget below remain
-subject to Thomas's approval.** The proposed 16 weeks begin only after funding,
+subject to the Founder's approval.** The proposed 16 weeks begin only after funding,
 an acceptable student engagement route and qualified technical supervision are
 secured. This is a future target, not a delivery result already achieved.
 
@@ -28,7 +28,7 @@ The essential component is an inspectable local workflow for retained input/outp
 bytes, deterministic evidence checks, attributable review/revision lineage and
 portable verification. Existing extracted code uses MPL-2.0 under its recorded
 [scope and notices](../../LICENSE_SCOPE.md). The candidate is currently private;
-any required reviewer/public access must be arranged through Thomas's separate
+any required reviewer/public access must be arranged through the Project Lead's separate
 approval. No new CC BY grant is required or made by this proposal.
 
 [Recorded validation](../../VALIDATION.md) at the existing runtime baseline shows
@@ -68,7 +68,7 @@ These are planning windows, not guaranteed completion dates. If qualified
 supervision or an acceptable engagement route cannot be secured, the work clock
 does not start. If early installation/provider integration cannot be established
 by the initial milestone review (no later than week 4), revise scope, staffing,
-schedule and budget with Thomas before expanding commitments. A failed stage is
+schedule and budget with the Founder before expanding commitments. A failed stage is
 not reported as completed.
 
 ## Staffing assumptions and provisional budget
@@ -91,7 +91,7 @@ context; it does not replace technical supervision.
 | Reserve, only if the grant permits | Provisional contingency | 3,000 |
 | **Total proposed request** | **240 student hours; $22,000 before reserve** | **25,000** |
 
-All amounts are estimates awaiting Thomas's approval and actual program/engagement
+All amounts are estimates awaiting the Founder's approval and actual program/engagement
 terms. This draft authorizes no hire, spending, model use or submission. If reserve
 is disallowed, revise the request or obtain approval for a specific reallocation;
 do not assume it is an allowable cost. Separate costs already funded elsewhere;
