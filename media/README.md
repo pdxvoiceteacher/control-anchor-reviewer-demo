@@ -50,11 +50,13 @@ business contact remains. Exporter page/slide counters are stale metadata, not
 layout counts. The existing runtime and its [validation evidence](../VALIDATION.md)
 are unchanged, and no new runtime execution was needed.
 
-## Public-license decision pending
+## Existing rights and optional license choice
 
 These added media/prose files do **not** automatically inherit the code's MPL-2.0
 license. A straightforward proposed choice is [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) for the approved
 user-controlled media and added prose, credited to Thomas Prislac / UVLM while
-preserving any applicable existing notices. That recommendation is not applied
-as a license grant by this import. The exact media/prose license and final public
-contents/visibility remain Thomas's decisions; merge authority is separate.
+preserving any applicable existing notices. That optional recommendation is not
+applied as a license grant. No new media/prose grant has been authorized, and
+granting CC BY is not a prerequisite for repository visibility or funding
+eligibility. Preserve actual existing rights/permissions and notices. Final public
+contents/visibility remain Thomas's separate decision; merge authority is separate.

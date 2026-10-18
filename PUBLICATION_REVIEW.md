@@ -10,7 +10,7 @@ They add no license restrictions and do not certify title.
 
 - [ ] Identify the exact final commit and intended public contents/audience.
   Obtain Thomas's decision before changing visibility, inviting reviewers,
-  publishing release artifacts or submitting the funding application. His merge
+  publishing release artifacts or submitting any funding application. His merge
   delegation and invitation to include meritorious methods do not themselves
   change this repository's private visibility.
 
@@ -22,13 +22,14 @@ They add no license restrictions and do not certify title.
 - [ ] Check that notices describe actual inclusions. CE/IntegrityLock/Open Web
   Steward adaptations are excluded workbench history; their mention does not
   establish an included component or additional CC-BY obligation here.
-- [ ] Confirm the intended outbound-license scope for the two cited pedagogy
-  prose sources, their paraphrase and the newly added `media/` pack. The pedagogy
-  snapshots have no identified license grant, and media does not automatically
-  inherit the code license. CC BY 4.0 is proposed for approved user-controlled
-  media/added prose, with Thomas Prislac / UVLM attribution and existing notices
-  preserved. Thomas's ownership attestation and instructions support private
-  preparation; the intended public grant should be explicit.
+- [ ] Preserve actual existing licenses, attribution and permissions for the
+  pedagogy sources, their paraphrase and the `media/` pack. Their recorded origin
+  distinctions remain; do not automatically extend the code license to them.
+  No new media/prose license grant is authorized. CC BY 4.0 is an optional,
+  unapplied suggestion, not a condition of public visibility or funding eligibility.
+  Thomas's ownership attestation and instructions support preparation. Address
+  any specific conflicting third-party notice if one is actually identified;
+  do not replace the final-content decision with a requirement to grant a new license.
 - [ ] Inspect final candidate files for credentials, real learner/customer/user
   records, private operator data and unintended generated output. Keep fixtures
   and scripted decisions conspicuous. This source candidate contains no hosted
@@ -61,4 +62,5 @@ exception was found in the selected schema set. There is therefore no identified
 schema-specific rights blocker; this review does not certify title. Inherited
 upstream HOLD values remain historical review metadata, not evidence of an
 unidentified board interest or an automatic blanket prohibition. The specific
-remaining license-scope question concerns the added pedagogy prose and media above.
+public-content decision must preserve the applicable existing rights and notices.
+An optional new media/prose license is a distinct choice, not a publication gate.

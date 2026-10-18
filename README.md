@@ -1,37 +1,66 @@
 # Control Anchor reviewer demo
 
-**OFFLINE EVIDENCE AND REVIEW COMPONENT DEMONSTRATION**
+Control Anchor is being developed to help organizations inspect the evidence
+behind AI-assisted work and retain an attributable review history. Prospective
+beneficiaries include small organizations, research teams and software builders
+who need to examine and challenge AI-assisted work locally; user demand and
+practical benefit have not yet been established.
 
-Private preparation candidate for review of Thomas Prislac's Sentient funding
-application. The final publication decision and [candidate-specific contents
-checks](PUBLICATION_REVIEW.md) are separate from merge authority. This repository
-remains private and does not constitute a funding submission or public release.
+This offline demo captures source, prompt, settings and candidate bytes, runs
+deterministic evidence checks, records a scripted review, preserves a linked
+revision, exports and reopens evidence, and rejects a deliberately modified copy.
+**Synthetic inputs; no model is called. This is not the full live AI product.**
 
-This runs a small, existing part of Control Anchor: retain captured source,
-prompt, settings and candidate bytes; execute deterministic evidence controls;
-record a scripted review decision; preserve a linked repair; seal and verify
-packages; export and reopen practitioner evidence. The Python implementation is
-extracted unchanged from `pdxvoiceteacher/triadicbrain-open-alpha` at
-`139932846cb1b6bf1571158464d89513d4e381f8`. See [SOURCE_MANIFEST.json](SOURCE_MANIFEST.json)
-for exact original paths, Git blobs, SHA-256 hashes and adaptation notes.
+## Observed result and first steps
 
-The [methods appendix](docs/METHODS_APPENDIX.md) adapts the provenance pedagogy
-into a synthetic teaching exercise and answer key. It distinguishes integrity,
-claim support, review and bounded authority without claiming validated learning
-or model training.
+The recorded run used **Windows and Python 3.12.14**: **8 focused tests passed
+in 18.957 seconds**, with **4 directory/ZIP verification checks**. Practitioner
+JSON reopened with 133 evidence objects; the changed disposable copy was rejected
+and the retained original verified afterward. These are bounded component results,
+not an assurance opinion or proof of useful cognitive performance.
 
-The [product map and customer-function crosswalk](docs/PRODUCT_MAP.md) show the
-whole product's responsibilities, both interface directions and the exact
-functions demonstrated here, with source elsewhere and proposed work marked.
+1. **Inspect without running:** read [VALIDATION.md](VALIDATION.md) and the
+   [retained result summary](validation/observed-demo-summary.json).
+2. **Run locally:** follow [Windows / PowerShell](#run-on-windows--powershell),
+   using an existing Python 3.12 runtime and a fresh output directory. The two
+   commands are `python -S demo.py --output demo-output` and
+   `python -S -m unittest discover -s tests -v`. No dependency installation or API
+   key is needed; the full quickstart explains runtime selection and hard links.
+3. **Review the result:** open `demo-output/review.html`, inspect
+   `demo-output/summary.json` and follow the [artifact guide](#what-to-inspect).
 
-The [reviewed media pack](media/README.md) contains the two slide/script sets,
-teleprompters and original cover art, with dated evidence notes and source hashes.
-Its media/prose license remains a separate pending decision from the code license.
+This repository is **private**. Public visibility and final contents require
+Thomas's separate approval. Existing licenses and notices remain applicable;
+no new media/prose license grant has been authorized. Adopting CC BY is not a
+prerequisite for public visibility or funding eligibility.
 
-All input records are conspicuously synthetic. **No model is called**:
-`provider_invoked=false`. The candidate is an authored fixture. The actor
-`SCRIPTED-DEMO-REVIEWER-NOT-THOMAS` exercises the decision API; its `APPROVE` records
-are scripted, not Thomas's actual approval or an assurance conclusion.
+## Reader routes
+
+| Reader / purpose | Start here |
+| --- | --- |
+| Funders | [Funding brief index](docs/funding/README.md): separate draft scopes for Sentient and FUTO, with the same evidence baseline. |
+| Engineers | [Implementation/function crosswalk](docs/PRODUCT_MAP.md#actual-included-function-crosswalk), [focused tests](tests/test_component.py) and [exact source provenance](SOURCE_MANIFEST.json). |
+| Academic collaborators | [Methods exercise and answer key](docs/METHODS_APPENDIX.md), [whole-product map](docs/PRODUCT_MAP.md) and [limitations](KNOWN_LIMITATIONS.md). No novelty or learning benefit is established. |
+| Potential users | Run the local demo and inspect the human-readable review above; [product responsibilities](docs/PRODUCT_MAP.md) distinguish the intended workbench from this component. |
+| Presenters | Optional [slides, scripts, teleprompters and covers](media/README.md), with dated evidence notes and source hashes. |
+
+## Scope in one paragraph
+
+The candidate is an authored fixture; `provider_invoked=false`. The actor
+`SCRIPTED-DEMO-REVIEWER-NOT-THOMAS` records scripted decisions, not Thomas's actual
+acceptance. The repair advisory is injected, not machine-discovered. Records named
+Sophia and Atlas do not execute the separate cognitive components;
+`STANDARD_PROFILE` has no semantic finding rules. Logical roles and a hash chain
+do not establish independent custody, OS isolation, signing or factual correctness.
+See [KNOWN_LIMITATIONS.md](KNOWN_LIMITATIONS.md) for the substantive boundaries,
+including standalone ZIP verification.
+
+The implementation is extracted unchanged from `pdxvoiceteacher/triadicbrain-open-alpha`
+at `139932846cb1b6bf1571158464d89513d4e381f8`. The [source manifest](SOURCE_MANIFEST.json)
+records original paths, byte identities, additions and modifications. The
+[architecture context below](#where-this-fits) preserves the complete Triadic Brain,
+Control Anchor and locally governed Sophia network vision while distinguishing
+what this extraction actually demonstrates.
 
 ## Run on Windows / PowerShell
 
@@ -122,7 +151,7 @@ that vision while bounding the evidence actually offered here.
 **SYSTEM-GENERATED CONTROL EVIDENCE — NO ASSURANCE PROVIDED.** Logical roles and a
 hash chain are demonstrated; independent custody, OS isolation and cryptographic
 signing are not. Read [KNOWN_LIMITATIONS.md](KNOWN_LIMITATIONS.md) and the
-[PUBLICATION_REVIEW.md](PUBLICATION_REVIEW.md) HOLD checklist before redistribution.
+[PUBLICATION_REVIEW.md](PUBLICATION_REVIEW.md) candidate-specific notes before redistribution.
 
 License and attribution: [LICENSE](LICENSE), [LICENSE_SCOPE.md](LICENSE_SCOPE.md),
 [NOTICE](NOTICE), [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md) and

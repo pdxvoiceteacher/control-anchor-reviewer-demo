@@ -24,10 +24,11 @@ The source documents state no authority or release effect. No applicable license
 grant was identified in these documents or a repository license file at the
 inspected snapshots. The candidate's [license scope](../LICENSE_SCOPE.md) does not
 establish upstream title or relicense those sources. Thomas's ownership attestation
-and instruction to include methods support this private adaptation; the intended
-public license scope for the prose is a specific check in
-[PUBLICATION_REVIEW.md](../PUBLICATION_REVIEW.md). Merge authority does not itself
-decide that scope or change repository visibility.
+and instruction to include methods support this private adaptation. Preserve
+applicable existing rights and attribution as described in
+[PUBLICATION_REVIEW.md](../PUBLICATION_REVIEW.md). No new prose license is granted,
+and a new CC BY grant is not a prerequisite for visibility or funding eligibility.
+Merge authority does not itself change repository visibility.
 
 ## Method: inspect, challenge, decide within scope
 

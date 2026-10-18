@@ -506,7 +506,7 @@
     },
     {
       "path": "LICENSE_SCOPE.md",
-      "candidate_sha256": "a1b0005e99b52d7e80ca7c99a8767c84eb19fdcc9735f7f52f40a5936e70cbfc",
+      "candidate_sha256": "0e1028335b05055d281429a19500208ba4b3538ddac9587421ee9d44c05db96c",
       "origin": "ADAPTED",
       "source_basis_paths": [
         "LICENSE_SCOPE.md"
@@ -515,7 +515,8 @@
       "license": "MPL-2.0 to extent rights exist and covered",
       "publication_review": "FINAL_CONTENT_DECISION_PENDING",
       "documentation_successor_modification": "Clarified inherited HOLD metadata and candidate-specific publication scope without changing MPL terms.",
-      "media_successor_modification": "Link reviewed media and explicitly keep its public-license scope pending, separate from the code license and final visibility decision."
+      "media_successor_modification": "Link reviewed media and explicitly keep its public-license scope pending, separate from the code license and final visibility decision.",
+      "reviewer_successor_modification": "Neutral reviewer navigation and/or clarification that existing rights/notices are preserved, no new media/prose grant is authorized, and optional CC BY is not a visibility/funding prerequisite."
     },
     {
       "path": "NOTICE",
@@ -531,18 +532,19 @@
     },
     {
       "path": "PUBLICATION_REVIEW.md",
-      "candidate_sha256": "dd2039d29938dd00edb1bacc86c47d4c0966e5954eb303958ffd7a2b1d817ef4",
+      "candidate_sha256": "33df5ef26359803430cfbd9a552531865e4bb34d94ba62e4141e79aa030c2a66",
       "origin": "NEW",
       "source_basis_paths": [],
       "modifications": "New demo preparation material; AI-assisted under human commissioning.",
       "license": "MPL-2.0 to extent rights exist and covered",
       "publication_review": "FINAL_CONTENT_DECISION_PENDING",
       "documentation_successor_modification": "Replaced blanket gates with exact-candidate owner/contents checks; recorded owner attestation and bounded 12-schema inspection, with no specific schema rights blocker identified.",
-      "media_successor_modification": "Link reviewed media and explicitly keep its public-license scope pending, separate from the code license and final visibility decision."
+      "media_successor_modification": "Link reviewed media and explicitly keep its public-license scope pending, separate from the code license and final visibility decision.",
+      "reviewer_successor_modification": "Neutral reviewer navigation and/or clarification that existing rights/notices are preserved, no new media/prose grant is authorized, and optional CC BY is not a visibility/funding prerequisite."
     },
     {
       "path": "README.md",
-      "candidate_sha256": "16f47426357ccb816d8e5768d82e17cc4a6cee205ca0807c2bd664f9ffb6521c",
+      "candidate_sha256": "95b77cd0b51bc3c80b5021a9c55d5eec22901b9ffde2bc74dea6d22c12d63682",
       "origin": "ADAPTED",
       "source_basis_paths": [
         "docs/current/master-design.md"
@@ -558,7 +560,8 @@
         "https://github.com/pdxvoiceteacher/CoherenceLattice/blob/f0566d8f79c308eaeb9ab10cb8255478e8913a71/docs/provenance/pedagogy/UVLM_PROVENANCE_PEDAGOGY_v1.md",
         "https://github.com/pdxvoiceteacher/Sophia/blob/36165bdca0c5fbdc58d7500c41af6c9fd775197c/docs/provenance/UVLM_PROVENANCE_PEDAGOGY_REFINEMENT_OVERLAY_v1.1.md"
       ],
-      "media_successor_modification": "Link reviewed media and explicitly keep its public-license scope pending, separate from the code license and final visibility decision."
+      "media_successor_modification": "Link reviewed media and explicitly keep its public-license scope pending, separate from the code license and final visibility decision.",
+      "reviewer_successor_modification": "Neutral reviewer navigation and/or clarification that existing rights/notices are preserved, no new media/prose grant is authorized, and optional CC BY is not a visibility/funding prerequisite."
     },
     {
       "path": "tests/test_component.py",
@@ -604,7 +607,7 @@
     },
     {
       "path": "docs/METHODS_APPENDIX.md",
-      "candidate_sha256": "42403326b0c32c487418e8b01a9c83fbf09ba59037299106b583e51723450b30",
+      "candidate_sha256": "a21754fcfc5e30c9f063b22b0a874ae625c646d3387da6c24bffcb4debc8318c",
       "origin": "ADAPTED",
       "source_basis_paths": [
         "https://github.com/pdxvoiceteacher/CoherenceLattice/blob/f0566d8f79c308eaeb9ab10cb8255478e8913a71/docs/provenance/pedagogy/UVLM_PROVENANCE_PEDAGOGY_v1.md",
@@ -612,8 +615,9 @@
       ],
       "modifications": "New concise paraphrase of selected pedagogy principles with a synthetic demo-linked exercise and answer key. Omits training ledger, live/learner records, graduation/credit implementation and automatic three-patch control retirement. No measured learning or model-training claims.",
       "attribution": "Thomas Prislac / UVLM; exact source documents identified in methods_appendix_sources.",
-      "license": "Private adaptation under owner instruction; intended public prose license scope to confirm; no upstream relicensing.",
-      "publication_review": "PUBLIC_PROSE_LICENSE_SCOPE_TO_CONFIRM"
+      "license": "No new license grant authorized; preserve applicable existing rights/permissions and notices; no automatic code-license inheritance.",
+      "publication_review": "OWNER_FINAL_CONTENT_VISIBILITY_DECISION_PENDING_EXISTING_RIGHTS_PRESERVED",
+      "reviewer_successor_modification": "Neutral reviewer navigation and/or clarification that existing rights/notices are preserved, no new media/prose grant is authorized, and optional CC BY is not a visibility/funding prerequisite."
     },
     {
       "path": "docs/PRODUCT_MAP.md",
@@ -642,8 +646,8 @@
       "upstream_treatment": "revised successor",
       "modifications": "NONE in this import; exact reviewed archive member bytes retained.",
       "attribution": "Thomas Prislac / UVLM; supplied source attribution, AI-assistance and exporter metadata preserved.",
-      "license": "PUBLIC_MEDIA_PROSE_LICENSE_PENDING; no automatic MPL inheritance",
-      "publication_review": "FINAL_MEDIA_PROSE_LICENSE_AND_CONTENT_VISIBILITY_DECISION_PENDING"
+      "license": "No new license grant authorized; preserve applicable existing rights/permissions and notices; no automatic code-license inheritance.",
+      "publication_review": "OWNER_FINAL_CONTENT_VISIBILITY_DECISION_PENDING_EXISTING_RIGHTS_PRESERVED"
     },
     {
       "path": "media/Control_Anchor_Video_Scripts_Reviewer_Update.docx",
@@ -657,8 +661,8 @@
       "upstream_treatment": "revised successor",
       "modifications": "NONE in this import; exact reviewed archive member bytes retained.",
       "attribution": "Thomas Prislac / UVLM; supplied source attribution, AI-assistance and exporter metadata preserved.",
-      "license": "PUBLIC_MEDIA_PROSE_LICENSE_PENDING; no automatic MPL inheritance",
-      "publication_review": "FINAL_MEDIA_PROSE_LICENSE_AND_CONTENT_VISIBILITY_DECISION_PENDING"
+      "license": "No new license grant authorized; preserve applicable existing rights/permissions and notices; no automatic code-license inheritance.",
+      "publication_review": "OWNER_FINAL_CONTENT_VISIBILITY_DECISION_PENDING_EXISTING_RIGHTS_PRESERVED"
     },
     {
       "path": "media/Control_Anchor_Video_Slides_Reviewer_Update.pptx",
@@ -672,8 +676,8 @@
       "upstream_treatment": "revised successor",
       "modifications": "NONE in this import; exact reviewed archive member bytes retained.",
       "attribution": "Thomas Prislac / UVLM; supplied source attribution, AI-assistance and exporter metadata preserved.",
-      "license": "PUBLIC_MEDIA_PROSE_LICENSE_PENDING; no automatic MPL inheritance",
-      "publication_review": "FINAL_MEDIA_PROSE_LICENSE_AND_CONTENT_VISIBILITY_DECISION_PENDING"
+      "license": "No new license grant authorized; preserve applicable existing rights/permissions and notices; no automatic code-license inheritance.",
+      "publication_review": "OWNER_FINAL_CONTENT_VISIBILITY_DECISION_PENDING_EXISTING_RIGHTS_PRESERVED"
     },
     {
       "path": "media/Media_Change_and_Evidence_Notes.md",
@@ -687,8 +691,8 @@
       "upstream_treatment": "new change and evidence notes",
       "modifications": "NONE in this import; exact reviewed archive member bytes retained.",
       "attribution": "Thomas Prislac / UVLM; supplied source attribution, AI-assistance and exporter metadata preserved.",
-      "license": "PUBLIC_MEDIA_PROSE_LICENSE_PENDING; no automatic MPL inheritance",
-      "publication_review": "FINAL_MEDIA_PROSE_LICENSE_AND_CONTENT_VISIBILITY_DECISION_PENDING"
+      "license": "No new license grant authorized; preserve applicable existing rights/permissions and notices; no automatic code-license inheritance.",
+      "publication_review": "OWNER_FINAL_CONTENT_VISIBILITY_DECISION_PENDING_EXISTING_RIGHTS_PRESERVED"
     },
     {
       "path": "media/Triadic_Cognition_P2P_Video_Slides_Reviewer_Update.pptx",
@@ -702,8 +706,8 @@
       "upstream_treatment": "revised successor",
       "modifications": "NONE in this import; exact reviewed archive member bytes retained.",
       "attribution": "Thomas Prislac / UVLM; supplied source attribution, AI-assistance and exporter metadata preserved.",
-      "license": "PUBLIC_MEDIA_PROSE_LICENSE_PENDING; no automatic MPL inheritance",
-      "publication_review": "FINAL_MEDIA_PROSE_LICENSE_AND_CONTENT_VISIBILITY_DECISION_PENDING"
+      "license": "No new license grant authorized; preserve applicable existing rights/permissions and notices; no automatic code-license inheritance.",
+      "publication_review": "OWNER_FINAL_CONTENT_VISIBILITY_DECISION_PENDING_EXISTING_RIGHTS_PRESERVED"
     },
     {
       "path": "media/Triadic_P2P_Teleprompter_Reviewer_Update.txt",
@@ -717,8 +721,8 @@
       "upstream_treatment": "revised successor",
       "modifications": "NONE in this import; exact reviewed archive member bytes retained.",
       "attribution": "Thomas Prislac / UVLM; supplied source attribution, AI-assistance and exporter metadata preserved.",
-      "license": "PUBLIC_MEDIA_PROSE_LICENSE_PENDING; no automatic MPL inheritance",
-      "publication_review": "FINAL_MEDIA_PROSE_LICENSE_AND_CONTENT_VISIBILITY_DECISION_PENDING"
+      "license": "No new license grant authorized; preserve applicable existing rights/permissions and notices; no automatic code-license inheritance.",
+      "publication_review": "OWNER_FINAL_CONTENT_VISIBILITY_DECISION_PENDING_EXISTING_RIGHTS_PRESERVED"
     },
     {
       "path": "media/Triadic_P2P_Video_Script_Reviewer_Update.docx",
@@ -732,8 +736,8 @@
       "upstream_treatment": "revised successor",
       "modifications": "NONE in this import; exact reviewed archive member bytes retained.",
       "attribution": "Thomas Prislac / UVLM; supplied source attribution, AI-assistance and exporter metadata preserved.",
-      "license": "PUBLIC_MEDIA_PROSE_LICENSE_PENDING; no automatic MPL inheritance",
-      "publication_review": "FINAL_MEDIA_PROSE_LICENSE_AND_CONTENT_VISIBILITY_DECISION_PENDING"
+      "license": "No new license grant authorized; preserve applicable existing rights/permissions and notices; no automatic code-license inheritance.",
+      "publication_review": "OWNER_FINAL_CONTENT_VISIBILITY_DECISION_PENDING_EXISTING_RIGHTS_PRESERVED"
     },
     {
       "path": "media/covers/Control Anchor_ Their AI, Your Rules.png",
@@ -747,8 +751,8 @@
       "upstream_treatment": "unchanged copy",
       "modifications": "NONE in this import; exact reviewed archive member bytes retained.",
       "attribution": "Thomas Prislac / UVLM; supplied source attribution, AI-assistance and exporter metadata preserved.",
-      "license": "PUBLIC_MEDIA_PROSE_LICENSE_PENDING; no automatic MPL inheritance",
-      "publication_review": "FINAL_MEDIA_PROSE_LICENSE_AND_CONTENT_VISIBILITY_DECISION_PENDING"
+      "license": "No new license grant authorized; preserve applicable existing rights/permissions and notices; no automatic code-license inheritance.",
+      "publication_review": "OWNER_FINAL_CONTENT_VISIBILITY_DECISION_PENDING_EXISTING_RIGHTS_PRESERVED"
     },
     {
       "path": "media/covers/Control Anchor_ Your AI, Your Rules-1.png",
@@ -762,8 +766,8 @@
       "upstream_treatment": "unchanged copy",
       "modifications": "NONE in this import; exact reviewed archive member bytes retained.",
       "attribution": "Thomas Prislac / UVLM; supplied source attribution, AI-assistance and exporter metadata preserved.",
-      "license": "PUBLIC_MEDIA_PROSE_LICENSE_PENDING; no automatic MPL inheritance",
-      "publication_review": "FINAL_MEDIA_PROSE_LICENSE_AND_CONTENT_VISIBILITY_DECISION_PENDING"
+      "license": "No new license grant authorized; preserve applicable existing rights/permissions and notices; no automatic code-license inheritance.",
+      "publication_review": "OWNER_FINAL_CONTENT_VISIBILITY_DECISION_PENDING_EXISTING_RIGHTS_PRESERVED"
     },
     {
       "path": "media/covers/Triadic AI Peer-to-Peer Network-2.png",
@@ -777,8 +781,8 @@
       "upstream_treatment": "unchanged copy",
       "modifications": "NONE in this import; exact reviewed archive member bytes retained.",
       "attribution": "Thomas Prislac / UVLM; supplied source attribution, AI-assistance and exporter metadata preserved.",
-      "license": "PUBLIC_MEDIA_PROSE_LICENSE_PENDING; no automatic MPL inheritance",
-      "publication_review": "FINAL_MEDIA_PROSE_LICENSE_AND_CONTENT_VISIBILITY_DECISION_PENDING"
+      "license": "No new license grant authorized; preserve applicable existing rights/permissions and notices; no automatic code-license inheritance.",
+      "publication_review": "OWNER_FINAL_CONTENT_VISIBILITY_DECISION_PENDING_EXISTING_RIGHTS_PRESERVED"
     },
     {
       "path": "media/Provenance_SHA256_Manifest.json",
@@ -792,17 +796,63 @@
       "upstream_treatment": "Pack provenance manifest; self-hash bound here",
       "modifications": "NONE in this import; exact reviewed archive member bytes retained.",
       "attribution": "Thomas Prislac / UVLM; supplied source attribution, AI-assistance and exporter metadata preserved.",
-      "license": "PUBLIC_MEDIA_PROSE_LICENSE_PENDING; no automatic MPL inheritance",
-      "publication_review": "FINAL_MEDIA_PROSE_LICENSE_AND_CONTENT_VISIBILITY_DECISION_PENDING"
+      "license": "No new license grant authorized; preserve applicable existing rights/permissions and notices; no automatic code-license inheritance.",
+      "publication_review": "OWNER_FINAL_CONTENT_VISIBILITY_DECISION_PENDING_EXISTING_RIGHTS_PRESERVED"
     },
     {
       "path": "media/README.md",
-      "candidate_sha256": "8cb1f4ed4fc849647210ef9a845b92c402cd1abbf73c2f0ee34a8512669eab0d",
-      "bytes": 3757,
+      "candidate_sha256": "07f7e949e71dbcc95bebe12595c5494bc091c3e248997a3b728a55de53d44b27",
+      "bytes": 3931,
       "origin": "NEW",
       "modifications": "Concise navigation, archive/inspection provenance and pending CC BY 4.0 recommendation; does not alter the reviewed media.",
-      "license": "PUBLIC_MEDIA_PROSE_LICENSE_PENDING; no automatic MPL inheritance",
-      "publication_review": "FINAL_MEDIA_PROSE_LICENSE_AND_CONTENT_VISIBILITY_DECISION_PENDING"
+      "license": "No new license grant authorized; preserve applicable existing rights/permissions and notices; no automatic code-license inheritance.",
+      "publication_review": "OWNER_FINAL_CONTENT_VISIBILITY_DECISION_PENDING_EXISTING_RIGHTS_PRESERVED",
+      "reviewer_successor_modification": "Neutral reviewer navigation and/or clarification that existing rights/notices are preserved, no new media/prose grant is authorized, and optional CC BY is not a visibility/funding prerequisite."
+    },
+    {
+      "path": "docs/funding/README.md",
+      "candidate_sha256": "77437024f2c7ac7b6255e99c2b608da5b58b4e1be6ee8194b97f4382b1014653",
+      "bytes": 2960,
+      "origin": "NEW_PRIVATE_PLANNING_DRAFT",
+      "source_basis_paths": [
+        "https://sentient.foundation/grants",
+        "https://sentient.foundation/product-requests",
+        "https://futo.tech/grants"
+      ],
+      "modifications": "New funder-specific planning prose under owner direction; same observed component baseline; no submission/outreach, new license grant, secured staffing or award claim.",
+      "assumption_source": "Owner-supplied provisional scope/budget/staffing assumptions; not evidence of commitments or private financial records.",
+      "license": "No new license grant; preserve applicable existing rights and notices.",
+      "publication_review": "OWNER_FINAL_CONTENT_VISIBILITY_DECISION_PENDING"
+    },
+    {
+      "path": "docs/funding/SENTIENT.md",
+      "candidate_sha256": "60225cd71302b20c1366208b0c78e494e0b291dd02d399320398008fafaa3870",
+      "bytes": 6881,
+      "origin": "NEW_PRIVATE_PLANNING_DRAFT",
+      "source_basis_paths": [
+        "https://sentient.foundation/grants",
+        "https://sentient.foundation/product-requests",
+        "https://futo.tech/grants"
+      ],
+      "modifications": "New funder-specific planning prose under owner direction; same observed component baseline; no submission/outreach, new license grant, secured staffing or award claim.",
+      "assumption_source": "Owner-supplied provisional scope/budget/staffing assumptions; not evidence of commitments or private financial records.",
+      "license": "No new license grant; preserve applicable existing rights and notices.",
+      "publication_review": "OWNER_FINAL_CONTENT_VISIBILITY_DECISION_PENDING"
+    },
+    {
+      "path": "docs/funding/FUTO.md",
+      "candidate_sha256": "7a96b06b36608ade1e1e6940fc854e94c21919bb407140b293aed8d761f71861",
+      "bytes": 3550,
+      "origin": "NEW_PRIVATE_PLANNING_DRAFT",
+      "source_basis_paths": [
+        "https://sentient.foundation/grants",
+        "https://sentient.foundation/product-requests",
+        "https://futo.tech/grants"
+      ],
+      "modifications": "New funder-specific planning prose under owner direction; same observed component baseline; no submission/outreach, new license grant, secured staffing or award claim.",
+      "assumption_source": "Owner-supplied provisional scope/budget/staffing assumptions; not evidence of commitments or private financial records.",
+      "license": "No new license grant; preserve applicable existing rights and notices.",
+      "publication_review": "OWNER_FINAL_CONTENT_VISIBILITY_DECISION_PENDING"
     }
   ],
   "consulted_originals": [
@@ -1070,7 +1120,7 @@
     "schema_scope": "Only the 12 commission-supplied AEP01/PoC01 schemas in copied_files were examined; exact source hashes retained.",
     "schema_inspection": "No specific third-party license exception, attribution, proprietary criteria text or external $ref identified. JSON Schema dialect declaration is a format identifier.",
     "ownership_attestation": "Thomas attests sole software ownership and no board ownership; this is owner evidence, not independent title proof.",
-    "specific_remaining_license_scope": "Intended public license for the added pedagogy prose and reviewed media/added prose; CC BY 4.0 proposed, not applied. Final public contents/visibility are separate.",
+    "specific_remaining_license_scope": "Preserve applicable existing rights/permissions and notices. No new media/prose grant authorized; optional CC BY is not a publication or funding gate. Final public contents/visibility need separate owner approval.",
     "runtime_evidence": "Unchanged implementation/tests/fixtures inherit prior observed evidence; documentation checks only for this successor."
   },
   "media_pack": {
@@ -1088,7 +1138,31 @@
     "privacy_disposition": "No unintended private content identified. Only email indicators were the intended info@ultraverbaluxmentis.org business contact. No macros, embedded objects, comments, tracked changes or local user paths found.",
     "source_metadata_boundary": "Existing creator/source properties retained; exporter page/slide counters are not rendered layout counts.",
     "runtime_boundary": "All previously tested runtime, tests, fixtures and validation evidence unchanged; no runtime rerun or media rewrite/rerender.",
-    "license_decision": "Pending exact public media/prose license; CC BY 4.0 recommended for approved user-controlled content with attribution/existing notices; not applied here.",
+    "license_decision": "No new media/prose grant authorized; existing rights/permissions/notices preserved. CC BY 4.0 remains an optional unapplied suggestion, not a prerequisite for visibility or funding eligibility.",
     "visibility_decision": "Repository remains private pending owner final-content/audience decision"
+  },
+  "funding_planning_sources": [
+    {
+      "url": "https://sentient.foundation/grants",
+      "checked_date_utc": "2026-10-18",
+      "basis": "Official open-source/public-goods grant track; prospective fit only."
+    },
+    {
+      "url": "https://sentient.foundation/product-requests",
+      "checked_date_utc": "2026-10-18",
+      "basis": "Official local/open AI and trust-infrastructure requests; no claim of implementing cryptographic verifiable inference."
+    },
+    {
+      "url": "https://futo.tech/grants",
+      "checked_date_utc": "2026-10-18",
+      "basis": "Official page says applications open and one-time $1,000\u2013$5,000 microgrants for small/early-stage projects; no other terms inferred."
+    }
+  ],
+  "funding_planning_notes": {
+    "status": "Private planning drafts only; no outreach or submission",
+    "sentient": "USD 25,000 provisional owner-approval budget: 9600 student + 2400 employer estimate + 4000 mentor + 4000 founder + 2000 infrastructure + 3000 reserve only if allowed. 16 weeks begin after funding, acceptable engagement and qualified supervision. OSU is a recruiting preference only.",
+    "futo": "Scoped offline-tool concept; program range confirmed, request amount/costed plan/work estimate not set or approved.",
+    "shared_boundary": "Same eight-test synthetic provider-free baseline; no installed/live/P2P acceptance or cognitive/novelty/user-demand claims. No double-funded work or costs; NSF pitch pending with no award.",
+    "license_boundary": "No new media/prose license authorized. Existing licenses/notices preserved; optional CC BY is not a prerequisite for visibility or funding eligibility. Program access/eligibility terms must be checked separately."
   }
 }
