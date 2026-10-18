@@ -23,10 +23,12 @@ They add no license restrictions and do not certify title.
   Steward adaptations are excluded workbench history; their mention does not
   establish an included component or additional CC-BY obligation here.
 - [ ] Confirm the intended outbound-license scope for the two cited pedagogy
-  prose sources and this paraphrase. Their inspected snapshots have no identified
-  license grant. Thomas's ownership attestation and instruction to include methods
-  support the private adaptation; public license scope should be explicit rather
-  than inferred from repository ownership or software metadata alone.
+  prose sources, their paraphrase and the newly added `media/` pack. The pedagogy
+  snapshots have no identified license grant, and media does not automatically
+  inherit the code license. CC BY 4.0 is proposed for approved user-controlled
+  media/added prose, with Thomas Prislac / UVLM attribution and existing notices
+  preserved. Thomas's ownership attestation and instructions support private
+  preparation; the intended public grant should be explicit.
 - [ ] Inspect final candidate files for credentials, real learner/customer/user
   records, private operator data and unintended generated output. Keep fixtures
   and scripted decisions conspicuous. This source candidate contains no hosted
@@ -59,4 +61,4 @@ exception was found in the selected schema set. There is therefore no identified
 schema-specific rights blocker; this review does not certify title. Inherited
 upstream HOLD values remain historical review metadata, not evidence of an
 unidentified board interest or an automatic blanket prohibition. The specific
-remaining license-scope question concerns the added pedagogy prose above.
+remaining license-scope question concerns the added pedagogy prose and media above.

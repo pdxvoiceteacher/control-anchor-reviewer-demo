@@ -24,6 +24,10 @@ The [product map and customer-function crosswalk](docs/PRODUCT_MAP.md) show the
 whole product's responsibilities, both interface directions and the exact
 functions demonstrated here, with source elsewhere and proposed work marked.
 
+The [reviewed media pack](media/README.md) contains the two slide/script sets,
+teleprompters and original cover art, with dated evidence notes and source hashes.
+Its media/prose license remains a separate pending decision from the code license.
+
 All input records are conspicuously synthetic. **No model is called**:
 `provider_invoked=false`. The candidate is an authored fixture. The actor
 `SCRIPTED-DEMO-REVIEWER-NOT-THOMAS` exercises the decision API; its `APPROVE` records

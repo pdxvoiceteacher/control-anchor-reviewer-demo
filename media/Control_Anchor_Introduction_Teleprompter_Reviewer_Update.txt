@@ -1,0 +1,78 @@
+CONTROL ANCHOR VIDEO SCRIPTS
+REVIEWER UPDATE | 18 OCTOBER 2026 UTC
+Read only the spoken paragraphs. Bracketed cues are not spoken.
+Deck: Control_Anchor_Video_Slides_Reviewer_Update.pptx
+Slide images: Export from the updated deck; replace the older status-slide PNG.
+971 spoken words; estimated 8 to 9 minutes including pauses.
+
+[SECTION 01 — Control Anchor]
+[CAMERA]
+I'm Thomas Prislac. My background includes auditing, internal controls, music and creative work. I'm interested in what people can create with AI, and how we understand what we're relying on.
+
+[SHOW SLIDE 01]
+I'm building Control Anchor, powered by Triadic Cognitive Systems. The aim is understandable rules, useful evidence and a clear way to correct mistakes. I want it to serve small businesses, community organizations and families, as well as larger institutions. You shouldn't need to become a software engineer to use it.
+
+[SECTION 02 — A citation can preserve the wrong meaning]
+[SHOW SLIDE 02]
+An AI can give you a convincing answer and cite a real document while getting the important part wrong. Here, the source says, 'Proposal received. Approval pending.' The summary says, 'Your proposal was approved.' The citation can lead to the right document, yet the consequential meaning has changed.
+
+[RETURN TO CAMERA]
+What I want is a tool that helps us notice that difference, examine it and do something useful about it. Keeping a record matters, but the person reading the answer also needs to understand what the record supports.
+
+[SECTION 03 — A quotation review]
+[SHOW SLIDE 03]
+Imagine you run a small business and ask an AI to draft a customer quotation. Your terms say a discount above ten percent needs the owner's approval. The draft includes fifteen percent. The arithmetic is straightforward. Whether the required approval exists is a separate question. If the supplied material contains no approval evidence, the system should say that requirement is unresolved. It should not claim that approval never happened, or assume that it must have happened somewhere else.
+
+[KEEP SLIDE 03]
+You can supply the missing information or request a correction. And reviewing the quotation remains separate from having permission to send it.
+
+[SECTION 04 — Controls people can understand]
+[SHOW SLIDE 04]
+People should be able to start with an intention they can express in ordinary language. An organization might bring its own requirements. A parent might say, 'Ask before sharing outside the household.' The system should show a readable preview of what it understood: the scope, the action and the limits. An AI can help interpret that intention, but its interpretation needs scrutiny. Mechanical checks and AI judgment must stay distinguishable. Unsupported meaning should remain visible, with a way to correct it. The selected rule becomes effective through the applicable authority; generated text cannot simply activate its own interpretation.
+
+[SECTION 05 — One product with two interfaces]
+[SHOW SLIDE 05]
+These are intended to be two ways into one product. Through the native application, Control Anchor can call an eligible model. Through a supported AI chat application, an authenticated integration can connect to the same local or organizational core. Both routes should use the same effective controls and attributable history. A chat login or a working network connection alone does not grant access to your local records or another organization's work.
+
+[RETURN TO CAMERA]
+The local application should remain useful on its own. Using a cloud model and joining a sharing network are separate choices.
+
+[SECTION 06 — Responsibilities behind the answer]
+[SHOW SLIDE 06]
+Behind that experience, the architecture divides the work into responsibilities. Sonya connects the request and model response. AEGIS checks technical admission and permission boundaries. CoherenceLattice relates claims, evidence and unresolved questions. Sophia and Challenge apply identified checks and retain disagreement, with mechanical results kept separate from AI criticism. Atlas helps explain the result and the next useful question.
+
+[KEEP SLIDE 06]
+These names don't require a separate model running all the time. One suitable model can perform eligible roles in sequence, while exact checks use ordinary software. The control definitions and evidence records give those roles something concrete to work with.
+
+[SECTION 07 — A correction preserves the earlier work]
+[SHOW SLIDE 07]
+Return to our quotation. If you ask for a correction, the original request and reply should remain attributable. The correction has changed inputs, and any fresh assessment must belong to that version. An assessment of the original is not automatically an assessment of the correction. Exporting and reopening should let you inspect that retained history. Completed work should not run again just because you reopened it. If an operation's outcome is uncertain, the system should preserve that uncertainty rather than resend it automatically.
+
+[RETURN TO CAMERA]
+The useful outcome is less reconstruction for you, with fewer hidden assumptions about what happened.
+
+[SECTION 08 — A household learning workspace]
+[SHOW SLIDE 08]
+For a family, imagine a learning workspace that offers hints suited to the activity, makes sharing choices understandable and lets people question a mistaken interpretation. A parent could shape supported controls without writing code. That is a design goal, and it needs careful evaluation. It would govern supported connections, not every app on a child's device. Privacy, learning and the ability to seek a correction matter alongside protection.
+
+[RETURN TO CAMERA]
+There is also a longer-term community idea: sharing permitted work so the next person doesn't always start from scratch. The receiving system would still check whether it fits the new task. I explore that proposal, and how we could test it, in the companion video on triadic cognition and peer-to-peer reuse.
+
+[SECTION 09 — Development evidence]
+[SHOW SLIDE 09]
+As of 18 October 2026, there is a private offline component demonstration. It uses captured output to show custody, repair, scripted review and export verification. Eight focused tests and four directory and ZIP checks passed. No model was called. Installed startup, live AI and ChatGPT operation, human usefulness and P2P operation are still to demonstrate. Reviewer repository access is pending.
+
+[RETURN TO CAMERA]
+The description identifies the dated evidence and its access limits. The white paper brings together the intended product, research, possible business models and the questions still open.
+
+[SECTION 10 — One recurring task to make easier]
+[CAMERA]
+I'm looking for engineers, researchers and people who know a recurring task well. A small-business owner could help test whether a report saves review effort. Families can help us understand needs through adult conversations before any child-facing pilot. My proposed model is a useful, openly inspectable core, with paid implementation and support where those services add value. We need to earn claims about usefulness and reduced waste through what people experience.
+
+[SHOW SLIDE 10]
+Start with the white paper or repository linked below. Tell me about one task you would like to make easier, what you use today and what would count as a better result.
+
+[RETURN TO CAMERA]
+I'm Thomas. Thanks for taking a look at the work.
+
+[HOLD SLIDE 10 FOR ABOUT 3 SECONDS AFTER THE LAST SPOKEN LINE]

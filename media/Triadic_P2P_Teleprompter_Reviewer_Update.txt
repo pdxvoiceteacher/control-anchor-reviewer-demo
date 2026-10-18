@@ -1,0 +1,112 @@
+TRIADIC COGNITIVE SYSTEMS AND PEER TO PEER COLLABORATION
+REVIEWER UPDATE | 18 OCTOBER 2026 UTC
+Read only the spoken paragraphs. Bracketed cues are not spoken.
+Deck: Triadic_Cognition_P2P_Video_Slides_Reviewer_Update.pptx
+Slide images: Export from the updated deck; replace the older status-slide PNG.
+1,504 spoken words; estimated 12 to 14 minutes including pauses.
+
+[SECTION 01 — Triadic Cognitive Systems]
+[CAMERA]
+What if an AI could benefit from work someone else had already checked, while still recognizing when that work doesn't apply? I'm Thomas Prislac. This is an invitation to computer-science departments, research software engineers, supervised student teams and other collaborators to help build and test that idea.
+
+[SHOW SLIDE 01]
+Control Anchor is powered by Triadic Cognitive Systems. We intend one application with connected native and AI-host interfaces, sharing effective controls and attributable history. The plugin is an application connection; it doesn't live inside model weights. Local use should remain useful without joining a peer network. The research question is whether permitted reuse can reduce repeated effort while preserving evidence, uncertainty and local control.
+
+[SECTION 02 — The triadic reasoning loop]
+[SHOW SLIDE 02]
+The triadic loop grounds and proposes, checks and challenges, then integrates and explains. An Analyst proposes an interpretation. Sophia checks and separately attributable AI criticism examine support, contradictions and missing information. Atlas explains the resulting position and useful repair questions. A supported answer may end the loop. Another agent should not invent a concern merely to keep it going.
+
+[KEEP SLIDE 02]
+These are functional roles. One suitable model may perform eligible roles sequentially. Different models, presets or bounded teams are options to evaluate. More agents are not automatically better. And models can agree because they received the same wrong fact or rule. Role agreement does not establish truth.
+
+[SECTION 03 — Ingress and evidence boundaries]
+[SHOW SLIDE 03]
+The loop needs clear boundaries. Sonya binds the request, effective context and provider reply. AEGIS checks identity, permitted scope and technical capability. The Universal Control Codex represents selected rules, their sources and effective versions. CoherenceLattice relates evidence, claims, alternatives and dependencies. A graph score is not automatically a calibrated probability that something is true.
+
+[RETURN TO CAMERA]
+A chat login alone must not grant access to someone else's tasks. Generated content cannot authorize itself, activate a new rule or override an organization's controls. Technical admission, advisory assessment and permission to take a consequential action remain different questions.
+
+[SECTION 04 — Continuity and memory]
+[SHOW SLIDE 04]
+Custody preserves actual attempts and evidence. The Thought-Exchange Layer, or TEL, connects performed stages and corrections. It is not a transcript of hidden model thoughts. PMR is the proposed governed memory and reuse layer. Retention, sharing, training and publication require their own basis. Atlas helps explain how new evidence changes an earlier position without erasing the record.
+
+[KEEP SLIDE 04]
+Consider a synthetic invoice for twelve thousand dollars against an explicit ten-thousand-dollar ceiling. That establishes an exception. Missing approval evidence would instead leave that requirement unresolved. A later amendment can resolve the exception only if its signer, scope and effective date actually apply. The earlier assessment should remain inspectable.
+
+[SECTION 05 — Protective limits and human authority]
+[SHOW SLIDE 05]
+The Telemetry Aperture Controller, or TAC, concerns purposeful, bounded observation while preserving required evidence and missing-observation states. MORALware describes a separately governed protective floor, not a moral ranking of people. Human review records who adopted, disputed, deferred or corrected a result. A simulated reviewer must stay distinguishable from an actual person.
+
+[RETURN TO CAMERA]
+The aim is continuity that makes a mistake easier to question and correct. Keeping a faithful record can still mean preserving a wrong claim. People need an effective route to seek correction, not simply more material to read.
+
+[SECTION 06 — Locally controlled peers]
+[SHOW SLIDE 06]
+The proposed network extends this across locally controlled systems. A household could share selected resources. An organization could limit exchange to its members. A public community could contribute material cleared for that audience. These scopes can overlap without transferring access. Each exchange needs permission under the participating systems' rules; it need not require a new human click for every packet.
+
+[KEEP SLIDE 06]
+We don't need a central authority deciding every local task. Discovery, peer identity, revocation and connecting machines across the internet still need engineering. A directory or relay could help devices communicate without becoming the owner of their decisions. This diagram shows intended relationships, not a deployed network.
+
+[SECTION 07 — What a reusable package carries]
+[SHOW SLIDE 07]
+A reusable package should explain what the prior work addressed and which assumptions mattered. It should carry relevant evidence, source and control versions, checks, review origins and unresolved limits. It also needs a basis for sharing with the intended recipients. The receiving node checks permission and present applicability before reuse.
+
+[KEEP SLIDE 07]
+Prior Sophia auditing and Atlas-guided retrospective work can make the mapping easier to examine. They do not guarantee a correct result for a different person, rule or task. A package with a missing observation must preserve that gap. Sensitive history should not become public merely because part of the result is useful.
+
+[SECTION 08 — Three different kinds of reuse]
+[SHOW SLIDE 08]
+We should test three kinds of reuse separately. A prior result may be useful when relevant inputs, conditions and authority truly match. An adapted workflow uses new inputs and produces a new result with its own assessment. A cross-domain bridge suggests a relation worth investigating, which still needs validation in the destination domain.
+
+[RETURN TO CAMERA]
+A similar prompt can help find candidate work. It cannot establish that the tasks are equivalent. The recipient needs to know what transfers, what changes and what remains unknown. Ordinary shared files may already be sufficient for some of these jobs.
+
+[SECTION 09 — Integrity and applicability]
+[SHOW SLIDE 09]
+Here is a package we should decline to treat as a current answer. Its bytes match the expected package. Its origin and prior checks are retained. But the approval ceiling has changed, so its earlier favorable result no longer applies. We can preserve the package while reassessing the new task.
+
+[KEEP SLIDE 09]
+A SHA-256 hash helps check expected bytes. By itself it does not establish trustworthy origin, truth, redistribution rights or current applicability. Received material must be examined as data, not obeyed as authority. Even hashes and discovery metadata can reveal private activity, so permission boundaries matter before the full package is opened.
+
+[SECTION 10 — Artifact reuse and shared compute]
+[SHOW SLIDE 10]
+Sharing an artifact and asking another machine to execute a job are separate capabilities. Execution needs its own provider selection, permissions, resource limits, cancellation and failure handling. Sending plaintext to another machine does not hide it from the operator processing it. Losing a connection must not automatically resend an operation whose outcome is uncertain.
+
+[RETURN TO CAMERA]
+The first study should use deliberately prepared, non-sensitive artifacts. Whole-job offload can follow if it offers a concrete benefit. Splitting inference across machines and federated training are different projects. Any savings claim has to count discovery, transfer, validation, failures and host contention, not just the model's generation time.
+
+[SECTION 11 — Cross-domain research]
+[SHOW SLIDE 11]
+GUFT and the CoherenceLattice explore a broader possibility: navigating useful relations across knowledge instead of reconstructing every route from scratch. AHA and Pattern Donation propose candidate bridges and analogies. The optional 432 and Rosetta work preserves interpretive and creative contributions. These remain research directions, with their own questions and evidence requirements.
+
+[KEEP SLIDE 11]
+A structural resemblance does not prove that a conclusion transfers. Prior checks can help explain a candidate mapping without guaranteeing it. No adequate bridge must remain a valid result. The useful application does not have to wait for a universal theory to be established, and its success would not establish that theory.
+
+[SECTION 12 — A two-user reuse study]
+[SHOW SLIDE 12]
+One first study could involve two consenting adults reviewing synthetic reimbursement records for a community group. One completes a case. The second receives a related case with changed inputs. Compare a fresh start, ordinary sharing of the same source material and prior work, and reuse with explicit evidence and applicability checks.
+
+[KEEP SLIDE 12]
+Include a useful package, an authentic stale package and a case with missing approval evidence. Use comparable resources and vary the order to limit learning effects. Measure consequential errors, review effort, recovery and total resource use. If ordinary sharing is equally useful and simpler, retain that result. Two users can expose feasibility problems; they cannot establish a population benefit or an energy-saving claim.
+
+[SECTION 13 — Development evidence]
+[SHOW SLIDE 13]
+There is existing application code and a private offline component demonstration, dated 18 October 2026. It uses captured output to show custody, repair, scripted review and export verification. Eight focused tests and four directory and ZIP checks passed. No model was called. Installed startup, live AI and ChatGPT operation, human usefulness and P2P operation are still to demonstrate. Reviewer repository access is pending.
+
+[RETURN TO CAMERA]
+This is a project with concrete mechanisms and unfinished delivery work. The next contribution should close a defined gap, demonstrate a useful result or show where a proposed approach is unnecessary. The description identifies the dated evidence and its access limits, alongside the white paper.
+
+[SECTION 14 — A bounded collaboration]
+[SHOW SLIDE 14]
+There are several useful entry points. Distributed-systems and security researchers could study scoped exchange and revocation. AI researchers could compare a single assessor with the triadic loop under matched budgets. Human-computer interaction researchers could test evidence comprehension and effective correction. Research software engineers could help demonstrate a reproducible installation and task-to-export journey.
+
+[KEEP SLIDE 14]
+Existing work provides starting points: RO-Crate for research metadata, local-first research for ownership and collaboration, and Petals for collaborative model inference. None by itself establishes this proposed combination.
+
+[RETURN TO CAMERA]
+If you lead a lab, supervise a capstone or build research software, I'd like to discuss one focused contribution. We should agree on the question, deliverable, supervision, resources, attribution and publication rights. A student should not quietly inherit responsibility for finishing the entire product. A simpler solution or a publishable negative result is welcome.
+
+[SHOW SLIDE 14 FOR THE CLOSE]
+The ambition is to benefit from one another's work while preserving local control and the ability to recognize a mistake. Help us turn the next piece into something people can use and evaluate.
+
+[HOLD SLIDE 14 FOR ABOUT 3 SECONDS AFTER THE LAST SPOKEN LINE]

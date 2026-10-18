@@ -1,0 +1,86 @@
+{
+  "edition_date_utc": "2026-10-18",
+  "purpose": "Private reviewer-media preparation; reviewer access pending. No publication or access change.",
+  "runtime_evidence_commit": "ed5bce3de817b91898f2d63f4b6a8b7952bf1952",
+  "original_app_status_commit": "37583fd91ff7f0d912256c10fea89ff6896763cf",
+  "files": [
+    {
+      "file": "Control_Anchor_Introduction_Teleprompter_Reviewer_Update.txt",
+      "bytes": 7488,
+      "sha256": "a708960a05468aef0124a1a1ea8a0c346e86eb0ee50f37b41c2f615f0254c298",
+      "source_filename": "Control_Anchor_Introduction_Teleprompter_Slide_Edition(1).txt",
+      "source_sha256": "509bee2c2342965ee29e360faa27566b1d79707de7caefd7c4c4804615e01fd8",
+      "treatment": "revised successor"
+    },
+    {
+      "file": "Control_Anchor_Video_Scripts_Reviewer_Update.docx",
+      "bytes": 50643,
+      "sha256": "02e8bbe5651a1b357cef45202396cf6bf6a0c22bf1aa178745dff94462e025d0",
+      "source_filename": "Control_Anchor_Video_Scripts_Slide_Edition(1).docx",
+      "source_sha256": "5216055390f505dcdafe3bab55316c062bf2a2708a6e9743ed41e8de74d5513b",
+      "treatment": "revised successor"
+    },
+    {
+      "file": "Control_Anchor_Video_Slides_Reviewer_Update.pptx",
+      "bytes": 55598,
+      "sha256": "437141f8a128347e2057fc4e6eeb6d9dd75732a3315cedd8cc125fb0d7c2ff83",
+      "source_filename": "Control_Anchor_Video_Slides(1).pptx",
+      "source_sha256": "e1c8e8e2a23bb27dc36a02ff75bf6dfb6a4aa6ebd56ea985bedc42154f119515",
+      "treatment": "revised successor"
+    },
+    {
+      "file": "Media_Change_and_Evidence_Notes.md",
+      "bytes": 3319,
+      "sha256": "8eb32546b7c45de0d2c26b35e5aee7a1b4f4edaebb8eccf2b27549a27ae909e8",
+      "treatment": "new change and evidence notes"
+    },
+    {
+      "file": "Triadic_Cognition_P2P_Video_Slides_Reviewer_Update.pptx",
+      "bytes": 74043,
+      "sha256": "6c529d48cc3129f56a53daafef2f32018d2159a45409098be178762aedf03478",
+      "source_filename": "Triadic_Cognition_P2P_Video_Slides(1).pptx",
+      "source_sha256": "18d9909dcd940081eb72f1c342e197b0c1171b19a0e2b194ade65273526d0200",
+      "treatment": "revised successor"
+    },
+    {
+      "file": "Triadic_P2P_Teleprompter_Reviewer_Update.txt",
+      "bytes": 11976,
+      "sha256": "62ca901d4fc6c0469f1d11072eda490090149b7613955c7cccc06857d9bb527b",
+      "source_filename": "Triadic_P2P_Teleprompter_Slide_Edition(1).txt",
+      "source_sha256": "b6e97cf6cb29d9f5b754b6d81d2393eac9d043fa615030878fb10f35823c054b",
+      "treatment": "revised successor"
+    },
+    {
+      "file": "Triadic_P2P_Video_Script_Reviewer_Update.docx",
+      "bytes": 52244,
+      "sha256": "7363b249d7f66cdacfb23d919392eaeb2bbeeb3b81f3c690ae5e5fbaa3457f52",
+      "source_filename": "Triadic_P2P_Video_Script_Slide_Edition(1).docx",
+      "source_sha256": "258f4d3383af3f563927e82f8667ab09670696faa1645bb23059da817e327a20",
+      "treatment": "revised successor"
+    },
+    {
+      "file": "covers/Control Anchor_ Their AI, Your Rules.png",
+      "bytes": 1847345,
+      "sha256": "651a61d158c80f09c6d0e780d428f4d714194beb13b7ce1fb04fc2743d9e8f6d",
+      "source_filename": "Control Anchor_ Their AI, Your Rules.png",
+      "source_sha256": "651a61d158c80f09c6d0e780d428f4d714194beb13b7ce1fb04fc2743d9e8f6d",
+      "treatment": "unchanged copy"
+    },
+    {
+      "file": "covers/Control Anchor_ Your AI, Your Rules-1.png",
+      "bytes": 1879990,
+      "sha256": "e6551ef21c10bfd7c39538349dcb18e1a8995d1af21712621267f1648f741ce3",
+      "source_filename": "Control Anchor_ Your AI, Your Rules-1.png",
+      "source_sha256": "e6551ef21c10bfd7c39538349dcb18e1a8995d1af21712621267f1648f741ce3",
+      "treatment": "unchanged copy"
+    },
+    {
+      "file": "covers/Triadic AI Peer-to-Peer Network-2.png",
+      "bytes": 1976241,
+      "sha256": "03b1d6dca9a32072e7a203856b6ccf48cbe57983927487c1d43ab72ddda20bc6",
+      "source_filename": "Triadic AI Peer-to-Peer Network-2.png",
+      "source_sha256": "03b1d6dca9a32072e7a203856b6ccf48cbe57983927487c1d43ab72ddda20bc6",
+      "treatment": "unchanged copy"
+    }
+  ]
+}
