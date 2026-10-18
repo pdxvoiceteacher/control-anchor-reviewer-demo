@@ -1,0 +1,173 @@
+{
+  "$id": "https://ultraverbaluxmentis.org/schemas/aep01/period-control-summary.v1.schema.json",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": false,
+  "properties": {
+    "assurance_status": {
+      "const": "NO_ASSURANCE_PROVIDED"
+    },
+    "authority_effect": {
+      "const": "NONE"
+    },
+    "control_results": {
+      "properties": {
+        "ERROR": {
+          "minimum": 0,
+          "type": "integer"
+        },
+        "FAIL": {
+          "minimum": 0,
+          "type": "integer"
+        },
+        "HOLD": {
+          "minimum": 0,
+          "type": "integer"
+        },
+        "NOT_EXECUTED": {
+          "minimum": 0,
+          "type": "integer"
+        },
+        "PASS": {
+          "minimum": 0,
+          "type": "integer"
+        }
+      },
+      "required": [
+        "PASS",
+        "FAIL",
+        "HOLD",
+        "NOT_EXECUTED",
+        "ERROR"
+      ],
+      "type": "object"
+    },
+    "end_utc": {
+      "format": "date-time",
+      "type": "string"
+    },
+    "inclusion_policy_version": {
+      "type": "string"
+    },
+    "management_representation_status": {
+      "enum": [
+        "NOT_PREPARED",
+        "DRAFT",
+        "HUMAN_ADOPTED_UNSIGNED",
+        "HUMAN_SIGNED"
+      ]
+    },
+    "metrics": {
+      "items": {
+        "type": "object"
+      },
+      "type": "array"
+    },
+    "open_exception_count": {
+      "minimum": 0,
+      "type": "integer"
+    },
+    "parent_revision_id": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "period_id": {
+      "type": "string"
+    },
+    "population_counts": {
+      "properties": {
+        "created": {
+          "minimum": 0,
+          "type": "integer"
+        },
+        "incomplete": {
+          "minimum": 0,
+          "type": "integer"
+        },
+        "refused": {
+          "minimum": 0,
+          "type": "integer"
+        },
+        "repair_children": {
+          "minimum": 0,
+          "type": "integer"
+        },
+        "sealed": {
+          "minimum": 0,
+          "type": "integer"
+        }
+      },
+      "required": [
+        "created",
+        "sealed",
+        "refused",
+        "incomplete",
+        "repair_children"
+      ],
+      "type": "object"
+    },
+    "population_identity": {
+      "pattern": "^[0-9a-f]{64}$",
+      "type": "string"
+    },
+    "preparer_posture": {
+      "type": "string"
+    },
+    "reconciliation": {
+      "properties": {
+        "status": {
+          "enum": [
+            "PASS",
+            "FAIL",
+            "HOLD"
+          ]
+        },
+        "unexplained_difference_count": {
+          "minimum": 0,
+          "type": "integer"
+        }
+      },
+      "required": [
+        "status",
+        "unexplained_difference_count"
+      ],
+      "type": "object"
+    },
+    "revision_id": {
+      "type": "string"
+    },
+    "revision_number": {
+      "minimum": 1,
+      "type": "integer"
+    },
+    "schema_id": {
+      "const": "uvlm.triadicbrain.aep01.period_control_summary.v1"
+    },
+    "start_utc": {
+      "format": "date-time",
+      "type": "string"
+    }
+  },
+  "required": [
+    "schema_id",
+    "period_id",
+    "revision_id",
+    "revision_number",
+    "start_utc",
+    "end_utc",
+    "inclusion_policy_version",
+    "population_identity",
+    "population_counts",
+    "control_results",
+    "open_exception_count",
+    "metrics",
+    "reconciliation",
+    "preparer_posture",
+    "management_representation_status",
+    "assurance_status",
+    "authority_effect"
+  ],
+  "title": "AEP01 Period Control Summary",
+  "type": "object"
+}

@@ -1,0 +1,111 @@
+{
+  "$id": "https://ultraverbaluxmentis.org/schemas/aep01/management-representation.v1.schema.json",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": false,
+  "properties": {
+    "adoption_status": {
+      "enum": [
+        "DRAFT",
+        "HUMAN_ADOPTED_UNSIGNED",
+        "HUMAN_SIGNED"
+      ]
+    },
+    "assertions": {
+      "items": {
+        "type": "string"
+      },
+      "type": "array"
+    },
+    "authority_effect": {
+      "const": "MANAGEMENT_REPRESENTATION_ONLY"
+    },
+    "criteria_references": {
+      "items": {
+        "type": "object"
+      },
+      "type": "array"
+    },
+    "evidence_package_sha256": {
+      "pattern": "^[0-9a-f]{64}$",
+      "type": "string"
+    },
+    "known_exceptions": {
+      "items": {
+        "type": "string"
+      },
+      "type": "array"
+    },
+    "nonauthority": {
+      "type": "string"
+    },
+    "organization": {
+      "properties": {
+        "name": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "name"
+      ],
+      "type": "object"
+    },
+    "period_id": {
+      "type": "string"
+    },
+    "representation_id": {
+      "type": "string"
+    },
+    "responsible_person": {
+      "properties": {
+        "actor_id": {
+          "type": "string"
+        },
+        "authentication_posture": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        },
+        "role": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "actor_id",
+        "name",
+        "role"
+      ],
+      "type": "object"
+    },
+    "schema_id": {
+      "const": "uvlm.triadicbrain.aep01.management_representation.v1"
+    },
+    "scope": {
+      "type": "string"
+    },
+    "signature_posture": {
+      "enum": [
+        "UNSIGNED",
+        "EXTERNAL_SIGNATURE"
+      ]
+    }
+  },
+  "required": [
+    "schema_id",
+    "representation_id",
+    "organization",
+    "responsible_person",
+    "period_id",
+    "scope",
+    "criteria_references",
+    "assertions",
+    "known_exceptions",
+    "evidence_package_sha256",
+    "adoption_status",
+    "signature_posture",
+    "nonauthority",
+    "authority_effect"
+  ],
+  "title": "AEP01 Management Representation",
+  "type": "object"
+}

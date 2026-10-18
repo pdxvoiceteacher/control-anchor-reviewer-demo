@@ -1,0 +1,1 @@
+SYNTHETIC PROMPT: Summarize the fictional workshop attendance and retain the uncertainty that these are session counts, not unique people.

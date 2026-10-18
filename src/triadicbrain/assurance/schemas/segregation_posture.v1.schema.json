@@ -1,0 +1,141 @@
+{
+  "$id": "https://ultraverbaluxmentis.org/schemas/aep01/segregation-posture.v1.schema.json",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": false,
+  "properties": {
+    "authority_effect": {
+      "const": "NONE"
+    },
+    "environment": {
+      "type": "object"
+    },
+    "nonauthority": {
+      "minLength": 20,
+      "type": "string"
+    },
+    "planes": {
+      "items": {
+        "additionalProperties": false,
+        "properties": {
+          "actor_id": {
+            "type": "string"
+          },
+          "allowed_actions": {
+            "items": {
+              "type": "string"
+            },
+            "type": "array"
+          },
+          "denied_actions": {
+            "items": {
+              "type": "string"
+            },
+            "minItems": 1,
+            "type": "array"
+          },
+          "os_principal": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "plane": {
+            "enum": [
+              "AI_EXECUTION",
+              "INGRESS_QUARANTINE",
+              "CONTROL_EVIDENCE",
+              "AUDIT_ORIENTATION",
+              "HUMAN_DECISION",
+              "PRACTITIONER_ACCESS"
+            ]
+          }
+        },
+        "required": [
+          "plane",
+          "actor_id",
+          "os_principal",
+          "allowed_actions",
+          "denied_actions"
+        ],
+        "type": "object"
+      },
+      "minItems": 6,
+      "type": "array"
+    },
+    "posture": {
+      "enum": [
+        "LOGICAL_ROLE_SEPARATION",
+        "SUBPROCESS_SAME_OS_PRINCIPAL",
+        "OS_PRINCIPAL_SEPARATED",
+        "REMOTE_EVIDENCE_SERVICE"
+      ]
+    },
+    "residual_risks": {
+      "items": {
+        "type": "string"
+      },
+      "minItems": 1,
+      "type": "array"
+    },
+    "schema_id": {
+      "const": "uvlm.triadicbrain.aep01.segregation_posture.v1"
+    },
+    "signing_posture": {
+      "enum": [
+        "HASH_CHAIN_ONLY",
+        "HMAC_TEST_ONLY",
+        "ED25519_EXTERNAL_SIGNER",
+        "SCITT_EXTERNAL_RECEIPT"
+      ]
+    },
+    "tested_denials": {
+      "items": {
+        "properties": {
+          "evidence_sha256": {
+            "pattern": "^[0-9a-f]{64}$",
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "result": {
+            "enum": [
+              "PASS",
+              "FAIL",
+              "NOT_EXECUTED",
+              "ERROR"
+            ]
+          },
+          "test_id": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "test_id",
+          "result",
+          "evidence_sha256"
+        ],
+        "type": "object"
+      },
+      "type": "array"
+    },
+    "transaction_or_period_id": {
+      "pattern": "^[A-Za-z0-9][A-Za-z0-9._:-]{0,127}$",
+      "type": "string"
+    }
+  },
+  "required": [
+    "schema_id",
+    "transaction_or_period_id",
+    "posture",
+    "planes",
+    "tested_denials",
+    "residual_risks",
+    "environment",
+    "signing_posture",
+    "authority_effect",
+    "nonauthority"
+  ],
+  "title": "AEP01 Segregation Posture",
+  "type": "object"
+}

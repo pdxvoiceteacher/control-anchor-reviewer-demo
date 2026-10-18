@@ -1,0 +1,772 @@
+{
+  "format_version": 1,
+  "source_repository": "pdxvoiceteacher/triadicbrain-open-alpha",
+  "source_commit": "139932846cb1b6bf1571158464d89513d4e381f8",
+  "candidate_visibility": "PRIVATE",
+  "publication_review": "HOLD",
+  "source_history_copied": false,
+  "copied_files": [
+    {
+      "path": "src/triadicbrain/__init__.py",
+      "original_path": "src/triadicbrain/__init__.py",
+      "original_git_blob": "139b9b76a35ecbc7603b1a269ce0fe183d894c90",
+      "original_sha256": "0ad79c516f0f4b7e7ce4813dcb5d5058868ae8ec4010e9887dfd83fe4ef984d0",
+      "candidate_sha256": "0ad79c516f0f4b7e7ce4813dcb5d5058868ae8ec4010e9887dfd83fe4ef984d0",
+      "bytes": 165,
+      "modifications": "NONE; exact bytes",
+      "license": "MPL-2.0",
+      "publication_review": "HOLD"
+    },
+    {
+      "path": "src/triadicbrain/assurance/__init__.py",
+      "original_path": "src/triadicbrain/assurance/__init__.py",
+      "original_git_blob": "9068036c20364807d6af156bdf4c0410ada045fb",
+      "original_sha256": "f7bcf2ec12c8290ab77d015e64848ceae158ec79032275e15edf9c7bf85cb019",
+      "candidate_sha256": "f7bcf2ec12c8290ab77d015e64848ceae158ec79032275e15edf9c7bf85cb019",
+      "bytes": 1250,
+      "modifications": "NONE; exact bytes",
+      "license": "MPL-2.0",
+      "publication_review": "HOLD"
+    },
+    {
+      "path": "src/triadicbrain/assurance/authorization.py",
+      "original_path": "src/triadicbrain/assurance/authorization.py",
+      "original_git_blob": "4923e2496d4af72778cfdc5e72659413d398fdd8",
+      "original_sha256": "fe2f7cc5ed90a890eb86c28719a8a91bb8214b944a5b6c7627d6791006437e1e",
+      "candidate_sha256": "fe2f7cc5ed90a890eb86c28719a8a91bb8214b944a5b6c7627d6791006437e1e",
+      "bytes": 8653,
+      "modifications": "NONE; exact bytes",
+      "license": "MPL-2.0",
+      "publication_review": "HOLD"
+    },
+    {
+      "path": "src/triadicbrain/assurance/canonical.py",
+      "original_path": "src/triadicbrain/assurance/canonical.py",
+      "original_git_blob": "3cf499e4e699f3c50ad4539304e652a58952ab25",
+      "original_sha256": "ef926e95cb2e9bd3b78f43e97eb54353e375bcdf6bebcbdade21264e31f35294",
+      "candidate_sha256": "ef926e95cb2e9bd3b78f43e97eb54353e375bcdf6bebcbdade21264e31f35294",
+      "bytes": 18451,
+      "modifications": "NONE; exact bytes",
+      "license": "MPL-2.0",
+      "publication_review": "HOLD"
+    },
+    {
+      "path": "src/triadicbrain/assurance/claims.py",
+      "original_path": "src/triadicbrain/assurance/claims.py",
+      "original_git_blob": "f73e1b1faf63424e1c0b89683952b4f623de3fac",
+      "original_sha256": "ece8fb10ca2b7b728157cbef56019bf70e09722fac4558edb11220486f25960d",
+      "candidate_sha256": "ece8fb10ca2b7b728157cbef56019bf70e09722fac4558edb11220486f25960d",
+      "bytes": 8116,
+      "modifications": "NONE; exact bytes",
+      "license": "MPL-2.0",
+      "publication_review": "HOLD"
+    },
+    {
+      "path": "src/triadicbrain/assurance/controls.py",
+      "original_path": "src/triadicbrain/assurance/controls.py",
+      "original_git_blob": "4e3e92b9f12e9708883e5a8d558f92aaba5a03d9",
+      "original_sha256": "8a52c8d8ec9a97b6c3e8729c6b791b6568f85b7504c8d461785a814aeaf65d79",
+      "candidate_sha256": "8a52c8d8ec9a97b6c3e8729c6b791b6568f85b7504c8d461785a814aeaf65d79",
+      "bytes": 16160,
+      "modifications": "NONE; exact bytes",
+      "license": "MPL-2.0",
+      "publication_review": "HOLD"
+    },
+    {
+      "path": "src/triadicbrain/assurance/custody.py",
+      "original_path": "src/triadicbrain/assurance/custody.py",
+      "original_git_blob": "f2ecee31b9205666138c66204db966f788b32b4b",
+      "original_sha256": "29525937054e9ce0ef87762c71e7063a8b373f911ae15bf4ddf70a57d999628a",
+      "candidate_sha256": "29525937054e9ce0ef87762c71e7063a8b373f911ae15bf4ddf70a57d999628a",
+      "bytes": 14752,
+      "modifications": "NONE; exact bytes",
+      "license": "MPL-2.0",
+      "publication_review": "HOLD"
+    },
+    {
+      "path": "src/triadicbrain/assurance/metrics.py",
+      "original_path": "src/triadicbrain/assurance/metrics.py",
+      "original_git_blob": "07b6fbbb5013e61c293988c2a2c05cae54d3ea1e",
+      "original_sha256": "07096ef186516d1eca871c082fce7d718323bc2886b2d189d93cfe918ad5e543",
+      "candidate_sha256": "07096ef186516d1eca871c082fce7d718323bc2886b2d189d93cfe918ad5e543",
+      "bytes": 26481,
+      "modifications": "NONE; exact bytes",
+      "license": "MPL-2.0",
+      "publication_review": "HOLD"
+    },
+    {
+      "path": "src/triadicbrain/assurance/models.py",
+      "original_path": "src/triadicbrain/assurance/models.py",
+      "original_git_blob": "c4c98a1c7d9bfa46a901459a0660ab737229726f",
+      "original_sha256": "916f7d8f2dd00e2200dfaabe37c89b7c5d361927cb64a169523fa2d1d9de0da9",
+      "candidate_sha256": "916f7d8f2dd00e2200dfaabe37c89b7c5d361927cb64a169523fa2d1d9de0da9",
+      "bytes": 10528,
+      "modifications": "NONE; exact bytes",
+      "license": "MPL-2.0",
+      "publication_review": "HOLD"
+    },
+    {
+      "path": "src/triadicbrain/assurance/period.py",
+      "original_path": "src/triadicbrain/assurance/period.py",
+      "original_git_blob": "0b1d280954cafc8d3724aed8a2c9eb9d4563f372",
+      "original_sha256": "09fb4d558ab8e740e9112943eab936be86d824fa87eea2f29bae36e728022f41",
+      "candidate_sha256": "09fb4d558ab8e740e9112943eab936be86d824fa87eea2f29bae36e728022f41",
+      "bytes": 59921,
+      "modifications": "NONE; exact bytes",
+      "license": "MPL-2.0",
+      "publication_review": "HOLD"
+    },
+    {
+      "path": "src/triadicbrain/assurance/practitioner.py",
+      "original_path": "src/triadicbrain/assurance/practitioner.py",
+      "original_git_blob": "cfacaf752086437e4db184efbf562981b3189d98",
+      "original_sha256": "a4485726c9e6199c8d2fe73e644278343dab141a48b54622d49c487933495f62",
+      "candidate_sha256": "a4485726c9e6199c8d2fe73e644278343dab141a48b54622d49c487933495f62",
+      "bytes": 34505,
+      "modifications": "NONE; exact bytes",
+      "license": "MPL-2.0",
+      "publication_review": "HOLD"
+    },
+    {
+      "path": "src/triadicbrain/assurance/production_cli.py",
+      "original_path": "src/triadicbrain/assurance/production_cli.py",
+      "original_git_blob": "e38865f04567f6b03224dbe6bd9d0a47d23f14fd",
+      "original_sha256": "c739f2ed1993c9b7e33a620b4fc94e2361a906b92bfc84f312a72c8eff2ec978",
+      "candidate_sha256": "c739f2ed1993c9b7e33a620b4fc94e2361a906b92bfc84f312a72c8eff2ec978",
+      "bytes": 14415,
+      "modifications": "NONE; exact bytes",
+      "license": "MPL-2.0",
+      "publication_review": "HOLD"
+    },
+    {
+      "path": "src/triadicbrain/assurance/reporting.py",
+      "original_path": "src/triadicbrain/assurance/reporting.py",
+      "original_git_blob": "3f6c05b025fa0b7fb067feb30c9e9c960d32e2f4",
+      "original_sha256": "665416a59116f05cc53ce4aabcad067ad971efecaee6f34ed9feabe36ccc04cf",
+      "candidate_sha256": "665416a59116f05cc53ce4aabcad067ad971efecaee6f34ed9feabe36ccc04cf",
+      "bytes": 36738,
+      "modifications": "NONE; exact bytes",
+      "license": "MPL-2.0",
+      "publication_review": "HOLD"
+    },
+    {
+      "path": "src/triadicbrain/assurance/review_policy.py",
+      "original_path": "src/triadicbrain/assurance/review_policy.py",
+      "original_git_blob": "cf07dd0307836dae0558f3e038ec29ffd62d5daf",
+      "original_sha256": "f1ce8fe84c35338fd9f3053c84783a7981ffc57cd46cd14e2e28fcb6bd74edcb",
+      "candidate_sha256": "f1ce8fe84c35338fd9f3053c84783a7981ffc57cd46cd14e2e28fcb6bd74edcb",
+      "bytes": 23981,
+      "modifications": "NONE; exact bytes",
+      "license": "MPL-2.0",
+      "publication_review": "HOLD"
+    },
+    {
+      "path": "src/triadicbrain/assurance/schema_validation.py",
+      "original_path": "src/triadicbrain/assurance/schema_validation.py",
+      "original_git_blob": "9d439fabd778bf46ff9abec8d1ccacc849774548",
+      "original_sha256": "550f424c091785a39331fd9c3baf1bc8acbeec55ed89a8c4b90f96f238fee24c",
+      "candidate_sha256": "550f424c091785a39331fd9c3baf1bc8acbeec55ed89a8c4b90f96f238fee24c",
+      "bytes": 35689,
+      "modifications": "NONE; exact bytes",
+      "license": "MPL-2.0",
+      "publication_review": "HOLD"
+    },
+    {
+      "path": "src/triadicbrain/assurance/transaction.py",
+      "original_path": "src/triadicbrain/assurance/transaction.py",
+      "original_git_blob": "ce1a971558f1bc8d8c3c760b31e7f084baa4d24a",
+      "original_sha256": "3c3cf9827a92faf0ce1a19a2f23512d02d4169d78aece71dba5121006325b159",
+      "candidate_sha256": "3c3cf9827a92faf0ce1a19a2f23512d02d4169d78aece71dba5121006325b159",
+      "bytes": 131403,
+      "modifications": "NONE; exact bytes",
+      "license": "MPL-2.0",
+      "publication_review": "HOLD"
+    },
+    {
+      "path": "src/triadicbrain/assurance/transaction_package.py",
+      "original_path": "src/triadicbrain/assurance/transaction_package.py",
+      "original_git_blob": "7a2ef8b936fed921b911b0439bca7f043dc5d121",
+      "original_sha256": "594064af000a66ab65bbc5fbbccb61c9a716a0a8d81a56d6326e754292f6b96b",
+      "candidate_sha256": "594064af000a66ab65bbc5fbbccb61c9a716a0a8d81a56d6326e754292f6b96b",
+      "bytes": 21701,
+      "modifications": "NONE; exact bytes",
+      "license": "MPL-2.0",
+      "publication_review": "HOLD"
+    },
+    {
+      "path": "src/triadicbrain/assurance/transition_policy.py",
+      "original_path": "src/triadicbrain/assurance/transition_policy.py",
+      "original_git_blob": "ff0daed69f869a23b587f66f6e45e4b8e423b494",
+      "original_sha256": "a42470b30e2626f61ab6782f15de90af63c0228ecc5b83c76788edcb9807c2a7",
+      "candidate_sha256": "a42470b30e2626f61ab6782f15de90af63c0228ecc5b83c76788edcb9807c2a7",
+      "bytes": 9518,
+      "modifications": "NONE; exact bytes",
+      "license": "MPL-2.0",
+      "publication_review": "HOLD"
+    },
+    {
+      "path": "src/triadicbrain/assurance/verification.py",
+      "original_path": "src/triadicbrain/assurance/verification.py",
+      "original_git_blob": "1c11a05b500093f6cd192950f82ef5e8b707f8ab",
+      "original_sha256": "9c6593d53127acb596429490c149380d981d43c702ba3e1304d584bc126474e6",
+      "candidate_sha256": "9c6593d53127acb596429490c149380d981d43c702ba3e1304d584bc126474e6",
+      "bytes": 77598,
+      "modifications": "NONE; exact bytes",
+      "license": "MPL-2.0",
+      "publication_review": "HOLD"
+    },
+    {
+      "path": "src/triadicbrain/assurance/web.py",
+      "original_path": "src/triadicbrain/assurance/web.py",
+      "original_git_blob": "d1dee58a5576976c8c39ebd2c0a339f6939ef241",
+      "original_sha256": "325f7d6cd427d3d4fa1690b8cb4b0dac203288ffb9e9925477f28e02e1fcfbd9",
+      "candidate_sha256": "325f7d6cd427d3d4fa1690b8cb4b0dac203288ffb9e9925477f28e02e1fcfbd9",
+      "bytes": 57365,
+      "modifications": "NONE; exact bytes",
+      "license": "MPL-2.0",
+      "publication_review": "HOLD"
+    },
+    {
+      "path": "src/triadicbrain/assurance/schemas/control_execution_result.v1.schema.json",
+      "original_path": "src/triadicbrain/assurance/schemas/control_execution_result.v1.schema.json",
+      "original_git_blob": "86d05687d60732174e040032973e8463f7b31604",
+      "original_sha256": "5ca1bc104cc78c34d3e75c71c14685ab5beb6c31161ce32141c1a4acc7cff96a",
+      "candidate_sha256": "5ca1bc104cc78c34d3e75c71c14685ab5beb6c31161ce32141c1a4acc7cff96a",
+      "bytes": 3245,
+      "modifications": "NONE; exact bytes",
+      "license": "MPL-2.0",
+      "publication_review": "HOLD"
+    },
+    {
+      "path": "src/triadicbrain/assurance/schemas/custody_event.v1.schema.json",
+      "original_path": "src/triadicbrain/assurance/schemas/custody_event.v1.schema.json",
+      "original_git_blob": "98f4a03be41c50bce0d604642e72bde6c8948d72",
+      "original_sha256": "d28d406fbf9856eb702eb2e397a1c2ccf96db997012e853cd9f4b84fe232c1a1",
+      "candidate_sha256": "d28d406fbf9856eb702eb2e397a1c2ccf96db997012e853cd9f4b84fe232c1a1",
+      "bytes": 2351,
+      "modifications": "NONE; exact bytes",
+      "license": "MPL-2.0",
+      "publication_review": "HOLD"
+    },
+    {
+      "path": "src/triadicbrain/assurance/schemas/evidence_package_manifest.v1.schema.json",
+      "original_path": "src/triadicbrain/assurance/schemas/evidence_package_manifest.v1.schema.json",
+      "original_git_blob": "2bfa0a84ef62205105cb9028f8ccb143efbb764e",
+      "original_sha256": "14cd6f1c57a038f8b7eda6a45beab474b52a4cd1f22712eda089ee74c1ec7438",
+      "candidate_sha256": "14cd6f1c57a038f8b7eda6a45beab474b52a4cd1f22712eda089ee74c1ec7438",
+      "bytes": 3551,
+      "modifications": "NONE; exact bytes",
+      "license": "MPL-2.0",
+      "publication_review": "HOLD"
+    },
+    {
+      "path": "src/triadicbrain/assurance/schemas/management_representation.v1.schema.json",
+      "original_path": "src/triadicbrain/assurance/schemas/management_representation.v1.schema.json",
+      "original_git_blob": "4fbb0743e07a3b7472c01a587fb3ce63dfd36c78",
+      "original_sha256": "e406d764c0c40f60ddd9140d7a7896c902425af450c6075ee476b5b0ce981247",
+      "candidate_sha256": "e406d764c0c40f60ddd9140d7a7896c902425af450c6075ee476b5b0ce981247",
+      "bytes": 2240,
+      "modifications": "NONE; exact bytes",
+      "license": "MPL-2.0",
+      "publication_review": "HOLD"
+    },
+    {
+      "path": "src/triadicbrain/assurance/schemas/open_world_proof_receipt.v1.schema.json",
+      "original_path": "src/triadicbrain/assurance/schemas/open_world_proof_receipt.v1.schema.json",
+      "original_git_blob": "badd997cff3b390c9e6e88fa8cd491b90162c55d",
+      "original_sha256": "4df3283fa8b370fa77a0472d41fbea5244631f272916078bf0fe5450d0889d36",
+      "candidate_sha256": "4df3283fa8b370fa77a0472d41fbea5244631f272916078bf0fe5450d0889d36",
+      "bytes": 2782,
+      "modifications": "NONE; exact bytes",
+      "license": "MPL-2.0",
+      "publication_review": "HOLD"
+    },
+    {
+      "path": "src/triadicbrain/assurance/schemas/period_control_summary.v1.schema.json",
+      "original_path": "src/triadicbrain/assurance/schemas/period_control_summary.v1.schema.json",
+      "original_git_blob": "6fd949c25844bae027e46646cfe11af539c615a4",
+      "original_sha256": "c474eb2f25a178725b70becfe84206a9507620627e50792a2976d253ab63f0fe",
+      "candidate_sha256": "c474eb2f25a178725b70becfe84206a9507620627e50792a2976d253ab63f0fe",
+      "bytes": 3558,
+      "modifications": "NONE; exact bytes",
+      "license": "MPL-2.0",
+      "publication_review": "HOLD"
+    },
+    {
+      "path": "src/triadicbrain/assurance/schemas/poc01_final_base_receipt.v1.schema.json",
+      "original_path": "src/triadicbrain/assurance/schemas/poc01_final_base_receipt.v1.schema.json",
+      "original_git_blob": "f0f32e8db604bfe05aa5da36088879aec8f86870",
+      "original_sha256": "ce9bd6f9ccd4044ea3c1540c1a95c22da5339a88c69b620c272b7c3635728f32",
+      "candidate_sha256": "ce9bd6f9ccd4044ea3c1540c1a95c22da5339a88c69b620c272b7c3635728f32",
+      "bytes": 2142,
+      "modifications": "NONE; exact bytes",
+      "license": "MPL-2.0",
+      "publication_review": "HOLD"
+    },
+    {
+      "path": "src/triadicbrain/assurance/schemas/practitioner_annotation.v1.schema.json",
+      "original_path": "src/triadicbrain/assurance/schemas/practitioner_annotation.v1.schema.json",
+      "original_git_blob": "da47ebebd7a5de90a91f697e217a68c6c0992560",
+      "original_sha256": "bfea54065bbf0ca4d49fa1be1b7849a9d0c5abdeb33ac5c607305b375ea5eb6b",
+      "candidate_sha256": "bfea54065bbf0ca4d49fa1be1b7849a9d0c5abdeb33ac5c607305b375ea5eb6b",
+      "bytes": 1920,
+      "modifications": "NONE; exact bytes",
+      "license": "MPL-2.0",
+      "publication_review": "HOLD"
+    },
+    {
+      "path": "src/triadicbrain/assurance/schemas/provider_adapter_manifest.v1.schema.json",
+      "original_path": "src/triadicbrain/assurance/schemas/provider_adapter_manifest.v1.schema.json",
+      "original_git_blob": "04312eda0a38cac9a758b0bf386dafda293250cc",
+      "original_sha256": "b1d28d4f994700879c9abea27b75e8a8f0a81d71ce17af67a2a2dc58170ecf33",
+      "candidate_sha256": "b1d28d4f994700879c9abea27b75e8a8f0a81d71ce17af67a2a2dc58170ecf33",
+      "bytes": 1531,
+      "modifications": "NONE; exact bytes",
+      "license": "MPL-2.0",
+      "publication_review": "HOLD"
+    },
+    {
+      "path": "src/triadicbrain/assurance/schemas/retention_record.v1.schema.json",
+      "original_path": "src/triadicbrain/assurance/schemas/retention_record.v1.schema.json",
+      "original_git_blob": "2330f096d3604dd83958f633dea37d9b5b430651",
+      "original_sha256": "707b622c9242b35a7e5f989c2b8c3694bf12aec8342f63e39824607fff65f196",
+      "candidate_sha256": "707b622c9242b35a7e5f989c2b8c3694bf12aec8342f63e39824607fff65f196",
+      "bytes": 1244,
+      "modifications": "NONE; exact bytes",
+      "license": "MPL-2.0",
+      "publication_review": "HOLD"
+    },
+    {
+      "path": "src/triadicbrain/assurance/schemas/segregation_posture.v1.schema.json",
+      "original_path": "src/triadicbrain/assurance/schemas/segregation_posture.v1.schema.json",
+      "original_git_blob": "aab1df71a99dd561792d76a2857a599cf19c8622",
+      "original_sha256": "cddd13b6ee2a928231963f058553ceb48d4dd35c97387c44e360540487e9cdc5",
+      "candidate_sha256": "cddd13b6ee2a928231963f058553ceb48d4dd35c97387c44e360540487e9cdc5",
+      "bytes": 3137,
+      "modifications": "NONE; exact bytes",
+      "license": "MPL-2.0",
+      "publication_review": "HOLD"
+    },
+    {
+      "path": "src/triadicbrain/assurance/schemas/transaction_registry_row.v1.schema.json",
+      "original_path": "src/triadicbrain/assurance/schemas/transaction_registry_row.v1.schema.json",
+      "original_git_blob": "673b56bbce73839cd4692ecd1ea17e84b7b2b09f",
+      "original_sha256": "f06c1b9683b8d373ff9f3e9f11d9de5091afbba8a700db83b9e7eb9dc61ba9cb",
+      "candidate_sha256": "f06c1b9683b8d373ff9f3e9f11d9de5091afbba8a700db83b9e7eb9dc61ba9cb",
+      "bytes": 1406,
+      "modifications": "NONE; exact bytes",
+      "license": "MPL-2.0",
+      "publication_review": "HOLD"
+    },
+    {
+      "path": "LICENSE",
+      "original_path": "LICENSE",
+      "original_git_blob": "d0a1fa1482eea82e19510e7920cbe3a03e41f691",
+      "original_sha256": "3f3d9e0024b1921b067d6f7f88deb4a60cbe7a78e76c64e3f1d7fc3b779b9d04",
+      "candidate_sha256": "3f3d9e0024b1921b067d6f7f88deb4a60cbe7a78e76c64e3f1d7fc3b779b9d04",
+      "bytes": 16726,
+      "modifications": "NONE; exact bytes",
+      "license": "MPL-2.0",
+      "publication_review": "HOLD"
+    }
+  ],
+  "new_or_adapted_files": [
+    {
+      "path": ".gitattributes",
+      "candidate_sha256": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da",
+      "origin": "NEW",
+      "source_basis_paths": [],
+      "modifications": "New demo preparation material; AI-assisted under human commissioning.",
+      "license": "MPL-2.0 to extent rights exist and covered",
+      "publication_review": "HOLD"
+    },
+    {
+      "path": ".gitignore",
+      "candidate_sha256": "2d338daae3ee027d9da94a254938c4e30d2ee253bbf99095f03a72dff976c663",
+      "origin": "NEW",
+      "source_basis_paths": [],
+      "modifications": "New demo preparation material; AI-assisted under human commissioning.",
+      "license": "MPL-2.0 to extent rights exist and covered",
+      "publication_review": "HOLD"
+    },
+    {
+      "path": "AI_ASSISTANCE_DISCLOSURE.md",
+      "candidate_sha256": "198666d8ea7dc48d749460bb6a3a8f9c9c8985167aefc613c11b6adb22aad0fe",
+      "origin": "ADAPTED",
+      "source_basis_paths": [
+        "AI_ASSISTANCE_DISCLOSURE.md"
+      ],
+      "modifications": "Scoped explanatory notice rewritten for private extraction; required attribution and applicable license retained; stale public wording corrected; excluded material identified.",
+      "license": "MPL-2.0 to extent rights exist and covered",
+      "publication_review": "HOLD"
+    },
+    {
+      "path": "demo.py",
+      "candidate_sha256": "d874b06789541ecb8c2064849658b9895fc5d73d76358de35ce6cae54897c6f2",
+      "origin": "ADAPTED",
+      "source_basis_paths": [
+        "src/triadicbrain/assurance/production_cli.py",
+        "tests/test_aep01_transaction.py"
+      ],
+      "modifications": "New orchestration harness calling the unchanged CLI and platform-observation repair fixture boundary; no new engine.",
+      "license": "MPL-2.0 to extent rights exist and covered",
+      "publication_review": "HOLD"
+    },
+    {
+      "path": "fixtures/advisory.json",
+      "candidate_sha256": "d2743d5fc27e673c911c00df3209a933c2080e0d333af48b4d68dd9a519428d4",
+      "origin": "NEW",
+      "source_basis_paths": [],
+      "modifications": "New demo preparation material; AI-assisted under human commissioning.",
+      "license": "MPL-2.0 to extent rights exist and covered",
+      "publication_review": "HOLD"
+    },
+    {
+      "path": "fixtures/approve.txt",
+      "candidate_sha256": "60103171b06a131f2a562905744bff996a05669a747316c2905d77060e5eee38",
+      "origin": "NEW",
+      "source_basis_paths": [],
+      "modifications": "New demo preparation material; AI-assisted under human commissioning.",
+      "license": "MPL-2.0 to extent rights exist and covered",
+      "publication_review": "HOLD"
+    },
+    {
+      "path": "fixtures/candidate.txt",
+      "candidate_sha256": "45e56b5409ebddaa7c24a26e80055edeab42d9e46cedfe7e0509c8a047c37ffa",
+      "origin": "NEW",
+      "source_basis_paths": [],
+      "modifications": "New demo preparation material; AI-assisted under human commissioning.",
+      "license": "MPL-2.0 to extent rights exist and covered",
+      "publication_review": "HOLD"
+    },
+    {
+      "path": "fixtures/predecessor-anchor.json",
+      "candidate_sha256": "f53e5910da6c8b31a0d43081ead46327393bfbec025187d38b99743d4c801bfb",
+      "origin": "NEW",
+      "source_basis_paths": [],
+      "modifications": "New demo preparation material; AI-assisted under human commissioning.",
+      "license": "MPL-2.0 to extent rights exist and covered",
+      "publication_review": "HOLD"
+    },
+    {
+      "path": "fixtures/prompt.txt",
+      "candidate_sha256": "3e03543a9ad66487d08b2b6d10b2723b02881cfd676dbe6c4d51d1b7f801d47d",
+      "origin": "NEW",
+      "source_basis_paths": [],
+      "modifications": "New demo preparation material; AI-assisted under human commissioning.",
+      "license": "MPL-2.0 to extent rights exist and covered",
+      "publication_review": "HOLD"
+    },
+    {
+      "path": "fixtures/repaired-candidate.txt",
+      "candidate_sha256": "b0e79e1ca8f898cffe22b652b3039d16e40761e1f69698e664cb56c38d3c6fdc",
+      "origin": "NEW",
+      "source_basis_paths": [],
+      "modifications": "New demo preparation material; AI-assisted under human commissioning.",
+      "license": "MPL-2.0 to extent rights exist and covered",
+      "publication_review": "HOLD"
+    },
+    {
+      "path": "fixtures/request-repair.txt",
+      "candidate_sha256": "0d08cdb5ebb5fffee91b6b804ac00c210654a33a089ba12e8ad297c1dee0f683",
+      "origin": "NEW",
+      "source_basis_paths": [],
+      "modifications": "New demo preparation material; AI-assisted under human commissioning.",
+      "license": "MPL-2.0 to extent rights exist and covered",
+      "publication_review": "HOLD"
+    },
+    {
+      "path": "fixtures/settings.json",
+      "candidate_sha256": "f15d44d17214302e55a15adf5f136f93e249e063619cbd2921cbfedbcbb37abc",
+      "origin": "NEW",
+      "source_basis_paths": [],
+      "modifications": "New demo preparation material; AI-assisted under human commissioning.",
+      "license": "MPL-2.0 to extent rights exist and covered",
+      "publication_review": "HOLD"
+    },
+    {
+      "path": "fixtures/source.txt",
+      "candidate_sha256": "14d268c4a8cefd791980f2dc8fc31a78203f3a177e16e8d1bc3b2394cde7e745",
+      "origin": "NEW",
+      "source_basis_paths": [],
+      "modifications": "New demo preparation material; AI-assisted under human commissioning.",
+      "license": "MPL-2.0 to extent rights exist and covered",
+      "publication_review": "HOLD"
+    },
+    {
+      "path": "KNOWN_LIMITATIONS.md",
+      "candidate_sha256": "07dee4ccec17fc4877a02530a1612fa117a3c55a5102a8134f4bcaa9f19d8632",
+      "origin": "ADAPTED",
+      "source_basis_paths": [
+        "docs/current/master-design.md"
+      ],
+      "modifications": "New reviewer explanation based on maintained architecture; limits bound to extracted implementation.",
+      "license": "MPL-2.0 to extent rights exist and covered",
+      "publication_review": "HOLD"
+    },
+    {
+      "path": "LICENSE_SCOPE.md",
+      "candidate_sha256": "3ba01e87a4010f4dbd7eb51d1cff0b2677acb25372dadbfd1a532aaf6a95c7fd",
+      "origin": "ADAPTED",
+      "source_basis_paths": [
+        "LICENSE_SCOPE.md"
+      ],
+      "modifications": "Scoped explanatory notice rewritten for private extraction; required attribution and applicable license retained; stale public wording corrected; excluded material identified.",
+      "license": "MPL-2.0 to extent rights exist and covered",
+      "publication_review": "HOLD"
+    },
+    {
+      "path": "NOTICE",
+      "candidate_sha256": "77d38fdd96141e4dbf7a27efe5b0128da14aaa2684d17d4bf0ac446da8ec7a46",
+      "origin": "ADAPTED",
+      "source_basis_paths": [
+        "NOTICE"
+      ],
+      "modifications": "Scoped explanatory notice rewritten for private extraction; required attribution and applicable license retained; stale public wording corrected; excluded material identified.",
+      "license": "MPL-2.0 to extent rights exist and covered",
+      "publication_review": "HOLD"
+    },
+    {
+      "path": "PUBLICATION_REVIEW.md",
+      "candidate_sha256": "f7902c9e711e164d28d3e79f62e6822ed00bfeb64308fcc9871f5a13b2ca7f9a",
+      "origin": "NEW",
+      "source_basis_paths": [],
+      "modifications": "New demo preparation material; AI-assisted under human commissioning.",
+      "license": "MPL-2.0 to extent rights exist and covered",
+      "publication_review": "HOLD"
+    },
+    {
+      "path": "README.md",
+      "candidate_sha256": "0dc1e9bd409ef8427d1aa25ff677e7f21953ae582ff3863ab80be94154247306",
+      "origin": "ADAPTED",
+      "source_basis_paths": [
+        "docs/current/master-design.md"
+      ],
+      "modifications": "New reviewer explanation based on maintained architecture; limits bound to extracted implementation.",
+      "license": "MPL-2.0 to extent rights exist and covered",
+      "publication_review": "HOLD"
+    },
+    {
+      "path": "tests/test_component.py",
+      "candidate_sha256": "15d9e3cc8609e9561d2979407e583e7eff29c8df179a04ebca7e2608a24cf205",
+      "origin": "ADAPTED",
+      "source_basis_paths": [
+        "tests/test_aep01_transaction.py"
+      ],
+      "modifications": "Focused positive/adverse cases adapted to stdlib unittest; pytest fixtures/parametrization replaced; synthetic inputs and CLI helpers reused; concurrency, full recovery and full-product cases omitted.",
+      "license": "MPL-2.0 to extent rights exist and covered",
+      "publication_review": "HOLD"
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "candidate_sha256": "20eba548fe7ec7d8967c88cd9679c7c91d21abdc19b35407f596d3ba63d593c4",
+      "origin": "ADAPTED",
+      "source_basis_paths": [
+        "THIRD_PARTY_NOTICES.md"
+      ],
+      "modifications": "Scoped explanatory notice rewritten for private extraction; required attribution and applicable license retained; stale public wording corrected; excluded material identified.",
+      "license": "MPL-2.0 to extent rights exist and covered",
+      "publication_review": "HOLD"
+    },
+    {
+      "path": "validation/observed-demo-summary.json",
+      "candidate_sha256": "ee1ec33c0d9c4da1e948e6ae3306c32eb526a4f061591999b5d60e6782404b51",
+      "origin": "NEW",
+      "source_basis_paths": [],
+      "modifications": "New demo preparation material; AI-assisted under human commissioning.",
+      "license": "MPL-2.0 to extent rights exist and covered",
+      "publication_review": "HOLD"
+    },
+    {
+      "path": "VALIDATION.md",
+      "candidate_sha256": "9a2b2128ee88d282d88528530c17e13f57b453effae4c6008d9151273020d1f7",
+      "origin": "NEW",
+      "source_basis_paths": [],
+      "modifications": "New demo preparation material; AI-assisted under human commissioning.",
+      "license": "MPL-2.0 to extent rights exist and covered",
+      "publication_review": "HOLD"
+    }
+  ],
+  "consulted_originals": [
+    {
+      "original_path": "tests/test_aep01_transaction.py",
+      "original_git_blob": "18a91d03012b061154a22de350c8a55468b26208",
+      "original_sha256": "cf29ed9d51e6033e3b0387751506fa40e51c2cfee5d69e4ce6022cea650cc65b"
+    },
+    {
+      "original_path": "LICENSE_SCOPE.md",
+      "original_git_blob": "8bfc73c643d8edaf161a5bb3a591d8a736a83beb",
+      "original_sha256": "90e5da23e34a9cecd2b3195f31170e544c115abb14e06bf3acf1b4f39d78ce88"
+    },
+    {
+      "original_path": "NOTICE",
+      "original_git_blob": "e49df1a1294187ab8078d25cfd5a859bbe20aac5",
+      "original_sha256": "49edb70b0e525f824bad5c09983eaa396801853c32d02180708149f9fe9f43dd"
+    },
+    {
+      "original_path": "THIRD_PARTY_NOTICES.md",
+      "original_git_blob": "dbdbb67166924cc142afcea273c5679232401ba9",
+      "original_sha256": "6d2bd5f8e81a28d1896045502112bac925b4fb7f206b067a23e10edf1d82b4b7"
+    },
+    {
+      "original_path": "AI_ASSISTANCE_DISCLOSURE.md",
+      "original_git_blob": "5768c7bc7852d5601d4d91e452a79770637f4818",
+      "original_sha256": "8028ac99f31ba693e270e1c7bc544d9b1d494de829bb0ac8550c16c29c3925a5"
+    },
+    {
+      "original_path": "docs/current/master-design.md",
+      "original_git_blob": "51f6b696ab55ea616dcbb82f18691a2061611565",
+      "original_sha256": "21aa1f00f1720e5cd5f14307aabe8578af97c7232c87886a0fdf6ebec8a59e3d"
+    },
+    {
+      "original_path": "AGENTS.md",
+      "original_git_blob": "bc8c53c72f84127c82fcc8d8b7b11689d04883c8"
+    }
+  ],
+  "dependency_closure": {
+    "python_modules": 20,
+    "schema_files": 12,
+    "entrypoint": "src/triadicbrain/assurance/production_cli.py",
+    "relative_import_edges": {
+      "src/triadicbrain/__init__.py": [],
+      "src/triadicbrain/assurance/__init__.py": [],
+      "src/triadicbrain/assurance/authorization.py": [
+        "src/triadicbrain/assurance/models.py"
+      ],
+      "src/triadicbrain/assurance/canonical.py": [],
+      "src/triadicbrain/assurance/claims.py": [
+        "src/triadicbrain/assurance/canonical.py"
+      ],
+      "src/triadicbrain/assurance/controls.py": [
+        "src/triadicbrain/assurance/canonical.py"
+      ],
+      "src/triadicbrain/assurance/custody.py": [
+        "src/triadicbrain/assurance/canonical.py",
+        "src/triadicbrain/assurance/models.py"
+      ],
+      "src/triadicbrain/assurance/metrics.py": [
+        "src/triadicbrain/assurance/canonical.py"
+      ],
+      "src/triadicbrain/assurance/models.py": [
+        "src/triadicbrain/assurance/canonical.py"
+      ],
+      "src/triadicbrain/assurance/period.py": [
+        "src/triadicbrain/assurance/canonical.py",
+        "src/triadicbrain/assurance/metrics.py"
+      ],
+      "src/triadicbrain/assurance/practitioner.py": [
+        "src/triadicbrain/assurance/canonical.py",
+        "src/triadicbrain/assurance/period.py"
+      ],
+      "src/triadicbrain/assurance/production_cli.py": [
+        "src/triadicbrain/assurance/canonical.py",
+        "src/triadicbrain/assurance/models.py",
+        "src/triadicbrain/assurance/reporting.py",
+        "src/triadicbrain/assurance/transaction.py",
+        "src/triadicbrain/assurance/verification.py",
+        "src/triadicbrain/assurance/web.py"
+      ],
+      "src/triadicbrain/assurance/reporting.py": [
+        "src/triadicbrain/assurance/canonical.py"
+      ],
+      "src/triadicbrain/assurance/review_policy.py": [
+        "src/triadicbrain/assurance/models.py"
+      ],
+      "src/triadicbrain/assurance/schema_validation.py": [
+        "src/triadicbrain/assurance/canonical.py"
+      ],
+      "src/triadicbrain/assurance/transaction.py": [
+        "src/triadicbrain/assurance/authorization.py",
+        "src/triadicbrain/assurance/canonical.py",
+        "src/triadicbrain/assurance/claims.py",
+        "src/triadicbrain/assurance/controls.py",
+        "src/triadicbrain/assurance/custody.py",
+        "src/triadicbrain/assurance/models.py",
+        "src/triadicbrain/assurance/reporting.py",
+        "src/triadicbrain/assurance/review_policy.py",
+        "src/triadicbrain/assurance/transaction_package.py",
+        "src/triadicbrain/assurance/transition_policy.py",
+        "src/triadicbrain/assurance/verification.py"
+      ],
+      "src/triadicbrain/assurance/transaction_package.py": [
+        "src/triadicbrain/assurance/canonical.py",
+        "src/triadicbrain/assurance/verification.py"
+      ],
+      "src/triadicbrain/assurance/transition_policy.py": [
+        "src/triadicbrain/assurance/custody.py",
+        "src/triadicbrain/assurance/models.py"
+      ],
+      "src/triadicbrain/assurance/verification.py": [
+        "src/triadicbrain/assurance/canonical.py",
+        "src/triadicbrain/assurance/claims.py",
+        "src/triadicbrain/assurance/controls.py",
+        "src/triadicbrain/assurance/custody.py",
+        "src/triadicbrain/assurance/models.py",
+        "src/triadicbrain/assurance/reporting.py",
+        "src/triadicbrain/assurance/review_policy.py",
+        "src/triadicbrain/assurance/schema_validation.py",
+        "src/triadicbrain/assurance/transaction_package.py",
+        "src/triadicbrain/assurance/transition_policy.py"
+      ],
+      "src/triadicbrain/assurance/web.py": [
+        "src/triadicbrain/assurance/canonical.py",
+        "src/triadicbrain/assurance/metrics.py",
+        "src/triadicbrain/assurance/models.py",
+        "src/triadicbrain/assurance/period.py",
+        "src/triadicbrain/assurance/practitioner.py",
+        "src/triadicbrain/assurance/reporting.py",
+        "src/triadicbrain/assurance/transaction.py",
+        "src/triadicbrain/assurance/verification.py"
+      ]
+    },
+    "standard_library_import_roots": [
+      "__future__",
+      "argparse",
+      "base64",
+      "collections",
+      "contextlib",
+      "copy",
+      "csv",
+      "dataclasses",
+      "datetime",
+      "enum",
+      "hashlib",
+      "html",
+      "http",
+      "importlib",
+      "io",
+      "json",
+      "math",
+      "os",
+      "pathlib",
+      "pkgutil",
+      "re",
+      "secrets",
+      "socket",
+      "stat",
+      "sys",
+      "time",
+      "types",
+      "typing",
+      "unicodedata",
+      "urllib",
+      "zipfile"
+    ],
+    "optional_excluded_runtime_dependency": "jsonschema: only imported for explicit engine=jsonschema; not selected in demo",
+    "dynamic_import_boundary": "STANDARD has no plugin/evaluator; optional review-policy plugin discovery is not invoked",
+    "resource_boundary": "schema_validation.py owns the closed 12-schema filename/hash registry; no external resources selected"
+  },
+  "manifest_self_hash": "Omitted to avoid self-reference; final Git commit binds this manifest.",
+  "exclusions": [
+    "source Git history",
+    "private ledgers and operator data",
+    "person-specific records",
+    "installation machinery",
+    "GitHub workflows",
+    "separate component implementations",
+    "Unicode range tables",
+    "TIAIP public profile",
+    "dependencies/model weights",
+    "generated run roots"
+  ]
+}

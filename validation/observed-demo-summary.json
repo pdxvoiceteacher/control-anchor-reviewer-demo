@@ -1,0 +1,25 @@
+{
+  "demonstration": "OFFLINE EVIDENCE AND REVIEW COMPONENT DEMONSTRATION",
+  "source_commit": "139932846cb1b6bf1571158464d89513d4e381f8",
+  "provider_invoked": false,
+  "review_decision": "SCRIPTED_NOT_THOMAS_APPROVAL",
+  "repair_finding": "INJECTED_SYNTHETIC_ADVISORY_NOT_AI_DISCOVERED",
+  "parent_candidate_and_findings_unchanged": true,
+  "resolved_finding_ids": [],
+  "verified_packages": {
+    "TX-SYNTHETIC-001": "PASS",
+    "TX-SYNTHETIC-001.zip": "PASS",
+    "TX-SYNTHETIC-REPAIR-R1": "PASS",
+    "TX-SYNTHETIC-REPAIR-R1.zip": "PASS"
+  },
+  "practitioner_export_sha256": {
+    "practitioner.json": "62b31749d2e4ccf60fa2f1916b618804e041765bafd1051b9c9dbebc55a6d6b2",
+    "practitioner.jsonl": "065cd88f814f14395aa0c965c0b16ae990b3785368a2a6684f3ec595a9c2a850",
+    "practitioner.csv": "14ad1d00956e8cd765b2c32fa960c738b52fe3506c6b7871506b450e9a6497a5"
+  },
+  "practitioner_reopened_items": 133,
+  "tampered_copy_exit_code": 3,
+  "tampered_copy_rejection": "HOLD: PACKAGE_MANIFEST_MEMBER_BINDING_INVALID",
+  "original_package_after_tamper": "PASS",
+  "public_release_review": "HOLD"
+}

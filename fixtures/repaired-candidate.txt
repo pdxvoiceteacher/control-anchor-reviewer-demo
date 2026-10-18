@@ -1,0 +1,2 @@
+SYNTHETIC REPAIR CANDIDATE - AUTHORED FIXTURE, NO MODEL RESPONSE
+Session A recorded 12 attendances and Session B recorded 8, totaling 20 session attendances. Unique-person attendance remains unknown. The scripted advisory finding is retained in the parent record.

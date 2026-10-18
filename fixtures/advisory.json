@@ -1,0 +1,1 @@
+{"finding_class":"ADVISORY_FINDING","finding_id":"F-SCRIPTED-ADVISORY-001","summary":"SCRIPTED SYNTHETIC ADVISORY: request a more explicit session-by-session summary. Injected by the demo harness through the existing platform observation API; not discovered by an AI or STANDARD_PROFILE."}

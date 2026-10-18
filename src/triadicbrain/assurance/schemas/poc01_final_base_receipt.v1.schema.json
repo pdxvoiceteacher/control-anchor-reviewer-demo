@@ -1,0 +1,104 @@
+{
+  "$defs": {
+    "file": {
+      "properties": {
+        "filename": {
+          "type": "string"
+        },
+        "sha256": {
+          "pattern": "^[0-9a-f]{64}$",
+          "type": "string"
+        },
+        "sidecar_exact": {
+          "const": true
+        }
+      },
+      "required": [
+        "filename",
+        "sha256",
+        "sidecar_exact"
+      ],
+      "type": "object"
+    }
+  },
+  "$id": "https://ultraverbaluxmentis.org/schemas/aep01/poc01-final-base-receipt.v1.schema.json",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": false,
+  "properties": {
+    "authority_effect": {
+      "const": "NONE"
+    },
+    "branch": {
+      "type": "string"
+    },
+    "candidate_commit": {
+      "pattern": "^[0-9a-f]{40}$",
+      "type": "string"
+    },
+    "candidate_tree": {
+      "pattern": "^[0-9a-f]{40}$",
+      "type": "string"
+    },
+    "disposition": {
+      "const": "POC01_EXACT_SUCCESSOR_READY_FOR_INDEPENDENT_REVIEW_AND_AEP01_CHILD_ENGINEERING"
+    },
+    "effects": {
+      "type": "object"
+    },
+    "git_bundle": {
+      "$ref": "#/$defs/file"
+    },
+    "observed_remote_main": {
+      "type": "object"
+    },
+    "parents": {
+      "items": {
+        "pattern": "^[0-9a-f]{40}$",
+        "type": "string"
+      },
+      "minItems": 1,
+      "type": "array"
+    },
+    "protected_state_audit": {
+      "type": "object"
+    },
+    "review_handoff": {
+      "$ref": "#/$defs/file"
+    },
+    "rights": {
+      "type": "object"
+    },
+    "schema_id": {
+      "const": "uvlm.triadicbrain.poc01.final_base_receipt.v1"
+    },
+    "source_zip": {
+      "$ref": "#/$defs/file"
+    },
+    "tests": {
+      "type": "object"
+    },
+    "worktree_clean": {
+      "const": true
+    }
+  },
+  "required": [
+    "schema_id",
+    "candidate_commit",
+    "candidate_tree",
+    "parents",
+    "branch",
+    "worktree_clean",
+    "observed_remote_main",
+    "source_zip",
+    "git_bundle",
+    "review_handoff",
+    "tests",
+    "protected_state_audit",
+    "rights",
+    "effects",
+    "disposition",
+    "authority_effect"
+  ],
+  "title": "POC01 Final Base Receipt",
+  "type": "object"
+}

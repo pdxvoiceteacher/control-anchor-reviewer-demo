@@ -1,0 +1,4 @@
+SYNTHETIC DEMONSTRATION DATA - NO CUSTOMER OR OPERATOR RECORDS
+Fictional workshop attendance: Session A = 12; Session B = 8.
+Expected arithmetic total = 20 attendees across sessions.
+This fixture is not a business-control assessment or an assurance engagement.
