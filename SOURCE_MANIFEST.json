@@ -569,12 +569,12 @@
     },
     {
       "path": "README.md",
-      "candidate_sha256": "38728f60e14e0268c2547419d5b911e3753ed7e9874ff67aed553435547233c1",
+      "candidate_sha256": "58dd0e94964e20492a55e534d75bd6a38e196e3b7cc199b3adecb029e4e7f4d0",
       "origin": "ADAPTED",
       "source_basis_paths": [
         "docs/current/master-design.md"
       ],
-      "modifications": "New reviewer explanation based on maintained architecture; limits bound to extracted implementation. Added link to a source-attributed methods appendix and its bounded teaching claims.",
+      "modifications": "New reviewer explanation based on maintained architecture; limits bound to extracted implementation. Added link to a source-attributed methods appendix and its bounded teaching claims. Added self-contained Mermaid responsibility diagram separating intended product integration, observed synthetic offline demo and future peer network; no runtime or validation-result changes.",
       "license": "MPL-2.0 to extent rights exist and covered",
       "publication_review": "OWNER_APPROVED_PUBLIC_SOURCE_ACCESS_EXISTING_RIGHTS_PRESERVED_NO_NEW_LICENSE",
       "documentation_successor_modification": "Linked methods appendix and whole-product/customer-function map; separated private merge authority from final publication/content decision.",
@@ -591,7 +591,8 @@
       "generic_planning_revision": "Program-neutral private planning under owner direction; no submission, recruitment, partnership or new license grant.",
       "current_budget_navigation_revision": "Reader route now points to six-month core plan and optional separately costed paid intern opportunity; runtime/evidence text unchanged.",
       "historical_publication_review": "FINAL_CONTENT_DECISION_PENDING",
-      "publication_wording_revision": "Record separate owner approval of reviewer-source/history public access on 19 October 2026; preserve existing licenses, attribution, budgets and evidence limits. No new Creative Commons/media/prose grant, deployment, release or application submission."
+      "publication_wording_revision": "Record separate owner approval of reviewer-source/history public access on 19 October 2026; preserve existing licenses, attribution, budgets and evidence limits. No new Creative Commons/media/prose grant, deployment, release or application submission.",
+      "bytes": 12337
     },
     {
       "path": "tests/test_component.py",
