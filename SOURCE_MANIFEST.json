@@ -547,7 +547,7 @@
     },
     {
       "path": "README.md",
-      "candidate_sha256": "466d485f0f3f6dab89ad2018667e8c6bfa9e37f0ebbc9368e33a6fef05553225",
+      "candidate_sha256": "d921ced2a924f249f6d734e7f81af456770a92eb1129de09821cdd69b2f2b2d8",
       "origin": "ADAPTED",
       "source_basis_paths": [
         "docs/current/master-design.md"
@@ -566,7 +566,8 @@
       "media_successor_modification": "Link reviewed media and explicitly keep its public-license scope pending, separate from the code license and final visibility decision.",
       "reviewer_successor_modification": "Neutral reviewer navigation and/or clarification that existing rights/notices are preserved, no new media/prose grant is authorized, and optional CC BY is not a visibility/funding prerequisite.",
       "role_label_editorial_modification": "Use Project Lead for narrative project decisions and Founder for business/budget responsibilities; preserve named legal/source attribution, claims, licenses, amounts and immutable identifiers.",
-      "generic_planning_revision": "Program-neutral private planning under owner direction; no submission, recruitment, partnership or new license grant."
+      "generic_planning_revision": "Program-neutral private planning under owner direction; no submission, recruitment, partnership or new license grant.",
+      "current_budget_navigation_revision": "Reader route now points to six-month core plan and optional separately costed paid intern opportunity; runtime/evidence text unchanged."
     },
     {
       "path": "tests/test_component.py",
@@ -874,53 +875,63 @@
     },
     {
       "path": "docs/funding/README.md",
-      "candidate_sha256": "845e8f8d23532a32c91b09c84db88e116b08432d75393b408857517276ff72c6",
-      "bytes": 3350,
+      "candidate_sha256": "f4556736126bba8321189d4fe4b797d7101ee05c600e32bbd977c23f17e6f933",
+      "bytes": 4119,
       "origin": "NEW_PRIVATE_PLANNING_DRAFT",
-      "modifications": "Replaced program-specific index with scopes and proposed student intern opportunity; shared evidence and non-overlapping costs preserved.",
+      "modifications": "Updated to the owner-agreed six-month/26-week USD 100,000 core planning model: Lead Designer and Internal Controls Specialist 48000 gross, qualified Software Engineer fixed allocation 48000 with hours/rate/scope negotiable, infrastructure provisional 4000. Optional paid supervised intern separately costed. Employment/administrative costs unquantified; no commitments or full-product completion promise.",
       "assumption_source": "Owner-supplied provisional scope/budget/staffing assumptions; not evidence of commitments or private financial records.",
       "license": "No new license grant; preserve applicable existing rights and notices.",
       "publication_review": "OWNER_FINAL_CONTENT_VISIBILITY_DECISION_PENDING",
-      "role_label_editorial_modification": "Use Project Lead for narrative project decisions and Founder for business/budget responsibilities; preserve named legal/source attribution, claims, licenses, amounts and immutable identifiers.",
-      "generic_planning_revision": "Program-neutral private planning under owner direction; no submission, recruitment, partnership or new license grant."
+      "role_label_editorial_modification": "Current technical/design role: Lead Designer and Internal Controls Specialist. Legal/source attribution and historical business-role wording elsewhere preserved.",
+      "generic_planning_revision": "Current owner-agreed core planning budget replaces the earlier student-led proposal; no named funding program or university, hiring, spending, model/API use, hosted CI, submission, license or visibility change."
     },
     {
       "path": "docs/funding/INTEGRATION_PILOT.md",
-      "candidate_sha256": "42bccf3ff2a7fbc025cc14853a8f592d96399cd6c7f14eab9c6ce086195703aa",
-      "bytes": 6687,
+      "candidate_sha256": "7c0c5f8be0008a85262f4cd5fc22312f85907226157e68775420d7312283b347",
+      "bytes": 7307,
       "origin": "PROGRAM_NEUTRAL_ADAPTATION_OF_PRIOR_PRIVATE_PLANNING_DRAFT",
-      "modifications": "Organized by project scope; named funding targets and university recruiting preference removed; paid University Student Intern Opportunity, conditional supervision and unchanged illustrative pilot budget retained.",
+      "modifications": "Updated to the owner-agreed six-month/26-week USD 100,000 core planning model: Lead Designer and Internal Controls Specialist 48000 gross, qualified Software Engineer fixed allocation 48000 with hours/rate/scope negotiable, infrastructure provisional 4000. Optional paid supervised intern separately costed. Employment/administrative costs unquantified; no commitments or full-product completion promise.",
       "assumption_source": "Owner-supplied provisional scope/budget/staffing assumptions; not evidence of commitments or private financial records.",
       "license": "No new license grant; preserve applicable existing rights and notices.",
       "publication_review": "OWNER_FINAL_CONTENT_VISIBILITY_DECISION_PENDING",
-      "role_label_editorial_modification": "Use Project Lead for narrative project decisions and Founder for business/budget responsibilities; preserve named legal/source attribution, claims, licenses, amounts and immutable identifiers.",
+      "role_label_editorial_modification": "Current technical/design role: Lead Designer and Internal Controls Specialist. Legal/source attribution and historical business-role wording elsewhere preserved.",
       "prior_candidate_source": {
         "repository": "pdxvoiceteacher/control-anchor-reviewer-demo",
         "commit": "e15c920e2cf21dc139d77d7972bbfa8918c616b7",
-        "path": "docs/funding/SENTIENT.md",
         "sha256": "a1e7e7024bef0d481c80cbaf5c81624f2b6a0c7d17ae9ef32583ec8594f4893e",
-        "status": "Superseded planning presentation; not a current target or submitted application."
+        "status": "Historical superseded brief identified by exact prior commit and content hash; original path text omitted from the current program-neutral presentation.",
+        "original_path_sha256": "b226facaa1a4d4b4fb54dc78b8dba7c840245b5ead4d718b5f4e8cfce84d305d"
       },
-      "generic_planning_revision": "Program-neutral private planning under owner direction; no submission, recruitment, partnership or new license grant."
+      "generic_planning_revision": "Current owner-agreed core planning budget replaces the earlier student-led proposal; no named funding program or university, hiring, spending, model/API use, hosted CI, submission, license or visibility change."
     },
     {
       "path": "docs/funding/OFFLINE_TOOL_IMPROVEMENT.md",
-      "candidate_sha256": "779cecf06f835de420c142a965e11517a10c59cb105f996c4c32795584381433",
-      "bytes": 3282,
+      "candidate_sha256": "4770b9f139dea6ac11eacbfd13c789dee399b4f69141a40f28ef517aa1c73f27",
+      "bytes": 3178,
       "origin": "PROGRAM_NEUTRAL_ADAPTATION_OF_PRIOR_PRIVATE_PLANNING_DRAFT",
-      "modifications": "Organized by project scope; named funding targets and university recruiting preference removed; paid University Student Intern Opportunity, conditional supervision and unchanged illustrative pilot budget retained.",
+      "modifications": "Updated to the owner-agreed six-month/26-week USD 100,000 core planning model: Lead Designer and Internal Controls Specialist 48000 gross, qualified Software Engineer fixed allocation 48000 with hours/rate/scope negotiable, infrastructure provisional 4000. Optional paid supervised intern separately costed. Employment/administrative costs unquantified; no commitments or full-product completion promise.",
       "assumption_source": "Owner-supplied provisional scope/budget/staffing assumptions; not evidence of commitments or private financial records.",
       "license": "No new license grant; preserve applicable existing rights and notices.",
       "publication_review": "OWNER_FINAL_CONTENT_VISIBILITY_DECISION_PENDING",
-      "role_label_editorial_modification": "Use Project Lead for narrative project decisions and Founder for business/budget responsibilities; preserve named legal/source attribution, claims, licenses, amounts and immutable identifiers.",
+      "role_label_editorial_modification": "Current technical/design role: Lead Designer and Internal Controls Specialist. Legal/source attribution and historical business-role wording elsewhere preserved.",
       "prior_candidate_source": {
         "repository": "pdxvoiceteacher/control-anchor-reviewer-demo",
         "commit": "e15c920e2cf21dc139d77d7972bbfa8918c616b7",
-        "path": "docs/funding/FUTO.md",
         "sha256": "b026943d8c380828d01003771487ebad7c603f6dbdfa3369844b95cbc817647e",
-        "status": "Superseded planning presentation; not a current target or submitted application."
+        "status": "Historical superseded brief identified by exact prior commit and content hash; original path text omitted from the current program-neutral presentation.",
+        "original_path_sha256": "4e7dc68a5dfade43ed955f7e08fdcf263e0e6124c38d799e114ae48030693f3a"
       },
-      "generic_planning_revision": "Program-neutral private planning under owner direction; no submission, recruitment, partnership or new license grant."
+      "generic_planning_revision": "Current owner-agreed core planning budget replaces the earlier student-led proposal; no named funding program or university, hiring, spending, model/API use, hosted CI, submission, license or visibility change."
+    },
+    {
+      "path": "docs/funding/BUDGET_ASSUMPTIONS.md",
+      "candidate_sha256": "6617b4683bf2a519c30502348b939b2431e6203cce2a702666c45b422f37f4ff",
+      "bytes": 5299,
+      "origin": "NEW_PRIVATE_BUDGET_ASSUMPTIONS_NOTE",
+      "modifications": "Owner-set engineering division and infrastructure allowance examples, checked primary price references, unquantified additional costs and no spending/qualification claims.",
+      "assumption_source": "Owner-agreed planning amounts/capacities and self-reported prior founder effort; not payroll records, purchase quotes, validated workload requirements or reimbursement owed.",
+      "license": "No new license grant; preserve applicable existing rights and notices.",
+      "publication_review": "OWNER_FINAL_CONTENT_VISIBILITY_DECISION_PENDING"
     }
   ],
   "consulted_originals": [
@@ -1189,7 +1200,7 @@
     "schema_inspection": "No specific third-party license exception, attribution, proprietary criteria text or external $ref identified. JSON Schema dialect declaration is a format identifier.",
     "ownership_attestation": "Thomas attests sole software ownership and no board ownership; this is owner evidence, not independent title proof.",
     "specific_remaining_license_scope": "Preserve applicable existing rights/permissions and notices. No new media/prose grant authorized; optional CC BY is not a publication or funding gate. Final public contents/visibility need separate owner approval.",
-    "runtime_evidence": "Unchanged implementation/tests/fixtures inherit prior observed evidence; documentation checks only for this successor."
+    "runtime_evidence": "Unchanged implementation/tests/fixtures and reviewed media retain prior evidence; this successor checks planning arithmetic, document consistency, links, current hashes and private visibility only."
   },
   "media_pack": {
     "archive_filename": "Control_Anchor_Reviewer_Media_Update_2026-10-18.zip",
@@ -1225,11 +1236,36 @@
     }
   },
   "funding_planning_notes": {
-    "status": "Program-neutral private planning drafts only; no recruitment, university agreement, outreach or submission.",
-    "integration_pilot": "Illustrative USD 25,000 provisional owner-approval budget: 9600 student + 2400 employer estimate + 4000 mentor + 4000 founder + 2000 infrastructure + 3000 reserve only if allowed. 16 weeks begin after funding, acceptable paid engagement and qualified supervision.",
-    "student_opportunity": "University Student Intern Opportunity: paid advanced university student intern proposed; recruitment, availability, institutional arrangements, academic credit and qualified supervision unconfirmed. No named university or partnership.",
-    "offline_tool_improvement": "Smaller scoped offline-tool concept; request amount, costed plan and work estimate not set or approved. No smaller dollar request invented.",
-    "shared_boundary": "Same eight-test synthetic provider-free baseline; no installed/live/P2P acceptance or cognitive/novelty/user-demand claims. No double-funded work or costs; pending proposals are not awards. Submitted applications unchanged.",
+    "status": "Owner-agreed current private core planning model; not a final all-in application, award, hiring commitment or spending authority. Grant allowability unconfirmed.",
+    "duration": {
+      "months": 6,
+      "weeks_for_hourly_examples": 26
+    },
+    "core_budget_usd": {
+      "Lead Designer and Internal Controls Specialist": 48000,
+      "qualified Software Engineer": 48000,
+      "provisional infrastructure": 4000,
+      "total": 100000
+    },
+    "lead_capacity": "USD 8000/month gross for six months, 40 paid hours/week; no reliance on unpaid excess hours. No automatic pay cut or reallocation.",
+    "engineering": "Fixed USD 48000 compensation allocation before employer burden; hours/rate/scope negotiated together. 40/30/20 hours per week over 26 weeks yield approximate USD 46.153846/61.53846/92.30769 per hour. Fewer hours do not promise equal output.",
+    "infrastructure_example_usd": {
+      "local_memory_hardware": 1100,
+      "hosting_object_storage": 174,
+      "cloud_GPU_capacity": 534,
+      "GPU_network_storage": 42,
+      "CI_capacity": 180,
+      "API_testing": 1200,
+      "example_subtotal": 3230,
+      "unallocated_headroom": 770,
+      "category_total": 4000
+    },
+    "infrastructure_boundary": "Capacity/spending allowances only. Hardware quote and compatibility/QVL pending; no RAM SKU recommendation or workload validation. Existing GPU reuse and free credits not guaranteed. No service activation or CI/model/API execution.",
+    "additional_costs": "Required employer/payroll costs, benefits, taxes, insurance and administration not quantified or provided for in core USD 100000; infrastructure headroom is not provision for these unknown costs.",
+    "student_opportunity": "University Student Intern Opportunity remains optional, separately costed, paid and technically supervised; no automatic intern cost in core budget, named institution, secured recruitment, partnership or credit.",
+    "prior_contribution": "Self-reported founder effort since October 2025, roughly 50-60 hours/week; no historical dollar valuation, owed reimbursement or added past-work request.",
+    "offline_tool_improvement": "Alternative smaller offline-tool scope remains uncosted; no request amount or work estimate invented. No overlapping costs.",
+    "shared_boundary": "Same unchanged eight-test synthetic provider-free evidence baseline; installed/live/P2P and full-product completion not promised. Pending proposals are not awards; submitted applications unchanged.",
     "license_boundary": "No new media/prose license authorized. Existing licenses/notices preserved; optional CC BY is not a prerequisite for visibility or funding eligibility. Program access/eligibility terms must be checked separately."
   },
   "role_label_editorial_note": {
@@ -1237,25 +1273,38 @@
     "preserved": "Legal/copyright/commissioner/source attribution, source provenance, ownership-attestation quote, original copied-file records, runtime identifiers, tests/fixtures, immutable evidence, licensing and budgets.",
     "media": "Coordinated PPTX/DOCX/TXT Project Lead revision now imported as exact cloud-reviewed bytes; title/narrative roles changed, actual attribution retained. Source hashes remain historical; current hashes and QA recorded in media_pack/current file records."
   },
-  "historical_funding_planning_sources": {
-    "status": "Historical sources consulted for superseded private briefs; preserved as provenance only, not current funding targets or current eligibility advice.",
-    "superseded_candidate_commit": "e15c920e2cf21dc139d77d7972bbfa8918c616b7",
-    "sources": [
-      {
-        "url": "https://sentient.foundation/grants",
-        "checked_date_utc": "2026-10-18",
-        "basis": "Official open-source/public-goods grant track; prospective fit only."
-      },
-      {
-        "url": "https://sentient.foundation/product-requests",
-        "checked_date_utc": "2026-10-18",
-        "basis": "Official local/open AI and trust-infrastructure requests; no claim of implementing cryptographic verifiable inference."
-      },
-      {
-        "url": "https://futo.tech/grants",
-        "checked_date_utc": "2026-10-18",
-        "basis": "Official page says applications open and one-time $1,000\u2013$5,000 microgrants for small/early-stage projects; no other terms inferred."
-      }
-    ]
-  }
+  "superseded_planning_provenance": {
+    "repository": "pdxvoiceteacher/control-anchor-reviewer-demo",
+    "commit": "1b38a8f98f7df9ff9d935113188a185e844c0caa",
+    "path": "SOURCE_MANIFEST.json",
+    "git_blob_sha": "0ace3db1dd0f799604b53f1b263ce441636eb820",
+    "sha256": "88c31e872becdd848bc445b3a6f869e35bbde5fbcd04c6e4b799d06499ad2c35",
+    "status": "Exact prior planning/source record; superseded as the current budget. Historical target names/URLs are omitted from the current program-neutral presentation. Prior commits are preserved."
+  },
+  "funding_planning_sources": [
+    {
+      "url": "https://www.digitalocean.com/pricing/droplets",
+      "observed": "Regular Basic VM example: 4 GiB RAM, 2 vCPU, 80 GiB SSD, USD 24/month.",
+      "checked_date_utc": "2026-10-19",
+      "basis": "Primary price reference only; quantities are owner planning assumptions, not verified workload needs or buying recommendations."
+    },
+    {
+      "url": "https://www.digitalocean.com/pricing/spaces-object-storage",
+      "observed": "Base object-storage example: 250 GiB, USD 5/month.",
+      "checked_date_utc": "2026-10-19",
+      "basis": "Primary price reference only; quantities are owner planning assumptions, not verified workload needs or buying recommendations."
+    },
+    {
+      "url": "https://www.runpod.io/pricing",
+      "observed": "RTX 4090 Pod example USD 0.89/hour; standard network storage under 1 TB USD 0.07/GB/month. Not serverless pricing.",
+      "checked_date_utc": "2026-10-19",
+      "basis": "Primary price reference only; quantities are owner planning assumptions, not verified workload needs or buying recommendations."
+    },
+    {
+      "url": "https://docs.github.com/en/billing/reference/actions-runner-pricing",
+      "observed": "Linux 2-core x64 hosted runner USD 0.006/minute; job minutes rounded up.",
+      "checked_date_utc": "2026-10-19",
+      "basis": "Primary price reference only; quantities are owner planning assumptions, not verified workload needs or buying recommendations."
+    }
+  ]
 }

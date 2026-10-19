@@ -1,108 +1,119 @@
 # Local evidence and review integration pilot
 
-**Illustrative private planning draft; not submitted. USD 25,000 and the budget
-below remain subject to the Founder's approval.** This scope is not tied to a
-particular funding program. The proposed 16 weeks begin only after funding, an
-acceptable paid student engagement route and qualified technical supervision are
-secured. This is a future target, not a delivery result already achieved.
+**Current owner-agreed core planning model: six months, USD 100,000.** Hourly
+examples use 26 weeks. This replaces the earlier student-led plan. It is a private,
+program-neutral planning draft, not a submitted application, award or hiring
+commitment. Funding allowability and the full cost of engagement remain unresolved.
 
-## Problem and prospective beneficiaries
+## Purpose and evidence
 
-Organizations using AI-assisted work need to inspect the underlying evidence,
-challenge an interpretation and retain who reviewed or changed it. Prospective
-beneficiaries are small organizations, local software builders and research teams
-that want inspectable review histories without sending their evidence to a
-mandatory hosted service. Demand and practical benefit still need validation.
+The pilot targets one inspectable local AI workflow: retain the underlying
+evidence, challenge an interpretation, record actual human review/correction and
+reopen the resulting export. Prospective beneficiaries include small organizations,
+local software builders and research teams. Demand and practical benefit still
+need validation.
 
-## Existing component and actual evidence
+The existing component retains input/output bytes, deterministic checks and
+review/revision lineage. Its [recorded validation](../../VALIDATION.md) shows eight
+focused tests passing on Windows Python 3.12.14, four directory/ZIP checks, scripted
+review, linked repair, practitioner export/reopen and rejection of a changed
+disposable copy. Inputs and candidate are authored synthetic fixtures; no model
+is called. The advisory is injected. Named Sophia/Atlas records do not execute
+separate cognitive components. This evidence does not prove installed startup,
+live inference, actual user acceptance or business-control effectiveness.
 
-The component retains input/output bytes, deterministic evidence checks,
-attributable review/revision lineage and portable verification. Existing extracted
-code uses MPL-2.0 under its recorded [scope and notices](../../LICENSE_SCOPE.md).
-The candidate is currently private; any reviewer/public access needs the Project
-Lead's separate approval. No new CC BY grant is required or made by this proposal.
+## Six-month core budget and responsibilities
 
-[Recorded validation](../../VALIDATION.md) at the existing runtime baseline shows
-eight focused tests passing on Windows Python 3.12.14, four directory/ZIP checks,
-scripted review, linked repair, practitioner export/reopen and rejection of a
-changed disposable copy. Inputs and candidate are authored synthetic fixtures;
-no model is called. The advisory is injected, and named Sophia/Atlas records are
-not separate component execution. This is an offline mechanism, not proof of
-installed startup, live AI, user acceptance or business-control effectiveness.
+| Role or category | Planning basis | USD |
+| --- | --- | ---: |
+| Lead Designer and Internal Controls Specialist | Six months at USD 8,000/month gross; 40 paid hours/week | 48,000 |
+| Qualified Software Engineer | Fixed compensation allocation; hours, rate and resulting scope to be negotiated before engagement | 48,000 |
+| Infrastructure | Provisional allowance for local memory hardware, hosting/storage, cloud compute, CI and API testing | 4,000 |
+| **Core planning total** | **Six months; 26 weeks for hourly examples** | **100,000** |
+
+The **Lead Designer and Internal Controls Specialist** defines requirements,
+control meaning, evidence and review expectations, workflow design and acceptance
+criteria. The **qualified Software Engineer** implements and tests the agreed
+integration, assesses technical feasibility and documents reproducibility and
+failure boundaries. The lead's controls/design work does not replace qualified
+software engineering or constitute an independent audit.
+
+The lead's USD 48,000 allocation covers the planned 40-hour week. Do not assume
+unpaid excess work to make the scope fit. The engineering allocation also remains
+USD 48,000: lower weekly hours imply a different hourly rate and potentially a
+smaller scope or different schedule. They do not promise equal output in fewer
+hours. See the [engineering examples](BUDGET_ASSUMPTIONS.md#engineering-capacity-examples).
+
+Required employer/payroll costs, benefits, taxes, insurance and administrative
+costs have **not been quantified or provided for in the USD 100,000**. This is a
+core planning budget, not an all-in final application. Resolve the engagement
+route and full costs before hiring or finalizing a funding request. No intern
+cost or guaranteed free credit is included.
+
+The owner's willingness to discuss redirecting lead compensation if needed is
+not an agreed amount or a budget change. There is no automatic pay cut or
+reallocation. Any later change needs an explicit revised allocation, capacity and
+scope decision. The [infrastructure illustration](BUDGET_ASSUMPTIONS.md#infrastructure-allowance-example)
+uses USD 3,230, leaving USD 770 unallocated within the USD 4,000 category. That
+headroom is not provision for the unquantified employment and administrative costs.
 
 ## Proposed integration and acceptance
 
-Target one supported configuration:
+Target one supported configuration using the existing consumers in the
+[product map](../PRODUCT_MAP.md):
 
 ```text
 installed local model -> retained evidence/controls -> analysis/challenge
 -> human review/correction -> export/reopen
 ```
 
-Reuse the existing application, provider/custody, governed-analysis and review
-consumers identified in the [product map](../PRODUCT_MAP.md). Do not create a
-second engine. Accept the milestone only with an actual authorized local response,
-retained source/configuration/outcome identities, performed analysis and a separately
-attributed challenge, an actual human review/correction, and a verified reopened
-export without replaying inference. Record failures, refusals and UNKNOWN outcomes.
-Unsupported interpretation remains explicit; a hash does not certify a claim.
-Live P2P, receiving peer custody and fresh peer compute remain later stages.
+Accept a stage only with an actual authorized local response, retained
+source/configuration/outcome identities, performed analysis and a separately
+attributed challenge, actual human review/correction, and verified export/reopen
+without replaying inference. Record failures, refusals and UNKNOWN outcomes.
+A hash does not certify an interpretation. Reuse the existing implementation;
+do not create a second engine.
 
-| Planned weeks | Milestone and deciding evidence |
+| Planning window | Work and deciding evidence |
 | --- | --- |
-| 1-2 | Confirm paid engagement and qualified supervisor; select one local configuration and exact source; reproduce the offline baseline and trace the real installation/provider joins. Freeze the narrow acceptance checks. |
-| 3-6 | Establish installed startup and one authorized local model exchange through the real provider/custody path. Retain actual response and failure observations, not a controlled-response substitute. |
-| 7-11 | Connect analysis/challenge and actual human review/correction to that same retained exchange. Preserve original evidence, separate role attribution and linked revision. |
-| 12-16 | Verify export/reopen and adverse cases; document the supported configuration, observed limits and bounded usability observations. Deliver inspectable source, examples and a reproducibility handoff under applicable existing terms. |
+| Weeks 1-4 | Document funding, acceptable engagement arrangements, engineer capacity and full costs. Select one configuration/source, reproduce the offline baseline and agree narrow acceptance checks. |
+| Weeks 5-13 | Work toward installed startup and one authorized local exchange through the existing provider/custody path. Retain actual response and failure observations. |
+| Weeks 14-22 | Connect analysis/challenge and actual human review/correction to the retained exchange. Preserve original evidence, separate attribution and linked revision. |
+| Weeks 23-26 | Exercise export/reopen and adverse cases; document supported configuration, observed limits, bounded usability observations and a reproducibility handoff. |
 
-These are planning windows, not guaranteed completion dates. If qualified
-supervision or an acceptable engagement route cannot be secured, the work clock
-does not start. If early installation/provider integration cannot be established
-by the initial milestone review (no later than week 4), revise scope, staffing,
-schedule and budget with the Founder before expanding commitments. A failed stage
-is not reported as completed.
+These are planning windows, not guaranteed completion dates or an agreed
+engineering contract. The work period begins after funding and acceptable
+engagement arrangements are secured. Negotiate milestones against actual engineer
+hours and revise scope if an early stage cannot be established. A failed or
+unfinished stage is not reported as completed. Live P2P, receiving peer custody
+and fresh peer compute remain later work.
 
 ## University Student Intern Opportunity
 
-The pilot proposes one **paid advanced university student intern** working
-remotely and flexibly for 15 hours/week over 16 weeks. Recruitment has not begun
-under this draft; no candidate, university partnership or institutional arrangement
-is secured. Candidate availability, any academic credit, employer eligibility and
-a suitable paid engagement route are unconfirmed and must be resolved with the
-student and any participating institution before commitments are made.
+A paid university student intern is an **optional, separately costed opportunity**,
+not the pilot's core engineering staffing plan. No intern costs are automatically
+included in USD 100,000. Any intern work needs its own bounded tasks, paid hours,
+employment costs, funding and qualified technical supervision; mentor/supervision
+time must be costed rather than assumed free.
 
-A qualified technical mentor is not yet secured. Mentor engineering
-review/supervision is **not an independent audit**. Founder work covers
-requirements, governance decisions and acceptance context; it does not replace
-technical supervision. This opportunity is a staffing proposal within the pilot,
-not an offer of employment, promised credit or a separate funded position.
+Recruitment, candidate availability, institutional arrangements, any academic
+credit and a suitable paid engagement route remain unconfirmed. No university is
+named and no partnership, position, credit or offer is promised. This opportunity
+does not replace the qualified Software Engineer or imply equal delivery with
+less experienced staffing.
 
-## Provisional budget
+## Limits and next use
 
-| Cost | Provisional calculation | USD |
-| --- | --- | ---: |
-| Advanced student engineering | 16 weeks × 15 hours × $40 | 9,600 |
-| Estimated employer costs | Estimate, to confirm for the engagement route | 2,400 |
-| Qualified technical mentor | 32 hours × $125 | 4,000 |
-| Founder requirements/governance | 80 hours × $50 | 4,000 |
-| Compute/test infrastructure | Provisional allowance | 2,000 |
-| Reserve, only if the funding agreement permits | Provisional contingency | 3,000 |
-| **Total proposed request** | **240 student hours; $22,000 before reserve** | **25,000** |
+The wider direction remains Control Anchor's locally governed Triadic Brain
+architecture and intended Sophia network: grounding, procedures, separate
+evaluation, explanation, correction and continuity with human authority. This
+pilot targets one integration within that vision. Six months and USD 100,000 do
+not promise full-product completion, all-provider support, a complete network,
+signing/independent custody or validated cognitive gains.
 
-All amounts are illustrative estimates awaiting the Founder's approval and actual
-funding/engagement terms. This draft authorizes no hire, spending, model use or
-submission. If reserve is disallowed, revise the request or obtain approval for a
-specific reallocation; do not assume it is an allowable cost. Separate costs
-already funded elsewhere; no other award proceeds are assumed. The
-[smaller offline-tool scope](OFFLINE_TOOL_IMPROVEMENT.md) has no proposed amount.
-
-## Limits and wider direction
-
-The wider goal remains Control Anchor's locally governed Triadic Brain architecture
-and intended Sophia network: grounding, procedures, separate evaluation, explanation,
-correction and continuity with attributable human authority. The 16-week target is
-one local integration within that vision. It promises neither a complete network,
-all-provider support, cryptographic signing/independent custody nor validated
-novel learning, cognitive gains or measured hallucination reduction. The
-[shared planning index](README.md) and [known limitations](../../KNOWN_LIMITATIONS.md)
-remain the common factual baseline.
+The [smaller offline-tool option](OFFLINE_TOOL_IMPROVEMENT.md) remains uncosted and
+must use separated costs if pursued. Preserve the [shared factual baseline](README.md),
+[known limitations](../../KNOWN_LIMITATIONS.md) and existing
+[license scope/notices](../../LICENSE_SCOPE.md). This draft authorizes no hiring,
+spending, service activation, submission, outreach, new license or visibility
+change. Any later application must check actual allowability and full costs.

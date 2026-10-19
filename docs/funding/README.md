@@ -1,48 +1,57 @@
 # Funding and collaboration planning
 
-These program-neutral documents describe possible project scopes for the Project
-Lead's review. They are private planning drafts, not submitted applications, offers
-or awards. Each uses the same [reviewer README](../../README.md),
-[observed evidence](../../VALIDATION.md) and [product map](../PRODUCT_MAP.md).
-Prospective users, practical benefit and funding fit still need validation.
+The current owner-agreed planning model is a **six-month integration pilot with a
+USD 100,000 core budget**, using 26 weeks for hourly calculations. It replaces the
+earlier student-led proposal. These program-neutral documents remain private
+planning drafts, not submitted applications, employment offers or awards. Funding
+allowability, prospective user demand and practical benefit are unconfirmed.
 
-| Planning scope | Proposed work | Decision still needed |
+| Planning scope | Current position | Arrangements still needed |
 | --- | --- | --- |
-| [Local integration pilot](INTEGRATION_PILOT.md) | Illustrative USD 25,000, conditional 16-week integration plan | Founder's budget/scope approval, acceptable paid student engagement route and qualified technical supervision. |
-| [Offline tool improvement](OFFLINE_TOOL_IMPROVEMENT.md) | One bounded improvement to inspection and reproducible verification/recovery examples | A costed plan, approved request amount and work estimate. No smaller request amount is proposed yet. |
-| [University Student Intern Opportunity](INTEGRATION_PILOT.md#university-student-intern-opportunity) | Proposed paid advanced student engineering within the integration pilot | Recruitment, institutional arrangements, candidate availability, any academic credit and supervision are unconfirmed. |
+| [Local integration pilot](INTEGRATION_PILOT.md) | USD 48,000 for the Lead Designer and Internal Controls Specialist, USD 48,000 for a qualified Software Engineer and USD 4,000 provisional infrastructure | Funding, a suitable engineering engagement with negotiated hours/rate/scope, and a fully costed employment/administrative budget. |
+| [Budget assumptions](BUDGET_ASSUMPTIONS.md) | Engineering capacity examples and a USD 3,230 infrastructure illustration within the USD 4,000 allowance | Actual quotes, compatibility, workload measurements, terms and any additional required costs. |
+| [Offline tool improvement](OFFLINE_TOOL_IMPROVEMENT.md) | Alternative smaller scope; request amount, work estimate and costed plan remain unset | An explicitly separated scope and approved costed plan before a request. |
+| [University Student Intern Opportunity](INTEGRATION_PILOT.md#university-student-intern-opportunity) | Optional, separately costed, paid and technically supervised; no intern costs are included in the core budget | Recruitment, funding, supervision, institutional arrangements and any academic credit remain unconfirmed. |
+
+The USD 100,000 is a **core planning budget**, not an all-in final application.
+Required payroll/employer costs, benefits, taxes, insurance and administration have
+not been quantified or provided for in that total. The lead's budget assumes 40
+paid hours per week; unpaid excess hours are not a source of delivery capacity.
+No automatic pay reduction, reallocation or free-credit offset is assumed.
 
 ## Shared factual core
 
+All scopes use the [reviewer README](../../README.md),
+[observed evidence](../../VALIDATION.md) and [product map](../PRODUCT_MAP.md).
 The existing demonstration uses synthetic captured bytes and no model. Windows
 Python 3.12.14 recorded eight focused tests passing, four directory/ZIP checks,
 scripted review, linked repair and practitioner export/reopen. The advisory is
 injected. Separate CoherenceLattice/Sophia/Atlas execution, installed startup,
 live inference, actual human acceptance and P2P are not demonstrated here.
-Hashes and logical roles are not factual truth, signing or independent custody.
+Hashes and logical roles do not establish factual truth, signing or independent
+custody.
 
-The integration pilot proposes one supported installed local-model path through
+The integration pilot targets one supported installed local-model path through
 retained evidence/controls, analysis/challenge, human review/correction and
-export/reopen. The smaller concept stays within the offline evidence tool.
-Neither scope claims proven novelty, cognitive gains, measured hallucination
-reduction, established user demand or a complete operational Sophia network.
+export/reopen. The smaller option stays within the offline evidence tool.
+Neither scope promises full-product completion, a complete Sophia network,
+proven novelty, cognitive gains or measured hallucination reduction.
 
 These are alternative or explicitly separated funding scopes. Do not charge the
-same work, hours, equipment or reserve to multiple awards. If one source funds a
-deliverable, remove its costs from other requests and disclose the overlap before
-any later submission. Pending proposals are not awards; no other award proceeds
-are assumed and no previously submitted application is changed here.
+same work, hours, equipment or allowance to multiple awards. Remove funded costs
+from other requests and disclose overlap before a later submission. Pending
+proposals are not awards; no other award proceeds are assumed. Submitted
+applications are not changed by these documents.
 
 ## Permissions and next use
 
-The repository remains private; these documents authorize no recruitment,
-university agreement, outreach or funding submission. No institutional partnership
-or academic credit arrangement is claimed. Preserve existing licenses and
-attribution. No new media/prose license has been granted, and choosing CC BY is
-not a prerequisite for visibility or funding eligibility. Check the actual terms
-and source-access requirements of any future opportunity before submission.
-Public visibility remains the Project Lead's separate final-content decision.
+This update authorizes private planning documents only. It authorizes no hiring,
+recruitment, university agreement, spending, model/API use, hosted CI, outreach or
+submission. No institution or funding program is named as a target or partner.
+Check actual grant allowability, engagement costs and source-access requirements
+before preparing a final application or making commitments.
 
-These drafts identify no particular funding program or university as a target.
-They include no private application identifiers, personal health data, private
-financial records, tax identifiers or personal profiles.
+The repository remains private. Preserve existing licenses and attribution; no
+new media/prose license is granted. Optional CC BY is not a prerequisite for
+visibility or funding eligibility. Public contents and visibility remain the
+Project Lead's separate decision.
