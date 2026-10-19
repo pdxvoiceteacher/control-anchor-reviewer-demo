@@ -1,6 +1,7 @@
 # Known limitations
 
-This is an OFFLINE EVIDENCE AND REVIEW COMPONENT DEMONSTRATION, prepared privately.
+This is an OFFLINE EVIDENCE AND REVIEW COMPONENT DEMONSTRATION. Public source
+access, including this review repository's history, was approved on 19 October 2026.
 
 - The source, prompt, settings, candidates, advisory finding, reviewer identity,
   review decisions and logical timestamps are scripted synthetic inputs. No
@@ -46,5 +47,7 @@ This is an OFFLINE EVIDENCE AND REVIEW COMPONENT DEMONSTRATION, prepared private
   qualify the full product, other runtimes/platforms, accessibility, installation,
   crash recovery, hostile administrator scenarios or production scale.
 - Generated output remains local and ignored by Git. Keep any future real inputs
-  under their actual access/retention policy. This private source candidate is not
-  a formal release, hosted service, funding submission or publication clearance.
+  under their actual access/retention policy. Approval to publish this reviewer
+  source is not a formal release, hosted service, funding submission, deployment
+  approval or qualification of the full product. The development repository
+  remains private.

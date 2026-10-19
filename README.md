@@ -29,10 +29,11 @@ not an assurance opinion or proof of useful cognitive performance.
 3. **Review the result:** open `demo-output/review.html`, inspect
    `demo-output/summary.json` and follow the [artifact guide](#what-to-inspect).
 
-This repository is **private**. Public visibility and final contents require
-the Project Lead's separate approval. Existing licenses and notices remain applicable;
-no new media/prose license grant has been authorized. Adopting CC BY is not a
-prerequisite for public visibility or funding eligibility.
+The Project Lead approved **public source access to this reviewer repository,
+including its history, on 19 October 2026**. Existing licenses and notices remain
+applicable; publication adds no Creative Commons license or new media/prose grant.
+The main development repository remains private. See the
+[publication review record](PUBLICATION_REVIEW.md) for scope and checks.
 
 ## Reader routes
 

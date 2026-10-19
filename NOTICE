@@ -1,4 +1,4 @@
-Control Anchor reviewer demo — private preparation candidate; no formal release
+Control Anchor reviewer demo - source publication approved; no formal release
 
 Copyright 2026 Thomas Prislac and Ultra Verba, Lux Mentis contributors.
 
@@ -15,13 +15,14 @@ components or adaptations included in this demo. See THIRD_PARTY_NOTICES.md.
 "Aggregation Station" is not adopted as a current rightsholder. AI systems are
 not represented as contributors, owners, officers or rightsholders.
 
-This notice is scoped from the upstream notice. Stale public-repository wording
-has been corrected to private preparation; attribution is preserved. The Unicode
+This notice is scoped from the upstream notice; attribution is preserved. The Unicode
 tables and separate public-alpha component/profile files described in the full
 upstream notice are excluded from this exact extraction.
 
-Public visibility awaits a separate final-content decision and the scoped
-checks in PUBLICATION_REVIEW.md. Inherited HOLD labels are not a newly discovered
-third-party claim against this extraction. This candidate is
+The Project Lead approved public source access to this reviewer repository,
+including its history, on 19 October 2026, preserving existing licenses and adding
+no Creative Commons license. Scoped checks are in PUBLICATION_REVIEW.md.
+Inherited HOLD labels are historical metadata, not a newly discovered
+third-party claim against this extraction. This source publication is
 not a release, hosted service, deployment, assurance opinion, legal compliance
 attestation, production-readiness claim or truth certification.

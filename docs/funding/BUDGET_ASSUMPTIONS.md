@@ -4,8 +4,10 @@ This note supports the current [six-month integration plan](INTEGRATION_PILOT.md
 The owner agreed USD 48,000 for the Lead Designer and Internal Controls Specialist,
 USD 48,000 for a qualified Software Engineer and USD 4,000 provisional
 infrastructure: **USD 100,000 core**, not an all-in final application. It is a
-private planning model, not authority to hire, buy equipment, activate services,
-run CI or call a model/API. Grant allowability is unconfirmed.
+planning model, not authority to hire, buy equipment, activate services,
+run CI or call a model/API. Grant allowability is unconfirmed. Public access to
+this reviewer repository and its history was approved separately on 19 October
+2026, preserving existing licenses and adding no Creative Commons license.
 
 ## Engineering capacity examples
 

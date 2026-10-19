@@ -1,6 +1,7 @@
 # Methods appendix: teaching evidence boundaries
 
-**Private reviewer candidate. Public visibility awaits the final-content decision.**
+**Reviewer source publication approved on 19 October 2026; existing rights and
+attribution preserved.**
 
 This appendix adapts Thomas Prislac / UVLM's provenance pedagogy into one exercise
 for the [offline component demo](../README.md). Its merit here is an inspectable
@@ -24,11 +25,12 @@ The source documents state no authority or release effect. No applicable license
 grant was identified in these documents or a repository license file at the
 inspected snapshots. The candidate's [license scope](../LICENSE_SCOPE.md) does not
 establish upstream title or relicense those sources. The Project Lead's ownership attestation
-and instruction to include methods support this private adaptation. Preserve
+and instruction to include methods support this scoped adaptation. Preserve
 applicable existing rights and attribution as described in
 [PUBLICATION_REVIEW.md](../PUBLICATION_REVIEW.md). No new prose license is granted,
 and a new CC BY grant is not a prerequisite for visibility or funding eligibility.
-Merge authority does not itself change repository visibility.
+The separate public-access decision covers this reviewer repository and its
+history. Cited source repositories are not made public by that decision.
 
 ## Method: inspect, challenge, decide within scope
 

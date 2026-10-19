@@ -40,4 +40,7 @@ uses the built-in standard-library engine. Python itself is supplied by the user
 existing runtime and retains its own license. Reassess notices if the file set or
 runtime packaging changes. The methods appendix cites two additional pedagogy
 documents; their source/permission scope is recorded separately in the manifest
-and publication checklist. Publication permission remains a final-content decision.
+and publication review record. The Project Lead approved publication of this
+reviewer source and its history on 19 October 2026, preserving existing licenses
+and attribution and adding no Creative Commons license. That approval does not
+publish the development repositories or relicense the cited sources.

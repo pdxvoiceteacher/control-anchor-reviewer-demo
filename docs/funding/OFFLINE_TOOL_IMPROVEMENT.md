@@ -1,6 +1,6 @@
 # Offline inspection and reproducible verification
 
-**Private alternative planning concept; not submitted.** This smaller scope is
+**Alternative planning concept; not submitted.** This smaller scope is
 separate from the current [six-month, USD 100,000 core integration plan](INTEGRATION_PILOT.md).
 Its own request amount, work estimate and costed plan remain unset. No smaller
 dollar request, staffing commitment or schedule is proposed here.
@@ -45,8 +45,10 @@ Pending proposals are not awards; no other award proceeds are assumed. No existi
 submission narrative or private identifier is reproduced here.
 
 Grant allowability, access requirements and full engagement costs need checking
-before a final request. The repository remains private. Preserve existing
+before a final request. The Project Lead approved public access to this reviewer
+repository and its history on 19 October 2026. Preserve existing
 MPL-2.0 scope/notices and other applicable rights; no new media/prose license is
-granted. Public visibility remains the Project Lead's separate decision. This
+granted; no Creative Commons license is added. The development repository remains
+private and no application is submitted by this source-access decision. This
 draft authorizes no hiring, recruitment, university agreement, spending, service
 activation, hosted CI, model/API use, outreach or submission.

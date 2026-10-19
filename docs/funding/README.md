@@ -2,7 +2,7 @@
 
 The current owner-agreed planning model is a **six-month integration pilot with a
 USD 100,000 core budget**, using 26 weeks for hourly calculations. It replaces the
-earlier student-led proposal. These program-neutral documents remain private
+earlier student-led proposal. These program-neutral documents remain
 planning drafts, not submitted applications, employment offers or awards. Funding
 allowability, prospective user demand and practical benefit are unconfirmed.
 
@@ -45,13 +45,14 @@ applications are not changed by these documents.
 
 ## Permissions and next use
 
-This update authorizes private planning documents only. It authorizes no hiring,
+These are planning documents only. They authorize no hiring,
 recruitment, university agreement, spending, model/API use, hosted CI, outreach or
 submission. No institution or funding program is named as a target or partner.
 Check actual grant allowability, engagement costs and source-access requirements
 before preparing a final application or making commitments.
 
-The repository remains private. Preserve existing licenses and attribution; no
-new media/prose license is granted. Optional CC BY is not a prerequisite for
-visibility or funding eligibility. Public contents and visibility remain the
-Project Lead's separate decision.
+The Project Lead approved public access to this reviewer repository and its
+history on 19 October 2026. Preserve existing licenses and attribution; no new
+Creative Commons or media/prose license is granted. This approval does not publish
+the development repository or submit any application. See the
+[publication review record](../../PUBLICATION_REVIEW.md).

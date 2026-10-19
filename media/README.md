@@ -5,7 +5,9 @@ scripts and decks.
 These editable materials explain the full Control Anchor / Triadic Cognitive
 Systems design and P2P research. Their dated evidence sections distinguish that
 vision from the offline component demonstrated in this repository. Repository
-visibility remains private; external reviewer access is pending.
+public access, including history, was approved by the Project Lead on 19 October
+2026. This approval adds no new license and does not publish the development
+repository.
 
 ## Choose a recording set
 
@@ -23,8 +25,12 @@ Covers remain unchanged:
 Use the captions and dated recording guidance in
 [Media_Change_and_Evidence_Notes.md](Media_Change_and_Evidence_Notes.md).
 The artwork depicts product vision/research, not recorded installed screens or
-an operational peer network. Source URLs identify evidence; private URLs do not
-promise recipient access. Refresh status and access before distributing.
+an operational peer network. The dated decks, scripts, notes and pack manifest
+retain their reviewed 18 October bytes, including then-current private/access-
+pending wording. This page supplies the subsequent source-publication decision;
+it does not change their evidence claims. Source URLs into the development and
+other private repositories do not promise recipient access. Refresh status and
+access before distributing or recording.
 
 ## Provenance and inspection
 
@@ -66,13 +72,11 @@ page/slide counters are stale metadata, not layout counts. The existing runtime
 and its [validation evidence](../VALIDATION.md) are unchanged, and no new runtime
 execution was needed.
 
-## Existing rights and optional license choice
+## Existing rights
 
 These added media/prose files do **not** automatically inherit the code's MPL-2.0
-license. A straightforward proposed choice is [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) for the approved
-user-controlled media and added prose, credited to Thomas Prislac / UVLM while
-preserving any applicable existing notices. That optional recommendation is not
-applied as a license grant. No new media/prose grant has been authorized, and
-granting CC BY is not a prerequisite for repository visibility or funding
-eligibility. Preserve actual existing rights/permissions and notices. Final public
-contents/visibility remain the Project Lead's separate decision; merge authority is separate.
+license. Preserve their applicable existing rights, permissions and notices,
+including Thomas Prislac / UVLM attribution. The Project Lead approved public
+source access to this reviewer repository and its history with those terms
+preserved. No new Creative Commons or media/prose license is granted. Earlier
+optional license suggestions are not applied by this publication.

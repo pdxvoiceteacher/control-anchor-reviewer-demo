@@ -1,7 +1,7 @@
 # Local evidence and review integration pilot
 
 **Current owner-agreed core planning model: six months, USD 100,000.** Hourly
-examples use 26 weeks. This replaces the earlier student-led plan. It is a private,
+examples use 26 weeks. This replaces the earlier student-led plan. It is a
 program-neutral planning draft, not a submitted application, award or hiring
 commitment. Funding allowability and the full cost of engagement remain unresolved.
 
@@ -116,4 +116,6 @@ must use separated costs if pursued. Preserve the [shared factual baseline](READ
 [known limitations](../../KNOWN_LIMITATIONS.md) and existing
 [license scope/notices](../../LICENSE_SCOPE.md). This draft authorizes no hiring,
 spending, service activation, submission, outreach, new license or visibility
-change. Any later application must check actual allowability and full costs.
+change. Public source access to this reviewer repository and its history was
+approved separately on 19 October 2026; the development repository stays private.
+Any later application must check actual allowability and full costs.

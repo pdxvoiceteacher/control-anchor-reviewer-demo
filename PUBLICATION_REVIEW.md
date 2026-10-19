@@ -1,50 +1,72 @@
-# Publication review for this candidate
+# Source publication review - 19 October 2026
 
-Private candidate preparation and merging are authorized. Public visibility and
-the final audience remain separate Project Lead decisions. These checks concern this
-offline source/demo and its documentation; they do not demand qualification of
-the full product or generic independent legal certification for every path.
-They add no license restrictions and do not certify title.
+The Project Lead explicitly approved public access to
+`pdxvoiceteacher/control-anchor-reviewer-demo`, **including its history**, while
+preserving existing licenses and adding no Creative Commons license. The approved
+content baseline is `124cc8ccb7fdbf0b71af08f81e43760d4a2cd9a5`; the publication
+successor changes access-status documentation and its manifest only. This decision
+does not publish `pdxvoiceteacher/triadicbrain-open-alpha` or other source
+repositories, invite anyone, publish a release, authorize deployment or submit an
+application. The development repository was verified private at preflight and must
+remain private.
 
-## Project Lead decision
+## Completed bounded checks
 
-- [ ] Identify the exact final commit and intended public contents/audience.
-  Obtain the Project Lead's decision before changing visibility, inviting reviewers,
-  publishing release artifacts or submitting any funding application. His merge
-  delegation and invitation to include meritorious methods do not themselves
-  change this repository's private visibility.
+- [x] Confirmed the manifest binds the **33 exact extracted files**: 20 Python
+  modules, 12 schemas and LICENSE. Their pinned source bytes and MPL-2.0 text are
+  unchanged. Added/adapted file origins and current hashes are recorded separately.
+- [x] Inspected all **74 current files** and all **nine reachable commits** under
+  the single `main` ref at the approved baseline: **121 distinct file blobs**,
+  **9,957,389 distinct blob bytes** and **76 historical paths**. No source-repository
+  Git history, workflows, installation machinery, private ledgers/operator data,
+  dependencies, model weights or generated run roots were found in that history.
+- [x] Inspected text, JSON, Office XML/relationships and prior file versions for
+  credentials, local user paths and unintended person-specific records. No such
+  content was identified. The intended business contact, named attribution,
+  ownership attestation and configured Git author/committer identities remain.
+  Historical funding drafts and commit messages are superseded planning history,
+  not current applications or awards. The owner-approved history is not rewritten.
+- [x] Checked historical and current Office packages for active content, embedded
+  objects, comments and tracked changes; none was found. Current media hashes and
+  unchanged cover identities still match the reviewed pack. The earlier cloud
+  visual review and local import inspection remain attributed evidence, not a new
+  rendering or product-qualification claim.
+- [x] Confirmed notices describe actual inclusions. CE/IntegrityLock/Open Web
+  Steward adaptations are excluded workbench history. Their mention does not
+  identify an included component or impose a new CC-BY obligation on this demo.
+- [x] Preserved existing licenses, attribution and source/permission distinctions
+  for the code, pedagogy paraphrase and media. Public access does not extend the
+  code's license to every added file or grant a new media/prose license. No new
+  Creative Commons license is applied. No specific conflicting third-party notice
+  was identified in this selected material; this is not independent title proof.
+- [x] Retained conspicuous synthetic fixtures, injected advisory, scripted
+  decisions, provider-free operation and logical-role/hash-chain limits. No live
+  inference, actual human acceptance, independent custody, signing, business-control
+  effectiveness or full-product completion is claimed.
+- [x] Preserved the focused reproducibility evidence in [VALIDATION.md](VALIDATION.md).
+  Runtime, fixtures and tests are unchanged; no new execution or CI is needed for
+  this documentation successor. Local links, current hashes and budget consistency
+  are checked before committing the successor.
+- [x] No separate release package, hosted service, installer, deployment or model
+  artifact is being published. Source access creates no assurance opinion or
+  operational authority. Future packaged artifacts need their own exact-member
+  and notice inspection.
 
-## Concrete contents checks
+These are scoped contents/history checks, not a guarantee that every possible
+secret or rights issue can be detected. They add no license restrictions and do
+not demand qualification of the full product or blanket legal certification.
+GitHub visibility and unauthenticated document access must be read back separately;
+approval of the source does not itself perform that settings action.
 
-- [ ] Confirm the manifest still binds the 33 exact extracted files and records
-  added/adapted documents. Preserve MPL-2.0 and attribution. Review new material
-  if the allowlist changes; do not import the full private inventory.
-- [ ] Check that notices describe actual inclusions. CE/IntegrityLock/Open Web
-  Steward adaptations are excluded workbench history; their mention does not
-  establish an included component or additional CC-BY obligation here.
-- [ ] Preserve actual existing licenses, attribution and permissions for the
-  pedagogy sources, their paraphrase and the `media/` pack. Their recorded origin
-  distinctions remain; do not automatically extend the code license to them.
-  No new media/prose license grant is authorized. CC BY 4.0 is an optional,
-  unapplied suggestion, not a condition of public visibility or funding eligibility.
-  The Project Lead's ownership attestation and instructions support preparation. Address
-  any specific conflicting third-party notice if one is actually identified;
-  do not replace the final-content decision with a requirement to grant a new license.
-- [ ] Inspect final candidate files for credentials, real learner/customer/user
-  records, private operator data and unintended generated output. Keep fixtures
-  and scripted decisions conspicuous. This source candidate contains no hosted
-  service or model weights; a future deployment would be a different scope.
-- [ ] Keep claims tied to the observed offline demo and documented failure/ZIP
-  boundaries. Retain the full product vision while distinguishing source elsewhere
-  and proposed joins. Do not claim measured training benefits or live-product
-  acceptance. Check final application wording against those same limits.
-- [ ] Preserve the focused reproducibility evidence in VALIDATION.md and verify
-  documentation links/content at the final commit. Re-execute affected runtime
-  checks if implementation or fixtures change; a documentation-only successor
-  may inherit unchanged runtime evidence without rerunning the full product.
-- [ ] If separately publishing packaged artifacts, inspect those exact members,
-  hashes and notices. Source publication does not authorize deployment or create
-  an assurance opinion.
+## Dated media and private source links
+
+The reviewed decks, scripts, teleprompters, notes and pack manifest retain their
+18 October bytes. Their private/access-pending statements describe that earlier
+preparation stage. [media/README.md](media/README.md) records the later approval
+without rewriting the reviewed payload or its evidence claims. References into
+the development and other private repositories remain provenance references and
+may not open for outside readers. This approval changes access only to this
+reviewer repository and its own history.
 
 ## Twelve-schema rights scope
 
@@ -58,9 +80,7 @@ declaration identifies a format, not imported validator code.
 Thomas supplied an ownership attestation: "There were never other board members.
 It owns nothing. I own the software entirely." This records his attestation,
 not independent legal proof. No conflicting rightsholder or specific third-party
-exception was found in the selected schema set. There is therefore no identified
-schema-specific rights blocker; this review does not certify title. Inherited
-upstream HOLD values remain historical review metadata, not evidence of an
-unidentified board interest or an automatic blanket prohibition. The specific
-public-content decision must preserve the applicable existing rights and notices.
-An optional new media/prose license is a distinct choice, not a publication gate.
+exception was found in the selected schema set. Inherited upstream HOLD values
+remain historical review metadata, not an unidentified board interest or a new
+blanket prohibition. The separate public-source decision preserves applicable
+existing rights and notices and adds no new Creative Commons license.
