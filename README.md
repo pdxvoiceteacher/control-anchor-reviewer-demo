@@ -11,6 +11,60 @@ deterministic evidence checks, records a scripted review, preserves a linked
 revision, exports and reopens evidence, and rejects a deliberately modified copy.
 **Synthetic inputs; no model is called. This is not the full live AI product.**
 
+## Architecture at a glance
+
+**The whole-product design and the demonstrated component have different scopes.**
+The design arrows below describe intended responsibilities, not a completed live
+workflow. The demo row describes this repository's recorded synthetic behavior.
+
+```mermaid
+flowchart TB
+    subgraph Design["PRODUCT DESIGN - integration in development"]
+        direction TB
+        Controls["Local controls and permissions"] --> Work["Control Anchor workbench"]
+        Work --> Ingress["Sonya / AEGIS: input binding and technical admission"]
+        Ingress --> Model["Model / provider integration"]
+        Model --> UCC["UCC: supported procedures"]
+        UCC --> Ground["CoherenceLattice: grounding and evidence relations"]
+        Ground --> Sophia["Sophia: advisory evaluation"]
+        Sophia --> Atlas["Atlas: reporting, dissent and continuity"]
+        Atlas --> Human["Human review and decision authority"]
+    end
+    subgraph Demo["DEMONSTRATED HERE - synthetic, offline, no model call"]
+        direction TB
+        Capture["Capture supplied evidence"] --> Checks["Deterministic evidence checks"]
+        Checks --> Script["Scripted review"]
+        Script --> Revision["Preserve original and linked child correction"]
+        Revision --> Export["Export, reopen and altered-copy rejection"]
+    end
+    subgraph Network["FUTURE NETWORK - not implemented in this demo"]
+        direction TB
+        Nodes["Independently controlled local instances"] <--> Sharing["Authorized compute and provenance sharing"]
+    end
+```
+
+Triadic Brain supplies the broader cognitive-system architecture; Control Anchor
+is the intended workbench for locally defined controls and evidence-linked review.
+The proposed Sophia peer network would connect eligible local instances while
+preserving local permissions and decision authority. Household, organizational,
+governmental and global use are intended scopes to investigate, not demonstrated
+scale or partnerships.
+
+The demo uses authored outputs and scripted decisions. It does not execute the
+separate CoherenceLattice, Sophia or Atlas implementations. Advisory results do
+not themselves authorize business actions or establish professional assurance.
+This overview simplifies parallel checks, optional review and feedback paths;
+see [the detailed product map](docs/PRODUCT_MAP.md),
+[architecture responsibilities](#where-this-fits) and
+[demonstrated limitations](KNOWN_LIMITATIONS.md).
+
+Architecture attribution: adapted from UVLM's `triadicbrain-open-alpha`
+`README.md`, “Design walkthrough,” at commit
+`37583fd91ff7f0d912256c10fea89ff6896763cf`, Git blob
+`724c97412410f584279b3d6def0f093741bdd84d`.
+The diagram is embedded here so readers do not need private-repository access.
+Existing [license scope and attribution](LICENSE_SCOPE.md) remain unchanged.
+
 ## Observed result and first steps
 
 The recorded run used **Windows and Python 3.12.14**: **8 focused tests passed
