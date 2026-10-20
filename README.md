@@ -1,15 +1,74 @@
 # Control Anchor reviewer demo
 
-Control Anchor is being developed to help organizations inspect the evidence
-behind AI-assisted work and retain an attributable review history. Prospective
-beneficiaries include small organizations, research teams and software builders
-who need to examine and challenge AI-assisted work locally; user demand and
-practical benefit have not yet been established.
+**Control Anchor is being built to help people use AI under understandable rules,
+with evidence they can inspect and decisions they can correct.**
+
+Prospective uses range from family groups and small businesses to institutions.
+Each retains its own requirements and human authority. Practical usefulness,
+customer demand and broad deployment remain to be established.
 
 This offline demo captures source, prompt, settings and candidate bytes, runs
 deterministic evidence checks, records a scripted review, preserves a linked
 revision, exports and reopens evidence, and rejects a deliberately modified copy.
 **Synthetic inputs; no model is called. This is not the full live AI product.**
+
+## Observed result and first steps
+
+The 18 October 2026 recorded run used **Windows and Python 3.12.14**: **8 focused tests passed
+in 18.957 seconds**, with **4 directory/ZIP verification checks**. Practitioner
+JSON reopened with 133 evidence objects; the changed disposable copy was rejected
+and the retained original verified afterward. These are bounded component results,
+not an assurance opinion or proof of useful cognitive performance.
+
+1. **Inspect without running:** read [VALIDATION.md](VALIDATION.md) and the
+   [retained result summary](validation/observed-demo-summary.json).
+2. **Run locally:** follow [Windows / PowerShell](#run-on-windows--powershell),
+   using an existing Python 3.12 runtime and a fresh output directory. The two
+   commands are `python -S demo.py --output demo-output` and
+   `python -S -m unittest discover -s tests -v`. No dependency installation or API
+   key is needed; the full quickstart explains runtime selection and hard links.
+3. **Review the result:** open `demo-output/review.html`, inspect
+   `demo-output/summary.json` and follow the [artifact guide](#what-to-inspect).
+
+This reviewer repository is **public**. The Project Lead approved public source
+access, including its history, on 19 October 2026. Existing licenses and notices remain
+applicable; publication adds no Creative Commons license or new media/prose grant.
+The main development repository remains private. See the
+[publication review record](PUBLICATION_REVIEW.md) for scope and checks.
+
+## Reader routes
+
+| Reader / purpose | Start here |
+| --- | --- |
+| Funders and prospective collaborators | [Funding and collaboration planning](docs/funding/README.md): a six-month, USD 100,000 core integration plan, a smaller uncosted offline-tool option and an optional, separately costed paid student intern opportunity. |
+| Engineers | [Implementation/function crosswalk](docs/PRODUCT_MAP.md#actual-included-function-crosswalk), [focused tests](tests/test_component.py) and [exact source provenance](SOURCE_MANIFEST.json). |
+| Academic collaborators | [Methods exercise and answer key](docs/METHODS_APPENDIX.md), [whole-product map](docs/PRODUCT_MAP.md) and [limitations](KNOWN_LIMITATIONS.md). No novelty or learning benefit is established. |
+| Potential users | Run the local demo and inspect the human-readable review above; [product responsibilities](docs/PRODUCT_MAP.md) distinguish the intended workbench from this component. |
+| Presenters | Optional [slides, scripts, teleprompters and covers](media/README.md), with dated evidence notes and source hashes. |
+| Product direction and P2P | [Product vision and proposed sharing evaluation](docs/RESEARCH_LINEAGE_AND_EVALUATION.md): staged local usefulness, reusable work versus compute, and an ordinary-library comparison. |
+
+## Inspect the fixture without running it
+
+The [source fixture](fixtures/source.txt) supplies **12 attendances in Session A
+and 8 in Session B**. They sum to **20 session attendances**; the number of distinct
+people across sessions is unknown.
+
+The [existing candidate](fixtures/candidate.txt) already gives the correct total
+and says unique-person attendance is unknown. The
+[injected advisory](fixtures/advisory.json) requests a more explicit session
+breakdown. It is scripted, not AI-discovered, and does not identify a hallucinated
+total.
+
+The [child candidate](fixtures/repaired-candidate.txt) spells out 12, 8 and 20
+while retaining that uncertainty. The parent candidate and finding stay unchanged.
+A linked child is a revision, not proven resolution:
+`resolved_finding_ids=[]`.
+
+The [request](fixtures/request-repair.txt) and [APPROVE fixture](fixtures/approve.txt)
+exercise lifecycle transitions, not the Project Lead's actual approval or a
+professional conclusion. The [recorded summary](validation/observed-demo-summary.json)
+shows directory/ZIP checks, reopened export and altered-copy rejection. Those are
+historical results, not tests rerun for this guide.
 
 ## Architecture at a glance
 
@@ -65,40 +124,6 @@ Architecture attribution: adapted from UVLM's `triadicbrain-open-alpha`
 The diagram is embedded here so readers do not need private-repository access.
 Existing [license scope and attribution](LICENSE_SCOPE.md) remain unchanged.
 
-## Observed result and first steps
-
-The recorded run used **Windows and Python 3.12.14**: **8 focused tests passed
-in 18.957 seconds**, with **4 directory/ZIP verification checks**. Practitioner
-JSON reopened with 133 evidence objects; the changed disposable copy was rejected
-and the retained original verified afterward. These are bounded component results,
-not an assurance opinion or proof of useful cognitive performance.
-
-1. **Inspect without running:** read [VALIDATION.md](VALIDATION.md) and the
-   [retained result summary](validation/observed-demo-summary.json).
-2. **Run locally:** follow [Windows / PowerShell](#run-on-windows--powershell),
-   using an existing Python 3.12 runtime and a fresh output directory. The two
-   commands are `python -S demo.py --output demo-output` and
-   `python -S -m unittest discover -s tests -v`. No dependency installation or API
-   key is needed; the full quickstart explains runtime selection and hard links.
-3. **Review the result:** open `demo-output/review.html`, inspect
-   `demo-output/summary.json` and follow the [artifact guide](#what-to-inspect).
-
-The Project Lead approved **public source access to this reviewer repository,
-including its history, on 19 October 2026**. Existing licenses and notices remain
-applicable; publication adds no Creative Commons license or new media/prose grant.
-The main development repository remains private. See the
-[publication review record](PUBLICATION_REVIEW.md) for scope and checks.
-
-## Reader routes
-
-| Reader / purpose | Start here |
-| --- | --- |
-| Funders and prospective collaborators | [Funding and collaboration planning](docs/funding/README.md): a six-month, USD 100,000 core integration plan, a smaller uncosted offline-tool option and an optional, separately costed paid student intern opportunity. |
-| Engineers | [Implementation/function crosswalk](docs/PRODUCT_MAP.md#actual-included-function-crosswalk), [focused tests](tests/test_component.py) and [exact source provenance](SOURCE_MANIFEST.json). |
-| Academic collaborators | [Methods exercise and answer key](docs/METHODS_APPENDIX.md), [whole-product map](docs/PRODUCT_MAP.md) and [limitations](KNOWN_LIMITATIONS.md). No novelty or learning benefit is established. |
-| Potential users | Run the local demo and inspect the human-readable review above; [product responsibilities](docs/PRODUCT_MAP.md) distinguish the intended workbench from this component. |
-| Presenters | Optional [slides, scripts, teleprompters and covers](media/README.md), with dated evidence notes and source hashes. |
-
 ## Scope in one paragraph
 
 The candidate is an authored fixture; `provider_invoked=false`. The actor
@@ -117,6 +142,25 @@ records original paths, byte identities, additions and modifications. The
 Control Anchor and locally governed Sophia network vision while distinguishing
 what this extraction actually demonstrates.
 
+## Get this public reviewer repository
+
+With an existing Git installation, choose a location for a new checkout:
+
+```powershell
+git clone https://github.com/pdxvoiceteacher/control-anchor-reviewer-demo.git
+Set-Location .\control-anchor-reviewer-demo
+git rev-parse HEAD
+```
+
+Record the commit you inspect. If you already have a checkout, inspect its state
+before updating; preserve local work. Alternatively, use GitHub's **Code →
+Download ZIP**, extract it and open PowerShell in the directory containing
+`demo.py`.
+
+This public reviewer repository needs no sign-in. Some provenance links refer to
+separate private development repositories and may require their own access.
+Acquiring this source does not install the full product.
+
 ## Run on Windows / PowerShell
 
 Use an existing Python 3.12 runtime. No dependency installation or API key is
@@ -129,7 +173,9 @@ From this repository directory, if `python` already resolves to Python 3.12:
 $python = (Get-Command python -ErrorAction Stop).Source
 & $python --version
 & $python -S demo.py --output demo-output
+if ($LASTEXITCODE -ne 0) { throw 'Demo failed; retain the command and error.' }
 & $python -S -m unittest discover -s tests -v
+if ($LASTEXITCODE -ne 0) { throw 'Focused tests failed; retain the command and error.' }
 Get-Content .\demo-output\summary.json
 Start-Process .\demo-output\review.html
 ```
@@ -140,7 +186,9 @@ Windows Store `python` alias:
 ```powershell
 $python = Join-Path $env:USERPROFILE '.cache\codex-runtimes\codex-primary-runtime\dependencies\python\python.exe'
 & $python -S demo.py --output demo-output
+if ($LASTEXITCODE -ne 0) { throw 'Demo failed; retain the command and error.' }
 & $python -S -m unittest discover -s tests -v
+if ($LASTEXITCODE -ne 0) { throw 'Focused tests failed; retain the command and error.' }
 ```
 
 Use a fresh output name for each run (for example `demo-output-2`). Existing
@@ -150,6 +198,25 @@ restricted sandbox denied this operation; the observed successful run used the
 same Windows user outside that sandbox, without UAC elevation. See
 [VALIDATION.md](VALIDATION.md). A denial is a failed run, not permission to replace
 the publication mechanism or claim success.
+
+## If a quickstart command fails
+
+Check `$LASTEXITCODE` after each Python command. A nonzero result is a failed run:
+stop and retain the exact command and error. Partial output is not completion.
+
+- **Python is missing, opens the Store, or has the wrong version:** select an
+  existing Python 3.12 executable as described above. If none is available,
+  report the missing runtime; installation is outside this walkthrough.
+- **File or module not found:** confirm PowerShell is in the cloned/extracted
+  directory containing `demo.py`, `src` and `fixtures`.
+- **Output already exists:** choose a fresh output name and preserve the old
+  evidence.
+- **Hard-link or access-denied error:** stop. The implementation needs supported
+  filesystem hard links and ordinary-user access. Do not disable or replace its
+  create-only publication mechanism to make a run appear successful.
+
+The eight-test result and initial failures in [VALIDATION.md](VALIDATION.md)
+remain dated observations, not proof of a new run on another machine.
 
 ## What to inspect
 
@@ -176,6 +243,7 @@ For a separate CLI verification after the run:
 ```powershell
 $env:PYTHONPATH = Join-Path $PWD 'src'
 & $python -S -m triadicbrain.assurance.production_cli verify --package .\demo-output\store\packages\TX-SYNTHETIC-001.zip
+if ($LASTEXITCODE -ne 0) { throw 'Package verification failed; retain the command and error.' }
 ```
 
 ## Where this fits
@@ -211,3 +279,15 @@ signing are not. Read [KNOWN_LIMITATIONS.md](KNOWN_LIMITATIONS.md) and the
 License and attribution: [LICENSE](LICENSE), [LICENSE_SCOPE.md](LICENSE_SCOPE.md),
 [NOTICE](NOTICE), [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md) and
 [AI_ASSISTANCE_DISCLOSURE.md](AI_ASSISTANCE_DISCLOSURE.md).
+
+## Historical HOLD fields and public access
+
+Historical `HOLD` fields in the [recorded summary](validation/observed-demo-summary.json)
+and original source records retain the review status of those earlier artifacts.
+The owner separately approved public access to this reviewer repository and its
+history. That decision does not turn scripted review into actual human
+acceptance, resolve a finding, change a license or qualify the product.
+
+Keep historical JSON intact. Read the [publication review record](PUBLICATION_REVIEW.md)
+alongside those fields and distinguish source visibility from operational and
+assurance claims.

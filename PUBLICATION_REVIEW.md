@@ -10,6 +10,20 @@ repositories, invite anyone, publish a release, authorize deployment or submit a
 application. The development repository was verified private at preflight and must
 remain private.
 
+## Verified public access and documentation scope
+
+The owner subsequently made this reviewer repository public. Independent
+unauthenticated access to its README, funding plan and validation document was
+verified on 19 October 2026, and checked again on 20 October against
+`14cf598078deff4c78db232771aee8fc0d6a15b0`. GitHub visibility metadata agrees.
+The development repository remains private.
+
+The approved documentation refresh improves navigation, explains the supplied
+fixture without running it, and reconciles high-level peer expectations with
+maintained design. Original runtime, fixtures, historical JSON, media, licenses
+and funding commitments remain unchanged. New explanatory files and mutable
+documentation provenance are recorded separately in SOURCE_MANIFEST.json.
+
 ## Completed bounded checks
 
 - [x] Confirmed the manifest binds the **33 exact extracted files**: 20 Python
@@ -55,8 +69,8 @@ remain private.
 These are scoped contents/history checks, not a guarantee that every possible
 secret or rights issue can be detected. They add no license restrictions and do
 not demand qualification of the full product or blanket legal certification.
-GitHub visibility and unauthenticated document access must be read back separately;
-approval of the source does not itself perform that settings action.
+Public access was checked separately from source approval. Neither establishes
+installed operation, a live peer network or professional assurance.
 
 ## Dated media and private source links
 

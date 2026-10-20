@@ -2,8 +2,8 @@
   "format_version": 1,
   "source_repository": "pdxvoiceteacher/triadicbrain-open-alpha",
   "source_commit": "139932846cb1b6bf1571158464d89513d4e381f8",
-  "candidate_visibility": "PUBLIC_SOURCE_ACCESS_APPROVED_SETTINGS_EXECUTION_UNVERIFIED",
-  "publication_review": "COMPLETED_SCOPED_CONTENT_HISTORY_CHECKS_OWNER_APPROVED_PUBLIC_SOURCE_ACCESS",
+  "candidate_visibility": "PUBLIC",
+  "publication_review": "COMPLETED_SCOPED_CONTENT_HISTORY_CHECKS_OWNER_APPROVED_PUBLIC_SOURCE_ACCESS_VISIBILITY_VERIFIED",
   "source_history_copied": false,
   "copied_files": [
     {
@@ -554,7 +554,7 @@
     },
     {
       "path": "PUBLICATION_REVIEW.md",
-      "candidate_sha256": "50bc30ecd162600771254a20a57e48a9c624e4b19d208459d1d74b915e36bbff",
+      "candidate_sha256": "9426b69e6fc23c7b66fc407a9283e50bbd989d9d666db292859f088aee05a377",
       "origin": "NEW",
       "source_basis_paths": [],
       "modifications": "New demo preparation material; AI-assisted under human commissioning.",
@@ -565,11 +565,13 @@
       "reviewer_successor_modification": "Neutral reviewer navigation and/or clarification that existing rights/notices are preserved, no new media/prose grant is authorized, and optional CC BY is not a visibility/funding prerequisite.",
       "role_label_editorial_modification": "Use Project Lead for narrative project decisions and Founder for business/budget responsibilities; preserve named legal/source attribution, claims, licenses, amounts and immutable identifiers.",
       "historical_publication_review": "FINAL_CONTENT_DECISION_PENDING",
-      "publication_wording_revision": "Record separate owner approval of reviewer-source/history public access on 19 October 2026; preserve existing licenses, attribution, budgets and evidence limits. No new Creative Commons/media/prose grant, deployment, release or application submission."
+      "publication_wording_revision": "Record separate owner approval of reviewer-source/history public access on 19 October 2026; preserve existing licenses, attribution, budgets and evidence limits. No new Creative Commons/media/prose grant, deployment, release or application submission.",
+      "bytes": 6490,
+      "documentation_refresh_2026_10_20": "Record verified owner-executed public access and this approved documentation-only successor; distinguish historical review metadata, source visibility and operational/assurance claims."
     },
     {
       "path": "README.md",
-      "candidate_sha256": "58dd0e94964e20492a55e534d75bd6a38e196e3b7cc199b3adecb029e4e7f4d0",
+      "candidate_sha256": "7aa4f3048c14286d5d1eb44d8438856b540c85dce51bf95905e76cc57f8149d7",
       "origin": "ADAPTED",
       "source_basis_paths": [
         "docs/current/master-design.md"
@@ -592,7 +594,8 @@
       "current_budget_navigation_revision": "Reader route now points to six-month core plan and optional separately costed paid intern opportunity; runtime/evidence text unchanged.",
       "historical_publication_review": "FINAL_CONTENT_DECISION_PENDING",
       "publication_wording_revision": "Record separate owner approval of reviewer-source/history public access on 19 October 2026; preserve existing licenses, attribution, budgets and evidence limits. No new Creative Commons/media/prose grant, deployment, release or application submission.",
-      "bytes": 12337
+      "bytes": 16573,
+      "documentation_refresh_2026_10_20": "Move dated observed results and first steps before the unchanged source-attributed architecture diagram; add accurate supplied-fixture walkthrough, public acquisition and PowerShell failure handling, historical HOLD explanation and P2P-note navigation. No runtime, fixture or recorded-result change."
     },
     {
       "path": "tests/test_component.py",
@@ -986,6 +989,16 @@
       "publication_review": "OWNER_APPROVED_PUBLIC_SOURCE_ACCESS_EXISTING_RIGHTS_PRESERVED_NO_NEW_LICENSE",
       "historical_publication_review": "OWNER_FINAL_CONTENT_VISIBILITY_DECISION_PENDING",
       "publication_wording_revision": "Record separate owner approval of reviewer-source/history public access on 19 October 2026; preserve existing licenses, attribution, budgets and evidence limits. No new Creative Commons/media/prose grant, deployment, release or application submission."
+    },
+    {
+      "path": "docs/RESEARCH_LINEAGE_AND_EVALUATION.md",
+      "origin": "NEW_HIGH_LEVEL_DOCUMENTATION_SYNTHESIS",
+      "modifications": "New concise high-level product/P2P interpretation and proposed synthetic two-workspace comparison. Separate local custody, optional cross-task reuse, peer artifact/storage sharing and fresh compute; preserve local authority and honest preview/current/future boundaries. No study, new implementation or funding commitment.",
+      "license": "No new license grant; preserve applicable existing rights and notices.",
+      "publication_review": "OWNER_APPROVED_PUBLIC_SOURCE_ACCESS_EXISTING_RIGHTS_PRESERVED_NO_NEW_LICENSE",
+      "candidate_sha256": "c437a5496e9b6da37e7527e517c166fcae357b1c502778b882a80c809146b25f",
+      "bytes": 7391,
+      "documentation_refresh_2026_10_20": "New concise high-level product/P2P interpretation and proposed synthetic two-workspace comparison. Separate local custody, optional cross-task reuse, peer artifact/storage sharing and fresh compute; preserve local authority and honest preview/current/future boundaries. No study, new implementation or funding commitment."
     }
   ],
   "consulted_originals": [
@@ -1246,9 +1259,48 @@
       "source_url": "https://github.com/pdxvoiceteacher/triadicbrain-open-alpha/blob/139932846cb1b6bf1571158464d89513d4e381f8/COMPONENT_REUSE_DECISIONS.json",
       "source_bytes_copied": false,
       "use": "Read for compact product responsibilities/source-bound delivery context or excluded-component notice correction; no private inventory or run records copied."
+    },
+    {
+      "source_repository": "pdxvoiceteacher/triadicbrain-open-alpha",
+      "source_commit": "35599bb18f24dc0cc18fa84a92915f848e00a9f6",
+      "original_path": "docs/current/master-design.md",
+      "original_git_blob": "51f6b696ab55ea616dcbb82f18691a2061611565",
+      "inspected_line_range": {
+        "start": 771,
+        "end": 1029
+      },
+      "source_bytes_copied": false,
+      "use": "Read for high-level product/P2P and staged-acceptance alignment in docs/RESEARCH_LINEAGE_AND_EVALUATION.md; no private implementation, operational/account history or later test evidence copied.",
+      "reviewed_date_utc": "2026-10-20"
+    },
+    {
+      "source_repository": "pdxvoiceteacher/triadicbrain-open-alpha",
+      "source_commit": "35599bb18f24dc0cc18fa84a92915f848e00a9f6",
+      "original_path": "docs/whitepaper/control-anchor-unified-white-paper-v0.4.md",
+      "original_git_blob": "d03af2b54650e359ccc6e548dd3e568bed9b2ca8",
+      "inspected_line_range": {
+        "start": 407,
+        "end": 426
+      },
+      "source_bytes_copied": false,
+      "use": "Read for high-level product/P2P and staged-acceptance alignment in docs/RESEARCH_LINEAGE_AND_EVALUATION.md; no private implementation, operational/account history or later test evidence copied.",
+      "reviewed_date_utc": "2026-10-20"
+    },
+    {
+      "source_repository": "pdxvoiceteacher/triadicbrain-open-alpha",
+      "source_commit": "35599bb18f24dc0cc18fa84a92915f848e00a9f6",
+      "original_path": "README.md",
+      "original_git_blob": "724c97412410f584279b3d6def0f093741bdd84d",
+      "inspected_line_range": {
+        "start": 394,
+        "end": 457
+      },
+      "source_bytes_copied": false,
+      "use": "Read for high-level product/P2P and staged-acceptance alignment in docs/RESEARCH_LINEAGE_AND_EVALUATION.md; no private implementation, operational/account history or later test evidence copied.",
+      "reviewed_date_utc": "2026-10-20"
     }
   ],
-  "publication_review_status_note": "Original copied-file/source HOLD records remain historical and byte-provenance metadata. Current scoped contents/history review is completed and public reviewer-source/history access separately approved, without certifying title or creating a new license. Actual GitHub visibility/readback is separate.",
+  "publication_review_status_note": "Original copied-file/source HOLD records remain historical byte-provenance metadata. Owner separately approved public reviewer-source/history access; GitHub public visibility and unauthenticated document access were verified. This does not certify title, create a new license, resolve a finding or establish installed/live product operation.",
   "candidate_review_notes": {
     "schema_scope": "Only the 12 commission-supplied AEP01/PoC01 schemas in copied_files were examined; exact source hashes retained.",
     "schema_inspection": "No specific third-party license exception, attribution, proprietary criteria text or external $ref identified. JSON Schema dialect declaration is a format identifier.",
@@ -1374,6 +1426,28 @@
     "privacy_result": "No credentials, local user paths, private operator/learner/customer records or active Office content identified. Intended business contact and configured commit identity retained under approved history.",
     "history_policy": "Preserve reviewer history, including superseded planning/status language. Do not copy full development history or rewrite prior commits.",
     "excluded_actions": "No development-repository visibility/access change, invitations, release, grant submission, deployment, purchase, hosted CI or model execution.",
-    "visibility_execution": "Approval is recorded; actual GitHub settings transition and anonymous-access readback must be verified separately. No successful transition is claimed in this manifest."
+    "visibility_execution": "Owner made this reviewer repository public; independent unauthenticated document reads were verified on 19 October 2026 and rechecked on 20 October against 14cf598078deff4c78db232771aee8fc0d6a15b0. GitHub visibility metadata agrees. The development repository remains private; no visibility/settings change is part of this documentation update."
+  },
+  "documentation_refresh_2026_10_20": {
+    "approval": "Owner explicitly approved public documentation commit/push and requested P2P reconciliation with maintained product development.",
+    "reviewer_baseline_commit": "14cf598078deff4c78db232771aee8fc0d6a15b0",
+    "scope": [
+      "README.md",
+      "PUBLICATION_REVIEW.md",
+      "docs/RESEARCH_LINEAGE_AND_EVALUATION.md",
+      "SOURCE_MANIFEST.json"
+    ],
+    "implementation_extraction_commit_unchanged": "139932846cb1b6bf1571158464d89513d4e381f8",
+    "design_alignment_commit": "35599bb18f24dc0cc18fa84a92915f848e00a9f6",
+    "alignment_boundary": "Maintained design/peer narrative and staged delivery reviewed separately from original implementation provenance. Selected research/prototype preview boundaries inspected, not executed or transplanted.",
+    "public_access_readback": {
+      "checked_date_utc": "2026-10-20",
+      "baseline_commit": "14cf598078deff4c78db232771aee8fc0d6a15b0",
+      "reviewer_visibility": "public",
+      "development_visibility": "private",
+      "method": "GitHub repository metadata and independent unauthenticated reads of README, VALIDATION and integration pilot."
+    },
+    "evidence_boundary": "No application, focused tests, provider/model, peer prototype, hosted CI or installation executed for this documentation refresh. Existing 18 October validation remains historical. Original evidence JSON/HOLD values and empty resolved_finding_ids remain unchanged.",
+    "preservation": "Runtime, fixtures, tests, historical evidence, media, licenses/notices and funding documents/commitments are unchanged. Existing architecture diagram and attribution preserved verbatim. No visibility/access change or new license."
   }
 }
