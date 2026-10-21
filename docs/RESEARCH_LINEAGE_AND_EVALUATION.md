@@ -67,19 +67,21 @@ are part of the cost of reuse.
 
 This reviewer demonstration is synthetic, offline and provider-free. It executes
 neither a peer prototype nor live inference. Upstream CI206 separately demonstrated
-restricted installed terminal Home and saved/reread provider selection. Protected
-provider connection and connected live-model acceptance remain unproved; no
-installed capability is added to this reviewer demo.
+restricted installed terminal Home and saved/reread provider selection. Installed
+protected provider activation, actual provider contact and connected live-model
+acceptance remain unproved. Later metadata CHECK and REREAD source tests used
+injected replies; no installed capability is added to this reviewer demo.
 
-The passive completed-artifact prototype remains preview-only. Separately,
-unmerged PR67's earlier local receiving source passed CI211 (51 cases / 153 phases
-at `b1e684b5c81f3df623fd654f1bb4ceeb21788e7b`) with synthetic material and injected
-boundaries. Its newer staging successor at
-`a4c2f28087038fec13d0417cfa47b6f994f34d87` has 35 authored/unexecuted cases,
-including the added metadata-response regression.
-Neither result establishes live peer networking, shared compute or independent
-corroboration. The [product map](PRODUCT_MAP.md#evidence-edition-and-remaining-joins)
-keeps these checkpoints separate; no private prototype or peer code is included.
+The passive completed-artifact prototype remains preview-only. Separately, merged
+development now has distinct passing results for local receiving, injected-HTTP
+staging and one synthetic same-process loopback TCP case. The last case exercised
+five TCP exchanges, explicit receipt and fresh-store reopen without resend, with
+the receiver still in-process. The [product map](PRODUCT_MAP.md#evidence-edition-and-remaining-joins)
+keeps exact sources and case populations separate, including original failures.
+This does not establish installed/distributed peers, TLS, discovery, interrupted
+TCP recovery, shared compute or independent corroboration. No private prototype
+or peer code is included here; private evidence links are attribution rather
+than tests publicly reproducible from this repository.
 
 A first later acceptance intention is two permitted nodes sharing one completed,
 non-sensitive artifact while preserving its producing record and a separate
@@ -123,13 +125,12 @@ at development commit `35599bb18f24dc0cc18fa84a92915f848e00a9f6`. Selected resea
 and prototype boundaries were inspected, not executed. This is a high-level
 interpretation, not copied private implementation or later test evidence.
 
-The milestone-only refresh on **21 October 2026 UTC** used main
-`206aeb6d6f17cf4e2656f14890ea5ddc04237a06` (`CURRENT_PRODUCT.md` and its product-file
-map) and PR67's `docs/current/p2p-development-map.md` at the staging SHA above.
-That pinned branch evidence was verified **21 October 2026, 04:52:47 UTC**;
-later branch activity is outside this dated checkpoint.
-No peer tests or network work were run for this note. Source provenance and
-earlier research attribution remain separate from new offline demo validation.
+The milestone reconciliation checked **21 October 2026, 08:11:33 UTC** uses
+private main `ff5a40adb43191b2018b13e1a4dcf00ebc5bcc9e`, its P2P development map
+and PR66/PR70 evidence. It supersedes the earlier 04:52:47 summary, whose source
+identities remain historical provenance. Later branch activity is outside this
+dated checkpoint. No tests or network trial were run for this documentation
+change; the retained 21 October offline validation is earlier execution evidence.
 
 The original extraction identities remain unchanged in
 [SOURCE_MANIFEST.json](../SOURCE_MANIFEST.json). For public context, see the

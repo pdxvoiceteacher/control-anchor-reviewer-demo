@@ -16,13 +16,14 @@ Attribution: Thomas Prislac / UVLM. Exact source identities are in
 [SOURCE_MANIFEST.json](../SOURCE_MANIFEST.json). This is a new summary, not the
 private inventory, a standards mapping or a new implementation.
 
-Milestone descriptions below were refreshed on **21 October 2026 UTC** against
-upstream main `206aeb6d6f17cf4e2656f14890ea5ddc04237a06`, its `CURRENT_PRODUCT.md`
-and `docs/current/product-file-map.md`. The earlier attribution above remains the
-architecture-summary source; this refresh changes no extracted engine identity.
-The pinned branch evidence below was verified **21 October 2026, 04:52:47 UTC**
-during this update's source review. These are named checkpoints, separate from
-the main documentation snapshot; later branch activity does not retarget them.
+Milestone snapshot checked **21 October 2026, 08:11:33 UTC** against private
+development main `ff5a40adb43191b2018b13e1a4dcf00ebc5bcc9e`, its P2P map and
+PR66/PR70 evidence. This supersedes the earlier 04:52:47 milestone summary;
+earlier attribution and source identities remain historical provenance.
+The private-development links below attribute reported evidence; those tests
+are **not publicly reproducible from this reviewer repository**. No private code
+or operational artifacts are included. These are named source checkpoints;
+later branch activity does not retarget their results.
 
 ## Two interface directions, one local authority
 
@@ -52,14 +53,14 @@ evidence. Rows can span these states.
 | Author organization controls | Original document -> editable rule/draft -> preview -> authorized version; control-authoring/admin/policy families | ELSEWHERE: supported data-driven authoring and custody activation. General document comprehension and live semantic fidelity are not established here. |
 | Enter tasks and deliberate follow-ups | Native workbench/task authoring, Sonya message/parent binding and gateway | ELSEWHERE: interactive/service source. HERE: captured transaction registration only, not an installed task or live reply. |
 | Govern ingress and permitted exchanges | Sonya/AEGIS consent, identity, adapter permission, quarantine and admission | ELSEWHERE: provider/native protection paths. HERE: bounded local inputs and logical role/action checks; no OS isolation or provider exchange. |
-| Connect providers and retain actual outcomes | Provider contract/readiness/transport, protected selection publication, credentials and custody reopening | ELSEWHERE: supported protocol adapters, not universal model compatibility. Saved labels, connection and inference are distinct; none is proved here. |
+| Connect providers and retain actual outcomes | Provider contract/readiness/transport, protected selection publication, credentials and custody reopening | ELSEWHERE: merged metadata CHECK and a separate REREAD predicate have source-specific passing evidence with injected replies. Installed activation, actual provider contact and inference remain unverified; none is executed here. |
 | Let an AI host use Control Anchor | Authenticated MCP tools, fixed native grants/clients and administration companion | ELSEWHERE: the opposite interface direction. A factory or SDK fixture is not an accepted installed host connection. |
 | Ground and analyze; apply configured procedures | CoherenceLattice grounded alternatives, claim/evidence links and counterexamples; cross-cutting UCC execution; governed bridge/pipeline | ELSEWHERE: substantive component implementations. HERE: deterministic evidence controls and captured claim envelope only; not business-control interpretation or full CoherenceLattice execution. |
 | Evaluate separately and present posture | Sophia evaluates supported evidence; Atlas explains posture, prior context and eligible continuity; TEL links performed stages | ELSEWHERE: separate component implementations and joined source. HERE: named audit/posture records, not those component executions or independent model corroboration. |
 | Retain authoritative history and enforce permissions | Custody, actor/transition policy, canonical bytes and recovery | HERE: captured records, logical role separation and hash chain. ELSEWHERE: native protected custody/services. Independent custody and signing are not demonstrated here. |
 | Assist, challenge, correct and continue inquiry | Analyst/Challenge context, assisted/feedback families, explicit parent purpose and retrosynthetic alternatives | ELSEWHERE: bounded assistance and feedback source. HERE: scripted advisory selection and separate repair child preserve original candidate/findings. No learned improvement or resolved finding is claimed. |
 | Human review, reporting, export and reopen | Review workbench, population/period projections and transaction/governed exports | HERE: scripted decisions, verification and practitioner export/reopen. ELSEWHERE: richer native/MCP consumers. Actual human acceptance and professional conclusions remain separate. |
-| Cooperate across local instances | Scoped artifact sharing, locally governed Sophia network, optional PMR/P2P and peer resources | ELSEWHERE: unmerged PR67 separates source-qualified local receiving from unexecuted staging. Live peer networking, compute and broader memory joins remain unproved. None is included or activated here. |
+| Cooperate across local instances | Scoped artifact sharing, locally governed Sophia network, optional PMR/P2P and peer resources | ELSEWHERE: separately qualified local receiving, injected-transport staging and one synthetic same-process loopback TCP case are merged. Installed/distributed peers, TLS, discovery and shared compute remain unproved. None is included or activated here. |
 
 Application modules and selected components are runtime source. Delivery tools
 and configuration define package membership. Integrations expose different entry
@@ -84,15 +85,29 @@ These relative links lead to the unchanged implementation extracted at
 
 ## Evidence edition and remaining joins
 
-The [21 October upstream checkpoint](https://github.com/pdxvoiceteacher/triadicbrain-open-alpha/blob/206aeb6d6f17cf4e2656f14890ea5ddc04237a06/CURRENT_PRODUCT.md)
-and product-file map distinguish these exact milestones:
+The [private P2P map at the pinned main](https://github.com/pdxvoiceteacher/triadicbrain-open-alpha/blob/ff5a40adb43191b2018b13e1a4dcf00ebc5bcc9e/docs/current/p2p-development-map.md),
+[merged PR66](https://github.com/pdxvoiceteacher/triadicbrain-open-alpha/pull/66)
+and [merged PR70](https://github.com/pdxvoiceteacher/triadicbrain-open-alpha/pull/70)
+distinguish these milestones. Each result retains its own source and population;
+the rows do not add up to a full-suite or current whole-product PASS.
 
 | Milestone | Evidence and limits |
 | --- | --- |
 | Merged installed Home source | CI206 at product `73ec4d1d34f080104df803cf264e6bf513cba157`: 26 selected source cases / 78 phases passed, actual application-only Inno installation, installed verification, restricted terminal Home and the same provider selection saved/reread. PR56 merged those product trees; PR65/68 maintain the current navigation. [Run](https://github.com/pdxvoiceteacher/triadicbrain-open-alpha/actions/runs/39517587826) uses a separate helper SHA, not the product SHA. |
-| Provider metadata, failed CI212 and unexecuted repair in draft PR66 | [CI212](https://github.com/pdxvoiceteacher/triadicbrain-open-alpha/actions/runs/39544384534) at `6b92a9bb4419053b5c3f16fe0b1bd672d9e5a79a` collected 26 cases: 0 complete PASS, 1 FAIL, 25 unexecuted. The first case failed before metadata I/O when the source-only guard blocked Windows client-journal DLL acquisition. Fixture-only successor `caaf8af33ac64e5fd9bf21b75770903ec3dd493d` is unexecuted; production, guards and the 26-case selection are unchanged. Earlier source checks do not qualify this repair or an installed/live connection. |
+| Provider metadata CHECK, merged PR66 | [CI216](https://github.com/pdxvoiceteacher/triadicbrain-open-alpha/actions/runs/39550198540) passed 26 cases / 78 phases at `fdc101f00980e782c021f9a2951c58cc57ac24d0`. Actual UI/broker/gateway/custody consumers used injected HTTP metadata replies. PR66's merged integration source is `3ed834c027ec0babe850ad101b79792e8e0ac6e1`. This is source qualification, not installed provider contact or inference. |
+| Separate REREAD predicate | [CI217](https://github.com/pdxvoiceteacher/triadicbrain-open-alpha/actions/runs/39551310691) passed exactly one existing predicate case / 3 phases at `4c4f002812b7b17cd5b76f5c2dda3d2bef91efe3`. This result belongs to that predicate; it neither repeats nor extends CI216's 26-case result into a full-suite claim. |
 | Local peer receiving, separate PR67 baseline | CI211 passed 51 cases / 153 phases at `b1e684b5c81f3df623fd654f1bb4ceeb21788e7b`, using synthetic material and injected boundaries. This is local receiving source qualification, not live peer networking or shared compute. |
-| Reviewed peer staging checkpoint, unmerged draft PR67 | `a4c2f28087038fec13d0417cfa47b6f994f34d87` carries transfer/staging with 35 authored/unexecuted cases, including the added metadata-response regression. Its maintained P2P map separates staging, explicit receipt and reconciliation. CI211 does not qualify these newer bytes. |
+| Peer staging, merged PR67 | [CI213](https://github.com/pdxvoiceteacher/triadicbrain-open-alpha/actions/runs/39545535104) passed 35 cases / 105 phases at `a4c2f28087038fec13d0417cfa47b6f994f34d87` using injected HTTP transport and actual native source/receiver consumers. Keep this result separate from CI211's earlier receiving source. |
+| One synthetic loopback TCP case, merged PR70 | [CI219](https://github.com/pdxvoiceteacher/triadicbrain-open-alpha/actions/runs/39559159214) passed exactly one case / 3 phases at `d9d0e1427c3a4bfbbbebb9e5b361bad28cdd6f73`: five TCP exchanges, staging, one explicit receiving receipt and fresh-store reopen without resend. The receiver remained in-process. PR70 merged at `ad6f595105bc31a86d0ec62d78f6111b34ebfec6`. This does not demonstrate installed/distributed peers, TLS, discovery, interrupted TCP recovery or shared compute. |
+
+Original failures remain failures: [CI212](https://github.com/pdxvoiceteacher/triadicbrain-open-alpha/actions/runs/39544384534)
+at `6b92a9bb4419053b5c3f16fe0b1bd672d9e5a79a`
+recorded 0 complete PASS, 1 FAIL and 25 unexecuted cases before metadata I/O;
+CI214/215 also remain failed history. [CI218](https://github.com/pdxvoiceteacher/triadicbrain-open-alpha/actions/runs/39554984743)
+failed before TCP connection and is
+not relabeled by CI219. The later passes do not reconstruct missing historical
+causes. PR66's recorded CI217 evidence supersedes the specific stale REREAD
+"unexecuted" statement in the pinned private `docs/current/provider-delivery.md`.
 
 CI206 does not establish provider contact, inference, application restart,
 ordinary-user/UAC behavior or actual human acceptance. Earlier failures and
