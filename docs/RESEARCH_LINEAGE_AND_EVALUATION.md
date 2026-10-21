@@ -66,15 +66,19 @@ are part of the cost of reuse.
 ## Current boundary and a later proof
 
 This reviewer demonstration is synthetic, offline and provider-free. It executes
-neither a peer prototype nor live inference. Installed startup, protected provider
-connection and connected live-model acceptance are not yet established by the
-current delivery evidence.
+neither a peer prototype nor live inference. Upstream CI206 separately demonstrated
+restricted installed terminal Home and saved/reread provider selection. Protected
+provider connection and connected live-model acceptance remain unproved; no
+installed capability is added to this reviewer demo.
 
-Current development includes a passive completed-artifact reuse prototype. It
-remains preview-only pending native admission. A receiving preview is not fresh
-model generation, independent corroboration, durable receiving custody, native
-review or live peer authentication. Operational peer networking and scheduling
-remain unfinished; no private prototype code is included in this repository.
+The passive completed-artifact prototype remains preview-only. Separately,
+unmerged PR67's earlier local receiving source passed CI211 (51 cases / 153 phases
+at `b1e684b5c81f3df623fd654f1bb4ceeb21788e7b`) with synthetic material and injected
+boundaries. Its newer staging successor at
+`62143cf9420d0f9ba2a794a51e987a40ebe6e876` has 34 authored/unexecuted cases.
+Neither result establishes live peer networking, shared compute or independent
+corroboration. The [product map](PRODUCT_MAP.md#evidence-edition-and-remaining-joins)
+keeps these checkpoints separate; no private prototype or peer code is included.
 
 A first later acceptance intention is two permitted nodes sharing one completed,
 non-sensitive artifact while preserving its producing record and a separate
@@ -117,6 +121,12 @@ sections 17.5–17.6, the staged-delivery whitepaper section 24 and the peer nar
 at development commit `35599bb18f24dc0cc18fa84a92915f848e00a9f6`. Selected research
 and prototype boundaries were inspected, not executed. This is a high-level
 interpretation, not copied private implementation or later test evidence.
+
+The milestone-only refresh on **21 October 2026 UTC** used main
+`206aeb6d6f17cf4e2656f14890ea5ddc04237a06` (`CURRENT_PRODUCT.md` and its product-file
+map) and PR67's `docs/current/p2p-development-map.md` at the staging SHA above.
+No peer tests or network work were run for this note. Source provenance and
+earlier research attribution remain separate from new offline demo validation.
 
 The original extraction identities remain unchanged in
 [SOURCE_MANIFEST.json](../SOURCE_MANIFEST.json). For public context, see the

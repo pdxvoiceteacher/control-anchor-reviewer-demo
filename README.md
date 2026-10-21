@@ -10,6 +10,8 @@ customer demand and broad deployment remain to be established.
 This offline demo captures source, prompt, settings and candidate bytes, runs
 deterministic evidence checks, records a scripted review, preserves a linked
 revision, exports and reopens evidence, and rejects a deliberately modified copy.
+It also rejects directory/ZIP copies with missing source evidence and exercises
+one deliberately interrupted decision through the existing recovery engine.
 **Synthetic inputs; no model is called. This is not the full live AI product.**
 
 ## Observed result and first steps
@@ -19,6 +21,18 @@ in 18.957 seconds**, with **4 directory/ZIP verification checks**. Practitioner
 JSON reopened with 133 evidence objects; the changed disposable copy was rejected
 and the retained original verified afterward. These are bounded component results,
 not an assurance opinion or proof of useful cognitive performance.
+
+The separate [21 October validation](VALIDATION.md#focused-update--21-october-2026)
+records this update's new execution. The eight-test result above and its retained
+JSON remain historical; new results do not overwrite them.
+
+The broader product has advanced separately: CI206 demonstrated application-only
+installation, restricted terminal Home and saved/reread provider selection at
+`73ec4d1d`; that source is now merged upstream. It did not prove provider contact,
+inference, restart, ordinary UAC or human acceptance. Unmerged provider and P2P
+successors retain their own unexecuted portions. The dated
+[product map](docs/PRODUCT_MAP.md#evidence-edition-and-remaining-joins) explains
+those milestones without requiring private source access; none is imported here.
 
 1. **Inspect without running:** read [VALIDATION.md](VALIDATION.md) and the
    [retained result summary](validation/observed-demo-summary.json).
@@ -237,6 +251,18 @@ remain dated observations, not proof of a new run on another machine.
   It also verifies retained directory/ZIP packages using the real verifier.
 - `demo-output/tampered-disposable-copy/`: deliberately changed source bytes.
   Verification must reject this copy; the retained original must still verify.
+- `demo-output/missing-evidence-disposable-copy/` and `.zip`: each omits
+  `source/original.bin`. The real directory/ZIP consumers return
+  `HOLD: PACKAGE_TOPOLOGY_INVALID` / exit 3; both retained originals still PASS.
+  An expected rejection is a successful adverse demonstration, not a verifier PASS.
+- `demo-output/adverse-store/`: candidate self-authorization stays data, model-role
+  decision is denied and a missing decision blocks sealing. No human decision or
+  directory/ZIP package is created there; original transaction bytes are preserved.
+- `demo-output/interrupted-decision-journal.json` and the recovery transaction:
+  deliberate `fault_after_target=1` leaves the decision written and state pending.
+  Existing recovery completes it once with one receipt/event; a second recovery
+  changes no store bytes. The recovered transaction then seals and verifies.
+  This covers one synthetic pre-seal interruption, not OS crash recovery.
 
 For a separate CLI verification after the run:
 
@@ -267,8 +293,9 @@ visible; the 42-row catalog is not 42 proven effective business controls.
 The intended locally governed Sophia network extends the vision toward cooperating
 local instances, separately authorized exchange, review and continuity. This
 candidate does not implement or activate that network, optional P2P, PMR or
-federation. Live inference, installed startup and the full recurrent cognitive
-loop remain separate product delivery work. The component demonstration preserves
+federation. Live inference and the full recurrent cognitive loop remain separate
+product delivery work; upstream's bounded installed Home result does not qualify
+this extraction as an installed product. The component demonstration preserves
 that vision while bounding the evidence actually offered here.
 
 **SYSTEM-GENERATED CONTROL EVIDENCE — NO ASSURANCE PROVIDED.** Logical roles and a

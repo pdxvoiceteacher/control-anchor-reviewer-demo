@@ -2,6 +2,7 @@
 from __future__ import annotations
 
 import json
+import os
 from pathlib import Path
 import sys
 import tempfile
@@ -22,9 +23,15 @@ from triadicbrain.assurance.verification import VerificationError, verify_transa
 
 class ComponentTests(unittest.TestCase):
     def setUp(self):
-        self.temp = tempfile.TemporaryDirectory()
-        self.addCleanup(self.temp.cleanup)
-        self.root = Path(self.temp.name)
+        # Optional fresh caller-owned root keeps successful and failed fixtures
+        # available for inspection; ordinary unittest use remains disposable.
+        retained_root = os.environ.get("REVIEWER_TEST_ROOT")
+        if retained_root:
+            self.root = Path(tempfile.mkdtemp(prefix=self._testMethodName + "-", dir=retained_root))
+        else:
+            self.temp = tempfile.TemporaryDirectory()
+            self.addCleanup(self.temp.cleanup)
+            self.root = Path(self.temp.name)
         self.store = self.root / "store"
         demo.new_store(self.store)
 
@@ -131,6 +138,56 @@ class ComponentTests(unittest.TestCase):
         snapshot = transaction_snapshot(self.store, demo.CAPTURE)
         self.assertEqual(snapshot["state"], "SEALED")
         self.assertIs(snapshot["terminal_state_complete"], False)
+
+    def test_missing_source_member_directory_and_zip_rejected_originals_pass(self):
+        demo.register_capture(self.store)
+        demo.decide(self.store, demo.CAPTURE, time="2026-10-18T10:00:02Z")
+        demo.seal(self.store, demo.CAPTURE, "2026-10-18T10:00:03Z")
+        package = self.store / "packages" / demo.CAPTURE
+        archive = self.store / "packages" / (demo.CAPTURE + ".zip")
+        before = demo.file_digests(self.store)
+        result = demo.missing_evidence_examples(package, archive, self.root)
+        for kind in ("directory", "zip"):
+            self.assertEqual(result[kind]["exit_code"], 3)
+            self.assertEqual(result[kind]["verifier_result"], "HOLD: PACKAGE_TOPOLOGY_INVALID")
+            self.assertEqual(result["retained_original_" + kind], "PASS")
+        self.assertEqual(demo.file_digests(self.store), before)
+
+    def test_interrupted_decision_recovery_once_then_sealed_directory_and_zip(self):
+        result = demo.recovery_example(self.store, self.root)
+        self.assertEqual(result["interrupted_state"], "HUMAN_DECISION_PENDING")
+        self.assertEqual(result["recovered_state"], "APPROVED")
+        self.assertEqual(result["recovery_event_count"], 1)
+        self.assertEqual(result["decision_transition_count"], 1)
+        self.assertTrue(result["pending_journal_cleared"])
+        self.assertEqual(result["second_recovery"]["result"], "NO_PENDING_TRANSITION")
+        self.assertIs(result["second_recovery"]["recovered"], False)
+        self.assertTrue(result["second_recovery_store_bytes_unchanged"])
+        demo.seal(self.store, demo.RECOVERY, "2026-10-21T10:00:03Z")
+        self.assertTrue(transaction_snapshot(self.store, demo.RECOVERY)["terminal_state_complete"])
+        for suffix in ("", ".zip"):
+            self.assertEqual(json.loads(demo.checked("verify", "--package",
+                self.store / "packages" / (demo.RECOVERY + suffix)))["result"], "PASS")
+
+    def test_complete_demo_surfaces_adverse_evidence_without_network_or_overwrite(self):
+        output = self.root / "complete-demo"
+        with mock.patch("socket.socket", side_effect=AssertionError("network forbidden in demo test")):
+            result = demo.run_demo(output)
+        self.assertEqual(len(result["verified_packages"]), 6)
+        self.assertEqual(set(result["verified_packages"].values()), {"PASS"})
+        self.assertTrue(result["authority_adverse_cases"]["human_decision_absent"])
+        self.assertTrue(result["authority_adverse_cases"]["directory_and_zip_absent"])
+        self.assertEqual(result["resolved_finding_ids"], [])
+        self.assertEqual(result["tampered_copy_exit_code"], 3)
+        self.assertEqual(json.loads((output / "summary.json").read_bytes()), result)
+        report = (output / "review.html").read_text("utf-8")
+        self.assertIn("Offline demo observations", report)
+        self.assertIn("verifier HOLD / exit 3", report)
+        self.assertIn("advisory remains OPEN", report)
+        before = demo.file_digests(output)
+        with self.assertRaises(FileExistsError):
+            demo.run_demo(output)
+        self.assertEqual(demo.file_digests(output), before)
 
 
 if __name__ == "__main__":
