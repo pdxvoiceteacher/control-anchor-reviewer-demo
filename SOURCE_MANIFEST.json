@@ -672,7 +672,7 @@
     },
     {
       "path": "docs/PRODUCT_MAP.md",
-      "candidate_sha256": "fc6e3d1a2cc4f373caba13bb55c2be00e96ef4fcb3dce49bbd1bec03b16b53f7",
+      "candidate_sha256": "efc8b1d1a238c6a5c45f5c20a122a7d93b1490ae9988180a19659f4f1ac225a2",
       "origin": "ADAPTED",
       "source_basis_paths": [
         "https://github.com/pdxvoiceteacher/triadicbrain-open-alpha/blob/37583fd91ff7f0d912256c10fea89ff6896763cf/README.md",
@@ -685,7 +685,7 @@
       "license": "MPL-2.0 to extent rights exist and covered",
       "publication_review": "OWNER_APPROVED_PUBLIC_SOURCE_ACCESS_EXISTING_RIGHTS_PRESERVED_NO_NEW_LICENSE",
       "historical_publication_review": "FINAL_CONTENT_DECISION_PENDING",
-      "bytes": 13034,
+      "bytes": 13136,
       "focused_update_2026_10_21": "Refresh merged CI206 installed Home, unmerged provider metadata and separate qualified receiving/unexecuted P2P staging milestones; bounded recovery crosswalk and worker-support scope.",
       "milestone_review_correction_2026_10_21": "Refresh branch checkpoints during independent review: retain CI212 failure before metadata I/O and unexecuted fixture repair; distinguish 35 unexecuted P2P staging cases from CI211 local receiving."
     },
@@ -1008,8 +1008,8 @@
       "modifications": "New concise high-level product/P2P interpretation and proposed synthetic two-workspace comparison. Separate local custody, optional cross-task reuse, peer artifact/storage sharing and fresh compute; preserve local authority and honest preview/current/future boundaries. No study, new implementation or funding commitment.",
       "license": "No new license grant; preserve applicable existing rights and notices.",
       "publication_review": "OWNER_APPROVED_PUBLIC_SOURCE_ACCESS_EXISTING_RIGHTS_PRESERVED_NO_NEW_LICENSE",
-      "candidate_sha256": "b63aadee28c5a27a16810b2949b3d09309fcb2c16bcc62fee8ca3378e5121248",
-      "bytes": 8149,
+      "candidate_sha256": "a0287ab0bafb27a3ece9efc26dc0c35a66e7bdf87c5c17b7490a553012212024",
+      "bytes": 8281,
       "documentation_refresh_2026_10_20": "New concise high-level product/P2P interpretation and proposed synthetic two-workspace comparison. Separate local custody, optional cross-task reuse, peer artifact/storage sharing and fresh compute; preserve local authority and honest preview/current/future boundaries. No study, new implementation or funding commitment.",
       "focused_update_2026_10_21": "Refresh only dated installed Home and local receiving versus unexecuted staging boundaries; preserve earlier research/design attribution and proposed study.",
       "milestone_review_correction_2026_10_21": "Refresh branch checkpoints during independent review: retain CI212 failure before metadata I/O and unexecuted fixture repair; distinguish 35 unexecuted P2P staging cases from CI211 local receiving."
@@ -1536,7 +1536,9 @@
       "provider_successor_status": "UNEXECUTED; production, guards and 26-case selection unchanged. Fresh PR66 metadata read during independent review.",
       "p2p_staging_successor": "a4c2f28087038fec13d0417cfa47b6f994f34d87",
       "p2p_staging_status": "35 authored/unexecuted cases; CI211 remains separate earlier local receiving source qualification.",
-      "code_and_execution_evidence": "Unchanged from reviewed 87f1af7c1dbfa1c50bf68fbcafa0e9f9a7adf371; correction is authored documentation/provenance only."
+      "code_and_execution_evidence": "Unchanged from reviewed 87f1af7c1dbfa1c50bf68fbcafa0e9f9a7adf371; correction is authored documentation/provenance only.",
+      "verified_at_utc": "2026-10-21 04:52:47 UTC",
+      "snapshot_boundary": "Named reviewed commits; later branch activity does not retarget these results or require another refresh."
     }
   }
 }

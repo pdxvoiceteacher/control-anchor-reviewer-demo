@@ -126,6 +126,8 @@ interpretation, not copied private implementation or later test evidence.
 The milestone-only refresh on **21 October 2026 UTC** used main
 `206aeb6d6f17cf4e2656f14890ea5ddc04237a06` (`CURRENT_PRODUCT.md` and its product-file
 map) and PR67's `docs/current/p2p-development-map.md` at the staging SHA above.
+That pinned branch evidence was verified **21 October 2026, 04:52:47 UTC**;
+later branch activity is outside this dated checkpoint.
 No peer tests or network work were run for this note. Source provenance and
 earlier research attribution remain separate from new offline demo validation.
 
