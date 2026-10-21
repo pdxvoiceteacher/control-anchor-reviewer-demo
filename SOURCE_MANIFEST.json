@@ -672,7 +672,7 @@
     },
     {
       "path": "docs/PRODUCT_MAP.md",
-      "candidate_sha256": "20800b86e62654ede6c22b2c7a3296b9df7b44d2ac5bd0aef5ba7a1f607412f2",
+      "candidate_sha256": "fc6e3d1a2cc4f373caba13bb55c2be00e96ef4fcb3dce49bbd1bec03b16b53f7",
       "origin": "ADAPTED",
       "source_basis_paths": [
         "https://github.com/pdxvoiceteacher/triadicbrain-open-alpha/blob/37583fd91ff7f0d912256c10fea89ff6896763cf/README.md",
@@ -685,8 +685,9 @@
       "license": "MPL-2.0 to extent rights exist and covered",
       "publication_review": "OWNER_APPROVED_PUBLIC_SOURCE_ACCESS_EXISTING_RIGHTS_PRESERVED_NO_NEW_LICENSE",
       "historical_publication_review": "FINAL_CONTENT_DECISION_PENDING",
-      "bytes": 12501,
-      "focused_update_2026_10_21": "Refresh merged CI206 installed Home, unmerged provider metadata and separate qualified receiving/unexecuted P2P staging milestones; bounded recovery crosswalk and worker-support scope."
+      "bytes": 13034,
+      "focused_update_2026_10_21": "Refresh merged CI206 installed Home, unmerged provider metadata and separate qualified receiving/unexecuted P2P staging milestones; bounded recovery crosswalk and worker-support scope.",
+      "milestone_review_correction_2026_10_21": "Refresh branch checkpoints during independent review: retain CI212 failure before metadata I/O and unexecuted fixture repair; distinguish 35 unexecuted P2P staging cases from CI211 local receiving."
     },
     {
       "path": "media/Control_Anchor_Introduction_Teleprompter_Reviewer_Update.txt",
@@ -1007,10 +1008,11 @@
       "modifications": "New concise high-level product/P2P interpretation and proposed synthetic two-workspace comparison. Separate local custody, optional cross-task reuse, peer artifact/storage sharing and fresh compute; preserve local authority and honest preview/current/future boundaries. No study, new implementation or funding commitment.",
       "license": "No new license grant; preserve applicable existing rights and notices.",
       "publication_review": "OWNER_APPROVED_PUBLIC_SOURCE_ACCESS_EXISTING_RIGHTS_PRESERVED_NO_NEW_LICENSE",
-      "candidate_sha256": "feed4f8205207f6c44f7722a9b6dc58262b58b808e66d249a460a3d51d918e29",
-      "bytes": 8099,
+      "candidate_sha256": "b63aadee28c5a27a16810b2949b3d09309fcb2c16bcc62fee8ca3378e5121248",
+      "bytes": 8149,
       "documentation_refresh_2026_10_20": "New concise high-level product/P2P interpretation and proposed synthetic two-workspace comparison. Separate local custody, optional cross-task reuse, peer artifact/storage sharing and fresh compute; preserve local authority and honest preview/current/future boundaries. No study, new implementation or funding commitment.",
-      "focused_update_2026_10_21": "Refresh only dated installed Home and local receiving versus unexecuted staging boundaries; preserve earlier research/design attribution and proposed study."
+      "focused_update_2026_10_21": "Refresh only dated installed Home and local receiving versus unexecuted staging boundaries; preserve earlier research/design attribution and proposed study.",
+      "milestone_review_correction_2026_10_21": "Refresh branch checkpoints during independent review: retain CI212 failure before metadata I/O and unexecuted fixture repair; distinguish 35 unexecuted P2P staging cases from CI211 local receiving."
     },
     {
       "path": "validation/2026-10-21-summary.json",
@@ -1357,6 +1359,15 @@
       "source_bytes_copied": false,
       "use": "Separate CI211 local receiving from newer authored/unexecuted staging; no peer code copied.",
       "source_url": "https://github.com/pdxvoiceteacher/triadicbrain-open-alpha/blob/62143cf9420d0f9ba2a794a51e987a40ebe6e876/docs/current/p2p-development-map.md"
+    },
+    {
+      "source_repository": "pdxvoiceteacher/triadicbrain-open-alpha",
+      "source_commit": "a4c2f28087038fec13d0417cfa47b6f994f34d87",
+      "original_path": "docs/current/p2p-development-map.md",
+      "original_git_blob": "00565c3a0062ea32ae8e5ee749209bf939ccfb15",
+      "source_bytes_copied": false,
+      "use": "Branch checkpoint refreshed during independent review: 35 authored/unexecuted staging cases; earlier 34-case checkpoint remains historical. No peer code or operational records copied.",
+      "source_url": "https://github.com/pdxvoiceteacher/triadicbrain-open-alpha/blob/a4c2f28087038fec13d0417cfa47b6f994f34d87/docs/current/p2p-development-map.md"
     }
   ],
   "publication_review_status_note": "Original copied-file/source HOLD records remain historical byte-provenance metadata. Owner separately approved public reviewer-source/history access; GitHub public visibility and unauthenticated document access were verified. This does not certify title, create a new license, resolve a finding or establish installed/live product operation.",
@@ -1516,6 +1527,16 @@
     "scope": "Authored harness/tests and concise existing documentation only; no provider, peer or installer code imported.",
     "new_execution": "11 tests OK; separate demo: six positive directory/ZIP checks, missing-member rejection in both consumers, denied authority, one pre-seal fault recovery and unchanged second recovery, 177 reopened evidence objects.",
     "visual_qa": "Local review.html open denied by browser URL policy in Thomas's Chrome; source inspected only; no server/workaround.",
-    "historical_evidence": "Original observed-demo-summary.json, eight-test result, original failures and all existing license/provenance records preserved."
+    "historical_evidence": "Original observed-demo-summary.json, eight-test result, original failures and all existing license/provenance records preserved.",
+    "branch_checkpoint_review_correction": {
+      "provider_metadata_test_source": "6b92a9bb4419053b5c3f16fe0b1bd672d9e5a79a",
+      "provider_result": "CI212: 26 collected, 0 complete PASS, 1 FAIL, 25 unexecuted; failed before metadata I/O at Windows client-journal DLL acquisition blocked by source-only guard.",
+      "provider_run": "https://github.com/pdxvoiceteacher/triadicbrain-open-alpha/actions/runs/39544384534",
+      "provider_fixture_only_successor": "caaf8af33ac64e5fd9bf21b75770903ec3dd493d",
+      "provider_successor_status": "UNEXECUTED; production, guards and 26-case selection unchanged. Fresh PR66 metadata read during independent review.",
+      "p2p_staging_successor": "a4c2f28087038fec13d0417cfa47b6f994f34d87",
+      "p2p_staging_status": "35 authored/unexecuted cases; CI211 remains separate earlier local receiving source qualification.",
+      "code_and_execution_evidence": "Unchanged from reviewed 87f1af7c1dbfa1c50bf68fbcafa0e9f9a7adf371; correction is authored documentation/provenance only."
+    }
   }
 }

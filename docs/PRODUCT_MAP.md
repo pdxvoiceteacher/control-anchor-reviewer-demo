@@ -20,6 +20,8 @@ Milestone descriptions below were refreshed on **21 October 2026 UTC** against
 upstream main `206aeb6d6f17cf4e2656f14890ea5ddc04237a06`, its `CURRENT_PRODUCT.md`
 and `docs/current/product-file-map.md`. The earlier attribution above remains the
 architecture-summary source; this refresh changes no extracted engine identity.
+The branch checkpoints below were refreshed again during this update's source
+review; they are pinned separately from that main documentation snapshot.
 
 ## Two interface directions, one local authority
 
@@ -87,9 +89,9 @@ and product-file map distinguish these exact milestones:
 | Milestone | Evidence and limits |
 | --- | --- |
 | Merged installed Home source | CI206 at product `73ec4d1d34f080104df803cf264e6bf513cba157`: 26 selected source cases / 78 phases passed, actual application-only Inno installation, installed verification, restricted terminal Home and the same provider selection saved/reread. PR56 merged those product trees; PR65/68 maintain the current navigation. [Run](https://github.com/pdxvoiceteacher/triadicbrain-open-alpha/actions/runs/39517587826) uses a separate helper SHA, not the product SHA. |
-| Provider successor, unmerged draft PR66 | `6b92a9bb4419053b5c3f16fe0b1bd672d9e5a79a` adds explicit Ollama metadata CHECK through existing consumers. Its 26 affected cases are authored/unexecuted; earlier source checks do not qualify this successor or an installed/live connection. |
+| Provider metadata, failed CI212 and unexecuted repair in draft PR66 | [CI212](https://github.com/pdxvoiceteacher/triadicbrain-open-alpha/actions/runs/39544384534) at `6b92a9bb4419053b5c3f16fe0b1bd672d9e5a79a` collected 26 cases: 0 complete PASS, 1 FAIL, 25 unexecuted. The first case failed before metadata I/O when the source-only guard blocked Windows client-journal DLL acquisition. Fixture-only successor `caaf8af33ac64e5fd9bf21b75770903ec3dd493d` is unexecuted; production, guards and the 26-case selection are unchanged. Earlier source checks do not qualify this repair or an installed/live connection. |
 | Local peer receiving, separate PR67 baseline | CI211 passed 51 cases / 153 phases at `b1e684b5c81f3df623fd654f1bb4ceeb21788e7b`, using synthetic material and injected boundaries. This is local receiving source qualification, not live peer networking or shared compute. |
-| New peer staging, unmerged draft PR67 | `62143cf9420d0f9ba2a794a51e987a40ebe6e876` adds transfer/staging with 34 authored/unexecuted cases. Its maintained P2P map separates staging, explicit receipt and reconciliation. CI211 does not qualify these newer bytes. |
+| New peer staging, unmerged draft PR67 | `a4c2f28087038fec13d0417cfa47b6f994f34d87` carries transfer/staging with 35 authored/unexecuted cases, including the added metadata-response regression. Its maintained P2P map separates staging, explicit receipt and reconciliation. CI211 does not qualify these newer bytes. |
 
 CI206 does not establish provider contact, inference, application restart,
 ordinary-user/UAC behavior or actual human acceptance. Earlier failures and

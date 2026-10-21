@@ -75,7 +75,8 @@ The passive completed-artifact prototype remains preview-only. Separately,
 unmerged PR67's earlier local receiving source passed CI211 (51 cases / 153 phases
 at `b1e684b5c81f3df623fd654f1bb4ceeb21788e7b`) with synthetic material and injected
 boundaries. Its newer staging successor at
-`62143cf9420d0f9ba2a794a51e987a40ebe6e876` has 34 authored/unexecuted cases.
+`a4c2f28087038fec13d0417cfa47b6f994f34d87` has 35 authored/unexecuted cases,
+including the added metadata-response regression.
 Neither result establishes live peer networking, shared compute or independent
 corroboration. The [product map](PRODUCT_MAP.md#evidence-edition-and-remaining-joins)
 keeps these checkpoints separate; no private prototype or peer code is included.
