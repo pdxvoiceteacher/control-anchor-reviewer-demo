@@ -1,0 +1,16 @@
+test_candidate_json_cannot_authorize_itself (test_component.ComponentTests.test_candidate_json_cannot_authorize_itself) ... ok
+test_cli_capture_seal_and_directory_zip_verification (test_component.ComponentTests.test_cli_capture_seal_and_directory_zip_verification) ... ok
+test_complete_demo_surfaces_adverse_evidence_without_network_or_overwrite (test_component.ComponentTests.test_complete_demo_surfaces_adverse_evidence_without_network_or_overwrite) ... ok
+test_interrupted_decision_recovery_once_then_sealed_directory_and_zip (test_component.ComponentTests.test_interrupted_decision_recovery_once_then_sealed_directory_and_zip) ... ok
+test_live_snapshot_detects_zip_trailing_substitution (test_component.ComponentTests.test_live_snapshot_detects_zip_trailing_substitution) ... ok
+test_missing_decision_cannot_finalize (test_component.ComponentTests.test_missing_decision_cannot_finalize) ... ok
+test_missing_source_member_directory_and_zip_rejected_originals_pass (test_component.ComponentTests.test_missing_source_member_directory_and_zip_rejected_originals_pass) ... ok
+test_model_role_cannot_submit_human_decision (test_component.ComponentTests.test_model_role_cannot_submit_human_decision) ... ok
+test_repair_declared_change_must_match_actual_bytes (test_component.ComponentTests.test_repair_declared_change_must_match_actual_bytes) ... ok
+test_repair_keeps_parent_bytes_and_does_not_resolve_advisory (test_component.ComponentTests.test_repair_keeps_parent_bytes_and_does_not_resolve_advisory) ... ok
+test_zip_member_tampering_is_rejected (test_component.ComponentTests.test_zip_member_tampering_is_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 11 tests in 50.592s
+
+OK

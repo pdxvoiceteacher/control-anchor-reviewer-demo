@@ -407,7 +407,7 @@
     },
     {
       "path": "demo.py",
-      "candidate_sha256": "d874b06789541ecb8c2064849658b9895fc5d73d76358de35ce6cae54897c6f2",
+      "candidate_sha256": "32f1777ab8e4c1179f9a1c95724c2d979b482892eb71afbe453323743087aeea",
       "origin": "ADAPTED",
       "source_basis_paths": [
         "src/triadicbrain/assurance/production_cli.py",
@@ -416,7 +416,9 @@
       "modifications": "New orchestration harness calling the unchanged CLI and platform-observation repair fixture boundary; no new engine.",
       "license": "MPL-2.0 to extent rights exist and covered",
       "publication_review": "OWNER_APPROVED_PUBLIC_SOURCE_ACCESS_EXISTING_RIGHTS_PRESERVED_NO_NEW_LICENSE",
-      "historical_publication_review": "HOLD"
+      "historical_publication_review": "HOLD",
+      "bytes": 19494,
+      "focused_update_2026_10_21": "Bounded missing directory/ZIP evidence, denied authority and one deliberate pre-seal decision interruption through the existing recovery consumer; readable report observations. No extracted engine change."
     },
     {
       "path": "fixtures/advisory.json",
@@ -510,7 +512,7 @@
     },
     {
       "path": "KNOWN_LIMITATIONS.md",
-      "candidate_sha256": "f77dc9d7596df36d24eed3d2acbb803da4131ca6c5ac1c746c3589a3f0b44ac5",
+      "candidate_sha256": "5f5ede7c817d19d663eafb26e6d61cca1df5ec4a6f11705f30ff60de63723d83",
       "origin": "ADAPTED",
       "source_basis_paths": [
         "docs/current/master-design.md"
@@ -519,7 +521,9 @@
       "license": "MPL-2.0 to extent rights exist and covered",
       "publication_review": "OWNER_APPROVED_PUBLIC_SOURCE_ACCESS_EXISTING_RIGHTS_PRESERVED_NO_NEW_LICENSE",
       "historical_publication_review": "HOLD",
-      "publication_wording_revision": "Record separate owner approval of reviewer-source/history public access on 19 October 2026; preserve existing licenses, attribution, budgets and evidence limits. No new Creative Commons/media/prose grant, deployment, release or application submission."
+      "publication_wording_revision": "Record separate owner approval of reviewer-source/history public access on 19 October 2026; preserve existing licenses, attribution, budgets and evidence limits. No new Creative Commons/media/prose grant, deployment, release or application submission.",
+      "bytes": 4210,
+      "focused_update_2026_10_21": "Bound deliberate single pre-seal decision fault injection separately from OS crash recovery."
     },
     {
       "path": "LICENSE_SCOPE.md",
@@ -571,7 +575,7 @@
     },
     {
       "path": "README.md",
-      "candidate_sha256": "7aa4f3048c14286d5d1eb44d8438856b540c85dce51bf95905e76cc57f8149d7",
+      "candidate_sha256": "46a56215db31e38fdf642cfadfe3638e7f9d3b9d6d2ee56ec949e5e8fafa081a",
       "origin": "ADAPTED",
       "source_basis_paths": [
         "docs/current/master-design.md"
@@ -594,12 +598,13 @@
       "current_budget_navigation_revision": "Reader route now points to six-month core plan and optional separately costed paid intern opportunity; runtime/evidence text unchanged.",
       "historical_publication_review": "FINAL_CONTENT_DECISION_PENDING",
       "publication_wording_revision": "Record separate owner approval of reviewer-source/history public access on 19 October 2026; preserve existing licenses, attribution, budgets and evidence limits. No new Creative Commons/media/prose grant, deployment, release or application submission.",
-      "bytes": 16573,
-      "documentation_refresh_2026_10_20": "Move dated observed results and first steps before the unchanged source-attributed architecture diagram; add accurate supplied-fixture walkthrough, public acquisition and PowerShell failure handling, historical HOLD explanation and P2P-note navigation. No runtime, fixture or recorded-result change."
+      "bytes": 18525,
+      "documentation_refresh_2026_10_20": "Move dated observed results and first steps before the unchanged source-attributed architecture diagram; add accurate supplied-fixture walkthrough, public acquisition and PowerShell failure handling, historical HOLD explanation and P2P-note navigation. No runtime, fixture or recorded-result change.",
+      "focused_update_2026_10_21": "Dated milestone summary, adverse/recovery artifact guide and separate new validation navigation; historical eight-test result and architecture attribution preserved."
     },
     {
       "path": "tests/test_component.py",
-      "candidate_sha256": "15d9e3cc8609e9561d2979407e583e7eff29c8df179a04ebca7e2608a24cf205",
+      "candidate_sha256": "1b27ca5a9cb4024d0f5d34b27ad04a5b78065cc7be7a0033d3cfdf727c65b2b3",
       "origin": "ADAPTED",
       "source_basis_paths": [
         "tests/test_aep01_transaction.py"
@@ -607,7 +612,9 @@
       "modifications": "Focused positive/adverse cases adapted to stdlib unittest; pytest fixtures/parametrization replaced; synthetic inputs and CLI helpers reused; concurrency, full recovery and full-product cases omitted.",
       "license": "MPL-2.0 to extent rights exist and covered",
       "publication_review": "OWNER_APPROVED_PUBLIC_SOURCE_ACCESS_EXISTING_RIGHTS_PRESERVED_NO_NEW_LICENSE",
-      "historical_publication_review": "HOLD"
+      "historical_publication_review": "HOLD",
+      "bytes": 11325,
+      "focused_update_2026_10_21": "Three focused regressions added: missing evidence in both consumers, one-time recovery then seal/verify, and complete network-guarded demo with fresh-output refusal. Optional caller-owned retained test roots."
     },
     {
       "path": "THIRD_PARTY_NOTICES.md",
@@ -635,14 +642,16 @@
     },
     {
       "path": "VALIDATION.md",
-      "candidate_sha256": "e13729d15358dbccc340cad325595b739cf01987b3847123c6a3ab952b8b66fd",
+      "candidate_sha256": "e887b25b92984158b8d9b8d9aebb52a3f107c36d8fb9750f1f2460bb5ad827a6",
       "origin": "NEW",
       "source_basis_paths": [],
       "modifications": "New demo preparation material; AI-assisted under human commissioning.",
       "license": "MPL-2.0 to extent rights exist and covered",
       "publication_review": "OWNER_APPROVED_PUBLIC_SOURCE_ACCESS_EXISTING_RIGHTS_PRESERVED_NO_NEW_LICENSE",
       "documentation_successor_modification": "Removed workstation free-resource numbers and internal approval-process narration; retained hard-link failure, ordinary-user success, test result and ZIP limitation.",
-      "historical_publication_review": "FINAL_CONTENT_DECISION_PENDING"
+      "historical_publication_review": "FINAL_CONTENT_DECISION_PENDING",
+      "bytes": 9004,
+      "focused_update_2026_10_21": "Append new dated Windows commands, 11-test result, separate demo result, preserved evidence and denied local-file browser inspection; original historical text unchanged."
     },
     {
       "path": "docs/METHODS_APPENDIX.md",
@@ -663,7 +672,7 @@
     },
     {
       "path": "docs/PRODUCT_MAP.md",
-      "candidate_sha256": "73278a26c1664d5c43e74cf467130ab2b5c1f522de7539f3c7611db1f786b5cd",
+      "candidate_sha256": "efc8b1d1a238c6a5c45f5c20a122a7d93b1490ae9988180a19659f4f1ac225a2",
       "origin": "ADAPTED",
       "source_basis_paths": [
         "https://github.com/pdxvoiceteacher/triadicbrain-open-alpha/blob/37583fd91ff7f0d912256c10fea89ff6896763cf/README.md",
@@ -675,7 +684,10 @@
       "attribution": "Thomas Prislac / UVLM; exact sources in documentation_sources.",
       "license": "MPL-2.0 to extent rights exist and covered",
       "publication_review": "OWNER_APPROVED_PUBLIC_SOURCE_ACCESS_EXISTING_RIGHTS_PRESERVED_NO_NEW_LICENSE",
-      "historical_publication_review": "FINAL_CONTENT_DECISION_PENDING"
+      "historical_publication_review": "FINAL_CONTENT_DECISION_PENDING",
+      "bytes": 13136,
+      "focused_update_2026_10_21": "Refresh merged CI206 installed Home, unmerged provider metadata and separate qualified receiving/unexecuted P2P staging milestones; bounded recovery crosswalk and worker-support scope.",
+      "milestone_review_correction_2026_10_21": "Refresh branch checkpoints during independent review: retain CI212 failure before metadata I/O and unexecuted fixture repair; distinguish 35 unexecuted P2P staging cases from CI211 local receiving."
     },
     {
       "path": "media/Control_Anchor_Introduction_Teleprompter_Reviewer_Update.txt",
@@ -996,9 +1008,31 @@
       "modifications": "New concise high-level product/P2P interpretation and proposed synthetic two-workspace comparison. Separate local custody, optional cross-task reuse, peer artifact/storage sharing and fresh compute; preserve local authority and honest preview/current/future boundaries. No study, new implementation or funding commitment.",
       "license": "No new license grant; preserve applicable existing rights and notices.",
       "publication_review": "OWNER_APPROVED_PUBLIC_SOURCE_ACCESS_EXISTING_RIGHTS_PRESERVED_NO_NEW_LICENSE",
-      "candidate_sha256": "c437a5496e9b6da37e7527e517c166fcae357b1c502778b882a80c809146b25f",
-      "bytes": 7391,
-      "documentation_refresh_2026_10_20": "New concise high-level product/P2P interpretation and proposed synthetic two-workspace comparison. Separate local custody, optional cross-task reuse, peer artifact/storage sharing and fresh compute; preserve local authority and honest preview/current/future boundaries. No study, new implementation or funding commitment."
+      "candidate_sha256": "a0287ab0bafb27a3ece9efc26dc0c35a66e7bdf87c5c17b7490a553012212024",
+      "bytes": 8281,
+      "documentation_refresh_2026_10_20": "New concise high-level product/P2P interpretation and proposed synthetic two-workspace comparison. Separate local custody, optional cross-task reuse, peer artifact/storage sharing and fresh compute; preserve local authority and honest preview/current/future boundaries. No study, new implementation or funding commitment.",
+      "focused_update_2026_10_21": "Refresh only dated installed Home and local receiving versus unexecuted staging boundaries; preserve earlier research/design attribution and proposed study.",
+      "milestone_review_correction_2026_10_21": "Refresh branch checkpoints during independent review: retain CI212 failure before metadata I/O and unexecuted fixture repair; distinguish 35 unexecuted P2P staging cases from CI211 local receiving."
+    },
+    {
+      "path": "validation/2026-10-21-summary.json",
+      "origin": "NEW_DATED_SYNTHETIC_EXECUTION_SUMMARY",
+      "modifications": "Retained result from 21 October bounded offline update; separate from 18 October historical evidence.",
+      "license": "MPL-2.0 to extent rights exist and covered",
+      "publication_review": "OWNER_APPROVED_PUBLIC_SOURCE_ACCESS_EXISTING_RIGHTS_PRESERVED_NO_NEW_LICENSE",
+      "candidate_sha256": "fb0bd25907b79cbf41affab51f8c6d65a47787e5deb205626c2ac66fd1add8a8",
+      "bytes": 3977,
+      "focused_update_2026_10_21": "New dated retained offline execution result; no real task or operational data."
+    },
+    {
+      "path": "validation/2026-10-21-unittest.log",
+      "origin": "NEW_DATED_OFFLINE_UNITTEST_LOG",
+      "modifications": "Retained result from 21 October bounded offline update; separate from 18 October historical evidence.",
+      "license": "MPL-2.0 to extent rights exist and covered",
+      "publication_review": "OWNER_APPROVED_PUBLIC_SOURCE_ACCESS_EXISTING_RIGHTS_PRESERVED_NO_NEW_LICENSE",
+      "candidate_sha256": "c1ffb5fc5073ecb207767339e57e1cf5eab203cb84b1f95a61ffb3b808a4dcd3",
+      "bytes": 1739,
+      "focused_update_2026_10_21": "New dated retained offline execution result; no real task or operational data."
     }
   ],
   "consulted_originals": [
@@ -1298,6 +1332,42 @@
       "source_bytes_copied": false,
       "use": "Read for high-level product/P2P and staged-acceptance alignment in docs/RESEARCH_LINEAGE_AND_EVALUATION.md; no private implementation, operational/account history or later test evidence copied.",
       "reviewed_date_utc": "2026-10-20"
+    },
+    {
+      "source_repository": "pdxvoiceteacher/triadicbrain-open-alpha",
+      "source_commit": "206aeb6d6f17cf4e2656f14890ea5ddc04237a06",
+      "original_path": "CURRENT_PRODUCT.md",
+      "original_git_blob": "3ced308be6cd7a3dda2e99d7c88d3e47204698b6",
+      "source_bytes_copied": false,
+      "use": "21 October milestone summary only; no private implementation, inventory or operational history copied.",
+      "source_url": "https://github.com/pdxvoiceteacher/triadicbrain-open-alpha/blob/206aeb6d6f17cf4e2656f14890ea5ddc04237a06/CURRENT_PRODUCT.md"
+    },
+    {
+      "source_repository": "pdxvoiceteacher/triadicbrain-open-alpha",
+      "source_commit": "206aeb6d6f17cf4e2656f14890ea5ddc04237a06",
+      "original_path": "docs/current/product-file-map.md",
+      "original_git_blob": "0d1b53deb9b600e7a0208815aa5d25c9f5ce5c57",
+      "source_bytes_copied": false,
+      "use": "21 October milestone summary only; no private implementation, inventory or operational history copied.",
+      "source_url": "https://github.com/pdxvoiceteacher/triadicbrain-open-alpha/blob/206aeb6d6f17cf4e2656f14890ea5ddc04237a06/docs/current/product-file-map.md"
+    },
+    {
+      "source_repository": "pdxvoiceteacher/triadicbrain-open-alpha",
+      "source_commit": "62143cf9420d0f9ba2a794a51e987a40ebe6e876",
+      "original_path": "docs/current/p2p-development-map.md",
+      "original_git_blob": "5c8fe711d731d4514d1a675169a547453de6f6c3",
+      "source_bytes_copied": false,
+      "use": "Separate CI211 local receiving from newer authored/unexecuted staging; no peer code copied.",
+      "source_url": "https://github.com/pdxvoiceteacher/triadicbrain-open-alpha/blob/62143cf9420d0f9ba2a794a51e987a40ebe6e876/docs/current/p2p-development-map.md"
+    },
+    {
+      "source_repository": "pdxvoiceteacher/triadicbrain-open-alpha",
+      "source_commit": "a4c2f28087038fec13d0417cfa47b6f994f34d87",
+      "original_path": "docs/current/p2p-development-map.md",
+      "original_git_blob": "00565c3a0062ea32ae8e5ee749209bf939ccfb15",
+      "source_bytes_copied": false,
+      "use": "Branch checkpoint refreshed during independent review: 35 authored/unexecuted staging cases; earlier 34-case checkpoint remains historical. No peer code or operational records copied.",
+      "source_url": "https://github.com/pdxvoiceteacher/triadicbrain-open-alpha/blob/a4c2f28087038fec13d0417cfa47b6f994f34d87/docs/current/p2p-development-map.md"
     }
   ],
   "publication_review_status_note": "Original copied-file/source HOLD records remain historical byte-provenance metadata. Owner separately approved public reviewer-source/history access; GitHub public visibility and unauthenticated document access were verified. This does not certify title, create a new license, resolve a finding or establish installed/live product operation.",
@@ -1449,5 +1519,26 @@
     },
     "evidence_boundary": "No application, focused tests, provider/model, peer prototype, hosted CI or installation executed for this documentation refresh. Existing 18 October validation remains historical. Original evidence JSON/HOLD values and empty resolved_finding_ids remain unchanged.",
     "preservation": "Runtime, fixtures, tests, historical evidence, media, licenses/notices and funding documents/commitments are unchanged. Existing architecture diagram and attribution preserved verbatim. No visibility/access change or new license."
+  },
+  "focused_update_2026_10_21": {
+    "reviewer_base": "394b042511f970d3dfcebab947a20cc89c868a1f",
+    "milestone_main": "206aeb6d6f17cf4e2656f14890ea5ddc04237a06",
+    "runtime_extraction_unchanged": "139932846cb1b6bf1571158464d89513d4e381f8",
+    "scope": "Authored harness/tests and concise existing documentation only; no provider, peer or installer code imported.",
+    "new_execution": "11 tests OK; separate demo: six positive directory/ZIP checks, missing-member rejection in both consumers, denied authority, one pre-seal fault recovery and unchanged second recovery, 177 reopened evidence objects.",
+    "visual_qa": "Local review.html open denied by browser URL policy in Thomas's Chrome; source inspected only; no server/workaround.",
+    "historical_evidence": "Original observed-demo-summary.json, eight-test result, original failures and all existing license/provenance records preserved.",
+    "branch_checkpoint_review_correction": {
+      "provider_metadata_test_source": "6b92a9bb4419053b5c3f16fe0b1bd672d9e5a79a",
+      "provider_result": "CI212: 26 collected, 0 complete PASS, 1 FAIL, 25 unexecuted; failed before metadata I/O at Windows client-journal DLL acquisition blocked by source-only guard.",
+      "provider_run": "https://github.com/pdxvoiceteacher/triadicbrain-open-alpha/actions/runs/39544384534",
+      "provider_fixture_only_successor": "caaf8af33ac64e5fd9bf21b75770903ec3dd493d",
+      "provider_successor_status": "UNEXECUTED; production, guards and 26-case selection unchanged. Fresh PR66 metadata read during independent review.",
+      "p2p_staging_successor": "a4c2f28087038fec13d0417cfa47b6f994f34d87",
+      "p2p_staging_status": "35 authored/unexecuted cases; CI211 remains separate earlier local receiving source qualification.",
+      "code_and_execution_evidence": "Unchanged from reviewed 87f1af7c1dbfa1c50bf68fbcafa0e9f9a7adf371; correction is authored documentation/provenance only.",
+      "verified_at_utc": "2026-10-21 04:52:47 UTC",
+      "snapshot_boundary": "Named reviewed commits; later branch activity does not retarget these results or require another refresh."
+    }
   }
 }

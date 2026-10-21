@@ -46,6 +46,11 @@ access, including this review repository's history, was approved on 19 October 2
 - Focused local positive/adverse tests cover this extraction only. They do not
   qualify the full product, other runtimes/platforms, accessibility, installation,
   crash recovery, hostile administrator scenarios or production scale.
+- The new recovery example deliberately raises `TransitionInterrupted` after the
+  first decision target through the existing fault-injection parameter. It covers
+  one pre-seal transition, receipt/event binding, completion and a second no-op
+  recovery. The engine receipt's `UNOBSERVED_PROCESS_INTERRUPTION` is its cause
+  posture, not evidence of an actual OS crash, power loss or general recovery.
 - Generated output remains local and ignored by Git. Keep any future real inputs
   under their actual access/retention policy. Approval to publish this reviewer
   source is not a formal release, hosted service, funding submission, deployment
