@@ -9,6 +9,24 @@ public access, including history, was approved by the Project Lead on 19 October
 2026. This approval adds no new license and does not publish the development
 repository.
 
+## Recording addendum — 21 October 2026
+
+For recording now, this reviewer repository is public and the development
+repository remains private. The retained local baseline is 11 focused tests,
+six positive directory/ZIP checks and 177 reopened evidence objects; no tests
+were rerun for this addendum. Missing-evidence rejection and one bounded synthetic
+decision recovery are already included in the demo.
+
+Upstream now has separately scoped passing provider metadata/REREAD and peer
+receiving/staging source results, plus one synthetic same-process loopback TCP
+case with an in-process receiver. These are not installed provider contact,
+inference or distributed-peer readiness. Use the maintained
+[product map and dated evidence limits](../docs/PRODUCT_MAP.md#evidence-edition-and-remaining-joins)
+for the exact milestones and attributed private-development references; those
+tests are not publicly reproducible here. The reviewed 18 October decks, scripts,
+covers and evidence notes remain frozen historical media, not a current milestone
+script. Their assets, hashes and existing rights are unchanged.
+
 ## Choose a recording set
 
 | Set | Slides | Recording script | Teleprompter |

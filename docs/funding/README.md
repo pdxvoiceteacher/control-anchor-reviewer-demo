@@ -24,8 +24,11 @@ No automatic pay reduction, reallocation or free-credit offset is assumed.
 All scopes use the [reviewer README](../../README.md),
 [observed evidence](../../VALIDATION.md) and [product map](../PRODUCT_MAP.md).
 The existing demonstration uses synthetic captured bytes and no model. Windows
-Python 3.12.14 recorded eight focused tests passing, four directory/ZIP checks,
-scripted review, linked repair and practitioner export/reopen. The advisory is
+Python 3.12.14's retained 21 October baseline records 11 focused tests passing,
+six positive directory/ZIP checks and 177 reopened evidence objects, with
+scripted review, linked repair, missing-evidence rejection and one bounded
+synthetic decision recovery. The earlier eight-test/four-check run remains
+historical evidence; no tests were rerun for this reconciliation. The advisory is
 injected. Separate CoherenceLattice/Sophia/Atlas execution, installed startup,
 live inference, actual human acceptance and P2P are not demonstrated here.
 Hashes and logical roles do not establish factual truth, signing or independent

@@ -14,10 +14,12 @@ local software builders and research teams. Demand and practical benefit still
 need validation.
 
 The existing component retains input/output bytes, deterministic checks and
-review/revision lineage. Its [recorded validation](../../VALIDATION.md) shows eight
-focused tests passing on Windows Python 3.12.14, four directory/ZIP checks, scripted
-review, linked repair, practitioner export/reopen and rejection of a changed
-disposable copy. Inputs and candidate are authored synthetic fixtures; no model
+review/revision lineage. Its [retained 21 October validation](../../VALIDATION.md#focused-update--21-october-2026)
+shows 11 focused tests passing on Windows Python 3.12.14, six positive
+directory/ZIP checks and 177 reopened evidence objects, alongside linked repair,
+modified/missing-evidence rejection and one bounded synthetic decision recovery.
+The earlier eight-test/four-check run remains historical; this reconciliation
+adds no new execution. Inputs and candidate are authored synthetic fixtures; no model
 is called. The advisory is injected. Named Sophia/Atlas records do not execute
 separate cognitive components. This evidence does not prove installed startup,
 live inference, actual user acceptance or business-control effectiveness.
@@ -85,8 +87,10 @@ These are planning windows, not guaranteed completion dates or an agreed
 engineering contract. The work period begins after funding and acceptable
 engagement arrangements are secured. Negotiate milestones against actual engineer
 hours and revise scope if an early stage cannot be established. A failed or
-unfinished stage is not reported as completed. Live P2P, receiving peer custody
-and fresh peer compute remain later work.
+unfinished stage is not reported as completed. Installed P2P, paired-device
+receiving custody and fresh peer compute remain later work; the separate upstream
+source and synthetic loopback results in the [product map](../PRODUCT_MAP.md#evidence-edition-and-remaining-joins)
+do not complete those pilot outcomes.
 
 ## University Student Intern Opportunity
 

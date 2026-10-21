@@ -16,26 +16,34 @@ one deliberately interrupted decision through the existing recovery engine.
 
 ## Observed result and first steps
 
+The current retained [21 October baseline](VALIDATION.md#focused-update--21-october-2026)
+is **11 focused tests**, **six positive directory/ZIP checks** and **177 reopened
+evidence objects** on Windows Python 3.12.14. This documentation reconciliation
+does not rerun those tests or create new execution evidence.
+
 The 18 October 2026 recorded run used **Windows and Python 3.12.14**: **8 focused tests passed
 in 18.957 seconds**, with **4 directory/ZIP verification checks**. Practitioner
 JSON reopened with 133 evidence objects; the changed disposable copy was rejected
 and the retained original verified afterward. These are bounded component results,
 not an assurance opinion or proof of useful cognitive performance.
 
-The separate [21 October validation](VALIDATION.md#focused-update--21-october-2026)
-records this update's new execution. The eight-test result above and its retained
-JSON remain historical; new results do not overwrite them.
+The eight-test result above and its retained JSON remain historical; the separate
+21 October evidence records PR #1's already completed execution.
 
 The broader product has advanced separately: CI206 demonstrated application-only
 installation, restricted terminal Home and saved/reread provider selection at
 `73ec4d1d`; that source is now merged upstream. It did not prove provider contact,
-inference, restart, ordinary UAC or human acceptance. Unmerged provider and P2P
-successors retain their own unexecuted portions. The dated
+inference, restart, ordinary UAC or human acceptance. Provider metadata and P2P
+receiving/staging source are now merged with separately scoped test results;
+one later synthetic same-process loopback TCP case also passed. Installed provider
+activation, actual provider contact/inference and distributed peers remain unverified. The dated
 [product map](docs/PRODUCT_MAP.md#evidence-edition-and-remaining-joins) explains
-those milestones without requiring private source access; none is imported here.
+those milestones without requiring private source access. Its private-development
+links are attributed evidence, not publicly reproducible tests in this repository;
+none of that source is imported here.
 
 1. **Inspect without running:** read [VALIDATION.md](VALIDATION.md) and the
-   [retained result summary](validation/observed-demo-summary.json).
+   [current retained result summary](validation/2026-10-21-summary.json).
 2. **Run locally:** follow [Windows / PowerShell](#run-on-windows--powershell),
    using an existing Python 3.12 runtime and a fresh output directory. The two
    commands are `python -S demo.py --output demo-output` and
