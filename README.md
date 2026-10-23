@@ -1,26 +1,69 @@
-# Control Anchor reviewer demo
+# Control Anchor
+
+## What could you trust AI to do if you could inspect its work and keep control?
+
+What if your rules traveled with the task, even when the model changed? What if a correction strengthened the record instead of erasing the mistake? And what if useful knowledge could move between people and organizations without requiring them to surrender authority over their own information?
+
+**UVLM is building toward Control Anchor: a local-first AI workbench that connects human intent, enforceable permissions, evidence-linked work and accountable decisions.** The Triadic Brain supplies the broader architecture. Our ambition is a practical foundation for increasingly capable AI: understandable enough to govern, structured enough to challenge and useful enough to earn a place in everyday work.
+
+[Read the Grand Vision](docs/GRAND_VISION.md) · [Meet Thomas Prislac](docs/THOMAS_PRISLAC_CV.md) · [Inspect the evidence](VALIDATION.md) · [Run the demo](#run-on-windows--powershell)
+
+**This repository contains an offline, synthetic reviewer component; the product vision below describes the full workbench we intend to build.**
+
+## The problem worth solving
+
+A convincing answer is only the beginning of useful work. People still need to know which sources were used, what remains uncertain, whether an action was allowed and what changed after review. When those connections are missing, the burden falls on the person who must reconstruct the work and accept responsibility for the decision.
+
+Our product hypothesis starts with evidence-heavy workflows: a small business reviewing a policy package, a researcher assembling a technical summary, or a household comparing estimates. These users need capable assistance and a clear way to question it. We want the same underlying control principles to serve all three, with workflows proportionate to their needs.
+
+## The product we intend to deliver
+
+Control Anchor would let a user define a goal, select permitted sources, choose supported local or remote models and set action and resource limits. A bounded coordinator would organize the work, retain unresolved questions and stop when evidence, authority or budget is missing. The user could inspect the result, request a correction and return later to a preserved history.
+
+Bring-your-own-model support would make models replaceable workers within a governed workflow. Local-first design would preserve local decision authority and useful work without mandatory network participation. When a user selects a remote provider, the product must disclose the corresponding data transfer rather than imply that everything stays offline.
+
+## Assurance power through a design that can be challenged
+
+The design's assurance power comes from making the basis of confidence inspectable. Its control doctrines are concrete:
+
+- **Human authority stays explicit.** A model recommendation cannot grant itself permission or stand in for a person's required decision.
+- **Rules must reach execution.** Accepted, versioned controls should govern the actual tool or resource boundary, with observable blocked effects when permission is absent.
+- **Work and challenge have distinct roles.** Analysis, advisory evaluation and reporting should expose disagreement rather than turn repeated agreement into presumed truth.
+- **Evidence survives correction.** Sources, settings, outcomes and linked revisions should remain available when a result is challenged or reopened.
+- **Recovery preserves accountability.** Interrupted and uncertain work should be reconciled before retrying, with completed, pending and unresolved effects kept distinct.
+
+Together, these requirements could help reviewers spend less effort reconstructing events and more effort judging the work itself. They also give engineering teams testable obligations. The public component below demonstrates a bounded part of this foundation. It does not provide professional assurance, establish factual correctness or certify a secure production system.
+
+## P2P cooperation with local control
+
+Our longer-term vision connects independently governed workbenches through authorized peer-to-peer exchange. Eligible prior work could become reusable knowledge with a visible origin, version, permitted purpose and review status. A receiving participant would retain the choice to accept, reject or challenge it.
+
+We would begin with two independently administered nodes sharing public or synthetic artifacts. Shared compute would follow as a separate, explicitly authorized capability with its own resource limits and verification requirements. Retaining a task, sharing an artifact, training a model and donating compute would remain separate choices.
+
+The opportunity is cumulative usefulness: preserve valuable work, make eligible corrections discoverable and reduce unnecessary repetition. We will test that opportunity against ordinary shared libraries and manual handoffs, counting verification, transport, failures and support. P2P advantage and cost savings remain hypotheses to demonstrate.
+
+## A business that earns adoption
+
+We propose a free household core with meaningful safeguards, alongside optional paid organizational administration, supported integrations, deployment assistance and support. The local product should stand on its own; participation in a network or contribution of private data should never be the price of basic usefulness.
+
+For investors, the immediate opportunity is to help turn bounded component work into an integrated product with measurable user value. Funding should advance explicit gates: a dependable installed workflow; runtime controls and useful coordination; repeated design-partner use and purchasing evidence; then governed sharing. Initial buyers, pricing and unit economics still need validation. Research into learning and more ambitious cognitive mechanisms would have separate evaluations and stopping criteria, so the commercial product need not depend on an unproven breakthrough.
+
+## Help build the next credible step
+
+Thomas Prislac brings the product direction and an audit and governance perspective. Read his [comprehensive professional CV](docs/THOMAS_PRISLAC_CV.md) for experience, education, committees and special projects.
+
+- **Prospective investors:** review the [Grand Vision and staged work packages](docs/GRAND_VISION.md#what-funding-could-build), then help define the next milestone and its evidence requirements.
+- **Design partners:** bring a bounded, evidence-heavy workflow and the outcome that would make it worth adopting.
+- **Engineers and researchers:** challenge the control boundaries, reproduce the demo and propose a test that could change the design.
+
+[Open a project conversation](https://github.com/pdxvoiceteacher/control-anchor-reviewer-demo/issues). Share only information suitable for a public issue. We welcome concrete problems, rigorous challenge and collaborators ready to turn the vision into useful work.
+
+## What this repository demonstrates today
+
+This public reviewer demo is an inspectable starting point: it captures supplied evidence, performs deterministic checks, records scripted review, preserves linked revisions, exports and reopens evidence, rejects deliberately altered or incomplete copies and exercises one interrupted-decision recovery. **Its inputs are synthetic and no model is called. It is not the full live AI product.**
 
 [![Demo tests and build](https://github.com/pdxvoiceteacher/control-anchor-reviewer-demo/actions/workflows/demo.yml/badge.svg?branch=main)](https://github.com/pdxvoiceteacher/control-anchor-reviewer-demo/actions/workflows/demo.yml)
 [![Manifest and local links](https://github.com/pdxvoiceteacher/control-anchor-reviewer-demo/actions/workflows/integrity.yml/badge.svg?branch=main)](https://github.com/pdxvoiceteacher/control-anchor-reviewer-demo/actions/workflows/integrity.yml)
-
-**Control Anchor is being built to help people use AI under understandable rules,
-with evidence they can inspect and decisions they can correct.**
-
-Prospective uses range from family groups and small businesses to institutions.
-Each retains its own requirements and human authority. Practical usefulness,
-customer demand and broad deployment remain to be established.
-
-**Read the [Grand Vision](docs/GRAND_VISION.md)** for the proposed product
-architecture, funding stages and founding responsibilities, with visual guides.
-This discussion draft describes proposals and reports no new execution or
-demonstrated whole-product capability.
-
-This offline demo captures source, prompt, settings and candidate bytes, runs
-deterministic evidence checks, records a scripted review, preserves a linked
-revision, exports and reopens evidence, and rejects a deliberately modified copy.
-It also rejects directory/ZIP copies with missing source evidence and exercises
-one deliberately interrupted decision through the existing recovery engine.
-**Synthetic inputs; no model is called. This is not the full live AI product.**
 
 The live badges report public demo tests/artifact generation on Linux and Windows,
 and manifest/local-link consistency. They do not certify security, source truth,
@@ -87,7 +130,7 @@ The main development repository remains private. See the
 
 | Reader / purpose | Start here |
 | --- | --- |
-| Funders and prospective collaborators | [Funding and collaboration planning](docs/funding/README.md): a six-month, USD 100,000 core integration plan, a smaller uncosted offline-tool option and an optional, separately costed paid student intern opportunity. |
+| Funders and prospective collaborators | [Dated integration-pilot planning](docs/funding/README.md) (not a company-wide seed budget): a six-month, USD 100,000 core integration plan, a smaller uncosted offline-tool option and an optional, separately costed paid student intern opportunity. |
 | Engineers | [Implementation/function crosswalk](docs/PRODUCT_MAP.md#actual-included-function-crosswalk), [focused tests](tests/test_component.py) and [exact source provenance](SOURCE_MANIFEST.json). |
 | Academic collaborators | [Methods exercise and answer key](docs/METHODS_APPENDIX.md), [whole-product map](docs/PRODUCT_MAP.md) and [limitations](KNOWN_LIMITATIONS.md). No novelty or learning benefit is established. |
 | Potential users | Run the local demo and inspect the human-readable review above; [product responsibilities](docs/PRODUCT_MAP.md) distinguish the intended workbench from this component. |

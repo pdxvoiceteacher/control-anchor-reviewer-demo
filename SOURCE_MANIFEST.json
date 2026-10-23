@@ -577,7 +577,7 @@
     },
     {
       "path": "README.md",
-      "candidate_sha256": "92c11c0ffacbc7c1a40091cc30eedd8e1332e99f72126d5737047f1a529b6ea4",
+      "candidate_sha256": "d9932b08bffe477fc6877e9cbeb461b0522b5e1d77709604372729325d477cbe",
       "origin": "ADAPTED",
       "source_basis_paths": [
         "docs/current/master-design.md"
@@ -600,12 +600,13 @@
       "current_budget_navigation_revision": "Reader route now points to six-month core plan and optional separately costed paid intern opportunity; runtime/evidence text unchanged.",
       "historical_publication_review": "FINAL_CONTENT_DECISION_PENDING",
       "publication_wording_revision": "Record separate owner approval of reviewer-source/history public access on 19 October 2026; preserve existing licenses, attribution, budgets and evidence limits. No new Creative Commons/media/prose grant, deployment, release or application submission.",
-      "bytes": 21415,
+      "bytes": 27698,
       "documentation_refresh_2026_10_20": "Move dated observed results and first steps before the unchanged source-attributed architecture diagram; add accurate supplied-fixture walkthrough, public acquisition and PowerShell failure handling, historical HOLD explanation and P2P-note navigation. No runtime, fixture or recorded-result change.",
       "focused_update_2026_10_21": "Dated milestone summary, adverse/recovery artifact guide and separate new validation navigation; historical eight-test result and architecture attribution preserved.",
       "documentation_reconciliation_2026_10_21_0811": "Current retained 11-test/six-check/177-object baseline, preserved historical eight/four result, and scoped merged provider/P2P navigation; no new execution.",
       "documentation_reconciliation_2026_10_23": "Current source/branch evidence, local workbench workflow and role boundaries; original CI233 receipts inspected as data. Separate public-only validation retained; no private implementation or new product capability imported.",
-      "proposed_roadmap_followup_2026_10_23": "Owner-brief proposed roadmap and source-specific evidence reconciliation. Separate design packet and diagrams not locally inspected or imported. No new private source identity or implementation published."
+      "proposed_roadmap_followup_2026_10_23": "Owner-brief proposed roadmap and source-specific evidence reconciliation. Separate design packet and diagrams not locally inspected or imported. No new private source identity or implementation published.",
+      "public_readme_editorial_update_2026_10_23": "Owner-directed product ambition, problem/solution framing, control doctrines, proposed P2P/business model, bounded calls to action and public professional CV reader route. Complete technical sections, code fences, badges, historical evidence, citations and licensing retained; dated pilot qualified separately from a company-wide seed budget."
     },
     {
       "path": "tests/test_component.py",
@@ -1184,6 +1185,17 @@
       "publication_review": "OWNER_APPROVED_PUBLIC_GRAND_VISION_AND_VISUALS",
       "candidate_sha256": "c748e3215d7d91cea2ff7ea1d3da71f3b8d0ccdb120a9dd7f0cb5680207e0047",
       "bytes": 99853
+    },
+    {
+      "path": "docs/THOMAS_PRISLAC_CV.md",
+      "origin": "OWNER_SUPPLIED_PUBLIC_PROFESSIONAL_PROFILE_TEXT",
+      "source_basis_paths": [],
+      "modifications": "Public professional CV text supplied for this publication; no private contact, residential location, personal reference list, policy document or internal source record included.",
+      "license": "Existing rights and notices preserved; no new media/prose license grant.",
+      "publication_review": "OWNER_REQUESTED_PUBLIC_PROFESSIONAL_CV_AND_README_LINK",
+      "verification_scope": "Professional account supplied for the public profile; no independent credential, employment, performance or third-party verification performed.",
+      "candidate_sha256": "aa291da50cc8889132685aea27806f8ecbd7160404d78e856fed4fa469047682",
+      "bytes": 19198
     }
   ],
   "consulted_originals": [
