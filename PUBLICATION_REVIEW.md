@@ -127,3 +127,27 @@ positive package checks with 177 reopened objects. The initial sandbox hard-link
 failure is retained and disclosed; it was not repaired by weakening publication.
 Local-file browser access was denied, so rendered visual QA remains unperformed.
 Exact results and review limits are in [VALIDATION.md](VALIDATION.md#public-documentation-update-on-23-october-2026).
+
+## Proposed-roadmap follow-up - 23 October 2026
+
+The owner requested another bounded public update and reaffirmed public merge
+authority. This update adds a concise owner-proposed roadmap, reconciles the
+later hosted success, subsequent failed source gates and newest scoped hosted
+success, and retains a new public-only test log. It does not import private
+code, handbook text, diagrams, source extracts or operational records. No new
+private source identity or business/career material is added. Existing license,
+notice, funding, media, runtime, fixture and historical-evidence bytes are preserved.
+
+The roadmap is sourced to the explicit owner brief and clearly labels its
+executive, planning, learning, prior sharing/storage and propagation ideas as
+proposals. The public summary relies on that brief and verified repository
+evidence. The separate design packet and diagrams were not locally inspected;
+no diagram-dependent reuse occurs. Test success does not demonstrate any
+proposed behavior.
+
+All four later upstream archives were inspected as inert data and their recorded
+digests, CRCs and indexed copied-file hashes/sizes matched. Source selection,
+test execution, hosted installation and ordinary-user/live-model acceptance are
+kept separate. No workflow or allowance was changed. Public-only tests and the
+artifact build passed as recorded in [VALIDATION.md](VALIDATION.md#roadmap-draft-validation-on-23-october-2026);
+rendered demo QA remains unperformed.

@@ -206,3 +206,44 @@ scope and public disclosure boundaries are checked for this successor. CI233's
 upstream archive was inspected as data, separately from these public-only runs;
 its installation result does not transfer to this extraction or the Project
 Lead's PC. See the [dated evidence limits](docs/PRODUCT_MAP.md#evidence-edition-and-remaining-joins).
+
+## Roadmap draft validation on 23 October 2026
+
+This follow-up starts from public commit
+`a4a1fd41637ee2b15beaded5a1aec17484bc8590`. The public implementation, tests,
+fixtures and all 33 copied extraction files are unchanged. The proposed roadmap
+uses the owner's explicit brief and verified repository evidence. The separate
+design packet and diagrams were not locally inspected or imported. Public tests
+do not qualify the proposed executive, learning, prior-storage or network behavior.
+
+On the same Windows/CPython 3.12.14 environment, one fresh serial run of
+`python -S -B -m unittest discover -s tests -v` returned exit **0**:
+**11 tests in 49.374 seconds, OK**, 06:56:26–06:57:16 UTC. The
+[new retained test log](validation/2026-10-23-roadmap-unittest.log) records the
+actual results. The run used the already established ordinary-user hard-link
+environment outside the filesystem sandbox; no protection in the public engine
+was disabled.
+
+A separate `python -S -B demo.py --output <fresh-output-directory>` artifact build,
+06:57:16–06:57:33 UTC, returned exit **0**. It verified six directory/ZIP packages,
+reopened 177 evidence objects and retained the expected adverse/recovery results.
+Its synthetic summary is byte-identical to the [existing public summary](validation/2026-10-23-summary.json),
+so no duplicate summary is added. The repository has no package build-system
+entry point. Generated trees and command logs remain outside the public checkout.
+
+The earlier local-file browser denial is respected; no alternate server or
+browser route was used to open that generated file. Demo rendering remains
+**unperformed**. HTML source/link inspection is separate from rendering.
+No private project software, hosted CI, installation, provider activation,
+model call, training, listener or dependency installation ran for this patch.
+
+Existing upstream success and failed-gate artifacts were read as data. Their
+digest/CRC/indexed-file checks and source-specific results inform the dated
+product map, without adding private source identities or operational payloads.
+An earlier installed success and a later failed source gate retain their own
+meaning; neither transfers qualification to changed source. The newest scoped
+success also preserves those failures and all unperformed product stages.
+
+Final prose/provenance adjustments changed no runtime, test or fixture bytes.
+Affected manifest, link and scope checks were rerun; the recorded test/build
+results above are preserved rather than presented as a new execution.
