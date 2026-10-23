@@ -1,5 +1,8 @@
 # Control Anchor reviewer demo
 
+[![Demo tests and build](https://github.com/pdxvoiceteacher/control-anchor-reviewer-demo/actions/workflows/demo.yml/badge.svg?branch=main)](https://github.com/pdxvoiceteacher/control-anchor-reviewer-demo/actions/workflows/demo.yml)
+[![Manifest and local links](https://github.com/pdxvoiceteacher/control-anchor-reviewer-demo/actions/workflows/integrity.yml/badge.svg?branch=main)](https://github.com/pdxvoiceteacher/control-anchor-reviewer-demo/actions/workflows/integrity.yml)
+
 **Control Anchor is being built to help people use AI under understandable rules,
 with evidence they can inspect and decisions they can correct.**
 
@@ -13,6 +16,12 @@ revision, exports and reopens evidence, and rejects a deliberately modified copy
 It also rejects directory/ZIP copies with missing source evidence and exercises
 one deliberately interrupted decision through the existing recovery engine.
 **Synthetic inputs; no model is called. This is not the full live AI product.**
+
+The live badges report public demo tests/artifact generation on Linux and Windows,
+and manifest/local-link consistency. They do not certify security, source truth,
+rendering, live AI or production readiness. Each workflow runs on pull requests to
+`main` and main updates; inspect its exact commit and job results. Generated demo
+files stay on the disposable runner and are not uploaded.
 
 ## Observed result and first steps
 

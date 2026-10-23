@@ -247,3 +247,33 @@ success also preserves those failures and all unperformed product stages.
 Final prose/provenance adjustments changed no runtime, test or fixture bytes.
 Affected manifest, link and scope checks were rerun; the recorded test/build
 results above are preserved rather than presented as a new execution.
+
+## Automated public checks
+
+The [demo workflow](.github/workflows/demo.yml) runs the public unittest suite and
+`demo.py` artifact build on standard Ubuntu 24.04 and Windows 2022 runners with
+Python 3.12. The [integrity workflow](.github/workflows/integrity.yml) runs the
+gate's positive/adverse tests, then [the offline checker](tools/check_public_integrity.py).
+It checks every tracked file against the manifest (except the self-referencing
+manifest), copied SHA256/Git-blob identities, file sizes, and local Markdown
+destinations/anchors. Fenced and inline code examples are excluded from link checks.
+External URLs, including private provenance links, are not fetched. This small
+checker is not a full Markdown renderer or a security audit. A maintainer can
+change source and its declarations; commit/review provenance remains separate.
+
+Jobs have 10-minute demo and 5-minute integrity timeouts and cancel superseded
+runs of the same workflow/ref. Both workflows have only `contents: read`, do not
+persist checkout credentials, and use full action commit pins verified against
+the official checkout v7.0.1 and setup-python v7.1.0 release tags. No repository
+secret inputs, project dependency installs, model calls, artifact uploads or Actions caches are
+configured. GitHub's automatic read-only token serves checkout/runtime acquisition.
+Only standard GitHub-hosted runners in this public repository are used; see
+[GitHub's public-runner billing policy](https://docs.github.com/en/billing/concepts/product-billing/github-actions).
+No billing, permission or branch-protection settings are changed.
+
+The README badges link to these two actual workflows on `main`. A badge reflects
+its latest selected branch run, not every historical commit. Use the run's source
+SHA, platform/job outcome and logs; failed, cancelled, skipped and unrun jobs do
+not become PASS. Historical results above and all extracted source identities
+are preserved. CI neither installs the full product nor resolves the unperformed
+packet inspection, rendered demo QA or live-provider/human-acceptance limits.
