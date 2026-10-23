@@ -98,3 +98,32 @@ exception was found in the selected schema set. Inherited upstream HOLD values
 remain historical review metadata, not an unidentified board interest or a new
 blanket prohibition. The separate public-source decision preserves applicable
 existing rights and notices and adds no new Creative Commons license.
+
+## Public development reconciliation - 23 October 2026
+
+The owner requested a public update and delegated merge authority for this
+reviewer repository. The successor starts from
+`12bd38f7777cd6b1d5b329d69ebb616b8fee1e39` in a fresh isolated checkout.
+It updates the README, product/workflow map, this record, validation and manifest,
+and adds only a successful public test log and synthetic demo summary.
+
+Current private main and separate unmerged PR71/76/77 were inspected alongside
+maintained instructions, design and coordination. CI233's original archive digest,
+CRCs and indexed file identities matched. Its installation, same-process scripted
+Home save/reread and owned-cleanup receipts support the bounded public summary.
+Provider contact, inference, restart, local-PC installation, interactive Windows
+consent and human acceptance are explicitly unverified. Source qualification,
+installed behavior and authored/unexecuted work remain distinct.
+
+The reviewed public diff contains no private implementation, archive, credentials,
+taxpayer/customer data, host identities, operational counters or new performance
+claim. The private evidence was read as data; no private project software ran.
+Public runtime/tests/fixtures, historical evidence, media, funding commitments,
+licenses and notices retain their existing bytes. No new license, release,
+hosting, CI dispatch, model call or spending allowance is created.
+
+The unchanged public suite passed 11 tests and a separate demo generated six
+positive package checks with 177 reopened objects. The initial sandbox hard-link
+failure is retained and disclosed; it was not repaired by weakening publication.
+Local-file browser access was denied, so rendered visual QA remains unperformed.
+Exact results and review limits are in [VALIDATION.md](VALIDATION.md#public-documentation-update-on-23-october-2026).

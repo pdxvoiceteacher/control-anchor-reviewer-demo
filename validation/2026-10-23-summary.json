@@ -1,0 +1,94 @@
+{
+  "demonstration": "OFFLINE EVIDENCE AND REVIEW COMPONENT DEMONSTRATION",
+  "source_commit": "139932846cb1b6bf1571158464d89513d4e381f8",
+  "provider_invoked": false,
+  "review_decision": "SCRIPTED_NOT_THOMAS_APPROVAL",
+  "repair_finding": "INJECTED_SYNTHETIC_ADVISORY_NOT_AI_DISCOVERED",
+  "parent_candidate_and_findings_unchanged": true,
+  "resolved_finding_ids": [],
+  "missing_evidence": {
+    "directory": {
+      "exit_code": 3,
+      "verifier_result": "HOLD: PACKAGE_TOPOLOGY_INVALID",
+      "expected_rejection_observed": true
+    },
+    "zip": {
+      "exit_code": 3,
+      "verifier_result": "HOLD: PACKAGE_TOPOLOGY_INVALID",
+      "expected_rejection_observed": true
+    },
+    "retained_original_directory": "PASS",
+    "retained_original_zip": "PASS"
+  },
+  "authority_adverse_cases": {
+    "candidate_self_authorization": "REJECTED_AS_AUTHORITY_RETAINED_AS_DATA",
+    "missing_decision_exit_code": 3,
+    "missing_decision_rejection": "HOLD: TRANSACTION_NOT_FINALIZABLE",
+    "model_role_decision_denial": "AUTHORIZATION_DENY_BY_DEFAULT",
+    "human_decision_absent": true,
+    "directory_and_zip_absent": true,
+    "transaction_bytes_preserved": true
+  },
+  "interrupted_decision_recovery": {
+    "coverage": "DELIBERATE_FAULT_AFTER_FIRST_DECISION_TARGET_NOT_OS_CRASH",
+    "interruption": "TRANSITION_INTERRUPTED_AFTER_TARGET:review/human_decision.json",
+    "interrupted_state": "HUMAN_DECISION_PENDING",
+    "pending_journal_sha256": "99eaa29803ebdba357519dccd51c75c014dc34fabf12d7255ae564f0eee65aa5",
+    "transition_id": "tr_86bfb4f0844f1c4c036f932f77db30c3",
+    "recovery_result": {
+      "authority_effect": "NONE",
+      "pending_journal_released": true,
+      "recovered": true,
+      "result": "PASS",
+      "target_count": 4,
+      "transaction_id": "TX-SYNTHETIC-RECOVERY",
+      "transition_id": "tr_86bfb4f0844f1c4c036f932f77db30c3"
+    },
+    "recovery_receipt": {
+      "authority_effect": "NONE",
+      "journal_observation": {
+        "applied_target_prefix_count": 1,
+        "cause_posture": "UNOBSERVED_PROCESS_INTERRUPTION",
+        "next_pending_target_path": "state.json",
+        "pending_journal_sha256": "99eaa29803ebdba357519dccd51c75c014dc34fabf12d7255ae564f0eee65aa5",
+        "pending_transition_id": "tr_86bfb4f0844f1c4c036f932f77db30c3",
+        "target_count": 3
+      },
+      "nonauthority": "Recovery evidence records deterministic re-entry; it does not establish root cause.",
+      "result": "RECOVERED",
+      "schema_id": "uvlm.triadicbrain.aep01.transition_recovery_receipt.v1",
+      "transaction_id": "TX-SYNTHETIC-RECOVERY",
+      "transition_id": "tr_86bfb4f0844f1c4c036f932f77db30c3"
+    },
+    "recovery_event_count": 1,
+    "decision_transition_count": 1,
+    "recovered_state": "APPROVED",
+    "pending_journal_cleared": true,
+    "source_candidate_and_decision_preserved": true,
+    "second_recovery": {
+      "authority_effect": "NONE",
+      "recovered": false,
+      "result": "NO_PENDING_TRANSITION",
+      "transaction_id": "TX-SYNTHETIC-RECOVERY"
+    },
+    "second_recovery_store_bytes_unchanged": true
+  },
+  "verified_packages": {
+    "TX-SYNTHETIC-001": "PASS",
+    "TX-SYNTHETIC-001.zip": "PASS",
+    "TX-SYNTHETIC-REPAIR-R1": "PASS",
+    "TX-SYNTHETIC-REPAIR-R1.zip": "PASS",
+    "TX-SYNTHETIC-RECOVERY": "PASS",
+    "TX-SYNTHETIC-RECOVERY.zip": "PASS"
+  },
+  "practitioner_export_sha256": {
+    "practitioner.json": "746256f0f527053195a29da94c88a40b2b01cdb35936a77cb703b16d82f71fdd",
+    "practitioner.jsonl": "27ba9f99c1e22077bae7fb8c11ef28e2268cae7f6c41c0c5a71ebc95125eb2a3",
+    "practitioner.csv": "58563138bf46bd06839365730f8a4ab1d96434b974da94c03b37d7b9accea56a"
+  },
+  "practitioner_reopened_items": 177,
+  "tampered_copy_exit_code": 3,
+  "tampered_copy_rejection": "HOLD: PACKAGE_MANIFEST_MEMBER_BINDING_INVALID",
+  "original_package_after_tamper": "PASS",
+  "public_release_review": "HOLD"
+}

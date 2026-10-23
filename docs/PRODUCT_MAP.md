@@ -16,10 +16,12 @@ Attribution: Thomas Prislac / UVLM. Exact source identities are in
 [SOURCE_MANIFEST.json](../SOURCE_MANIFEST.json). This is a new summary, not the
 private inventory, a standards mapping or a new implementation.
 
-Milestone snapshot checked **21 October 2026, 08:11:33 UTC** against private
-development main `ff5a40adb43191b2018b13e1a4dcf00ebc5bcc9e`, its P2P map and
-PR66/PR70 evidence. This supersedes the earlier 04:52:47 milestone summary;
-earlier attribution and source identities remain historical provenance.
+Milestone snapshot refreshed **23 October 2026 UTC** against private development
+main `ff5a40adb43191b2018b13e1a4dcf00ebc5bcc9e`, current PR71/76/77 and the original
+CI233 archive. Main remains the earlier integration checkpoint; later branch
+results are identified separately. The 21 October provider/P2P evidence below
+retains its original source and scope. Earlier attribution and source identities
+remain historical provenance.
 The private-development links below attribute reported evidence; those tests
 are **not publicly reproducible from this reviewer repository**. No private code
 or operational artifacts are included. These are named source checkpoints;
@@ -49,7 +51,7 @@ evidence. Rows can span these states.
 
 | Customer capability / responsibility | Owning source area | Reviewer status and boundary |
 | --- | --- | --- |
-| Install, start, uninstall and update | Package backend/recipe, Windows setup, Inno delivery, native finalization and installed entry | ELSEWHERE: CI206 demonstrated application-only installation and restricted terminal Home at its exact source. Ordinary-user consent/UAC, restart, supported PRODUCT uninstall and history-preserving update remain unproved. No installer is included here. |
+| Install, start, uninstall and update | Package backend/recipe, Windows setup, Inno delivery, native finalization and installed entry | ELSEWHERE: merged CI206 source and later unmerged CI233 source have separate hosted application-only installation/restricted Home evidence. CI233's original receipts were inspected for this update. PC installation, ordinary-user consent/UAC, restart, supported PRODUCT uninstall and history-preserving update remain unproved. No installer is included here. |
 | Author organization controls | Original document -> editable rule/draft -> preview -> authorized version; control-authoring/admin/policy families | ELSEWHERE: supported data-driven authoring and custody activation. General document comprehension and live semantic fidelity are not established here. |
 | Enter tasks and deliberate follow-ups | Native workbench/task authoring, Sonya message/parent binding and gateway | ELSEWHERE: interactive/service source. HERE: captured transaction registration only, not an installed task or live reply. |
 | Govern ingress and permitted exchanges | Sonya/AEGIS consent, identity, adapter permission, quarantine and admission | ELSEWHERE: provider/native protection paths. HERE: bounded local inputs and logical role/action checks; no OS isolation or provider exchange. |
@@ -67,6 +69,44 @@ and configuration define package membership. Integrations expose different entry
 points. Tests, examples, research and development evidence have other purposes;
 copying the whole repository would not produce a valid installer. This extraction
 includes none of the full private inventory or operator history.
+
+## Local workbench workflow and role boundaries
+
+The intended customer path starts with application setup and a supported provider
+chosen through the local interface. Models and their compatible runtimes are
+managed separately. Saving a server/model choice records a preference; protected
+activation, an actual protocol exchange and inference are different steps.
+Application-only delivery is a sequence toward the AI workbench, not evidence
+that the full product works without a model.
+
+| User step | Current development and evidence boundary |
+| --- | --- |
+| Install and open Home | CI233 exercised actual hosted installation and restricted Home with scripted inputs. Newer PR77 connects an idle Install/Close window and an explicitly confirmed startup resource setting; its source checks do not qualify that successor's installed behavior. Neither result verifies the Project Lead's PC or interactive Windows consent. |
+| Select a provider | CI233 saved and reread the same selection within one application process. Connection remained NOT_CHECKED and runtime identity UNVERIFIED. No protected activation or model generation followed. |
+| Prepare a task and its evidence | Separate PR76 proposes exact source/evidence preview, then an explicit Save action, with stale previews invalidated after edits. Saving prepares a draft; it does not admit native work, contact a provider or record a human review decision. Its authored tests and browser/installed behavior remain unexecuted at this snapshot. |
+| Work, follow up and correct | The goal is an actual permitted response, selected supported analysis, explicit follow-up/correction and inspectable history. The full installed sequence remains unverified. Here, authored candidates and scripted repair exercise only the evidence seam. |
+| Review, export and reopen | Review depends on the selected profile; ordinary continuation does not automatically require a human decision. A required decision must remain attributable to its human author. This public demo exports/reopens synthetic records; it does not establish installed human acceptance. |
+
+The maintained design keeps these responsibilities distinct:
+
+| Role | Responsibility and limit |
+| --- | --- |
+| Sonya / AEGIS | Bind intake and govern permitted exchanges. Admission does not certify source truth. |
+| UCC | Run supported procedures from the effective user control profile. It supplies no universal compliance verdict. |
+| CoherenceLattice | Ground claims, evidence and supported alternatives; retain missing information. |
+| Sophia | Evaluate separately against permitted evidence; preserve dissent and limitations. Agent agreement alone is not independent corroboration. |
+| Atlas | Explain posture and organize eligible continuity; summaries do not replace originals or authorize memory reuse. |
+| Custody / TEL | Retain authoritative records and link stages actually performed. A role name or trace is not execution proof or hidden model reasoning. |
+| Human | Make separately attributable decisions where applicable. Advisory COMPLIES, EXCEPTION and REVIEW_REQUIRED assessments do not confer professional audit or business-action authority. |
+
+These are whole-product responsibilities, not claims that this extraction runs
+the separate components. Here, roles are logical checks in one process. The next
+delivery goal is protected installed activation and a verified connection, then
+a separately authorized real response through the selected analysis, review,
+correction and export/reopen path. Restart, record-preserving update/uninstall
+and human usability still need evidence. Optional PMR, peer cooperation and
+research remain staged; no learning, speed, cost or broad usefulness gain is
+established by installation or test totals.
 
 ## Actual included function crosswalk
 
@@ -93,6 +133,9 @@ the rows do not add up to a full-suite or current whole-product PASS.
 
 | Milestone | Evidence and limits |
 | --- | --- |
+| Later hosted application-only installation, unmerged PR71 | [CI233](https://github.com/pdxvoiceteacher/triadicbrain-open-alpha/actions/runs/39879886012), completed 23 October: product `d3d845286bb708804f85c431cae77246ff915f5b`, tree `d7505ab7e61f029147ddc80319825faa1fcada8a`. Original receipts show actual Inno installation, exact-byte installed-copy verification, nine registered services, installed-instance qualification, restricted Home, first-use settings and same-process scripted selection save/reread. The original guard stopped/reaped/closed, services stopped, context closed and cleanup errors were empty. Two selected authority-reader cases passed all six setup/call/teardown phases; this is not a whole-suite result. |
+| Customer setup successor, unmerged PR77 | Source `a27a2aa7f303df5bec3409bfeebe552ab1408a34`. The [PR](https://github.com/pdxvoiceteacher/triadicbrain-open-alpha/pull/77) records scoped source-test evidence for the Install/Close and confirmed startup-setting changes, with earlier failures retained separately. Its changed installed payload has not been qualified by CI233. No local installation, provider activation or inference result transfers to it. |
+| Optional task preview/save, unmerged PR76 | Source `15c4e0ff20cecf61fbd083ba9cffc296a4250982`. The [PR](https://github.com/pdxvoiceteacher/triadicbrain-open-alpha/pull/76) records source/syntax review and authored, unexecuted tests. No browser or installed task was exercised. It is separate from provider delivery. |
 | Merged installed Home source | CI206 at product `73ec4d1d34f080104df803cf264e6bf513cba157`: 26 selected source cases / 78 phases passed, actual application-only Inno installation, installed verification, restricted terminal Home and the same provider selection saved/reread. PR56 merged those product trees; PR65/68 maintain the current navigation. [Run](https://github.com/pdxvoiceteacher/triadicbrain-open-alpha/actions/runs/39517587826) uses a separate helper SHA, not the product SHA. |
 | Provider metadata CHECK, merged PR66 | [CI216](https://github.com/pdxvoiceteacher/triadicbrain-open-alpha/actions/runs/39550198540) passed 26 cases / 78 phases at `fdc101f00980e782c021f9a2951c58cc57ac24d0`. Actual UI/broker/gateway/custody consumers used injected HTTP metadata replies. PR66's merged integration source is `3ed834c027ec0babe850ad101b79792e8e0ac6e1`. This is source qualification, not installed provider contact or inference. |
 | Separate REREAD predicate | [CI217](https://github.com/pdxvoiceteacher/triadicbrain-open-alpha/actions/runs/39551310691) passed exactly one existing predicate case / 3 phases at `4c4f002812b7b17cd5b76f5c2dda3d2bef91efe3`. This result belongs to that predicate; it neither repeats nor extends CI216's 26-case result into a full-suite claim. |
@@ -109,8 +152,18 @@ not relabeled by CI219. The later passes do not reconstruct missing historical
 causes. PR66's recorded CI217 evidence supersedes the specific stale REREAD
 "unexecuted" statement in the pinned private `docs/current/provider-delivery.md`.
 
-CI206 does not establish provider contact, inference, application restart,
-ordinary-user/UAC behavior or actual human acceptance. Earlier failures and
+CI233's archive SHA-256 is
+`8a8bd453aafd64bd814738a37c33b3bda6f3f68f070c92b492a3e5381dc842e2`.
+It matched GitHub's recorded digest; ZIP CRCs and all 95 indexed copied-file
+hashes/sizes matched. The installation, Home readback and owned-cleanup receipts
+were inspected as data. No private source, archive or operational record is
+republished here. These are attributed private-development results, not tests an
+outside reader can reproduce from this public extraction.
+
+CI233 explicitly records provider connection NOT_CHECKED, model response
+NOT_EXECUTED, restart NOT_EXECUTED, human acceptance NOT_ESTABLISHED and no
+ordinary-user/UAC proof. Its saved selection did not authorize dispatch. Neither
+CI206 nor CI233 proves installation on the Project Lead's PC. Earlier failures and
 UNKNOWN outcomes remain historical evidence; the later pass does not identify
 CI195's original pipe failure cause. No installation or branch result transfers
 to this offline extraction. The full live-provider journey and record-preserving

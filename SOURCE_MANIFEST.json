@@ -558,7 +558,7 @@
     },
     {
       "path": "PUBLICATION_REVIEW.md",
-      "candidate_sha256": "9426b69e6fc23c7b66fc407a9283e50bbd989d9d666db292859f088aee05a377",
+      "candidate_sha256": "5b028294e0f641120b3f0d03b777381f523adb6e4ce4c39279ff6789329b6881",
       "origin": "NEW",
       "source_basis_paths": [],
       "modifications": "New demo preparation material; AI-assisted under human commissioning.",
@@ -570,12 +570,13 @@
       "role_label_editorial_modification": "Use Project Lead for narrative project decisions and Founder for business/budget responsibilities; preserve named legal/source attribution, claims, licenses, amounts and immutable identifiers.",
       "historical_publication_review": "FINAL_CONTENT_DECISION_PENDING",
       "publication_wording_revision": "Record separate owner approval of reviewer-source/history public access on 19 October 2026; preserve existing licenses, attribution, budgets and evidence limits. No new Creative Commons/media/prose grant, deployment, release or application submission.",
-      "bytes": 6490,
-      "documentation_refresh_2026_10_20": "Record verified owner-executed public access and this approved documentation-only successor; distinguish historical review metadata, source visibility and operational/assurance claims."
+      "bytes": 8350,
+      "documentation_refresh_2026_10_20": "Record verified owner-executed public access and this approved documentation-only successor; distinguish historical review metadata, source visibility and operational/assurance claims.",
+      "documentation_reconciliation_2026_10_23": "Current source/branch evidence, local workbench workflow and role boundaries; original CI233 receipts inspected as data. Separate public-only validation retained; no private implementation or new product capability imported."
     },
     {
       "path": "README.md",
-      "candidate_sha256": "b9172dd7877e6fc6cf2a6de6a859650ae95f3bc720c52b3b6a8d242b60c49be0",
+      "candidate_sha256": "396214f7ff32e951bc86dee2862716c84810d6f9a32525dc6be98fb22b3e046b",
       "origin": "ADAPTED",
       "source_basis_paths": [
         "docs/current/master-design.md"
@@ -598,10 +599,11 @@
       "current_budget_navigation_revision": "Reader route now points to six-month core plan and optional separately costed paid intern opportunity; runtime/evidence text unchanged.",
       "historical_publication_review": "FINAL_CONTENT_DECISION_PENDING",
       "publication_wording_revision": "Record separate owner approval of reviewer-source/history public access on 19 October 2026; preserve existing licenses, attribution, budgets and evidence limits. No new Creative Commons/media/prose grant, deployment, release or application submission.",
-      "bytes": 19086,
+      "bytes": 19883,
       "documentation_refresh_2026_10_20": "Move dated observed results and first steps before the unchanged source-attributed architecture diagram; add accurate supplied-fixture walkthrough, public acquisition and PowerShell failure handling, historical HOLD explanation and P2P-note navigation. No runtime, fixture or recorded-result change.",
       "focused_update_2026_10_21": "Dated milestone summary, adverse/recovery artifact guide and separate new validation navigation; historical eight-test result and architecture attribution preserved.",
-      "documentation_reconciliation_2026_10_21_0811": "Current retained 11-test/six-check/177-object baseline, preserved historical eight/four result, and scoped merged provider/P2P navigation; no new execution."
+      "documentation_reconciliation_2026_10_21_0811": "Current retained 11-test/six-check/177-object baseline, preserved historical eight/four result, and scoped merged provider/P2P navigation; no new execution.",
+      "documentation_reconciliation_2026_10_23": "Current source/branch evidence, local workbench workflow and role boundaries; original CI233 receipts inspected as data. Separate public-only validation retained; no private implementation or new product capability imported."
     },
     {
       "path": "tests/test_component.py",
@@ -643,7 +645,7 @@
     },
     {
       "path": "VALIDATION.md",
-      "candidate_sha256": "e887b25b92984158b8d9b8d9aebb52a3f107c36d8fb9750f1f2460bb5ad827a6",
+      "candidate_sha256": "caa1b04633415cfbfa33aa0a72ab8ea4eb0b04eadec3449938c5cd08b850e606",
       "origin": "NEW",
       "source_basis_paths": [],
       "modifications": "New demo preparation material; AI-assisted under human commissioning.",
@@ -651,8 +653,9 @@
       "publication_review": "OWNER_APPROVED_PUBLIC_SOURCE_ACCESS_EXISTING_RIGHTS_PRESERVED_NO_NEW_LICENSE",
       "documentation_successor_modification": "Removed workstation free-resource numbers and internal approval-process narration; retained hard-link failure, ordinary-user success, test result and ZIP limitation.",
       "historical_publication_review": "FINAL_CONTENT_DECISION_PENDING",
-      "bytes": 9004,
-      "focused_update_2026_10_21": "Append new dated Windows commands, 11-test result, separate demo result, preserved evidence and denied local-file browser inspection; original historical text unchanged."
+      "bytes": 12661,
+      "focused_update_2026_10_21": "Append new dated Windows commands, 11-test result, separate demo result, preserved evidence and denied local-file browser inspection; original historical text unchanged.",
+      "documentation_reconciliation_2026_10_23": "Current source/branch evidence, local workbench workflow and role boundaries; original CI233 receipts inspected as data. Separate public-only validation retained; no private implementation or new product capability imported."
     },
     {
       "path": "docs/METHODS_APPENDIX.md",
@@ -673,7 +676,7 @@
     },
     {
       "path": "docs/PRODUCT_MAP.md",
-      "candidate_sha256": "ff5a508c36fce67f9000043d0bfa9ebc73b5678ded957a20dd8d25ffc7a3bac8",
+      "candidate_sha256": "cce371149f7ac7b2b4d796bd4a0d599078f79b032c062f1a757c26f4740a00b1",
       "origin": "ADAPTED",
       "source_basis_paths": [
         "https://github.com/pdxvoiceteacher/triadicbrain-open-alpha/blob/37583fd91ff7f0d912256c10fea89ff6896763cf/README.md",
@@ -686,10 +689,11 @@
       "license": "MPL-2.0 to extent rights exist and covered",
       "publication_review": "OWNER_APPROVED_PUBLIC_SOURCE_ACCESS_EXISTING_RIGHTS_PRESERVED_NO_NEW_LICENSE",
       "historical_publication_review": "FINAL_CONTENT_DECISION_PENDING",
-      "bytes": 14952,
+      "bytes": 21092,
       "focused_update_2026_10_21": "Refresh merged CI206 installed Home, unmerged provider metadata and separate qualified receiving/unexecuted P2P staging milestones; bounded recovery crosswalk and worker-support scope.",
       "milestone_review_correction_2026_10_21": "Refresh branch checkpoints during independent review: retain CI212 failure before metadata I/O and unexecuted fixture repair; distinguish 35 unexecuted P2P staging cases from CI211 local receiving.",
-      "documentation_reconciliation_2026_10_21_0811": "Dated reconciliation of separately scoped CI216/217, CI211/213 and CI219 results, merged status, private evidence reproducibility limits and retained failures."
+      "documentation_reconciliation_2026_10_21_0811": "Dated reconciliation of separately scoped CI216/217, CI211/213 and CI219 results, merged status, private evidence reproducibility limits and retained failures.",
+      "documentation_reconciliation_2026_10_23": "Current source/branch evidence, local workbench workflow and role boundaries; original CI233 receipts inspected as data. Separate public-only validation retained; no private implementation or new product capability imported."
     },
     {
       "path": "media/Control_Anchor_Introduction_Teleprompter_Reviewer_Update.txt",
@@ -1040,6 +1044,32 @@
       "candidate_sha256": "c1ffb5fc5073ecb207767339e57e1cf5eab203cb84b1f95a61ffb3b808a4dcd3",
       "bytes": 1739,
       "focused_update_2026_10_21": "New dated retained offline execution result; no real task or operational data."
+    },
+    {
+      "path": "validation/2026-10-23-unittest.log",
+      "candidate_sha256": "ef64bb74556cf2b96000df14156f7976af74c4bedd8b4a8f83faf5d78ed808cd",
+      "bytes": 1739,
+      "origin": "NEW",
+      "source_basis_paths": [
+        "demo.py",
+        "tests/test_component.py"
+      ],
+      "modifications": "New 23 October result from unchanged public-only code; synthetic inputs, no provider/model. Earlier results and the initial sandbox setup failure remain preserved.",
+      "license": "MPL-2.0 to extent rights exist and covered",
+      "publication_review": "OWNER_APPROVED_PUBLIC_SOURCE_ACCESS_EXISTING_RIGHTS_PRESERVED_NO_NEW_LICENSE"
+    },
+    {
+      "path": "validation/2026-10-23-summary.json",
+      "candidate_sha256": "fb0bd25907b79cbf41affab51f8c6d65a47787e5deb205626c2ac66fd1add8a8",
+      "bytes": 3977,
+      "origin": "NEW",
+      "source_basis_paths": [
+        "demo.py",
+        "tests/test_component.py"
+      ],
+      "modifications": "New 23 October result from unchanged public-only code; synthetic inputs, no provider/model. Earlier results and the initial sandbox setup failure remain preserved.",
+      "license": "MPL-2.0 to extent rights exist and covered",
+      "publication_review": "OWNER_APPROVED_PUBLIC_SOURCE_ACCESS_EXISTING_RIGHTS_PRESERVED_NO_NEW_LICENSE"
     }
   ],
   "consulted_originals": [
@@ -1393,6 +1423,24 @@
       "source_bytes_copied": false,
       "use": "Source navigation and limits; PR66 CI217 evidence supersedes the specific stale unexecuted REREAD statement.",
       "source_url": "https://github.com/pdxvoiceteacher/triadicbrain-open-alpha/blob/ff5a40adb43191b2018b13e1a4dcf00ebc5bcc9e/docs/current/provider-delivery.md"
+    },
+    {
+      "source_repository": "pdxvoiceteacher/triadicbrain-open-alpha",
+      "source_commit": "ff5a40adb43191b2018b13e1a4dcf00ebc5bcc9e",
+      "original_path": "AGENTS.md",
+      "original_git_blob": "bc8c53c72f84127c82fcc8d8b7b11689d04883c8",
+      "source_bytes_copied": false,
+      "use": "Current evidence distinctions, product responsibilities and publication boundaries.",
+      "source_url": "https://github.com/pdxvoiceteacher/triadicbrain-open-alpha/blob/ff5a40adb43191b2018b13e1a4dcf00ebc5bcc9e/AGENTS.md"
+    },
+    {
+      "source_repository": "pdxvoiceteacher/triadicbrain-open-alpha",
+      "source_commit": "ff5a40adb43191b2018b13e1a4dcf00ebc5bcc9e",
+      "original_path": "docs/current/master-design.md",
+      "original_git_blob": "51f6b696ab55ea616dcbb82f18691a2061611565",
+      "source_bytes_copied": false,
+      "use": "Public-safe paraphrase of application-only delivery, local workbench workflow, selected analysis, separate roles and human authority.",
+      "source_url": "https://github.com/pdxvoiceteacher/triadicbrain-open-alpha/blob/ff5a40adb43191b2018b13e1a4dcf00ebc5bcc9e/docs/current/master-design.md"
     }
   ],
   "publication_review_status_note": "Original copied-file/source HOLD records remain historical byte-provenance metadata. Owner separately approved public reviewer-source/history access; GitHub public visibility and unauthenticated document access were verified. This does not certify title, create a new license, resolve a finding or establish installed/live product operation.",
@@ -1591,5 +1639,34 @@
     "public_reproducibility": "Private-development links attribute reported evidence; their tests are not publicly reproducible from this repository. No private source or operational files imported.",
     "validation": "Documentation-only checks; no tests rerun or model/provider API/CI execution. Existing local 21 October baseline remains 11 tests, six positive directory/ZIP checks and 177 reopened evidence objects; earlier eight/four stays historical.",
     "funding_and_media": "Six months, USD 100,000 core budget and existing compensation/commitments/cautions unchanged. Frozen media payloads unchanged; recording addendum only."
+  },
+  "documentation_reconciliation_2026_10_23": {
+    "public_base": "12bd38f7777cd6b1d5b329d69ebb616b8fee1e39",
+    "private_main": "ff5a40adb43191b2018b13e1a4dcf00ebc5bcc9e",
+    "snapshot_checked_at_utc": "2026-10-23 04:19:42 UTC",
+    "unmerged_source_heads": {
+      "PR71": "d3d845286bb708804f85c431cae77246ff915f5b",
+      "PR76": "15c4e0ff20cecf61fbd083ba9cffc296a4250982",
+      "PR77": "a27a2aa7f303df5bec3409bfeebe552ab1408a34"
+    },
+    "scope": "Four existing documentation owners, this manifest, successful public test log and synthetic summary. No harness/engine/fixture/test, media, funding or license change.",
+    "CI233": {
+      "url": "https://github.com/pdxvoiceteacher/triadicbrain-open-alpha/actions/runs/39879886012",
+      "source_commit": "d3d845286bb708804f85c431cae77246ff915f5b",
+      "source_tree": "d7505ab7e61f029147ddc80319825faa1fcada8a",
+      "archive_sha256": "8a8bd453aafd64bd814738a37c33b3bda6f3f68f070c92b492a3e5381dc842e2",
+      "inspection": "Existing artifact downloaded; digest, ZIP CRCs and all 95 indexed copied-file hashes/sizes matched. Installation, Home readback, original guard and context-close receipts inspected as data. No private source or raw operational file republished.",
+      "demonstrated": "Actual hosted application-only Inno installation, exact-byte installed copy, nine registered services, instance qualification, restricted Home, scripted first-use settings and same-process provider-selection save/reread, observed owned cleanup. Separate two-case/six-phase source result.",
+      "limits": "Unmerged source. No Project Lead PC installation, provider activation/contact, inference, restart, ordinary-user UAC, human acceptance, supported update/uninstall or successor-payload qualification."
+    },
+    "public_validation": {
+      "initial_sandbox_run": "Exit1; 11 setup errors in0.135s at EXCLUSIVE_OUTPUT_FAILED; separate hard-link probe access denied. Original log and partial fixtures retained outside public checkout.",
+      "successful_test_run": "One fresh unchanged run outside filesystem sandbox, same ordinary user: 11 tests/49.680s/OK/exit0.",
+      "artifact_generation": "Separate demo.py run exit0; six positive directory/ZIP checks, 177 reopened objects, expected adverse rejections and bounded recovery. No package build-system entry point exists.",
+      "visual_qa": "UNPERFORMED: Chrome local-file URL opening denied by protocol policy; no tab or workaround. HTML source inspected separately.",
+      "execution_scope": "Existing Python3.12.14 standard library only, serial; public code/synthetic fixtures only. No private project software, provider/model, listener, dependency install or hosted CI."
+    },
+    "public_reproducibility": "Private links are attributed source/evidence checkpoints, not publicly reproducible tests. Historical failures, UNKNOWN and source-bound results are not aggregated into a current whole-product PASS.",
+    "preservation": "33 copied-file identities, original implementation extraction, prior evidence, licenses/notices, media and funding commitments unchanged. No new spending, runtime, release or access authority."
   }
 }
