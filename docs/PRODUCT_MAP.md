@@ -16,10 +16,10 @@ Attribution: Thomas Prislac / UVLM. Exact source identities are in
 [SOURCE_MANIFEST.json](../SOURCE_MANIFEST.json). This is a new summary, not the
 private inventory, a standards mapping or a new implementation.
 
-Milestone snapshot refreshed **23 October 2026 UTC** against private development
-main `ff5a40adb43191b2018b13e1a4dcf00ebc5bcc9e`, current PR71/76/77 and the original
-CI233 archive. Main remains the earlier integration checkpoint; later branch
-results are identified separately. The 21 October provider/P2P evidence below
+Milestone snapshot refreshed **23 October 2026, 06:58 UTC** against current private
+development main, relevant successors and original retained artifacts. Main
+remains the earlier integration checkpoint; later branch results are identified
+separately. The 21 October provider/P2P evidence below
 retains its original source and scope. Earlier attribution and source identities
 remain historical provenance.
 The private-development links below attribute reported evidence; those tests
@@ -81,7 +81,7 @@ that the full product works without a model.
 
 | User step | Current development and evidence boundary |
 | --- | --- |
-| Install and open Home | CI233 exercised actual hosted installation and restricted Home with scripted inputs. Newer PR77 connects an idle Install/Close window and an explicitly confirmed startup resource setting; its source checks do not qualify that successor's installed behavior. Neither result verifies the Project Lead's PC or interactive Windows consent. |
+| Install and open Home | CI233 and the later setup successor have separate actual hosted installation/restricted Home receipts. Later portable-setup source gates failed and skipped installation. No result transfers across changed source. PC installation, the local Install/Close interaction and Windows consent remain unverified. |
 | Select a provider | CI233 saved and reread the same selection within one application process. Connection remained NOT_CHECKED and runtime identity UNVERIFIED. No protected activation or model generation followed. |
 | Prepare a task and its evidence | Separate PR76 proposes exact source/evidence preview, then an explicit Save action, with stale previews invalidated after edits. Saving prepares a draft; it does not admit native work, contact a provider or record a human review decision. Its authored tests and browser/installed behavior remain unexecuted at this snapshot. |
 | Work, follow up and correct | The goal is an actual permitted response, selected supported analysis, explicit follow-up/correction and inspectable history. The full installed sequence remains unverified. Here, authored candidates and scripted repair exercise only the evidence seam. |
@@ -108,6 +108,11 @@ and human usability still need evidence. Optional PMR, peer cooperation and
 research remain staged; no learning, speed, cost or broad usefulness gain is
 established by installation or test totals.
 
+The [proposed roadmap](PROPOSED_ROADMAP.md) adds function-first coordination,
+bounded goal-directed planning and separately optional learning/prior exchange
+as design direction. Those proposals do not expand the demonstrated capabilities
+of this extraction or the installed checkpoints below.
+
 ## Actual included function crosswalk
 
 These relative links lead to the unchanged implementation extracted at
@@ -133,8 +138,12 @@ the rows do not add up to a full-suite or current whole-product PASS.
 
 | Milestone | Evidence and limits |
 | --- | --- |
+| Later setup successor, 23 October 04:32 UTC | Original artifact inspection confirms actual hosted application-only Inno installation, exact-byte installed-copy verification, nine registered services, installed-instance qualification, restricted scripted Home, same-process provider-selection save/reread and observed guard/service/context cleanup. Its two selected source cases passed. Provider connection remained NOT_CHECKED; inference/restart were NOT_EXECUTED, UAC proof false and human acceptance NOT_ESTABLISHED. This is a separate unmerged source checkpoint. |
+| Later source gate, 23 October 05:58 UTC | The declared selection expected 14 while collection expanded to 32. No selected test case executed; installation was skipped. The failed gate is retained, not counted as test or installation success. |
+| Later source gate, 23 October 06:17 UTC | The 32 collected cases produced 28 complete passes, one failed case and three unexecuted cases. The original trace exposes a held-log-lock fixture assertion; the source-only successor changes that fixture's synchronization. Installation was skipped. This neither erases the earlier installed receipt nor proves the successor qualifies. |
+| Further successor, 23 October 06:57 UTC | Original receipts show six selected source cases passed, then actual hosted Inno installation, exact installed-copy verification, nine-service registration, instance qualification, restricted scripted Home and same-process settings save/reread. Guard/services/context closed with empty cleanup errors. This result belongs to its repaired source and is not a fresh 32-case run. Provider connection remained NOT_CHECKED; model/restart were NOT_EXECUTED, UAC proof false and human acceptance NOT_ESTABLISHED. The two earlier failed gates remain failed. |
 | Later hosted application-only installation, unmerged PR71 | [CI233](https://github.com/pdxvoiceteacher/triadicbrain-open-alpha/actions/runs/39879886012), completed 23 October: product `d3d845286bb708804f85c431cae77246ff915f5b`, tree `d7505ab7e61f029147ddc80319825faa1fcada8a`. Original receipts show actual Inno installation, exact-byte installed-copy verification, nine registered services, installed-instance qualification, restricted Home, first-use settings and same-process scripted selection save/reread. The original guard stopped/reaped/closed, services stopped, context closed and cleanup errors were empty. Two selected authority-reader cases passed all six setup/call/teardown phases; this is not a whole-suite result. |
-| Customer setup successor, unmerged PR77 | Source `a27a2aa7f303df5bec3409bfeebe552ab1408a34`. The [PR](https://github.com/pdxvoiceteacher/triadicbrain-open-alpha/pull/77) records scoped source-test evidence for the Install/Close and confirmed startup-setting changes, with earlier failures retained separately. Its changed installed payload has not been qualified by CI233. No local installation, provider activation or inference result transfers to it. |
+| Customer setup successor, unmerged PR77 | The source identity recorded in the preceding public edition is unchanged. CI233 does not qualify it; the later 04:32 UTC artifact above supplies its separate hosted installed evidence. No local installation, provider activation or inference result follows. |
 | Optional task preview/save, unmerged PR76 | Source `15c4e0ff20cecf61fbd083ba9cffc296a4250982`. The [PR](https://github.com/pdxvoiceteacher/triadicbrain-open-alpha/pull/76) records source/syntax review and authored, unexecuted tests. No browser or installed task was exercised. It is separate from provider delivery. |
 | Merged installed Home source | CI206 at product `73ec4d1d34f080104df803cf264e6bf513cba157`: 26 selected source cases / 78 phases passed, actual application-only Inno installation, installed verification, restricted terminal Home and the same provider selection saved/reread. PR56 merged those product trees; PR65/68 maintain the current navigation. [Run](https://github.com/pdxvoiceteacher/triadicbrain-open-alpha/actions/runs/39517587826) uses a separate helper SHA, not the product SHA. |
 | Provider metadata CHECK, merged PR66 | [CI216](https://github.com/pdxvoiceteacher/triadicbrain-open-alpha/actions/runs/39550198540) passed 26 cases / 78 phases at `fdc101f00980e782c021f9a2951c58cc57ac24d0`. Actual UI/broker/gateway/custody consumers used injected HTTP metadata replies. PR66's merged integration source is `3ed834c027ec0babe850ad101b79792e8e0ac6e1`. This is source qualification, not installed provider contact or inference. |

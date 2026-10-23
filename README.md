@@ -31,19 +31,21 @@ not an assurance opinion or proof of useful cognitive performance.
 The eight-test result above and its retained JSON remain historical; the separate
 21 October evidence records PR #1's already completed execution.
 
-**Development update — 23 October 2026:** CI233's original receipts were inspected,
-not just its green workflow status. At `d3d84528`, they demonstrate application-only
-Inno installation on a disposable hosted Windows runner, exact installed-copy
-verification, restricted terminal Home and scripted provider-selection save/reread
-within the same application process, followed by observed owned cleanup. That
-source is on an **unmerged development branch**. This does not verify installation
-on the Project Lead's PC, provider activation/contact, inference, restart,
-ordinary-user UAC or human acceptance.
+**Development reconciliation — 23 October 2026:** the earlier CI233 result is
+preserved. Later original receipts also demonstrate hosted application-only
+installation, exact installed-copy verification, restricted scripted Home and
+same-process provider-selection save/reread on the customer setup successor.
+Two subsequent source gates failed and skipped installation; their results do
+not erase that earlier success or qualify their newer source. At 06:57 UTC,
+another successor completed six selected source cases and a separate hosted
+installation/startup; its original receipts were inspected too. This is a scoped
+success, not a fresh full-suite qualification.
 
-Newer unmerged work addresses the customer Install/Close window and exact task
-preview before explicit draft save. These remain separate from the installed
-evidence above. Application-only installation separates delivery from model
-acquisition; it does not make the intended AI workbench a model-free product.
+These are **unmerged development checkpoints**. They do not verify installation
+on the Project Lead's PC, provider activation/contact, inference, restart,
+ordinary-user UAC or human acceptance. Separate task-preview and provider-disclosure
+work retain their own source-review limits. Application-only installation separates
+delivery from model acquisition; it does not make the intended AI workbench a model-free product.
 Earlier merged provider metadata and bounded peer tests retain their own scope;
 distributed peers and shared compute remain unverified. The dated
 [product map](docs/PRODUCT_MAP.md#evidence-edition-and-remaining-joins) explains
@@ -78,6 +80,7 @@ The main development repository remains private. See the
 | Presenters | Optional [slides, scripts, teleprompters and covers](media/README.md), with dated evidence notes and source hashes. |
 | Product direction and P2P | [Product vision and proposed sharing evaluation](docs/RESEARCH_LINEAGE_AND_EVALUATION.md): staged local usefulness, reusable work versus compute, and an ordinary-library comparison. |
 | Current local workflow | [Workbench steps and role boundaries](docs/PRODUCT_MAP.md#local-workbench-workflow-and-role-boundaries): installation, provider selection, task preparation, analysis, correction and human decisions, with evidence limits. |
+| Proposed next design | [Proposed roadmap](docs/PROPOSED_ROADMAP.md): function-first coordination, bounded planning, optional learning and prior sharing. These are proposals, not capabilities demonstrated by this demo. |
 
 ## Inspect the fixture without running it
 

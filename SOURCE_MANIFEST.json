@@ -558,7 +558,7 @@
     },
     {
       "path": "PUBLICATION_REVIEW.md",
-      "candidate_sha256": "5b028294e0f641120b3f0d03b777381f523adb6e4ce4c39279ff6789329b6881",
+      "candidate_sha256": "27fdbdb8721313f05b991114339a1bc4982021b7f975bdf17fc749d9ae9277ed",
       "origin": "NEW",
       "source_basis_paths": [],
       "modifications": "New demo preparation material; AI-assisted under human commissioning.",
@@ -570,13 +570,14 @@
       "role_label_editorial_modification": "Use Project Lead for narrative project decisions and Founder for business/budget responsibilities; preserve named legal/source attribution, claims, licenses, amounts and immutable identifiers.",
       "historical_publication_review": "FINAL_CONTENT_DECISION_PENDING",
       "publication_wording_revision": "Record separate owner approval of reviewer-source/history public access on 19 October 2026; preserve existing licenses, attribution, budgets and evidence limits. No new Creative Commons/media/prose grant, deployment, release or application submission.",
-      "bytes": 8350,
+      "bytes": 9821,
       "documentation_refresh_2026_10_20": "Record verified owner-executed public access and this approved documentation-only successor; distinguish historical review metadata, source visibility and operational/assurance claims.",
-      "documentation_reconciliation_2026_10_23": "Current source/branch evidence, local workbench workflow and role boundaries; original CI233 receipts inspected as data. Separate public-only validation retained; no private implementation or new product capability imported."
+      "documentation_reconciliation_2026_10_23": "Current source/branch evidence, local workbench workflow and role boundaries; original CI233 receipts inspected as data. Separate public-only validation retained; no private implementation or new product capability imported.",
+      "proposed_roadmap_followup_2026_10_23": "Owner-brief proposed roadmap and source-specific evidence reconciliation. Separate design packet and diagrams not locally inspected or imported. No new private source identity or implementation published."
     },
     {
       "path": "README.md",
-      "candidate_sha256": "396214f7ff32e951bc86dee2862716c84810d6f9a32525dc6be98fb22b3e046b",
+      "candidate_sha256": "756cd2e343990ee6a8d15e16ecff4dc6fc7d71ca623e7270e7705ae9bcb46851",
       "origin": "ADAPTED",
       "source_basis_paths": [
         "docs/current/master-design.md"
@@ -599,11 +600,12 @@
       "current_budget_navigation_revision": "Reader route now points to six-month core plan and optional separately costed paid intern opportunity; runtime/evidence text unchanged.",
       "historical_publication_review": "FINAL_CONTENT_DECISION_PENDING",
       "publication_wording_revision": "Record separate owner approval of reviewer-source/history public access on 19 October 2026; preserve existing licenses, attribution, budgets and evidence limits. No new Creative Commons/media/prose grant, deployment, release or application submission.",
-      "bytes": 19883,
+      "bytes": 20279,
       "documentation_refresh_2026_10_20": "Move dated observed results and first steps before the unchanged source-attributed architecture diagram; add accurate supplied-fixture walkthrough, public acquisition and PowerShell failure handling, historical HOLD explanation and P2P-note navigation. No runtime, fixture or recorded-result change.",
       "focused_update_2026_10_21": "Dated milestone summary, adverse/recovery artifact guide and separate new validation navigation; historical eight-test result and architecture attribution preserved.",
       "documentation_reconciliation_2026_10_21_0811": "Current retained 11-test/six-check/177-object baseline, preserved historical eight/four result, and scoped merged provider/P2P navigation; no new execution.",
-      "documentation_reconciliation_2026_10_23": "Current source/branch evidence, local workbench workflow and role boundaries; original CI233 receipts inspected as data. Separate public-only validation retained; no private implementation or new product capability imported."
+      "documentation_reconciliation_2026_10_23": "Current source/branch evidence, local workbench workflow and role boundaries; original CI233 receipts inspected as data. Separate public-only validation retained; no private implementation or new product capability imported.",
+      "proposed_roadmap_followup_2026_10_23": "Owner-brief proposed roadmap and source-specific evidence reconciliation. Separate design packet and diagrams not locally inspected or imported. No new private source identity or implementation published."
     },
     {
       "path": "tests/test_component.py",
@@ -645,7 +647,7 @@
     },
     {
       "path": "VALIDATION.md",
-      "candidate_sha256": "caa1b04633415cfbfa33aa0a72ab8ea4eb0b04eadec3449938c5cd08b850e606",
+      "candidate_sha256": "24abeecd276b25bf4d3b8c69f3a6920efd03d8fc981fb813c64c80038d5c8d9c",
       "origin": "NEW",
       "source_basis_paths": [],
       "modifications": "New demo preparation material; AI-assisted under human commissioning.",
@@ -653,9 +655,10 @@
       "publication_review": "OWNER_APPROVED_PUBLIC_SOURCE_ACCESS_EXISTING_RIGHTS_PRESERVED_NO_NEW_LICENSE",
       "documentation_successor_modification": "Removed workstation free-resource numbers and internal approval-process narration; retained hard-link failure, ordinary-user success, test result and ZIP limitation.",
       "historical_publication_review": "FINAL_CONTENT_DECISION_PENDING",
-      "bytes": 12661,
+      "bytes": 15197,
       "focused_update_2026_10_21": "Append new dated Windows commands, 11-test result, separate demo result, preserved evidence and denied local-file browser inspection; original historical text unchanged.",
-      "documentation_reconciliation_2026_10_23": "Current source/branch evidence, local workbench workflow and role boundaries; original CI233 receipts inspected as data. Separate public-only validation retained; no private implementation or new product capability imported."
+      "documentation_reconciliation_2026_10_23": "Current source/branch evidence, local workbench workflow and role boundaries; original CI233 receipts inspected as data. Separate public-only validation retained; no private implementation or new product capability imported.",
+      "proposed_roadmap_followup_2026_10_23": "Owner-brief proposed roadmap and source-specific evidence reconciliation. Separate design packet and diagrams not locally inspected or imported. No new private source identity or implementation published."
     },
     {
       "path": "docs/METHODS_APPENDIX.md",
@@ -676,7 +679,7 @@
     },
     {
       "path": "docs/PRODUCT_MAP.md",
-      "candidate_sha256": "cce371149f7ac7b2b4d796bd4a0d599078f79b032c062f1a757c26f4740a00b1",
+      "candidate_sha256": "9d5c3ab214d86b7817bf9fe3d4edab2142527c37cb8032d10681741b7452c008",
       "origin": "ADAPTED",
       "source_basis_paths": [
         "https://github.com/pdxvoiceteacher/triadicbrain-open-alpha/blob/37583fd91ff7f0d912256c10fea89ff6896763cf/README.md",
@@ -689,11 +692,12 @@
       "license": "MPL-2.0 to extent rights exist and covered",
       "publication_review": "OWNER_APPROVED_PUBLIC_SOURCE_ACCESS_EXISTING_RIGHTS_PRESERVED_NO_NEW_LICENSE",
       "historical_publication_review": "FINAL_CONTENT_DECISION_PENDING",
-      "bytes": 21092,
+      "bytes": 22970,
       "focused_update_2026_10_21": "Refresh merged CI206 installed Home, unmerged provider metadata and separate qualified receiving/unexecuted P2P staging milestones; bounded recovery crosswalk and worker-support scope.",
       "milestone_review_correction_2026_10_21": "Refresh branch checkpoints during independent review: retain CI212 failure before metadata I/O and unexecuted fixture repair; distinguish 35 unexecuted P2P staging cases from CI211 local receiving.",
       "documentation_reconciliation_2026_10_21_0811": "Dated reconciliation of separately scoped CI216/217, CI211/213 and CI219 results, merged status, private evidence reproducibility limits and retained failures.",
-      "documentation_reconciliation_2026_10_23": "Current source/branch evidence, local workbench workflow and role boundaries; original CI233 receipts inspected as data. Separate public-only validation retained; no private implementation or new product capability imported."
+      "documentation_reconciliation_2026_10_23": "Current source/branch evidence, local workbench workflow and role boundaries; original CI233 receipts inspected as data. Separate public-only validation retained; no private implementation or new product capability imported.",
+      "proposed_roadmap_followup_2026_10_23": "Owner-brief proposed roadmap and source-specific evidence reconciliation. Separate design packet and diagrams not locally inspected or imported. No new private source identity or implementation published."
     },
     {
       "path": "media/Control_Anchor_Introduction_Teleprompter_Reviewer_Update.txt",
@@ -1068,6 +1072,26 @@
         "tests/test_component.py"
       ],
       "modifications": "New 23 October result from unchanged public-only code; synthetic inputs, no provider/model. Earlier results and the initial sandbox setup failure remain preserved.",
+      "license": "MPL-2.0 to extent rights exist and covered",
+      "publication_review": "OWNER_APPROVED_PUBLIC_SOURCE_ACCESS_EXISTING_RIGHTS_PRESERVED_NO_NEW_LICENSE"
+    },
+    {
+      "path": "docs/PROPOSED_ROADMAP.md",
+      "candidate_sha256": "90ea9482035791d79a641f1a033ffa60ead2551f2f5dcda6c77223a7bba462af",
+      "bytes": 5228,
+      "origin": "NEW",
+      "source_basis_paths": [],
+      "modifications": "Owner-directed planning summary or unchanged-public-code synthetic test result. No handbook text, research extract, private source or new runtime behavior included.",
+      "license": "MPL-2.0 to extent rights exist and covered",
+      "publication_review": "OWNER_APPROVED_PUBLIC_SOURCE_ACCESS_EXISTING_RIGHTS_PRESERVED_NO_NEW_LICENSE"
+    },
+    {
+      "path": "validation/2026-10-23-roadmap-unittest.log",
+      "candidate_sha256": "b3c71ea50806a03240159f736c42cf6b028a1263eea53c2d0499717ecca5628d",
+      "bytes": 1739,
+      "origin": "NEW",
+      "source_basis_paths": [],
+      "modifications": "Owner-directed planning summary or unchanged-public-code synthetic test result. No handbook text, research extract, private source or new runtime behavior included.",
       "license": "MPL-2.0 to extent rights exist and covered",
       "publication_review": "OWNER_APPROVED_PUBLIC_SOURCE_ACCESS_EXISTING_RIGHTS_PRESERVED_NO_NEW_LICENSE"
     }
@@ -1668,5 +1692,18 @@
     },
     "public_reproducibility": "Private links are attributed source/evidence checkpoints, not publicly reproducible tests. Historical failures, UNKNOWN and source-bound results are not aggregated into a current whole-product PASS.",
     "preservation": "33 copied-file identities, original implementation extraction, prior evidence, licenses/notices, media and funding commitments unchanged. No new spending, runtime, release or access authority."
+  },
+  "proposed_roadmap_followup_2026_10_23": {
+    "public_base": "a4a1fd41637ee2b15beaded5a1aec17484bc8590",
+    "status": "OWNER_BRIEF_PROPOSED_DESIGN_ONLY",
+    "roadmap_source": "Explicit owner-supplied roadmap brief and verified repository evidence. Separate design reference and diagrams were not locally inspected or imported. No diagram-dependent reuse.",
+    "scope": "Existing README, product map, validation and publication review; new concise proposed-roadmap document and public synthetic test log; this manifest. Runtime, tests, fixtures, licenses, media, funding and historical records unchanged.",
+    "evidence_review_checkpoint_utc": "2026-10-23 06:58 UTC",
+    "evidence_review": "Four later existing private-development archives matched their recorded digests, CRCs and indexed copied-file hashes/sizes. Current exact source/test identities are retained privately, not added to this public update.",
+    "evidence_scope": "04:32 hosted installed success; 05:58 selection mismatch with32unexecuted cases and installation skipped; 06:17 result28completepasses/1failed/3unexecuted with installation skipped; 06:57 repaired-source six-case PASS and separate hosted installed success. Earlier failures are retained. No aggregate fresh32-case or whole-product PASS.",
+    "public_validation": "11 unchanged public tests passed in49.374s; separate demo artifact build exit0, six package checks,177reopened objects. New build summary byte-identical to the existing public synthetic summary; no duplicate summary added.",
+    "visual_qa": "Generated demo rendering unperformed. Prior local-file denial respected; no alternate server/browser route used. Source/link checks are separate.",
+    "limits": "Proposed executive/planning/learning/NCM/prior-storage/P2P behavior is not demonstrated. Hosted installation does not prove local-PC installation, interactive consent, provider activation/contact, inference, restart/update/uninstall or human acceptance.",
+    "publication_boundary": "No handbook/ZIP, unpublished extract, private source identity, raw operational log, business/career material, historical attribution dispute, new license, CI dispatch, model/training/provider action, installation or spending allowance."
   }
 }
