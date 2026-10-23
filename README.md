@@ -46,6 +46,8 @@ The opportunity is cumulative usefulness: preserve valuable work, make eligible 
 
 We propose a free household core with meaningful safeguards, alongside optional paid organizational administration, supported integrations, deployment assistance and support. The local product should stand on its own; participation in a network or contribution of private data should never be the price of basic usefulness.
 
+The same core could serve a standalone workbench, an embedded SDK/API for existing AI applications, or OEM/white-label distribution with implementation and support. The partner aim is to keep their models and customer experience while adding configurable controls, permission checks, traceable review, correction history and auditable handoffs. These are [proposed delivery routes](docs/GRAND_VISION.md#proposed-delivery-routes), not delivered integrations or a turnkey SDK.
+
 For investors, the immediate opportunity is to help turn bounded component work into an integrated product with measurable user value. Funding should advance explicit gates: a dependable installed workflow; runtime controls and useful coordination; repeated design-partner use and purchasing evidence; then governed sharing. Initial buyers, pricing and unit economics still need validation. Research into learning and more ambitious cognitive mechanisms would have separate evaluations and stopping criteria, so the commercial product need not depend on an unproven breakthrough.
 
 ## Help build the next credible step
