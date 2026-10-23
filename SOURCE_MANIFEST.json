@@ -577,7 +577,7 @@
     },
     {
       "path": "README.md",
-      "candidate_sha256": "d9932b08bffe477fc6877e9cbeb461b0522b5e1d77709604372729325d477cbe",
+      "candidate_sha256": "42132c2aaa249e7b98ba921712d31a2c295a41e200e620863206ad914e2f0273",
       "origin": "ADAPTED",
       "source_basis_paths": [
         "docs/current/master-design.md"
@@ -600,13 +600,14 @@
       "current_budget_navigation_revision": "Reader route now points to six-month core plan and optional separately costed paid intern opportunity; runtime/evidence text unchanged.",
       "historical_publication_review": "FINAL_CONTENT_DECISION_PENDING",
       "publication_wording_revision": "Record separate owner approval of reviewer-source/history public access on 19 October 2026; preserve existing licenses, attribution, budgets and evidence limits. No new Creative Commons/media/prose grant, deployment, release or application submission.",
-      "bytes": 27698,
+      "bytes": 28174,
       "documentation_refresh_2026_10_20": "Move dated observed results and first steps before the unchanged source-attributed architecture diagram; add accurate supplied-fixture walkthrough, public acquisition and PowerShell failure handling, historical HOLD explanation and P2P-note navigation. No runtime, fixture or recorded-result change.",
       "focused_update_2026_10_21": "Dated milestone summary, adverse/recovery artifact guide and separate new validation navigation; historical eight-test result and architecture attribution preserved.",
       "documentation_reconciliation_2026_10_21_0811": "Current retained 11-test/six-check/177-object baseline, preserved historical eight/four result, and scoped merged provider/P2P navigation; no new execution.",
       "documentation_reconciliation_2026_10_23": "Current source/branch evidence, local workbench workflow and role boundaries; original CI233 receipts inspected as data. Separate public-only validation retained; no private implementation or new product capability imported.",
       "proposed_roadmap_followup_2026_10_23": "Owner-brief proposed roadmap and source-specific evidence reconciliation. Separate design packet and diagrams not locally inspected or imported. No new private source identity or implementation published.",
-      "public_readme_editorial_update_2026_10_23": "Owner-directed product ambition, problem/solution framing, control doctrines, proposed P2P/business model, bounded calls to action and public professional CV reader route. Complete technical sections, code fences, badges, historical evidence, citations and licensing retained; dated pilot qualified separately from a company-wide seed budget."
+      "public_readme_editorial_update_2026_10_23": "Owner-directed product ambition, problem/solution framing, control doctrines, proposed P2P/business model, bounded calls to action and public professional CV reader route. Complete technical sections, code fences, badges, historical evidence, citations and licensing retained; dated pilot qualified separately from a company-wide seed budget.",
+      "proposed_partner_delivery_update_2026_10_23": "Owner-approved proposed partner-delivery value proposition and link to delivery-route boundaries; no delivered SDK or integration claimed."
     },
     {
       "path": "tests/test_component.py",
@@ -1078,13 +1079,14 @@
     },
     {
       "path": "docs/PROPOSED_ROADMAP.md",
-      "candidate_sha256": "90ea9482035791d79a641f1a033ffa60ead2551f2f5dcda6c77223a7bba462af",
-      "bytes": 5228,
+      "candidate_sha256": "f9effe332c4c466c0935870f098d79406be04cceae194d2898b949ee335a8625",
+      "bytes": 5759,
       "origin": "NEW",
       "source_basis_paths": [],
       "modifications": "Owner-directed planning summary or unchanged-public-code synthetic test result. No handbook text, research extract, private source or new runtime behavior included.",
       "license": "MPL-2.0 to extent rights exist and covered",
-      "publication_review": "OWNER_APPROVED_PUBLIC_SOURCE_ACCESS_EXISTING_RIGHTS_PRESERVED_NO_NEW_LICENSE"
+      "publication_review": "OWNER_APPROVED_PUBLIC_SOURCE_ACCESS_EXISTING_RIGHTS_PRESERVED_NO_NEW_LICENSE",
+      "proposed_partner_delivery_update_2026_10_23": "Owner-approved separate embedded proof-of-concept proposal against a standalone baseline; no execution or new resource authority."
     },
     {
       "path": "validation/2026-10-23-roadmap-unittest.log",
@@ -1140,11 +1142,15 @@
       "path": "docs/GRAND_VISION.md",
       "origin": "OWNER_SUPPLIED_PUBLICATION_PACKET",
       "source_basis_paths": [],
-      "modifications": "None; exact bytes from the owner-supplied Grand Vision publication packet, placed under docs with relative asset paths preserved.",
+      "modifications": "Initial packet edition published unchanged at 1c6220a511f5966812cf019c94f9e6ce18df9b6a; now amended only by the owner-approved proposed delivery-routes section. Original packet provenance and existing rights preserved.",
       "license": "Existing rights and notices preserved; no new media/prose license grant.",
       "publication_review": "OWNER_APPROVED_PUBLIC_GRAND_VISION_AND_VISUALS",
-      "candidate_sha256": "542934c1f3014832048435750145c33eeb1c95703a0b6f005ed6f7e40f03d346",
-      "bytes": 31452
+      "candidate_sha256": "af9b3be980c171d3eb0d6d9aa1636ca256a894d11d623129b93498b2abbf347f",
+      "bytes": 32478,
+      "initial_publication_modifications": "None; exact bytes from the owner-supplied Grand Vision publication packet, placed under docs with relative asset paths preserved.",
+      "initial_publication_sha256": "542934c1f3014832048435750145c33eeb1c95703a0b6f005ed6f7e40f03d346",
+      "initial_publication_bytes": 31452,
+      "proposed_partner_delivery_update_2026_10_23": "Owner-approved proposed delivery routes and integration, responsibility, data, authority and rights boundaries; no new implementation, commercial agreement or license grant."
     },
     {
       "path": "docs/assets/architecture.svg",
@@ -1824,7 +1830,7 @@
       "docs/assets/roadmap.svg",
       "docs/assets/roadmap.png"
     ],
-    "content_preservation": "Five selected packet members are published byte-for-byte unchanged. README adds a reader route; existing workflows, runtime, source identities and historical evidence remain unchanged.",
+    "content_preservation": "Five selected packet members were initially published byte-for-byte unchanged at 1c6220a511f5966812cf019c94f9e6ce18df9b6a. Grand Vision now includes an owner-approved proposed delivery-routes section; its original and current identities are recorded in its file entry. All four visual assets, workflows, runtime, source identities and historical evidence remain unchanged.",
     "claim_scope": "Proposed product architecture, funding stages, founding responsibilities and evidence gates. Attributed development checkpoints retain their dated, bounded public citations. Publication reports no new execution, provider activation, distributed-peer result or whole-product acceptance.",
     "visual_review": "Both supplied PNG diagrams inspected locally for readable text and proposal labels. SVG source inspected for matching labels and local static shapes/text only; no browser-rendered SVG or page visual QA performed.",
     "rights": "Publication preserves existing rights and notices and adds no media/prose license, equity or compensation terms.",

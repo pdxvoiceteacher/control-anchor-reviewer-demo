@@ -26,6 +26,16 @@ it would be a separate research choice. It does not establish executive
 intelligence, automatic learning or improved performance, and it is not a
 prerequisite for the first useful local workflow.
 
+## Evaluate an embedded route separately
+
+Plan a separate embedded proof of concept against the standalone baseline,
+using the same bounded task and acceptance criteria. Evaluate actual allowed
+and blocked effects at the partner integration point, data/permission and
+evidence responsibilities, correction/recovery, and integration/support burden.
+Retain failures and unexecuted cases. This is proposed evaluation work, not a
+delivered integration; the [delivery-route boundaries](GRAND_VISION.md#proposed-delivery-routes)
+apply.
+
 ## Separate learning, retrieval and exchange
 
 | Proposed choice | Required distinction |

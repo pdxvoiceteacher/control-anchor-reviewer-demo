@@ -71,6 +71,15 @@ Local-first means local authority and a usable local workflow. It does not mean 
 
 Possible commercial offerings include maintained organizational controls, administration, supported adapters, deployment assistance, support, convenient synchronization and managed coordination or capacity. These are business model options, not validated demand or established revenue. We should select an initial offer through design-partner work and actual purchasing evidence, then measure retained use, support burden and contribution margin. A model that is inexpensive to distribute can still be expensive to secure and support.
 
+### Proposed delivery routes
+
+The same governance and evidence core could support the standalone workbench, a supported SDK/API embedded in another provider's product, or OEM/white-label distribution with implementation and support.
+
+Embedding would require partner-defined enforced integration points and a documented responsibility split: who configures and enforces controls, which data and permissions cross the boundary, and who retains or can inspect evidence. End-user control and separately voluntary networking and learning must remain. Controls would act at supported integration boundaries; they would not guarantee control of arbitrary model internals or every output.
+
+These are proposed commercial routes, with no delivered SDK, validated compatibility, provider endorsement, certification or customer agreement. [Existing licenses](../LICENSE_SCOPE.md) remain in force. Any future OEM or commercial arrangement would require rights review and its own terms; this proposal makes no offer or new license grant.
+
+
 ## Shared knowledge and compute without losing local authority
 
 The proposed Sonya-mediated peer-to-peer network would let eligible instances exchange authorized work, provenance and eventually bounded compute. Start with two independently administered nodes exchanging a public or synthetic artifact and a review request. Remote job execution is a separate later milestone, with explicit permission, sandboxing, resource limits, verification and stop controls.
