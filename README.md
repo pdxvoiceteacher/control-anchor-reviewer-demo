@@ -10,6 +10,11 @@ Prospective uses range from family groups and small businesses to institutions.
 Each retains its own requirements and human authority. Practical usefulness,
 customer demand and broad deployment remain to be established.
 
+**Read the [Grand Vision](docs/GRAND_VISION.md)** for the proposed product
+architecture, funding stages and founding responsibilities, with visual guides.
+This discussion draft describes proposals and reports no new execution or
+demonstrated whole-product capability.
+
 This offline demo captures source, prompt, settings and candidate bytes, runs
 deterministic evidence checks, records a scripted review, preserves a linked
 revision, exports and reopens evidence, and rejects a deliberately modified copy.
