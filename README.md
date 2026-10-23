@@ -16,10 +16,11 @@ one deliberately interrupted decision through the existing recovery engine.
 
 ## Observed result and first steps
 
-The current retained [21 October baseline](VALIDATION.md#focused-update--21-october-2026)
+The retained [21 October baseline](VALIDATION.md#focused-update--21-october-2026)
 is **11 focused tests**, **six positive directory/ZIP checks** and **177 reopened
-evidence objects** on Windows Python 3.12.14. This documentation reconciliation
-does not rerun those tests or create new execution evidence.
+evidence objects** on Windows Python 3.12.14. A separate
+[23 October validation](VALIDATION.md#public-documentation-update-on-23-october-2026)
+checks this documentation update against the unchanged public demo.
 
 The 18 October 2026 recorded run used **Windows and Python 3.12.14**: **8 focused tests passed
 in 18.957 seconds**, with **4 directory/ZIP verification checks**. Practitioner
@@ -30,13 +31,21 @@ not an assurance opinion or proof of useful cognitive performance.
 The eight-test result above and its retained JSON remain historical; the separate
 21 October evidence records PR #1's already completed execution.
 
-The broader product has advanced separately: CI206 demonstrated application-only
-installation, restricted terminal Home and saved/reread provider selection at
-`73ec4d1d`; that source is now merged upstream. It did not prove provider contact,
-inference, restart, ordinary UAC or human acceptance. Provider metadata and P2P
-receiving/staging source are now merged with separately scoped test results;
-one later synthetic same-process loopback TCP case also passed. Installed provider
-activation, actual provider contact/inference and distributed peers remain unverified. The dated
+**Development update — 23 October 2026:** CI233's original receipts were inspected,
+not just its green workflow status. At `d3d84528`, they demonstrate application-only
+Inno installation on a disposable hosted Windows runner, exact installed-copy
+verification, restricted terminal Home and scripted provider-selection save/reread
+within the same application process, followed by observed owned cleanup. That
+source is on an **unmerged development branch**. This does not verify installation
+on the Project Lead's PC, provider activation/contact, inference, restart,
+ordinary-user UAC or human acceptance.
+
+Newer unmerged work addresses the customer Install/Close window and exact task
+preview before explicit draft save. These remain separate from the installed
+evidence above. Application-only installation separates delivery from model
+acquisition; it does not make the intended AI workbench a model-free product.
+Earlier merged provider metadata and bounded peer tests retain their own scope;
+distributed peers and shared compute remain unverified. The dated
 [product map](docs/PRODUCT_MAP.md#evidence-edition-and-remaining-joins) explains
 those milestones without requiring private source access. Its private-development
 links are attributed evidence, not publicly reproducible tests in this repository;
@@ -68,6 +77,7 @@ The main development repository remains private. See the
 | Potential users | Run the local demo and inspect the human-readable review above; [product responsibilities](docs/PRODUCT_MAP.md) distinguish the intended workbench from this component. |
 | Presenters | Optional [slides, scripts, teleprompters and covers](media/README.md), with dated evidence notes and source hashes. |
 | Product direction and P2P | [Product vision and proposed sharing evaluation](docs/RESEARCH_LINEAGE_AND_EVALUATION.md): staged local usefulness, reusable work versus compute, and an ordinary-library comparison. |
+| Current local workflow | [Workbench steps and role boundaries](docs/PRODUCT_MAP.md#local-workbench-workflow-and-role-boundaries): installation, provider selection, task preparation, analysis, correction and human decisions, with evidence limits. |
 
 ## Inspect the fixture without running it
 

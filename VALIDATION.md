@@ -145,3 +145,64 @@ independent assurance, actual human acceptance nor a live/installed product.
 Historical results, HOLD fields, failures, source attribution and license scope
 remain intact. Upstream installation/provider/P2P milestones are separately dated
 in [the product map](docs/PRODUCT_MAP.md#evidence-edition-and-remaining-joins).
+
+## Public documentation update on 23 October 2026
+
+Fresh isolated checkout from public main
+`12bd38f7777cd6b1d5b329d69ebb616b8fee1e39`. The harness, tests, fixtures and all
+33 copied extraction files remain unchanged. This update documents later
+development evidence; it imports no private implementation or installer.
+
+Environment: Windows-11-10.0.26300-SP0, existing CPython 3.12.14, `-S -B`,
+standard library only, serial execution. The first sandboxed test attempt
+returned exit 1: **11 setup errors in 0.135 seconds**, all at
+`HOLD: EXCLUSIVE_OUTPUT_FAILED`. A separate hard-link probe returned access denied.
+The failed log and partial fixtures remain in the isolated task directory.
+No engine predicate or publication mechanism was changed.
+
+One fresh test run outside the filesystem sandbox, using the same ordinary
+Windows account, returned exit **0**: **11 tests in 49.680 seconds, OK**,
+04:19:12–04:20:02 UTC. The [retained successful log](validation/2026-10-23-unittest.log)
+contains the actual case results. No UAC elevation, dependency installation,
+private software execution, provider/model call, listener or hosted CI was used.
+
+The public repository has no package/build-system entry point. Its existing
+`demo.py` generates the review HTML, evidence packages and exports. A separate
+artifact-generation run, 04:20:44–04:21:01 UTC, returned exit **0**; the
+[exact synthetic summary](validation/2026-10-23-summary.json) records:
+
+- Six positive directory/ZIP verifications and **177 reopened evidence objects**.
+- Both missing-source copies rejected at exit 3; retained originals PASS.
+- Candidate self-authorization denied as authority, model-role decision denied,
+  and missing human decision blocks sealing.
+- One deliberate pre-seal decision interruption recovered once; second recovery
+  leaves store bytes unchanged. This is not an OS crash test.
+- Changed evidence rejected; parent candidate/findings preserved and
+  `resolved_finding_ids=[]`. No AI-discovered correction or real human acceptance.
+
+Commands from the public checkout, with a fresh sibling validation directory:
+
+```powershell
+$python = Join-Path $env:USERPROFILE '.cache\codex-runtimes\codex-primary-runtime\dependencies\python\python.exe'
+$env:REVIEWER_TEST_ROOT = (Resolve-Path '..\validation-20261023-02\test-fixtures').Path
+& $python -S -B -m unittest discover -s tests -v
+& $python -S -B demo.py --output '..\validation-20261023-02\demo-run'
+```
+
+Generated stores, exports, partial failures and private upstream evidence remain
+outside this public checkout. Only the successful public test log and synthetic
+summary are added. Historical logs, results and HOLD fields are preserved.
+
+Opening that exact generated `review.html` in a new Chrome tab was **denied**:
+the browser URL policy permits HTTP(S), not local-file URLs. No tab opened or
+workaround was attempted. **Rendered visual QA remains unperformed.** HTML source
+inspection is separate from rendering and does not qualify accessibility.
+The two added evidence links resolve locally and no script or external resource
+is present. Inherited application navigation links use server-root routes; those
+routes are not exercised by opening this standalone report. No server was started.
+
+Documentation links, manifest hashes, copied-file identities, the changed-file
+scope and public disclosure boundaries are checked for this successor. CI233's
+upstream archive was inspected as data, separately from these public-only runs;
+its installation result does not transfer to this extraction or the Project
+Lead's PC. See the [dated evidence limits](docs/PRODUCT_MAP.md#evidence-edition-and-remaining-joins).
