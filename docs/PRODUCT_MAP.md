@@ -16,6 +16,11 @@ Attribution: Thomas Prislac / UVLM. Exact source identities are in
 [SOURCE_MANIFEST.json](../SOURCE_MANIFEST.json). This is a new summary, not the
 private inventory, a standards mapping or a new implementation.
 
+**24 October addendum:** [ComfyUI and placement component checkpoint](DEVELOPMENT_UPDATE_2026-10-24.md).
+The intended easier Windows UI and advanced ComfyUI middleware should share the
+portable core; nesting and installed equivalence remain unproven. The dated
+milestones below retain their original source and scope.
+
 Milestone snapshot refreshed **23 October 2026, 06:58 UTC** against current private
 development main, relevant successors and original retained artifacts. Main
 remains the earlier integration checkpoint; later branch results are identified

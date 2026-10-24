@@ -10,6 +10,9 @@ What if your rules traveled with the task, even when the model changed? What if 
 
 **This repository contains an offline, synthetic reviewer component; the product vision below describes the full workbench we intend to build.**
 
+**24 October development update:** [Placement controls and shared-core ComfyUI progress](docs/DEVELOPMENT_UPDATE_2026-10-24.md).
+Source-bound model-free component evidence; live and installed proof remain separate.
+
 ## The problem worth solving
 
 A convincing answer is only the beginning of useful work. People still need to know which sources were used, what remains uncertain, whether an action was allowed and what changed after review. When those connections are missing, the burden falls on the person who must reconstruct the work and accept responsibility for the decision.
