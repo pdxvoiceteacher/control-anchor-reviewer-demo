@@ -1222,8 +1222,9 @@
       "modifications": "Owner-authorized dated narrative; omits private identifiers, source code, inventories and logs. Seven actual ComfyUI checks remain UNRUN. Preserves the earlier dated update.",
       "license": "MPL-2.0 to extent rights exist and covered",
       "publication_review": "OWNER_AUTHORIZED_PUBLIC_TECHNICAL_STATUS_UPDATE_DRAFT_NO_RELEASE",
-      "candidate_sha256": "b004a56d3bdab8ec5571488382b5aacccdcd955e00e0393f2fa99a8c092b3fd4",
-      "bytes": 3135
+      "candidate_sha256": "3c611de2897dad81d2afc5d82b4e00e0c7349cc7fde2a7bf54da171d44b726b1",
+      "bytes": 4461,
+      "followup_2026_10_27": "Sanitized execution-owner-reported three-case portable package-source result on a separate frozen revision; distinct from ComfyUI tests and installed qualification. Saved-task handling remains under implementation, with proposed tests not counted as executed."
     }
   ],
   "consulted_originals": [
