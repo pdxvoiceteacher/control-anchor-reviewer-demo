@@ -146,6 +146,22 @@ preserving their original scopes. It does not qualify a local user installation 
 human acceptance. The public reviewer demo remains synthetic and offline, with
 unchanged runtime; the seven real ComfyUI checks remain UNRUN.
 
+## First-configuration source qualification — 27 October
+
+Independent original-artifact review confirmed **18 exact source cases passed,
+with 54 setup/call/teardown phase records**, through real native service and SQLite
+consumers. The selection covers cold first configuration, public-role publication
+and reopening, authenticated read-only status, lost-response reconciliation without
+a second submission, and rollback under controlled faults. These are 18 test cases;
+phase records are not additional passed tests. Synthetic scratch remains retained.
+
+Protected host composition, credentials and delivery-fault boundaries were injected.
+The protected installed receiving composition remains unfinished, so this source
+result does not establish installed peer, provider or model operation. It does not
+replace the separate hosted installation/Home milestone or relax its limits.
+The public reviewer demo remains synthetic and offline with unchanged runtime;
+the seven real ComfyUI checks remain UNRUN.
+
 This update adds a sanitized status narrative only. It includes no integration
 source, machine inventory, model weights or operational logs and grants no new
 license. Public test badges and [validation evidence](../VALIDATION.md) continue to
