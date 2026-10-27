@@ -41,6 +41,28 @@ remain unproved or incomplete. The shared-core adapter is an integration route,
 not a sandbox for unrelated Python nodes. Provenance records identity and history;
 it does not establish truth or turn repeated model roles into independent evidence.
 
+## Follow-up: three portable package-source checks
+
+A separate coordinated virtual run recorded **three passed test cases in 0.96
+seconds** on a frozen package-source revision, using Debian, Python 3.12.14 and
+pytest 9.1.1. One invocation ran under a 120-second bound with no retries. These
+are additional package-source checks, separate from the 89 ComfyUI component tests;
+they must not be added to that count or treated as current whole-product acceptance.
+
+The cases checked exact package membership and current-byte closure, then the
+actual package-recipe consumer's positive path and rejection when a receiving
+module was omitted. Setup, call and teardown output was retained; this is three
+test cases, not nine separately passed checks or raw phase-event receipts.
+
+The run left source checkouts unchanged and removed its temporary fixtures and
+virtual environment. It performed no package build, installation, child subprocess,
+model/provider call or listener startup. It does not qualify a Windows installation
+or execute ComfyUI. **The seven real ComfyUI checks above remain UNRUN.**
+
+Saved-task request and grant handling is also under implementation in its existing
+development lane. It is not a delivered capability of this public demo. Proposed
+saved-task tests have not been counted as executed evidence here.
+
 This update adds a sanitized status narrative only. It includes no integration
 source, machine inventory, model weights or operational logs and grants no new
 license. Public test badges and [validation evidence](../VALIDATION.md) continue to
