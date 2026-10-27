@@ -60,8 +60,37 @@ model/provider call or listener startup. It does not qualify a Windows installat
 or execute ComfyUI. **The seven real ComfyUI checks above remain UNRUN.**
 
 Saved-task request and grant handling is also under implementation in its existing
-development lane. It is not a delivered capability of this public demo. Proposed
-saved-task tests have not been counted as executed evidence here.
+development lane. It is not a delivered capability of this public demo. At the
+package-source checkpoint, proposed saved-task tests were not counted as executed
+evidence.
+
+## Follow-up: five native task-grant core checks
+
+Five owner-selected task-grant cases ran on Linux against a separate frozen
+revision: **five collected, five passed**, in one invocation with no retries.
+Fifteen actual setup/call/teardown records were retained for those five cases;
+they are lifecycle evidence, not fifteen passed tests. Independent bounded review
+accepted the source, test, dependency, lifecycle and cleanup evidence. Synthetic
+fixtures remain available for review.
+
+The cases cover rejection for a wrong recipient, purpose or custodian; rebinding
+and expiry; and revoked permission blocking new use while an exact existing
+native request can still reconcile. This qualifies the tested native task-grant
+core paths on that revision. Home/MCP resend behavior, saved-task UI, other
+Windows cases, installed behavior, live peers, models and product acceptance
+remain outside this evidence. These five results stay separate from both the
+89 ComfyUI component tests and the three package-source checks. **The seven real
+ComfyUI checks remain UNRUN.**
+
+## Prospective maintenance research
+
+Research is underway on governed maintenance candidates and an engineering spiral
+that examines both error families and reusable opportunity families. A proposed
+maintenance flow would combine bounded swarm engineering, independent review and
+local consent. The research scaffold and proposed queue sequence are now recorded
+for owner review; production adoption and runtime enablement remain pending. This
+public demo does not implement automatic updates or that maintenance flow.
+Analogies generate hypotheses for testing, not proof of a capability.
 
 This update adds a sanitized status narrative only. It includes no integration
 source, machine inventory, model weights or operational logs and grants no new
