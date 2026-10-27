@@ -10,6 +10,8 @@ What if your rules traveled with the task, even when the model changed? What if 
 
 **This repository contains an offline, synthetic reviewer component; the product vision below describes the full workbench we intend to build.**
 
+**27 October development update:** [JSON validation and the guarded runtime checkpoint](docs/DEVELOPMENT_UPDATE_2026-10-27.md).
+
 **24 October development update:** [Placement controls and shared-core ComfyUI progress](docs/DEVELOPMENT_UPDATE_2026-10-24.md).
 Source-bound model-free component evidence; live and installed proof remain separate.
 

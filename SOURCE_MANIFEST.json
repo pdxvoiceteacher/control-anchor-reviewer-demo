@@ -577,7 +577,7 @@
     },
     {
       "path": "README.md",
-      "candidate_sha256": "b1ad7a81424ba971e3062dcbb7f5ef6918b3ded4b64b40a4708cec7c8cedca9c",
+      "candidate_sha256": "51cc11a05c0d9d2c2762380faceb6251bdc4daac9071b0962a5af86e070ef67b",
       "origin": "ADAPTED",
       "source_basis_paths": [
         "docs/current/master-design.md"
@@ -600,7 +600,7 @@
       "current_budget_navigation_revision": "Reader route now points to six-month core plan and optional separately costed paid intern opportunity; runtime/evidence text unchanged.",
       "historical_publication_review": "FINAL_CONTENT_DECISION_PENDING",
       "publication_wording_revision": "Record separate owner approval of reviewer-source/history public access on 19 October 2026; preserve existing licenses, attribution, budgets and evidence limits. No new Creative Commons/media/prose grant, deployment, release or application submission.",
-      "bytes": 28390,
+      "bytes": 28519,
       "documentation_refresh_2026_10_20": "Move dated observed results and first steps before the unchanged source-attributed architecture diagram; add accurate supplied-fixture walkthrough, public acquisition and PowerShell failure handling, historical HOLD explanation and P2P-note navigation. No runtime, fixture or recorded-result change.",
       "focused_update_2026_10_21": "Dated milestone summary, adverse/recovery artifact guide and separate new validation navigation; historical eight-test result and architecture attribution preserved.",
       "documentation_reconciliation_2026_10_21_0811": "Current retained 11-test/six-check/177-object baseline, preserved historical eight/four result, and scoped merged provider/P2P navigation; no new execution.",
@@ -1214,6 +1214,16 @@
       "publication_review": "OWNER_AUTHORIZED_PUBLIC_TECHNICAL_STATUS_UPDATE",
       "candidate_sha256": "925a48b1a5402b44ee7422d94601077a01b7a12673c1506b43b4b5c97d11a7c6",
       "bytes": 5586
+    },
+    {
+      "path": "docs/DEVELOPMENT_UPDATE_2026-10-27.md",
+      "origin": "NEW_PUBLIC_SAFE_STATUS_SUMMARY",
+      "source_basis_paths": [],
+      "modifications": "Owner-authorized dated narrative; omits private identifiers, source code, inventories and logs. Seven actual ComfyUI checks remain UNRUN. Preserves the earlier dated update.",
+      "license": "MPL-2.0 to extent rights exist and covered",
+      "publication_review": "OWNER_AUTHORIZED_PUBLIC_TECHNICAL_STATUS_UPDATE_DRAFT_NO_RELEASE",
+      "candidate_sha256": "b004a56d3bdab8ec5571488382b5aacccdcd955e00e0393f2fa99a8c092b3fd4",
+      "bytes": 3135
     }
   ],
   "consulted_originals": [
