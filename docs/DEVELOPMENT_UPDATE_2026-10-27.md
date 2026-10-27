@@ -162,6 +162,28 @@ replace the separate hosted installation/Home milestone or relax its limits.
 The public reviewer demo remains synthetic and offline with unchanged runtime;
 the seven real ComfyUI checks remain UNRUN.
 
+## Diagnostic successor and hosted follow-up — 27 October
+
+The diagnostic successor separately qualified **12 cases / 36 lifecycle phases**
+and **four saved-failure/reopen window cases / 12 phases**. These remain distinct,
+source-bound selections. An intermediate compiler acquisition failed before
+compilation or installation; that failure and its unresolved underlying cause
+remain preserved. After an acquisition-input correction, a later hosted operation
+successfully installed that product successor, verified the exact installed copy,
+qualified nine service roles and reached scripted restricted Home. Two service
+hosts again required explicit termination and reaping.
+
+The earlier local consent failure remains failed/unknown in its original evidence.
+The diagnostic checks and hosted success do not diagnose that original exception
+or demonstrate system RAM exhaustion. A new local trial remains pending a separate
+user decision and fresh admission. Local-user installation, live AI and cloud-model
+responses remain unproved by these milestones; the earlier hosted cleanup,
+provider and lifecycle limits still apply.
+
+The public reviewer demo remains synthetic and offline with unchanged runtime.
+Historical results retain their scopes, and the seven real ComfyUI checks remain
+UNRUN.
+
 This update adds a sanitized status narrative only. It includes no integration
 source, machine inventory, model weights or operational logs and grants no new
 license. Public test badges and [validation evidence](../VALIDATION.md) continue to

@@ -1222,14 +1222,15 @@
       "modifications": "Owner-authorized dated narrative; omits private identifiers, source code, inventories and logs. Seven actual ComfyUI checks remain UNRUN. Preserves the earlier dated update.",
       "license": "MPL-2.0 to extent rights exist and covered",
       "publication_review": "OWNER_AUTHORIZED_PUBLIC_TECHNICAL_STATUS_UPDATE_DRAFT_NO_RELEASE",
-      "candidate_sha256": "57a71511bb13df8d9e8e6d5aed113506a4c9d2f2b9955b867fcdd10af9751bf4",
-      "bytes": 10439,
+      "candidate_sha256": "9f4b6cf52b6a4e1ee1aa3aa5ecc051597011ef2665583d01d2c72753d3b91a08",
+      "bytes": 11735,
       "followup_2026_10_27": "Sanitized execution-owner-reported three-case portable package-source result on a separate frozen revision; distinct from ComfyUI tests and installed qualification. Saved-task handling remains under implementation, with proposed tests not counted as executed.",
       "task_grant_followup_2026_10_27": "Sanitized five-case Linux native task-grant core result, with fifteen lifecycle records kept distinct from passed tests and no broader UI/installed claim. Original prospective maintenance-method research wording; no private scaffold, code or identifiers copied.",
       "owner_pedagogy_status_2026_10_27": "Original sanitized narrative: method acknowledgments and documentation/evidence-use boundaries are distinct from deferred maintenance execution or production allocation; pedagogy refinements remain proposed methods/pilots without measured gains. Existing provenance retained; no private identifiers, implementation or new registry.",
       "saved_task_source_milestone_2026_10_27": "Sanitized 35-case Windows-hosted source qualification with 105 distinct lifecycle records; installation skipped by scope. Earlier Linux/native-grant and unrun checkpoints remain separate; no public runtime capability, installed proof or private identifiers added.",
       "hosted_installation_milestone_2026_10_27": "Original sanitized narrative of independently reviewed hosted installation, installed-copy/service-role qualification and scripted restricted Home/provider-selection persistence. Explicit service termination/reap and remaining local/provider/lifecycle limits retained; no private identifiers, logs, source or public runtime changes.",
-      "configuration_source_milestone_2026_10_27": "Original sanitized 18-case/54-phase source-qualification narrative using service/SQLite consumers; injected protected-host/credential/delivery boundaries and unfinished installed receiving remain explicit. Historical hosted result and public synthetic runtime preserved; no private identifiers, source or logs."
+      "configuration_source_milestone_2026_10_27": "Original sanitized 18-case/54-phase source-qualification narrative using service/SQLite consumers; injected protected-host/credential/delivery boundaries and unfinished installed receiving remain explicit. Historical hosted result and public synthetic runtime preserved; no private identifiers, source or logs.",
+      "diagnostic_hosted_alignment_2026_10_27": "Original sanitized batched narrative: separate 12/36 diagnostic and four/12 window qualifications, preserved acquisition failure, later hosted installation/startup and unresolved original local-consent cause. No system-RAM diagnosis, local/live-AI proof, private identifiers or public runtime change."
     }
   ],
   "consulted_originals": [
