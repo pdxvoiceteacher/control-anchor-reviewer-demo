@@ -1222,9 +1222,10 @@
       "modifications": "Owner-authorized dated narrative; omits private identifiers, source code, inventories and logs. Seven actual ComfyUI checks remain UNRUN. Preserves the earlier dated update.",
       "license": "MPL-2.0 to extent rights exist and covered",
       "publication_review": "OWNER_AUTHORIZED_PUBLIC_TECHNICAL_STATUS_UPDATE_DRAFT_NO_RELEASE",
-      "candidate_sha256": "3c611de2897dad81d2afc5d82b4e00e0c7349cc7fde2a7bf54da171d44b726b1",
-      "bytes": 4461,
-      "followup_2026_10_27": "Sanitized execution-owner-reported three-case portable package-source result on a separate frozen revision; distinct from ComfyUI tests and installed qualification. Saved-task handling remains under implementation, with proposed tests not counted as executed."
+      "candidate_sha256": "cace5e270e94f0581b3c735d827952a94b4a1cc1b695d97ed9c34eab4406629b",
+      "bytes": 6140,
+      "followup_2026_10_27": "Sanitized execution-owner-reported three-case portable package-source result on a separate frozen revision; distinct from ComfyUI tests and installed qualification. Saved-task handling remains under implementation, with proposed tests not counted as executed.",
+      "task_grant_followup_2026_10_27": "Sanitized five-case Linux native task-grant core result, with fifteen lifecycle records kept distinct from passed tests and no broader UI/installed claim. Original prospective maintenance-method research wording; no private scaffold, code or identifiers copied."
     }
   ],
   "consulted_originals": [
