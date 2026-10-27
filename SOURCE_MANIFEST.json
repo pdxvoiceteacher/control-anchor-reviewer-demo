@@ -1222,12 +1222,13 @@
       "modifications": "Owner-authorized dated narrative; omits private identifiers, source code, inventories and logs. Seven actual ComfyUI checks remain UNRUN. Preserves the earlier dated update.",
       "license": "MPL-2.0 to extent rights exist and covered",
       "publication_review": "OWNER_AUTHORIZED_PUBLIC_TECHNICAL_STATUS_UPDATE_DRAFT_NO_RELEASE",
-      "candidate_sha256": "8af8ae644137908a72b078137b0b01a4bbf7f4e31eab4748c0bc7ec5ad250264",
-      "bytes": 8212,
+      "candidate_sha256": "24d85bc3ffea149379940e35424a164815acbab84a51da9944af4f2a7c624059",
+      "bytes": 9432,
       "followup_2026_10_27": "Sanitized execution-owner-reported three-case portable package-source result on a separate frozen revision; distinct from ComfyUI tests and installed qualification. Saved-task handling remains under implementation, with proposed tests not counted as executed.",
       "task_grant_followup_2026_10_27": "Sanitized five-case Linux native task-grant core result, with fifteen lifecycle records kept distinct from passed tests and no broader UI/installed claim. Original prospective maintenance-method research wording; no private scaffold, code or identifiers copied.",
       "owner_pedagogy_status_2026_10_27": "Original sanitized narrative: method acknowledgments and documentation/evidence-use boundaries are distinct from deferred maintenance execution or production allocation; pedagogy refinements remain proposed methods/pilots without measured gains. Existing provenance retained; no private identifiers, implementation or new registry.",
-      "saved_task_source_milestone_2026_10_27": "Sanitized 35-case Windows-hosted source qualification with 105 distinct lifecycle records; installation skipped by scope. Earlier Linux/native-grant and unrun checkpoints remain separate; no public runtime capability, installed proof or private identifiers added."
+      "saved_task_source_milestone_2026_10_27": "Sanitized 35-case Windows-hosted source qualification with 105 distinct lifecycle records; installation skipped by scope. Earlier Linux/native-grant and unrun checkpoints remain separate; no public runtime capability, installed proof or private identifiers added.",
+      "hosted_installation_milestone_2026_10_27": "Original sanitized narrative of independently reviewed hosted installation, installed-copy/service-role qualification and scripted restricted Home/provider-selection persistence. Explicit service termination/reap and remaining local/provider/lifecycle limits retained; no private identifiers, logs, source or public runtime changes."
     }
   ],
   "consulted_originals": [

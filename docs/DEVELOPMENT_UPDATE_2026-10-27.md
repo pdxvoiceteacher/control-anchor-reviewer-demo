@@ -126,6 +126,26 @@ installed peers, real networking, providers/models and human acceptance remain
 outside this evidence. The public reviewer-demo runtime has not gained these
 product capabilities, and the seven real ComfyUI checks remain UNRUN.
 
+## Hosted installation milestone — 27 October
+
+Independent original-artifact review confirmed an actual hosted Windows
+installation, exact installed-copy byte verification and qualification of nine
+registered service roles without a model. The installed interpreter and launcher
+reached restricted Home, performed scripted first-use setup, saved a provider
+selection and read back the identical selection revision. Saving that choice did
+not establish a provider connection or authorize model dispatch.
+
+The owned install/start workers exited and were reaped. Two service hosts required
+explicit termination and reaping, so this does not demonstrate universally graceful
+shutdown. Provider connection and model response, a human shortcut click, local
+standard-user/UAC installation, full restart, update/reinstall and uninstall remain
+unproved. A local trial remains pending separate approval and fresh admission.
+
+This hosted result advances beyond the earlier source-only checkpoints while
+preserving their original scopes. It does not qualify a local user installation or
+human acceptance. The public reviewer demo remains synthetic and offline, with
+unchanged runtime; the seven real ComfyUI checks remain UNRUN.
+
 This update adds a sanitized status narrative only. It includes no integration
 source, machine inventory, model weights or operational logs and grants no new
 license. Public test badges and [validation evidence](../VALIDATION.md) continue to
