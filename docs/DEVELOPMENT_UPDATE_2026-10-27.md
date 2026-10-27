@@ -92,6 +92,22 @@ for owner review; production adoption and runtime enablement remain pending. Thi
 public demo does not implement automatic updates or that maintenance flow.
 Analogies generate hypotheses for testing, not proof of a capability.
 
+## Owner and pedagogy research status — 27 October
+
+All three active development owners acknowledged the errors-and-opportunities
+spiral method, and the maintenance scaffold received bounded independent review
+for discussion. Owners accepted documentation and evidence-use design boundaries
+only; maintenance execution, new purposes, dependency adoption and production
+allocation are deferred behind installed delivery. Preparing evidence does not
+grant permission to execute or install, and no automatic updater is enabled.
+
+Separate research proposes graduating short, explicitly assessed failure sequences
+into durable regression tests and assessing transfer on held-out tasks. These are
+proposed methods and pilots, with no installed tool, model-weight learning or
+measured efficiency gain established. Suggestions from other models were critically
+screened alongside primary sources, rather than counted as votes proving truth;
+the research uses existing provenance records, not another registry.
+
 This update adds a sanitized status narrative only. It includes no integration
 source, machine inventory, model weights or operational logs and grants no new
 license. Public test badges and [validation evidence](../VALIDATION.md) continue to

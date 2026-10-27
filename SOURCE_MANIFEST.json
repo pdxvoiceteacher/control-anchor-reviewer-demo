@@ -1222,10 +1222,11 @@
       "modifications": "Owner-authorized dated narrative; omits private identifiers, source code, inventories and logs. Seven actual ComfyUI checks remain UNRUN. Preserves the earlier dated update.",
       "license": "MPL-2.0 to extent rights exist and covered",
       "publication_review": "OWNER_AUTHORIZED_PUBLIC_TECHNICAL_STATUS_UPDATE_DRAFT_NO_RELEASE",
-      "candidate_sha256": "cace5e270e94f0581b3c735d827952a94b4a1cc1b695d97ed9c34eab4406629b",
-      "bytes": 6140,
+      "candidate_sha256": "dfc112b66748b247226216f2981eba457c74046c011bb3e996176b01d2db6d8b",
+      "bytes": 7145,
       "followup_2026_10_27": "Sanitized execution-owner-reported three-case portable package-source result on a separate frozen revision; distinct from ComfyUI tests and installed qualification. Saved-task handling remains under implementation, with proposed tests not counted as executed.",
-      "task_grant_followup_2026_10_27": "Sanitized five-case Linux native task-grant core result, with fifteen lifecycle records kept distinct from passed tests and no broader UI/installed claim. Original prospective maintenance-method research wording; no private scaffold, code or identifiers copied."
+      "task_grant_followup_2026_10_27": "Sanitized five-case Linux native task-grant core result, with fifteen lifecycle records kept distinct from passed tests and no broader UI/installed claim. Original prospective maintenance-method research wording; no private scaffold, code or identifiers copied.",
+      "owner_pedagogy_status_2026_10_27": "Original sanitized narrative: method acknowledgments and documentation/evidence-use boundaries are distinct from deferred maintenance execution or production allocation; pedagogy refinements remain proposed methods/pilots without measured gains. Existing provenance retained; no private identifiers, implementation or new registry."
     }
   ],
   "consulted_originals": [
