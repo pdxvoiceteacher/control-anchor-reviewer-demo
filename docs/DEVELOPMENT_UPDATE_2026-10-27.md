@@ -108,6 +108,24 @@ measured efficiency gain established. Suggestions from other models were critica
 screened alongside primary sources, rather than counted as votes proving truth;
 the research uses existing provenance records, not another registry.
 
+## Saved-task source milestone — 27 October
+
+A later Windows-hosted source qualification on a frozen product revision passed
+**35 exact cases with 105 distinct setup/call/teardown phase records**. The final
+wrapper and result agreed, with no collection, guard or cleanup errors reported;
+synthetic scratch was retained. This is 35 passed cases, not 105 passed tests.
+
+The selection qualifies source-level saved-task authorization, submission,
+reconciliation and focused no-resend behavior. The earlier five Linux native-grant
+cases remain separate: their duplicate-POST check does not establish Home/MCP
+no-resend behavior. Earlier proposed or unrun checkpoints retain their historical
+scope; these results are not combined into a universal pass count.
+
+Installation was skipped by scope. Installed receiving/protected-pipe provisioning,
+installed peers, real networking, providers/models and human acceptance remain
+outside this evidence. The public reviewer-demo runtime has not gained these
+product capabilities, and the seven real ComfyUI checks remain UNRUN.
+
 This update adds a sanitized status narrative only. It includes no integration
 source, machine inventory, model weights or operational logs and grants no new
 license. Public test badges and [validation evidence](../VALIDATION.md) continue to
