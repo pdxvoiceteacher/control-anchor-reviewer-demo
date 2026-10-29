@@ -16,6 +16,10 @@ Attribution: Thomas Prislac / UVLM. Exact source identities are in
 [SOURCE_MANIFEST.json](../SOURCE_MANIFEST.json). This is a new summary, not the
 private inventory, a standards mapping or a new implementation.
 
+**29 October status:** [Retained-response review and volunteer admission](DEVELOPMENT_UPDATE_2026-10-29.md).
+The tables below retain their 23 October evidence snapshot; the dated updates do
+not add those experimental capabilities to this public component.
+
 **24 October addendum:** [ComfyUI and placement component checkpoint](DEVELOPMENT_UPDATE_2026-10-24.md).
 The intended easier Windows UI and advanced ComfyUI middleware should share the
 portable core; nesting and installed equivalence remain unproven. The dated
@@ -60,7 +64,7 @@ evidence. Rows can span these states.
 | Author organization controls | Original document -> editable rule/draft -> preview -> authorized version; control-authoring/admin/policy families | ELSEWHERE: supported data-driven authoring and custody activation. General document comprehension and live semantic fidelity are not established here. |
 | Enter tasks and deliberate follow-ups | Native workbench/task authoring, Sonya message/parent binding and gateway | ELSEWHERE: interactive/service source. HERE: captured transaction registration only, not an installed task or live reply. |
 | Govern ingress and permitted exchanges | Sonya/AEGIS consent, identity, adapter permission, quarantine and admission | ELSEWHERE: provider/native protection paths. HERE: bounded local inputs and logical role/action checks; no OS isolation or provider exchange. |
-| Connect providers and retain actual outcomes | Provider contract/readiness/transport, protected selection publication, credentials and custody reopening | ELSEWHERE: merged metadata CHECK and a separate REREAD predicate have source-specific passing evidence with injected replies. Installed activation, actual provider contact and inference remain unverified; none is executed here. |
+| Connect providers and retain actual outcomes | Provider contract/readiness/transport, protected selection publication, credentials and custody reopening | ELSEWHERE: merged metadata CHECK and a separate REREAD predicate have source-specific passing evidence with injected replies. At the 23 October snapshot, installed activation, actual provider contact and inference remained unverified; none is executed by this public demo. |
 | Let an AI host use Control Anchor | Authenticated MCP tools, fixed native grants/clients and administration companion | ELSEWHERE: the opposite interface direction. A factory or SDK fixture is not an accepted installed host connection. |
 | Ground and analyze; apply configured procedures | CoherenceLattice grounded alternatives, claim/evidence links and counterexamples; cross-cutting UCC execution; governed bridge/pipeline | ELSEWHERE: substantive component implementations. HERE: deterministic evidence controls and captured claim envelope only; not business-control interpretation or full CoherenceLattice execution. |
 | Evaluate separately and present posture | Sophia evaluates supported evidence; Atlas explains posture, prior context and eligible continuity; TEL links performed stages | ELSEWHERE: separate component implementations and joined source. HERE: named audit/posture records, not those component executions or independent model corroboration. |
@@ -84,7 +88,7 @@ activation, an actual protocol exchange and inference are different steps.
 Application-only delivery is a sequence toward the AI workbench, not evidence
 that the full product works without a model.
 
-| User step | Current development and evidence boundary |
+| User step | Development evidence snapshot — 23 October 2026 |
 | --- | --- |
 | Install and open Home | CI233 and the later setup successor have separate actual hosted installation/restricted Home receipts. Later portable-setup source gates failed and skipped installation. No result transfers across changed source. PC installation, the local Install/Close interaction and Windows consent remain unverified. |
 | Select a provider | CI233 saved and reread the same selection within one application process. Connection remained NOT_CHECKED and runtime identity UNVERIFIED. No protected activation or model generation followed. |

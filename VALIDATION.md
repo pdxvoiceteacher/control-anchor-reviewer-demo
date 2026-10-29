@@ -1,5 +1,17 @@
 # Observed local validation — 18 October 2026
 
+**Current documentation note — 29 October 2026:** the
+[new development summary](docs/DEVELOPMENT_UPDATE_2026-10-29.md) separates private-alpha
+observations from this public component. Runtime, tests and fixtures are unchanged;
+no demo/test rerun or hosted CI is claimed for this documentation update. Historical
+results below remain bound to their original dates, source and environment.
+
+The existing lightweight checker, `python -I -S -B tools/check_public_integrity.py`,
+passed for **93 manifest-bound files**, copied source identities and local Markdown
+destinations/anchors. The documentation diff also passed `git diff --check`.
+These checks do not execute the demo or certify external links, rendering,
+private-alpha behavior or product readiness.
+
 Scope: this extraction and its synthetic fixtures only. Windows, existing bundled
 CPython **3.12.14**, serial execution, `-S` (site packages disabled). Pytest was not
 available; none was installed. No model, GPU task, application installation,

@@ -1,5 +1,27 @@
 # Source publication review - 19 October 2026
 
+## Documentation scope — 29 October 2026
+
+The owner requested an updated public repository and retained public-repository
+merge authority. This successor starts from public main
+`a23d829f0d059f361c5206c1ca2473f9ebe5849c`. It adds one dated, public-safe development
+summary and navigation/validation notes, with matching manifest entries. Existing
+runtime, fixtures, tests, extracted-source identities, historical reports, media
+and licenses are preserved.
+
+The new prose distinguishes the public synthetic demo from internally reviewed
+private-alpha observations. It includes no private source, raw task/reply or
+evidence, private source identifiers or links, host paths, credentials or personal
+information. Internal review is not publicly reproducible qualification. The
+private development repository stays private; no code synchronization, release,
+deployment, model call, installation or new license is authorized by this update.
+
+Only documentation/manifest/link checks and independent wording/scope review
+apply to this successor. No runtime test rerun or CI is part of the change.
+The dated publication decisions and original evidence below retain their scopes.
+
+## Original publication decision — 19 October 2026
+
 The Project Lead explicitly approved public access to
 `pdxvoiceteacher/control-anchor-reviewer-demo`, **including its history**, while
 preserving existing licenses and adding no Creative Commons license. The approved

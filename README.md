@@ -10,6 +10,8 @@ What if your rules traveled with the task, even when the model changed? What if 
 
 **This repository contains an offline, synthetic reviewer component; the product vision below describes the full workbench we intend to build.**
 
+**29 October development update:** [Retained model responses, pending review and volunteer admission](docs/DEVELOPMENT_UPDATE_2026-10-29.md). Separate experimental results; this public demo's runtime remains unchanged.
+
 **27 October development update:** [JSON validation and the guarded runtime checkpoint](docs/DEVELOPMENT_UPDATE_2026-10-27.md).
 
 **24 October development update:** [Placement controls and shared-core ComfyUI progress](docs/DEVELOPMENT_UPDATE_2026-10-24.md).
@@ -143,7 +145,7 @@ The main development repository remains private. See the
 | Potential users | Run the local demo and inspect the human-readable review above; [product responsibilities](docs/PRODUCT_MAP.md) distinguish the intended workbench from this component. |
 | Presenters | Optional [slides, scripts, teleprompters and covers](media/README.md), with dated evidence notes and source hashes. |
 | Product direction and P2P | [Product vision and proposed sharing evaluation](docs/RESEARCH_LINEAGE_AND_EVALUATION.md): staged local usefulness, reusable work versus compute, and an ordinary-library comparison. |
-| Current local workflow | [Workbench steps and role boundaries](docs/PRODUCT_MAP.md#local-workbench-workflow-and-role-boundaries): installation, provider selection, task preparation, analysis, correction and human decisions, with evidence limits. |
+| Workbench roles and dated evidence | [Workbench steps and role boundaries](docs/PRODUCT_MAP.md#local-workbench-workflow-and-role-boundaries): installation, provider selection, task preparation, analysis, correction and human decisions, with evidence limits. |
 | Proposed next design | [Proposed roadmap](docs/PROPOSED_ROADMAP.md): function-first coordination, bounded planning, optional learning and prior sharing. These are proposals, not capabilities demonstrated by this demo. |
 
 ## Inspect the fixture without running it
