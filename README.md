@@ -6,6 +6,8 @@
 
 The proposed path starts locally: useful work on your terms, voluntary sharing, and a user-designated Executive that compares options and recommends when additional help is worth its cost. Permissions, provenance and resource limits must travel with that work. [Explore the shared-compute vision, proposed design and ways to contribute](docs/COMMUNITY_COMPUTE_VISION.md).
 
+The proposed distributed virtual computer would bring that vision into everyday use: a friendly setup wizard, supported local and hosted model choices, granular permissions, and voluntary sharing of bounded CPU, GPU and peer-local memory. Private jobs, trusted collaboration and explicitly approved public provenance would have distinct protection and disclosure rules. These are proposed architecture and verification goals, not capabilities delivered by this offline demo. [See onboarding, confidentiality tiers and the verification roadmap](docs/COMMUNITY_COMPUTE_VISION.md#a-friendly-front-door-from-home-use-to-institutional-controls).
+
 ## What could you trust AI to do if you could inspect its work and keep control?
 
 What if your rules traveled with the task, even when the model changed? What if a correction strengthened the record instead of erasing the mistake? And what if useful knowledge could move between people and organizations without requiring them to surrender authority over their own information?

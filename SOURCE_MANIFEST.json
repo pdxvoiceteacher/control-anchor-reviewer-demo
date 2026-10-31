@@ -577,7 +577,7 @@
     },
     {
       "path": "README.md",
-      "candidate_sha256": "a6557c2fe55d4f9e5a2f811d666071b3c1e35042094981f3b9e4eab80b2bd8a9",
+      "candidate_sha256": "42b8ed690f81bce40c06daac6d01ebb6767961c4b9971d3bf1e2fa3df2dfeb11",
       "origin": "ADAPTED",
       "source_basis_paths": [
         "docs/current/master-design.md"
@@ -600,7 +600,7 @@
       "current_budget_navigation_revision": "Reader route now points to six-month core plan and optional separately costed paid intern opportunity; runtime/evidence text unchanged.",
       "historical_publication_review": "FINAL_CONTENT_DECISION_PENDING",
       "publication_wording_revision": "Record separate owner approval of reviewer-source/history public access on 19 October 2026; preserve existing licenses, attribution, budgets and evidence limits. No new Creative Commons/media/prose grant, deployment, release or application submission.",
-      "bytes": 29859,
+      "bytes": 30501,
       "documentation_refresh_2026_10_20": "Move dated observed results and first steps before the unchanged source-attributed architecture diagram; add accurate supplied-fixture walkthrough, public acquisition and PowerShell failure handling, historical HOLD explanation and P2P-note navigation. No runtime, fixture or recorded-result change.",
       "focused_update_2026_10_21": "Dated milestone summary, adverse/recovery artifact guide and separate new validation navigation; historical eight-test result and architecture attribution preserved.",
       "documentation_reconciliation_2026_10_21_0811": "Current retained 11-test/six-check/177-object baseline, preserved historical eight/four result, and scoped merged provider/P2P navigation; no new execution.",
@@ -610,7 +610,8 @@
       "proposed_partner_delivery_update_2026_10_23": "Owner-approved proposed partner-delivery value proposition and link to delivery-route boundaries; no delivered SDK or integration claimed.",
       "public_development_addendum_2026_10_24": "Owner-authorized navigation to a dated, source-bound public-safe ComfyUI/placement component checkpoint; prior marketing, evidence, commands and license notices retained.",
       "public_connection_map_2026_10_30": "Navigation only: provisional 15-family planning map; implementation/proof/research distinguished. Public runtime and historical evidence unchanged.",
-      "community_compute_vision_2026_10_31": "Owner-directed aspirational lead and link to public high-level proposed design/contribution invitation. Existing README body, runtime, observed results and rights preserved."
+      "community_compute_vision_2026_10_31": "Owner-directed aspirational lead and link to public high-level proposed design/contribution invitation. Existing README body, runtime, observed results and rights preserved.",
+      "distributed_virtual_computer_proposal_2026_10_31": "Owner-directed high-level proposed onboarding, bounded shared resources, confidentiality and provenance tiers, and verification roadmap; no delivered capability, private implementation, new runtime evidence or license grant."
     },
     {
       "path": "tests/test_component.py",
@@ -1260,8 +1261,8 @@
     },
     {
       "path": "docs/COMMUNITY_COMPUTE_VISION.md",
-      "candidate_sha256": "12991184bcfb26fa78e2b0a64847897a95b50b5ff103f3b9faffe27ada3c9c34",
-      "bytes": 6074,
+      "candidate_sha256": "59f1a9d14d52e612afb713df47439361b495196730e396222df2a4eafdb7e3e8",
+      "bytes": 14913,
       "origin": "NEW_OWNER_DIRECTED_HIGH_LEVEL_PROPOSAL",
       "source_basis_paths": [
         "README.md",
@@ -1270,7 +1271,8 @@
       ],
       "modifications": "Confident aspirational global community-compute vision, six proposed design layers and verified public contribution route. No private implementation, new measured capability, affiliation, delivery guarantee or runtime change.",
       "license": "Existing rights and notices preserved; no new media/prose license grant.",
-      "publication_review": "OWNER_APPROVED_PUBLIC_HIGH_LEVEL_PROPOSAL_FOCUSED_REVIEW_NO_BLOCKING_FINDING"
+      "publication_review": "OWNER_APPROVED_PUBLIC_HIGH_LEVEL_PROPOSAL_FOCUSED_REVIEW_NO_BLOCKING_FINDING",
+      "distributed_virtual_computer_proposal_2026_10_31": "Owner-directed high-level proposed onboarding, bounded shared resources, confidentiality and provenance tiers, and verification roadmap; no delivered capability, private implementation, new runtime evidence or license grant."
     }
   ],
   "consulted_originals": [
