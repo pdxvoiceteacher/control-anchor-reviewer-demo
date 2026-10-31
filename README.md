@@ -1,5 +1,11 @@
 # Control Anchor
 
+## Human agency. Community-scale compute. Local control.
+
+**Our ambition is to build the world's largest decentralized, community-governed compute network: a Sophia network of user-controlled Sonya nodes, working toward frontier-level communal capability while people retain control of their models, data and participation.** We want capable AI to strengthen human agency and distribute opportunity, rather than concentrate control of compute and information.
+
+The proposed path starts locally: useful work on your terms, voluntary sharing, and a user-designated Executive that compares options and recommends when additional help is worth its cost. Permissions, provenance and resource limits must travel with that work. [Explore the shared-compute vision, proposed design and ways to contribute](docs/COMMUNITY_COMPUTE_VISION.md).
+
 ## What could you trust AI to do if you could inspect its work and keep control?
 
 What if your rules traveled with the task, even when the model changed? What if a correction strengthened the record instead of erasing the mistake? And what if useful knowledge could move between people and organizations without requiring them to surrender authority over their own information?
