@@ -10,6 +10,8 @@ What if your rules traveled with the task, even when the model changed? What if 
 
 **This repository contains an offline, synthetic reviewer component; the product vision below describes the full workbench we intend to build.**
 
+**30 October development update:** [Fifteen provisional connection families and the next authenticated-selection join](docs/DEVELOPMENT_UPDATE_2026-10-30.md). Separates implementation work, missing proof and optional research; this public demo's runtime remains unchanged.
+
 **29 October development update:** [Retained model responses, pending review and volunteer admission](docs/DEVELOPMENT_UPDATE_2026-10-29.md). Separate experimental results; this public demo's runtime remains unchanged.
 
 **27 October development update:** [JSON validation and the guarded runtime checkpoint](docs/DEVELOPMENT_UPDATE_2026-10-27.md).
