@@ -1,5 +1,7 @@
 # Control Anchor
 
+For a complete, plain-language account of the north star, architecture, human controls and proof boundaries, start with [The Triadic Brain: shared intelligence, human authority](docs/TRIADIC_BRAIN_VISION.md).
+
 ## Human agency. Community-scale compute. Local control.
 
 **Our ambition is to build the world's largest decentralized, community-governed compute network: a Sophia network of user-controlled Sonya nodes, working toward frontier-level communal capability while people retain control of their models, data and participation.** We want capable AI to strengthen human agency and distribute opportunity, rather than concentrate control of compute and information.
