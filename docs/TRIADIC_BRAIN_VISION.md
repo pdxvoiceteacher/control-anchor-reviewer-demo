@@ -39,6 +39,7 @@ People should not need to learn internal module names to use the workbench. The 
 | **Control Anchor** | A usable front door for goals, controls, model choices, work history and review. | A polished interface is not proof that its settings reach execution. |
 | **Sonya** | Connect permitted inputs and requests to supported models, tools and peer exchanges. | Connecting one route does not grant access to every app, conversation or account. |
 | **AEGIS** | Apply technical admission, scope, privacy and safe-execution protections at the relevant boundary. | It does not invent a user’s authority or treat an unverified incident report as grounds for network-wide punishment. |
+| **MORALware — staged protective design** | Separate a proposal, categorical protection review and evidence audit from a deterministic nonviolent protective guard. | A historical advisory prototype is not a qualified current protective-action connection; this layer is not active product enforcement. |
 | **UCC** | Carry out supported, finite procedures and exact checks. | Arithmetic or a structured receipt does not validate an uncertain interpretation by itself. |
 | **CoherenceLattice** | Organize claims, evidence relationships, alternative explanations and candidate mappings. | Coherent structure is not the same as factual truth or useful transfer to a new domain. |
 | **Sophia** | Provide separately attributable evaluation and challenge against the relevant evidence and controls. | An audit result remains scoped, contestable and advisory where human judgment is required. |
@@ -50,6 +51,8 @@ People should not need to learn internal module names to use the workbench. The 
 The “triadic” core concerns the relationship between grounded analysis, evaluation and contextual presentation: CoherenceLattice, Sophia and Atlas / Publisher. Sonya, AEGIS, UCC, custody, human authority and the optional layers surround that core. They are not interchangeable names for one agent.
 
 A useful distinction runs through the whole design. Technical protections can stop an unauthorized or unsafe operation. A business-control finding, such as a possible policy exception, is an advisory observation for authorized review; it should not silently suppress an ordinary prompt or become a final accusation. The interface must show which kind of decision is being made.
+
+**MORALware gives the intended protective boundary an explicit place.** It is staged after a useful, qualified local recording loop, not made a prerequisite for first local usefulness. The historical proposal maps CoherenceLattice to the Proposer function and Sophia to Guardian, with a separately attributable Evidence Auditor and a deterministic guard. That is a proposed role mapping, not an already qualified connection: adding a second Guardian vote beside Sophia would not create independent judgment. The design calls for categorical protections, veto precedence, recorded evidence before protected progression and field updates that can tighten—not silently expand—permissions. A refusal must preserve evidence and leave separately authorized harmless protective handling possible. This is neither a moral oracle nor permission for physical actuation, persecution, retaliation or an emergency bypass. Ordinary business findings remain advisory.
 
 ## 3. What a person should be able to see and control
 
