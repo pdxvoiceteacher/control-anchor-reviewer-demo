@@ -1278,8 +1278,8 @@
     },
     {
       "path": "docs/TRIADIC_BRAIN_VISION.md",
-      "candidate_sha256": "9965a333d6c34cb4b2a23b9f6687751b83f69b278e4854d819f62d91c016a99c",
-      "bytes": 24250,
+      "candidate_sha256": "b97b036f3c33eb2559e681385440894ea45c4ab1e68dc991ad1432d9e1d2d97f",
+      "bytes": 25514,
       "origin": "NEW_OWNER_DIRECTED_HIGH_LEVEL_PROPOSAL",
       "source_basis_paths": [
         "README.md",
