@@ -1,5 +1,7 @@
 # A Sophia network built for human agency
 
+Read the companion [whole-system concept and ethos reference](TRIADIC_BRAIN_VISION.md) for the component relationships, five user-control questions, everyday example and explicit distinction between aspiration, design and evidence.
+
 ## The ambition
 
 We aim to build the world's largest decentralized, community-governed compute network: a Sophia network of user-controlled Sonya nodes that makes increasingly sophisticated AI work available without requiring people to surrender control of their models, data or participation.
