@@ -552,14 +552,14 @@
     },
     {
       "path": "README.md",
-      "candidate_sha256": "fff8dddcde570dab2631d3f3ece9391132708c4da8669d76b644cb6988f9099d",
+      "candidate_sha256": "cd80459f0b0363c92a64015c156f3e43f68d9c3adc0026754c9db8cd7580e5eb",
       "origin": "ADAPTED",
       "source_basis_paths": [],
       "modifications": "New reviewer explanation based on maintained architecture; limits bound to extracted implementation. Added link to a source-attributed methods appendix and its bounded teaching claims. Added self-contained Mermaid responsibility diagram separating intended product integration, observed synthetic offline demo and future peer network; no runtime or validation-result changes.",
       "license": "MPL-2.0 to extent rights exist and covered",
       "publication_review": "OWNER_APPROVED_PUBLIC_SOURCE_ACCESS_EXISTING_RIGHTS_PRESERVED_NO_NEW_LICENSE",
       "historical_publication_review": "FINAL_CONTENT_DECISION_PENDING",
-      "bytes": 30296,
+      "bytes": 30346,
       "cooperative_ethos_clarification_2026_11_02": "Owner-directed freedom, local ownership, voluntary mutual aid and practical exit; informed higher overhead may be legitimate. Existing capability limits, rights and public contribution route preserved. No runtime change or new operational evidence."
     },
     {
@@ -1062,6 +1062,15 @@
       "publication_review": "OWNER_AUTHORIZED_PUBLIC_DISCOVERABILITY_DOCUMENTATION",
       "candidate_sha256": "74e3a05d73c5398b628321404722c749563a2939513778aa37c1e15f70ebb6b4",
       "bytes": 1632
+    },
+    {
+      "path": "docs/FUNCTION_GLOSSARY.md",
+      "origin": "NEW_PUBLIC_HIGH_LEVEL_DESIGN_OVERVIEW",
+      "candidate_sha256": "678ab6a43aed2713bb7601bdd949d5c4d5707149545e7d7e5303bb7538692923",
+      "bytes": 10645,
+      "modifications": "Selective functional architecture and proposed clarifying names; offline demo scope separated from future design. No runtime or original source changes.",
+      "license": "Existing rights and notices preserved; see LICENSE_SCOPE.md.",
+      "publication_review": "OWNER_AUTHORIZED_PUBLIC_HIGH_LEVEL_DESIGN_CONTENT_REVIEW_NO_MATERIAL_FINDING"
     }
   ],
   "dependency_closure": {

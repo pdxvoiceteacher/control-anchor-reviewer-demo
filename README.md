@@ -2,7 +2,7 @@
 
 **An offline, synthetic Python reviewer demo for evidence-linked review and correction history.** No model calls or networked compute run here. The broader Triadic Brain / Control Anchor vision proposes local-first cognitive middleware and voluntary, decentralized cooperation; those are design goals, not deployed capabilities of this repository.
 
-**Start here:** [What runs today](#what-this-repository-demonstrates-today) · [Run locally](#run-on-windows--powershell) · [Evidence and limitations](KNOWN_LIMITATIONS.md) · [Design ethos](docs/COMMUNITY_COMPUTE_VISION.md#design-ethos-freedom-cooperation-and-practical-exit) · [Contribute](CONTRIBUTING.md) · [Project metadata](codemeta.json)
+**Start here:** [What runs today](#what-this-repository-demonstrates-today) · [Run locally](#run-on-windows--powershell) · [Evidence and limitations](KNOWN_LIMITATIONS.md) · [Design ethos](docs/COMMUNITY_COMPUTE_VISION.md#design-ethos-freedom-cooperation-and-practical-exit) · [Function glossary](docs/FUNCTION_GLOSSARY.md) · [Contribute](CONTRIBUTING.md) · [Project metadata](codemeta.json)
 
 For a complete, plain-language account of the north star, architecture, human controls and proof boundaries, start with [The Triadic Brain: shared intelligence, human authority](docs/TRIADIC_BRAIN_VISION.md).
 
