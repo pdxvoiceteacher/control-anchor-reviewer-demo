@@ -1,0 +1,28 @@
+{
+  "@context": "https://w3id.org/codemeta/4.0",
+  "@type": "SoftwareSourceCode",
+  "name": "Control Anchor reviewer demo",
+  "codeRepository": "https://github.com/pdxvoiceteacher/control-anchor-reviewer-demo",
+  "description": "Offline synthetic Python demo of evidence-linked review, correction history, export verification and interrupted-decision recovery. No model calls or networked compute. The broader local-first cognitive middleware and decentralized cooperative network are proposed designs, not capabilities delivered here.",
+  "programmingLanguage": "Python",
+  "runtimePlatform": "Python 3.12",
+  "keywords": [
+    "evidence-provenance",
+    "human-in-the-loop",
+    "reproducible-research",
+    "local-first",
+    "synthetic-data",
+    "human-ai-collaboration",
+    "ai-governance"
+  ],
+  "readme": "https://github.com/pdxvoiceteacher/control-anchor-reviewer-demo/blob/main/README.md",
+  "issueTracker": "https://github.com/pdxvoiceteacher/control-anchor-reviewer-demo/issues",
+  "developmentStatus": "Experimental offline reviewer component; network capabilities remain proposed.",
+  "license": "https://github.com/pdxvoiceteacher/control-anchor-reviewer-demo/blob/main/LICENSE_SCOPE.md",
+  "relatedLink": [
+    "https://github.com/pdxvoiceteacher/control-anchor-reviewer-demo/blob/main/NOTICE",
+    "https://github.com/pdxvoiceteacher/control-anchor-reviewer-demo/blob/main/THIRD_PARTY_NOTICES.md",
+    "https://github.com/pdxvoiceteacher/control-anchor-reviewer-demo/blob/main/CONTRIBUTING.md",
+    "https://github.com/pdxvoiceteacher/control-anchor-reviewer-demo/blob/main/docs/COMMUNITY_COMPUTE_VISION.md"
+  ]
+}

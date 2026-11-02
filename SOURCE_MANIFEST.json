@@ -552,14 +552,14 @@
     },
     {
       "path": "README.md",
-      "candidate_sha256": "beb6c0cc99e8aebd9e2f5400dc048d09547cca40f16094f053158a907f409fed",
+      "candidate_sha256": "fff8dddcde570dab2631d3f3ece9391132708c4da8669d76b644cb6988f9099d",
       "origin": "ADAPTED",
       "source_basis_paths": [],
       "modifications": "New reviewer explanation based on maintained architecture; limits bound to extracted implementation. Added link to a source-attributed methods appendix and its bounded teaching claims. Added self-contained Mermaid responsibility diagram separating intended product integration, observed synthetic offline demo and future peer network; no runtime or validation-result changes.",
       "license": "MPL-2.0 to extent rights exist and covered",
       "publication_review": "OWNER_APPROVED_PUBLIC_SOURCE_ACCESS_EXISTING_RIGHTS_PRESERVED_NO_NEW_LICENSE",
       "historical_publication_review": "FINAL_CONTENT_DECISION_PENDING",
-      "bytes": 29598,
+      "bytes": 30296,
       "cooperative_ethos_clarification_2026_11_02": "Owner-directed freedom, local ownership, voluntary mutual aid and practical exit; informed higher overhead may be legitimate. Existing capability limits, rights and public contribution route preserved. No runtime change or new operational evidence."
     },
     {
@@ -1046,6 +1046,22 @@
       "modifications": "Human-readable whole-system concept and ethos, utopian north star, component roles, authority and confidentiality boundaries, everyday proposed scenario and staged research roadmap. No private implementation or new runtime evidence.",
       "license": "Existing rights and notices preserved; no new media/prose license grant.",
       "publication_review": "OWNER_AUTHORIZED_PUBLIC_HIGH_LEVEL_PROPOSAL_INDEPENDENT_CONTENT_REVIEW_NO_MATERIAL_FINDING"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "origin": "NEW_PUBLIC_PROJECT_DOCUMENTATION",
+      "license": "Existing rights and notices preserved; see LICENSE_SCOPE.md.",
+      "publication_review": "OWNER_AUTHORIZED_PUBLIC_DISCOVERABILITY_DOCUMENTATION",
+      "candidate_sha256": "3e0d0dba53c4dbdb81ff54441f3ec59b64cc3d4d83904377d001cace1d223f6b",
+      "bytes": 2827
+    },
+    {
+      "path": "codemeta.json",
+      "origin": "NEW_PUBLIC_PROJECT_DOCUMENTATION",
+      "license": "Existing rights and notices preserved; see LICENSE_SCOPE.md.",
+      "publication_review": "OWNER_AUTHORIZED_PUBLIC_DISCOVERABILITY_DOCUMENTATION",
+      "candidate_sha256": "74e3a05d73c5398b628321404722c749563a2939513778aa37c1e15f70ebb6b4",
+      "bytes": 1632
     }
   ],
   "dependency_closure": {
