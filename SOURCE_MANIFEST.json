@@ -1150,8 +1150,8 @@
       "modifications": "Frozen R4 source-aligned English design or contribution documentation, or original navigation. Descriptive data only; no new runtime evidence, channel activation or execution authority.",
       "license": "Existing rights and notices preserved; no new media/prose license grant.",
       "publication_review": "OWNER_REQUESTED_PUBLIC_DOCUMENTATION_EXISTING_RIGHTS_PRESERVED",
-      "candidate_sha256": "ea517b98ea15950eb3bf45c46d73538eb7b269c9be8483529b70f4c227737f2a",
-      "bytes": 4612
+      "candidate_sha256": "c29b2cb164cf52a77f1fc99fcc21bd99b8ef273d59a13c6598dd4b46e8164d8d",
+      "bytes": 5087
     },
     {
       "path": "docs/whitepaper/triadic-brain-20261102/contribute/CONTRIBUTION_CHANNELS.en.md",

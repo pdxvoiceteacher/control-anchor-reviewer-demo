@@ -46,6 +46,13 @@ A full main-whitepaper translation includes its compact 86-family index and refe
 
 Future editions should identify their exact English source version, completeness, translation method and actual review state. A translated summary is not a full main-whitepaper edition. No fluent-language review or accessibility certification is implied.
 
+## Community ethos
+
+> “We have to become compute commies to fight these guys.”
+> — Thomas Prislac
+
+The phrase is a rallying joke; the design is cooperative computing. Independently owned nodes share resources voluntarily, coordinate accountably and retain the freedom to choose providers or leave the network. We pursue that goal by building useful software that people can inspect, improve and govern together. Participation does not require a political affiliation.
+
 ## Contributions
 
 [Contribution guide and existing public discussion channel](contribute/CONTRIBUTION_CHANNELS.en.md) explains how people and authorized AI-assisted contributors can offer focused corrections or proposals. It preserves the existing Issues-first route and explicitly warns that a PR targeting main can trigger repository CI. This documentation does not create a new listener, grant execution/spending authority or initiate outreach.
