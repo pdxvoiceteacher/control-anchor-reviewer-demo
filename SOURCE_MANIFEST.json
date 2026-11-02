@@ -1,7 +1,5 @@
 {
   "format_version": 1,
-  "source_repository": "pdxvoiceteacher/triadicbrain-open-alpha",
-  "source_commit": "139932846cb1b6bf1571158464d89513d4e381f8",
   "candidate_visibility": "PUBLIC",
   "publication_review": "COMPLETED_SCOPED_CONTENT_HISTORY_CHECKS_OWNER_APPROVED_PUBLIC_SOURCE_ACCESS_VISIBILITY_VERIFIED",
   "source_history_copied": false,
@@ -401,24 +399,20 @@
       "modifications": "Scoped explanatory notice rewritten for private extraction; required attribution and applicable license retained; stale public wording corrected; excluded material identified.",
       "license": "MPL-2.0 to extent rights exist and covered",
       "publication_review": "OWNER_APPROVED_PUBLIC_SOURCE_ACCESS_EXISTING_RIGHTS_PRESERVED_NO_NEW_LICENSE",
-      "role_label_editorial_modification": "Use Project Lead for narrative project decisions and Founder for business/budget responsibilities; preserve named legal/source attribution, claims, licenses, amounts and immutable identifiers.",
-      "historical_publication_review": "HOLD",
-      "publication_wording_revision": "Record separate owner approval of reviewer-source/history public access on 19 October 2026; preserve existing licenses, attribution, budgets and evidence limits. No new Creative Commons/media/prose grant, deployment, release or application submission."
+      "historical_publication_review": "HOLD"
     },
     {
       "path": "demo.py",
       "candidate_sha256": "32f1777ab8e4c1179f9a1c95724c2d979b482892eb71afbe453323743087aeea",
       "origin": "ADAPTED",
       "source_basis_paths": [
-        "src/triadicbrain/assurance/production_cli.py",
-        "tests/test_aep01_transaction.py"
+        "src/triadicbrain/assurance/production_cli.py"
       ],
       "modifications": "New orchestration harness calling the unchanged CLI and platform-observation repair fixture boundary; no new engine.",
       "license": "MPL-2.0 to extent rights exist and covered",
       "publication_review": "OWNER_APPROVED_PUBLIC_SOURCE_ACCESS_EXISTING_RIGHTS_PRESERVED_NO_NEW_LICENSE",
       "historical_publication_review": "HOLD",
-      "bytes": 19494,
-      "focused_update_2026_10_21": "Bounded missing directory/ZIP evidence, denied authority and one deliberate pre-seal decision interruption through the existing recovery consumer; readable report observations. No extracted engine change."
+      "bytes": 19494
     },
     {
       "path": "fixtures/advisory.json",
@@ -514,16 +508,12 @@
       "path": "KNOWN_LIMITATIONS.md",
       "candidate_sha256": "5f5ede7c817d19d663eafb26e6d61cca1df5ec4a6f11705f30ff60de63723d83",
       "origin": "ADAPTED",
-      "source_basis_paths": [
-        "docs/current/master-design.md"
-      ],
+      "source_basis_paths": [],
       "modifications": "New reviewer explanation based on maintained architecture; limits bound to extracted implementation.",
       "license": "MPL-2.0 to extent rights exist and covered",
       "publication_review": "OWNER_APPROVED_PUBLIC_SOURCE_ACCESS_EXISTING_RIGHTS_PRESERVED_NO_NEW_LICENSE",
       "historical_publication_review": "HOLD",
-      "publication_wording_revision": "Record separate owner approval of reviewer-source/history public access on 19 October 2026; preserve existing licenses, attribution, budgets and evidence limits. No new Creative Commons/media/prose grant, deployment, release or application submission.",
-      "bytes": 4210,
-      "focused_update_2026_10_21": "Bound deliberate single pre-seal decision fault injection separately from OS crash recovery."
+      "bytes": 4210
     },
     {
       "path": "LICENSE_SCOPE.md",
@@ -535,12 +525,7 @@
       "modifications": "Scoped explanatory notice rewritten for private extraction; required attribution and applicable license retained; stale public wording corrected; excluded material identified.",
       "license": "MPL-2.0 to extent rights exist and covered",
       "publication_review": "OWNER_APPROVED_PUBLIC_SOURCE_ACCESS_EXISTING_RIGHTS_PRESERVED_NO_NEW_LICENSE",
-      "documentation_successor_modification": "Clarified inherited HOLD metadata and candidate-specific publication scope without changing MPL terms.",
-      "media_successor_modification": "Link reviewed media and explicitly keep its public-license scope pending, separate from the code license and final visibility decision.",
-      "reviewer_successor_modification": "Neutral reviewer navigation and/or clarification that existing rights/notices are preserved, no new media/prose grant is authorized, and optional CC BY is not a visibility/funding prerequisite.",
-      "role_label_editorial_modification": "Use Project Lead for narrative project decisions and Founder for business/budget responsibilities; preserve named legal/source attribution, claims, licenses, amounts and immutable identifiers.",
-      "historical_publication_review": "FINAL_CONTENT_DECISION_PENDING",
-      "publication_wording_revision": "Record separate owner approval of reviewer-source/history public access on 19 October 2026; preserve existing licenses, attribution, budgets and evidence limits. No new Creative Commons/media/prose grant, deployment, release or application submission."
+      "historical_publication_review": "FINAL_CONTENT_DECISION_PENDING"
     },
     {
       "path": "NOTICE",
@@ -552,9 +537,7 @@
       "modifications": "Scoped explanatory notice rewritten for private extraction; required attribution and applicable license retained; stale public wording corrected; excluded material identified.",
       "license": "MPL-2.0 to extent rights exist and covered",
       "publication_review": "OWNER_APPROVED_PUBLIC_SOURCE_ACCESS_EXISTING_RIGHTS_PRESERVED_NO_NEW_LICENSE",
-      "documentation_successor_modification": "Clarified CE/IntegrityLock/Open Web Steward references are excluded workbench history; preserved attribution.",
-      "historical_publication_review": "FINAL_CONTENT_DECISION_PENDING",
-      "publication_wording_revision": "Record separate owner approval of reviewer-source/history public access on 19 October 2026; preserve existing licenses, attribution, budgets and evidence limits. No new Creative Commons/media/prose grant, deployment, release or application submission."
+      "historical_publication_review": "FINAL_CONTENT_DECISION_PENDING"
     },
     {
       "path": "PUBLICATION_REVIEW.md",
@@ -564,69 +547,31 @@
       "modifications": "New demo preparation material; AI-assisted under human commissioning.",
       "license": "MPL-2.0 to extent rights exist and covered",
       "publication_review": "OWNER_APPROVED_PUBLIC_SOURCE_ACCESS_EXISTING_RIGHTS_PRESERVED_NO_NEW_LICENSE",
-      "documentation_successor_modification": "Replaced blanket gates with exact-candidate owner/contents checks; recorded owner attestation and bounded 12-schema inspection, with no specific schema rights blocker identified.",
-      "media_successor_modification": "Link reviewed media and explicitly keep its public-license scope pending, separate from the code license and final visibility decision.",
-      "reviewer_successor_modification": "Neutral reviewer navigation and/or clarification that existing rights/notices are preserved, no new media/prose grant is authorized, and optional CC BY is not a visibility/funding prerequisite.",
-      "role_label_editorial_modification": "Use Project Lead for narrative project decisions and Founder for business/budget responsibilities; preserve named legal/source attribution, claims, licenses, amounts and immutable identifiers.",
       "historical_publication_review": "FINAL_CONTENT_DECISION_PENDING",
-      "publication_wording_revision": "Record separate owner approval of reviewer-source/history public access on 19 October 2026; preserve existing licenses, attribution, budgets and evidence limits. No new Creative Commons/media/prose grant, deployment, release or application submission.",
-      "bytes": 11048,
-      "documentation_refresh_2026_10_20": "Record verified owner-executed public access and this approved documentation-only successor; distinguish historical review metadata, source visibility and operational/assurance claims.",
-      "documentation_reconciliation_2026_10_23": "Current source/branch evidence, local workbench workflow and role boundaries; original CI233 receipts inspected as data. Separate public-only validation retained; no private implementation or new product capability imported.",
-      "proposed_roadmap_followup_2026_10_23": "Owner-brief proposed roadmap and source-specific evidence reconciliation. Separate design packet and diagrams not locally inspected or imported. No new private source identity or implementation published."
+      "bytes": 11048
     },
     {
       "path": "README.md",
-      "candidate_sha256": "ff83239ca208abac4e1ff9238fe92f2d0a543eab5b18e5785971e751d6f150e5",
+      "candidate_sha256": "beb6c0cc99e8aebd9e2f5400dc048d09547cca40f16094f053158a907f409fed",
       "origin": "ADAPTED",
-      "source_basis_paths": [
-        "docs/current/master-design.md"
-      ],
+      "source_basis_paths": [],
       "modifications": "New reviewer explanation based on maintained architecture; limits bound to extracted implementation. Added link to a source-attributed methods appendix and its bounded teaching claims. Added self-contained Mermaid responsibility diagram separating intended product integration, observed synthetic offline demo and future peer network; no runtime or validation-result changes.",
       "license": "MPL-2.0 to extent rights exist and covered",
       "publication_review": "OWNER_APPROVED_PUBLIC_SOURCE_ACCESS_EXISTING_RIGHTS_PRESERVED_NO_NEW_LICENSE",
-      "documentation_successor_modification": "Linked methods appendix and whole-product/customer-function map; separated private merge authority from final publication/content decision.",
-      "additional_source_basis": [
-        "https://github.com/pdxvoiceteacher/triadicbrain-open-alpha/blob/37583fd91ff7f0d912256c10fea89ff6896763cf/README.md",
-        "https://github.com/pdxvoiceteacher/triadicbrain-open-alpha/blob/37583fd91ff7f0d912256c10fea89ff6896763cf/docs/current/product-file-map.md",
-        "https://github.com/pdxvoiceteacher/triadicbrain-open-alpha/blob/37583fd91ff7f0d912256c10fea89ff6896763cf/docs/delivery/WINDOWS_INSTALLER_MAP.md",
-        "https://github.com/pdxvoiceteacher/CoherenceLattice/blob/f0566d8f79c308eaeb9ab10cb8255478e8913a71/docs/provenance/pedagogy/UVLM_PROVENANCE_PEDAGOGY_v1.md",
-        "https://github.com/pdxvoiceteacher/Sophia/blob/36165bdca0c5fbdc58d7500c41af6c9fd775197c/docs/provenance/UVLM_PROVENANCE_PEDAGOGY_REFINEMENT_OVERLAY_v1.1.md"
-      ],
-      "media_successor_modification": "Link reviewed media and explicitly keep its public-license scope pending, separate from the code license and final visibility decision.",
-      "reviewer_successor_modification": "Neutral reviewer navigation and/or clarification that existing rights/notices are preserved, no new media/prose grant is authorized, and optional CC BY is not a visibility/funding prerequisite.",
-      "role_label_editorial_modification": "Use Project Lead for narrative project decisions and Founder for business/budget responsibilities; preserve named legal/source attribution, claims, licenses, amounts and immutable identifiers.",
-      "generic_planning_revision": "Program-neutral private planning under owner direction; no submission, recruitment, partnership or new license grant.",
-      "current_budget_navigation_revision": "Reader route now points to six-month core plan and optional separately costed paid intern opportunity; runtime/evidence text unchanged.",
       "historical_publication_review": "FINAL_CONTENT_DECISION_PENDING",
-      "publication_wording_revision": "Record separate owner approval of reviewer-source/history public access on 19 October 2026; preserve existing licenses, attribution, budgets and evidence limits. No new Creative Commons/media/prose grant, deployment, release or application submission.",
-      "bytes": 30711,
-      "documentation_refresh_2026_10_20": "Move dated observed results and first steps before the unchanged source-attributed architecture diagram; add accurate supplied-fixture walkthrough, public acquisition and PowerShell failure handling, historical HOLD explanation and P2P-note navigation. No runtime, fixture or recorded-result change.",
-      "focused_update_2026_10_21": "Dated milestone summary, adverse/recovery artifact guide and separate new validation navigation; historical eight-test result and architecture attribution preserved.",
-      "documentation_reconciliation_2026_10_21_0811": "Current retained 11-test/six-check/177-object baseline, preserved historical eight/four result, and scoped merged provider/P2P navigation; no new execution.",
-      "documentation_reconciliation_2026_10_23": "Current source/branch evidence, local workbench workflow and role boundaries; original CI233 receipts inspected as data. Separate public-only validation retained; no private implementation or new product capability imported.",
-      "proposed_roadmap_followup_2026_10_23": "Owner-brief proposed roadmap and source-specific evidence reconciliation. Separate design packet and diagrams not locally inspected or imported. No new private source identity or implementation published.",
-      "public_readme_editorial_update_2026_10_23": "Owner-directed product ambition, problem/solution framing, control doctrines, proposed P2P/business model, bounded calls to action and public professional CV reader route. Complete technical sections, code fences, badges, historical evidence, citations and licensing retained; dated pilot qualified separately from a company-wide seed budget.",
-      "proposed_partner_delivery_update_2026_10_23": "Owner-approved proposed partner-delivery value proposition and link to delivery-route boundaries; no delivered SDK or integration claimed.",
-      "public_development_addendum_2026_10_24": "Owner-authorized navigation to a dated, source-bound public-safe ComfyUI/placement component checkpoint; prior marketing, evidence, commands and license notices retained.",
-      "public_connection_map_2026_10_30": "Navigation only: provisional 15-family planning map; implementation/proof/research distinguished. Public runtime and historical evidence unchanged.",
-      "community_compute_vision_2026_10_31": "Owner-directed aspirational lead and link to public high-level proposed design/contribution invitation. Existing README body, runtime, observed results and rights preserved.",
-      "distributed_virtual_computer_proposal_2026_10_31": "Owner-directed high-level proposed onboarding, bounded shared resources, confidentiality and provenance tiers, and verification roadmap; no delivered capability, private implementation, new runtime evidence or license grant.",
-      "concept_ethos_navigation_2026_11_01": "One navigation paragraph to the separately reviewed high-level concept and ethos reference; original prose, historical evidence and rights preserved."
+      "bytes": 29598,
+      "cooperative_ethos_clarification_2026_11_02": "Owner-directed freedom, local ownership, voluntary mutual aid and practical exit; informed higher overhead may be legitimate. Existing capability limits, rights and public contribution route preserved. No runtime change or new operational evidence."
     },
     {
       "path": "tests/test_component.py",
       "candidate_sha256": "1b27ca5a9cb4024d0f5d34b27ad04a5b78065cc7be7a0033d3cfdf727c65b2b3",
       "origin": "ADAPTED",
-      "source_basis_paths": [
-        "tests/test_aep01_transaction.py"
-      ],
+      "source_basis_paths": [],
       "modifications": "Focused positive/adverse cases adapted to stdlib unittest; pytest fixtures/parametrization replaced; synthetic inputs and CLI helpers reused; concurrency, full recovery and full-product cases omitted.",
       "license": "MPL-2.0 to extent rights exist and covered",
       "publication_review": "OWNER_APPROVED_PUBLIC_SOURCE_ACCESS_EXISTING_RIGHTS_PRESERVED_NO_NEW_LICENSE",
       "historical_publication_review": "HOLD",
-      "bytes": 11325,
-      "focused_update_2026_10_21": "Three focused regressions added: missing evidence in both consumers, one-time recovery then seal/verify, and complete network-guarded demo with fresh-output refusal. Optional caller-owned retained test roots."
+      "bytes": 11325
     },
     {
       "path": "THIRD_PARTY_NOTICES.md",
@@ -638,9 +583,7 @@
       "modifications": "Scoped explanatory notice rewritten for private extraction; required attribution and applicable license retained; stale public wording corrected; excluded material identified.",
       "license": "MPL-2.0 to extent rights exist and covered",
       "publication_review": "OWNER_APPROVED_PUBLIC_SOURCE_ACCESS_EXISTING_RIGHTS_PRESERVED_NO_NEW_LICENSE",
-      "documentation_successor_modification": "Mapped historical component adaptations to excluded workbench paths, distinguished assurance/web.py and scoped schema/methods source boundaries.",
-      "historical_publication_review": "FINAL_CONTENT_DECISION_PENDING",
-      "publication_wording_revision": "Record separate owner approval of reviewer-source/history public access on 19 October 2026; preserve existing licenses, attribution, budgets and evidence limits. No new Creative Commons/media/prose grant, deployment, release or application submission."
+      "historical_publication_review": "FINAL_CONTENT_DECISION_PENDING"
     },
     {
       "path": "validation/observed-demo-summary.json",
@@ -660,74 +603,41 @@
       "modifications": "New demo preparation material; AI-assisted under human commissioning.",
       "license": "MPL-2.0 to extent rights exist and covered",
       "publication_review": "OWNER_APPROVED_PUBLIC_SOURCE_ACCESS_EXISTING_RIGHTS_PRESERVED_NO_NEW_LICENSE",
-      "documentation_successor_modification": "Removed workstation free-resource numbers and internal approval-process narration; retained hard-link failure, ordinary-user success, test result and ZIP limitation.",
       "historical_publication_review": "FINAL_CONTENT_DECISION_PENDING",
-      "bytes": 18038,
-      "focused_update_2026_10_21": "Append new dated Windows commands, 11-test result, separate demo result, preserved evidence and denied local-file browser inspection; original historical text unchanged.",
-      "documentation_reconciliation_2026_10_23": "Current source/branch evidence, local workbench workflow and role boundaries; original CI233 receipts inspected as data. Separate public-only validation retained; no private implementation or new product capability imported.",
-      "proposed_roadmap_followup_2026_10_23": "Owner-brief proposed roadmap and source-specific evidence reconciliation. Separate design packet and diagrams not locally inspected or imported. No new private source identity or implementation published."
+      "bytes": 18038
     },
     {
       "path": "docs/METHODS_APPENDIX.md",
       "candidate_sha256": "f4f82b578afe8e957e7e9c5010a0a4e5e1ef01cf19cba826729e5a643c96a12a",
       "origin": "ADAPTED",
-      "source_basis_paths": [
-        "https://github.com/pdxvoiceteacher/CoherenceLattice/blob/f0566d8f79c308eaeb9ab10cb8255478e8913a71/docs/provenance/pedagogy/UVLM_PROVENANCE_PEDAGOGY_v1.md",
-        "https://github.com/pdxvoiceteacher/Sophia/blob/36165bdca0c5fbdc58d7500c41af6c9fd775197c/docs/provenance/UVLM_PROVENANCE_PEDAGOGY_REFINEMENT_OVERLAY_v1.1.md"
-      ],
+      "source_basis_paths": [],
       "modifications": "New concise paraphrase of selected pedagogy principles with a synthetic demo-linked exercise and answer key. Omits training ledger, live/learner records, graduation/credit implementation and automatic three-patch control retirement. No measured learning or model-training claims.",
-      "attribution": "Thomas Prislac / UVLM; exact source documents identified in methods_appendix_sources.",
+      "attribution": "Thomas Prislac / UVLM; source titles and license boundaries are retained in methods_appendix_sources.",
       "license": "No new license grant authorized; preserve applicable existing rights/permissions and notices; no automatic code-license inheritance.",
       "publication_review": "OWNER_APPROVED_PUBLIC_SOURCE_ACCESS_EXISTING_RIGHTS_PRESERVED_NO_NEW_LICENSE",
-      "reviewer_successor_modification": "Neutral reviewer navigation and/or clarification that existing rights/notices are preserved, no new media/prose grant is authorized, and optional CC BY is not a visibility/funding prerequisite.",
-      "role_label_editorial_modification": "Use Project Lead for narrative project decisions and Founder for business/budget responsibilities; preserve named legal/source attribution, claims, licenses, amounts and immutable identifiers.",
-      "historical_publication_review": "OWNER_FINAL_CONTENT_VISIBILITY_DECISION_PENDING_EXISTING_RIGHTS_PRESERVED",
-      "publication_wording_revision": "Record separate owner approval of reviewer-source/history public access on 19 October 2026; preserve existing licenses, attribution, budgets and evidence limits. No new Creative Commons/media/prose grant, deployment, release or application submission."
+      "historical_publication_review": "OWNER_FINAL_CONTENT_VISIBILITY_DECISION_PENDING_EXISTING_RIGHTS_PRESERVED"
     },
     {
       "path": "docs/PRODUCT_MAP.md",
       "candidate_sha256": "8cd957b8562dbf60841d42075bf821e76e0bc4bb5125c1bc80219eca213cf4de",
       "origin": "ADAPTED",
-      "source_basis_paths": [
-        "https://github.com/pdxvoiceteacher/triadicbrain-open-alpha/blob/37583fd91ff7f0d912256c10fea89ff6896763cf/README.md",
-        "https://github.com/pdxvoiceteacher/triadicbrain-open-alpha/blob/37583fd91ff7f0d912256c10fea89ff6896763cf/docs/current/product-file-map.md",
-        "https://github.com/pdxvoiceteacher/triadicbrain-open-alpha/blob/37583fd91ff7f0d912256c10fea89ff6896763cf/docs/delivery/WINDOWS_INSTALLER_MAP.md",
-        "https://github.com/pdxvoiceteacher/triadicbrain-open-alpha/blob/37583fd91ff7f0d912256c10fea89ff6896763cf/CURRENT_PRODUCT.md"
-      ],
+      "source_basis_paths": [],
       "modifications": "Compact new whole-product map and customer-function crosswalk adapted from specified README sections and process maps; both interface directions, HERE/ELSEWHERE/PROPOSED statuses and actual relative function/file links; no full inventory or historical readiness tables copied.",
-      "attribution": "Thomas Prislac / UVLM; exact sources in documentation_sources.",
+      "attribution": "Thomas Prislac / UVLM; adapted product architecture. Existing source notices remain in NOTICE and THIRD_PARTY_NOTICES.md.",
       "license": "MPL-2.0 to extent rights exist and covered",
       "publication_review": "OWNER_APPROVED_PUBLIC_SOURCE_ACCESS_EXISTING_RIGHTS_PRESERVED_NO_NEW_LICENSE",
       "historical_publication_review": "FINAL_CONTENT_DECISION_PENDING",
-      "bytes": 23599,
-      "focused_update_2026_10_21": "Refresh merged CI206 installed Home, unmerged provider metadata and separate qualified receiving/unexecuted P2P staging milestones; bounded recovery crosswalk and worker-support scope.",
-      "milestone_review_correction_2026_10_21": "Refresh branch checkpoints during independent review: retain CI212 failure before metadata I/O and unexecuted fixture repair; distinguish 35 unexecuted P2P staging cases from CI211 local receiving.",
-      "documentation_reconciliation_2026_10_21_0811": "Dated reconciliation of separately scoped CI216/217, CI211/213 and CI219 results, merged status, private evidence reproducibility limits and retained failures.",
-      "documentation_reconciliation_2026_10_23": "Current source/branch evidence, local workbench workflow and role boundaries; original CI233 receipts inspected as data. Separate public-only validation retained; no private implementation or new product capability imported.",
-      "proposed_roadmap_followup_2026_10_23": "Owner-brief proposed roadmap and source-specific evidence reconciliation. Separate design packet and diagrams not locally inspected or imported. No new private source identity or implementation published.",
-      "public_development_addendum_2026_10_24": "Owner-authorized navigation to a dated, source-bound public-safe ComfyUI/placement component checkpoint; prior marketing, evidence, commands and license notices retained."
+      "bytes": 23599
     },
     {
       "path": "media/Control_Anchor_Introduction_Teleprompter_Reviewer_Update.txt",
       "candidate_sha256": "e1a532330accf3cb15b3155954c6a21a448c23ec24af28f52f730c48d2174bf2",
       "bytes": 7500,
       "origin": "USER_SUPPLIED_REVIEWED_MEDIA_PACK",
-      "source_archive_member": "Control_Anchor_Introduction_Teleprompter_Reviewer_Update.txt",
-      "source_member_sha256": "a708960a05468aef0124a1a1ea8a0c346e86eb0ee50f37b41c2f615f0254c298",
-      "original_user_source_filename": "Control_Anchor_Introduction_Teleprompter_Slide_Edition(1).txt",
-      "original_user_source_sha256": "509bee2c2342965ee29e360faa27566b1d79707de7caefd7c4c4804615e01fd8",
-      "upstream_treatment": "revised successor",
       "modifications": "Exact reviewed Project Lead revision reproduced with inspected standard-library byte patch; narrative roles and spoken word counts updated, actual attribution/claims preserved. Notes and pack manifest refreshed; no local Office rewrite.",
       "attribution": "Thomas Prislac / UVLM; supplied source attribution, AI-assistance and exporter metadata preserved.",
       "license": "No new license grant authorized; preserve applicable existing rights/permissions and notices; no automatic code-license inheritance.",
       "publication_review": "OWNER_APPROVED_PUBLIC_SOURCE_ACCESS_EXISTING_RIGHTS_PRESERVED_NO_NEW_LICENSE",
-      "reviewed_revision": {
-        "prior_candidate_commit": "95412664352e8d82cbb07ae9a345bb905bf2c418",
-        "prior_member_sha256": "a708960a05468aef0124a1a1ea8a0c346e86eb0ee50f37b41c2f615f0254c298",
-        "reviewed_member_sha256": "e1a532330accf3cb15b3155954c6a21a448c23ec24af28f52f730c48d2174bf2",
-        "delivery": "Deterministic patch supplied by parent after cloud rendering/validation; only reviewed payload imported.",
-        "source_member_hash_semantics": "source_member_sha256 remains the unmodified original supplied-archive member; candidate_sha256 is this reviewed successor."
-      },
       "historical_publication_review": "OWNER_FINAL_CONTENT_VISIBILITY_DECISION_PENDING_EXISTING_RIGHTS_PRESERVED"
     },
     {
@@ -735,22 +645,10 @@
       "candidate_sha256": "8c908657b8c1e7510a4c98c1d9a843996a95f01f59f8bcdb70eb92323d1ed76e",
       "bytes": 887308,
       "origin": "USER_SUPPLIED_REVIEWED_MEDIA_PACK",
-      "source_archive_member": "Control_Anchor_Video_Scripts_Reviewer_Update.docx",
-      "source_member_sha256": "02e8bbe5651a1b357cef45202396cf6bf6a0c22bf1aa178745dff94462e025d0",
-      "original_user_source_filename": "Control_Anchor_Video_Scripts_Slide_Edition(1).docx",
-      "original_user_source_sha256": "5216055390f505dcdafe3bab55316c062bf2a2708a6e9743ed41e8de74d5513b",
-      "upstream_treatment": "revised successor",
       "modifications": "Exact reviewed Project Lead revision reproduced with inspected standard-library byte patch; narrative roles and spoken word counts updated, actual attribution/claims preserved. Notes and pack manifest refreshed; no local Office rewrite.",
       "attribution": "Thomas Prislac / UVLM; supplied source attribution, AI-assistance and exporter metadata preserved.",
       "license": "No new license grant authorized; preserve applicable existing rights/permissions and notices; no automatic code-license inheritance.",
       "publication_review": "OWNER_APPROVED_PUBLIC_SOURCE_ACCESS_EXISTING_RIGHTS_PRESERVED_NO_NEW_LICENSE",
-      "reviewed_revision": {
-        "prior_candidate_commit": "95412664352e8d82cbb07ae9a345bb905bf2c418",
-        "prior_member_sha256": "02e8bbe5651a1b357cef45202396cf6bf6a0c22bf1aa178745dff94462e025d0",
-        "reviewed_member_sha256": "8c908657b8c1e7510a4c98c1d9a843996a95f01f59f8bcdb70eb92323d1ed76e",
-        "delivery": "Deterministic patch supplied by parent after cloud rendering/validation; only reviewed payload imported.",
-        "source_member_hash_semantics": "source_member_sha256 remains the unmodified original supplied-archive member; candidate_sha256 is this reviewed successor."
-      },
       "historical_publication_review": "OWNER_FINAL_CONTENT_VISIBILITY_DECISION_PENDING_EXISTING_RIGHTS_PRESERVED"
     },
     {
@@ -758,22 +656,10 @@
       "candidate_sha256": "d0a45bbc38c17e0e44a05ce03da0e3e3de22c61b061bcc042a077ad3483a8ab6",
       "bytes": 320222,
       "origin": "USER_SUPPLIED_REVIEWED_MEDIA_PACK",
-      "source_archive_member": "Control_Anchor_Video_Slides_Reviewer_Update.pptx",
-      "source_member_sha256": "437141f8a128347e2057fc4e6eeb6d9dd75732a3315cedd8cc125fb0d7c2ff83",
-      "original_user_source_filename": "Control_Anchor_Video_Slides(1).pptx",
-      "original_user_source_sha256": "e1c8e8e2a23bb27dc36a02ff75bf6dfb6a4aa6ebd56ea985bedc42154f119515",
-      "upstream_treatment": "revised successor",
       "modifications": "Exact reviewed Project Lead revision reproduced with inspected standard-library byte patch; narrative roles and spoken word counts updated, actual attribution/claims preserved. Notes and pack manifest refreshed; no local Office rewrite.",
       "attribution": "Thomas Prislac / UVLM; presentation/authorship/source credits and creator/source properties preserved. Reviewed export regenerates timestamps and relationship IDs; relationship targets unchanged.",
       "license": "No new license grant authorized; preserve applicable existing rights/permissions and notices; no automatic code-license inheritance.",
       "publication_review": "OWNER_APPROVED_PUBLIC_SOURCE_ACCESS_EXISTING_RIGHTS_PRESERVED_NO_NEW_LICENSE",
-      "reviewed_revision": {
-        "prior_candidate_commit": "95412664352e8d82cbb07ae9a345bb905bf2c418",
-        "prior_member_sha256": "437141f8a128347e2057fc4e6eeb6d9dd75732a3315cedd8cc125fb0d7c2ff83",
-        "reviewed_member_sha256": "d0a45bbc38c17e0e44a05ce03da0e3e3de22c61b061bcc042a077ad3483a8ab6",
-        "delivery": "Deterministic patch supplied by parent after cloud rendering/validation; only reviewed payload imported.",
-        "source_member_hash_semantics": "source_member_sha256 remains the unmodified original supplied-archive member; candidate_sha256 is this reviewed successor."
-      },
       "historical_publication_review": "OWNER_FINAL_CONTENT_VISIBILITY_DECISION_PENDING_EXISTING_RIGHTS_PRESERVED"
     },
     {
@@ -781,22 +667,10 @@
       "candidate_sha256": "ef8b585b894b899dc88e7ea08782896d326f96e5639cd8dfd930301fe08edcfa",
       "bytes": 4014,
       "origin": "USER_SUPPLIED_REVIEWED_MEDIA_PACK",
-      "source_archive_member": "Media_Change_and_Evidence_Notes.md",
-      "source_member_sha256": "8eb32546b7c45de0d2c26b35e5aee7a1b4f4edaebb8eccf2b27549a27ae909e8",
-      "original_user_source_filename": null,
-      "original_user_source_sha256": null,
-      "upstream_treatment": "new change and evidence notes",
       "modifications": "Exact reviewed Project Lead revision reproduced with inspected standard-library byte patch; narrative roles and spoken word counts updated, actual attribution/claims preserved. Notes and pack manifest refreshed; no local Office rewrite.",
       "attribution": "Thomas Prislac / UVLM; supplied source attribution, AI-assistance and exporter metadata preserved.",
       "license": "No new license grant authorized; preserve applicable existing rights/permissions and notices; no automatic code-license inheritance.",
       "publication_review": "OWNER_APPROVED_PUBLIC_SOURCE_ACCESS_EXISTING_RIGHTS_PRESERVED_NO_NEW_LICENSE",
-      "reviewed_revision": {
-        "prior_candidate_commit": "95412664352e8d82cbb07ae9a345bb905bf2c418",
-        "prior_member_sha256": "8eb32546b7c45de0d2c26b35e5aee7a1b4f4edaebb8eccf2b27549a27ae909e8",
-        "reviewed_member_sha256": "ef8b585b894b899dc88e7ea08782896d326f96e5639cd8dfd930301fe08edcfa",
-        "delivery": "Deterministic patch supplied by parent after cloud rendering/validation; only reviewed payload imported.",
-        "source_member_hash_semantics": "source_member_sha256 remains the unmodified original supplied-archive member; candidate_sha256 is this reviewed successor."
-      },
       "historical_publication_review": "OWNER_FINAL_CONTENT_VISIBILITY_DECISION_PENDING_EXISTING_RIGHTS_PRESERVED"
     },
     {
@@ -804,22 +678,10 @@
       "candidate_sha256": "6fe898c2b1f725a96a253f538b5e7335815d63fc78f3508545cde956a0098449",
       "bytes": 450991,
       "origin": "USER_SUPPLIED_REVIEWED_MEDIA_PACK",
-      "source_archive_member": "Triadic_Cognition_P2P_Video_Slides_Reviewer_Update.pptx",
-      "source_member_sha256": "6c529d48cc3129f56a53daafef2f32018d2159a45409098be178762aedf03478",
-      "original_user_source_filename": "Triadic_Cognition_P2P_Video_Slides(1).pptx",
-      "original_user_source_sha256": "18d9909dcd940081eb72f1c342e197b0c1171b19a0e2b194ade65273526d0200",
-      "upstream_treatment": "revised successor",
       "modifications": "Exact reviewed Project Lead revision reproduced with inspected standard-library byte patch; narrative roles and spoken word counts updated, actual attribution/claims preserved. Notes and pack manifest refreshed; no local Office rewrite.",
       "attribution": "Thomas Prislac / UVLM; presentation/authorship/source credits and creator/source properties preserved. Reviewed export regenerates timestamps and relationship IDs; relationship targets unchanged.",
       "license": "No new license grant authorized; preserve applicable existing rights/permissions and notices; no automatic code-license inheritance.",
       "publication_review": "OWNER_APPROVED_PUBLIC_SOURCE_ACCESS_EXISTING_RIGHTS_PRESERVED_NO_NEW_LICENSE",
-      "reviewed_revision": {
-        "prior_candidate_commit": "95412664352e8d82cbb07ae9a345bb905bf2c418",
-        "prior_member_sha256": "6c529d48cc3129f56a53daafef2f32018d2159a45409098be178762aedf03478",
-        "reviewed_member_sha256": "6fe898c2b1f725a96a253f538b5e7335815d63fc78f3508545cde956a0098449",
-        "delivery": "Deterministic patch supplied by parent after cloud rendering/validation; only reviewed payload imported.",
-        "source_member_hash_semantics": "source_member_sha256 remains the unmodified original supplied-archive member; candidate_sha256 is this reviewed successor."
-      },
       "historical_publication_review": "OWNER_FINAL_CONTENT_VISIBILITY_DECISION_PENDING_EXISTING_RIGHTS_PRESERVED"
     },
     {
@@ -827,22 +689,10 @@
       "candidate_sha256": "508ab400093024f037773ad288f6d8542d098f95854b03807274f1b132aeeff4",
       "bytes": 11978,
       "origin": "USER_SUPPLIED_REVIEWED_MEDIA_PACK",
-      "source_archive_member": "Triadic_P2P_Teleprompter_Reviewer_Update.txt",
-      "source_member_sha256": "62ca901d4fc6c0469f1d11072eda490090149b7613955c7cccc06857d9bb527b",
-      "original_user_source_filename": "Triadic_P2P_Teleprompter_Slide_Edition(1).txt",
-      "original_user_source_sha256": "b6e97cf6cb29d9f5b754b6d81d2393eac9d043fa615030878fb10f35823c054b",
-      "upstream_treatment": "revised successor",
       "modifications": "Exact reviewed Project Lead revision reproduced with inspected standard-library byte patch; narrative roles and spoken word counts updated, actual attribution/claims preserved. Notes and pack manifest refreshed; no local Office rewrite.",
       "attribution": "Thomas Prislac / UVLM; supplied source attribution, AI-assistance and exporter metadata preserved.",
       "license": "No new license grant authorized; preserve applicable existing rights/permissions and notices; no automatic code-license inheritance.",
       "publication_review": "OWNER_APPROVED_PUBLIC_SOURCE_ACCESS_EXISTING_RIGHTS_PRESERVED_NO_NEW_LICENSE",
-      "reviewed_revision": {
-        "prior_candidate_commit": "95412664352e8d82cbb07ae9a345bb905bf2c418",
-        "prior_member_sha256": "62ca901d4fc6c0469f1d11072eda490090149b7613955c7cccc06857d9bb527b",
-        "reviewed_member_sha256": "508ab400093024f037773ad288f6d8542d098f95854b03807274f1b132aeeff4",
-        "delivery": "Deterministic patch supplied by parent after cloud rendering/validation; only reviewed payload imported.",
-        "source_member_hash_semantics": "source_member_sha256 remains the unmodified original supplied-archive member; candidate_sha256 is this reviewed successor."
-      },
       "historical_publication_review": "OWNER_FINAL_CONTENT_VISIBILITY_DECISION_PENDING_EXISTING_RIGHTS_PRESERVED"
     },
     {
@@ -850,22 +700,10 @@
       "candidate_sha256": "56cb368c5d1ebda730732aba835b29f1e9d726a8ab52b6a84a1a32e949d39866",
       "bytes": 900909,
       "origin": "USER_SUPPLIED_REVIEWED_MEDIA_PACK",
-      "source_archive_member": "Triadic_P2P_Video_Script_Reviewer_Update.docx",
-      "source_member_sha256": "7363b249d7f66cdacfb23d919392eaeb2bbeeb3b81f3c690ae5e5fbaa3457f52",
-      "original_user_source_filename": "Triadic_P2P_Video_Script_Slide_Edition(1).docx",
-      "original_user_source_sha256": "258f4d3383af3f563927e82f8667ab09670696faa1645bb23059da817e327a20",
-      "upstream_treatment": "revised successor",
       "modifications": "Exact reviewed Project Lead revision reproduced with inspected standard-library byte patch; narrative roles and spoken word counts updated, actual attribution/claims preserved. Notes and pack manifest refreshed; no local Office rewrite.",
       "attribution": "Thomas Prislac / UVLM; supplied source attribution, AI-assistance and exporter metadata preserved.",
       "license": "No new license grant authorized; preserve applicable existing rights/permissions and notices; no automatic code-license inheritance.",
       "publication_review": "OWNER_APPROVED_PUBLIC_SOURCE_ACCESS_EXISTING_RIGHTS_PRESERVED_NO_NEW_LICENSE",
-      "reviewed_revision": {
-        "prior_candidate_commit": "95412664352e8d82cbb07ae9a345bb905bf2c418",
-        "prior_member_sha256": "7363b249d7f66cdacfb23d919392eaeb2bbeeb3b81f3c690ae5e5fbaa3457f52",
-        "reviewed_member_sha256": "56cb368c5d1ebda730732aba835b29f1e9d726a8ab52b6a84a1a32e949d39866",
-        "delivery": "Deterministic patch supplied by parent after cloud rendering/validation; only reviewed payload imported.",
-        "source_member_hash_semantics": "source_member_sha256 remains the unmodified original supplied-archive member; candidate_sha256 is this reviewed successor."
-      },
       "historical_publication_review": "OWNER_FINAL_CONTENT_VISIBILITY_DECISION_PENDING_EXISTING_RIGHTS_PRESERVED"
     },
     {
@@ -873,11 +711,6 @@
       "candidate_sha256": "651a61d158c80f09c6d0e780d428f4d714194beb13b7ce1fb04fc2743d9e8f6d",
       "bytes": 1847345,
       "origin": "USER_SUPPLIED_REVIEWED_MEDIA_PACK",
-      "source_archive_member": "covers/Control Anchor_ Their AI, Your Rules.png",
-      "source_member_sha256": "651a61d158c80f09c6d0e780d428f4d714194beb13b7ce1fb04fc2743d9e8f6d",
-      "original_user_source_filename": "Control Anchor_ Their AI, Your Rules.png",
-      "original_user_source_sha256": "651a61d158c80f09c6d0e780d428f4d714194beb13b7ce1fb04fc2743d9e8f6d",
-      "upstream_treatment": "unchanged copy",
       "modifications": "NONE in this import; exact reviewed archive member bytes retained.",
       "attribution": "Thomas Prislac / UVLM; supplied source attribution, AI-assistance and exporter metadata preserved.",
       "license": "No new license grant authorized; preserve applicable existing rights/permissions and notices; no automatic code-license inheritance.",
@@ -889,11 +722,6 @@
       "candidate_sha256": "e6551ef21c10bfd7c39538349dcb18e1a8995d1af21712621267f1648f741ce3",
       "bytes": 1879990,
       "origin": "USER_SUPPLIED_REVIEWED_MEDIA_PACK",
-      "source_archive_member": "covers/Control Anchor_ Your AI, Your Rules-1.png",
-      "source_member_sha256": "e6551ef21c10bfd7c39538349dcb18e1a8995d1af21712621267f1648f741ce3",
-      "original_user_source_filename": "Control Anchor_ Your AI, Your Rules-1.png",
-      "original_user_source_sha256": "e6551ef21c10bfd7c39538349dcb18e1a8995d1af21712621267f1648f741ce3",
-      "upstream_treatment": "unchanged copy",
       "modifications": "NONE in this import; exact reviewed archive member bytes retained.",
       "attribution": "Thomas Prislac / UVLM; supplied source attribution, AI-assistance and exporter metadata preserved.",
       "license": "No new license grant authorized; preserve applicable existing rights/permissions and notices; no automatic code-license inheritance.",
@@ -905,11 +733,6 @@
       "candidate_sha256": "03b1d6dca9a32072e7a203856b6ccf48cbe57983927487c1d43ab72ddda20bc6",
       "bytes": 1976241,
       "origin": "USER_SUPPLIED_REVIEWED_MEDIA_PACK",
-      "source_archive_member": "covers/Triadic AI Peer-to-Peer Network-2.png",
-      "source_member_sha256": "03b1d6dca9a32072e7a203856b6ccf48cbe57983927487c1d43ab72ddda20bc6",
-      "original_user_source_filename": "Triadic AI Peer-to-Peer Network-2.png",
-      "original_user_source_sha256": "03b1d6dca9a32072e7a203856b6ccf48cbe57983927487c1d43ab72ddda20bc6",
-      "upstream_treatment": "unchanged copy",
       "modifications": "NONE in this import; exact reviewed archive member bytes retained.",
       "attribution": "Thomas Prislac / UVLM; supplied source attribution, AI-assistance and exporter metadata preserved.",
       "license": "No new license grant authorized; preserve applicable existing rights/permissions and notices; no automatic code-license inheritance.",
@@ -921,22 +744,10 @@
       "candidate_sha256": "713672da84432019ab8b60df4e53fda7906eff2991639c2e0cd7e543576f19e9",
       "bytes": 4080,
       "origin": "USER_SUPPLIED_REVIEWED_MEDIA_PACK",
-      "source_archive_member": "Provenance_SHA256_Manifest.json",
-      "source_member_sha256": "387c951971092b4e420c1072b37fdd57dc72b6c9bb1fd4ca0f5de986316f8ec8",
-      "original_user_source_filename": null,
-      "original_user_source_sha256": null,
-      "upstream_treatment": "Pack provenance manifest; self-hash bound here",
       "modifications": "Exact reviewed Project Lead revision reproduced with inspected standard-library byte patch; narrative roles and spoken word counts updated, actual attribution/claims preserved. Notes and pack manifest refreshed; no local Office rewrite.",
       "attribution": "Thomas Prislac / UVLM; supplied source attribution, AI-assistance and exporter metadata preserved.",
       "license": "No new license grant authorized; preserve applicable existing rights/permissions and notices; no automatic code-license inheritance.",
       "publication_review": "OWNER_APPROVED_PUBLIC_SOURCE_ACCESS_EXISTING_RIGHTS_PRESERVED_NO_NEW_LICENSE",
-      "reviewed_revision": {
-        "prior_candidate_commit": "95412664352e8d82cbb07ae9a345bb905bf2c418",
-        "prior_member_sha256": "387c951971092b4e420c1072b37fdd57dc72b6c9bb1fd4ca0f5de986316f8ec8",
-        "reviewed_member_sha256": "713672da84432019ab8b60df4e53fda7906eff2991639c2e0cd7e543576f19e9",
-        "delivery": "Deterministic patch supplied by parent after cloud rendering/validation; only reviewed payload imported.",
-        "source_member_hash_semantics": "source_member_sha256 remains the unmodified original supplied-archive member; candidate_sha256 is this reviewed successor."
-      },
       "historical_publication_review": "OWNER_FINAL_CONTENT_VISIBILITY_DECISION_PENDING_EXISTING_RIGHTS_PRESERVED"
     },
     {
@@ -947,70 +758,37 @@
       "modifications": "Navigation and provenance refreshed for exact reviewed role-label successor; original archive remains historical, current payload identities and attributed cloud/local QA distinguished.",
       "license": "No new license grant authorized; preserve applicable existing rights/permissions and notices; no automatic code-license inheritance.",
       "publication_review": "OWNER_APPROVED_PUBLIC_SOURCE_ACCESS_EXISTING_RIGHTS_PRESERVED_NO_NEW_LICENSE",
-      "reviewer_successor_modification": "Neutral reviewer navigation and/or clarification that existing rights/notices are preserved, no new media/prose grant is authorized, and optional CC BY is not a visibility/funding prerequisite.",
-      "role_label_editorial_modification": "Use Project Lead for narrative project decisions and Founder for business/budget responsibilities; preserve named legal/source attribution, claims, licenses, amounts and immutable identifiers.",
-      "historical_publication_review": "OWNER_FINAL_CONTENT_VISIBILITY_DECISION_PENDING_EXISTING_RIGHTS_PRESERVED",
-      "publication_wording_revision": "Record separate owner approval of reviewer-source/history public access on 19 October 2026; preserve existing licenses, attribution, budgets and evidence limits. No new Creative Commons/media/prose grant, deployment, release or application submission.",
-      "documentation_reconciliation_2026_10_21_0811": "Dated recording addendum links maintained product map and current retained baseline; all 18 October media payloads and rights unchanged."
+      "historical_publication_review": "OWNER_FINAL_CONTENT_VISIBILITY_DECISION_PENDING_EXISTING_RIGHTS_PRESERVED"
     },
     {
       "path": "docs/funding/README.md",
       "candidate_sha256": "8fbc7604b4c6eda141c92c00f84481dce25782f3e04b5bbd1ff977f01df45214",
       "bytes": 4409,
       "origin": "NEW_PRIVATE_PLANNING_DRAFT",
-      "modifications": "Updated to the owner-agreed six-month/26-week USD 100,000 core planning model: Lead Designer and Internal Controls Specialist 48000 gross, qualified Software Engineer fixed allocation 48000 with hours/rate/scope negotiable, infrastructure provisional 4000. Optional paid supervised intern separately costed. Employment/administrative costs unquantified; no commitments or full-product completion promise.",
-      "assumption_source": "Owner-supplied provisional scope/budget/staffing assumptions; not evidence of commitments or private financial records.",
+      "modifications": "Updated the dated planning model, budget assumptions and optional paid supervised internship proposal. No award, employment, spending commitment or full-product completion promise. Current document bytes and existing rights are unchanged.",
       "license": "No new license grant; preserve applicable existing rights and notices.",
       "publication_review": "OWNER_APPROVED_PUBLIC_SOURCE_ACCESS_EXISTING_RIGHTS_PRESERVED_NO_NEW_LICENSE",
-      "role_label_editorial_modification": "Current technical/design role: Lead Designer and Internal Controls Specialist. Legal/source attribution and historical business-role wording elsewhere preserved.",
-      "generic_planning_revision": "Current owner-agreed core planning budget replaces the earlier student-led proposal; no named funding program or university, hiring, spending, model/API use, hosted CI, submission, license or visibility change.",
-      "historical_publication_review": "OWNER_FINAL_CONTENT_VISIBILITY_DECISION_PENDING",
-      "publication_wording_revision": "Record separate owner approval of reviewer-source/history public access on 19 October 2026; preserve existing licenses, attribution, budgets and evidence limits. No new Creative Commons/media/prose grant, deployment, release or application submission.",
-      "documentation_reconciliation_2026_10_21_0811": "Correct shared retained baseline only; preserve six-month USD 100,000 budget, compensation, terms and unquantified-cost cautions."
+      "historical_publication_review": "OWNER_FINAL_CONTENT_VISIBILITY_DECISION_PENDING"
     },
     {
       "path": "docs/funding/INTEGRATION_PILOT.md",
       "candidate_sha256": "698e42d8e4e0d3802b96625e56974d18ef016ab57a9609345039251f549ae446",
       "bytes": 7824,
       "origin": "PROGRAM_NEUTRAL_ADAPTATION_OF_PRIOR_PRIVATE_PLANNING_DRAFT",
-      "modifications": "Updated to the owner-agreed six-month/26-week USD 100,000 core planning model: Lead Designer and Internal Controls Specialist 48000 gross, qualified Software Engineer fixed allocation 48000 with hours/rate/scope negotiable, infrastructure provisional 4000. Optional paid supervised intern separately costed. Employment/administrative costs unquantified; no commitments or full-product completion promise.",
-      "assumption_source": "Owner-supplied provisional scope/budget/staffing assumptions; not evidence of commitments or private financial records.",
+      "modifications": "Updated the dated planning model, budget assumptions and optional paid supervised internship proposal. No award, employment, spending commitment or full-product completion promise. Current document bytes and existing rights are unchanged.",
       "license": "No new license grant; preserve applicable existing rights and notices.",
       "publication_review": "OWNER_APPROVED_PUBLIC_SOURCE_ACCESS_EXISTING_RIGHTS_PRESERVED_NO_NEW_LICENSE",
-      "role_label_editorial_modification": "Current technical/design role: Lead Designer and Internal Controls Specialist. Legal/source attribution and historical business-role wording elsewhere preserved.",
-      "prior_candidate_source": {
-        "repository": "pdxvoiceteacher/control-anchor-reviewer-demo",
-        "commit": "e15c920e2cf21dc139d77d7972bbfa8918c616b7",
-        "sha256": "a1e7e7024bef0d481c80cbaf5c81624f2b6a0c7d17ae9ef32583ec8594f4893e",
-        "status": "Historical superseded brief identified by exact prior commit and content hash; original path text omitted from the current program-neutral presentation.",
-        "original_path_sha256": "b226facaa1a4d4b4fb54dc78b8dba7c840245b5ead4d718b5f4e8cfce84d305d"
-      },
-      "generic_planning_revision": "Current owner-agreed core planning budget replaces the earlier student-led proposal; no named funding program or university, hiring, spending, model/API use, hosted CI, submission, license or visibility change.",
-      "historical_publication_review": "OWNER_FINAL_CONTENT_VISIBILITY_DECISION_PENDING",
-      "publication_wording_revision": "Record separate owner approval of reviewer-source/history public access on 19 October 2026; preserve existing licenses, attribution, budgets and evidence limits. No new Creative Commons/media/prose grant, deployment, release or application submission.",
-      "documentation_reconciliation_2026_10_21_0811": "Correct retained baseline and distinguish later installed/paired-device outcomes from source tests; budget and commitments unchanged."
+      "historical_publication_review": "OWNER_FINAL_CONTENT_VISIBILITY_DECISION_PENDING"
     },
     {
       "path": "docs/funding/OFFLINE_TOOL_IMPROVEMENT.md",
       "candidate_sha256": "82360252a9bd90e9f50605ccc495493c4b0214011afa225d3093998adf9f2c38",
       "bytes": 3871,
       "origin": "PROGRAM_NEUTRAL_ADAPTATION_OF_PRIOR_PRIVATE_PLANNING_DRAFT",
-      "modifications": "Updated to the owner-agreed six-month/26-week USD 100,000 core planning model: Lead Designer and Internal Controls Specialist 48000 gross, qualified Software Engineer fixed allocation 48000 with hours/rate/scope negotiable, infrastructure provisional 4000. Optional paid supervised intern separately costed. Employment/administrative costs unquantified; no commitments or full-product completion promise.",
-      "assumption_source": "Owner-supplied provisional scope/budget/staffing assumptions; not evidence of commitments or private financial records.",
+      "modifications": "Updated the dated planning model, budget assumptions and optional paid supervised internship proposal. No award, employment, spending commitment or full-product completion promise. Current document bytes and existing rights are unchanged.",
       "license": "No new license grant; preserve applicable existing rights and notices.",
       "publication_review": "OWNER_APPROVED_PUBLIC_SOURCE_ACCESS_EXISTING_RIGHTS_PRESERVED_NO_NEW_LICENSE",
-      "role_label_editorial_modification": "Current technical/design role: Lead Designer and Internal Controls Specialist. Legal/source attribution and historical business-role wording elsewhere preserved.",
-      "prior_candidate_source": {
-        "repository": "pdxvoiceteacher/control-anchor-reviewer-demo",
-        "commit": "e15c920e2cf21dc139d77d7972bbfa8918c616b7",
-        "sha256": "b026943d8c380828d01003771487ebad7c603f6dbdfa3369844b95cbc817647e",
-        "status": "Historical superseded brief identified by exact prior commit and content hash; original path text omitted from the current program-neutral presentation.",
-        "original_path_sha256": "4e7dc68a5dfade43ed955f7e08fdcf263e0e6124c38d799e114ae48030693f3a"
-      },
-      "generic_planning_revision": "Current owner-agreed core planning budget replaces the earlier student-led proposal; no named funding program or university, hiring, spending, model/API use, hosted CI, submission, license or visibility change.",
-      "historical_publication_review": "OWNER_FINAL_CONTENT_VISIBILITY_DECISION_PENDING",
-      "publication_wording_revision": "Record separate owner approval of reviewer-source/history public access on 19 October 2026; preserve existing licenses, attribution, budgets and evidence limits. No new Creative Commons/media/prose grant, deployment, release or application submission.",
-      "documentation_reconciliation_2026_10_21_0811": "Treat delivered missing-evidence/recovery examples as baseline, narrow remaining proposed work to observed usability/reproducibility gaps; no amount or commitment added."
+      "historical_publication_review": "OWNER_FINAL_CONTENT_VISIBILITY_DECISION_PENDING"
     },
     {
       "path": "docs/funding/BUDGET_ASSUMPTIONS.md",
@@ -1018,11 +796,9 @@
       "bytes": 5462,
       "origin": "NEW_PRIVATE_BUDGET_ASSUMPTIONS_NOTE",
       "modifications": "Owner-set engineering division and infrastructure allowance examples, checked primary price references, unquantified additional costs and no spending/qualification claims.",
-      "assumption_source": "Owner-agreed planning amounts/capacities and self-reported prior founder effort; not payroll records, purchase quotes, validated workload requirements or reimbursement owed.",
       "license": "No new license grant; preserve applicable existing rights and notices.",
       "publication_review": "OWNER_APPROVED_PUBLIC_SOURCE_ACCESS_EXISTING_RIGHTS_PRESERVED_NO_NEW_LICENSE",
-      "historical_publication_review": "OWNER_FINAL_CONTENT_VISIBILITY_DECISION_PENDING",
-      "publication_wording_revision": "Record separate owner approval of reviewer-source/history public access on 19 October 2026; preserve existing licenses, attribution, budgets and evidence limits. No new Creative Commons/media/prose grant, deployment, release or application submission."
+      "historical_publication_review": "OWNER_FINAL_CONTENT_VISIBILITY_DECISION_PENDING"
     },
     {
       "path": "docs/RESEARCH_LINEAGE_AND_EVALUATION.md",
@@ -1031,11 +807,7 @@
       "license": "No new license grant; preserve applicable existing rights and notices.",
       "publication_review": "OWNER_APPROVED_PUBLIC_SOURCE_ACCESS_EXISTING_RIGHTS_PRESERVED_NO_NEW_LICENSE",
       "candidate_sha256": "ecafb24698854f5157bb08894fa4a808fd17b960c2754882190929e932cba437",
-      "bytes": 8484,
-      "documentation_refresh_2026_10_20": "New concise high-level product/P2P interpretation and proposed synthetic two-workspace comparison. Separate local custody, optional cross-task reuse, peer artifact/storage sharing and fresh compute; preserve local authority and honest preview/current/future boundaries. No study, new implementation or funding commitment.",
-      "focused_update_2026_10_21": "Refresh only dated installed Home and local receiving versus unexecuted staging boundaries; preserve earlier research/design attribution and proposed study.",
-      "milestone_review_correction_2026_10_21": "Refresh branch checkpoints during independent review: retain CI212 failure before metadata I/O and unexecuted fixture repair; distinguish 35 unexecuted P2P staging cases from CI211 local receiving.",
-      "documentation_reconciliation_2026_10_21_0811": "Align existing peer/research note to the same dated source snapshot and bounded loopback result; no study or runtime execution."
+      "bytes": 8484
     },
     {
       "path": "validation/2026-10-21-summary.json",
@@ -1044,8 +816,7 @@
       "license": "MPL-2.0 to extent rights exist and covered",
       "publication_review": "OWNER_APPROVED_PUBLIC_SOURCE_ACCESS_EXISTING_RIGHTS_PRESERVED_NO_NEW_LICENSE",
       "candidate_sha256": "fb0bd25907b79cbf41affab51f8c6d65a47787e5deb205626c2ac66fd1add8a8",
-      "bytes": 3977,
-      "focused_update_2026_10_21": "New dated retained offline execution result; no real task or operational data."
+      "bytes": 3977
     },
     {
       "path": "validation/2026-10-21-unittest.log",
@@ -1054,8 +825,7 @@
       "license": "MPL-2.0 to extent rights exist and covered",
       "publication_review": "OWNER_APPROVED_PUBLIC_SOURCE_ACCESS_EXISTING_RIGHTS_PRESERVED_NO_NEW_LICENSE",
       "candidate_sha256": "c1ffb5fc5073ecb207767339e57e1cf5eab203cb84b1f95a61ffb3b808a4dcd3",
-      "bytes": 1739,
-      "focused_update_2026_10_21": "New dated retained offline execution result; no real task or operational data."
+      "bytes": 1739
     },
     {
       "path": "validation/2026-10-23-unittest.log",
@@ -1091,8 +861,7 @@
       "source_basis_paths": [],
       "modifications": "Owner-directed planning summary or unchanged-public-code synthetic test result. No handbook text, research extract, private source or new runtime behavior included.",
       "license": "MPL-2.0 to extent rights exist and covered",
-      "publication_review": "OWNER_APPROVED_PUBLIC_SOURCE_ACCESS_EXISTING_RIGHTS_PRESERVED_NO_NEW_LICENSE",
-      "proposed_partner_delivery_update_2026_10_23": "Owner-approved separate embedded proof-of-concept proposal against a standalone baseline; no execution or new resource authority."
+      "publication_review": "OWNER_APPROVED_PUBLIC_SOURCE_ACCESS_EXISTING_RIGHTS_PRESERVED_NO_NEW_LICENSE"
     },
     {
       "path": "validation/2026-10-23-roadmap-unittest.log",
@@ -1152,11 +921,7 @@
       "license": "Existing rights and notices preserved; no new media/prose license grant.",
       "publication_review": "OWNER_APPROVED_PUBLIC_GRAND_VISION_AND_VISUALS",
       "candidate_sha256": "af9b3be980c171d3eb0d6d9aa1636ca256a894d11d623129b93498b2abbf347f",
-      "bytes": 32478,
-      "initial_publication_modifications": "None; exact bytes from the owner-supplied Grand Vision publication packet, placed under docs with relative asset paths preserved.",
-      "initial_publication_sha256": "542934c1f3014832048435750145c33eeb1c95703a0b6f005ed6f7e40f03d346",
-      "initial_publication_bytes": 31452,
-      "proposed_partner_delivery_update_2026_10_23": "Owner-approved proposed delivery routes and integration, responsibility, data, authority and rights boundaries; no new implementation, commercial agreement or license grant."
+      "bytes": 32478
     },
     {
       "path": "docs/assets/architecture.svg",
@@ -1205,7 +970,6 @@
       "modifications": "Public professional CV text supplied for this publication; no private contact, residential location, personal reference list, policy document or internal source record included.",
       "license": "Existing rights and notices preserved; no new media/prose license grant.",
       "publication_review": "OWNER_REQUESTED_PUBLIC_PROFESSIONAL_CV_AND_README_LINK",
-      "verification_scope": "Professional account supplied for the public profile; no independent credential, employment, performance or third-party verification performed.",
       "candidate_sha256": "aa291da50cc8889132685aea27806f8ecbd7160404d78e856fed4fa469047682",
       "bytes": 19198
     },
@@ -1227,14 +991,7 @@
       "license": "MPL-2.0 to extent rights exist and covered",
       "publication_review": "OWNER_AUTHORIZED_PUBLIC_TECHNICAL_STATUS_UPDATE_DRAFT_NO_RELEASE",
       "candidate_sha256": "9f4b6cf52b6a4e1ee1aa3aa5ecc051597011ef2665583d01d2c72753d3b91a08",
-      "bytes": 11735,
-      "followup_2026_10_27": "Sanitized execution-owner-reported three-case portable package-source result on a separate frozen revision; distinct from ComfyUI tests and installed qualification. Saved-task handling remains under implementation, with proposed tests not counted as executed.",
-      "task_grant_followup_2026_10_27": "Sanitized five-case Linux native task-grant core result, with fifteen lifecycle records kept distinct from passed tests and no broader UI/installed claim. Original prospective maintenance-method research wording; no private scaffold, code or identifiers copied.",
-      "owner_pedagogy_status_2026_10_27": "Original sanitized narrative: method acknowledgments and documentation/evidence-use boundaries are distinct from deferred maintenance execution or production allocation; pedagogy refinements remain proposed methods/pilots without measured gains. Existing provenance retained; no private identifiers, implementation or new registry.",
-      "saved_task_source_milestone_2026_10_27": "Sanitized 35-case Windows-hosted source qualification with 105 distinct lifecycle records; installation skipped by scope. Earlier Linux/native-grant and unrun checkpoints remain separate; no public runtime capability, installed proof or private identifiers added.",
-      "hosted_installation_milestone_2026_10_27": "Original sanitized narrative of independently reviewed hosted installation, installed-copy/service-role qualification and scripted restricted Home/provider-selection persistence. Explicit service termination/reap and remaining local/provider/lifecycle limits retained; no private identifiers, logs, source or public runtime changes.",
-      "configuration_source_milestone_2026_10_27": "Original sanitized 18-case/54-phase source-qualification narrative using service/SQLite consumers; injected protected-host/credential/delivery boundaries and unfinished installed receiving remain explicit. Historical hosted result and public synthetic runtime preserved; no private identifiers, source or logs.",
-      "diagnostic_hosted_alignment_2026_10_27": "Original sanitized batched narrative: separate 12/36 diagnostic and four/12 window qualifications, preserved acquisition failure, later hosted installation/startup and unresolved original local-consent cause. No system-RAM diagnosis, local/live-AI proof, private identifiers or public runtime change."
+      "bytes": 11735
     },
     {
       "path": "docs/DEVELOPMENT_UPDATE_2026-10-29.md",
@@ -1262,8 +1019,8 @@
     },
     {
       "path": "docs/COMMUNITY_COMPUTE_VISION.md",
-      "candidate_sha256": "5216bd122774487381ffd922f6879b0fb50be3720422d104161be6eb959ba11e",
-      "bytes": 15146,
+      "candidate_sha256": "dd908cb334527c4f7a3a72aebd710c598cba7e45961bf685ab086e96533904f5",
+      "bytes": 19176,
       "origin": "NEW_OWNER_DIRECTED_HIGH_LEVEL_PROPOSAL",
       "source_basis_paths": [
         "README.md",
@@ -1273,8 +1030,7 @@
       "modifications": "Confident aspirational global community-compute vision, six proposed design layers and verified public contribution route. No private implementation, new measured capability, affiliation, delivery guarantee or runtime change.",
       "license": "Existing rights and notices preserved; no new media/prose license grant.",
       "publication_review": "OWNER_APPROVED_PUBLIC_HIGH_LEVEL_PROPOSAL_FOCUSED_REVIEW_NO_BLOCKING_FINDING",
-      "distributed_virtual_computer_proposal_2026_10_31": "Owner-directed high-level proposed onboarding, bounded shared resources, confidentiality and provenance tiers, and verification roadmap; no delivered capability, private implementation, new runtime evidence or license grant.",
-      "concept_ethos_navigation_2026_11_01": "One navigation paragraph to the separately reviewed high-level concept and ethos reference; original prose, historical evidence and rights preserved."
+      "cooperative_ethos_clarification_2026_11_02": "Owner-directed freedom, local ownership, voluntary mutual aid and practical exit; informed higher overhead may be legitimate. Existing capability limits, rights and public contribution route preserved. No runtime change or new operational evidence."
     },
     {
       "path": "docs/TRIADIC_BRAIN_VISION.md",
@@ -1289,42 +1045,6 @@
       "modifications": "Human-readable whole-system concept and ethos, utopian north star, component roles, authority and confidentiality boundaries, everyday proposed scenario and staged research roadmap. No private implementation or new runtime evidence.",
       "license": "Existing rights and notices preserved; no new media/prose license grant.",
       "publication_review": "OWNER_AUTHORIZED_PUBLIC_HIGH_LEVEL_PROPOSAL_INDEPENDENT_CONTENT_REVIEW_NO_MATERIAL_FINDING"
-    }
-  ],
-  "consulted_originals": [
-    {
-      "original_path": "tests/test_aep01_transaction.py",
-      "original_git_blob": "18a91d03012b061154a22de350c8a55468b26208",
-      "original_sha256": "cf29ed9d51e6033e3b0387751506fa40e51c2cfee5d69e4ce6022cea650cc65b"
-    },
-    {
-      "original_path": "LICENSE_SCOPE.md",
-      "original_git_blob": "8bfc73c643d8edaf161a5bb3a591d8a736a83beb",
-      "original_sha256": "90e5da23e34a9cecd2b3195f31170e544c115abb14e06bf3acf1b4f39d78ce88"
-    },
-    {
-      "original_path": "NOTICE",
-      "original_git_blob": "e49df1a1294187ab8078d25cfd5a859bbe20aac5",
-      "original_sha256": "49edb70b0e525f824bad5c09983eaa396801853c32d02180708149f9fe9f43dd"
-    },
-    {
-      "original_path": "THIRD_PARTY_NOTICES.md",
-      "original_git_blob": "dbdbb67166924cc142afcea273c5679232401ba9",
-      "original_sha256": "6d2bd5f8e81a28d1896045502112bac925b4fb7f206b067a23e10edf1d82b4b7"
-    },
-    {
-      "original_path": "AI_ASSISTANCE_DISCLOSURE.md",
-      "original_git_blob": "5768c7bc7852d5601d4d91e452a79770637f4818",
-      "original_sha256": "8028ac99f31ba693e270e1c7bc544d9b1d494de829bb0ac8550c16c29c3925a5"
-    },
-    {
-      "original_path": "docs/current/master-design.md",
-      "original_git_blob": "51f6b696ab55ea616dcbb82f18691a2061611565",
-      "original_sha256": "21aa1f00f1720e5cd5f14307aabe8578af97c7232c87886a0fdf6ebec8a59e3d"
-    },
-    {
-      "original_path": "AGENTS.md",
-      "original_git_blob": "bc8c53c72f84127c82fcc8d8b7b11689d04883c8"
     }
   ],
   "dependency_closure": {
@@ -1475,458 +1195,28 @@
   ],
   "methods_appendix_sources": [
     {
-      "source_repository": "pdxvoiceteacher/CoherenceLattice",
-      "source_commit": "f0566d8f79c308eaeb9ab10cb8255478e8913a71",
-      "original_path": "docs/provenance/pedagogy/UVLM_PROVENANCE_PEDAGOGY_v1.md",
-      "original_git_blob": "905d8d91ecb1b04c10b2264e432d122cbe114d90",
-      "original_sha256": "ae37f972c6db7bcc6ffd45e8ac624d02ba4d4e4a03ccbe01d82913887d1102b9",
-      "source_url": "https://github.com/pdxvoiceteacher/CoherenceLattice/blob/f0566d8f79c308eaeb9ab10cb8255478e8913a71/docs/provenance/pedagogy/UVLM_PROVENANCE_PEDAGOGY_v1.md",
+      "source_title": "UVLM Provenance Pedagogy, version 1",
+      "attribution": "Thomas Prislac / UVLM",
       "source_bytes_copied": false,
       "use": "Read and paraphrased in docs/METHODS_APPENDIX.md; no training implementation or live records copied.",
       "license_boundary": "No applicable grant identified in the source document or a repository license file at the inspected snapshot. No upstream relicensing or title conclusion.",
       "publication_review": "HOLD"
     },
     {
-      "source_repository": "pdxvoiceteacher/Sophia",
-      "source_commit": "36165bdca0c5fbdc58d7500c41af6c9fd775197c",
-      "original_path": "docs/provenance/UVLM_PROVENANCE_PEDAGOGY_REFINEMENT_OVERLAY_v1.1.md",
-      "original_git_blob": "803a72d0ffa1554c5c7c8db7f953e86215d33209",
-      "original_sha256": "bd090870e523e238190f3b1485aea388862ec60f6f73c8a945690ccc685e90b7",
-      "source_url": "https://github.com/pdxvoiceteacher/Sophia/blob/36165bdca0c5fbdc58d7500c41af6c9fd775197c/docs/provenance/UVLM_PROVENANCE_PEDAGOGY_REFINEMENT_OVERLAY_v1.1.md",
+      "source_title": "UVLM Provenance Pedagogy Refinement Overlay, version 1.1",
+      "attribution": "Thomas Prislac / UVLM",
       "source_bytes_copied": false,
       "use": "Read and paraphrased in docs/METHODS_APPENDIX.md; no training implementation or live records copied.",
       "license_boundary": "No applicable grant identified in the source document or a repository license file at the inspected snapshot. No upstream relicensing or title conclusion.",
       "publication_review": "HOLD"
-    }
-  ],
-  "documentation_sources": [
-    {
-      "source_repository": "pdxvoiceteacher/triadicbrain-open-alpha",
-      "source_commit": "37583fd91ff7f0d912256c10fea89ff6896763cf",
-      "original_path": "README.md",
-      "original_git_blob": "724c97412410f584279b3d6def0f093741bdd84d",
-      "original_sha256": "91052e400766e35077a689a60c6e087aae7947aced9ab7aa3e44bcc548168f02",
-      "source_url": "https://github.com/pdxvoiceteacher/triadicbrain-open-alpha/blob/37583fd91ff7f0d912256c10fea89ff6896763cf/README.md",
-      "source_bytes_copied": false,
-      "use": "Read for compact product responsibilities/source-bound delivery context or excluded-component notice correction; no private inventory or run records copied."
-    },
-    {
-      "source_repository": "pdxvoiceteacher/triadicbrain-open-alpha",
-      "source_commit": "37583fd91ff7f0d912256c10fea89ff6896763cf",
-      "original_path": "docs/current/product-file-map.md",
-      "original_git_blob": "55b3916cef28fd43ed8685410281158fa83da532",
-      "original_sha256": "fb608d1ba9bb8474a555bdaf9a71566a1f744c7a2710d2d776b29758efabefb6",
-      "source_url": "https://github.com/pdxvoiceteacher/triadicbrain-open-alpha/blob/37583fd91ff7f0d912256c10fea89ff6896763cf/docs/current/product-file-map.md",
-      "source_bytes_copied": false,
-      "use": "Read for compact product responsibilities/source-bound delivery context or excluded-component notice correction; no private inventory or run records copied."
-    },
-    {
-      "source_repository": "pdxvoiceteacher/triadicbrain-open-alpha",
-      "source_commit": "37583fd91ff7f0d912256c10fea89ff6896763cf",
-      "original_path": "docs/delivery/WINDOWS_INSTALLER_MAP.md",
-      "original_git_blob": "206089f4690b8ecb5bc1ea27c72f2dedf8f63230",
-      "original_sha256": "cc6c4d509b21ea5362f53e5e8b43e5e845f4da76372dae613868033f6b39461d",
-      "source_url": "https://github.com/pdxvoiceteacher/triadicbrain-open-alpha/blob/37583fd91ff7f0d912256c10fea89ff6896763cf/docs/delivery/WINDOWS_INSTALLER_MAP.md",
-      "source_bytes_copied": false,
-      "use": "Read for compact product responsibilities/source-bound delivery context or excluded-component notice correction; no private inventory or run records copied."
-    },
-    {
-      "source_repository": "pdxvoiceteacher/triadicbrain-open-alpha",
-      "source_commit": "37583fd91ff7f0d912256c10fea89ff6896763cf",
-      "original_path": "CURRENT_PRODUCT.md",
-      "original_git_blob": "30c8b90b33b43aa972d42cff4c095b4e4fdb763c",
-      "original_sha256": "b5ddfca9ff2979dba13e3db23e1aa658062792edc39df9889ea3adb965c6b5d0",
-      "source_url": "https://github.com/pdxvoiceteacher/triadicbrain-open-alpha/blob/37583fd91ff7f0d912256c10fea89ff6896763cf/CURRENT_PRODUCT.md",
-      "source_bytes_copied": false,
-      "use": "Read for compact product responsibilities/source-bound delivery context or excluded-component notice correction; no private inventory or run records copied."
-    },
-    {
-      "source_repository": "pdxvoiceteacher/triadicbrain-open-alpha",
-      "source_commit": "139932846cb1b6bf1571158464d89513d4e381f8",
-      "original_path": "COMPONENT_REUSE_DECISIONS.json",
-      "original_git_blob": "74e97d280f15d997c95ae4b18db9291965629b30",
-      "original_sha256": "dd75e3a71d3b694c7e44dc631dc7301abff240d880912ec00d510697c4c9721f",
-      "source_url": "https://github.com/pdxvoiceteacher/triadicbrain-open-alpha/blob/139932846cb1b6bf1571158464d89513d4e381f8/COMPONENT_REUSE_DECISIONS.json",
-      "source_bytes_copied": false,
-      "use": "Read for compact product responsibilities/source-bound delivery context or excluded-component notice correction; no private inventory or run records copied."
-    },
-    {
-      "source_repository": "pdxvoiceteacher/triadicbrain-open-alpha",
-      "source_commit": "35599bb18f24dc0cc18fa84a92915f848e00a9f6",
-      "original_path": "docs/current/master-design.md",
-      "original_git_blob": "51f6b696ab55ea616dcbb82f18691a2061611565",
-      "inspected_line_range": {
-        "start": 771,
-        "end": 1029
-      },
-      "source_bytes_copied": false,
-      "use": "Read for high-level product/P2P and staged-acceptance alignment in docs/RESEARCH_LINEAGE_AND_EVALUATION.md; no private implementation, operational/account history or later test evidence copied.",
-      "reviewed_date_utc": "2026-10-20"
-    },
-    {
-      "source_repository": "pdxvoiceteacher/triadicbrain-open-alpha",
-      "source_commit": "35599bb18f24dc0cc18fa84a92915f848e00a9f6",
-      "original_path": "docs/whitepaper/control-anchor-unified-white-paper-v0.4.md",
-      "original_git_blob": "d03af2b54650e359ccc6e548dd3e568bed9b2ca8",
-      "inspected_line_range": {
-        "start": 407,
-        "end": 426
-      },
-      "source_bytes_copied": false,
-      "use": "Read for high-level product/P2P and staged-acceptance alignment in docs/RESEARCH_LINEAGE_AND_EVALUATION.md; no private implementation, operational/account history or later test evidence copied.",
-      "reviewed_date_utc": "2026-10-20"
-    },
-    {
-      "source_repository": "pdxvoiceteacher/triadicbrain-open-alpha",
-      "source_commit": "35599bb18f24dc0cc18fa84a92915f848e00a9f6",
-      "original_path": "README.md",
-      "original_git_blob": "724c97412410f584279b3d6def0f093741bdd84d",
-      "inspected_line_range": {
-        "start": 394,
-        "end": 457
-      },
-      "source_bytes_copied": false,
-      "use": "Read for high-level product/P2P and staged-acceptance alignment in docs/RESEARCH_LINEAGE_AND_EVALUATION.md; no private implementation, operational/account history or later test evidence copied.",
-      "reviewed_date_utc": "2026-10-20"
-    },
-    {
-      "source_repository": "pdxvoiceteacher/triadicbrain-open-alpha",
-      "source_commit": "206aeb6d6f17cf4e2656f14890ea5ddc04237a06",
-      "original_path": "CURRENT_PRODUCT.md",
-      "original_git_blob": "3ced308be6cd7a3dda2e99d7c88d3e47204698b6",
-      "source_bytes_copied": false,
-      "use": "21 October milestone summary only; no private implementation, inventory or operational history copied.",
-      "source_url": "https://github.com/pdxvoiceteacher/triadicbrain-open-alpha/blob/206aeb6d6f17cf4e2656f14890ea5ddc04237a06/CURRENT_PRODUCT.md"
-    },
-    {
-      "source_repository": "pdxvoiceteacher/triadicbrain-open-alpha",
-      "source_commit": "206aeb6d6f17cf4e2656f14890ea5ddc04237a06",
-      "original_path": "docs/current/product-file-map.md",
-      "original_git_blob": "0d1b53deb9b600e7a0208815aa5d25c9f5ce5c57",
-      "source_bytes_copied": false,
-      "use": "21 October milestone summary only; no private implementation, inventory or operational history copied.",
-      "source_url": "https://github.com/pdxvoiceteacher/triadicbrain-open-alpha/blob/206aeb6d6f17cf4e2656f14890ea5ddc04237a06/docs/current/product-file-map.md"
-    },
-    {
-      "source_repository": "pdxvoiceteacher/triadicbrain-open-alpha",
-      "source_commit": "62143cf9420d0f9ba2a794a51e987a40ebe6e876",
-      "original_path": "docs/current/p2p-development-map.md",
-      "original_git_blob": "5c8fe711d731d4514d1a675169a547453de6f6c3",
-      "source_bytes_copied": false,
-      "use": "Separate CI211 local receiving from newer authored/unexecuted staging; no peer code copied.",
-      "source_url": "https://github.com/pdxvoiceteacher/triadicbrain-open-alpha/blob/62143cf9420d0f9ba2a794a51e987a40ebe6e876/docs/current/p2p-development-map.md"
-    },
-    {
-      "source_repository": "pdxvoiceteacher/triadicbrain-open-alpha",
-      "source_commit": "a4c2f28087038fec13d0417cfa47b6f994f34d87",
-      "original_path": "docs/current/p2p-development-map.md",
-      "original_git_blob": "00565c3a0062ea32ae8e5ee749209bf939ccfb15",
-      "source_bytes_copied": false,
-      "use": "Branch checkpoint refreshed during independent review: 35 authored/unexecuted staging cases; earlier 34-case checkpoint remains historical. No peer code or operational records copied.",
-      "source_url": "https://github.com/pdxvoiceteacher/triadicbrain-open-alpha/blob/a4c2f28087038fec13d0417cfa47b6f994f34d87/docs/current/p2p-development-map.md"
-    },
-    {
-      "source_repository": "pdxvoiceteacher/triadicbrain-open-alpha",
-      "source_commit": "ff5a40adb43191b2018b13e1a4dcf00ebc5bcc9e",
-      "original_path": "docs/current/p2p-development-map.md",
-      "original_git_blob": "036a895bb6f6da83eac6f104183a48e6ce649993",
-      "source_bytes_copied": false,
-      "use": "Scoped reported receiving/staging and one synthetic same-process loopback source result; no private code, raw operational artifact or socket address copied.",
-      "source_url": "https://github.com/pdxvoiceteacher/triadicbrain-open-alpha/blob/ff5a40adb43191b2018b13e1a4dcf00ebc5bcc9e/docs/current/p2p-development-map.md"
-    },
-    {
-      "source_repository": "pdxvoiceteacher/triadicbrain-open-alpha",
-      "source_commit": "ff5a40adb43191b2018b13e1a4dcf00ebc5bcc9e",
-      "original_path": "docs/current/provider-delivery.md",
-      "original_git_blob": "b76a3465114caa70e39bd0d03fe9fdea11666f63",
-      "source_bytes_copied": false,
-      "use": "Source navigation and limits; PR66 CI217 evidence supersedes the specific stale unexecuted REREAD statement.",
-      "source_url": "https://github.com/pdxvoiceteacher/triadicbrain-open-alpha/blob/ff5a40adb43191b2018b13e1a4dcf00ebc5bcc9e/docs/current/provider-delivery.md"
-    },
-    {
-      "source_repository": "pdxvoiceteacher/triadicbrain-open-alpha",
-      "source_commit": "ff5a40adb43191b2018b13e1a4dcf00ebc5bcc9e",
-      "original_path": "AGENTS.md",
-      "original_git_blob": "bc8c53c72f84127c82fcc8d8b7b11689d04883c8",
-      "source_bytes_copied": false,
-      "use": "Current evidence distinctions, product responsibilities and publication boundaries.",
-      "source_url": "https://github.com/pdxvoiceteacher/triadicbrain-open-alpha/blob/ff5a40adb43191b2018b13e1a4dcf00ebc5bcc9e/AGENTS.md"
-    },
-    {
-      "source_repository": "pdxvoiceteacher/triadicbrain-open-alpha",
-      "source_commit": "ff5a40adb43191b2018b13e1a4dcf00ebc5bcc9e",
-      "original_path": "docs/current/master-design.md",
-      "original_git_blob": "51f6b696ab55ea616dcbb82f18691a2061611565",
-      "source_bytes_copied": false,
-      "use": "Public-safe paraphrase of application-only delivery, local workbench workflow, selected analysis, separate roles and human authority.",
-      "source_url": "https://github.com/pdxvoiceteacher/triadicbrain-open-alpha/blob/ff5a40adb43191b2018b13e1a4dcf00ebc5bcc9e/docs/current/master-design.md"
     }
   ],
   "publication_review_status_note": "Original copied-file/source HOLD records remain historical byte-provenance metadata. Owner separately approved public reviewer-source/history access; GitHub public visibility and unauthenticated document access were verified. This does not certify title, create a new license, resolve a finding or establish installed/live product operation.",
-  "candidate_review_notes": {
-    "schema_scope": "Only the 12 commission-supplied AEP01/PoC01 schemas in copied_files were examined; exact source hashes retained.",
-    "schema_inspection": "No specific third-party license exception, attribution, proprietary criteria text or external $ref identified. JSON Schema dialect declaration is a format identifier.",
-    "ownership_attestation": "Thomas attests sole software ownership and no board ownership; this is owner evidence, not independent title proof.",
-    "specific_remaining_license_scope": "Owner approved public access to this reviewer repository and its history on 19 October 2026, preserving all applicable existing rights/permissions/notices and adding no Creative Commons or media/prose license. Development repositories remain private.",
-    "runtime_evidence": "Runtime/tests/fixtures and reviewed media retain prior exact bytes and observed evidence; only publication-status documentation and manifest changed. No runtime/CI/model execution."
-  },
-  "media_pack": {
-    "archive_filename": "Control_Anchor_Reviewer_Media_Update_2026-10-18.zip",
-    "archive_bytes": 5644899,
-    "archive_sha256": "0a0c693bacb3b3f59f5fa7cdb0e48fd866c6ffe203361751b9c45ecdaa77960d",
-    "input": "Explicit user-provided local download; no Library writeback",
-    "archive_committed": false,
-    "downloaded_original_preserved": true,
-    "exact_extracted_member_count": 11,
-    "exact_extracted_member_bytes": 5962920,
-    "manifest_verification": "All ten current member rows match exact sizes/SHA256; current manifest itself bound by this source manifest; all three cover hashes remain original.",
-    "worker_reported_qa": "For this exact successor: both decks validated; changed title slides visually checked; all other slide renders unchanged; all 27 DOCX pages checked; DOCX/TXT spoken alignment verified. Report supplied by parent from original cloud rendering environment.",
-    "importer_observed_inspection": "Patch AST/imports and decoded JSON paths/byte operations inspected before execution; original archive and all 11 source/output hashes verified; Office ZIP/XML/role-text deltas, unchanged attribution, relationship targets, creator/source properties, active content and privacy indicators checked.",
-    "privacy_disposition": "No unintended private content identified. Only email indicators were the intended info@ultraverbaluxmentis.org business contact. No macros, embedded objects, comments, tracked changes or local user paths found.",
-    "source_metadata_boundary": "Creator/source properties and attribution preserved. Reviewed deck export regenerated relationship IDs and created/modified timestamps; relationship targets unchanged. Stored Office ZIP members increase bytes. Exporter counters are not rendered layout counts.",
-    "runtime_boundary": "Runtime, tests, fixtures and recorded validation unchanged; no runtime rerun. Local operation reproduced exact already-reviewed media bytes, without local Office rendering or dependency installation.",
-    "license_decision": "Existing licenses, rights/permissions and notices preserved. No Creative Commons or new media/prose license is added; earlier optional recommendations are not applied.",
-    "visibility_decision": "Owner approved public source access to this reviewer repository including history and media on 19 October 2026, preserving existing licenses with no new grant. Development/source repositories remain private. Dated media payload access-status statements remain historical.",
-    "original_import_status": "Archive filename/size/hash and exact_extracted_member_* above describe the preserved original import, not current role-revised payload bytes.",
-    "current_revision": {
-      "label": "Professional role wording",
-      "reviewed_archive_filename": "Control_Anchor_Reviewer_Media_Project_Lead_2026-10-18.zip",
-      "reviewed_archive_bytes": 8292446,
-      "reviewed_archive_sha256": "05bc1d207d786bfc4c3999145e56552c6e9e5f824c0dccbc754399529d1e79f5",
-      "payload_member_count": 11,
-      "payload_bytes": 8290578,
-      "patch_script_bytes": 16886,
-      "patch_script_sha256": "7b8af34e8c457021b244357f3dd6bd9cec15b9bb8c5bc26a0d9a40376fe0f068",
-      "patch_archive_and_QA_files_committed": false,
-      "original_download_preserved_and_reverified": true,
-      "cover_files_unchanged": 3,
-      "publication_or_new_license_grant": false,
-      "publication_scope_note": "The role-label import itself granted no publication/license authority; subsequent owner-approved reviewer-source/history access is recorded in publication_decision."
-    }
-  },
-  "funding_planning_notes": {
-    "status": "Current owner-agreed planning model approved for public reviewer-source/history access; not a final all-in application, award, hiring commitment or spending authority. Grant allowability unconfirmed.",
-    "duration": {
-      "months": 6,
-      "weeks_for_hourly_examples": 26
-    },
-    "core_budget_usd": {
-      "Lead Designer and Internal Controls Specialist": 48000,
-      "qualified Software Engineer": 48000,
-      "provisional infrastructure": 4000,
-      "total": 100000
-    },
-    "lead_capacity": "USD 8000/month gross for six months, 40 paid hours/week; no reliance on unpaid excess hours. No automatic pay cut or reallocation.",
-    "engineering": "Fixed USD 48000 compensation allocation before employer burden; hours/rate/scope negotiated together. 40/30/20 hours per week over 26 weeks yield approximate USD 46.153846/61.53846/92.30769 per hour. Fewer hours do not promise equal output.",
-    "infrastructure_example_usd": {
-      "local_memory_hardware": 1100,
-      "hosting_object_storage": 174,
-      "cloud_GPU_capacity": 534,
-      "GPU_network_storage": 42,
-      "CI_capacity": 180,
-      "API_testing": 1200,
-      "example_subtotal": 3230,
-      "unallocated_headroom": 770,
-      "category_total": 4000
-    },
-    "infrastructure_boundary": "Capacity/spending allowances only. Hardware quote and compatibility/QVL pending; no RAM SKU recommendation or workload validation. Existing GPU reuse and free credits not guaranteed. No service activation or CI/model/API execution.",
-    "additional_costs": "Required employer/payroll costs, benefits, taxes, insurance and administration not quantified or provided for in core USD 100000; infrastructure headroom is not provision for these unknown costs.",
-    "student_opportunity": "University Student Intern Opportunity remains optional, separately costed, paid and technically supervised; no automatic intern cost in core budget, named institution, secured recruitment, partnership or credit.",
-    "prior_contribution": "Self-reported founder effort since October 2025, roughly 50-60 hours/week; no historical dollar valuation, owed reimbursement or added past-work request.",
-    "offline_tool_improvement": "Alternative smaller offline-tool scope remains uncosted; no request amount or work estimate invented. No overlapping costs.",
-    "shared_boundary": "Same unchanged eight-test synthetic provider-free evidence baseline; installed/live/P2P and full-product completion not promised. Pending proposals are not awards; submitted applications unchanged.",
-    "license_boundary": "Existing licenses/notices preserved. Owner-approved public source/history access adds no Creative Commons or media/prose grant. Program access/eligibility and full costs still need checking before any application."
-  },
-  "role_label_editorial_note": {
-    "scope": "Contextual reviewer-facing narrative labels only: Project Lead; Founder where the business role matters.",
-    "preserved": "Legal/copyright/commissioner/source attribution, source provenance, ownership-attestation quote, original copied-file records, runtime identifiers, tests/fixtures, immutable evidence, licensing and budgets.",
-    "media": "Coordinated PPTX/DOCX/TXT Project Lead revision now imported as exact cloud-reviewed bytes; title/narrative roles changed, actual attribution retained. Source hashes remain historical; current hashes and QA recorded in media_pack/current file records."
-  },
-  "superseded_planning_provenance": {
-    "repository": "pdxvoiceteacher/control-anchor-reviewer-demo",
-    "commit": "1b38a8f98f7df9ff9d935113188a185e844c0caa",
-    "path": "SOURCE_MANIFEST.json",
-    "git_blob_sha": "0ace3db1dd0f799604b53f1b263ce441636eb820",
-    "sha256": "88c31e872becdd848bc445b3a6f869e35bbde5fbcd04c6e4b799d06499ad2c35",
-    "status": "Exact prior planning/source record; superseded as the current budget. Historical target names/URLs are omitted from the current program-neutral presentation. Prior commits are preserved."
-  },
-  "funding_planning_sources": [
-    {
-      "url": "https://www.digitalocean.com/pricing/droplets",
-      "observed": "Regular Basic VM example: 4 GiB RAM, 2 vCPU, 80 GiB SSD, USD 24/month.",
-      "checked_date_utc": "2026-10-19",
-      "basis": "Primary price reference only; quantities are owner planning assumptions, not verified workload needs or buying recommendations."
-    },
-    {
-      "url": "https://www.digitalocean.com/pricing/spaces-object-storage",
-      "observed": "Base object-storage example: 250 GiB, USD 5/month.",
-      "checked_date_utc": "2026-10-19",
-      "basis": "Primary price reference only; quantities are owner planning assumptions, not verified workload needs or buying recommendations."
-    },
-    {
-      "url": "https://www.runpod.io/pricing",
-      "observed": "RTX 4090 Pod example USD 0.89/hour; standard network storage under 1 TB USD 0.07/GB/month. Not serverless pricing.",
-      "checked_date_utc": "2026-10-19",
-      "basis": "Primary price reference only; quantities are owner planning assumptions, not verified workload needs or buying recommendations."
-    },
-    {
-      "url": "https://docs.github.com/en/billing/reference/actions-runner-pricing",
-      "observed": "Linux 2-core x64 hosted runner USD 0.006/minute; job minutes rounded up.",
-      "checked_date_utc": "2026-10-19",
-      "basis": "Primary price reference only; quantities are owner planning assumptions, not verified workload needs or buying recommendations."
-    }
-  ],
   "publication_decision": {
     "date_utc": "2026-10-19",
     "decision": "Owner explicitly approved making only control-anchor-reviewer-demo public, including its history, preserving existing licenses and adding no Creative Commons license.",
-    "approved_baseline_commit": "124cc8ccb7fdbf0b71af08f81e43760d4a2cd9a5",
-    "baseline_files": 74,
-    "baseline_history_commits": 9,
-    "baseline_unique_blobs": 121,
-    "baseline_unique_blob_bytes": 9957389,
-    "checked_scope": "All reachable baseline file versions, Office XML/relationships, metadata and commit identities; current manifest/hashes/notices, synthetic boundaries and unchanged evidence. Final publication successor is documentation/manifest only.",
-    "privacy_result": "No credentials, local user paths, private operator/learner/customer records or active Office content identified. Intended business contact and configured commit identity retained under approved history.",
-    "history_policy": "Preserve reviewer history, including superseded planning/status language. Do not copy full development history or rewrite prior commits.",
-    "excluded_actions": "No development-repository visibility/access change, invitations, release, grant submission, deployment, purchase, hosted CI or model execution.",
-    "visibility_execution": "Owner made this reviewer repository public; independent unauthenticated document reads were verified on 19 October 2026 and rechecked on 20 October against 14cf598078deff4c78db232771aee8fc0d6a15b0. GitHub visibility metadata agrees. The development repository remains private; no visibility/settings change is part of this documentation update."
+    "history_policy": "Preserve reviewer history, including superseded planning/status language. Do not copy full development history or rewrite prior commits."
   },
-  "documentation_refresh_2026_10_20": {
-    "approval": "Owner explicitly approved public documentation commit/push and requested P2P reconciliation with maintained product development.",
-    "reviewer_baseline_commit": "14cf598078deff4c78db232771aee8fc0d6a15b0",
-    "scope": [
-      "README.md",
-      "PUBLICATION_REVIEW.md",
-      "docs/RESEARCH_LINEAGE_AND_EVALUATION.md",
-      "SOURCE_MANIFEST.json"
-    ],
-    "implementation_extraction_commit_unchanged": "139932846cb1b6bf1571158464d89513d4e381f8",
-    "design_alignment_commit": "35599bb18f24dc0cc18fa84a92915f848e00a9f6",
-    "alignment_boundary": "Maintained design/peer narrative and staged delivery reviewed separately from original implementation provenance. Selected research/prototype preview boundaries inspected, not executed or transplanted.",
-    "public_access_readback": {
-      "checked_date_utc": "2026-10-20",
-      "baseline_commit": "14cf598078deff4c78db232771aee8fc0d6a15b0",
-      "reviewer_visibility": "public",
-      "development_visibility": "private",
-      "method": "GitHub repository metadata and independent unauthenticated reads of README, VALIDATION and integration pilot."
-    },
-    "evidence_boundary": "No application, focused tests, provider/model, peer prototype, hosted CI or installation executed for this documentation refresh. Existing 18 October validation remains historical. Original evidence JSON/HOLD values and empty resolved_finding_ids remain unchanged.",
-    "preservation": "Runtime, fixtures, tests, historical evidence, media, licenses/notices and funding documents/commitments are unchanged. Existing architecture diagram and attribution preserved verbatim. No visibility/access change or new license."
-  },
-  "focused_update_2026_10_21": {
-    "reviewer_base": "394b042511f970d3dfcebab947a20cc89c868a1f",
-    "milestone_main": "206aeb6d6f17cf4e2656f14890ea5ddc04237a06",
-    "runtime_extraction_unchanged": "139932846cb1b6bf1571158464d89513d4e381f8",
-    "scope": "Authored harness/tests and concise existing documentation only; no provider, peer or installer code imported.",
-    "new_execution": "11 tests OK; separate demo: six positive directory/ZIP checks, missing-member rejection in both consumers, denied authority, one pre-seal fault recovery and unchanged second recovery, 177 reopened evidence objects.",
-    "visual_qa": "Local review.html open denied by browser URL policy in Thomas's Chrome; source inspected only; no server/workaround.",
-    "historical_evidence": "Original observed-demo-summary.json, eight-test result, original failures and all existing license/provenance records preserved.",
-    "branch_checkpoint_review_correction": {
-      "provider_metadata_test_source": "6b92a9bb4419053b5c3f16fe0b1bd672d9e5a79a",
-      "provider_result": "CI212: 26 collected, 0 complete PASS, 1 FAIL, 25 unexecuted; failed before metadata I/O at Windows client-journal DLL acquisition blocked by source-only guard.",
-      "provider_run": "https://github.com/pdxvoiceteacher/triadicbrain-open-alpha/actions/runs/39544384534",
-      "provider_fixture_only_successor": "caaf8af33ac64e5fd9bf21b75770903ec3dd493d",
-      "provider_successor_status": "UNEXECUTED; production, guards and 26-case selection unchanged. Fresh PR66 metadata read during independent review.",
-      "p2p_staging_successor": "a4c2f28087038fec13d0417cfa47b6f994f34d87",
-      "p2p_staging_status": "35 authored/unexecuted cases; CI211 remains separate earlier local receiving source qualification.",
-      "code_and_execution_evidence": "Unchanged from reviewed 87f1af7c1dbfa1c50bf68fbcafa0e9f9a7adf371; correction is authored documentation/provenance only.",
-      "verified_at_utc": "2026-10-21 04:52:47 UTC",
-      "snapshot_boundary": "Named reviewed commits; later branch activity does not retarget these results or require another refresh."
-    }
-  },
-  "documentation_reconciliation_2026_10_21_0811": {
-    "public_base": "275a87d31e08b566a43baea65ce4b5cc4e98a8bd",
-    "private_source_snapshot": "ff5a40adb43191b2018b13e1a4dcf00ebc5bcc9e",
-    "source_metadata_checked_at_utc": "2026-10-21 08:11:33 UTC",
-    "scope": "Seven existing documentation owners plus this manifest. No code, tests, recorded evidence, license/rights record, budget allocation or media payload change.",
-    "provider_evidence": {
-      "source_url": "https://github.com/pdxvoiceteacher/triadicbrain-open-alpha/pull/66",
-      "merged": true,
-      "integration_source": "3ed834c027ec0babe850ad101b79792e8e0ac6e1",
-      "github_merge_commit": "1ca7ca6c5395a3306f45707fba149b79ac242cc8",
-      "CI216": "26 cases / 78 phases at fdc101f00980e782c021f9a2951c58cc57ac24d0; injected HTTP metadata replies through actual consumers.",
-      "CI217": "Separate one existing REREAD predicate case / 3 phases at 4c4f002812b7b17cd5b76f5c2dda3d2bef91efe3.",
-      "limits": "No installed contact or inference result; CI212/214/215 failures preserved."
-    },
-    "p2p_evidence": {
-      "source_url": "https://github.com/pdxvoiceteacher/triadicbrain-open-alpha/pull/70",
-      "github_merge_commit": "ad6f595105bc31a86d0ec62d78f6111b34ebfec6",
-      "CI211": "Separate earlier 51 cases / 153 phases at b1e684b5c81f3df623fd654f1bb4ceeb21788e7b.",
-      "CI213": "35 cases / 105 phases at a4c2f28087038fec13d0417cfa47b6f994f34d87; injected HTTP transport.",
-      "CI219": "Exactly one synthetic same-process loopback TCP case / 3 phases at d9d0e1427c3a4bfbbbebb9e5b361bad28cdd6f73; five exchanges, explicit receipt and fresh-store reopen without resend; receiver in-process.",
-      "limits": "CI218 stays failed. No installed/distributed peers, TLS, discovery, interrupted TCP recovery or shared compute."
-    },
-    "public_reproducibility": "Private-development links attribute reported evidence; their tests are not publicly reproducible from this repository. No private source or operational files imported.",
-    "validation": "Documentation-only checks; no tests rerun or model/provider API/CI execution. Existing local 21 October baseline remains 11 tests, six positive directory/ZIP checks and 177 reopened evidence objects; earlier eight/four stays historical.",
-    "funding_and_media": "Six months, USD 100,000 core budget and existing compensation/commitments/cautions unchanged. Frozen media payloads unchanged; recording addendum only."
-  },
-  "documentation_reconciliation_2026_10_23": {
-    "public_base": "12bd38f7777cd6b1d5b329d69ebb616b8fee1e39",
-    "private_main": "ff5a40adb43191b2018b13e1a4dcf00ebc5bcc9e",
-    "snapshot_checked_at_utc": "2026-10-23 04:19:42 UTC",
-    "unmerged_source_heads": {
-      "PR71": "d3d845286bb708804f85c431cae77246ff915f5b",
-      "PR76": "15c4e0ff20cecf61fbd083ba9cffc296a4250982",
-      "PR77": "a27a2aa7f303df5bec3409bfeebe552ab1408a34"
-    },
-    "scope": "Four existing documentation owners, this manifest, successful public test log and synthetic summary. No harness/engine/fixture/test, media, funding or license change.",
-    "CI233": {
-      "url": "https://github.com/pdxvoiceteacher/triadicbrain-open-alpha/actions/runs/39879886012",
-      "source_commit": "d3d845286bb708804f85c431cae77246ff915f5b",
-      "source_tree": "d7505ab7e61f029147ddc80319825faa1fcada8a",
-      "archive_sha256": "8a8bd453aafd64bd814738a37c33b3bda6f3f68f070c92b492a3e5381dc842e2",
-      "inspection": "Existing artifact downloaded; digest, ZIP CRCs and all 95 indexed copied-file hashes/sizes matched. Installation, Home readback, original guard and context-close receipts inspected as data. No private source or raw operational file republished.",
-      "demonstrated": "Actual hosted application-only Inno installation, exact-byte installed copy, nine registered services, instance qualification, restricted Home, scripted first-use settings and same-process provider-selection save/reread, observed owned cleanup. Separate two-case/six-phase source result.",
-      "limits": "Unmerged source. No Project Lead PC installation, provider activation/contact, inference, restart, ordinary-user UAC, human acceptance, supported update/uninstall or successor-payload qualification."
-    },
-    "public_validation": {
-      "initial_sandbox_run": "Exit1; 11 setup errors in0.135s at EXCLUSIVE_OUTPUT_FAILED; separate hard-link probe access denied. Original log and partial fixtures retained outside public checkout.",
-      "successful_test_run": "One fresh unchanged run outside filesystem sandbox, same ordinary user: 11 tests/49.680s/OK/exit0.",
-      "artifact_generation": "Separate demo.py run exit0; six positive directory/ZIP checks, 177 reopened objects, expected adverse rejections and bounded recovery. No package build-system entry point exists.",
-      "visual_qa": "UNPERFORMED: Chrome local-file URL opening denied by protocol policy; no tab or workaround. HTML source inspected separately.",
-      "execution_scope": "Existing Python3.12.14 standard library only, serial; public code/synthetic fixtures only. No private project software, provider/model, listener, dependency install or hosted CI."
-    },
-    "public_reproducibility": "Private links are attributed source/evidence checkpoints, not publicly reproducible tests. Historical failures, UNKNOWN and source-bound results are not aggregated into a current whole-product PASS.",
-    "preservation": "33 copied-file identities, original implementation extraction, prior evidence, licenses/notices, media and funding commitments unchanged. No new spending, runtime, release or access authority."
-  },
-  "proposed_roadmap_followup_2026_10_23": {
-    "public_base": "a4a1fd41637ee2b15beaded5a1aec17484bc8590",
-    "status": "OWNER_BRIEF_PROPOSED_DESIGN_ONLY",
-    "roadmap_source": "Explicit owner-supplied roadmap brief and verified repository evidence. Separate design reference and diagrams were not locally inspected or imported. No diagram-dependent reuse.",
-    "scope": "Existing README, product map, validation and publication review; new concise proposed-roadmap document and public synthetic test log; this manifest. Runtime, tests, fixtures, licenses, media, funding and historical records unchanged.",
-    "evidence_review_checkpoint_utc": "2026-10-23 06:58 UTC",
-    "evidence_review": "Four later existing private-development archives matched their recorded digests, CRCs and indexed copied-file hashes/sizes. Current exact source/test identities are retained privately, not added to this public update.",
-    "evidence_scope": "04:32 hosted installed success; 05:58 selection mismatch with32unexecuted cases and installation skipped; 06:17 result28completepasses/1failed/3unexecuted with installation skipped; 06:57 repaired-source six-case PASS and separate hosted installed success. Earlier failures are retained. No aggregate fresh32-case or whole-product PASS.",
-    "public_validation": "11 unchanged public tests passed in49.374s; separate demo artifact build exit0, six package checks,177reopened objects. New build summary byte-identical to the existing public synthetic summary; no duplicate summary added.",
-    "visual_qa": "Generated demo rendering unperformed. Prior local-file denial respected; no alternate server/browser route used. Source/link checks are separate.",
-    "limits": "Proposed executive/planning/learning/NCM/prior-storage/P2P behavior is not demonstrated. Hosted installation does not prove local-PC installation, interactive consent, provider activation/contact, inference, restart/update/uninstall or human acceptance.",
-    "publication_boundary": "No handbook/ZIP, unpublished extract, private source identity, raw operational log, business/career material, historical attribution dispute, new license, CI dispatch, model/training/provider action, installation or spending allowance."
-  },
-  "public_ci_setup_2026_10_23": {
-    "public_base": "9f8968feae8f2be382670bdf68f81afee36c414a",
-    "scope": "Public tests/demo build on standard Ubuntu/Windows and offline manifest/local-link gate, with bounded timeouts, concurrency cancellation, contents:read and pinned actions. No repository secret inputs, model calls, private CI, artifact uploads, Actions caches, paid/larger/self-hosted runners or settings changes.",
-    "evidence_boundary": "Workflow badges identify exact implemented checks. Per-commit run logs remain authoritative; historical local results are preserved, not transferred to new runs. No security, source-truth or production certification.",
-    "preservation": "Extracted files, fixtures, historical results, media, funding, rights and provenance remain unchanged except current README/validation hashes and new CI records."
-  },
-  "grand_vision_publication_2026_10_23": {
-    "source_packet_filename": "UVLM_Grand_Vision_Repo_Draft.zip",
-    "source_packet_sha256": "4be31eca58a12e30b6c9e31ae0c58aa494a9314003d3c50aed4c249314a86847",
-    "publication_paths": [
-      "docs/GRAND_VISION.md",
-      "docs/assets/architecture.svg",
-      "docs/assets/architecture.png",
-      "docs/assets/roadmap.svg",
-      "docs/assets/roadmap.png"
-    ],
-    "content_preservation": "Five selected packet members were initially published byte-for-byte unchanged at 1c6220a511f5966812cf019c94f9e6ce18df9b6a. Grand Vision now includes an owner-approved proposed delivery-routes section; its original and current identities are recorded in its file entry. All four visual assets, workflows, runtime, source identities and historical evidence remain unchanged.",
-    "claim_scope": "Proposed product architecture, funding stages, founding responsibilities and evidence gates. Attributed development checkpoints retain their dated, bounded public citations. Publication reports no new execution, provider activation, distributed-peer result or whole-product acceptance.",
-    "visual_review": "Both supplied PNG diagrams inspected locally for readable text and proposal labels. SVG source inspected for matching labels and local static shapes/text only; no browser-rendered SVG or page visual QA performed.",
-    "rights": "Publication preserves existing rights and notices and adds no media/prose license, equity or compensation terms.",
-    "published_packet_members": [
-      "GRAND_VISION.md",
-      "assets/architecture.svg",
-      "assets/architecture.png",
-      "assets/roadmap.svg",
-      "assets/roadmap.png"
-    ]
-  }
+  "source_attribution": "See NOTICE, LICENSE_SCOPE.md and THIRD_PARTY_NOTICES.md for preserved source attribution and applicable rights. The manifest binds the actual public file set, not access to development repositories.",
+  "metadata_scope": "Current public file identities and attribution. Historical editorial, planning and private-development inspection metadata is omitted from this current manifest; existing Git history and underlying published files are not rewritten."
 }

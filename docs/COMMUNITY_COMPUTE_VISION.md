@@ -10,6 +10,25 @@ The goal is frontier-level communal capability, with the reach to serve househol
 
 This is the direction we intend to earn through engineering and reproducible evaluation. Global scale and frontier-level capability are ambitions to test, not results already achieved. More connected machines or more model responses do not automatically produce better intelligence.
 
+## Design ethos: freedom, cooperation and practical exit
+
+**Freedom is a design goal in its own right.** People should be able to use capable tools without surrendering their data, decisions or ability to leave to a central technical authority. We want working-class people, resource-constrained schools and universities, households and community institutions to have meaningful choices about how their work gets done.
+
+Cooperative compute is a form of voluntary mutual aid: people can contribute capacity, domain knowledge, testing, corrections, documentation or accessible explanations. The amount someone donates must not determine their right to question a result or control their own information. Participation should expand opportunity without making private data, training permission or unpaid resource donation the price of basic protections.
+
+Efficiency matters because affordability, energy use and maintenance affect who can participate. It is not a condition that cooperation must beat centralized compute before freedom is worth pursuing. A locally governed or cooperative route may use more time, bandwidth, energy or coordination than a centralized alternative. People may reasonably choose that tradeoff when the costs, limits and alternatives are visible and the choice is theirs. Measure the overhead honestly; do not dismiss the purpose because an efficiency dividend is absent.
+
+Our design commitments are:
+
+- **Local ownership and useful independence.** Keep useful local work possible without compulsory network membership. Explain what depends on a remote service and what remains usable without it.
+- **Replaceable providers and coordinators.** Support explicit, portable interfaces rather than promise compatibility with every model. A user-designated Executive serves a bounded delegation; no mandatory central Executive may decide for every participant.
+- **Voluntary, scoped cooperation.** Separate artifact sharing, inference, compute donation, retention and training. The resource owner admits work under visible limits and can decline future work without granting broader access.
+- **Consent with a real stop path.** Show purpose, recipients, costs and protection limits before use. Revocation blocks future authorized work; cancellation must account for work already dispatched. Neither can promise to retrieve every disclosed copy or erase an unknown effect.
+- **Portable provenance and practical exit.** Let people export records they are entitled to retain, inspect their meaning and corrections, change supported providers and leave a cooperative arrangement without losing access to their permitted local history. Respect other people's data, rights, licenses and retention obligations.
+- **Challenge without dependence on rank.** Welcome disagreement, independent review and negative results. A powerful donor, popular model or coordinator does not acquire authority to rewrite evidence or dictate another participant's conclusion.
+
+These are design and acceptance commitments, not claims that the network is deployed. They promise neither unlimited or free compute, performance superiority, absolute confidentiality nor any particular scale. Safeguards remain necessary user protections, not permission for a new central authority to take over. Existing licenses and rights remain unchanged.
+
 ## Proposed design: local authority at every layer
 
 These layers describe the high-level design we propose to build and test.
@@ -44,7 +63,7 @@ We want people to combine useful capacity without giving up control of the compu
 
 A coordinator would match a task to an eligible node; the receiving node would independently enforce its permissions and resource budget. Work would have a stated recipient, duration, memory and compute limits, output rules and cancellation behavior. Nodes disappearing, running out of memory or returning uncertain results must be ordinary recovery cases, not reasons to silently broaden authority or replay costly work.
 
-Shared RAM means memory available to work placed on a peer. It does not make distant machines into one latency-free global memory pool. Model placement, data movement, bandwidth, synchronization and failures can outweigh added capacity. Useful workloads and measured end-to-end benefit must determine how far distribution goes.
+Shared RAM means memory available to work placed on a peer. It does not make distant machines into one latency-free global memory pool. Model placement, data movement, bandwidth, synchronization and failures can outweigh added capacity. Useful workloads, measured costs and the participant's informed preference should determine how far distribution goes. Greater local control can justify overhead; it cannot justify hiding that overhead or exceeding consent and resource limits.
 
 ### Private jobs need an explicit trust tier
 
@@ -100,9 +119,13 @@ We welcome collaborators who can turn this direction into useful, testable work:
 - **Engineering:** propose bounded interoperability, consent, resource-control and recovery experiments.
 - **Reproducible evaluation:** define tasks, baselines and failure cases that can distinguish real benefit from added complexity.
 - **Low-resource deployment:** help make useful workflows practical on modest hardware and constrained connections.
-- **Usability:** test whether people can understand recommendations, inspect evidence and control participation without becoming infrastructure specialists.
+- **Accessibility and usability:** test whether people can understand recommendations, inspect evidence and control participation without becoming infrastructure specialists, including on constrained devices and connections.
+- **Documentation:** improve plain-language explanations, reproducible instructions and clear accounts of what remains unproved.
+- **Testing and independent review:** reproduce public examples, report failures and challenge assumptions. Disagreement is welcome; collaboration does not require allegiance to a founder, model or ideology.
 
 [Open a public issue](https://github.com/pdxvoiceteacher/control-anchor-reviewer-demo/issues) with a concrete problem, proposed experiment and evidence that would establish success. Use public or synthetic data only. Keep personal data, credentials, confidential material and private implementation or research out of issues and pull requests. This page shares the proposed direction, not private algorithms, schemas or unpublished implementation.
+
+Start with a small, reviewable public contribution. This invitation offers no employment, funding, release date or access to private code.
 
 The repository's existing [license scope](../LICENSE_SCOPE.md) and [notices](../NOTICE) continue to apply. The ambition is large. We invite rigorous challenge and practical help in making it real.
 

@@ -6,6 +6,8 @@ For a complete, plain-language account of the north star, architecture, human co
 
 **Our ambition is to build the world's largest decentralized, community-governed compute network: a Sophia network of user-controlled Sonya nodes, working toward frontier-level communal capability while people retain control of their models, data and participation.** We want capable AI to strengthen human agency and distribute opportunity, rather than concentrate control of compute and information.
 
+**Freedom is the purpose; efficiency serves affordability and stewardship.** Voluntary cooperation can be worth its overhead when people retain informed choice, local ownership and a practical way to leave. [Read the design ethos](docs/COMMUNITY_COMPUTE_VISION.md#design-ethos-freedom-cooperation-and-practical-exit) and [help as a developer, tester, accessibility contributor or documentation writer](docs/COMMUNITY_COMPUTE_VISION.md#help-make-the-ambition-real).
+
 The proposed path starts locally: useful work on your terms, voluntary sharing, and a user-designated Executive that compares options and recommends when additional help is worth its cost. Permissions, provenance and resource limits must travel with that work. [Explore the shared-compute vision, proposed design and ways to contribute](docs/COMMUNITY_COMPUTE_VISION.md).
 
 The proposed distributed virtual computer would bring that vision into everyday use: a friendly setup wizard, supported local and hosted model choices, granular permissions, and voluntary sharing of bounded CPU, GPU and peer-local memory. Private jobs, trusted collaboration and explicitly approved public provenance would have distinct protection and disclosure rules. These are proposed architecture and verification goals, not capabilities delivered by this offline demo. [See onboarding, confidentiality tiers and the verification roadmap](docs/COMMUNITY_COMPUTE_VISION.md#a-friendly-front-door-from-home-use-to-institutional-controls).
@@ -109,27 +111,11 @@ not an assurance opinion or proof of useful cognitive performance.
 The eight-test result above and its retained JSON remain historical; the separate
 21 October evidence records PR #1's already completed execution.
 
-**Development reconciliation — 23 October 2026:** the earlier CI233 result is
-preserved. Later original receipts also demonstrate hosted application-only
-installation, exact installed-copy verification, restricted scripted Home and
-same-process provider-selection save/reread on the customer setup successor.
-Two subsequent source gates failed and skipped installation; their results do
-not erase that earlier success or qualify their newer source. At 06:57 UTC,
-another successor completed six selected source cases and a separate hosted
-installation/startup; its original receipts were inspected too. This is a scoped
-success, not a fresh full-suite qualification.
-
-These are **unmerged development checkpoints**. They do not verify installation
-on the Project Lead's PC, provider activation/contact, inference, restart,
-ordinary-user UAC or human acceptance. Separate task-preview and provider-disclosure
-work retain their own source-review limits. Application-only installation separates
-delivery from model acquisition; it does not make the intended AI workbench a model-free product.
-Earlier merged provider metadata and bounded peer tests retain their own scope;
-distributed peers and shared compute remain unverified. The dated
-[product map](docs/PRODUCT_MAP.md#evidence-edition-and-remaining-joins) explains
-those milestones without requiring private source access. Its private-development
-links are attributed evidence, not publicly reproducible tests in this repository;
-none of that source is imported here.
+Broader workbench development is separate from the public demo. The dated
+[product map](docs/PRODUCT_MAP.md#evidence-edition-and-remaining-joins) distinguishes
+proposals and reported development milestones from behavior reproducible here.
+This repository does not establish a deployed distributed network, installed
+provider inference or human acceptance of the full product.
 
 1. **Inspect without running:** read [VALIDATION.md](VALIDATION.md) and the
    [current retained result summary](validation/2026-10-21-summary.json).
@@ -151,7 +137,7 @@ The main development repository remains private. See the
 
 | Reader / purpose | Start here |
 | --- | --- |
-| Funders and prospective collaborators | [Dated integration-pilot planning](docs/funding/README.md) (not a company-wide seed budget): a six-month, USD 100,000 core integration plan, a smaller uncosted offline-tool option and an optional, separately costed paid student intern opportunity. |
+| Funders and prospective collaborators | [Dated integration-pilot planning](docs/funding/README.md): bounded planning assumptions, alternative scopes and an optional paid student opportunity. These are proposals, not awards or employment commitments. |
 | Engineers | [Implementation/function crosswalk](docs/PRODUCT_MAP.md#actual-included-function-crosswalk), [focused tests](tests/test_component.py) and [exact source provenance](SOURCE_MANIFEST.json). |
 | Academic collaborators | [Methods exercise and answer key](docs/METHODS_APPENDIX.md), [whole-product map](docs/PRODUCT_MAP.md) and [limitations](KNOWN_LIMITATIONS.md). No novelty or learning benefit is established. |
 | Potential users | Run the local demo and inspect the human-readable review above; [product responsibilities](docs/PRODUCT_MAP.md) distinguish the intended workbench from this component. |
@@ -230,12 +216,10 @@ see [the detailed product map](docs/PRODUCT_MAP.md),
 [architecture responsibilities](#where-this-fits) and
 [demonstrated limitations](KNOWN_LIMITATIONS.md).
 
-Architecture attribution: adapted from UVLM's `triadicbrain-open-alpha`
-`README.md`, “Design walkthrough,” at commit
-`37583fd91ff7f0d912256c10fea89ff6896763cf`, Git blob
-`724c97412410f584279b3d6def0f093741bdd84d`.
-The diagram is embedded here so readers do not need private-repository access.
-Existing [license scope and attribution](LICENSE_SCOPE.md) remain unchanged.
+Architecture attribution: adapted from UVLM's Triadic Brain design walkthrough.
+The diagram is embedded here for public inspection. Existing
+[source attribution](NOTICE), [license scope](LICENSE_SCOPE.md) and
+[third-party notices](THIRD_PARTY_NOTICES.md) remain unchanged.
 
 ## Scope in one paragraph
 
@@ -248,9 +232,9 @@ do not establish independent custody, OS isolation, signing or factual correctne
 See [KNOWN_LIMITATIONS.md](KNOWN_LIMITATIONS.md) for the substantive boundaries,
 including standalone ZIP verification.
 
-The implementation is extracted unchanged from `pdxvoiceteacher/triadicbrain-open-alpha`
-at `139932846cb1b6bf1571158464d89513d4e381f8`. The [source manifest](SOURCE_MANIFEST.json)
-records original paths, byte identities, additions and modifications. The
+The extracted implementation retains its original byte identities. The
+[source manifest](SOURCE_MANIFEST.json) binds the public files, original copied-file
+identities, additions and modifications. [NOTICE](NOTICE) retains source attribution. The
 [architecture context below](#where-this-fits) preserves the complete Triadic Brain,
 Control Anchor and locally governed Sophia network vision while distinguishing
 what this extraction actually demonstrates.
@@ -293,16 +277,9 @@ Get-Content .\demo-output\summary.json
 Start-Process .\demo-output\review.html
 ```
 
-On the Project Lead's workstation, the existing Codex runtime was used instead of the
-Windows Store `python` alias:
-
-```powershell
-$python = Join-Path $env:USERPROFILE '.cache\codex-runtimes\codex-primary-runtime\dependencies\python\python.exe'
-& $python -S demo.py --output demo-output
-if ($LASTEXITCODE -ne 0) { throw 'Demo failed; retain the command and error.' }
-& $python -S -m unittest discover -s tests -v
-if ($LASTEXITCODE -ne 0) { throw 'Focused tests failed; retain the command and error.' }
-```
+If the default Python command is unavailable, choose an existing Python 3.12
+executable and verify its version. Do not assume a particular developer's runtime
+location or install a new runtime as part of these commands.
 
 Use a fresh output name for each run (for example `demo-output-2`). Existing
 outputs are never overwritten. The filesystem must support ordinary NTFS-style
