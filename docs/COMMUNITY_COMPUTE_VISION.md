@@ -45,6 +45,8 @@ These layers describe the high-level design we propose to build and test.
 
 6. **Resource-aware escalation.** Additional models, peers or compute should be requested because they are expected to improve a defined task, not merely because they are available. The design would account for latency, bandwidth, memory, energy and financial cost, as well as privacy and consent. When authority, evidence or budget is missing, the workflow should stop or ask.
 
+Autonomous agents and swarms are intended to be first-class participants alongside people. Within explicitly delegated scope, they could propose tasks, divide work, coordinate and follow up without waiting for a new human prompt at every step. Communication alone grants no execution rights or access to another participant's data or compute. Delegation remains bounded by purpose, resources, duration, stop and revocation controls; it does not permit unbounded replication or self-expanded authority. This is a proposed capability, not behavior delivered by the public demo.
+
 ## A friendly front door, from home use to institutional controls
 
 The proposed Sonya setup wizard would begin with a practical question: **what would you like help with, and what may Sonya use?** A person could start with one task and selected folders, choose supported local or hosted models, and stay off the community network. Schools, research groups and organizations could build on the same controls with administrator policy, role separation, budgets, retention rules and review requirements.

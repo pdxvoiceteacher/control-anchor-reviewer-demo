@@ -1019,8 +1019,8 @@
     },
     {
       "path": "docs/COMMUNITY_COMPUTE_VISION.md",
-      "candidate_sha256": "dd908cb334527c4f7a3a72aebd710c598cba7e45961bf685ab086e96533904f5",
-      "bytes": 19176,
+      "candidate_sha256": "3551d1d450b991b46f652b5bf46de9c02efb506018e9887e4d4148d4488413e6",
+      "bytes": 19753,
       "origin": "NEW_OWNER_DIRECTED_HIGH_LEVEL_PROPOSAL",
       "source_basis_paths": [
         "README.md",
@@ -1030,7 +1030,8 @@
       "modifications": "Confident aspirational global community-compute vision, six proposed design layers and verified public contribution route. No private implementation, new measured capability, affiliation, delivery guarantee or runtime change.",
       "license": "Existing rights and notices preserved; no new media/prose license grant.",
       "publication_review": "OWNER_APPROVED_PUBLIC_HIGH_LEVEL_PROPOSAL_FOCUSED_REVIEW_NO_BLOCKING_FINDING",
-      "cooperative_ethos_clarification_2026_11_02": "Owner-directed freedom, local ownership, voluntary mutual aid and practical exit; informed higher overhead may be legitimate. Existing capability limits, rights and public contribution route preserved. No runtime change or new operational evidence."
+      "cooperative_ethos_clarification_2026_11_02": "Owner-directed freedom, local ownership, voluntary mutual aid and practical exit; informed higher overhead may be legitimate. Existing capability limits, rights and public contribution route preserved. No runtime change or new operational evidence.",
+      "autonomous_participation_proposal_2026_11_02": "Owner-directed proposed first-class autonomous agents and swarms within bounded delegation; communication does not confer execution rights. No delivered capability or self-expanded authority."
     },
     {
       "path": "docs/TRIADIC_BRAIN_VISION.md",
