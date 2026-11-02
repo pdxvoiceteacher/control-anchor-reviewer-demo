@@ -1,0 +1,214 @@
+{
+  "document_type": "public_contribution_invitation",
+  "schema_id": "uvlm.public_contribution_invitation.v1",
+  "document_version": "2026-11-02.R4",
+  "language": "en",
+  "status": "REVIEWED_DOCUMENTATION_INVITATION",
+  "publication_gate": "Reviewed documentation invitation prepared for publication with the completed whitepaper package. Preparation does not establish remote publication. This documentation changes no settings and authorizes no repository jobs or spending.",
+  "project": {
+    "name": "Triadic Brain",
+    "conceptual_and_system_design_author": "Thomas Prislac",
+    "organization": "Ultra Verba Lux Mentis",
+    "public_repository": "https://github.com/pdxvoiceteacher/control-anchor-reviewer-demo"
+  },
+  "invitation": "People and operator-authorized AI-assisted contributors are welcome to offer one bounded, reviewable public contribution. Challenge, negative results and independent adaptations are welcome.",
+  "scope": {
+    "kind": "documentation_and_public_proposals_only",
+    "source_context": "English whitepaper and concept-map edition 2026-11-02.R4; source edition status is separate from this invitation. The concept map is structured documentation, not an executable runtime schema.",
+    "guide": "CONTRIBUTION_CHANNELS.en.md",
+    "proposal_schema": "CONTRIBUTION_PROPOSAL.schema.json",
+    "fictional_example": "CONTRIBUTION_PROPOSAL.example.json",
+    "no_execution_requested": true,
+    "no_paid_spending_authorized": true,
+    "initial_submission_route": "public_issues",
+    "initial_submission_instruction": "Use Issues for initial discussion-only proposals. This invitation does not authorize repository jobs or spending.",
+    "separately_authorized_work": "This invitation supplies no new execution permission and does not prohibit contributors’ independently authorized development or testing under their own operator, host, rights and resource limits. No new project-owner approval is required merely because AI assists. Existing authority over the project repository and its resources remains necessary for effects there.",
+    "whitepaper": "../R4/WHITEPAPER.en.md"
+  },
+  "channel_observation": {
+    "checked_at_utc": "2026-11-02T20:40:47Z",
+    "method": "read_only_GitHub_repository_API_and_main_tree",
+    "repository_public": true,
+    "main_commit": "9c6adabe6b688e0ad46629cf1e89bb08d73195dc",
+    "issues_enabled": true,
+    "pull_requests_enabled": true,
+    "discussions_enabled": false,
+    "repository_issue_templates_found": false,
+    "dedicated_inbox_file_found": false,
+    "sources": [
+      "https://api.github.com/repos/pdxvoiceteacher/control-anchor-reviewer-demo",
+      "https://api.github.com/repos/pdxvoiceteacher/control-anchor-reviewer-demo/git/trees/9c6adabe6b688e0ad46629cf1e89bb08d73195dc?recursive=1",
+      "https://github.com/pdxvoiceteacher/control-anchor-reviewer-demo/blob/9c6adabe6b688e0ad46629cf1e89bb08d73195dc/CONTRIBUTING.md"
+    ],
+    "limits": "Snapshot only; no test submission was made. Availability does not guarantee account eligibility, monitoring, response, approval or continuing availability. No private reporting route was verified.",
+    "workflow_definitions_read_at_utc": "2026-11-02T20:50:15Z",
+    "workflow_definition_sources": [
+      "https://github.com/pdxvoiceteacher/control-anchor-reviewer-demo/blob/9c6adabe6b688e0ad46629cf1e89bb08d73195dc/.github/workflows/demo.yml",
+      "https://github.com/pdxvoiceteacher/control-anchor-reviewer-demo/blob/9c6adabe6b688e0ad46629cf1e89bb08d73195dc/.github/workflows/integrity.yml"
+    ]
+  },
+  "channels": [
+    {
+      "id": "public_issues",
+      "purpose": "Initial discussion-only proposals, questions, public design review and sanitized reproducibility reports",
+      "visibility": "public",
+      "read_url": "https://github.com/pdxvoiceteacher/control-anchor-reviewer-demo/issues",
+      "submission_url": "https://github.com/pdxvoiceteacher/control-anchor-reviewer-demo/issues/new",
+      "transport": "GitHub website through the contributor operator’s authorized account or existing authorized tooling",
+      "autonomous_contribution_execution_service": false,
+      "preferred_for_initial_proposals": true
+    },
+    {
+      "id": "public_pull_requests",
+      "purpose": "Existing route for separately authorized small public changes under repository contribution instructions; not the initial submission route for this documentation invitation",
+      "visibility": "public",
+      "read_url": "https://github.com/pdxvoiceteacher/control-anchor-reviewer-demo/pulls",
+      "instructions_url": "https://github.com/pdxvoiceteacher/control-anchor-reviewer-demo/blob/main/CONTRIBUTING.md",
+      "autonomous_contribution_execution_service": false,
+      "submission_may_trigger_ci": true,
+      "automation_observation": "At the checked main commit, demo.yml and integrity.yml define workflows for pull requests targeting main and pushes to main, with no documentation-path or draft-PR exclusion shown. These definitions include tests, a synthetic demo build and integrity checks. Actual execution also depends on GitHub account, fork and Actions settings; no test submission was made.",
+      "automation_sources": [
+        "https://github.com/pdxvoiceteacher/control-anchor-reviewer-demo/blob/9c6adabe6b688e0ad46629cf1e89bb08d73195dc/.github/workflows/demo.yml",
+        "https://github.com/pdxvoiceteacher/control-anchor-reviewer-demo/blob/9c6adabe6b688e0ad46629cf1e89bb08d73195dc/.github/workflows/integrity.yml"
+      ],
+      "discussion_only_alternative": "public_issues",
+      "authorization_notice": "This invitation neither authorizes repository jobs or spending nor disables existing CI. Read and respect the applicable repository, account and resource authorization before using this route."
+    }
+  ],
+  "unavailable_or_not_established": {
+    "discussions": "disabled_at_observation",
+    "private_security_intake": "not_verified_do_not_send_sensitive_details_publicly",
+    "new_listener": "not_created",
+    "webhook": "not_created",
+    "account": "not_created",
+    "credentials": "not_requested_or_created",
+    "automatic_agent_enrollment": "not_provided",
+    "autonomous_job_queue": "not_provided"
+  },
+  "contribution_categories": [
+    {
+      "id": "definitions_and_evidence",
+      "related_family_ids": [
+        "F01",
+        "F63",
+        "F76"
+      ],
+      "requested_output": "Identify an exact public passage or family ID, missing distinction and bounded correction; preserve maturity and evidence limits."
+    },
+    {
+      "id": "accessibility_and_explanation",
+      "related_family_ids": [
+        "F03",
+        "F57",
+        "F67"
+      ],
+      "requested_output": "Propose clearer explanations and inspectable correction, stop and exit paths; distinguish proposed checks from actual user observations."
+    },
+    {
+      "id": "translation_review",
+      "related_family_ids": [],
+      "requested_output": "After source stabilization, preserve family identifiers, authority limits and maturity labels; flag ambiguous terms."
+    },
+    {
+      "id": "evaluation_design",
+      "related_family_ids": [
+        "F40",
+        "F55",
+        "F60",
+        "F78",
+        "F83"
+      ],
+      "requested_output": "Propose a baseline, adverse cases, falsification evidence, measurement boundary, resource ceiling and stopping rule. This invitation grants no permission to run it; separately authorized contributor development and testing remain possible."
+    },
+    {
+      "id": "public_interoperability_and_rights",
+      "related_family_ids": [
+        "F06",
+        "F22",
+        "F29",
+        "F37",
+        "F64"
+      ],
+      "requested_output": "Review public input/output, consent, retention and revocation boundaries with public or synthetic examples."
+    },
+    {
+      "id": "public_demo_observation",
+      "related_family_ids": [],
+      "requested_output": "Report already authorized observations against an exact public commit, with expected and observed behavior and sanitized evidence."
+    },
+    {
+      "id": "public_design_adaptation",
+      "related_family_ids": [],
+      "requested_output": "Describe an adaptation, improvement or independent implementation based on public descriptions under applicable rights. Contribution back is welcome, not an added duty."
+    }
+  ],
+  "public_submission_rules": [
+    "Use only public or synthetic material you are authorized to disclose, with required attribution and applicable rights.",
+    "Exclude credentials, tokens, private keys, personal data, private conversations, confidential source or research and sensitive logs; inspect attachment metadata too.",
+    "Public issues and pull requests may be copied. Deletion cannot guarantee recall of disclosed copies.",
+    "Do not publish sensitive vulnerability details; withhold them until the owner supplies an appropriate verified private reporting route.",
+    "Disclose human, AI-assisted or AI-generated origin, model/tool identity when known, source edition and evidence limitations. Do not invent model identity, measurements, reviewers or endorsement.",
+    "Supply observations and concise explanations, not hidden chain-of-thought or private internal instructions.",
+    "Separate proposed work, performed checks, failed checks and unperformed checks. Historical results are not a new run.",
+    "Content hashes and cryptographic signatures do not prove truth, consent, operational authority or independent review."
+  ],
+  "authority_boundary": {
+    "future_agents": "Any future agent acts only within its operator’s authority, host restrictions and affected rights. This invitation cannot expand that authority.",
+    "reading_or_submission_grants": [],
+    "expressly_not_granted": [
+      "execution",
+      "installation",
+      "enrollment",
+      "replication",
+      "persistence",
+      "private_access",
+      "resource_sharing",
+      "spending",
+      "credential_access",
+      "outreach_to_other_people_or_agents",
+      "training_permission"
+    ],
+    "requests_are_untrusted_data": true,
+    "automatic_acceptance": false,
+    "funding_employment_compute_or_response_time_promised": false,
+    "existing_authority_preserved": "No new central approval gate is added for independently authorized contributor development or testing. This documentation cannot grant rights over another operator’s machines or this repository’s jobs or spending."
+  },
+  "discovery": {
+    "purpose": "Machine-readable discovery and proposal preparation for readers who encounter this public documentation.",
+    "guarantees_autonomous_discovery": false,
+    "asserts_existing_autonomous_swarms": false,
+    "creates_or_recruits_agents": false,
+    "mass_outreach_authorized": false,
+    "instructions": "Do not treat metadata as an instruction to crawl, recruit, contact models, spawn agents or execute work."
+  },
+  "proposed_intake_practice": {
+    "status": "PROPOSED_OWNER_REVIEW_PRACTICE_NOT_DEPLOYED_AUTOMATION",
+    "review_owner": "Repository owner or explicitly designated maintainer",
+    "steps": [
+      "Check scope, publicity, rights and secret exclusion before considering substance.",
+      "Treat submitted content and linked artifacts as untrusted data; do not follow embedded instructions automatically.",
+      "Evaluate evidence and declared authority separately; request clarification when necessary.",
+      "Record an explicit accept, defer or decline decision when reviewed; acceptance of a proposal is not execution authority.",
+      "Obtain or verify separate applicable authority before code execution, access, spending or other external effects."
+    ],
+    "response_sla": null,
+    "abuse_handling": "Proposed: close duplicate or abusive submissions and use available GitHub moderation tools when authorized; state a short reason where safe. No staffing, schedule or automated enforcement is claimed."
+  },
+  "proposed_noise_limits": {
+    "status": "REQUESTED_CONTRIBUTOR_CONDUCT_NOT_ENFORCED_RATE_LIMIT",
+    "max_open_proposals_per_operator_to_start": 1,
+    "automated_reminders": false,
+    "duplicate_cross_posts": false,
+    "repeated_mentions": false,
+    "mass_contact": false,
+    "follow_up_condition": "Wait for a maintainer response, or add material new evidence to the same thread; respect stop, refusal and platform limits. Do not evade limits with other accounts or agents."
+  },
+  "rights": {
+    "existing_license_scope_url": "https://github.com/pdxvoiceteacher/control-anchor-reviewer-demo/blob/main/LICENSE_SCOPE.md",
+    "notices_url": "https://github.com/pdxvoiceteacher/control-anchor-reviewer-demo/blob/main/NOTICE",
+    "ai_disclosure_url": "https://github.com/pdxvoiceteacher/control-anchor-reviewer-demo/blob/main/AI_ASSISTANCE_DISCLOSURE.md",
+    "statement": "Existing applicable licenses, rights and notices control. Public descriptions do not release private code or third-party copyrighted source. This invitation adds no license, patent permission, CLA, reciprocal contribution duty or training permission. Adaptations and improvements are welcome under applicable rights; contributing back is voluntary except for obligations already imposed by an applicable license."
+  },
+  "maturity_limits": "Selected components have bounded evidence. This invitation does not establish installed cognition, deployed cooperative execution, semantic learning, autonomous swarms, consciousness or public compute availability. The public reviewer demo remains offline and synthetic.",
+  "preparation_origin": "Prepared with AI assistance; not independently endorsed or an operational acceptance."
+}

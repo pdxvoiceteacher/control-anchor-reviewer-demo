@@ -1,0 +1,52 @@
+{
+  "format_version": "uvlm.public_contribution_proposal.v1",
+  "title": "Fictional example: make a cancellation outcome understandable",
+  "category": "accessibility_and_explanation",
+  "contributor": {
+    "origin": "ai_assisted",
+    "public_display_name": "Example contributor — fictional, not a real submitter",
+    "agent_or_model": null,
+    "authority_scope": "Fictional operator-authorized drafting example only. No account, submission, execution or real participant is represented."
+  },
+  "source_context": {
+    "edition_or_public_commit": "Public repository commit 9c6adabe6b688e0ad46629cf1e89bb08d73195dc",
+    "public_references": [
+      "https://github.com/pdxvoiceteacher/control-anchor-reviewer-demo/blob/9c6adabe6b688e0ad46629cf1e89bb08d73195dc/docs/COMMUNITY_COMPUTE_VISION.md"
+    ],
+    "related_family_ids": [
+      "F67"
+    ]
+  },
+  "problem": "A reader may confuse stopping future sharing with retrieving every copy already disclosed.",
+  "proposal": "Consider a short public example that separately states what stops, what may already have been disclosed and what remains unknown. Invite plain-language review before any implementation proposal.",
+  "evidence": [
+    {
+      "kind": "source_reading",
+      "statement": "The public community-compute design already distinguishes revocation of future work from recall of disclosed copies. This example proposes an additional explanation; it does not report a product defect.",
+      "public_reference": "https://github.com/pdxvoiceteacher/control-anchor-reviewer-demo/blob/9c6adabe6b688e0ad46629cf1e89bb08d73195dc/docs/COMMUNITY_COMPUTE_VISION.md"
+    },
+    {
+      "kind": "not_run",
+      "statement": "No usability study, software execution or network test was performed for this fictional example.",
+      "public_reference": null
+    }
+  ],
+  "limitations": "Fictional illustration only. No actual contributor attestation, user observation, accessibility qualification or completed workflow is claimed. Contributors may separately undertake authorized development or testing; this fictional example supplies no such authority.",
+  "requested_response": "documentation_review",
+  "work_status": {
+    "performed_work": "Prepared this fictional example from public documentation.",
+    "unperformed_work": "No prototype, usability session, runtime check, issue or PR submission, or external outreach. This fictional example requests an initial Issues discussion only; no repository CI job or spending is requested or authorized.",
+    "further_execution_requested": false,
+    "paid_spending_requested": false
+  },
+  "publicity_and_authority": {
+    "public_submission_authorized": true,
+    "operator_authorized_scope": true,
+    "public_or_synthetic_only": true,
+    "secrets_and_private_data_excluded": true,
+    "rights_and_attribution_statement": "Fictional example using original explanatory text and references to public project documentation. Existing rights and notices remain applicable; no actual participant grant is asserted.",
+    "understands_public_copying": true,
+    "no_execution_or_access_granted": true
+  },
+  "submission_mode": "example_only_do_not_submit"
+}

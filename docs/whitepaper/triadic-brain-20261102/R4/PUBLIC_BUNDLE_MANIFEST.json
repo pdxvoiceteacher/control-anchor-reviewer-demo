@@ -1,0 +1,61 @@
+{
+  "manifest_id": "uvlm.triadic-brain.public-document-bundle",
+  "manifest_version": "2026-11-02.R4",
+  "status": "design_documentation_edition",
+  "document_id": "uvlm.triadic-brain.public-design",
+  "language": "en",
+  "translation_status": "No translated editions are included in this English bundle. Available and planned translations are tracked separately by the publication manifest.",
+  "data_only_notice": "Reading or interpreting this material grants no access, execution, persistence, enrollment, resource spending, credentials or permission to contact others. Participation requires the relevant host/operator authorization and affected rights.",
+  "binding_method": "SHA-256 of exact UTF-8 file bytes; this manifest does not hash itself. Content digests are distinct from any later Git commit.",
+  "files": [
+    {
+      "path": "WHITEPAPER.en.md",
+      "sha256": "3f72cc914840e7f5afe4c92c40e99d53734490049bd5df221161e80bce18d6c6",
+      "bytes": 67397,
+      "role": "English main whitepaper and 86-family compact index"
+    },
+    {
+      "path": "FAMILY_GUIDE.en.md",
+      "sha256": "4609025c132ec924ad64a228ca232f98cfb2d5303be173a0e5475497e4d3ec2b",
+      "bytes": 139410,
+      "role": "English functional guide for 86 families"
+    },
+    {
+      "path": "TERMS.en.md",
+      "sha256": "046e9ed81090c8377e66506074a656612bdb4b8203021736329fab702ef18fe0",
+      "bytes": 20529,
+      "role": "English critical sense register"
+    },
+    {
+      "path": "PUBLIC_CONCEPTS.json",
+      "sha256": "26525fd2affa2b0d53f45940171a94460c9df96b226d25e749ecc5288663f195",
+      "bytes": 401292,
+      "role": "Structured project concept map"
+    },
+    {
+      "path": "STANDARDS_RESEARCH_CROSSWALK.en.md",
+      "sha256": "fd1b63d866079c7bfc62a2ccaafaf986acad5a513eb819f1ff6a8ca01706f481",
+      "bytes": 109922,
+      "role": "Sourced English conventional-term and complementary-mechanism crosswalk"
+    },
+    {
+      "path": "STANDARDS_RESEARCH_CROSSWALK.json",
+      "sha256": "02babae0f473ddd7dd7f3ea87e9390f6fdc4719de6a4ddb32305c4d9fc08dcc2",
+      "bytes": 206256,
+      "role": "Structured 86-family research crosswalk with exact source-edition binding"
+    }
+  ],
+  "review_state": {
+    "documentation_review": "AI-assisted drafting and documentation review concern meaning, evidence and presentation. Exact edition review and publication facts are recorded separately; no acceptance or publication is asserted by this metadata.",
+    "runtime_qualification": "Not performed by this document work; all stated implementation and evidence limits remain.",
+    "rendered_accessibility": "Not inspected; structural Markdown checks only.",
+    "translation_review": "No translated editions included."
+  },
+  "public_git_commit": null,
+  "publication_authorization": "This metadata is not authority to publish, execute, enroll, spend, disclose or contact others.",
+  "edition_scope": {
+    "english_bundle": "English main whitepaper plus family guide, term register, concept map and sourced research crosswalk.",
+    "planned_main_translations": "Full main whitepaper, including its 86-family compact index and references, with supplemental links clearly identified as English.",
+    "not_claimed": "A main-whitepaper translation is not a complete translation of the English family guide, term register, source crosswalk or complete reference bundle."
+  }
+}

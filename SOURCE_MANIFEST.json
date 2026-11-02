@@ -552,15 +552,16 @@
     },
     {
       "path": "README.md",
-      "candidate_sha256": "cd80459f0b0363c92a64015c156f3e43f68d9c3adc0026754c9db8cd7580e5eb",
+      "candidate_sha256": "4347f95fb501474300bde2d47b48b0db44910088094f18975bd434c1b1f42b14",
       "origin": "ADAPTED",
       "source_basis_paths": [],
       "modifications": "New reviewer explanation based on maintained architecture; limits bound to extracted implementation. Added link to a source-attributed methods appendix and its bounded teaching claims. Added self-contained Mermaid responsibility diagram separating intended product integration, observed synthetic offline demo and future peer network; no runtime or validation-result changes.",
       "license": "MPL-2.0 to extent rights exist and covered",
       "publication_review": "OWNER_APPROVED_PUBLIC_SOURCE_ACCESS_EXISTING_RIGHTS_PRESERVED_NO_NEW_LICENSE",
       "historical_publication_review": "FINAL_CONTENT_DECISION_PENDING",
-      "bytes": 30346,
-      "cooperative_ethos_clarification_2026_11_02": "Owner-directed freedom, local ownership, voluntary mutual aid and practical exit; informed higher overhead may be legitimate. Existing capability limits, rights and public contribution route preserved. No runtime change or new operational evidence."
+      "bytes": 30606,
+      "cooperative_ethos_clarification_2026_11_02": "Owner-directed freedom, local ownership, voluntary mutual aid and practical exit; informed higher overhead may be legitimate. Existing capability limits, rights and public contribution route preserved. No runtime change or new operational evidence.",
+      "whitepaper_navigation_2026_11_02": "Added one English design-edition and contribution navigation link, with translations-pending and unchanged-demo scope. No runtime or rights change."
     },
     {
       "path": "tests/test_component.py",
@@ -1071,6 +1072,126 @@
       "modifications": "Selective functional architecture and proposed clarifying names; offline demo scope separated from future design. No runtime or original source changes.",
       "license": "Existing rights and notices preserved; see LICENSE_SCOPE.md.",
       "publication_review": "OWNER_AUTHORIZED_PUBLIC_HIGH_LEVEL_DESIGN_CONTENT_REVIEW_NO_MATERIAL_FINDING"
+    },
+    {
+      "path": "docs/whitepaper/triadic-brain-20261102/R4/FAMILY_GUIDE.en.md",
+      "origin": "NEW_PUBLIC_HIGH_LEVEL_DESIGN_DOCUMENTATION",
+      "source_basis_paths": [],
+      "modifications": "Frozen R4 source-aligned English design or contribution documentation, or original navigation. Descriptive data only; no new runtime evidence, channel activation or execution authority.",
+      "license": "Existing rights and notices preserved; no new media/prose license grant.",
+      "publication_review": "OWNER_REQUESTED_PUBLIC_DOCUMENTATION_EXISTING_RIGHTS_PRESERVED",
+      "candidate_sha256": "4609025c132ec924ad64a228ca232f98cfb2d5303be173a0e5475497e4d3ec2b",
+      "bytes": 139410
+    },
+    {
+      "path": "docs/whitepaper/triadic-brain-20261102/R4/PUBLIC_BUNDLE_MANIFEST.json",
+      "origin": "NEW_PUBLIC_HIGH_LEVEL_DESIGN_DOCUMENTATION",
+      "source_basis_paths": [],
+      "modifications": "Frozen R4 source-aligned English design or contribution documentation, or original navigation. Descriptive data only; no new runtime evidence, channel activation or execution authority.",
+      "license": "Existing rights and notices preserved; no new media/prose license grant.",
+      "publication_review": "OWNER_REQUESTED_PUBLIC_DOCUMENTATION_EXISTING_RIGHTS_PRESERVED",
+      "candidate_sha256": "1e4a43e2ddaa0f5f925297b97b75f5be207372684b331ec66ffaaa5810a9c07e",
+      "bytes": 3372
+    },
+    {
+      "path": "docs/whitepaper/triadic-brain-20261102/R4/PUBLIC_CONCEPTS.json",
+      "origin": "NEW_PUBLIC_HIGH_LEVEL_DESIGN_DOCUMENTATION",
+      "source_basis_paths": [],
+      "modifications": "Frozen R4 source-aligned English design or contribution documentation, or original navigation. Descriptive data only; no new runtime evidence, channel activation or execution authority.",
+      "license": "Existing rights and notices preserved; no new media/prose license grant.",
+      "publication_review": "OWNER_REQUESTED_PUBLIC_DOCUMENTATION_EXISTING_RIGHTS_PRESERVED",
+      "candidate_sha256": "26525fd2affa2b0d53f45940171a94460c9df96b226d25e749ecc5288663f195",
+      "bytes": 401292
+    },
+    {
+      "path": "docs/whitepaper/triadic-brain-20261102/R4/STANDARDS_RESEARCH_CROSSWALK.en.md",
+      "origin": "NEW_PUBLIC_HIGH_LEVEL_DESIGN_DOCUMENTATION",
+      "source_basis_paths": [],
+      "modifications": "Frozen R4 source-aligned English design or contribution documentation, or original navigation. Descriptive data only; no new runtime evidence, channel activation or execution authority.",
+      "license": "Existing rights and notices preserved; no new media/prose license grant.",
+      "publication_review": "OWNER_REQUESTED_PUBLIC_DOCUMENTATION_EXISTING_RIGHTS_PRESERVED",
+      "candidate_sha256": "fd1b63d866079c7bfc62a2ccaafaf986acad5a513eb819f1ff6a8ca01706f481",
+      "bytes": 109922
+    },
+    {
+      "path": "docs/whitepaper/triadic-brain-20261102/R4/STANDARDS_RESEARCH_CROSSWALK.json",
+      "origin": "NEW_PUBLIC_HIGH_LEVEL_DESIGN_DOCUMENTATION",
+      "source_basis_paths": [],
+      "modifications": "Frozen R4 source-aligned English design or contribution documentation, or original navigation. Descriptive data only; no new runtime evidence, channel activation or execution authority.",
+      "license": "Existing rights and notices preserved; no new media/prose license grant.",
+      "publication_review": "OWNER_REQUESTED_PUBLIC_DOCUMENTATION_EXISTING_RIGHTS_PRESERVED",
+      "candidate_sha256": "02babae0f473ddd7dd7f3ea87e9390f6fdc4719de6a4ddb32305c4d9fc08dcc2",
+      "bytes": 206256
+    },
+    {
+      "path": "docs/whitepaper/triadic-brain-20261102/R4/TERMS.en.md",
+      "origin": "NEW_PUBLIC_HIGH_LEVEL_DESIGN_DOCUMENTATION",
+      "source_basis_paths": [],
+      "modifications": "Frozen R4 source-aligned English design or contribution documentation, or original navigation. Descriptive data only; no new runtime evidence, channel activation or execution authority.",
+      "license": "Existing rights and notices preserved; no new media/prose license grant.",
+      "publication_review": "OWNER_REQUESTED_PUBLIC_DOCUMENTATION_EXISTING_RIGHTS_PRESERVED",
+      "candidate_sha256": "046e9ed81090c8377e66506074a656612bdb4b8203021736329fab702ef18fe0",
+      "bytes": 20529
+    },
+    {
+      "path": "docs/whitepaper/triadic-brain-20261102/R4/WHITEPAPER.en.md",
+      "origin": "NEW_PUBLIC_HIGH_LEVEL_DESIGN_DOCUMENTATION",
+      "source_basis_paths": [],
+      "modifications": "Frozen R4 source-aligned English design or contribution documentation, or original navigation. Descriptive data only; no new runtime evidence, channel activation or execution authority.",
+      "license": "Existing rights and notices preserved; no new media/prose license grant.",
+      "publication_review": "OWNER_REQUESTED_PUBLIC_DOCUMENTATION_EXISTING_RIGHTS_PRESERVED",
+      "candidate_sha256": "3f72cc914840e7f5afe4c92c40e99d53734490049bd5df221161e80bce18d6c6",
+      "bytes": 67397
+    },
+    {
+      "path": "docs/whitepaper/triadic-brain-20261102/README.md",
+      "origin": "NEW_PUBLIC_HIGH_LEVEL_DESIGN_DOCUMENTATION",
+      "source_basis_paths": [],
+      "modifications": "Frozen R4 source-aligned English design or contribution documentation, or original navigation. Descriptive data only; no new runtime evidence, channel activation or execution authority.",
+      "license": "Existing rights and notices preserved; no new media/prose license grant.",
+      "publication_review": "OWNER_REQUESTED_PUBLIC_DOCUMENTATION_EXISTING_RIGHTS_PRESERVED",
+      "candidate_sha256": "ea517b98ea15950eb3bf45c46d73538eb7b269c9be8483529b70f4c227737f2a",
+      "bytes": 4612
+    },
+    {
+      "path": "docs/whitepaper/triadic-brain-20261102/contribute/CONTRIBUTION_CHANNELS.en.md",
+      "origin": "NEW_PUBLIC_HIGH_LEVEL_DESIGN_DOCUMENTATION",
+      "source_basis_paths": [],
+      "modifications": "Frozen R4 source-aligned English design or contribution documentation, or original navigation. Descriptive data only; no new runtime evidence, channel activation or execution authority.",
+      "license": "Existing rights and notices preserved; no new media/prose license grant.",
+      "publication_review": "OWNER_REQUESTED_PUBLIC_DOCUMENTATION_EXISTING_RIGHTS_PRESERVED",
+      "candidate_sha256": "c3117b9d43fced76ae8b749c86a8ef20884caa35b31e5c1ce4ef593d55fe26a4",
+      "bytes": 8514
+    },
+    {
+      "path": "docs/whitepaper/triadic-brain-20261102/contribute/CONTRIBUTION_INVITATION.json",
+      "origin": "NEW_PUBLIC_HIGH_LEVEL_DESIGN_DOCUMENTATION",
+      "source_basis_paths": [],
+      "modifications": "Frozen R4 source-aligned English design or contribution documentation, or original navigation. Descriptive data only; no new runtime evidence, channel activation or execution authority.",
+      "license": "Existing rights and notices preserved; no new media/prose license grant.",
+      "publication_review": "OWNER_REQUESTED_PUBLIC_DOCUMENTATION_EXISTING_RIGHTS_PRESERVED",
+      "candidate_sha256": "b62aac805dffc0620258d16b33c0d0b663b31f36e8752f67b9f99ba767d47d4f",
+      "bytes": 13602
+    },
+    {
+      "path": "docs/whitepaper/triadic-brain-20261102/contribute/CONTRIBUTION_PROPOSAL.example.json",
+      "origin": "NEW_PUBLIC_HIGH_LEVEL_DESIGN_DOCUMENTATION",
+      "source_basis_paths": [],
+      "modifications": "Frozen R4 source-aligned English design or contribution documentation, or original navigation. Descriptive data only; no new runtime evidence, channel activation or execution authority.",
+      "license": "Existing rights and notices preserved; no new media/prose license grant.",
+      "publication_review": "OWNER_REQUESTED_PUBLIC_DOCUMENTATION_EXISTING_RIGHTS_PRESERVED",
+      "candidate_sha256": "ed02cee58ddff9933a7f874bbf20f0bad82ca86a1e73233a3c30ba7bab7ff76f",
+      "bytes": 3165
+    },
+    {
+      "path": "docs/whitepaper/triadic-brain-20261102/contribute/CONTRIBUTION_PROPOSAL.schema.json",
+      "origin": "NEW_PUBLIC_HIGH_LEVEL_DESIGN_DOCUMENTATION",
+      "source_basis_paths": [],
+      "modifications": "Frozen R4 source-aligned English design or contribution documentation, or original navigation. Descriptive data only; no new runtime evidence, channel activation or execution authority.",
+      "license": "Existing rights and notices preserved; no new media/prose license grant.",
+      "publication_review": "OWNER_REQUESTED_PUBLIC_DOCUMENTATION_EXISTING_RIGHTS_PRESERVED",
+      "candidate_sha256": "c0b4bce53c2b082011d6e36a6bc815b1d2e2e0171729612ef8575279586c750a",
+      "bytes": 7484
     }
   ],
   "dependency_closure": {

@@ -1,5 +1,7 @@
 # Control Anchor
 
+**Triadic Brain design edition:** [English whitepaper, companion guides and contribution information](docs/whitepaper/triadic-brain-20261102/README.md). Main-paper translations are planned; this documentation does not expand the runnable demo's capabilities.
+
 **An offline, synthetic Python reviewer demo for evidence-linked review and correction history.** No model calls or networked compute run here. The broader Triadic Brain / Control Anchor vision proposes local-first cognitive middleware and voluntary, decentralized cooperation; those are design goals, not deployed capabilities of this repository.
 
 **Start here:** [What runs today](#what-this-repository-demonstrates-today) · [Run locally](#run-on-windows--powershell) · [Evidence and limitations](KNOWN_LIMITATIONS.md) · [Design ethos](docs/COMMUNITY_COMPUTE_VISION.md#design-ethos-freedom-cooperation-and-practical-exit) · [Function glossary](docs/FUNCTION_GLOSSARY.md) · [Contribute](CONTRIBUTING.md) · [Project metadata](codemeta.json)
