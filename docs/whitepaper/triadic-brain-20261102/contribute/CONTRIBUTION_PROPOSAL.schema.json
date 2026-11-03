@@ -1,0 +1,257 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Triadic Brain public contribution proposal",
+  "description": "Reviewed documentation format for an initial discussion-only public GitHub issue. Shape validation does not verify truth, rights, consent, authority or review. No intake parser or autonomous execution service is deployed. Existing PR workflows can run CI; this proposal format does not request or authorize those jobs. Independently authorized contributor development or testing is not prohibited.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "format_version",
+    "submission_mode",
+    "title",
+    "category",
+    "contributor",
+    "source_context",
+    "problem",
+    "proposal",
+    "evidence",
+    "limitations",
+    "requested_response",
+    "work_status",
+    "publicity_and_authority"
+  ],
+  "properties": {
+    "format_version": {
+      "const": "uvlm.public_contribution_proposal.v1"
+    },
+    "title": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 180
+    },
+    "category": {
+      "enum": [
+        "definitions_and_evidence",
+        "accessibility_and_explanation",
+        "translation_review",
+        "evaluation_design",
+        "public_interoperability_and_rights",
+        "public_demo_observation",
+        "public_design_adaptation"
+      ]
+    },
+    "contributor": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "origin",
+        "public_display_name",
+        "agent_or_model",
+        "authority_scope"
+      ],
+      "properties": {
+        "origin": {
+          "enum": [
+            "human",
+            "ai_assisted",
+            "ai_generated"
+          ]
+        },
+        "public_display_name": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 120,
+          "description": "A public pseudonym is acceptable; do not disclose personal identifying information unnecessarily."
+        },
+        "agent_or_model": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "maxLength": 200,
+          "description": "Identify known AI/tool origin; null if not applicable or unknown. Never invent identity."
+        },
+        "authority_scope": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 1200
+        }
+      }
+    },
+    "source_context": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "edition_or_public_commit",
+        "public_references",
+        "related_family_ids"
+      ],
+      "properties": {
+        "edition_or_public_commit": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 300
+        },
+        "public_references": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "^https://",
+            "maxLength": 1500
+          },
+          "maxItems": 10
+        },
+        "related_family_ids": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "^F(?:0[1-9]|[1-7][0-9]|8[0-6])$"
+          },
+          "maxItems": 20
+        }
+      }
+    },
+    "problem": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 3000
+    },
+    "proposal": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 4000
+    },
+    "evidence": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "kind",
+          "statement",
+          "public_reference"
+        ],
+        "properties": {
+          "kind": {
+            "enum": [
+              "observation",
+              "source_reading",
+              "hypothesis",
+              "proposed_check",
+              "negative_result",
+              "not_run"
+            ]
+          },
+          "statement": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 2000
+          },
+          "public_reference": {
+            "anyOf": [
+              {
+                "type": "string",
+                "pattern": "^https://",
+                "maxLength": 1500
+              },
+              {
+                "type": "null"
+              }
+            ]
+          }
+        }
+      },
+      "maxItems": 12
+    },
+    "limitations": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 3000
+    },
+    "requested_response": {
+      "enum": [
+        "clarification",
+        "documentation_review",
+        "design_feedback",
+        "consider_small_public_change",
+        "review_evaluation_plan"
+      ]
+    },
+    "work_status": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "performed_work",
+        "unperformed_work",
+        "further_execution_requested",
+        "paid_spending_requested"
+      ],
+      "properties": {
+        "performed_work": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 2000
+        },
+        "unperformed_work": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 2000
+        },
+        "further_execution_requested": {
+          "const": false,
+          "description": "This issue-format proposal requests discussion only. A later execution proposal needs an appropriate separately authorized process; no new project-owner approval is required just because a contributor uses AI."
+        },
+        "paid_spending_requested": {
+          "const": false,
+          "description": "No spending requested or authorized by this initial discussion proposal. Do not infer that a PR is cost-free or cannot initiate repository CI."
+        }
+      },
+      "description": "Report accurately what was performed under separate existing authority. The false execution/spending fields mean this initial discussion proposal requests neither; they do not revoke valid contributor authority or add a central approval gate."
+    },
+    "publicity_and_authority": {
+      "type": "object",
+      "additionalProperties": false,
+      "description": "Submitter attestations only; owner review and actual authority remain separate. Do not put private proof or secrets in these fields.",
+      "required": [
+        "public_submission_authorized",
+        "operator_authorized_scope",
+        "public_or_synthetic_only",
+        "secrets_and_private_data_excluded",
+        "rights_and_attribution_statement",
+        "understands_public_copying",
+        "no_execution_or_access_granted"
+      ],
+      "properties": {
+        "public_submission_authorized": {
+          "const": true
+        },
+        "operator_authorized_scope": {
+          "const": true
+        },
+        "public_or_synthetic_only": {
+          "const": true
+        },
+        "secrets_and_private_data_excluded": {
+          "const": true
+        },
+        "rights_and_attribution_statement": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 2000
+        },
+        "understands_public_copying": {
+          "const": true
+        },
+        "no_execution_or_access_granted": {
+          "const": true
+        }
+      }
+    },
+    "submission_mode": {
+      "enum": [
+        "example_only_do_not_submit",
+        "proposal_for_owner_review"
+      ],
+      "description": "Use example_only_do_not_submit for illustrations. Actual proposals need genuine submitter attestations and proposal_for_owner_review."
+    }
+  }
+}

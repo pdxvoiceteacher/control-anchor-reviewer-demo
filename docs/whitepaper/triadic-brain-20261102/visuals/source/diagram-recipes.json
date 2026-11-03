@@ -1,0 +1,1095 @@
+{
+  "schema_id": "triadic-brain.diagram-recipes.v1",
+  "edge_notice": "Every arrow is a declared intended data, control or provenance relation assembled from the cited functional descriptions, unless individually marked source_observed. It does not assert implemented integration. Lane ordering is editorial. REF nodes refer to a primary home elsewhere.",
+  "diagrams": [
+    {
+      "id": "01-sonya",
+      "module": "M01",
+      "title": "Control Anchor and Sonya",
+      "subtitle": "A human-facing boundary and an independently governed node; not a model with unlimited authority.",
+      "lanes": [
+        {
+          "title": "Task intake",
+          "nodes": [
+            "@Human|Human participant",
+            "F03",
+            "F04"
+          ],
+          "edges": [
+            [
+              0,
+              1,
+              "gestures / settings",
+              "data"
+            ],
+            [
+              1,
+              2,
+              "bounded request",
+              "data"
+            ]
+          ]
+        },
+        {
+          "title": "Local ownership",
+          "nodes": [
+            "F05",
+            "@F23|AEGIS / actual admission",
+            "@F19|Executive / admitted work"
+          ],
+          "edges": [
+            [
+              0,
+              1,
+              "owner scope",
+              "control"
+            ],
+            [
+              1,
+              2,
+              "permitted scope",
+              "control"
+            ]
+          ]
+        },
+        {
+          "title": "Understandable receipt and recourse",
+          "nodes": [
+            "@F35|Custody outcomes / history",
+            "F67",
+            "@Human|Human participant"
+          ],
+          "edges": [
+            [
+              0,
+              1,
+              "bounded observations",
+              "provenance"
+            ],
+            [
+              1,
+              2,
+              "inspect / correct / exit",
+              "data"
+            ]
+          ]
+        }
+      ],
+      "boundaries": [
+        "UI selections must reach the real deciding service; display state is not enforcement.",
+        "Sonya preserves untrusted-source identity. Incoming content is not an execution grant.",
+        "The installed human-gesture, current-owner and model-selection joins remain unproved."
+      ],
+      "crosslinks": [
+        [
+          "M01",
+          "M07",
+          "current controls and technical admission"
+        ],
+        [
+          "M01",
+          "M02",
+          "attributable scoped task"
+        ],
+        [
+          "M06",
+          "M01",
+          "actual outcomes and available recovery"
+        ]
+      ]
+    },
+    {
+      "id": "02-executive",
+      "module": "M02",
+      "title": "Executive, finite planning and roles",
+      "subtitle": "The executive proposes and coordinates within a real delegation; it cannot broaden that delegation.",
+      "lanes": [
+        {
+          "title": "Goal to attributable candidate",
+          "nodes": [
+            "F19",
+            "F47",
+            "F20"
+          ],
+          "edges": [
+            [
+              0,
+              1,
+              "authorized goal",
+              "data"
+            ],
+            [
+              1,
+              2,
+              "finite plan / context",
+              "data"
+            ]
+          ]
+        },
+        {
+          "title": "Bounded selection and stopping",
+          "nodes": [
+            "F64",
+            "F39",
+            "F83"
+          ],
+          "edges": [
+            [
+              0,
+              1,
+              "capability limits",
+              "control"
+            ],
+            [
+              1,
+              2,
+              "budgeted proposal",
+              "data"
+            ]
+          ]
+        },
+        {
+          "title": "Research feedback, not subjective experience",
+          "nodes": [
+            "F56",
+            "@F47|Planning / calibration",
+            "@F35|Custody / recovery"
+          ],
+          "edges": [
+            [
+              0,
+              1,
+              "state hypothesis",
+              "data"
+            ],
+            [
+              1,
+              2,
+              "versions / pending effects",
+              "provenance"
+            ]
+          ]
+        }
+      ],
+      "boundaries": [
+        "Role names do not prove identity, independent review, capability or rights.",
+        "Stopping recommendations require the actual executive/resource owner to act.",
+        "Adaptive selection and operational self-model usefulness need their own evidence."
+      ],
+      "crosslinks": [
+        [
+          "M07",
+          "M02",
+          "current delegation, privacy and resource constraints"
+        ],
+        [
+          "M02",
+          "M03",
+          "admitted analysis task and context"
+        ],
+        [
+          "M02",
+          "M08",
+          "qualified, separately admitted model or peer route"
+        ]
+      ]
+    },
+    {
+      "id": "03-coherence",
+      "module": "M03",
+      "title": "CoherenceLattice, GUFT and AHA",
+      "subtitle": "Keep native meaning and failed mappings visible while constructing candidates for independent review.",
+      "lanes": [
+        {
+          "title": "Grounded representation to candidate",
+          "nodes": [
+            "F15",
+            "F16",
+            "F07"
+          ],
+          "edges": [
+            [
+              0,
+              1,
+              "typed native view",
+              "data"
+            ],
+            [
+              1,
+              2,
+              "projection / residual",
+              "data"
+            ]
+          ]
+        },
+        {
+          "title": "Testable cross-domain transfer",
+          "nodes": [
+            "F17",
+            "F18",
+            "F55"
+          ],
+          "edges": [
+            [
+              0,
+              1,
+              "proposed bridge",
+              "data"
+            ],
+            [
+              1,
+              2,
+              "target checks / evidence",
+              "data"
+            ]
+          ]
+        },
+        {
+          "title": "Retrosynthesis and relevance",
+          "nodes": [
+            "F08",
+            "F70",
+            "@F09|Sophia fixed-candidate review"
+          ],
+          "edges": [
+            [
+              0,
+              1,
+              "bounded alternatives",
+              "data"
+            ],
+            [
+              1,
+              2,
+              "relevant candidate",
+              "data"
+            ]
+          ]
+        },
+        {
+          "title": "Meaning constraints and explicit outcomes",
+          "nodes": [
+            "F53",
+            "F49",
+            "F50"
+          ],
+          "edges": [
+            [
+              0,
+              1,
+              "source-typed meaning",
+              "control"
+            ],
+            [
+              1,
+              2,
+              "distinct limit findings",
+              "data"
+            ]
+          ]
+        }
+      ],
+      "boundaries": [
+        "These lanes are a proposed composition of preserved contracts, not an implemented pipeline.",
+        "Analogy is a falsifiable proposal, not physical unification or universal semantic equivalence.",
+        "No adequate mapping, inapplicability, missing evidence and lost discrimination remain distinct."
+      ],
+      "crosslinks": [
+        [
+          "M03",
+          "M04",
+          "fixed candidate, evidence, alternatives and limits"
+        ],
+        [
+          "M03",
+          "M05",
+          "F14 reconstructed comparison candidate; no automatic persistence"
+        ],
+        [
+          "M09",
+          "M03",
+          "source-specific formal assumptions and target comparisons"
+        ]
+      ]
+    },
+    {
+      "id": "04-sophia",
+      "module": "M04",
+      "title": "Sophia, review and selected profiles",
+      "subtitle": "Evaluate fixed candidates and preserve findings, dissent and limits; review does not grant action authority.",
+      "lanes": [
+        {
+          "title": "Review to repair or human decision",
+          "nodes": [
+            "F74",
+            "F09",
+            "F33"
+          ],
+          "edges": [
+            [
+              0,
+              1,
+              "source-linked packet",
+              "data"
+            ],
+            [
+              1,
+              2,
+              "attributable findings",
+              "data"
+            ]
+          ]
+        },
+        {
+          "title": "Question and prior-use checks",
+          "nodes": [
+            "F80",
+            "F81",
+            "F82"
+          ],
+          "edges": [
+            [
+              0,
+              1,
+              "question / scope limits",
+              "control"
+            ],
+            [
+              1,
+              2,
+              "declared use evidence",
+              "provenance"
+            ]
+          ]
+        },
+        {
+          "title": "Optional policy profile; never a universal prerequisite",
+          "nodes": [
+            "F32",
+            "@F33|Generic review / repair"
+          ],
+          "edges": [
+            [
+              0,
+              1,
+              "selected profile only",
+              "control"
+            ]
+          ]
+        },
+        {
+          "title": "Independent normative and warrant scrutiny",
+          "nodes": [
+            "F27",
+            "@F24|Staged moralWARE review"
+          ],
+          "edges": [
+            [
+              0,
+              1,
+              "separate findings",
+              "data"
+            ]
+          ]
+        },
+        {
+          "title": "Context and artifact-centered correction",
+          "nodes": [
+            "F34",
+            "F58",
+            "@F33|Generic findings / repair"
+          ],
+          "edges": [
+            [
+              0,
+              1,
+              "lens / counterpoints",
+              "data"
+            ],
+            [
+              1,
+              2,
+              "attributable findings",
+              "data"
+            ]
+          ]
+        }
+      ],
+      "boundaries": [
+        "Sophia cannot silently rewrite its candidate or certify its own independence.",
+        "F81 limits proposed prior use; authenticated current-use permission is a separate join.",
+        "TIAIP is an optional profile, not diagnosis; post-use lexical checks are not causal proof."
+      ],
+      "crosslinks": [
+        [
+          "M03",
+          "M04",
+          "bound candidate and preserved native evidence"
+        ],
+        [
+          "M04",
+          "M05",
+          "findings and orientation, not truth certification"
+        ],
+        [
+          "M04",
+          "M07",
+          "rights/warrant findings for the actual decision owner"
+        ]
+      ]
+    },
+    {
+      "id": "05-atlas",
+      "module": "M05",
+      "title": "Atlas orientation and PMR memory",
+      "subtitle": "An explanation, a candidate, retrieval and a memory write are four different things.",
+      "lanes": [
+        {
+          "title": "Candidate handoff to human orientation",
+          "nodes": [
+            "F14",
+            "F10",
+            "F11"
+          ],
+          "edges": [
+            [
+              0,
+              1,
+              "bounded comparison",
+              "data"
+            ],
+            [
+              1,
+              2,
+              "evaluated orientation",
+              "data"
+            ]
+          ]
+        },
+        {
+          "title": "Eligible records, lineage query and retrieval",
+          "nodes": [
+            "F13",
+            "F68",
+            "F84"
+          ],
+          "edges": [
+            [
+              0,
+              1,
+              "eligible retained records",
+              "data"
+            ],
+            [
+              1,
+              2,
+              "purpose-bound query",
+              "data"
+            ]
+          ]
+        },
+        {
+          "title": "Memory intent, not an automatic write",
+          "nodes": [
+            "F48",
+            "F85",
+            "F69"
+          ],
+          "edges": [
+            [
+              0,
+              1,
+              "role-specific candidate",
+              "data"
+            ],
+            [
+              1,
+              2,
+              "review posture only",
+              "data"
+            ]
+          ]
+        },
+        {
+          "title": "Optional humanities reference; distinct from operational Atlas",
+          "nodes": [
+            "F12",
+            "@F10|Optional contextual orientation"
+          ],
+          "edges": [
+            [
+              0,
+              1,
+              "versioned reading",
+              "data"
+            ]
+          ]
+        },
+        {
+          "title": "Public claim discipline",
+          "nodes": [
+            "F57",
+            "@F11|Publisher / derivative view"
+          ],
+          "edges": [
+            [
+              0,
+              1,
+              "evidence-tier discipline",
+              "control"
+            ]
+          ]
+        }
+      ],
+      "boundaries": [
+        "F14 is a handoff artifact / pure comparison contract, not a retrieval or storage engine.",
+        "F69 lifecycle plans need a separate storage/current-use owner's authorized effect.",
+        "Required custody, optional retention, retrieval, injection and training have separate permissions."
+      ],
+      "crosslinks": [
+        [
+          "M04",
+          "M05",
+          "assessed candidate, review findings and prior-use limits"
+        ],
+        [
+          "M05",
+          "M06",
+          "eligible lineage, corrections and truthful replay constraints"
+        ],
+        [
+          "M07",
+          "M05",
+          "current purpose, retention, revocation and disclosure rights"
+        ]
+      ]
+    },
+    {
+      "id": "06-tel-tac",
+      "module": "M06",
+      "title": "TEL, TAC, custody and provenance",
+      "subtitle": "TEL organizes explicit history; TAC governs permitted observation; neither is hidden chain-of-thought capture.",
+      "lanes": [
+        {
+          "title": "Source-specific observation and reconciliation",
+          "nodes": [
+            "F61",
+            "F63",
+            "F60"
+          ],
+          "edges": [
+            [
+              0,
+              1,
+              "attributed observations",
+              "provenance"
+            ],
+            [
+              1,
+              2,
+              "typed evidence limits",
+              "provenance"
+            ]
+          ]
+        },
+        {
+          "title": "Permitted capture, authoritative outcomes and navigation",
+          "nodes": [
+            "F30",
+            "F35",
+            "F28"
+          ],
+          "edges": [
+            [
+              0,
+              1,
+              "capture constraints",
+              "control"
+            ],
+            [
+              1,
+              2,
+              "explicit event history",
+              "provenance"
+            ]
+          ]
+        },
+        {
+          "title": "Integrity, lineage and scoped replay",
+          "nodes": [
+            "F42",
+            "F66",
+            "F75"
+          ],
+          "edges": [
+            [
+              0,
+              1,
+              "artifact integrity",
+              "provenance"
+            ],
+            [
+              1,
+              2,
+              "versions / dependencies",
+              "provenance"
+            ]
+          ]
+        },
+        {
+          "title": "Continuity is typed; recovery must fence obsolete owners",
+          "nodes": [
+            "F65",
+            "F62",
+            "@F35|Current custody owner"
+          ],
+          "edges": [
+            [
+              0,
+              1,
+              "continuity evidence",
+              "provenance"
+            ],
+            [
+              1,
+              2,
+              "resume or hold",
+              "control"
+            ]
+          ]
+        }
+      ],
+      "boundaries": [
+        "TAC is a preserved observation-control design, not proof of an implemented collector.",
+        "Optional CES event characterization is distinct from TAC, event IDs and signatures.",
+        "Integrity is not truth or permission; replay must not resend uncertain external effects."
+      ],
+      "crosslinks": [
+        [
+          "M07",
+          "M06",
+          "observation, retention and disclosure boundaries"
+        ],
+        [
+          "M06",
+          "M05",
+          "permitted history, provenance and lifecycle dependencies"
+        ],
+        [
+          "M06",
+          "M02",
+          "actual outcomes, stale-owner checks and unresolved effects"
+        ]
+      ]
+    },
+    {
+      "id": "07-controls",
+      "module": "M07",
+      "title": "UCC, AEGIS, moralWARE and controls",
+      "subtitle": "Recommendations and review findings stay separate from the actual owner who decides a protected effect.",
+      "lanes": [
+        {
+          "title": "Interpret, explicitly adopt, then use the effective version",
+          "nodes": [
+            "F59",
+            "F45",
+            "F22"
+          ],
+          "edges": [
+            [
+              0,
+              1,
+              "draft; owner adoption",
+              "control"
+            ],
+            [
+              1,
+              2,
+              "effective control version",
+              "control"
+            ]
+          ]
+        },
+        {
+          "title": "Non-authorizing screen to actual protective admission",
+          "nodes": [
+            "F29",
+            "F23",
+            "@F05|Local action / resource owner"
+          ],
+          "edges": [
+            [
+              0,
+              1,
+              "screen finding only",
+              "data"
+            ],
+            [
+              1,
+              2,
+              "bounded admit / hold",
+              "control"
+            ]
+          ]
+        },
+        {
+          "title": "Staged normative design; not a mandatory prompt gate",
+          "nodes": [
+            "F24",
+            "F26",
+            "F25"
+          ],
+          "edges": [
+            [
+              0,
+              1,
+              "profile / proposal",
+              "data"
+            ],
+            [
+              1,
+              2,
+              "attributed stage evidence",
+              "data"
+            ]
+          ]
+        },
+        {
+          "title": "Rights and continuity assessment",
+          "nodes": [
+            "F31",
+            "@F24|Normative / human review"
+          ],
+          "edges": [
+            [
+              0,
+              1,
+              "rights-floor findings",
+              "data"
+            ]
+          ]
+        },
+        {
+          "title": "Research assessment of practical autonomy",
+          "nodes": [
+            "F77",
+            "@F03|Recourse / accessible exit"
+          ],
+          "edges": [
+            [
+              0,
+              1,
+              "scoped findings",
+              "data"
+            ]
+          ]
+        }
+      ],
+      "boundaries": [
+        "Advisory business-control assessments do not veto ordinary prompts or authorize external actions.",
+        "Technical protections remain separately enforceable at the actual deciding owner.",
+        "Historical guard source is not a second Control Anchor or proof of current action integration."
+      ],
+      "crosslinks": [
+        [
+          "M07",
+          "M01",
+          "owner selections, actual effects, appeal and restoration"
+        ],
+        [
+          "M07",
+          "M02",
+          "finite delegation and enforceable resource limits"
+        ],
+        [
+          "M07",
+          "M08",
+          "separate requester disclosure and recipient-use rights"
+        ]
+      ]
+    },
+    {
+      "id": "08-cooperation",
+      "module": "M08",
+      "title": "Owner-governed cooperation and providers",
+      "subtitle": "Independent participants exchange bounded work and eligible artifacts; no global owner or shared writable brain.",
+      "lanes": [
+        {
+          "title": "Cooperation to locally admitted contribution",
+          "nodes": [
+            "F06",
+            "F36",
+            "F21"
+          ],
+          "edges": [
+            [
+              0,
+              1,
+              "eligible peer / task",
+              "data"
+            ],
+            [
+              1,
+              2,
+              "permitted result",
+              "data"
+            ]
+          ]
+        },
+        {
+          "title": "Selected confidential-release mode only; not a prerequisite for every artifact exchange",
+          "nodes": [
+            "F38",
+            "F37",
+            "@F04|Receiving Sonya / local admission"
+          ],
+          "edges": [
+            [
+              0,
+              1,
+              "selected protected release",
+              "control"
+            ],
+            [
+              1,
+              2,
+              "verified artifact bytes",
+              "data"
+            ]
+          ]
+        },
+        {
+          "title": "A substitute must fit the actual role and control contract",
+          "nodes": [
+            "F73",
+            "@F19|Configured executive / worker route"
+          ],
+          "edges": [
+            [
+              0,
+              1,
+              "qualified substitute only",
+              "control"
+            ]
+          ]
+        },
+        {
+          "title": "Crosscutting local-first principle",
+          "nodes": [
+            "F72",
+            "@F05|Each independently owned node"
+          ],
+          "edges": [
+            [
+              0,
+              1,
+              "local-first / explicit transfer",
+              "control"
+            ]
+          ]
+        }
+      ],
+      "boundaries": [
+        "A peer's permission is not the receiving owner's current-use authority.",
+        "Bounded resource reservations are not unlimited globally coherent RAM.",
+        "Selected synthetic components exist; real two-node exchange and three-node cognition remain unproved.",
+        "Confidential key release is optional; ordinary rights-governed artifact exchange does not require it."
+      ],
+      "crosslinks": [
+        [
+          "M01",
+          "M08",
+          "source-bound task and current local owner"
+        ],
+        [
+          "M08",
+          "M04",
+          "contribution eligible for local review"
+        ],
+        [
+          "M08",
+          "M06",
+          "attributable outcomes, unknowns and correction lineage"
+        ]
+      ]
+    },
+    {
+      "id": "09a-quality-research",
+      "module": "M09",
+      "title": "Research and quality: comparison, not scores as authority",
+      "subtitle": "Preserve canonical objectives, narrower proxies and empirical outcomes as different evidence types.",
+      "lanes": [
+        {
+          "title": "Representation accounting to declared comparison",
+          "nodes": [
+            "F43",
+            "F46",
+            "F40"
+          ],
+          "edges": [
+            [
+              0,
+              1,
+              "scoped codec accounting",
+              "data"
+            ],
+            [
+              1,
+              2,
+              "bounded diagnostics",
+              "data"
+            ]
+          ]
+        },
+        {
+          "title": "Assumptions and independent outcome checks",
+          "nodes": [
+            "F54",
+            "F86",
+            "F78"
+          ],
+          "edges": [
+            [
+              0,
+              1,
+              "formula / consumer map",
+              "provenance"
+            ],
+            [
+              1,
+              2,
+              "scoped claims / limits",
+              "data"
+            ]
+          ]
+        }
+      ],
+      "boundaries": [
+        "This is a proposed research-evidence route, not a measured energy/performance result.",
+        "A codec's reconstruction success does not prove semantic transfer or energy reduction.",
+        "Passing algebra, thresholds or proxy scores cannot override consent, evidence or rights floors."
+      ],
+      "crosslinks": [
+        [
+          "M09",
+          "M02",
+          "bounded comparisons for role/effort proposals"
+        ],
+        [
+          "M09",
+          "M03",
+          "formal assumptions and transfer-test evidence"
+        ],
+        [
+          "M09",
+          "M05",
+          "pure compression/lifecycle recommendation; native owner decides"
+        ]
+      ]
+    },
+    {
+      "id": "09b-optional-quality",
+      "module": "M09",
+      "title": "Optional branches and evidence-linked maintenance",
+      "subtitle": "These are typed extensions, research and process responsibilities—not additional mandatory Brain organs.",
+      "lanes": [
+        {
+          "title": "Optional contextual representations",
+          "nodes": [
+            "F51",
+            "F52",
+            "@F10|Optional contextual display"
+          ],
+          "edges": [
+            [
+              0,
+              1,
+              "typed distributions / limits",
+              "data"
+            ],
+            [
+              1,
+              2,
+              "declared contextual view",
+              "data"
+            ]
+          ]
+        },
+        {
+          "title": "Civic-domain extension with unresolved current Brain interface",
+          "nodes": [
+            "F41",
+            "@F33|Possible generic review consumer"
+          ],
+          "edges": [
+            [
+              0,
+              1,
+              "proposed research artifact",
+              "data"
+            ]
+          ]
+        },
+        {
+          "title": "Neutral sequence kernel / optional composition",
+          "nodes": [
+            "F71",
+            "@ActualOwner|Actual local action / content owner"
+          ],
+          "edges": [
+            [
+              1,
+              0,
+              "separate authorization",
+              "control"
+            ]
+          ]
+        },
+        {
+          "title": "Repair and delivery discipline",
+          "nodes": [
+            "F44",
+            "F76",
+            "@Maintainers|Maintainers / reviewers"
+          ],
+          "edges": [
+            [
+              0,
+              1,
+              "failures / scoped repairs",
+              "provenance"
+            ],
+            [
+              1,
+              2,
+              "claims versus evidence",
+              "data"
+            ]
+          ]
+        }
+      ],
+      "boundaries": [
+        "GSE, proposed call-engine composition and optional content are distinct; adoption is unresolved.",
+        "F76 is process/risk vocabulary, not an invented automated detector.",
+        "F51/F52 composition is an editorial research proposal; optional reference views are not person scores."
+      ],
+      "crosslinks": [
+        [
+          "M09",
+          "M04",
+          "optional review artifacts and specific findings"
+        ],
+        [
+          "M09",
+          "M05",
+          "optional reference views; not operational memory"
+        ],
+        [
+          "M09",
+          "M07",
+          "external authority; no permission created by a sequence"
+        ]
+      ]
+    }
+  ]
+}

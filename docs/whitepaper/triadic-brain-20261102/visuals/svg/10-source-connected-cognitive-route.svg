@@ -1,0 +1,126 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1600" height="1660" viewBox="0 0 1600 1660" role="img" aria-labelledby="title desc"><title id="title">Maintained cognitive route: actual source connections</title><desc id="desc">Static source inspection identified the maintained WORK, separate DISPATCH, JOINED analysis, credentialed evaluator, custody acceptance, Atlas, TEL and Home inspection routes. Solid arrows mean a caller and accepting consumer are present in the inspected source, not live execution, installed qualification or human acceptance. Capture-only explicitly records optional analysis not executed. Ordinary governed processing passes no PMR consent.</desc>
+<rect width="1600" height="1660" fill="white"/>
+<defs>
+<marker id="arrow-data" markerWidth="9" markerHeight="9" refX="8" refY="4.5" orient="auto"><path d="M0,0 L9,4.5 L0,9 Z" fill="#087f8c"/></marker>
+<marker id="arrow-control" markerWidth="9" markerHeight="9" refX="8" refY="4.5" orient="auto"><path d="M0,0 L9,4.5 L0,9 Z" fill="#9a5b06"/></marker>
+<marker id="arrow-provenance" markerWidth="9" markerHeight="9" refX="8" refY="4.5" orient="auto"><path d="M0,0 L9,4.5 L0,9 Z" fill="#7451a8"/></marker>
+<marker id="arrow-association" markerWidth="9" markerHeight="9" refX="8" refY="4.5" orient="auto"><path d="M0,0 L9,4.5 L0,9 Z" fill="#71808b"/></marker>
+</defs><g font-family="DejaVu Sans, sans-serif">
+<text x="44" y="40" font-size="15" fill="#087f8c" text-anchor="start" font-weight="700">STATIC SOURCE TRACE · NOT INSTALLED OR LIVE EVIDENCE</text>
+<text x="44" y="86" font-size="32" fill="#172b3a" text-anchor="start" font-weight="700">The cognitive route already connected in source</text>
+<text x="44" y="122.0" font-size="18" fill="#465b6c" text-anchor="start">Solid arrows below identify inspected callers and accepting consumers. They do not claim deployed inference or complete end-to-end</text>
+<text x="44" y="146.3" font-size="18" fill="#465b6c" text-anchor="start">usefulness.</text>
+<text x="44" y="176" font-size="17" fill="#465b6c" text-anchor="start" font-weight="700">Work submission, provider dispatch, evaluator acceptance and human review are distinct transitions—not one automatic run.</text>
+<text x="44" y="228" font-size="18" fill="#172b3a" text-anchor="start" font-weight="700">01 · WORK submits a bound task; it does not authorize dispatch</text>
+<rect x="44" y="253" width="392" height="150" rx="10" fill="#edf7f5" stroke="#80a99d" stroke-width="1.5"/>
+<text x="62" y="280" font-size="14" fill="#465b6c" text-anchor="start" font-weight="700">F03</text>
+<text x="62" y="316.0" font-size="21" fill="#172b3a" text-anchor="start" font-weight="700">Control Anchor Home: WORK</text>
+<text x="62" y="367" font-size="14" fill="#465b6c" text-anchor="start">explicit human task / turn</text>
+<rect x="574" y="253" width="392" height="150" rx="10" fill="#edf7f5" stroke="#80a99d" stroke-width="1.5"/>
+<text x="592" y="280" font-size="14" fill="#465b6c" text-anchor="start" font-weight="700">F04</text>
+<text x="592" y="316.0" font-size="21" fill="#172b3a" text-anchor="start" font-weight="700">Sonya explicit task / turn</text>
+<text x="592" y="367" font-size="14" fill="#465b6c" text-anchor="start">canonical request; explicit parent</text>
+<rect x="1104" y="253" width="392" height="150" rx="10" fill="#edf7f5" stroke="#80a99d" stroke-width="1.5"/>
+<text x="1122" y="280" font-size="14" fill="#465b6c" text-anchor="start" font-weight="700">F35 · F23 · F22</text>
+<text x="1122" y="316.0" font-size="21" fill="#172b3a" text-anchor="start" font-weight="700">Custody admission + AEGIS /</text>
+<text x="1122" y="344.35" font-size="21" fill="#172b3a" text-anchor="start" font-weight="700">UCC</text>
+<text x="1122" y="367" font-size="14" fill="#465b6c" text-anchor="start">technical eligibility; business advisory</text>
+<path d="M442,354 L564,354" fill="none" stroke="#087f8c" stroke-width="2.7" stroke-linejoin="round" marker-end="url(#arrow-data)"/>
+<text x="454" y="291" font-size="14" fill="#087f8c" text-anchor="start">request /</text>
+<text x="454" y="309" font-size="14" fill="#087f8c" text-anchor="start">context</text>
+<path d="M972,354 L1094,354" fill="none" stroke="#087f8c" stroke-width="2.7" stroke-linejoin="round" marker-end="url(#arrow-data)"/>
+<text x="984" y="291" font-size="14" fill="#087f8c" text-anchor="start">authenticated</text>
+<text x="984" y="309" font-size="14" fill="#087f8c" text-anchor="start">admission</text>
+<text x="44" y="450" font-size="18" fill="#172b3a" text-anchor="start" font-weight="700">02 · DISPATCH needs a separate exact-request authorization</text>
+<rect x="44" y="475" width="392" height="150" rx="10" fill="#edf7f5" stroke="#80a99d" stroke-width="1.5"/>
+<text x="62" y="502" font-size="14" fill="#465b6c" text-anchor="start" font-weight="700">F45 · F35</text>
+<text x="62" y="538.0" font-size="21" fill="#172b3a" text-anchor="start" font-weight="700">Exact-request dispatch</text>
+<text x="62" y="566.35" font-size="21" fill="#172b3a" text-anchor="start" font-weight="700">authorization</text>
+<text x="62" y="589" font-size="14" fill="#465b6c" text-anchor="start">record / version / actor / limits</text>
+<rect x="574" y="475" width="392" height="150" rx="10" fill="#edf7f5" stroke="#80a99d" stroke-width="1.5"/>
+<text x="592" y="502" font-size="14" fill="#465b6c" text-anchor="start" font-weight="700">F04 · F73</text>
+<text x="592" y="538.0" font-size="21" fill="#172b3a" text-anchor="start" font-weight="700">Configured provider / model</text>
+<text x="592" y="566.35" font-size="21" fill="#172b3a" text-anchor="start" font-weight="700">adapter</text>
+<text x="592" y="589" font-size="14" fill="#465b6c" text-anchor="start">configured operating bounds</text>
+<rect x="1104" y="475" width="392" height="150" rx="10" fill="#edf7f5" stroke="#80a99d" stroke-width="1.5"/>
+<text x="1122" y="502" font-size="14" fill="#465b6c" text-anchor="start" font-weight="700">F35 · F04</text>
+<text x="1122" y="538.0" font-size="21" fill="#172b3a" text-anchor="start" font-weight="700">Raw response capture +</text>
+<text x="1122" y="566.35" font-size="21" fill="#172b3a" text-anchor="start" font-weight="700">normalized text</text>
+<text x="1122" y="589" font-size="14" fill="#465b6c" text-anchor="start">wire bytes and text remain separate</text>
+<path d="M442,576 L564,576" fill="none" stroke="#087f8c" stroke-width="2.7" stroke-linejoin="round" marker-end="url(#arrow-data)"/>
+<text x="454" y="513" font-size="14" fill="#087f8c" text-anchor="start">frozen</text>
+<text x="454" y="531" font-size="14" fill="#087f8c" text-anchor="start">request</text>
+<path d="M972,576 L1094,576" fill="none" stroke="#087f8c" stroke-width="2.7" stroke-linejoin="round" marker-end="url(#arrow-data)"/>
+<text x="984" y="513" font-size="14" fill="#087f8c" text-anchor="start">response /</text>
+<text x="984" y="531" font-size="14" fill="#087f8c" text-anchor="start">error bytes</text>
+<text x="44" y="672" font-size="18" fill="#172b3a" text-anchor="start" font-weight="700">03 · JOINED analysis emits derived evaluator inputs; core stops before Sophia / Atlas</text>
+<rect x="44" y="697" width="392" height="150" rx="10" fill="#edf7f5" stroke="#80a99d" stroke-width="1.5"/>
+<text x="62" y="724" font-size="14" fill="#465b6c" text-anchor="start" font-weight="700">F04 · F35</text>
+<text x="62" y="760.0" font-size="21" fill="#172b3a" text-anchor="start" font-weight="700">Retained capture → Sonya</text>
+<text x="62" y="788.35" font-size="21" fill="#172b3a" text-anchor="start" font-weight="700">quarantine</text>
+<text x="62" y="811" font-size="14" fill="#465b6c" text-anchor="start">derived text; preserved raw capture</text>
+<rect x="574" y="697" width="392" height="150" rx="10" fill="#edf7f5" stroke="#80a99d" stroke-width="1.5"/>
+<text x="592" y="724" font-size="14" fill="#465b6c" text-anchor="start" font-weight="700">F07 · F16 · F17 · F29</text>
+<text x="592" y="760.0" font-size="21" fill="#172b3a" text-anchor="start" font-weight="700">CoherenceLattice analytical</text>
+<text x="592" y="788.35" font-size="21" fill="#172b3a" text-anchor="start" font-weight="700">route</text>
+<text x="592" y="811" font-size="14" fill="#465b6c" text-anchor="start">candidate / UCM / AHA / aperture</text>
+<rect x="1104" y="697" width="392" height="150" rx="10" fill="#edf7f5" stroke="#80a99d" stroke-width="1.5"/>
+<text x="1122" y="724" font-size="14" fill="#465b6c" text-anchor="start" font-weight="700">F35 · F09</text>
+<text x="1122" y="760.0" font-size="21" fill="#172b3a" text-anchor="start" font-weight="700">Evaluator publication /</text>
+<text x="1122" y="788.35" font-size="21" fill="#172b3a" text-anchor="start" font-weight="700">claim</text>
+<text x="1122" y="811" font-size="14" fill="#465b6c" text-anchor="start">allowlisted artifacts; nonce manifest</text>
+<path d="M442,798 L564,798" fill="none" stroke="#087f8c" stroke-width="2.7" stroke-linejoin="round" marker-end="url(#arrow-data)"/>
+<text x="454" y="735" font-size="14" fill="#087f8c" text-anchor="start">captured</text>
+<text x="454" y="753" font-size="14" fill="#087f8c" text-anchor="start">adapter</text>
+<path d="M972,798 L1094,798" fill="none" stroke="#087f8c" stroke-width="2.7" stroke-linejoin="round" marker-end="url(#arrow-data)"/>
+<text x="984" y="735" font-size="14" fill="#087f8c" text-anchor="start">derived</text>
+<text x="984" y="753" font-size="14" fill="#087f8c" text-anchor="start">artifacts</text>
+<text x="44" y="894" font-size="18" fill="#172b3a" text-anchor="start" font-weight="700">04 · Separate credentialed evaluator; custody validates the returned result</text>
+<rect x="44" y="919" width="392" height="150" rx="10" fill="#edf7f5" stroke="#80a99d" stroke-width="1.5"/>
+<text x="62" y="946" font-size="14" fill="#465b6c" text-anchor="start" font-weight="700">F09</text>
+<text x="62" y="982.0" font-size="21" fill="#172b3a" text-anchor="start" font-weight="700">Sophia fixed-file audit</text>
+<text x="62" y="1033" font-size="14" fill="#465b6c" text-anchor="start">nonce-bound manifested inputs</text>
+<rect x="574" y="919" width="392" height="150" rx="10" fill="#edf7f5" stroke="#80a99d" stroke-width="1.5"/>
+<text x="592" y="946" font-size="14" fill="#465b6c" text-anchor="start" font-weight="700">F35</text>
+<text x="592" y="982.0" font-size="21" fill="#172b3a" text-anchor="start" font-weight="700">Custody accepts exact</text>
+<text x="592" y="1010.35" font-size="21" fill="#172b3a" text-anchor="start" font-weight="700">result</text>
+<text x="592" y="1033" font-size="14" fill="#465b6c" text-anchor="start">actor / input / algorithm bindings</text>
+<rect x="1104" y="919" width="392" height="150" rx="10" fill="#edf7f5" stroke="#80a99d" stroke-width="1.5"/>
+<text x="1122" y="946" font-size="14" fill="#465b6c" text-anchor="start" font-weight="700">F10 · F28</text>
+<text x="1122" y="982.0" font-size="21" fill="#172b3a" text-anchor="start" font-weight="700">Atlas posture + TEL stage</text>
+<text x="1122" y="1010.35" font-size="21" fill="#172b3a" text-anchor="start" font-weight="700">links</text>
+<text x="1122" y="1033" font-size="14" fill="#465b6c" text-anchor="start">accepted results; sealed projection</text>
+<path d="M442,1020 L564,1020" fill="none" stroke="#087f8c" stroke-width="2.7" stroke-linejoin="round" marker-end="url(#arrow-data)"/>
+<text x="454" y="957" font-size="14" fill="#087f8c" text-anchor="start">bound audit</text>
+<text x="454" y="975" font-size="14" fill="#087f8c" text-anchor="start">result</text>
+<path d="M972,1020 L1094,1020" fill="none" stroke="#087f8c" stroke-width="2.7" stroke-linejoin="round" marker-end="url(#arrow-data)"/>
+<text x="984" y="957" font-size="14" fill="#087f8c" text-anchor="start">accepted</text>
+<text x="984" y="975" font-size="14" fill="#087f8c" text-anchor="start">result</text>
+<text x="44" y="1116" font-size="18" fill="#172b3a" text-anchor="start" font-weight="700">05 · Inspect retained history; human review remains separately attributable</text>
+<rect x="44" y="1141" width="392" height="150" rx="10" fill="#edf7f5" stroke="#80a99d" stroke-width="1.5"/>
+<text x="62" y="1168" font-size="14" fill="#465b6c" text-anchor="start" font-weight="700">F35 · F28</text>
+<text x="62" y="1204.0" font-size="21" fill="#172b3a" text-anchor="start" font-weight="700">Retained projection /</text>
+<text x="62" y="1232.35" font-size="21" fill="#172b3a" text-anchor="start" font-weight="700">capture</text>
+<text x="62" y="1255" font-size="14" fill="#465b6c" text-anchor="start">saved source, analysis and states</text>
+<rect x="574" y="1141" width="392" height="150" rx="10" fill="#edf7f5" stroke="#80a99d" stroke-width="1.5"/>
+<text x="592" y="1168" font-size="14" fill="#465b6c" text-anchor="start" font-weight="700">F03 · F67</text>
+<text x="592" y="1204.0" font-size="21" fill="#172b3a" text-anchor="start" font-weight="700">Home INSPECT / CONTROLS</text>
+<text x="592" y="1255" font-size="14" fill="#465b6c" text-anchor="start">reopen does not resend effects</text>
+<rect x="1104" y="1141" width="392" height="150" rx="10" fill="#edf7f5" stroke="#80a99d" stroke-width="1.5"/>
+<text x="1122" y="1168" font-size="14" fill="#465b6c" text-anchor="start" font-weight="700">F33 · F03</text>
+<text x="1122" y="1204.0" font-size="21" fill="#172b3a" text-anchor="start" font-weight="700">Separate human REVIEW</text>
+<text x="1122" y="1255" font-size="14" fill="#465b6c" text-anchor="start">pending until attributable action</text>
+<path d="M442,1242 L564,1242" fill="none" stroke="#087f8c" stroke-width="2.7" stroke-linejoin="round" marker-end="url(#arrow-data)"/>
+<text x="454" y="1179" font-size="14" fill="#087f8c" text-anchor="start">saved bounded</text>
+<text x="454" y="1197" font-size="14" fill="#087f8c" text-anchor="start">view</text>
+<path d="M972,1242 L1094,1242" fill="none" stroke="#087f8c" stroke-width="2.7" stroke-linejoin="round" marker-end="url(#arrow-data)"/>
+<text x="984" y="1179" font-size="14" fill="#087f8c" text-anchor="start">separate</text>
+<text x="984" y="1197" font-size="14" fill="#087f8c" text-anchor="start">review action</text>
+<rect x="44" y="1365" width="1512" height="190" rx="10" fill="#f6f7f9" stroke="#becbd3" stroke-width="1.5"/>
+<text x="66" y="1400" font-size="18" fill="#172b3a" text-anchor="start" font-weight="700">WHAT THIS SOURCE TRACE DOES NOT ESTABLISH</text>
+<text x="66" y="1434" font-size="17" fill="#465b6c" text-anchor="start">• CAPTURE_ONLY explicitly marks optional Coherence / Sophia / Atlas / TEL analysis NOT_EXECUTED.</text>
+<text x="66" y="1464" font-size="17" fill="#465b6c" text-anchor="start">• The ordinary governed route passes no PMR consent: required custody is not optional cognitive memory.</text>
+<text x="66" y="1494" font-size="17" fill="#465b6c" text-anchor="start">• Synthetic captured responses and injected boundaries are not installed provider inference or human acceptance.</text>
+<text x="66" y="1524" font-size="17" fill="#465b6c" text-anchor="start">• The full source edge ledger retains separate same-root role synthesis, reconstruction and comparison boundaries.</text>
+<text x="44" y="1612" font-size="17" fill="#172b3a" text-anchor="start" font-weight="700">Source-connected ≠ execution-tested ≠ installed ≠ human accepted. Exact private source anchors are retained separately.</text>
+</g></svg>

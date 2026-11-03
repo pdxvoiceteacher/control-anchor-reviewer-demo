@@ -1,0 +1,113 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1600" height="1402" viewBox="0 0 1600 1402" role="img" aria-labelledby="title desc"><title id="title">Owner-governed cooperation and providers</title><desc id="desc">Independent participants exchange bounded work and eligible artifacts; no global owner or shared writable brain. A peer&#x27;s permission is not the receiving owner&#x27;s current-use authority. Bounded resource reservations are not unlimited globally coherent RAM. Selected synthetic components exist; real two-node exchange and three-node cognition remain unproved. Confidential key release is optional; ordinary rights-governed artifact exchange does not require it. Lane Cooperation to locally admitted contribution: F06 Cooperative node network; F36 Owner admitted cooperative execution; F21 Bound peer contribution Lane Selected confidential-release mode only; not a prerequisite for every artifact exchange: F38 Owner controlled confidential release; F37 Rights governed artifact exchange; Receiving Sonya / local admission Lane A substitute must fit the actual role and control contract: F73 Qualified model substitution; Configured executive / worker route Lane Crosscutting local-first principle: F72 Local first ownership; Each independently owned node</desc>
+<rect width="1600" height="1402" fill="white"/>
+<defs>
+<marker id="arrow-data" markerWidth="9" markerHeight="9" refX="8" refY="4.5" orient="auto"><path d="M0,0 L9,4.5 L0,9 Z" fill="#087f8c"/></marker>
+<marker id="arrow-control" markerWidth="9" markerHeight="9" refX="8" refY="4.5" orient="auto"><path d="M0,0 L9,4.5 L0,9 Z" fill="#9a5b06"/></marker>
+<marker id="arrow-provenance" markerWidth="9" markerHeight="9" refX="8" refY="4.5" orient="auto"><path d="M0,0 L9,4.5 L0,9 Z" fill="#7451a8"/></marker>
+<marker id="arrow-association" markerWidth="9" markerHeight="9" refX="8" refY="4.5" orient="auto"><path d="M0,0 L9,4.5 L0,9 Z" fill="#71808b"/></marker>
+</defs><g font-family="DejaVu Sans, sans-serif">
+<text x="44" y="40" font-size="15" fill="#087f8c" text-anchor="start" font-weight="700">M08 · PROPOSED RESPONSIBILITY GROUPING</text>
+<text x="44" y="86" font-size="32" fill="#172b3a" text-anchor="start" font-weight="700">Owner-governed cooperation and providers</text>
+<text x="44" y="122.0" font-size="18" fill="#465b6c" text-anchor="start">Independent participants exchange bounded work and eligible artifacts; no global owner or shared writable brain.</text>
+<text x="44" y="180" font-size="16" fill="#465b6c" text-anchor="start">Arrows: intended data (teal) · control / constraints (amber) · provenance (purple). REF boxes are secondary references.</text>
+<text x="44" y="220" font-size="18" fill="#172b3a" text-anchor="start" font-weight="700">Cooperation to locally admitted contribution</text>
+<a xlink:href="../modules/M08.md#F06">
+<rect x="44" y="244" width="392" height="146" rx="10" fill="#eaf2f8" stroke="#becbd3" stroke-width="1.5"/>
+<text x="62" y="270" font-size="13" fill="#465b6c" text-anchor="start" font-weight="700">F06 · DEPLOYMENT SCOPE · D</text>
+<text x="62" y="307.0" font-size="22" fill="#172b3a" text-anchor="start" font-weight="700">Cooperative node network</text>
+<text x="62" y="374" font-size="14" fill="#465b6c" text-anchor="start">Primary home M08 · source scope in index</text>
+</a>
+<a xlink:href="../modules/M08.md#F36">
+<rect x="574" y="244" width="392" height="146" rx="10" fill="#eef7f7" stroke="#becbd3" stroke-width="1.5"/>
+<text x="592" y="270" font-size="13" fill="#465b6c" text-anchor="start" font-weight="700">F36 · RESPONSIBILITY · B</text>
+<text x="592" y="307.0" font-size="22" fill="#172b3a" text-anchor="start" font-weight="700">Owner-admitted peer</text>
+<text x="592" y="336.7" font-size="22" fill="#172b3a" text-anchor="start" font-weight="700">execution</text>
+<text x="592" y="374" font-size="14" fill="#465b6c" text-anchor="start">Primary home M08 · source scope in index</text>
+</a>
+<a xlink:href="../modules/M08.md#F21">
+<rect x="1104" y="244" width="392" height="146" rx="10" fill="#eef7f7" stroke="#becbd3" stroke-width="1.5"/>
+<text x="1122" y="270" font-size="13" fill="#465b6c" text-anchor="start" font-weight="700">F21 · RESPONSIBILITY · C</text>
+<text x="1122" y="307.0" font-size="22" fill="#172b3a" text-anchor="start" font-weight="700">Bound peer contribution</text>
+<text x="1122" y="374" font-size="14" fill="#465b6c" text-anchor="start">Primary home M08 · source scope in index</text>
+</a>
+<path d="M442,344 L564,344" fill="none" stroke="#087f8c" stroke-width="2.7" stroke-linejoin="round" stroke-dasharray="8 6" marker-end="url(#arrow-data)"/>
+<text x="454" y="278" font-size="14" fill="#087f8c" text-anchor="start">eligible peer</text>
+<text x="454" y="296" font-size="14" fill="#087f8c" text-anchor="start">/ task</text>
+<path d="M972,344 L1094,344" fill="none" stroke="#087f8c" stroke-width="2.7" stroke-linejoin="round" stroke-dasharray="8 6" marker-end="url(#arrow-data)"/>
+<text x="984" y="278" font-size="14" fill="#087f8c" text-anchor="start">permitted</text>
+<text x="984" y="296" font-size="14" fill="#087f8c" text-anchor="start">result</text>
+<text x="44" y="438" font-size="18" fill="#172b3a" text-anchor="start" font-weight="700">Selected confidential-release mode only; not a prerequisite for every artifact exchange</text>
+<a xlink:href="../modules/M08.md#F38">
+<rect x="44" y="462" width="392" height="146" rx="10" fill="#eef7f7" stroke="#becbd3" stroke-width="1.5"/>
+<text x="62" y="488" font-size="13" fill="#465b6c" text-anchor="start" font-weight="700">F38 · RESPONSIBILITY · D</text>
+<text x="62" y="525.0" font-size="22" fill="#172b3a" text-anchor="start" font-weight="700">Owner-controlled release</text>
+<text x="62" y="592" font-size="14" fill="#465b6c" text-anchor="start">Primary home M08 · source scope in index</text>
+</a>
+<a xlink:href="../modules/M08.md#F37">
+<rect x="574" y="462" width="392" height="146" rx="10" fill="#eef7f7" stroke="#becbd3" stroke-width="1.5"/>
+<text x="592" y="488" font-size="13" fill="#465b6c" text-anchor="start" font-weight="700">F37 · RESPONSIBILITY · C</text>
+<text x="592" y="525.0" font-size="22" fill="#172b3a" text-anchor="start" font-weight="700">Rights-governed artifact</text>
+<text x="592" y="554.7" font-size="22" fill="#172b3a" text-anchor="start" font-weight="700">exchange</text>
+<text x="592" y="592" font-size="14" fill="#465b6c" text-anchor="start">Primary home M08 · source scope in index</text>
+</a>
+<rect x="1104" y="462" width="392" height="146" rx="10" fill="#ffffff" stroke="#8c9eaa" stroke-width="1.5" stroke-dasharray="6 5"/>
+<text x="1122" y="488" font-size="14" fill="#465b6c" text-anchor="start" font-weight="700">REFERENCE · M01</text>
+<text x="1122" y="524.0" font-size="22" fill="#172b3a" text-anchor="start" font-weight="700">Receiving Sonya / local</text>
+<text x="1122" y="553.7" font-size="22" fill="#172b3a" text-anchor="start" font-weight="700">admission</text>
+<text x="1122" y="592" font-size="14" fill="#465b6c" text-anchor="start">F04</text>
+<path d="M442,562 L564,562" fill="none" stroke="#9a5b06" stroke-width="2.7" stroke-linejoin="round" stroke-dasharray="8 6" marker-end="url(#arrow-control)"/>
+<text x="454" y="496" font-size="14" fill="#9a5b06" text-anchor="start">selected</text>
+<text x="454" y="514" font-size="14" fill="#9a5b06" text-anchor="start">protected</text>
+<text x="454" y="532" font-size="14" fill="#9a5b06" text-anchor="start">release</text>
+<path d="M972,562 L1094,562" fill="none" stroke="#087f8c" stroke-width="2.7" stroke-linejoin="round" stroke-dasharray="8 6" marker-end="url(#arrow-data)"/>
+<text x="984" y="496" font-size="14" fill="#087f8c" text-anchor="start">verified</text>
+<text x="984" y="514" font-size="14" fill="#087f8c" text-anchor="start">artifact</text>
+<text x="984" y="532" font-size="14" fill="#087f8c" text-anchor="start">bytes</text>
+<text x="44" y="656" font-size="18" fill="#172b3a" text-anchor="start" font-weight="700">A substitute must fit the actual role and control contract</text>
+<a xlink:href="../modules/M08.md#F73">
+<rect x="44" y="680" width="392" height="146" rx="10" fill="#f3f5f8" stroke="#becbd3" stroke-width="1.5"/>
+<text x="62" y="706" font-size="13" fill="#465b6c" text-anchor="start" font-weight="700">F73 · RESPONSIBILITY · C</text>
+<text x="62" y="743.0" font-size="22" fill="#172b3a" text-anchor="start" font-weight="700">Qualified model</text>
+<text x="62" y="772.7" font-size="22" fill="#172b3a" text-anchor="start" font-weight="700">substitution</text>
+<text x="62" y="810" font-size="14" fill="#465b6c" text-anchor="start">Primary home M08 · source scope in index</text>
+</a>
+<rect x="574" y="680" width="392" height="146" rx="10" fill="#ffffff" stroke="#8c9eaa" stroke-width="1.5" stroke-dasharray="6 5"/>
+<text x="592" y="706" font-size="14" fill="#465b6c" text-anchor="start" font-weight="700">REFERENCE · M02</text>
+<text x="592" y="742.0" font-size="22" fill="#172b3a" text-anchor="start" font-weight="700">Configured executive /</text>
+<text x="592" y="771.7" font-size="22" fill="#172b3a" text-anchor="start" font-weight="700">worker route</text>
+<text x="592" y="810" font-size="14" fill="#465b6c" text-anchor="start">F19</text>
+<path d="M442,780 L564,780" fill="none" stroke="#9a5b06" stroke-width="2.7" stroke-linejoin="round" stroke-dasharray="8 6" marker-end="url(#arrow-control)"/>
+<text x="454" y="714" font-size="14" fill="#9a5b06" text-anchor="start">qualified</text>
+<text x="454" y="732" font-size="14" fill="#9a5b06" text-anchor="start">substitute</text>
+<text x="454" y="750" font-size="14" fill="#9a5b06" text-anchor="start">only</text>
+<text x="44" y="874" font-size="18" fill="#172b3a" text-anchor="start" font-weight="700">Crosscutting local-first principle</text>
+<a xlink:href="../modules/M08.md#F72">
+<rect x="44" y="898" width="392" height="146" rx="10" fill="#f3f5f8" stroke="#becbd3" stroke-width="1.5"/>
+<text x="62" y="924" font-size="13" fill="#465b6c" text-anchor="start" font-weight="700">F72 · PRINCIPLE · R</text>
+<text x="62" y="961.0" font-size="22" fill="#172b3a" text-anchor="start" font-weight="700">Local-first ownership</text>
+<text x="62" y="990.7" font-size="22" fill="#172b3a" text-anchor="start" font-weight="700">principle</text>
+<text x="62" y="1028" font-size="14" fill="#465b6c" text-anchor="start">Primary home M08 · source scope in index</text>
+</a>
+<rect x="574" y="898" width="392" height="146" rx="10" fill="#ffffff" stroke="#8c9eaa" stroke-width="1.5" stroke-dasharray="6 5"/>
+<text x="592" y="924" font-size="14" fill="#465b6c" text-anchor="start" font-weight="700">REFERENCE · M01</text>
+<text x="592" y="960.0" font-size="22" fill="#172b3a" text-anchor="start" font-weight="700">Each independently owned</text>
+<text x="592" y="989.7" font-size="22" fill="#172b3a" text-anchor="start" font-weight="700">node</text>
+<text x="592" y="1028" font-size="14" fill="#465b6c" text-anchor="start">F05</text>
+<path d="M442,998 L564,998" fill="none" stroke="#9a5b06" stroke-width="2.7" stroke-linejoin="round" stroke-dasharray="8 6" marker-end="url(#arrow-control)"/>
+<text x="454" y="932" font-size="14" fill="#9a5b06" text-anchor="start">local-first /</text>
+<text x="454" y="950" font-size="14" fill="#9a5b06" text-anchor="start">explicit</text>
+<text x="454" y="968" font-size="14" fill="#9a5b06" text-anchor="start">transfer</text>
+<text x="44" y="1096" font-size="16" fill="#087f8c" text-anchor="start" font-weight="700">SECONDARY MODULE CONNECTIONS</text>
+<text x="44" y="1129" font-size="17" fill="#087f8c" text-anchor="start" font-weight="700">M01 → M08</text>
+<text x="180" y="1129" font-size="17" fill="#465b6c" text-anchor="start">source-bound task and current local owner</text>
+<text x="44" y="1161" font-size="17" fill="#087f8c" text-anchor="start" font-weight="700">M08 → M04</text>
+<text x="180" y="1161" font-size="17" fill="#465b6c" text-anchor="start">contribution eligible for local review</text>
+<text x="44" y="1193" font-size="17" fill="#087f8c" text-anchor="start" font-weight="700">M08 → M06</text>
+<text x="180" y="1193" font-size="17" fill="#465b6c" text-anchor="start">attributable outcomes, unknowns and correction lineage</text>
+<text x="44" y="1245" font-size="17" fill="#465b6c" text-anchor="start">• A peer&#x27;s permission is not the receiving owner&#x27;s current-use authority.</text>
+<text x="44" y="1273" font-size="17" fill="#465b6c" text-anchor="start">• Bounded resource reservations are not unlimited globally coherent RAM.</text>
+<text x="44" y="1301" font-size="17" fill="#465b6c" text-anchor="start">• Selected synthetic components exist; real two-node exchange and three-node cognition remain unproved.</text>
+<text x="44" y="1329" font-size="17" fill="#465b6c" text-anchor="start">• Confidential key release is optional; ordinary rights-governed artifact exchange does not require it.</text>
+<text x="44" y="1352" font-size="15" fill="#465b6c" text-anchor="start">B bounded components · C source components · D design · R research / unresolved · P human process</text>
+<text x="44" y="1377" font-size="15" fill="#465b6c" text-anchor="start">Record kind ≠ maturity. No whole-family integration or permission is implied. Open the index for source scope and missing joins.</text>
+</g></svg>

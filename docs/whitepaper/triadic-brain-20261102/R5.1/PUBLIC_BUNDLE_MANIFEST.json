@@ -1,0 +1,63 @@
+{
+  "manifest_id": "uvlm.triadic-brain.public-document-bundle",
+  "manifest_version": "2026-11-02.R5.1",
+  "status": "design_documentation_edition",
+  "document_id": "uvlm.triadic-brain.public-design",
+  "language": "en",
+  "translation_status": "No translated editions are included in this English bundle. Available and planned translations are tracked separately by the publication manifest.",
+  "data_only_notice": "Reading or interpreting this material grants no access, execution, persistence, enrollment, resource spending, credentials or permission to contact others. Participation requires the relevant host/operator authorization and affected rights.",
+  "binding_method": "SHA-256 of exact UTF-8 file bytes; this manifest does not hash itself. Content digests are distinct from any later Git commit.",
+  "files": [
+    {
+      "path": "WHITEPAPER.en.md",
+      "sha256": "cfd8e64fb8aa447d17f2f4d57df2ab62f622f10a3c4dbdb47ca4cc9e220336d8",
+      "bytes": 76239,
+      "role": "English main whitepaper, 86-entry mixed-kind compact index and Knowledge Waters research appendix"
+    },
+    {
+      "path": "FAMILY_GUIDE.en.md",
+      "sha256": "183efc5d85ffcfbe3b69d6d7989ff9b8fd130de7504d6e46d34e2f53d5827ee0",
+      "bytes": 150167,
+      "role": "English linear guide to 86 mixed-kind registry entries"
+    },
+    {
+      "path": "TERMS.en.md",
+      "sha256": "e24f3594aec115577036808688ca807b5b28cb10795decdc20c919be8ab1bf7e",
+      "bytes": 21054,
+      "role": "English critical sense and translation-scope register"
+    },
+    {
+      "path": "PUBLIC_CONCEPTS.json",
+      "sha256": "2b44ccd14c107b8b430e6f3c8139ea84ca1962cc4ac53ddb4ad6805b3f4893e6",
+      "bytes": 439128,
+      "role": "Structured typed project registry with 86 conserved entries"
+    },
+    {
+      "path": "STANDARDS_RESEARCH_CROSSWALK.en.md",
+      "sha256": "60cdfaee8e52fdc6763e4132baef9fcacf5ca084d8b640cd6a7a23e3b3feeb43",
+      "bytes": 117559,
+      "role": "Sourced English conventional-term and complementary-mechanism crosswalk"
+    },
+    {
+      "path": "STANDARDS_RESEARCH_CROSSWALK.json",
+      "sha256": "941246cfc6190d4cb313e8a570178f64db83bb90054f8f7a06fc2f1c712aca7e",
+      "bytes": 216688,
+      "role": "Structured mixed-kind registry crosswalk with exact source-edition binding"
+    }
+  ],
+  "review_state": {
+    "documentation_review": "AI-assisted drafting and documentation review concern meaning, evidence and presentation. Exact edition review and publication facts are recorded separately; no acceptance or publication is asserted by this metadata.",
+    "runtime_qualification": "Not performed by this document work; all stated implementation and evidence limits remain.",
+    "rendered_accessibility": "Not inspected; structural Markdown checks only.",
+    "translation_review": "No translated editions included."
+  },
+  "public_git_commit": null,
+  "publication_authorization": "This metadata is not authority to publish, execute, enroll, spend, disclose or contact others.",
+  "edition_scope": {
+    "english_bundle": "English main whitepaper plus family guide, term register, concept map and sourced research crosswalk.",
+    "planned_main_translations": "Full main whitepaper, including its 86-entry mixed-kind compact index, research appendix and references, with supplemental links clearly identified as English.",
+    "not_claimed": "A main-whitepaper translation is not a complete translation of the English family guide, term register, source crosswalk or complete reference bundle unless those supplements are separately listed as translated.",
+    "visuals": "Visual documentation is a separately source-snapshotted sibling package, not included or claimed bound by this manifest."
+  },
+  "registry_count_semantics": "86 conserved mixed-kind entries, not a count of runtime functions, modules, completed capabilities or a completion percentage."
+}

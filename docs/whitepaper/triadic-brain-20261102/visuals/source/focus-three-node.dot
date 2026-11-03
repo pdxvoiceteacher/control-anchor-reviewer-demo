@@ -1,0 +1,32 @@
+digraph G {
+graph [rankdir=TB, bgcolor="white", pad="0.4", nodesep="0.8", ranksep="0.8", splines=spline, overlap=false, outputorder=edgesfirst, fontname="DejaVu Sans", labelloc=t, fontsize=26, label="Three owners cooperating — intended example, not deployed proof\n\nINTENDED FLOW · NOT IMPLEMENTED-EDGE EVIDENCE\nTeal: data | Amber: control | Purple: provenance\nAll nodes reference primary homes in the module index."];
+node [shape=box, style="rounded,filled", fillcolor="#f0f7f7", color="#a2bcc0", penwidth=1.4, fontname="DejaVu Sans", fontsize=18, margin="0.18,0.15"];
+edge [fontname="DejaVu Sans", fontsize=14, penwidth=1.8, arrowsize=0.8, style=dashed];
+"a_request" [label="Node A: requester and bounded\nexecutive\nF05, F19"];
+"a_release" [label="Node A: approve exact packet\nand audience\nF37, F36"];
+"b_admit" [label="Node B: owner admission and\nreservation\nF05, F36"];
+"b_work" [label="Node B: bounded candidate\ncontribution\nF07, F20"];
+"c_admit" [label="Node C: owner admission and\nreservation\nF05, F36"];
+"c_review" [label="Node C: review the fixed\ncandidate\nF09"];
+"a_use" [label="Node A: current-use admission\nof peer data\nF21"];
+"a_result" [label="Node A: synthesis and Atlas\norientation\nF20, F10"];
+"histories" [label="Each node: local custody and\nreconciliation\nF35, F60"];
+{rank=same; "a_request";}
+{rank=same; "a_release";}
+{rank=same; "b_admit";"c_admit";}
+{rank=same; "b_work";"c_review";}
+{rank=same; "a_use";}
+{rank=same; "a_result";"histories";}
+"a_request" -> "a_release" [color="#087f8c", fontcolor="#087f8c", label="finite task and proposed\ndisclosure"];
+"a_release" -> "b_admit" [color="#087f8c", fontcolor="#087f8c", label="approved bounded request to\nNode B"];
+"b_admit" -> "b_work" [color="#9a5b06", fontcolor="#9a5b06", label="Node B admits and reserves\nits own resources"];
+"b_work" -> "a_use" [color="#087f8c", fontcolor="#087f8c", label="permitted candidate packet\nand native proof"];
+"a_use" -> "a_release" [color="#087f8c", fontcolor="#087f8c", label="eligible fixed candidate\nfor separate review release"];
+"a_release" -> "c_admit" [color="#087f8c", fontcolor="#087f8c", label="separately approved fixed-\ncandidate review packet"];
+"c_admit" -> "c_review" [color="#9a5b06", fontcolor="#9a5b06", label="Node C admits review within\nlocal limits"];
+"c_review" -> "a_use" [color="#087f8c", fontcolor="#087f8c", label="permitted attributed\nfindings and limitations"];
+"a_use" -> "a_result" [color="#087f8c", fontcolor="#087f8c", label="only locally admitted\ncontributions"];
+"b_admit" -> "histories" [color="#7451a8", fontcolor="#7451a8", label="Node B observed decisions\nand outcomes"];
+"c_admit" -> "histories" [color="#7451a8", fontcolor="#7451a8", label="Node C observed decisions\nand outcomes"];
+"a_use" -> "histories" [color="#7451a8", fontcolor="#7451a8", label="Node A\nadmitted/rejected/unknown\noutcomes"];
+}

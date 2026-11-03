@@ -1,0 +1,109 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1600" height="1330" viewBox="0 0 1600 1330" role="img" aria-labelledby="title desc"><title id="title">Triadic Brain: responsibility and connection map</title><desc id="desc">A layered intended architecture. Human task enters Control Anchor and Sonya, then finite executive planning, CoherenceLattice analysis, Sophia review and Atlas orientation. User controls and custody/provenance crosscut this loop. Independent peer/provider integration and optional research are separate supporting branches. All module groupings are editorial; arrows are intended data/control/provenance relationships, not installed integration proof. F02 lineage and F79 TCHES historical testing document are outside capability diagrams. Every registry ID is indexed once by primary home.</desc>
+<rect width="1600" height="1330" fill="white"/>
+<defs>
+<marker id="arrow-data" markerWidth="9" markerHeight="9" refX="8" refY="4.5" orient="auto"><path d="M0,0 L9,4.5 L0,9 Z" fill="#087f8c"/></marker>
+<marker id="arrow-control" markerWidth="9" markerHeight="9" refX="8" refY="4.5" orient="auto"><path d="M0,0 L9,4.5 L0,9 Z" fill="#9a5b06"/></marker>
+<marker id="arrow-provenance" markerWidth="9" markerHeight="9" refX="8" refY="4.5" orient="auto"><path d="M0,0 L9,4.5 L0,9 Z" fill="#7451a8"/></marker>
+<marker id="arrow-association" markerWidth="9" markerHeight="9" refX="8" refY="4.5" orient="auto"><path d="M0,0 L9,4.5 L0,9 Z" fill="#71808b"/></marker>
+</defs><g font-family="DejaVu Sans, sans-serif">
+<text x="44" y="40" font-size="15" fill="#087f8c" text-anchor="start" font-weight="700">VISUAL ARCHITECTURE · DRAFT FOR REVIEW</text>
+<text x="44" y="86" font-size="32" fill="#172b3a" text-anchor="start" font-weight="700">How the responsibilities fit together</text>
+<text x="44" y="122.0" font-size="18" fill="#465b6c" text-anchor="start">Start with the local cognitive loop; use the module pages for every typed function, contract, profile and research responsibility.</text>
+<rect x="44" y="237" width="1512" height="964" rx="14" fill="#ffffff" stroke="#7d929f" stroke-width="1.5" stroke-dasharray="7 6"/>
+<text x="580" y="265" font-size="16" fill="#465b6c" text-anchor="start" font-weight="700">F01 · TRIADIC BRAIN = THE WHOLE COMPOSITION</text>
+<rect x="68" y="164" width="360" height="60" rx="10" fill="#eaf5f5" stroke="#087f8c" stroke-width="1.5"/>
+<text x="90" y="201" font-size="19" fill="#172b3a" text-anchor="start" font-weight="700">Human task / human decision</text>
+<path d="M218,224 L218,311" fill="none" stroke="#087f8c" stroke-width="2.7" stroke-linejoin="round" stroke-dasharray="8 6" marker-end="url(#arrow-data)"/>
+<text x="235" y="296" font-size="15" fill="#087f8c" text-anchor="start">scope + context</text>
+<a xlink:href="../modules/M01.md">
+<rect x="68" y="324" width="272" height="195" rx="10" fill="#eff7f7" stroke="#76a4a8" stroke-width="1.5"/>
+<text x="86" y="351" font-size="16" fill="#087f8c" text-anchor="start" font-weight="700">M01</text>
+<text x="86" y="383.0" font-size="22" fill="#172b3a" text-anchor="start" font-weight="700">Control Anchor /</text>
+<text x="86" y="412.7" font-size="22" fill="#172b3a" text-anchor="start" font-weight="700">Sonya</text>
+<text x="86" y="458.0" font-size="17" fill="#465b6c" text-anchor="start">Intake, local owner,</text>
+<text x="86" y="480.95" font-size="17" fill="#465b6c" text-anchor="start">visible control</text>
+</a>
+<path d="M340,414 L367,414" fill="none" stroke="#087f8c" stroke-width="2.7" stroke-linejoin="round" stroke-dasharray="8 6" marker-end="url(#arrow-data)"/>
+<a xlink:href="../modules/M02.md">
+<rect x="372" y="324" width="272" height="195" rx="10" fill="#eff7f7" stroke="#76a4a8" stroke-width="1.5"/>
+<text x="390" y="351" font-size="16" fill="#087f8c" text-anchor="start" font-weight="700">M02</text>
+<text x="390" y="383.0" font-size="22" fill="#172b3a" text-anchor="start" font-weight="700">Executive /</text>
+<text x="390" y="412.7" font-size="22" fill="#172b3a" text-anchor="start" font-weight="700">planning</text>
+<text x="390" y="458.0" font-size="17" fill="#465b6c" text-anchor="start">Finite goals, roles and</text>
+<text x="390" y="480.95" font-size="17" fill="#465b6c" text-anchor="start">stopping</text>
+</a>
+<path d="M644,414 L671,414" fill="none" stroke="#087f8c" stroke-width="2.7" stroke-linejoin="round" stroke-dasharray="8 6" marker-end="url(#arrow-data)"/>
+<a xlink:href="../modules/M03.md">
+<rect x="676" y="324" width="272" height="195" rx="10" fill="#eff7f7" stroke="#76a4a8" stroke-width="1.5"/>
+<text x="694" y="351" font-size="16" fill="#087f8c" text-anchor="start" font-weight="700">M03</text>
+<text x="694" y="383.0" font-size="22" fill="#172b3a" text-anchor="start" font-weight="700">CoherenceLattice</text>
+<text x="694" y="412.7" font-size="22" fill="#172b3a" text-anchor="start" font-weight="700">/ GUFT / AHA</text>
+<text x="694" y="458.0" font-size="17" fill="#465b6c" text-anchor="start">Grounded candidate,</text>
+<text x="694" y="480.95" font-size="17" fill="#465b6c" text-anchor="start">alternatives, limits</text>
+</a>
+<path d="M948,414 L975,414" fill="none" stroke="#087f8c" stroke-width="2.7" stroke-linejoin="round" stroke-dasharray="8 6" marker-end="url(#arrow-data)"/>
+<a xlink:href="../modules/M04.md">
+<rect x="980" y="324" width="272" height="195" rx="10" fill="#eff7f7" stroke="#76a4a8" stroke-width="1.5"/>
+<text x="998" y="351" font-size="16" fill="#087f8c" text-anchor="start" font-weight="700">M04</text>
+<text x="998" y="383.0" font-size="22" fill="#172b3a" text-anchor="start" font-weight="700">Sophia / review</text>
+<text x="998" y="458.0" font-size="17" fill="#465b6c" text-anchor="start">Fixed-candidate</text>
+<text x="998" y="480.95" font-size="17" fill="#465b6c" text-anchor="start">findings and dissent</text>
+</a>
+<path d="M1252,414 L1279,414" fill="none" stroke="#087f8c" stroke-width="2.7" stroke-linejoin="round" stroke-dasharray="8 6" marker-end="url(#arrow-data)"/>
+<a xlink:href="../modules/M05.md">
+<rect x="1284" y="324" width="272" height="195" rx="10" fill="#eff7f7" stroke="#76a4a8" stroke-width="1.5"/>
+<text x="1302" y="351" font-size="16" fill="#087f8c" text-anchor="start" font-weight="700">M05</text>
+<text x="1302" y="383.0" font-size="22" fill="#172b3a" text-anchor="start" font-weight="700">Atlas / PMR</text>
+<text x="1302" y="458.0" font-size="17" fill="#465b6c" text-anchor="start">Orientation; separate</text>
+<text x="1302" y="480.95" font-size="17" fill="#465b6c" text-anchor="start">memory decisions</text>
+</a>
+<text x="68" y="550" font-size="14" fill="#087f8c" text-anchor="start" font-weight="700">TASK</text>
+<text x="372" y="550" font-size="14" fill="#087f8c" text-anchor="start" font-weight="700">FINITE PROPOSAL</text>
+<text x="676" y="550" font-size="14" fill="#087f8c" text-anchor="start" font-weight="700">FIXED CANDIDATE</text>
+<text x="980" y="550" font-size="14" fill="#087f8c" text-anchor="start" font-weight="700">ATTRIBUTED REVIEW</text>
+<text x="1284" y="550" font-size="14" fill="#087f8c" text-anchor="start" font-weight="700">READABLE RESULT</text>
+<path d="M1420,324 L1420,194 L440,194" fill="none" stroke="#087f8c" stroke-width="2.7" stroke-linejoin="round" stroke-dasharray="8 6" marker-end="url(#arrow-data)"/>
+<text x="685" y="181" font-size="17" fill="#087f8c" text-anchor="start" font-weight="700">reviewed result / orientation / available recourse</text>
+<path d="M420,666 L420,574 L622,574 L622,525" fill="none" stroke="#9a5b06" stroke-width="2.7" stroke-linejoin="round" stroke-dasharray="8 6" marker-end="url(#arrow-control)"/>
+<text x="445" y="622" font-size="16" fill="#9a5b06" text-anchor="start">scope at every deciding consumer</text>
+<path d="M1230,525 L1230,645" fill="none" stroke="#7451a8" stroke-width="2.7" stroke-linejoin="round" stroke-dasharray="8 6" marker-end="url(#arrow-provenance)"/>
+<text x="850" y="602" font-size="16" fill="#7451a8" text-anchor="start">attempt / input / stage / outcome records</text>
+<a xlink:href="../modules/M07.md">
+<rect x="68" y="666" width="708" height="206" rx="10" fill="#fff8ee" stroke="#c69b5c" stroke-width="1.5"/>
+<text x="90" y="699" font-size="18" fill="#9a5b06" text-anchor="start" font-weight="700">M07 · UCC / AEGIS / moralWARE / CONTROLS</text>
+<text x="90" y="736.0" font-size="20" fill="#172b3a" text-anchor="start" font-weight="700">Each deciding consumer enforces its current scope:</text>
+<text x="90" y="763.0" font-size="20" fill="#172b3a" text-anchor="start" font-weight="700">intake, dispatch, peers, retention and release.</text>
+<text x="90" y="816.0" font-size="17" fill="#465b6c" text-anchor="start">Advisory business findings do not veto ordinary prompts. Rights</text>
+<text x="90" y="838.95" font-size="17" fill="#465b6c" text-anchor="start">review, technical protection and recourse stay distinct.</text>
+</a>
+<a xlink:href="../modules/M06.md">
+<rect x="820" y="666" width="708" height="206" rx="10" fill="#f5f1fb" stroke="#a88bc7" stroke-width="1.5"/>
+<text x="842" y="699" font-size="18" fill="#7451a8" text-anchor="start" font-weight="700">M06 · TEL / TAC / CUSTODY / PROVENANCE</text>
+<text x="842" y="736.0" font-size="20" fill="#172b3a" text-anchor="start" font-weight="700">Records span the workflow, not just review. Custody</text>
+<text x="842" y="763.0" font-size="20" fill="#172b3a" text-anchor="start" font-weight="700">owns history; TEL organizes explicit stage links.</text>
+<text x="842" y="816.0" font-size="17" fill="#465b6c" text-anchor="start">TAC constrains permitted observation. Lineage and replay preserve</text>
+<text x="842" y="838.95" font-size="17" fill="#465b6c" text-anchor="start">unknowns. Required custody is not optional memory.</text>
+</a>
+<text x="68" y="919" font-size="16" fill="#465b6c" text-anchor="start" font-weight="700">SEPARATE SUPPORTING ROUTES · NOT MANDATORY PREREQUISITES FOR EVERY LOCAL TASK</text>
+<a xlink:href="../modules/M08.md">
+<rect x="68" y="942" width="708" height="198" rx="10" fill="#f4f7fa" stroke="#becbd3" stroke-width="1.5"/>
+<text x="90" y="975" font-size="17" fill="#172b3a" text-anchor="start" font-weight="700">M08 · OWNER-GOVERNED PEERS / RESOURCES / PROVIDERS</text>
+<text x="90" y="1014.0" font-size="20" fill="#172b3a" text-anchor="start" font-weight="700">Connects to M01 intake, M02 roles and M04 review</text>
+<text x="90" y="1041.0" font-size="20" fill="#172b3a" text-anchor="start" font-weight="700">through explicit owner admission.</text>
+<text x="90" y="1090.0" font-size="17" fill="#465b6c" text-anchor="start">Remote grants do not grant local current use. Real two/three-node</text>
+<text x="90" y="1112.95" font-size="17" fill="#465b6c" text-anchor="start">cognition is not established by these diagrams.</text>
+</a>
+<a xlink:href="../modules/M09.md">
+<rect x="820" y="942" width="708" height="198" rx="10" fill="#f4f7fa" stroke="#becbd3" stroke-width="1.5" stroke-dasharray="7 5"/>
+<text x="842" y="975" font-size="17" fill="#172b3a" text-anchor="start" font-weight="700">M09 · RESEARCH / QUALITY / OPTIONAL EXTENSIONS</text>
+<text x="842" y="1014.0" font-size="20" fill="#172b3a" text-anchor="start" font-weight="700">Connects to planning, typed representation and</text>
+<text x="842" y="1041.0" font-size="20" fill="#172b3a" text-anchor="start" font-weight="700">review through bounded comparisons and</text>
+<text x="842" y="1068.0" font-size="20" fill="#172b3a" text-anchor="start" font-weight="700">source-specific contracts.</text>
+<text x="842" y="1090.0" font-size="17" fill="#465b6c" text-anchor="start">No invented benchmark, completion percentage, mandatory research</text>
+<text x="842" y="1112.95" font-size="17" fill="#465b6c" text-anchor="start">organ or automatic permission upgrade.</text>
+</a>
+<text x="68" y="1177" font-size="17" fill="#465b6c" text-anchor="start" font-weight="700">Historical register only: F02 integration lineage · F79 TCHES testing document. Neither is a missing runtime organ.</text>
+<text x="44" y="1231" font-size="17" fill="#172b3a" text-anchor="start" font-weight="700">Arrows above are declared intended flows. Static-source caller evidence is shown separately in the source-path view.</text>
+<text x="44" y="1273" font-size="16" fill="#465b6c" text-anchor="start">Primary homes are navigational groupings, not a claim of current service ownership. Open a module for its typed records and evidence limits.</text>
+<text x="44" y="1298" font-size="16" fill="#465b6c" text-anchor="start">Reference, profile, contract, principle, research, historical record and capability are not interchangeable kinds.</text>
+</g></svg>

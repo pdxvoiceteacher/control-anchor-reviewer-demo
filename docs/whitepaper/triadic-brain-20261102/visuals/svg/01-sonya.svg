@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1600" height="1184" viewBox="0 0 1600 1184" role="img" aria-labelledby="title desc"><title id="title">Control Anchor and Sonya</title><desc id="desc">A human-facing boundary and an independently governed node; not a model with unlimited authority. UI selections must reach the real deciding service; display state is not enforcement. Sonya preserves untrusted-source identity. Incoming content is not an execution grant. The installed human-gesture, current-owner and model-selection joins remain unproved. Lane Task intake: Human participant; F03 Control Anchor; F04 Sonya ingress and adapters Lane Local ownership: F05 Sonya node; AEGIS / actual admission; Executive / admitted work Lane Understandable receipt and recourse: Custody outcomes / history; F67 Accessible workflow receipt; Human participant</desc>
+<rect width="1600" height="1184" fill="white"/>
+<defs>
+<marker id="arrow-data" markerWidth="9" markerHeight="9" refX="8" refY="4.5" orient="auto"><path d="M0,0 L9,4.5 L0,9 Z" fill="#087f8c"/></marker>
+<marker id="arrow-control" markerWidth="9" markerHeight="9" refX="8" refY="4.5" orient="auto"><path d="M0,0 L9,4.5 L0,9 Z" fill="#9a5b06"/></marker>
+<marker id="arrow-provenance" markerWidth="9" markerHeight="9" refX="8" refY="4.5" orient="auto"><path d="M0,0 L9,4.5 L0,9 Z" fill="#7451a8"/></marker>
+<marker id="arrow-association" markerWidth="9" markerHeight="9" refX="8" refY="4.5" orient="auto"><path d="M0,0 L9,4.5 L0,9 Z" fill="#71808b"/></marker>
+</defs><g font-family="DejaVu Sans, sans-serif">
+<text x="44" y="40" font-size="15" fill="#087f8c" text-anchor="start" font-weight="700">M01 · PROPOSED RESPONSIBILITY GROUPING</text>
+<text x="44" y="86" font-size="32" fill="#172b3a" text-anchor="start" font-weight="700">Control Anchor and Sonya</text>
+<text x="44" y="122.0" font-size="18" fill="#465b6c" text-anchor="start">A human-facing boundary and an independently governed node; not a model with unlimited authority.</text>
+<text x="44" y="180" font-size="16" fill="#465b6c" text-anchor="start">Arrows: intended data (teal) · control / constraints (amber) · provenance (purple). REF boxes are secondary references.</text>
+<text x="44" y="220" font-size="18" fill="#172b3a" text-anchor="start" font-weight="700">Task intake</text>
+<rect x="44" y="244" width="392" height="146" rx="10" fill="#ffffff" stroke="#8c9eaa" stroke-width="1.5" stroke-dasharray="6 5"/>
+<text x="62" y="270" font-size="14" fill="#465b6c" text-anchor="start" font-weight="700">REFERENCE · ROLE / BOUNDARY</text>
+<text x="62" y="306.0" font-size="22" fill="#172b3a" text-anchor="start" font-weight="700">Human participant</text>
+<text x="62" y="374" font-size="14" fill="#465b6c" text-anchor="start">Not a new registry function</text>
+<a xlink:href="../modules/M01.md#F03">
+<rect x="574" y="244" width="392" height="146" rx="10" fill="#eef7f7" stroke="#becbd3" stroke-width="1.5"/>
+<text x="592" y="270" font-size="13" fill="#465b6c" text-anchor="start" font-weight="700">F03 · RESPONSIBILITY · B</text>
+<text x="592" y="307.0" font-size="22" fill="#172b3a" text-anchor="start" font-weight="700">Control Anchor</text>
+<text x="592" y="374" font-size="14" fill="#465b6c" text-anchor="start">Primary home M01 · source scope in index</text>
+</a>
+<a xlink:href="../modules/M01.md#F04">
+<rect x="1104" y="244" width="392" height="146" rx="10" fill="#eef7f7" stroke="#becbd3" stroke-width="1.5"/>
+<text x="1122" y="270" font-size="13" fill="#465b6c" text-anchor="start" font-weight="700">F04 · RESPONSIBILITY · C</text>
+<text x="1122" y="307.0" font-size="22" fill="#172b3a" text-anchor="start" font-weight="700">Sonya ingress / adapters</text>
+<text x="1122" y="374" font-size="14" fill="#465b6c" text-anchor="start">Primary home M01 · source scope in index</text>
+</a>
+<path d="M442,344 L564,344" fill="none" stroke="#087f8c" stroke-width="2.7" stroke-linejoin="round" stroke-dasharray="8 6" marker-end="url(#arrow-data)"/>
+<text x="454" y="278" font-size="14" fill="#087f8c" text-anchor="start">gestures /</text>
+<text x="454" y="296" font-size="14" fill="#087f8c" text-anchor="start">settings</text>
+<path d="M972,344 L1094,344" fill="none" stroke="#087f8c" stroke-width="2.7" stroke-linejoin="round" stroke-dasharray="8 6" marker-end="url(#arrow-data)"/>
+<text x="984" y="278" font-size="14" fill="#087f8c" text-anchor="start">bounded</text>
+<text x="984" y="296" font-size="14" fill="#087f8c" text-anchor="start">request</text>
+<text x="44" y="438" font-size="18" fill="#172b3a" text-anchor="start" font-weight="700">Local ownership</text>
+<a xlink:href="../modules/M01.md#F05">
+<rect x="44" y="462" width="392" height="146" rx="10" fill="#eaf2f8" stroke="#becbd3" stroke-width="1.5"/>
+<text x="62" y="488" font-size="13" fill="#465b6c" text-anchor="start" font-weight="700">F05 · DEPLOYMENT SCOPE · C</text>
+<text x="62" y="525.0" font-size="22" fill="#172b3a" text-anchor="start" font-weight="700">Sonya node</text>
+<text x="62" y="592" font-size="14" fill="#465b6c" text-anchor="start">Primary home M01 · source scope in index</text>
+</a>
+<rect x="574" y="462" width="392" height="146" rx="10" fill="#ffffff" stroke="#8c9eaa" stroke-width="1.5" stroke-dasharray="6 5"/>
+<text x="592" y="488" font-size="14" fill="#465b6c" text-anchor="start" font-weight="700">REFERENCE · M07</text>
+<text x="592" y="524.0" font-size="22" fill="#172b3a" text-anchor="start" font-weight="700">AEGIS / actual admission</text>
+<text x="592" y="592" font-size="14" fill="#465b6c" text-anchor="start">F23</text>
+<rect x="1104" y="462" width="392" height="146" rx="10" fill="#ffffff" stroke="#8c9eaa" stroke-width="1.5" stroke-dasharray="6 5"/>
+<text x="1122" y="488" font-size="14" fill="#465b6c" text-anchor="start" font-weight="700">REFERENCE · M02</text>
+<text x="1122" y="524.0" font-size="22" fill="#172b3a" text-anchor="start" font-weight="700">Executive / admitted work</text>
+<text x="1122" y="592" font-size="14" fill="#465b6c" text-anchor="start">F19</text>
+<path d="M442,562 L564,562" fill="none" stroke="#9a5b06" stroke-width="2.7" stroke-linejoin="round" stroke-dasharray="8 6" marker-end="url(#arrow-control)"/>
+<text x="454" y="496" font-size="14" fill="#9a5b06" text-anchor="start">owner scope</text>
+<path d="M972,562 L1094,562" fill="none" stroke="#9a5b06" stroke-width="2.7" stroke-linejoin="round" stroke-dasharray="8 6" marker-end="url(#arrow-control)"/>
+<text x="984" y="496" font-size="14" fill="#9a5b06" text-anchor="start">permitted</text>
+<text x="984" y="514" font-size="14" fill="#9a5b06" text-anchor="start">scope</text>
+<text x="44" y="656" font-size="18" fill="#172b3a" text-anchor="start" font-weight="700">Understandable receipt and recourse</text>
+<rect x="44" y="680" width="392" height="146" rx="10" fill="#ffffff" stroke="#8c9eaa" stroke-width="1.5" stroke-dasharray="6 5"/>
+<text x="62" y="706" font-size="14" fill="#465b6c" text-anchor="start" font-weight="700">REFERENCE · M06</text>
+<text x="62" y="742.0" font-size="22" fill="#172b3a" text-anchor="start" font-weight="700">Custody outcomes / history</text>
+<text x="62" y="810" font-size="14" fill="#465b6c" text-anchor="start">F35</text>
+<a xlink:href="../modules/M01.md#F67">
+<rect x="574" y="680" width="392" height="146" rx="10" fill="#f3f5f8" stroke="#becbd3" stroke-width="1.5"/>
+<text x="592" y="706" font-size="13" fill="#465b6c" text-anchor="start" font-weight="700">F67 · RESPONSIBILITY · R</text>
+<text x="592" y="743.0" font-size="22" fill="#172b3a" text-anchor="start" font-weight="700">Accessible workflow</text>
+<text x="592" y="772.7" font-size="22" fill="#172b3a" text-anchor="start" font-weight="700">receipt</text>
+<text x="592" y="810" font-size="14" fill="#465b6c" text-anchor="start">Primary home M01 · source scope in index</text>
+</a>
+<rect x="1104" y="680" width="392" height="146" rx="10" fill="#ffffff" stroke="#8c9eaa" stroke-width="1.5" stroke-dasharray="6 5"/>
+<text x="1122" y="706" font-size="14" fill="#465b6c" text-anchor="start" font-weight="700">REFERENCE · ROLE / BOUNDARY</text>
+<text x="1122" y="742.0" font-size="22" fill="#172b3a" text-anchor="start" font-weight="700">Human participant</text>
+<text x="1122" y="810" font-size="14" fill="#465b6c" text-anchor="start">Not a new registry function</text>
+<path d="M442,780 L564,780" fill="none" stroke="#7451a8" stroke-width="2.7" stroke-linejoin="round" stroke-dasharray="8 6" marker-end="url(#arrow-provenance)"/>
+<text x="454" y="714" font-size="14" fill="#7451a8" text-anchor="start">bounded</text>
+<text x="454" y="732" font-size="14" fill="#7451a8" text-anchor="start">observations</text>
+<path d="M972,780 L1094,780" fill="none" stroke="#087f8c" stroke-width="2.7" stroke-linejoin="round" stroke-dasharray="8 6" marker-end="url(#arrow-data)"/>
+<text x="984" y="714" font-size="14" fill="#087f8c" text-anchor="start">inspect /</text>
+<text x="984" y="732" font-size="14" fill="#087f8c" text-anchor="start">correct /</text>
+<text x="984" y="750" font-size="14" fill="#087f8c" text-anchor="start">exit</text>
+<text x="44" y="878" font-size="16" fill="#087f8c" text-anchor="start" font-weight="700">SECONDARY MODULE CONNECTIONS</text>
+<text x="44" y="911" font-size="17" fill="#087f8c" text-anchor="start" font-weight="700">M01 → M07</text>
+<text x="180" y="911" font-size="17" fill="#465b6c" text-anchor="start">current controls and technical admission</text>
+<text x="44" y="943" font-size="17" fill="#087f8c" text-anchor="start" font-weight="700">M01 → M02</text>
+<text x="180" y="943" font-size="17" fill="#465b6c" text-anchor="start">attributable scoped task</text>
+<text x="44" y="975" font-size="17" fill="#087f8c" text-anchor="start" font-weight="700">M06 → M01</text>
+<text x="180" y="975" font-size="17" fill="#465b6c" text-anchor="start">actual outcomes and available recovery</text>
+<text x="44" y="1027" font-size="17" fill="#465b6c" text-anchor="start">• UI selections must reach the real deciding service; display state is not enforcement.</text>
+<text x="44" y="1055" font-size="17" fill="#465b6c" text-anchor="start">• Sonya preserves untrusted-source identity. Incoming content is not an execution grant.</text>
+<text x="44" y="1083" font-size="17" fill="#465b6c" text-anchor="start">• The installed human-gesture, current-owner and model-selection joins remain unproved.</text>
+<text x="44" y="1134" font-size="15" fill="#465b6c" text-anchor="start">B bounded components · C source components · D design · R research / unresolved · P human process</text>
+<text x="44" y="1159" font-size="15" fill="#465b6c" text-anchor="start">Record kind ≠ maturity. No whole-family integration or permission is implied. Open the index for source scope and missing joins.</text>
+</g></svg>
