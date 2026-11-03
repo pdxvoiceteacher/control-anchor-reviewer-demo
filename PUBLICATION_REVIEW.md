@@ -1,4 +1,29 @@
-# Source publication review - 19 October 2026
+# Source publication review
+
+## Bounded UCC code promotion: 3 November 2026
+
+The owner requested public promotion of completed vetted subsystems and delegated
+public-repository merge authority. This scoped extraction selects the two UCC
+runtime modules and two exact tests from accepted development main
+`ad4a0e94972a5fa12965cd2f394cce504655d78b`, including the reviewed amount-precision
+repair merged before extraction. It adds a synthetic public entry point and
+standard-library entry-point tests. The prior 33 extracted files, licenses,
+fixtures and historical results are unchanged.
+
+Independent review identified no rights/privacy blocker in the selected files.
+The reviewer inspected donor attribution and license absence, existing project
+MPL scope and current publication authorization. This is a bounded review, not
+independent title proof or donor-wide relicensing. THIRD_PARTY_NOTICES.md records
+the precise adaptation rather than retaining an inaccurate blanket exclusion.
+No private history, operational evidence, personal data, credentials, installed
+service, provider configuration, model or dependency package is included.
+
+Focused tests run on the extracted public candidate, not merely on the private
+source. Exact results and limits are in [VALIDATION.md](VALIDATION.md#ucc-public-extraction-3-november-2026).
+The public guide describes existing PR/manifest review steps for later promotions;
+no unattended export system, formal release, deployment or paid spend is created.
+Older publication decisions below retain their dated scope.
+
 
 ## Documentation scope — 29 October 2026
 

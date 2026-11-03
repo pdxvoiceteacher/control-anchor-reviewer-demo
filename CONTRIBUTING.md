@@ -41,3 +41,10 @@ Preserve [license scope](LICENSE_SCOPE.md), [NOTICE](NOTICE) and
 [third-party notices](THIRD_PARTY_NOTICES.md). Public access is not a blanket
 license for every file, and contributing does not create a new media/prose grant.
 No employment, funding, release date or access to private code is offered here.
+
+## Promote an accepted subsystem
+
+Use the [bounded promotion workflow](docs/PUBLIC_SUBSYSTEMS.md#how-accepted-source-reaches-this-repository).
+Select accepted development source, preserve exact dependencies and notices, run
+the public extraction, and review the complete diff before merging. A private
+draft or isolated test pass is not authority to expose unrelated source or records.

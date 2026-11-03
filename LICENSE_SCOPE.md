@@ -22,7 +22,9 @@ publication. The source-access approval preserves applicable existing rights and
 notices; it does not extend the code license to these files or grant a new license.
 
 This extraction does not include the Unicode-derived range tables, TIAIP public
-profile, separate component code, upstream dependencies, or their packages. Their
+profile, upstream dependencies, or their packages. The bounded UCC adaptation
+added on 3 November 2026 is identified in THIRD_PARTY_NOTICES.md; other separate
+component code remains excluded. Their
 upstream license exceptions are not silently reassigned to this material. See
 THIRD_PARTY_NOTICES.md for the scoped inclusion and exclusion boundary.
 

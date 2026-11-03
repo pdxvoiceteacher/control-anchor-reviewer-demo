@@ -1,0 +1,31 @@
+test_explorer_has_native_links_and_no_network_dependencies (test_brain_map.BrainMapTests.test_explorer_has_native_links_and_no_network_dependencies) ... ok
+test_frontpage_has_graphic_and_all_families (test_brain_map.BrainMapTests.test_frontpage_has_graphic_and_all_families) ... ok
+test_generated_views_are_current (test_brain_map.BrainMapTests.test_generated_views_are_current) ... ok
+test_only_existing_local_public_sources (test_brain_map.BrainMapTests.test_only_existing_local_public_sources) ... ok
+test_svg_accessible_and_static (test_brain_map.BrainMapTests.test_svg_accessible_and_static) ... ok
+test_unique_families_and_explicit_boundaries (test_brain_map.BrainMapTests.test_unique_families_and_explicit_boundaries) ... ok
+test_candidate_json_cannot_authorize_itself (test_component.ComponentTests.test_candidate_json_cannot_authorize_itself) ... ok
+test_cli_capture_seal_and_directory_zip_verification (test_component.ComponentTests.test_cli_capture_seal_and_directory_zip_verification) ... ok
+test_complete_demo_surfaces_adverse_evidence_without_network_or_overwrite (test_component.ComponentTests.test_complete_demo_surfaces_adverse_evidence_without_network_or_overwrite) ... ok
+test_interrupted_decision_recovery_once_then_sealed_directory_and_zip (test_component.ComponentTests.test_interrupted_decision_recovery_once_then_sealed_directory_and_zip) ... ok
+test_live_snapshot_detects_zip_trailing_substitution (test_component.ComponentTests.test_live_snapshot_detects_zip_trailing_substitution) ... ok
+test_missing_decision_cannot_finalize (test_component.ComponentTests.test_missing_decision_cannot_finalize) ... ok
+test_missing_source_member_directory_and_zip_rejected_originals_pass (test_component.ComponentTests.test_missing_source_member_directory_and_zip_rejected_originals_pass) ... ok
+test_model_role_cannot_submit_human_decision (test_component.ComponentTests.test_model_role_cannot_submit_human_decision) ... ok
+test_repair_declared_change_must_match_actual_bytes (test_component.ComponentTests.test_repair_declared_change_must_match_actual_bytes) ... ok
+test_repair_keeps_parent_bytes_and_does_not_resolve_advisory (test_component.ComponentTests.test_repair_keeps_parent_bytes_and_does_not_resolve_advisory) ... ok
+test_zip_member_tampering_is_rejected (test_component.ComponentTests.test_zip_member_tampering_is_rejected) ... ok
+test_complete_fixture_encoded_filename_and_duplicate_heading (test_public_integrity.PublicIntegrityTests.test_complete_fixture_encoded_filename_and_duplicate_heading) ... ok
+test_manifest_and_link_escape_fail (test_public_integrity.PublicIntegrityTests.test_manifest_and_link_escape_fail) ... ok
+test_missing_target_and_anchor_fail (test_public_integrity.PublicIntegrityTests.test_missing_target_and_anchor_fail) ... ok
+test_tamper_cannot_be_hidden_by_changing_only_candidate_hash (test_public_integrity.PublicIntegrityTests.test_tamper_cannot_be_hidden_by_changing_only_candidate_hash) ... ok
+test_unlisted_tracked_file_and_duplicate_manifest_path_fail (test_public_integrity.PublicIntegrityTests.test_unlisted_tracked_file_and_duplicate_manifest_path_fail) ... ok
+test_exact_rational_oracle (test_ucc_amount_precision.AmountPrecisionTests.test_exact_rational_oracle) ... ok
+test_invalid_input_failure (test_ucc_amount_precision.AmountPrecisionTests.test_invalid_input_failure) ... ok
+test_real_plan_consumer_preserves_pass_fail_hold_and_human_boundary (test_ucc_public.PublicUCCTests.test_real_plan_consumer_preserves_pass_fail_hold_and_human_boundary) ... ok
+test_unsupported_executable_operation_is_rejected (test_ucc_public.PublicUCCTests.test_unsupported_executable_operation_is_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 26 tests in 14.631s
+
+OK

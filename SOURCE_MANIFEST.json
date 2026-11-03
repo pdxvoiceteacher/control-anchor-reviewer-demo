@@ -366,6 +366,54 @@
       "modifications": "NONE; exact bytes",
       "license": "MPL-2.0",
       "publication_review": "HOLD"
+    },
+    {
+      "path": "src/triadicbrain/assurance/ucc_plan.py",
+      "original_path": "src/triadicbrain/assurance/ucc_plan.py",
+      "source_commit": "ad4a0e94972a5fa12965cd2f394cce504655d78b",
+      "original_git_blob": "ac943825f6acfa104520ba703442bbce932a8d3f",
+      "original_sha256": "24c33151e5fc0edffd949094670320b4149a81f3c699f089193d0cf35aef71c9",
+      "candidate_sha256": "24c33151e5fc0edffd949094670320b4149a81f3c699f089193d0cf35aef71c9",
+      "bytes": 15786,
+      "modifications": "NONE; exact bytes; test location differs where recorded",
+      "license": "MPL-2.0 to extent rights exist and covered",
+      "publication_review": "OWNER_AUTHORIZED_BOUNDED_SUBSYSTEM_PROMOTION_EXISTING_RIGHTS_PRESERVED"
+    },
+    {
+      "path": "src/triadicbrain/assurance/ucc_primitives.py",
+      "original_path": "src/triadicbrain/assurance/ucc_primitives.py",
+      "source_commit": "ad4a0e94972a5fa12965cd2f394cce504655d78b",
+      "original_git_blob": "ab85ef3dc4cea040fe26bc821be0add9795580d8",
+      "original_sha256": "dc16531cb2d1b32de57076101850604338d7467d23c3268c9acbd0053e0e70b9",
+      "candidate_sha256": "dc16531cb2d1b32de57076101850604338d7467d23c3268c9acbd0053e0e70b9",
+      "bytes": 1351,
+      "modifications": "NONE; exact bytes; test location differs where recorded",
+      "license": "MPL-2.0 to extent rights exist and covered",
+      "publication_review": "OWNER_AUTHORIZED_BOUNDED_SUBSYSTEM_PROMOTION_EXISTING_RIGHTS_PRESERVED"
+    },
+    {
+      "path": "tests/upstream_ucc/test_ucc_plan.py",
+      "original_path": "tests/test_ucc_plan.py",
+      "source_commit": "ad4a0e94972a5fa12965cd2f394cce504655d78b",
+      "original_git_blob": "4ac806d0b7546f5aca0a7e93efcb9d5c1af4f8b0",
+      "original_sha256": "f7956cbe7a7dced118dd647d26a22b969e7291c3da522fadf9631b2a8463ac40",
+      "candidate_sha256": "f7956cbe7a7dced118dd647d26a22b969e7291c3da522fadf9631b2a8463ac40",
+      "bytes": 7930,
+      "modifications": "NONE; exact bytes; test location differs where recorded",
+      "license": "MPL-2.0 to extent rights exist and covered",
+      "publication_review": "OWNER_AUTHORIZED_BOUNDED_SUBSYSTEM_PROMOTION_EXISTING_RIGHTS_PRESERVED"
+    },
+    {
+      "path": "tests/test_ucc_amount_precision.py",
+      "original_path": "tests/test_ucc_amount_precision.py",
+      "source_commit": "ad4a0e94972a5fa12965cd2f394cce504655d78b",
+      "original_git_blob": "c11a61bfc742e4e84d07c418987d7c6e30442b1a",
+      "original_sha256": "611621dba0dfe787fc91f2f06e84e3637d7f042a42a018f6698699885c712dd7",
+      "candidate_sha256": "611621dba0dfe787fc91f2f06e84e3637d7f042a42a018f6698699885c712dd7",
+      "bytes": 2887,
+      "modifications": "NONE; exact bytes; test location differs where recorded",
+      "license": "MPL-2.0 to extent rights exist and covered",
+      "publication_review": "OWNER_AUTHORIZED_BOUNDED_SUBSYSTEM_PROMOTION_EXISTING_RIGHTS_PRESERVED"
     }
   ],
   "new_or_adapted_files": [
@@ -517,7 +565,7 @@
     },
     {
       "path": "LICENSE_SCOPE.md",
-      "candidate_sha256": "57daf4a01dd59745b1c702f2fb0b55fe6e73336ffad3dde47661c59d421c81a8",
+      "candidate_sha256": "5cddc5a5a10ecc40e5518d0eee3a6bec3e56b0289a396680583b0fb09bdd45e5",
       "origin": "ADAPTED",
       "source_basis_paths": [
         "LICENSE_SCOPE.md"
@@ -529,7 +577,7 @@
     },
     {
       "path": "NOTICE",
-      "candidate_sha256": "bca4f8f99364b3ec596bbd46c09158847b75c4ff6d870aef4a437fd3a81b97a6",
+      "candidate_sha256": "fc7c59dc7d73e101f1ccb21207ba3fcbb28bf35a840d82ddf11941cfb68cf1c5",
       "origin": "ADAPTED",
       "source_basis_paths": [
         "NOTICE"
@@ -541,25 +589,25 @@
     },
     {
       "path": "PUBLICATION_REVIEW.md",
-      "candidate_sha256": "bcbb3b18151da9cfe983bce337293816126a47e3843b3ed6fe71a67f6020c518",
+      "candidate_sha256": "25ac0fe4a84113f06fd87427d06196184359b108c01494186dda5c4545432741",
       "origin": "NEW",
       "source_basis_paths": [],
       "modifications": "New demo preparation material; AI-assisted under human commissioning.",
       "license": "MPL-2.0 to extent rights exist and covered",
       "publication_review": "OWNER_APPROVED_PUBLIC_SOURCE_ACCESS_EXISTING_RIGHTS_PRESERVED_NO_NEW_LICENSE",
       "historical_publication_review": "FINAL_CONTENT_DECISION_PENDING",
-      "bytes": 11048
+      "bytes": 12557
     },
     {
       "path": "README.md",
-      "candidate_sha256": "55696f85679ffa496984d8dc466c9db8402e29a17e02b5d9be79b6b989a253f9",
+      "candidate_sha256": "2fdae0a094b8bc63413cc70f9cb750f056a5bbfa1a3648f3a052262cb0a2049b",
       "origin": "ADAPTED",
       "source_basis_paths": [],
       "modifications": "New reviewer explanation based on maintained architecture; limits bound to extracted implementation. Added link to a source-attributed methods appendix and its bounded teaching claims. Added self-contained Mermaid responsibility diagram separating intended product integration, observed synthetic offline demo and future peer network; no runtime or validation-result changes.",
       "license": "MPL-2.0 to extent rights exist and covered",
       "publication_review": "OWNER_APPROVED_PUBLIC_SOURCE_ACCESS_EXISTING_RIGHTS_PRESERVED_NO_NEW_LICENSE",
       "historical_publication_review": "FINAL_CONTENT_DECISION_PENDING",
-      "bytes": 32353,
+      "bytes": 32775,
       "cooperative_ethos_clarification_2026_11_02": "Owner-directed freedom, local ownership, voluntary mutual aid and practical exit; informed higher overhead may be legitimate. Existing capability limits, rights and public contribution route preserved. No runtime change or new operational evidence.",
       "whitepaper_navigation_2026_11_02": "Added one English design-edition and contribution navigation link, with translations-pending and unchanged-demo scope. No runtime or rights change.",
       "brain_map_revision_history": [
@@ -584,7 +632,7 @@
     },
     {
       "path": "THIRD_PARTY_NOTICES.md",
-      "candidate_sha256": "4a8b8179b0d74bd7375f74aa3cf88284f66f110349dc68ab79bcb1d778e824b3",
+      "candidate_sha256": "17c162a5e46a9f254dd906688c4a252d5cf1eb9898b49d2276c36a3e9e881521",
       "origin": "ADAPTED",
       "source_basis_paths": [
         "THIRD_PARTY_NOTICES.md"
@@ -606,14 +654,14 @@
     },
     {
       "path": "VALIDATION.md",
-      "candidate_sha256": "6bd0430fd1b5a92182b50fbd1a8d5b2ae591d340d62257ed3c48534bdd9d7c22",
+      "candidate_sha256": "403835ff1eb8b5dbf9396e99cc07eacdc85bb535303edc17c7f6b08d1ec0abd4",
       "origin": "NEW",
       "source_basis_paths": [],
       "modifications": "New demo preparation material; AI-assisted under human commissioning.",
       "license": "MPL-2.0 to extent rights exist and covered",
       "publication_review": "OWNER_APPROVED_PUBLIC_SOURCE_ACCESS_EXISTING_RIGHTS_PRESERVED_NO_NEW_LICENSE",
       "historical_publication_review": "FINAL_CONTENT_DECISION_PENDING",
-      "bytes": 18038
+      "bytes": 19907
     },
     {
       "path": "docs/METHODS_APPENDIX.md",
@@ -1061,8 +1109,8 @@
       "origin": "NEW_PUBLIC_PROJECT_DOCUMENTATION",
       "license": "Existing rights and notices preserved; see LICENSE_SCOPE.md.",
       "publication_review": "OWNER_AUTHORIZED_PUBLIC_DISCOVERABILITY_DOCUMENTATION",
-      "candidate_sha256": "3e0d0dba53c4dbdb81ff54441f3ec59b64cc3d4d83904377d001cace1d223f6b",
-      "bytes": 2827
+      "candidate_sha256": "16202ba6af1976117cc3c2a55b703d705c6d5137325fe4c78a36e10000051b5c",
+      "bytes": 3214
     },
     {
       "path": "codemeta.json",
@@ -2240,10 +2288,50 @@
       "publication_review": "WHOLE_MAIN_TEXT_LANGUAGE_AND_TECHNICAL_FIDELITY_REVIEW_WITH_BOUNDED_REPAIRS_NO_HUMAN_ACCESSIBILITY_RUNTIME_OR_EMPIRICAL_CERTIFICATION",
       "candidate_sha256": "8ec6862c1d7472f9deec338ad74eaad4a57cf5c7d394441905f11a91fd9b9c9f",
       "bytes": 130238
+    },
+    {
+      "path": "docs/PUBLIC_SUBSYSTEMS.md",
+      "candidate_sha256": "1aa18f64d3a6f350531dd93986593a924e00389a5dfe9e11fe7b89337d16ed54",
+      "bytes": 5622,
+      "origin": "NEW",
+      "source_basis_paths": [],
+      "modifications": "Bounded UCC public extraction: synthetic demonstration, focused tests, promotion guidance or public-only qualification evidence. AI-assisted under owner instruction.",
+      "license": "MPL-2.0 to extent rights exist and covered",
+      "publication_review": "OWNER_AUTHORIZED_BOUNDED_SUBSYSTEM_PROMOTION_EXISTING_RIGHTS_PRESERVED"
+    },
+    {
+      "path": "tests/test_ucc_public.py",
+      "candidate_sha256": "a1e6f95017ddf8cc2775dce96462999552e033a574bb59a53993693940850903",
+      "bytes": 1541,
+      "origin": "NEW",
+      "source_basis_paths": [],
+      "modifications": "Bounded UCC public extraction: synthetic demonstration, focused tests, promotion guidance or public-only qualification evidence. AI-assisted under owner instruction.",
+      "license": "MPL-2.0 to extent rights exist and covered",
+      "publication_review": "OWNER_AUTHORIZED_BOUNDED_SUBSYSTEM_PROMOTION_EXISTING_RIGHTS_PRESERVED"
+    },
+    {
+      "path": "ucc_demo.py",
+      "candidate_sha256": "99c5db9fc8f491a64d44c82894bfc770bd773294cfe0651d0706f51bbaf69af5",
+      "bytes": 2057,
+      "origin": "NEW",
+      "source_basis_paths": [],
+      "modifications": "Bounded UCC public extraction: synthetic demonstration, focused tests, promotion guidance or public-only qualification evidence. AI-assisted under owner instruction.",
+      "license": "MPL-2.0 to extent rights exist and covered",
+      "publication_review": "OWNER_AUTHORIZED_BOUNDED_SUBSYSTEM_PROMOTION_EXISTING_RIGHTS_PRESERVED"
+    },
+    {
+      "path": "validation/2026-11-03-ucc-unittest.log",
+      "candidate_sha256": "6c29c5f5d27c50e6dbd5a7603cc9b0e46945a69e7c8e776c1cc00dfde27dccc8",
+      "bytes": 3757,
+      "origin": "NEW",
+      "source_basis_paths": [],
+      "modifications": "Bounded UCC public extraction: synthetic demonstration, focused tests, promotion guidance or public-only qualification evidence. AI-assisted under owner instruction.",
+      "license": "MPL-2.0 to extent rights exist and covered",
+      "publication_review": "OWNER_AUTHORIZED_BOUNDED_SUBSYSTEM_PROMOTION_EXISTING_RIGHTS_PRESERVED"
     }
   ],
   "dependency_closure": {
-    "python_modules": 20,
+    "python_modules": 22,
     "schema_files": 12,
     "entrypoint": "src/triadicbrain/assurance/production_cli.py",
     "relative_import_edges": {
@@ -2336,7 +2424,12 @@
         "src/triadicbrain/assurance/reporting.py",
         "src/triadicbrain/assurance/transaction.py",
         "src/triadicbrain/assurance/verification.py"
-      ]
+      ],
+      "src/triadicbrain/assurance/ucc_plan.py": [
+        "src/triadicbrain/assurance/canonical.py",
+        "src/triadicbrain/assurance/ucc_primitives.py"
+      ],
+      "src/triadicbrain/assurance/ucc_primitives.py": []
     },
     "standard_library_import_roots": [
       "__future__",
@@ -2348,6 +2441,7 @@
       "csv",
       "dataclasses",
       "datetime",
+      "decimal",
       "enum",
       "hashlib",
       "html",
@@ -2373,7 +2467,11 @@
     ],
     "optional_excluded_runtime_dependency": "jsonschema: only imported for explicit engine=jsonschema; not selected in demo",
     "dynamic_import_boundary": "STANDARD has no plugin/evaluator; optional review-policy plugin discovery is not invoked",
-    "resource_boundary": "schema_validation.py owns the closed 12-schema filename/hash registry; no external resources selected"
+    "resource_boundary": "schema_validation.py owns the closed 12-schema filename/hash registry; no external resources selected",
+    "additional_entrypoints": [
+      "ucc_demo.py"
+    ],
+    "optional_test_dependency": "pytest for tests/upstream_ucc/test_ucc_plan.py only; not bundled or required by runtime or stdlib discovery"
   },
   "manifest_self_hash": "Omitted to avoid self-reference; final Git commit binds this manifest.",
   "exclusions": [
@@ -2382,7 +2480,7 @@
     "person-specific records",
     "installation machinery",
     "GitHub workflows",
-    "separate component implementations",
+    "separate component implementations except the documented bounded UCC adaptation",
     "Unicode range tables",
     "TIAIP public profile",
     "dependencies/model weights",

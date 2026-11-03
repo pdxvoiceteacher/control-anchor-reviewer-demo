@@ -9,6 +9,10 @@
 **CODED** means bounded code on this public demo's main branch. **DEVELOPMENT** means reported work outside this demo. **PROPOSED** means broader design or research. The image opens a [clickable family directory](docs/brain-map/README.md); individual image regions are not interactive inside GitHub's README. [Optional local browser explorer](docs/brain-map/README.md#optional-browser-explorer).
 
 
+## Public subsystems
+
+**New: [bounded UCC procedures](docs/PUBLIC_SUBSYSTEMS.md)** are now inspectable and runnable alongside the existing evidence/review demo. Run `python -S -B ucc_demo.py` for synthetic totals, missing-input handling and explicit human-procedure boundaries. See [what is included and how vetted source is promoted](docs/PUBLIC_SUBSYSTEMS.md). This is component source, not the full installed product.
+
 ## Compute cooperatives: be the solution you seek.
 
 **Technical manuscript:** [Triadic Brain from Byte Identity to Revisable Knowledge, edition 1.2, and machine-readable companion](docs/papers/triadic-brain-micro-spectrum/README.md). Source reconstruction and a research agenda; distinct from the runnable demo and earlier whitepaper.

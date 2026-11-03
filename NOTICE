@@ -26,3 +26,9 @@ Inherited HOLD labels are historical metadata, not a newly discovered
 third-party claim against this extraction. This source publication is
 not a release, hosted service, deployment, assurance opinion, legal compliance
 attestation, production-readiness claim or truth certification.
+
+The bounded UCC plan engine and focused tests added on 3 November 2026 are
+extracted from development main ad4a0e94972a5fa12965cd2f394cce504655d78b.
+The owner requested public promotion of completed vetted subsystems. Its narrow
+CoherenceLattice adaptation and existing rights scope are identified in
+THIRD_PARTY_NOTICES.md. No donor-wide relicensing or formal release is implied.
