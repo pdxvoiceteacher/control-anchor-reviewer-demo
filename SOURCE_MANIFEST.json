@@ -552,16 +552,24 @@
     },
     {
       "path": "README.md",
-      "candidate_sha256": "953b84ac422dd532e1ab152f6c51c3b2932974c6c9581390f154e9b675565696",
+      "candidate_sha256": "55696f85679ffa496984d8dc466c9db8402e29a17e02b5d9be79b6b989a253f9",
       "origin": "ADAPTED",
       "source_basis_paths": [],
       "modifications": "New reviewer explanation based on maintained architecture; limits bound to extracted implementation. Added link to a source-attributed methods appendix and its bounded teaching claims. Added self-contained Mermaid responsibility diagram separating intended product integration, observed synthetic offline demo and future peer network; no runtime or validation-result changes.",
       "license": "MPL-2.0 to extent rights exist and covered",
       "publication_review": "OWNER_APPROVED_PUBLIC_SOURCE_ACCESS_EXISTING_RIGHTS_PRESERVED_NO_NEW_LICENSE",
       "historical_publication_review": "FINAL_CONTENT_DECISION_PENDING",
-      "bytes": 31093,
+      "bytes": 32353,
       "cooperative_ethos_clarification_2026_11_02": "Owner-directed freedom, local ownership, voluntary mutual aid and practical exit; informed higher overhead may be legitimate. Existing capability limits, rights and public contribution route preserved. No runtime change or new operational evidence.",
-      "whitepaper_navigation_2026_11_02": "Added one English design-edition and contribution navigation link, with translations-pending and unchanged-demo scope. No runtime or rights change."
+      "whitepaper_navigation_2026_11_02": "Added one English design-edition and contribution navigation link, with translations-pending and unchanged-demo scope. No runtime or rights change.",
+      "brain_map_revision_history": [
+        {
+          "source_commit": "23a674cab2af23baae6e74af2aaf5c7c934ff473",
+          "candidate_sha256": "953b84ac422dd532e1ab152f6c51c3b2932974c6c9581390f154e9b675565696",
+          "bytes": 31093
+        }
+      ],
+      "brain_map_navigation_2026_11_03": "Prominent static SVG, individual family links and local self-contained explorer. Existing body and historical metadata preserved; no runtime or rights change."
     },
     {
       "path": "tests/test_component.py",
@@ -2062,6 +2070,66 @@
       "publication_review": "SCOPED_MANUSCRIPT_AND_PACKAGING_REVIEW_RECORDS_RETAINED_SEPARATELY_NO_EMPIRICAL_QUALIFICATION",
       "candidate_sha256": "3c84c41ba319d65aa5fae9edf82fb3c84fcca16cff80d200de43e70b1a9edbf7",
       "bytes": 2626
+    },
+    {
+      "path": "docs/brain-map/map.json",
+      "origin": "NEW_PUBLIC_FUNCTION_MAP",
+      "source_basis_paths": [],
+      "modifications": "Maintained public-source function map and accessible navigation, with public code, dated reported development and proposed design kept distinct. No runtime qualification or private source publication.",
+      "license": "Existing rights and notices preserved; no new media/prose license grant.",
+      "publication_review": "OWNER_REQUESTED_PUBLIC_DOCUMENTATION_EXISTING_RIGHTS_PRESERVED",
+      "candidate_sha256": "24ca47cd51eff2226130ea09640e396b80a3e0d6ecf28ddf980dc3842d62ef6b",
+      "bytes": 5831
+    },
+    {
+      "path": "docs/brain-map/brain-map.svg",
+      "origin": "NEW_PUBLIC_FUNCTION_MAP",
+      "source_basis_paths": [],
+      "modifications": "Maintained public-source function map and accessible navigation, with public code, dated reported development and proposed design kept distinct. No runtime qualification or private source publication.",
+      "license": "Existing rights and notices preserved; no new media/prose license grant.",
+      "publication_review": "OWNER_REQUESTED_PUBLIC_DOCUMENTATION_EXISTING_RIGHTS_PRESERVED",
+      "candidate_sha256": "e30d92e14b7850e155653a5cf9b3cc85cf46b0edd7cf868326d08cc84fbaf92b",
+      "bytes": 6522
+    },
+    {
+      "path": "docs/brain-map/README.md",
+      "origin": "NEW_PUBLIC_FUNCTION_MAP",
+      "source_basis_paths": [],
+      "modifications": "Maintained public-source function map and accessible navigation, with public code, dated reported development and proposed design kept distinct. No runtime qualification or private source publication.",
+      "license": "Existing rights and notices preserved; no new media/prose license grant.",
+      "publication_review": "OWNER_REQUESTED_PUBLIC_DOCUMENTATION_EXISTING_RIGHTS_PRESERVED",
+      "candidate_sha256": "79f4dae715cf802805591bcfea309c5101b908b13d756eadcff4fb0804060085",
+      "bytes": 8747
+    },
+    {
+      "path": "docs/brain-map/explorer.html",
+      "origin": "NEW_PUBLIC_FUNCTION_MAP",
+      "source_basis_paths": [],
+      "modifications": "Maintained public-source function map and accessible navigation, with public code, dated reported development and proposed design kept distinct. No runtime qualification or private source publication.",
+      "license": "Existing rights and notices preserved; no new media/prose license grant.",
+      "publication_review": "OWNER_REQUESTED_PUBLIC_DOCUMENTATION_EXISTING_RIGHTS_PRESERVED",
+      "candidate_sha256": "683f9063c8fbbf32fadb44df72d5a6f04bb02a09fd07b5e4b0415372364b702d",
+      "bytes": 19199
+    },
+    {
+      "path": "tools/build_brain_map.py",
+      "origin": "NEW_PUBLIC_FUNCTION_MAP",
+      "source_basis_paths": [],
+      "modifications": "Maintained public-source function map and accessible navigation, with public code, dated reported development and proposed design kept distinct. No runtime qualification or private source publication.",
+      "license": "Existing rights and notices preserved; no new media/prose license grant.",
+      "publication_review": "OWNER_REQUESTED_PUBLIC_DOCUMENTATION_EXISTING_RIGHTS_PRESERVED",
+      "candidate_sha256": "63a93c2b38040f377c63ee2d67075df3feb5b479b8f39680a5a3433ea4544e57",
+      "bytes": 10134
+    },
+    {
+      "path": "tests/test_brain_map.py",
+      "origin": "NEW_PUBLIC_FUNCTION_MAP",
+      "source_basis_paths": [],
+      "modifications": "Maintained public-source function map and accessible navigation, with public code, dated reported development and proposed design kept distinct. No runtime qualification or private source publication.",
+      "license": "Existing rights and notices preserved; no new media/prose license grant.",
+      "publication_review": "OWNER_REQUESTED_PUBLIC_DOCUMENTATION_EXISTING_RIGHTS_PRESERVED",
+      "candidate_sha256": "93079ec1005f9e3f5a662baf26d088fec5f5b944b8104be695c9236d6627cc8b",
+      "bytes": 3260
     }
   ],
   "dependency_closure": {

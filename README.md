@@ -1,5 +1,14 @@
 # Control Anchor
 
+## Explore the Brain
+
+[![The Triadic Brain: nine function families, with public-demo code, reported development and proposed design clearly separated. Open the family directory for code links and limitations.](docs/brain-map/brain-map.svg)](docs/brain-map/README.md)
+
+**Choose a section:** [01 Evidence & custody](docs/brain-map/README.md#evidence) · [02 Controls & authority](docs/brain-map/README.md#controls) · [03 Review & correction](docs/brain-map/README.md#review) · [04 Grounding & analysis](docs/brain-map/README.md#grounding) · [05 Evaluation & posture](docs/brain-map/README.md#evaluation) · [06 Workbench & providers](docs/brain-map/README.md#interface) · [07 Continuity & memory](docs/brain-map/README.md#continuity) · [08 Community compute](docs/brain-map/README.md#community) · [09 Learning & research](docs/brain-map/README.md#research)
+
+**CODED** means bounded code on this public demo's main branch. **DEVELOPMENT** means reported work outside this demo. **PROPOSED** means broader design or research. The image opens a [clickable family directory](docs/brain-map/README.md); individual image regions are not interactive inside GitHub's README. [Optional local browser explorer](docs/brain-map/README.md#optional-browser-explorer).
+
+
 ## Compute cooperatives: be the solution you seek.
 
 **Technical manuscript:** [Triadic Brain from Byte Identity to Revisable Knowledge, edition 1.2, and machine-readable companion](docs/papers/triadic-brain-micro-spectrum/README.md). Source reconstruction and a research agenda; distinct from the runnable demo and earlier whitepaper.
