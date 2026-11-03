@@ -1158,8 +1158,8 @@
       "modifications": "Frozen R4 source-aligned English design or contribution documentation, or original navigation. Descriptive data only; no new runtime evidence, channel activation or execution authority.",
       "license": "Existing rights and notices preserved; no new media/prose license grant.",
       "publication_review": "OWNER_REQUESTED_PUBLIC_DOCUMENTATION_EXISTING_RIGHTS_PRESERVED",
-      "candidate_sha256": "ba477446172e7b5e0e39e77368b39b8799aa6d985d784aff7b8b7e8b61ff5c82",
-      "bytes": 9039
+      "candidate_sha256": "f85986693a454c456f73680b01cfd175896030254ef2da3957bdfb9af5207079",
+      "bytes": 9886
     },
     {
       "path": "docs/whitepaper/triadic-brain-20261102/contribute/CONTRIBUTION_CHANNELS.en.md",
@@ -2130,6 +2130,76 @@
       "publication_review": "OWNER_REQUESTED_PUBLIC_DOCUMENTATION_EXISTING_RIGHTS_PRESERVED",
       "candidate_sha256": "93079ec1005f9e3f5a662baf26d088fec5f5b944b8104be695c9236d6627cc8b",
       "bytes": 3260
+    },
+    {
+      "path": "docs/whitepaper/triadic-brain-20261102/R6/WHITEPAPER.en.md",
+      "origin": "NEW_PUBLIC_VERSIONED_DESIGN_EDITION",
+      "source_basis_paths": [],
+      "modifications": "English R6 design-documentation successor aligned to the published technical manuscript edition 1.2. Conserves all 86 mixed-kind registry definitions and distinguishes retained-source findings, proposals and unestablished outcomes. Previous editions remain unchanged.",
+      "license": "Existing rights and notices preserved; no new blanket prose/media license grant. Cited sources retain their attribution.",
+      "publication_review": "SCOPED_DOCUMENTATION_CONSERVATION_AND_REDTEAM_REVIEW_NO_RUNTIME_OR_EMPIRICAL_QUALIFICATION",
+      "candidate_sha256": "f7e5ef46c6ac203e61d6b353f4295af0f3270b01db197c55e941b9a7c9fffe3d",
+      "bytes": 91765
+    },
+    {
+      "path": "docs/whitepaper/triadic-brain-20261102/R6/FAMILY_GUIDE.en.md",
+      "origin": "NEW_PUBLIC_VERSIONED_DESIGN_EDITION",
+      "source_basis_paths": [],
+      "modifications": "English R6 design-documentation successor aligned to the published technical manuscript edition 1.2. Conserves all 86 mixed-kind registry definitions and distinguishes retained-source findings, proposals and unestablished outcomes. Previous editions remain unchanged.",
+      "license": "Existing rights and notices preserved; no new blanket prose/media license grant. Cited sources retain their attribution.",
+      "publication_review": "SCOPED_DOCUMENTATION_CONSERVATION_AND_REDTEAM_REVIEW_NO_RUNTIME_OR_EMPIRICAL_QUALIFICATION",
+      "candidate_sha256": "c9e4ee1824aa398e61bc305149b943989467d139bda60a98503e8b538253ab5b",
+      "bytes": 195897
+    },
+    {
+      "path": "docs/whitepaper/triadic-brain-20261102/R6/TERMS.en.md",
+      "origin": "NEW_PUBLIC_VERSIONED_DESIGN_EDITION",
+      "source_basis_paths": [],
+      "modifications": "English R6 design-documentation successor aligned to the published technical manuscript edition 1.2. Conserves all 86 mixed-kind registry definitions and distinguishes retained-source findings, proposals and unestablished outcomes. Previous editions remain unchanged.",
+      "license": "Existing rights and notices preserved; no new blanket prose/media license grant. Cited sources retain their attribution.",
+      "publication_review": "SCOPED_DOCUMENTATION_CONSERVATION_AND_REDTEAM_REVIEW_NO_RUNTIME_OR_EMPIRICAL_QUALIFICATION",
+      "candidate_sha256": "411962016b7c2b551fb3778ff32db1136a8052563b3ee5ba0971f4998af6b6dd",
+      "bytes": 24059
+    },
+    {
+      "path": "docs/whitepaper/triadic-brain-20261102/R6/PUBLIC_CONCEPTS.json",
+      "origin": "NEW_PUBLIC_VERSIONED_DESIGN_EDITION",
+      "source_basis_paths": [],
+      "modifications": "English R6 design-documentation successor aligned to the published technical manuscript edition 1.2. Conserves all 86 mixed-kind registry definitions and distinguishes retained-source findings, proposals and unestablished outcomes. Previous editions remain unchanged.",
+      "license": "Existing rights and notices preserved; no new blanket prose/media license grant. Cited sources retain their attribution.",
+      "publication_review": "SCOPED_DOCUMENTATION_CONSERVATION_AND_REDTEAM_REVIEW_NO_RUNTIME_OR_EMPIRICAL_QUALIFICATION",
+      "candidate_sha256": "1fb542dcc20a6bcfc45ec8d9d7fd9c9fb29241b65b8f65596996375d43ada63c",
+      "bytes": 490301
+    },
+    {
+      "path": "docs/whitepaper/triadic-brain-20261102/R6/STANDARDS_RESEARCH_CROSSWALK.en.md",
+      "origin": "NEW_PUBLIC_VERSIONED_DESIGN_EDITION",
+      "source_basis_paths": [],
+      "modifications": "English R6 design-documentation successor aligned to the published technical manuscript edition 1.2. Conserves all 86 mixed-kind registry definitions and distinguishes retained-source findings, proposals and unestablished outcomes. Previous editions remain unchanged.",
+      "license": "Existing rights and notices preserved; no new blanket prose/media license grant. Cited sources retain their attribution.",
+      "publication_review": "SCOPED_DOCUMENTATION_CONSERVATION_AND_REDTEAM_REVIEW_NO_RUNTIME_OR_EMPIRICAL_QUALIFICATION",
+      "candidate_sha256": "7d7ef8b2b302c80131d49e2dabe67b9718ee114b763191c0ae4e2fe330c0ede2",
+      "bytes": 120926
+    },
+    {
+      "path": "docs/whitepaper/triadic-brain-20261102/R6/STANDARDS_RESEARCH_CROSSWALK.json",
+      "origin": "NEW_PUBLIC_VERSIONED_DESIGN_EDITION",
+      "source_basis_paths": [],
+      "modifications": "English R6 design-documentation successor aligned to the published technical manuscript edition 1.2. Conserves all 86 mixed-kind registry definitions and distinguishes retained-source findings, proposals and unestablished outcomes. Previous editions remain unchanged.",
+      "license": "Existing rights and notices preserved; no new blanket prose/media license grant. Cited sources retain their attribution.",
+      "publication_review": "SCOPED_DOCUMENTATION_CONSERVATION_AND_REDTEAM_REVIEW_NO_RUNTIME_OR_EMPIRICAL_QUALIFICATION",
+      "candidate_sha256": "2908eb98bf77ee53e0ef6195ecc1ed5df8ebf6d0a0bb1dae2409249d6f744d92",
+      "bytes": 268398
+    },
+    {
+      "path": "docs/whitepaper/triadic-brain-20261102/R6/PUBLIC_BUNDLE_MANIFEST.json",
+      "origin": "NEW_PUBLIC_VERSIONED_DESIGN_EDITION",
+      "source_basis_paths": [],
+      "modifications": "English R6 design-documentation successor aligned to the published technical manuscript edition 1.2. Conserves all 86 mixed-kind registry definitions and distinguishes retained-source findings, proposals and unestablished outcomes. Previous editions remain unchanged.",
+      "license": "Existing rights and notices preserved; no new blanket prose/media license grant. Cited sources retain their attribution.",
+      "publication_review": "SCOPED_DOCUMENTATION_CONSERVATION_AND_REDTEAM_REVIEW_NO_RUNTIME_OR_EMPIRICAL_QUALIFICATION",
+      "candidate_sha256": "cd3ac13b8abc634cfeb53743e1fff07d4c9ba3fc92d0d73fec2a5d940fd43e00",
+      "bytes": 5644
     }
   ],
   "dependency_closure": {

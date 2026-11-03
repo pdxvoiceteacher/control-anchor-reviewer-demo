@@ -8,32 +8,33 @@ This English design edition explains the intended Triadic Brain system, the Cont
 
 **TCHES / F79 is owner-confirmed historical testing material, not a Brain capability, runtime dependency or future implementation target.** Its stable identifier records history; no particular test result or replacement function is inferred. The registry contains **86 mixed-kind entries**, including capabilities, contracts, crosscutting responsibilities, research, optional profiles and historical records—not 86 or 85 runtime functions or modules. Record kind and maturity are separate dimensions.
 
-The corrected R5.1 edition and its source-bound visual atlas are the current reading path. Frozen R4 is retained as a [historical edition](R4/WHITEPAPER.en.md), not the current classification of TCHES.
+The R6 edition is the current English reading path, aligned to [technical manuscript edition 1.2](../../papers/triadic-brain-micro-spectrum/README.md) while preserving the broader design and all 86 registry entries. [R5.1](R5.1/WHITEPAPER.en.md) remains a historical design snapshot. Frozen [R4](R4/WHITEPAPER.en.md) is retained as an earlier edition, not the current classification of TCHES.
 
 ### English reading paths
 
-- [Main whitepaper in English](R5.1/WHITEPAPER.en.md): purpose, a worked scenario, architecture, memory, governance, cooperation, compact mixed-kind index, research appendix and references.
-- [Supplementary family guide in English](R5.1/FAMILY_GUIDE.en.md): detailed responsibilities, examples, inputs, outputs, owners and missing connections.
-- [Supplementary term register in English](R5.1/TERMS.en.md): definitions and distinctions that translations must preserve.
-- [Structured concept map in English](R5.1/PUBLIC_CONCEPTS.json): descriptive data, not executable policy or a complete machine encoding of the prose.
-- [Sourced standards and research crosswalk in English](R5.1/STANDARDS_RESEARCH_CROSSWALK.en.md): conventional terms, precise source scope and where equivalence stops.
-- [Structured crosswalk](R5.1/STANDARDS_RESEARCH_CROSSWALK.json): 86-entry mixed-kind comparisons without replacing their additional responsibilities.
-- [Visual atlas, module-family maps and accessible text alternatives](visuals/README.md): intended design flows distinguished from the bounded source-connected route, with 19 SVG/PNG pairs and editable sources.
-- [English edition manifest](R5.1/PUBLIC_BUNDLE_MANIFEST.json): exact content bindings, review scope and known verification limits.
+- [Main whitepaper in English](R6/WHITEPAPER.en.md): purpose, a worked scenario, architecture, memory, governance, cooperation, compact mixed-kind index, research appendix and references.
+- [Supplementary family guide in English](R6/FAMILY_GUIDE.en.md): detailed responsibilities, examples, inputs, outputs, owners and missing connections.
+- [Supplementary term register in English](R6/TERMS.en.md): definitions and distinctions that translations must preserve.
+- [Structured concept map in English](R6/PUBLIC_CONCEPTS.json): descriptive data, not executable policy or a complete machine encoding of the prose.
+- [Sourced standards and research crosswalk in English](R6/STANDARDS_RESEARCH_CROSSWALK.en.md): conventional terms, precise source scope and where equivalence stops.
+- [Structured crosswalk](R6/STANDARDS_RESEARCH_CROSSWALK.json): 86-entry mixed-kind comparisons without replacing their additional responsibilities.
+- [Brain function-to-code map](../../brain-map/README.md): public-demo code, dated reported development and proposed responsibilities, with a static directory and optional browser explorer. It is not a complete 86-entry source map or product-qualification report.
+- [Historical R5.1 visual atlas, module-family maps and text alternatives](visuals/README.md): a preserved responsibility snapshot with 19 SVG/PNG pairs and editable sources. Its supplied-prior comparison leaf describes an inspected input/output contract; the technical manuscript establishes no production caller for that leaf in its selected closure.
+- [English edition manifest](R6/PUBLIC_BUNDLE_MANIFEST.json): exact content bindings, review scope and known verification limits.
 
-**Edition:** 2 November 2026, R5.1. This corrected edition distinguishes record kinds, preserves historical provenance and includes selected Knowledge Waters mathematics with explicit source, proof and producer/consumer limits. It retains sourced bridges to conventional scientific and engineering vocabulary while preserving project responsibilities and unresolved distinctions. It does not assert that a whole family is equivalent to a standard mechanism, that every term is novel, or that an external mechanism is implemented. Documentation review is separate from independent human assurance, product qualification, linguistic certification and rendered-accessibility inspection.
+**Edition:** 3 November 2026, R6. This successor preserves the reconciled definitions, mixed record kinds and novel responsibilities, while connecting them to the technical manuscript's retained-source account. It clarifies conditional native refusal, supplied analogy cases, copy and custody limits, numerical assumptions and the proposed lifecycle-cost comparison. Practical autonomy remains a separate design objective. Sources, call paths, historical execution and proposals do not become current deployed qualification. Documentation review remains separate from external scientific validation, product acceptance, linguistic certification and rendered-accessibility inspection.
 
 ## Continuing design updates
 
-Read the [3 November design refinements](../../design-notes/2026-11-03-refinements.en.md) for clarifications on recursive review, independent target evidence, metric lineage, current-use checks and privacy-aware pruning. This supplement leaves the frozen R5.1 edition unchanged. The whitepaper will be updated frequently as the design, evidence and implementation develop. Proposed checks remain **UNRUN**; these design refinements do not establish implemented or installed behavior, scientific validity or human benefit.
+Read the [3 November design refinements](../../design-notes/2026-11-03-refinements.en.md) for clarifications on recursive review, independent target evidence, metric lineage, current-use checks and privacy-aware pruning. This dated supplement and the frozen R5.1 edition remain unchanged. The whitepaper will be updated frequently as the design, evidence and implementation develop, without a fixed schedule. The supplement recorded proposed checks as **UNRUN** at its checkpoint; those proposal records alone do not establish implemented or installed behavior, scientific validity or human benefit.
 
 ## Language availability
 
-**English is available in this packet. Other main-whitepaper editions are not yet published.** The planned set contains 19 editions including English, not 19 additional translations. Planned entries below are not download links and are not claims that translations exist or have been reviewed.
+**English R6 is available in this packet. Other main-whitepaper editions are not yet published here.** The planned set contains 19 editions including English, not 19 additional translations. The table tracks public R6 availability; planned entries are not download links or claims of completed R6 translation or review. Earlier source-bound translation drafts do not automatically inherit R6 alignment.
 
 | Language | Main whitepaper status |
 |---|---|
-| English | Full main whitepaper present |
+| English | Full R6 main whitepaper present |
 | العربية — Arabic | Planned |
 | español — Spanish | Planned |
 | français — French | Planned |
@@ -75,7 +76,7 @@ Our response is to organize useful alternatives: voluntarily shared resources, l
 
 ## Contributions
 
-[Contribution guide and existing public discussion channel](contribute/CONTRIBUTION_CHANNELS.en.md) explains how people and authorized AI-assisted contributors can offer focused corrections or proposals. It preserves the existing Issues-first route and explicitly warns that a PR targeting main can trigger repository CI. The contribution packet is source-bound to R5.1. This documentation does not create a new listener, grant execution/spending authority or initiate outreach.
+[Contribution guide and existing public discussion channel](contribute/CONTRIBUTION_CHANNELS.en.md) explains how people and authorized AI-assisted contributors can offer focused corrections or proposals. It preserves the existing Issues-first route and explicitly warns that a PR targeting main can trigger repository CI. The preserved contribution packet is source-bound to R5.1; identify the R6 source edition when proposing an R6 correction. This documentation does not create a new listener, grant execution/spending authority or initiate outreach.
 
 ## Interpretation and rights
 
