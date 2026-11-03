@@ -289,3 +289,33 @@ SHA, platform/job outcome and logs; failed, cancelled, skipped and unrun jobs do
 not become PASS. Historical results above and all extracted source identities
 are preserved. CI neither installs the full product nor resolves the unperformed
 packet inspection, rendered demo QA or live-provider/human-acceptance limits.
+
+## UCC public extraction: 3 November 2026
+
+The exact two runtime modules and two tests are copied from accepted development
+main `ad4a0e94972a5fa12965cd2f394cce504655d78b`. Git blob identities were verified:
+`ucc_plan.py` ac943825f6acfa104520ba703442bbce932a8d3f;
+`ucc_primitives.py` ab85ef3dc4cea040fe26bc821be0add9795580d8;
+upstream plan tests 4ac806d0b7546f5aca0a7e93efcb9d5c1af4f8b0;
+precision tests c11a61bfc742e4e84d07c418987d7c6e30442b1a.
+The existing canonical dependency is unchanged and matches development main.
+
+Executed in a Linux Python 3.12.14 public checkout, without installation,
+provider/model contact or paid spending:
+
+- `python -S -B ucc_demo.py`: completed; synthetic total and sections PASS,
+  wrong total FAIL, absent total HOLD, human review NOT_EXECUTED.
+- `python -S -B -m unittest discover -s tests -v`: **26 tests passed**,
+  including the previous component/navigation/integrity tests and four UCC
+  test methods. [Retained output](validation/2026-11-03-ucc-unittest.log).
+- Existing approved pytest 9.1.1 environment, plugin autoload and cache disabled,
+  PYTHONPATH set to this checkout's src: `python -B -s -m pytest -q -p no:cacheprovider tests/upstream_ucc/test_ucc_plan.py tests/test_ucc_amount_precision.py`:
+  **46 tests and 77 subtests passed**, exit 0. These overlap the precision methods
+  above and must not be added to the 26 as independent coverage.
+
+The precision oracle covers 72 valid comparisons across three precisions and
+three rounding modes, plus five invalid inputs. It does not normalize arbitrary
+Decimal exponent limits or traps. Focused success establishes supplied-field
+behavior, not source truth, human acceptance, installed Windows behavior,
+performance, full-product integration or a formal assurance opinion. No private
+run evidence or history is published. Public CI reports its own exact-head results.
