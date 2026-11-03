@@ -1,0 +1,59 @@
+{
+  "schema_id": "triadic-brain-paper-release-status.v1",
+  "edition": "release-1.2-candidate",
+  "date": "2026-11-03",
+  "status": "LOCAL_SUCCESSOR_NOT_PUBLISHED",
+  "predecessor": {
+    "edition": "release-1",
+    "paper_sha256": "22d99842e03a1a55955bf7fc63b5abeb1c912b1c8faa832143a0fe1c4dcf8868",
+    "review_rounds": 2,
+    "review_lanes": [
+      {
+        "scope": "source and code fidelity",
+        "result": "PASS_FOR_SCOPED_AFFECTED_REREVIEW"
+      },
+      {
+        "scope": "mathematics",
+        "result": "PASS_FOR_SCOPED_AFFECTED_REREVIEW"
+      },
+      {
+        "scope": "security and privacy",
+        "result": "PASS_FOR_SCOPED_AFFECTED_REREVIEW"
+      },
+      {
+        "scope": "scientific claims and citations",
+        "result": "PASS_FOR_SCOPED_AFFECTED_REREVIEW"
+      },
+      {
+        "scope": "machine and prose consistency",
+        "result": "PASS_FOR_SCOPED_AFFECTED_REREVIEW"
+      }
+    ],
+    "accepted_findings_and_recommendations_closed": 31,
+    "scope": "Applies to frozen release 1 only; not automatic certification of this successor."
+  },
+  "successor_delta": "Section 14.3 specifies provenance-reuse resource accounting and autonomy as a separately evaluated design objective; linked qualification agenda, claims C078/C079 and successor metadata. Existing numbered equations, source account, witness, quantity definitions and graph relationships are preserved.",
+  "affected_review": "Recorded separately for this exact local successor; no journal peer-review or empirical validation claim.",
+  "product_execution_by_study": false,
+  "publication_performed": false,
+  "counts": {
+    "numbered_equations": 29,
+    "claims": 79,
+    "selected_quantities": 22,
+    "selected_route_stages": 21,
+    "research_extension_nodes": 4,
+    "exact_synthetic_byte_domains": 11,
+    "public_references": 18,
+    "scholarly_and_standards_references": 18
+  },
+  "limitations": [
+    "Private implementation source references are opaque in the public package; public independent reproduction is therefore limited.",
+    "The byte witness is constructed and not a live or admitted model run.",
+    "Historical qualification reports are not new current-source tests or installed-system qualification.",
+    "The ordinary captured-model JOINED uncertainty=1.0 conclusion is scoped; other routes differ.",
+    "Peer-model seams and discovery integration are not a qualified live three-node deployment.",
+    "GUFT namespaces, source-defined proxies and unexecuted hypotheses remain separate; no calibrated semantic benefit or universal physical law is established.",
+    "Complete Formula-of-Record definition, model internals, general dependency lifecycle, full erasure and total resource/ethical burden measurements remain unestablished.",
+    "The proposed matched reuse comparison and evaluation of practical autonomy have not been executed; no resource saving or autonomy outcome is established."
+  ]
+}

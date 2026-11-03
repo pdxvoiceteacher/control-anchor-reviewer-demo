@@ -1,0 +1,86 @@
+{
+  "schema_id": "triadic-brain-paper-source-groups.v1",
+  "disclosure": "Opaque evidence groups; exact implementation locators remain private. This limits public independent reproduction until separately authorized evidence release.",
+  "groups": [
+    {
+      "id": "I01",
+      "description": "Source identity and scope"
+    },
+    {
+      "id": "I02",
+      "description": "Canonical and wire domains"
+    },
+    {
+      "id": "I03",
+      "description": "Ingress and authority"
+    },
+    {
+      "id": "I04",
+      "description": "Constructed byte witness"
+    },
+    {
+      "id": "I05",
+      "description": "Native grounding and semantic contracts"
+    },
+    {
+      "id": "I06",
+      "description": "Provider and completion boundaries"
+    },
+    {
+      "id": "I07",
+      "description": "UCM and fixed uncertainty"
+    },
+    {
+      "id": "I08",
+      "description": "Waveform aperture counterexamples and PMR"
+    },
+    {
+      "id": "I09",
+      "description": "Existing AHA"
+    },
+    {
+      "id": "I10",
+      "description": "Audit orientation and seal"
+    },
+    {
+      "id": "I11",
+      "description": "GUFT quantities and historical telemetry"
+    },
+    {
+      "id": "I12",
+      "description": "Graph and recursion models"
+    },
+    {
+      "id": "I13",
+      "description": "Local workbench and dependence"
+    },
+    {
+      "id": "I14",
+      "description": "Peer and external contribution edges"
+    },
+    {
+      "id": "I15",
+      "description": "Shared grammar and dependency lifecycle"
+    },
+    {
+      "id": "I16",
+      "description": "Custody TEL and TAF observation"
+    },
+    {
+      "id": "I17",
+      "description": "Expiry and retained copies"
+    },
+    {
+      "id": "I18",
+      "description": "Authored tests and reported qualification"
+    },
+    {
+      "id": "I19",
+      "description": "Manuscript artifacts"
+    },
+    {
+      "id": "I20",
+      "description": "Research joins and qualification limits"
+    }
+  ]
+}

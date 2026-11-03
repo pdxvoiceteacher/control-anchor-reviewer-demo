@@ -1,0 +1,1545 @@
+{
+  "schema_id": "triadic-brain-paper-claims.v1",
+  "version": "release-1.2-candidate",
+  "as_of": "2026-11-03",
+  "publication_status": "LOCAL_SUCCESSOR_NOT_PUBLISHED",
+  "evidence_class_definitions": {
+    "S": "inspected source",
+    "C": "inspected call path",
+    "T": "authored test",
+    "R": "retained historical execution report",
+    "D": "analytic deduction",
+    "P": "proposal or authored explanatory artifact",
+    "H": "conjectured relationship or formal model; empirical testing may still require operational definitions",
+    "U": "unavailable or unobserved"
+  },
+  "claim_count": 79,
+  "claims": [
+    {
+      "id": "C001",
+      "statement": "The inspected source closure supports static reconstruction, not a new product execution.",
+      "evidence_classes": [
+        "S"
+      ],
+      "scope": "This paper",
+      "source_groups": [
+        "I01"
+      ],
+      "manuscript_section": "2.1",
+      "limitations": [
+        "No product import, test, CI, provider call or installed qualification was performed."
+      ],
+      "depends_on": [],
+      "product_executed_by_this_study": false
+    },
+    {
+      "id": "C002",
+      "statement": "163 reading copies include 157 exact copies and six separate full-blob-matched reconstructions after removal of one extra final LF.",
+      "evidence_classes": [
+        "S"
+      ],
+      "scope": "Selected retained inventory",
+      "source_groups": [
+        "I01"
+      ],
+      "manuscript_section": "2.1",
+      "limitations": [
+        "Not a complete fresh repository audit; reading-copy identities remain distinct."
+      ],
+      "depends_on": [
+        "C001"
+      ],
+      "product_executed_by_this_study": false
+    },
+    {
+      "id": "C003",
+      "statement": "Historical 46 plus 3 and 59 selected case reports do not establish a fresh current-source pass.",
+      "evidence_classes": [
+        "R",
+        "T"
+      ],
+      "scope": "Scoped historical populations",
+      "source_groups": [
+        "I18"
+      ],
+      "manuscript_section": "2.2",
+      "limitations": [
+        "Underlying archives were not all independently inspected; no live-model or installed three-node qualification follows."
+      ],
+      "depends_on": [
+        "C001"
+      ],
+      "product_executed_by_this_study": false
+    },
+    {
+      "id": "C004",
+      "statement": "There is no invariant smallest semantic packet across byte, text, token, claim, artifact and event operations.",
+      "evidence_classes": [
+        "D"
+      ],
+      "scope": "Representation taxonomy",
+      "source_groups": [
+        "I02",
+        "I04",
+        "I05"
+      ],
+      "manuscript_section": "3",
+      "limitations": [
+        "Minimality is relative to a specified operation and context."
+      ],
+      "depends_on": [],
+      "product_executed_by_this_study": false
+    },
+    {
+      "id": "C005",
+      "statement": "Byte hashing and canonical-object hashing are different identity domains.",
+      "evidence_classes": [
+        "S",
+        "D"
+      ],
+      "scope": "Accepted JSON and raw bytes",
+      "source_groups": [
+        "I02"
+      ],
+      "manuscript_section": "3",
+      "limitations": [
+        "Canonicalization is not a signature; no JCS conformance asserted."
+      ],
+      "depends_on": [],
+      "product_executed_by_this_study": false
+    },
+    {
+      "id": "C006",
+      "statement": "Intake contextual reuse binds complete selected prior pairs and rejects overflow rather than silently truncating.",
+      "evidence_classes": [
+        "S",
+        "C"
+      ],
+      "scope": "Inspected application entrypoint",
+      "source_groups": [
+        "I03"
+      ],
+      "manuscript_section": "4",
+      "limitations": [
+        "16 prior messages means at most eight complete pairs; the 16000-byte check applies to canonical effective messages on this path, not universal model limits."
+      ],
+      "depends_on": [],
+      "product_executed_by_this_study": false
+    },
+    {
+      "id": "C007",
+      "statement": "Gateway actor identity derives from authenticated application context, and custody records attempts before admission.",
+      "evidence_classes": [
+        "S",
+        "C"
+      ],
+      "scope": "Authenticated gateway and custody boundary",
+      "source_groups": [
+        "I03"
+      ],
+      "manuscript_section": "4",
+      "limitations": [
+        "An actor string or source instruction cannot recreate that authority."
+      ],
+      "depends_on": [],
+      "product_executed_by_this_study": false
+    },
+    {
+      "id": "C008",
+      "statement": "Record idempotency uses actor and key with exact raw-payload semantics.",
+      "evidence_classes": [
+        "S"
+      ],
+      "scope": "Custody record admission",
+      "source_groups": [
+        "I03"
+      ],
+      "manuscript_section": "4",
+      "limitations": [
+        "Changed bytes conflict; an uncertain outcome still needs reconciliation."
+      ],
+      "depends_on": [
+        "C007"
+      ],
+      "product_executed_by_this_study": false
+    },
+    {
+      "id": "C009",
+      "statement": "Observation mode retains the compatibility admission plan as definition-only and performs separate advisory business assessment later; legacy non-observation modes execute the admission plan.",
+      "evidence_classes": [
+        "S",
+        "C"
+      ],
+      "scope": "Inspected effective profile",
+      "source_groups": [
+        "I03"
+      ],
+      "manuscript_section": "4",
+      "limitations": [
+        "Do not generalize one profile to every mode.",
+        "Application privacy checks consent and configured policy identifier; native checks carried Boolean/basis contract, not content classification or universal policy adequacy."
+      ],
+      "depends_on": [],
+      "product_executed_by_this_study": false
+    },
+    {
+      "id": "C010",
+      "statement": "Dispatch binds exact record/version/request and reserves accounting before provider invocation.",
+      "evidence_classes": [
+        "S",
+        "C"
+      ],
+      "scope": "Claim and dispatch boundary",
+      "source_groups": [
+        "I06"
+      ],
+      "manuscript_section": "4",
+      "limitations": [
+        "Reservation is not completion or monetary charge."
+      ],
+      "depends_on": [],
+      "product_executed_by_this_study": false
+    },
+    {
+      "id": "C011",
+      "statement": "The synthetic original source has 9 UTF-8 bytes; normalized source 7; excerpt 6 bytes and 5 code points.",
+      "evidence_classes": [
+        "D"
+      ],
+      "scope": "Constructed Caf\u00e9 witness",
+      "source_groups": [
+        "I04"
+      ],
+      "manuscript_section": "5.1",
+      "limitations": [
+        "Not admitted or executed; actual request context remains symbolic."
+      ],
+      "depends_on": [],
+      "product_executed_by_this_study": false
+    },
+    {
+      "id": "C012",
+      "statement": "Application normalization is many-to-one and retains original identity separately.",
+      "evidence_classes": [
+        "S",
+        "D"
+      ],
+      "scope": "Ordinary bridge source normalization",
+      "source_groups": [
+        "I02",
+        "I04"
+      ],
+      "manuscript_section": "5.1",
+      "limitations": [
+        "No general inverse or universal semantic preservation."
+      ],
+      "depends_on": [
+        "C011"
+      ],
+      "product_executed_by_this_study": false
+    },
+    {
+      "id": "C013",
+      "statement": "The native grounding source on this route is already-normalized seven-byte text, not original nine-byte input.",
+      "evidence_classes": [
+        "S",
+        "C",
+        "D"
+      ],
+      "scope": "Constructed ordinary JOINED witness",
+      "source_groups": [
+        "I04",
+        "I05"
+      ],
+      "manuscript_section": "5.1",
+      "limitations": [
+        "Direct lower-level grounding is a distinct route."
+      ],
+      "depends_on": [
+        "C011"
+      ],
+      "product_executed_by_this_study": false
+    },
+    {
+      "id": "C014",
+      "statement": "Wrapper, canonical message array, native segment, manifest and semantic capture occupy distinct byte domains.",
+      "evidence_classes": [
+        "S",
+        "D"
+      ],
+      "scope": "Synthetic fixture",
+      "source_groups": [
+        "I04",
+        "I05"
+      ],
+      "manuscript_section": "5.2",
+      "limitations": [
+        "161, 200, 243, 525 and 684 bytes are not a live end-to-end resource benchmark."
+      ],
+      "depends_on": [
+        "C011"
+      ],
+      "product_executed_by_this_study": false
+    },
+    {
+      "id": "C015",
+      "statement": "Provider adapters have protocol-specific bounded nonstreaming text contracts.",
+      "evidence_classes": [
+        "S"
+      ],
+      "scope": "Inspected provider profiles",
+      "source_groups": [
+        "I06"
+      ],
+      "manuscript_section": "6.1",
+      "limitations": [
+        "No universal tokenizer/template equivalence; unsupported output is not silently accepted text."
+      ],
+      "depends_on": [],
+      "product_executed_by_this_study": false
+    },
+    {
+      "id": "C016",
+      "statement": "The transport observes application response bodies rather than network frames or actual token boundaries.",
+      "evidence_classes": [
+        "S"
+      ],
+      "scope": "Maintained transport",
+      "source_groups": [
+        "I06"
+      ],
+      "manuscript_section": "6.1",
+      "limitations": [
+        "No packet capture or negotiated-session attestation was performed.",
+        "TLS does not hide readable source/context values from the authorized compute endpoint or privileged retaining host."
+      ],
+      "depends_on": [],
+      "product_executed_by_this_study": false
+    },
+    {
+      "id": "C017",
+      "statement": "Observed body bytes and retained prefix bytes have separate identities; EOF and cleanup are separate observations.",
+      "evidence_classes": [
+        "S"
+      ],
+      "scope": "Transport completion",
+      "source_groups": [
+        "I06"
+      ],
+      "manuscript_section": "6.1",
+      "limitations": [
+        "Cancellation or lost acknowledgement does not prove remote nonexecution."
+      ],
+      "depends_on": [],
+      "product_executed_by_this_study": false
+    },
+    {
+      "id": "C018",
+      "statement": "Actual tokenizer IDs, hidden tensors, decoding state and energy are outside the inspected trace.",
+      "evidence_classes": [
+        "U"
+      ],
+      "scope": "Model-runtime internals",
+      "source_groups": [
+        "I06"
+      ],
+      "manuscript_section": "6.2",
+      "limitations": [
+        "Transformer equations are conditional background only."
+      ],
+      "depends_on": [],
+      "product_executed_by_this_study": false
+    },
+    {
+      "id": "C019",
+      "statement": "Completion is modeled as separately tracked admission, dispatch, body, normalization, evaluation, posture, review, use, payload and cleanup coordinates.",
+      "evidence_classes": [
+        "D"
+      ],
+      "scope": "Explanatory product-state model",
+      "source_groups": [
+        "I06",
+        "I10",
+        "I14"
+      ],
+      "manuscript_section": "6.3",
+      "limitations": [
+        "Not a newly implemented unified runtime schema."
+      ],
+      "depends_on": [
+        "C017"
+      ],
+      "product_executed_by_this_study": false
+    },
+    {
+      "id": "C020",
+      "statement": "Semantic bridge claims are paragraph/line spans with first exact-substring support proposals.",
+      "evidence_classes": [
+        "S",
+        "C"
+      ],
+      "scope": "Ordinary semantic bridge",
+      "source_groups": [
+        "I05"
+      ],
+      "manuscript_section": "7.1",
+      "limitations": [
+        "No proposition induction, entailment or exhaustive source selection."
+      ],
+      "depends_on": [],
+      "product_executed_by_this_study": false
+    },
+    {
+      "id": "C021",
+      "statement": "Downstream captured-adapter raw output is derived semantic JSON, not original provider body.",
+      "evidence_classes": [
+        "S",
+        "C"
+      ],
+      "scope": "Native captured-candidate facade",
+      "source_groups": [
+        "I05",
+        "I07"
+      ],
+      "manuscript_section": "7.1",
+      "limitations": [
+        "The facade makes no model call; upstream and derived hashes remain separate."
+      ],
+      "depends_on": [
+        "C020"
+      ],
+      "product_executed_by_this_study": false
+    },
+    {
+      "id": "C022",
+      "statement": "Claim validation reconstructs identity and coordinates, while lexical coverage is not factual likelihood.",
+      "evidence_classes": [
+        "S"
+      ],
+      "scope": "Native claim map",
+      "source_groups": [
+        "I05"
+      ],
+      "manuscript_section": "7.1",
+      "limitations": [
+        "Citation verification does not establish source truth, adequacy or independence."
+      ],
+      "depends_on": [],
+      "product_executed_by_this_study": false
+    },
+    {
+      "id": "C023",
+      "statement": "Candidate labels use 24-hex digest prefixes over 128 ASCII seed bytes; full artifact hashes remain separate.",
+      "evidence_classes": [
+        "S",
+        "D"
+      ],
+      "scope": "Native candidate identity",
+      "source_groups": [
+        "I05"
+      ],
+      "manuscript_section": "7.1",
+      "limitations": [
+        "96-bit labels are not full artifact digests; source labels use 20-hex prefixes."
+      ],
+      "depends_on": [],
+      "product_executed_by_this_study": false
+    },
+    {
+      "id": "C024",
+      "statement": "Default UCM axes are structural proxies (r,1,1,1-u,r).",
+      "evidence_classes": [
+        "S"
+      ],
+      "scope": "Native default axis producer",
+      "source_groups": [
+        "I07"
+      ],
+      "manuscript_section": "7.2",
+      "limitations": [
+        "Not empirical GUFT or ethical/physical measurements."
+      ],
+      "depends_on": [],
+      "product_executed_by_this_study": false
+    },
+    {
+      "id": "C025",
+      "statement": "UCM computes stable softmax and complete equivalence-group masses; top-k is display only.",
+      "evidence_classes": [
+        "S"
+      ],
+      "scope": "Native supplied hypothesis population",
+      "source_groups": [
+        "I07"
+      ],
+      "manuscript_section": "7.2",
+      "limitations": [
+        "Scores are caller-declared logits, not calibrated log likelihoods.",
+        "Population is nonempty, groups partition it, masses are ordered, and second-group mass is zero for a singleton."
+      ],
+      "depends_on": [],
+      "product_executed_by_this_study": false
+    },
+    {
+      "id": "C026",
+      "statement": "A singleton softmax mass of one is normalization, not correctness certainty.",
+      "evidence_classes": [
+        "D"
+      ],
+      "scope": "Finite singleton score",
+      "source_groups": [
+        "I07"
+      ],
+      "manuscript_section": "7.2",
+      "limitations": [
+        "No empirical calibration follows from the algebra."
+      ],
+      "depends_on": [
+        "C025"
+      ],
+      "product_executed_by_this_study": false
+    },
+    {
+      "id": "C027",
+      "statement": "Every successful ordinary CAPTURED to JOINED bridge build sets u=1.0 and therefore reaches UCM REFUSE under the unchanged threshold.",
+      "evidence_classes": [
+        "S",
+        "C",
+        "D"
+      ],
+      "scope": "Exact inspected ordinary captured-model JOINED route",
+      "source_groups": [
+        "I07"
+      ],
+      "manuscript_section": "7.2",
+      "limitations": [
+        "Conditional on valid artifacts reaching UCM; not all models/routes; inspectability remains."
+      ],
+      "depends_on": [
+        "C024",
+        "C025"
+      ],
+      "product_executed_by_this_study": false
+    },
+    {
+      "id": "C028",
+      "statement": "CAPTURE_ONLY, non-model events and direct lower-level capture API are separate paths.",
+      "evidence_classes": [
+        "S",
+        "C"
+      ],
+      "scope": "Route alternatives",
+      "source_groups": [
+        "I07"
+      ],
+      "manuscript_section": "7.2",
+      "limitations": [
+        "No invented confidence value is authorized by their existence."
+      ],
+      "depends_on": [
+        "C027"
+      ],
+      "product_executed_by_this_study": false
+    },
+    {
+      "id": "C029",
+      "statement": "The native waveform is a synthetic five-axis codec with no physical-frequency claim.",
+      "evidence_classes": [
+        "S"
+      ],
+      "scope": "N from 16 to 4096, default 64",
+      "source_groups": [
+        "I08"
+      ],
+      "manuscript_section": "7.3",
+      "limitations": [
+        "No established cross-domain utility or neuroscience measurement."
+      ],
+      "depends_on": [],
+      "product_executed_by_this_study": false
+    },
+    {
+      "id": "C030",
+      "statement": "Before rounding, codec energy is sum(a_k^2)/50 and equals .08 for the witness axes.",
+      "evidence_classes": [
+        "D"
+      ],
+      "scope": "Discrete orthogonality for the stated five harmonics and sample counts",
+      "source_groups": [
+        "I08"
+      ],
+      "manuscript_section": "7.3",
+      "limitations": [
+        "Not an executed waveform result; scalar energy loses axis allocation."
+      ],
+      "depends_on": [
+        "C024",
+        "C029"
+      ],
+      "product_executed_by_this_study": false
+    },
+    {
+      "id": "C031",
+      "statement": "Counterexample search is a bounded unsupported-claim and limitation-token scan.",
+      "evidence_classes": [
+        "S"
+      ],
+      "scope": "Native source-bound scan",
+      "source_groups": [
+        "I08"
+      ],
+      "manuscript_section": "7.3",
+      "limitations": [
+        "Zero matches is not exhaustive falsification."
+      ],
+      "depends_on": [],
+      "product_executed_by_this_study": false
+    },
+    {
+      "id": "C032",
+      "statement": "Aperture hard-gate failure precedes softer holds; ordinary PMR is off while evidence custody persists.",
+      "evidence_classes": [
+        "S",
+        "C"
+      ],
+      "scope": "Ordinary native route",
+      "source_groups": [
+        "I08"
+      ],
+      "manuscript_section": "7.4",
+      "limitations": [
+        "No PMR write does not mean no files or content storage.",
+        "The privacy gate checks a carried Boolean/basis contract; optional PMR consent is distinct from required custody retention."
+      ],
+      "depends_on": [],
+      "product_executed_by_this_study": false
+    },
+    {
+      "id": "C033",
+      "statement": "Sophia recomputes selected derived relationships but does not independently read raw quarantine or rerun UCC policy predicates.",
+      "evidence_classes": [
+        "S",
+        "C"
+      ],
+      "scope": "Bounded separate audit",
+      "source_groups": [
+        "I10"
+      ],
+      "manuscript_section": "7.4",
+      "limitations": [
+        "Parent hashes do not establish independent upstream byte access."
+      ],
+      "depends_on": [
+        "C021"
+      ],
+      "product_executed_by_this_study": false
+    },
+    {
+      "id": "C034",
+      "statement": "Conditional witness UCM/aperture REFUSE yields correctly recorded Sophia HOLD and Atlas quarantine/do_not_publish.",
+      "evidence_classes": [
+        "D"
+      ],
+      "scope": "Otherwise-valid constructed witness",
+      "source_groups": [
+        "I07",
+        "I08",
+        "I10"
+      ],
+      "manuscript_section": "7.4",
+      "limitations": [
+        "Not an observed run; malformed artifacts can instead reject; candidate remains inspectable."
+      ],
+      "depends_on": [
+        "C027",
+        "C032",
+        "C033"
+      ],
+      "product_executed_by_this_study": false
+    },
+    {
+      "id": "C035",
+      "statement": "Sealing follows actual audit/orientation/TEL completion and inventories bytes without certifying semantic truth.",
+      "evidence_classes": [
+        "S",
+        "C"
+      ],
+      "scope": "Maintained native finalization",
+      "source_groups": [
+        "I10"
+      ],
+      "manuscript_section": "7.4",
+      "limitations": [
+        "No signature, privileged-host immutability or automatic publication follows."
+      ],
+      "depends_on": [],
+      "product_executed_by_this_study": false
+    },
+    {
+      "id": "C036",
+      "statement": "GUFT quantities require namespace, estimator version, units, producer, consumer and missingness distinctions.",
+      "evidence_classes": [
+        "D",
+        "P"
+      ],
+      "scope": "Exposition contract",
+      "source_groups": [
+        "I11"
+      ],
+      "manuscript_section": "8.1",
+      "limitations": [
+        "Not a universal runtime schema already enforced."
+      ],
+      "depends_on": [],
+      "product_executed_by_this_study": false
+    },
+    {
+      "id": "C037",
+      "statement": "ET is bounded for bounded operands, but its bound does not validate the operands as intended constructs.",
+      "evidence_classes": [
+        "D",
+        "S"
+      ],
+      "scope": "Local product and retained proof terms",
+      "source_groups": [
+        "I11"
+      ],
+      "manuscript_section": "8.1",
+      "limitations": [
+        "No fresh Lean compilation or axiom audit."
+      ],
+      "depends_on": [],
+      "product_executed_by_this_study": false
+    },
+    {
+      "id": "C038",
+      "statement": "Exploratory stability Psi is a distinct ratio with unresolved domains and no universal unit interval bound.",
+      "evidence_classes": [
+        "H",
+        "D"
+      ],
+      "scope": "Source-specific formula family",
+      "source_groups": [
+        "I11"
+      ],
+      "manuscript_section": "8.1",
+      "limitations": [
+        "Lock Lambda differs from maximum drift; epsilon does not guarantee positive signed denominator."
+      ],
+      "depends_on": [],
+      "product_executed_by_this_study": false
+    },
+    {
+      "id": "C039",
+      "statement": "The full Formula-of-Record equation was not recovered and is not reconstructed from its name.",
+      "evidence_classes": [
+        "U"
+      ],
+      "scope": "Scoped source search",
+      "source_groups": [
+        "I11"
+      ],
+      "manuscript_section": "8.1",
+      "limitations": [
+        "Its absence in this search is not proof no original exists."
+      ],
+      "depends_on": [],
+      "product_executed_by_this_study": false
+    },
+    {
+      "id": "C040",
+      "statement": "Historical benchmark telemetry uses dimensionless numeric transforms and favorable missing-input defaults.",
+      "evidence_classes": [
+        "S"
+      ],
+      "scope": "Retained estimator",
+      "source_groups": [
+        "I11"
+      ],
+      "manuscript_section": "8.2",
+      "limitations": [
+        "Mixed units are not normalized physically; empty numbers yield E=1.",
+        "Divisor 80 was chosen to keep E high enough for Psi gates, not by semantic calibration."
+      ],
+      "depends_on": [],
+      "product_executed_by_this_study": false
+    },
+    {
+      "id": "C041",
+      "statement": "Historical DeltaS and Lambda summarize rerun vector distances and can be zero for no reruns.",
+      "evidence_classes": [
+        "S"
+      ],
+      "scope": "Retained benchmark wrapper",
+      "source_groups": [
+        "I11"
+      ],
+      "manuscript_section": "8.2",
+      "limitations": [
+        "Repeated workload has no explicit controlled perturbation parameter; zero is not proven robustness."
+      ],
+      "depends_on": [
+        "C040"
+      ],
+      "product_executed_by_this_study": false
+    },
+    {
+      "id": "C042",
+      "statement": "Inspected text-facing benchmark consumer does not use candidate text to construct its measurement.",
+      "evidence_classes": [
+        "S",
+        "C"
+      ],
+      "scope": "Historical producer-consumer join",
+      "source_groups": [
+        "I11"
+      ],
+      "manuscript_section": "8.2",
+      "limitations": [
+        "Track association is not candidate-semantic measurement or telemetry-to-river adapter."
+      ],
+      "depends_on": [
+        "C040"
+      ],
+      "product_executed_by_this_study": false
+    },
+    {
+      "id": "C043",
+      "statement": "Historical potential/integrity/lifecycle heuristics are distinct from probability, truth and durable dependency pruning.",
+      "evidence_classes": [
+        "S",
+        "D"
+      ],
+      "scope": "Navigation pipeline",
+      "source_groups": [
+        "I11"
+      ],
+      "manuscript_section": "8.2",
+      "limitations": [
+        "Integrity is unbounded; favorable denominator does not establish accuracy."
+      ],
+      "depends_on": [],
+      "product_executed_by_this_study": false
+    },
+    {
+      "id": "C044",
+      "statement": "Time-series differences lack elapsed-time division and net flux telescopes to endpoint change.",
+      "evidence_classes": [
+        "S",
+        "D"
+      ],
+      "scope": "Historical versioned time-series families",
+      "source_groups": [
+        "I11"
+      ],
+      "manuscript_section": "8.3",
+      "limitations": [
+        "Not per-second derivative, Shannon entropy or current native waveform."
+      ],
+      "depends_on": [],
+      "product_executed_by_this_study": false
+    },
+    {
+      "id": "C045",
+      "statement": "Phase-weighted donor diagnostics and the synthetic native waveform belong to distinct quantity families.",
+      "evidence_classes": [
+        "H",
+        "S",
+        "D"
+      ],
+      "scope": "Research donor and native codec",
+      "source_groups": [
+        "I11",
+        "I08"
+      ],
+      "manuscript_section": "8.3",
+      "limitations": [
+        "Cross-domain cognitive transfer is separately hypothetical.",
+        "C_plus+C_minus=Psi; Q_perp is separate, not a third additive energy share. Units follow selected Psi; physical power needs a signal model and averaging interval."
+      ],
+      "depends_on": [
+        "C029"
+      ],
+      "product_executed_by_this_study": false
+    },
+    {
+      "id": "C046",
+      "statement": "Full graph-field research laws include terms absent from the actual reduced river/terrace kernels.",
+      "evidence_classes": [
+        "H",
+        "S"
+      ],
+      "scope": "Cognitive-waters lineage",
+      "source_groups": [
+        "I12"
+      ],
+      "manuscript_section": "9.1",
+      "limitations": [
+        "No empirical density-to-knowledge mapping is established."
+      ],
+      "depends_on": [],
+      "product_executed_by_this_study": false
+    },
+    {
+      "id": "C047",
+      "statement": "Actual evolution caller overrides river default h=.05 and terrace default h=.1 with h=1.0.",
+      "evidence_classes": [
+        "S",
+        "C"
+      ],
+      "scope": "Inspected reduced-kernel caller",
+      "source_groups": [
+        "I12"
+      ],
+      "manuscript_section": "9.1",
+      "limitations": [
+        "Source existence is not execution; actual graph spectrum is unavailable.",
+        "The terrace phase consumes the newly updated clipped river field and recomputes g from unchanged Psi."
+      ],
+      "depends_on": [],
+      "product_executed_by_this_study": false
+    },
+    {
+      "id": "C048",
+      "statement": "Unclipped fixed-input river Euler strict decay requires 0<h<2/(D_r*lambda_max+beta).",
+      "evidence_classes": [
+        "D"
+      ],
+      "scope": "Finite undirected nonnegative weights, fixed Psi, D_r>=0, beta>0",
+      "source_groups": [
+        "I12"
+      ],
+      "manuscript_section": "9.2",
+      "limitations": [
+        "Not sufficient for semantic utility, all-input admissibility, or actual production stability."
+      ],
+      "depends_on": [
+        "C046",
+        "C047"
+      ],
+      "product_executed_by_this_study": false
+    },
+    {
+      "id": "C049",
+      "statement": "At h=1 and default coefficients stability requires lambda_max<23.75; positivity suffices when degree<=11.25.",
+      "evidence_classes": [
+        "D"
+      ],
+      "scope": "Equation 19 under equation 22 assumptions",
+      "source_groups": [
+        "I12"
+      ],
+      "manuscript_section": "9.2",
+      "limitations": [
+        "Strict stability differs from positivity and from upper-range preservation.",
+        "Positivity additionally requires nonnegative initial R and alpha*g>=0."
+      ],
+      "depends_on": [
+        "C048"
+      ],
+      "product_executed_by_this_study": false
+    },
+    {
+      "id": "C050",
+      "statement": "A hypothetical two-node weight-20 fixed-Psi graph yields multiplier -2.3 at h=1 and .835 at h=.05.",
+      "evidence_classes": [
+        "D"
+      ],
+      "scope": "Constructed isolated-kernel example",
+      "source_groups": [
+        "I12"
+      ],
+      "manuscript_section": "9.2",
+      "limitations": [
+        "Not a project test or actual deployed graph."
+      ],
+      "depends_on": [
+        "C048"
+      ],
+      "product_executed_by_this_study": false
+    },
+    {
+      "id": "C051",
+      "statement": "With clipping the same hypothetical example alternates exactly between (1,0) and (0,1).",
+      "evidence_classes": [
+        "D"
+      ],
+      "scope": "Constructed repeated fixed-input kernel",
+      "source_groups": [
+        "I12"
+      ],
+      "manuscript_section": "9.2",
+      "limitations": [
+        "Boundedness does not prove convergence or accuracy; not production behavior."
+      ],
+      "depends_on": [
+        "C050"
+      ],
+      "product_executed_by_this_study": false
+    },
+    {
+      "id": "C052",
+      "statement": "Unclipped symmetric diffusion cancels in total river density, leaving source minus decay.",
+      "evidence_classes": [
+        "D"
+      ],
+      "scope": "Fixed-input undirected reduced equation",
+      "source_groups": [
+        "I12"
+      ],
+      "manuscript_section": "9.2",
+      "limitations": [
+        "River density is generally not conserved; clipping adds projection correction."
+      ],
+      "depends_on": [
+        "C048"
+      ],
+      "product_executed_by_this_study": false
+    },
+    {
+      "id": "C053",
+      "statement": "Recursive inquiry and complex-state regime formulas remain distinct research models with explicit contraction conditions.",
+      "evidence_classes": [
+        "H",
+        "D"
+      ],
+      "scope": "Source-defined recursion",
+      "source_groups": [
+        "I12"
+      ],
+      "manuscript_section": "9.3",
+      "limitations": [
+        "Bounded forcing does not guarantee convergence; real coordinate need not stay in [0,1]."
+      ],
+      "depends_on": [],
+      "product_executed_by_this_study": false
+    },
+    {
+      "id": "C054",
+      "statement": "Existing AHA checks supplied relational mappings and grounded references, not automatic donor discovery or target falsification.",
+      "evidence_classes": [
+        "S",
+        "C"
+      ],
+      "scope": "Existing maintained structural case engine and wrapper",
+      "source_groups": [
+        "I09"
+      ],
+      "manuscript_section": "10",
+      "limitations": [
+        "Different declared source-family labels do not prove independence.",
+        "Current engine requires exact relation-type/orientation equality; maps associate identifiers and do not execute semantic or unit transforms."
+      ],
+      "depends_on": [],
+      "product_executed_by_this_study": false
+    },
+    {
+      "id": "C055",
+      "statement": "AHA outputs are typed ordinal/structural/qualitative measures and a nonprobabilistic rank, not discovery confidence.",
+      "evidence_classes": [
+        "S"
+      ],
+      "scope": "Existing supplied-case outputs",
+      "source_groups": [
+        "I09"
+      ],
+      "manuscript_section": "10",
+      "limitations": [
+        "Semantic non-vacuity assessed and semantic utility demonstrated remain false."
+      ],
+      "depends_on": [
+        "C054"
+      ],
+      "product_executed_by_this_study": false
+    },
+    {
+      "id": "C056",
+      "statement": "Absent AHA case is UNAVAILABLE; REVIEWABLE is not empirical corroboration or adoption.",
+      "evidence_classes": [
+        "S",
+        "D"
+      ],
+      "scope": "Native AHA wrapper",
+      "source_groups": [
+        "I09",
+        "I20"
+      ],
+      "manuscript_section": "10",
+      "limitations": [
+        "Separate evolving proposals are not accepted main capability."
+      ],
+      "depends_on": [
+        "C054"
+      ],
+      "product_executed_by_this_study": false
+    },
+    {
+      "id": "C057",
+      "statement": "Normalization, context wrapping, challenge, numeric perturbation, analogy and correction are distinct operator families.",
+      "evidence_classes": [
+        "D",
+        "P"
+      ],
+      "scope": "Explanatory taxonomy",
+      "source_groups": [
+        "I05",
+        "I11",
+        "I12",
+        "I13",
+        "I14",
+        "I15",
+        "I16"
+      ],
+      "manuscript_section": "11",
+      "limitations": [
+        "No single orchestrator is asserted to execute all operators."
+      ],
+      "depends_on": [],
+      "product_executed_by_this_study": false
+    },
+    {
+      "id": "C058",
+      "statement": "Local Analyst/Challenge/Synthesis retains same-root selected history without proving independent corroboration.",
+      "evidence_classes": [
+        "S",
+        "C"
+      ],
+      "scope": "Inspected local workbench",
+      "source_groups": [
+        "I13"
+      ],
+      "manuscript_section": "12.1",
+      "limitations": [
+        "Repeated same-model prompting is prompt diversity, not independent distributed observation."
+      ],
+      "depends_on": [],
+      "product_executed_by_this_study": false
+    },
+    {
+      "id": "C059",
+      "statement": "Equicorrelated error averaging has variance sigma^2/m times [1+(m-1)r].",
+      "evidence_classes": [
+        "D"
+      ],
+      "scope": "Admissible equal-variance covariance model",
+      "source_groups": [
+        "I13"
+      ],
+      "manuscript_section": "12.1",
+      "limitations": [
+        "Effective sample-size expression needs positive denominator; not a runtime estimator."
+      ],
+      "depends_on": [],
+      "product_executed_by_this_study": false
+    },
+    {
+      "id": "C060",
+      "statement": "Peer artifact transfer is a bounded authenticated edge, with external digest references that are not signatures.",
+      "evidence_classes": [
+        "S",
+        "C"
+      ],
+      "scope": "Maintained artifact transfer",
+      "source_groups": [
+        "I14"
+      ],
+      "manuscript_section": "12.2",
+      "limitations": [
+        "Byte integrity does not establish truth or independent semantic corroboration."
+      ],
+      "depends_on": [],
+      "product_executed_by_this_study": false
+    },
+    {
+      "id": "C061",
+      "statement": "Default-off peer model sender/receiver seams exist with bounded frames and returned text; execution requires injected native authority.",
+      "evidence_classes": [
+        "S"
+      ],
+      "scope": "Selected peer-model source closure",
+      "source_groups": [
+        "I14"
+      ],
+      "manuscript_section": "12.2",
+      "limitations": [
+        "Injected grant-shaped values are not self-authenticating authority.",
+        "Canonical request/status/result frames are at most 65536 bytes; returned text is at most 32768 UTF-8 bytes; declared output tokens are at most 4096 and original job window at most 120000 ms.",
+        "Legacy intake can retain an ownerless held receipt; structured intake requires an owner. Neither receipt authorizes execution.",
+        "Authorized endpoints receive readable input; no independently verified remote-retention or confidential-computation guarantee is established."
+      ],
+      "depends_on": [],
+      "product_executed_by_this_study": false
+    },
+    {
+      "id": "C062",
+      "statement": "Maintained paired routing and installed joins do not establish live three-node model qualification.",
+      "evidence_classes": [
+        "S",
+        "U"
+      ],
+      "scope": "Inspected allowlist and caller closure",
+      "source_groups": [
+        "I14",
+        "I20"
+      ],
+      "manuscript_section": "12.2",
+      "limitations": [
+        "Artifact P2P and local workbench functions are not negated; pilot remains unqualified."
+      ],
+      "depends_on": [
+        "C060",
+        "C061"
+      ],
+      "product_executed_by_this_study": false
+    },
+    {
+      "id": "C063",
+      "statement": "External contribution consumers distinguish historical completion, delivery, availability and current use rights.",
+      "evidence_classes": [
+        "S",
+        "C"
+      ],
+      "scope": "Retained external Challenge and synthesis route",
+      "source_groups": [
+        "I14"
+      ],
+      "manuscript_section": "12.2",
+      "limitations": [
+        "A revoked execution grant does not erase history or settle every separately authorized use."
+      ],
+      "depends_on": [],
+      "product_executed_by_this_study": false
+    },
+    {
+      "id": "C064",
+      "statement": "Custody digest chain and append-only triggers retain privileged custodian/host trust dependencies.",
+      "evidence_classes": [
+        "S",
+        "D"
+      ],
+      "scope": "Local custody store",
+      "source_groups": [
+        "I16"
+      ],
+      "manuscript_section": "13.1",
+      "limitations": [
+        "Not independent timestamping, globally witnessed transparency or Byzantine consensus."
+      ],
+      "depends_on": [],
+      "product_executed_by_this_study": false
+    },
+    {
+      "id": "C065",
+      "statement": "Native TEL uses 15 preaudit rows, 18 finalized route rows and a separate human continuation; logical labels are not elapsed time.",
+      "evidence_classes": [
+        "S",
+        "C"
+      ],
+      "scope": "Native route event stages",
+      "source_groups": [
+        "I16"
+      ],
+      "manuscript_section": "13.1",
+      "limitations": [
+        "No cross-host causal-clock or consensus implementation inferred."
+      ],
+      "depends_on": [],
+      "product_executed_by_this_study": false
+    },
+    {
+      "id": "C066",
+      "statement": "TAF-A observes logical retained provider-response bytes while legacy aggregate quantities remain unavailable.",
+      "evidence_classes": [
+        "S"
+      ],
+      "scope": "Bounded retained-parent leaf",
+      "source_groups": [
+        "I16"
+      ],
+      "manuscript_section": "13.1",
+      "limitations": [
+        "Not joules, FLOPs, device memory or whole-system ethical cost; missing is not zero."
+      ],
+      "depends_on": [],
+      "product_executed_by_this_study": false
+    },
+    {
+      "id": "C067",
+      "statement": "Byte integrity, authenticated sender, lineage, observed procedure, adequate evidence and permitted use are distinct predicates.",
+      "evidence_classes": [
+        "D"
+      ],
+      "scope": "Explanatory trust model",
+      "source_groups": [
+        "I03",
+        "I10",
+        "I14",
+        "I16"
+      ],
+      "manuscript_section": "13.2",
+      "limitations": [
+        "Their composition is not a universal truth theorem."
+      ],
+      "depends_on": [],
+      "product_executed_by_this_study": false
+    },
+    {
+      "id": "C068",
+      "statement": "Shared-reference grammar requires versioned resolution, domain/unit compatibility, permissions and residuals.",
+      "evidence_classes": [
+        "P",
+        "S"
+      ],
+      "scope": "Design plus historical bounded mechanisms",
+      "source_groups": [
+        "I15"
+      ],
+      "manuscript_section": "14.1",
+      "limitations": [
+        "No current automatic grammar learning or lossless semantic transfer established."
+      ],
+      "depends_on": [],
+      "product_executed_by_this_study": false
+    },
+    {
+      "id": "C069",
+      "statement": "Retrosynthesis as predecessor/dependency traversal is a proposed explanatory semantics, not a general implemented inverse engine.",
+      "evidence_classes": [
+        "D",
+        "P"
+      ],
+      "scope": "Equations 28 and 29",
+      "source_groups": [
+        "I04",
+        "I06",
+        "I15",
+        "I20"
+      ],
+      "manuscript_section": "14.2",
+      "limitations": [
+        "Many-to-one normalization and opaque inference can prevent full replay.",
+        "Predecessors use the output projection f_y of the tuple-valued transform."
+      ],
+      "depends_on": [
+        "C012",
+        "C018"
+      ],
+      "product_executed_by_this_study": false
+    },
+    {
+      "id": "C070",
+      "statement": "Proposed alternative-support semantics requires declared adequate nonempty support sets and explicit purpose, recipient and time; an empty family yields false.",
+      "evidence_classes": [
+        "D",
+        "P"
+      ],
+      "scope": "Proposed alternative-support semantics",
+      "source_groups": [
+        "I15",
+        "I20"
+      ],
+      "manuscript_section": "14.2",
+      "limitations": [
+        "No global graph current-use or repair-set solver is asserted implemented.",
+        "Availability, permission and method applicability alone do not establish set-level adequacy; evidence-free theorems require separate justification."
+      ],
+      "depends_on": [
+        "C069"
+      ],
+      "product_executed_by_this_study": false
+    },
+    {
+      "id": "C071",
+      "statement": "Scoped payload expiry does not erase original request, effective-message and response-text copies in all append-only events.",
+      "evidence_classes": [
+        "S"
+      ],
+      "scope": "Inspected expiry and event details",
+      "source_groups": [
+        "I17"
+      ],
+      "manuscript_section": "15",
+      "limitations": [
+        "External exports, backups, providers and peers have separate lifecycles."
+      ],
+      "depends_on": [],
+      "product_executed_by_this_study": false
+    },
+    {
+      "id": "C072",
+      "statement": "Raw-free evidence is not inherently anonymous, and content hashes can be linkable.",
+      "evidence_classes": [
+        "S",
+        "D"
+      ],
+      "scope": "Derived bundles and low-entropy content",
+      "source_groups": [
+        "I17"
+      ],
+      "manuscript_section": "15",
+      "limitations": [
+        "No comprehensive DLP or full erasure guarantee.",
+        "Readable endpoint and custody values are visible to authorized compute parties or privileged hosts; unrelated deployed protection layers were not audited."
+      ],
+      "depends_on": [
+        "C071"
+      ],
+      "product_executed_by_this_study": false
+    },
+    {
+      "id": "C073",
+      "statement": "Pinned representation, calibration, numerical, AHA, dependence, peer and lifecycle evaluations are future qualification steps.",
+      "evidence_classes": [
+        "P"
+      ],
+      "scope": "Research agenda",
+      "source_groups": [
+        "I20"
+      ],
+      "manuscript_section": "16",
+      "limitations": [
+        "No proposed experiment here was executed or authorized by the manuscript itself."
+      ],
+      "depends_on": [],
+      "product_executed_by_this_study": false
+    },
+    {
+      "id": "C074",
+      "statement": "The machine companion is an authored explanatory artifact, not a production API or exported product state.",
+      "evidence_classes": [
+        "P"
+      ],
+      "scope": "This paper companion",
+      "source_groups": [
+        "I19"
+      ],
+      "manuscript_section": "Appendix B",
+      "limitations": [
+        "The predecessor technical reviews apply to release 1; the successor addition has a separate affected-review record. Publication remains separate and has not occurred for this successor."
+      ],
+      "depends_on": [],
+      "product_executed_by_this_study": false
+    },
+    {
+      "id": "C075",
+      "statement": "Equal-frequency equal-amplitude ideal sine signals in fixed anti-phase cancel identically while their phase relation remains stable.",
+      "evidence_classes": [
+        "D"
+      ],
+      "scope": "Analytic donor with A>0 and nonzero omega",
+      "source_groups": [
+        "I11"
+      ],
+      "manuscript_section": "8.4",
+      "limitations": [
+        "Not a physical experiment, energy-conservation claim or result about cognition."
+      ],
+      "depends_on": [
+        "C045"
+      ],
+      "product_executed_by_this_study": false
+    },
+    {
+      "id": "C076",
+      "statement": "A relation-preserving treatment of well-supported objections is hypothesized to improve adjudicated support despite possibly lower agreement.",
+      "evidence_classes": [
+        "H",
+        "P"
+      ],
+      "scope": "Proposed matched-budget blinded target experiment",
+      "source_groups": [
+        "I09",
+        "I11",
+        "I13"
+      ],
+      "manuscript_section": "8.4",
+      "limitations": [
+        "No target result; observable endpoints and counterevidence are specified separately from donor algebra."
+      ],
+      "depends_on": [
+        "C054",
+        "C058",
+        "C075"
+      ],
+      "product_executed_by_this_study": false
+    },
+    {
+      "id": "C077",
+      "statement": "The proposed Waters of Gnosis discovery spiral treats unmeasured or conflicting evidence as a cue for user-selected bounded corridors, tributaries and braids that may yield novel AHA candidates.",
+      "evidence_classes": [
+        "P",
+        "H"
+      ],
+      "scope": "Constructive discovery integration and matched evaluation proposal, not an implemented automatic loop",
+      "source_groups": [
+        "I09",
+        "I12",
+        "I13",
+        "I15",
+        "I20"
+      ],
+      "manuscript_section": "10.1",
+      "limitations": [
+        "Unknown or conflict is not proof of novelty, correctness, independence or authority.",
+        "The ordinary JOINED refusal remains unchanged; no extra calls or recipients are authorized by a hold.",
+        "Corridor, tributary, river, braid, terrace and reopening are inquiry functions, not physical-flow measurements or compulsory new components.",
+        "Discovery candidates, validated findings and permitted action remain separate; no target benefit was measured."
+      ],
+      "depends_on": [
+        "C054",
+        "C057",
+        "C068",
+        "C073"
+      ],
+      "product_executed_by_this_study": false
+    },
+    {
+      "id": "C078",
+      "statement": "Permission-respecting reuse of mapped, supported artifacts may reduce repeated-work resource consumption at comparable accepted quality and coverage after full lifecycle costs are counted.",
+      "evidence_classes": [
+        "H",
+        "P"
+      ],
+      "scope": "Section 14.3 matched-workload reuse versus recomputation study proposal, with separate resource units and a declared observation horizon",
+      "source_groups": [
+        "I15",
+        "I16",
+        "I19",
+        "I20"
+      ],
+      "manuscript_section": "14.3",
+      "limitations": [
+        "No reuse-efficiency gain or community outcome was measured by this study.",
+        "Retrieval, verification, storage, replication, transport, coordination, failure, fallback and correction costs must be included without double counting or shifting costs off the ledger.",
+        "Additional copies do not establish stronger evidence, independent corroboration or increased physical compute capacity.",
+        "Unavailable measurements remain unavailable; fewer tokens or calls do not establish FLOPs or energy savings."
+      ],
+      "depends_on": [
+        "C068",
+        "C070",
+        "C073"
+      ],
+      "product_executed_by_this_study": false
+    },
+    {
+      "id": "C079",
+      "statement": "Freedom, practical autonomy, provider choice and accountable cooperative control are primary intended design values, including when a community chooses higher resource cost.",
+      "evidence_classes": [
+        "P"
+      ],
+      "scope": "Normative design objective and independently evaluated practical capabilities, not a guaranteed numeric benefit",
+      "source_groups": [
+        "I19",
+        "I20"
+      ],
+      "manuscript_section": "14.3",
+      "limitations": [
+        "Decentralization alone does not guarantee freedom, practical exit, privacy or fair participation.",
+        "Autonomy capabilities and resource costs require separate evaluation; no aggregate favorable numerical result is inferred.",
+        "Operational availability and failures of the stated freedoms must be evaluated; a normative commitment is not achieved implementation."
+      ],
+      "depends_on": [],
+      "product_executed_by_this_study": false
+    }
+  ]
+}

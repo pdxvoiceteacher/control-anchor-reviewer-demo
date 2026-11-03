@@ -1,0 +1,58 @@
+{
+  "schema_id": "triadic-brain-paper-manifest.v1",
+  "candidate": "release-1.2-candidate",
+  "publication_status": "LOCAL_SUCCESSOR_NOT_PUBLISHED",
+  "coverage": "All public candidate files except this manifest itself; private review/source material excluded.",
+  "files": [
+    {
+      "file": "BYTE_WITNESS.json",
+      "bytes": 5832,
+      "sha256": "22b924f794df55f25dd7c5585fd59baa14d6415bff2bf00e5da9947c03d2e9e7"
+    },
+    {
+      "file": "CLAIM_LEDGER.json",
+      "bytes": 48233,
+      "sha256": "13b509a08db52aeaf4be0bdec04cf64220a20d0a1bf00f3ee7dbf2f8af506da8"
+    },
+    {
+      "file": "COMPANION_SCHEMA.json",
+      "bytes": 3797,
+      "sha256": "b343ea8e774f3b416fce7e83a11375c4d63e2594754b6738b3dd3979f0a80475"
+    },
+    {
+      "file": "QUANTITY_CATALOG.json",
+      "bytes": 21075,
+      "sha256": "fc069aa25e93b27bbbac4e4bcd80793bd6aff4e0e07f7a7d61fa0db334f08796"
+    },
+    {
+      "file": "README.md",
+      "bytes": 2025,
+      "sha256": "87e0915c3464540fd9db343ee390ef0ffaaffad74251b571e62b476b0983d5bd"
+    },
+    {
+      "file": "RELEASE_STATUS.json",
+      "bytes": 2935,
+      "sha256": "d4b20f2371684b76b2df26d1cc48cb47bdc9004aa8b88801fa04d7494cdb9551"
+    },
+    {
+      "file": "SOURCE_GROUPS.json",
+      "bytes": 1976,
+      "sha256": "f8deecb1486cab6bf0355bddf4ec921a3789f20d77e3d32aefbd05b5299a5c1d"
+    },
+    {
+      "file": "TRANSFORMATION_GRAPH.json",
+      "bytes": 33514,
+      "sha256": "4c02a76ecd5ab72d7a5a5e11feec1efad82f5aaf9004b6a42e08117105f69906"
+    },
+    {
+      "file": "TRIADIC_BRAIN_MICRO_SPECTRUM.md",
+      "bytes": 93266,
+      "sha256": "6b870b3bc448bed2755995d099b5ca94b35e4c3c09e7e057565116bf315fc0e9"
+    },
+    {
+      "file": "validate_companion.py",
+      "bytes": 8640,
+      "sha256": "a06b474b348552e179a13c9110adc786a4152443e63f98792f1bdea31d238743"
+    }
+  ]
+}

@@ -1,0 +1,936 @@
+{
+  "schema_id": "triadic-brain-paper-transformation-graph.v1",
+  "status": "SOURCE_GROUNDED_EXPLANATORY_GRAPH_NOT_EXECUTED_PREDECESSOR_CONTENT_PRESERVED",
+  "scope": "Typed conceptual projection of source-grounded static route; not execution",
+  "units": [
+    {
+      "unit": "octet",
+      "meaning": "8-bit byte at an explicitly named serialization domain"
+    },
+    {
+      "unit": "code_point",
+      "meaning": "Unicode scalar/string index, not necessarily grapheme or UTF16 unit"
+    },
+    {
+      "unit": "transport_chunk",
+      "meaning": "library delivery interval, not stable network packet"
+    },
+    {
+      "unit": "model_token",
+      "meaning": "runtime/tokenizer-defined unit, not observed here"
+    },
+    {
+      "unit": "lexical_type",
+      "meaning": "local diagnostic token-set element, not model token"
+    },
+    {
+      "unit": "claim_span",
+      "meaning": "bounded paragraph/line substring with exact coordinates, not guaranteed atomic proposition"
+    },
+    {
+      "unit": "artifact",
+      "meaning": "schema/profile-bound byte object with full digest"
+    },
+    {
+      "unit": "event",
+      "meaning": "attributable state/action observation under owner trust boundary"
+    }
+  ],
+  "stages": [
+    {
+      "id": "D00",
+      "owner": "human/workbench",
+      "input": "Unicode source+prompt+explicit selection",
+      "output": "application task R",
+      "transformation": "bounded UTF-8 source/prompt/evidence; assign turn UUID, parent binding and profile selections",
+      "guards": [
+        "task consent",
+        "current provider-profile read",
+        "source/prompt<=8000 bytes on this entrypoint",
+        "complete prior messages<=16 (at most 8 complete pairs); canonical effective-message context<=16000 bytes"
+      ],
+      "state_effect": "local request file and prepared intent",
+      "loss_or_multiplicity": "Wrapper adds text and evidence; no silent truncation.",
+      "claim_limit": "Source text is data, not permission.",
+      "evidence_status": "STATIC_SOURCE_PATH; WITNESS_NOT_EXECUTED",
+      "claim_ids": [
+        "C006"
+      ]
+    },
+    {
+      "id": "D01",
+      "owner": "application gateway",
+      "input": "R_wire bytes",
+      "output": "custody admission envelope",
+      "transformation": "authenticated application actor plus base64(R_wire) and optional source-attempt identity",
+      "guards": [
+        "application credential",
+        "ready gateway",
+        "<=32768 request bytes",
+        "known provider secret exclusion"
+      ],
+      "state_effect": "One application intake forwarded to custody admission",
+      "loss_or_multiplicity": "Base64 expansion is transport representation, not encryption or added semantics.",
+      "claim_limit": "No network packet capture.",
+      "evidence_status": "STATIC_SOURCE_PATH; WITNESS_NOT_EXECUTED",
+      "claim_ids": [
+        "C007"
+      ]
+    },
+    {
+      "id": "D02",
+      "owner": "custody ingress",
+      "input": "actor and original R_wire",
+      "output": "attempt event and admitted record",
+      "transformation": "retain request digest/size and bounded base64 copy before admission; parse wire object",
+      "guards": [
+        "ingress role",
+        "duplicate keys/nonfinite literals rejected",
+        "exact allowed task fields",
+        "source identity tied to authenticated actor"
+      ],
+      "state_effect": "ATTEMPT_REGISTERED then ADMITTED/REJECTED/UNKNOWN",
+      "loss_or_multiplicity": "Rejected attempts can still retain bounded original bytes.",
+      "claim_limit": "Source identifiers are declarations, not source-system authenticity.",
+      "evidence_status": "STATIC_SOURCE_PATH; WITNESS_NOT_EXECUTED",
+      "claim_ids": [
+        "C008"
+      ]
+    },
+    {
+      "id": "D03",
+      "owner": "custody + AEGIS/UCC",
+      "input": "parsed R, active profile, plan",
+      "output": "admission A, native request N, grounding G",
+      "transformation": "normalize source to NFC+LF+strip+final LF; hash original and derivative separately; native IDs from request canonical hash",
+      "guards": [
+        "task/privacy policy match",
+        "native envelope validation",
+        "AEGIS",
+        "UCC admission execution for legacy non-observation modes"
+      ],
+      "state_effect": "QUEUED for model; EVENT_RECORDED for non-model",
+      "loss_or_multiplicity": "9-byte source witness becomes7 bytes. R_wire and canonical(R) can differ for noncanonical external JSON.",
+      "claim_limit": "v4 business compatibility plan is definition-only; no business veto. Application privacy checks explicit consent and configured policy identifier; downstream Boolean/basis validation is not independent content classification or policy adequacy.",
+      "evidence_status": "STATIC_SOURCE_PATH; WITNESS_NOT_EXECUTED",
+      "claim_ids": [
+        "C009"
+      ]
+    },
+    {
+      "id": "D04",
+      "owner": "custodian + custody claimant",
+      "input": "queued record version and request hash",
+      "output": "exact provider body B and reservation",
+      "transformation": "freeze provider profile; construct effective message(s); serialize protocol-specific JSON",
+      "guards": [
+        "explicit dispatch authorization when configured",
+        "current profile/context/call quotas/deadline",
+        "same record+version+hash"
+      ],
+      "state_effect": "QUEUED\u2192DISPATCHING; increment version and call slot before provider",
+      "loss_or_multiplicity": "Provider body adds roles/options/model metadata; distinct hash from task/source.",
+      "claim_limit": "Reservation is not observed inference or paid cost. Readable content is available to authorized compute endpoints and retaining hosts; transit TLS does not establish endpoint secrecy or remote-retention guarantees.",
+      "evidence_status": "STATIC_SOURCE_PATH; WITNESS_NOT_EXECUTED",
+      "claim_ids": [
+        "C010"
+      ]
+    },
+    {
+      "id": "D05",
+      "owner": "configured gateway",
+      "input": "queued B/profile and original R_wire",
+      "output": "one provider request",
+      "transformation": "verify body recomputation and profile authorization; dispatch via existing transport",
+      "guards": [
+        "saved body hash",
+        "profile identity",
+        "per-call bounds",
+        "loopback or approved endpoint"
+      ],
+      "state_effect": "at most one application request attempt",
+      "loss_or_multiplicity": "HTTP framing/TLS/TCP/IP partitioning not retained as packet-level evidence.",
+      "claim_limit": "Synthetic fixture branch is explicit and must not be called live inference. Readable content is available to authorized compute endpoints and retaining hosts; transit TLS does not establish endpoint secrecy or remote-retention guarantees.",
+      "evidence_status": "STATIC_SOURCE_PATH; WITNESS_NOT_EXECUTED",
+      "claim_ids": [
+        "C015"
+      ]
+    },
+    {
+      "id": "D06",
+      "owner": "model runtime/provider",
+      "input": "effective messages+runtime/template/tokenizer",
+      "output": "model output body",
+      "transformation": "tokenization and numerical inference occur behind adapter; exact internal trace unavailable",
+      "guards": [
+        "runtime readiness and configured identity at external boundary",
+        "token/output limits as versioned contracts"
+      ],
+      "state_effect": "provider completion unobserved until body/metadata arrives",
+      "loss_or_multiplicity": "Tokens are not bytes; weights/activations/KV cache not transformed into provenance automatically.",
+      "claim_limit": "No invented token IDs, attention, logits, seed, FLOPs, model reasoning or empirical independence.",
+      "evidence_status": "EXTERNAL_BOUNDARY_CONTRACT_INSPECTED; INTERNAL_RUNTIME_UNOBSERVED",
+      "claim_ids": [
+        "C018"
+      ]
+    },
+    {
+      "id": "D07",
+      "owner": "provider transport",
+      "input": "application response stream",
+      "output": "raw retained body W plus observation O",
+      "transformation": "raw chunks concatenated within bound; hash all observed bytes separately from retained prefix; EOF and cleanup separately recorded",
+      "guards": [
+        "identity content-encoding only",
+        "length/byte bound",
+        "original deadline",
+        "TLS peer evidence where external",
+        "known-secret echo withholding"
+      ],
+      "state_effect": "capture callback before interpretation; interruption remains explicit",
+      "loss_or_multiplicity": "W is application-layer body, not full HTTP headers/TLS/network frames.",
+      "claim_limit": "Cancellation does not prove server stopped; EOF does not prove cleanup returned.",
+      "evidence_status": "STATIC_SOURCE_PATH; WITNESS_NOT_EXECUTED",
+      "claim_ids": [
+        "C016",
+        "C017"
+      ]
+    },
+    {
+      "id": "D08",
+      "owner": "provider normalization + custody",
+      "input": "W,status,O,profile",
+      "output": "normalized response Q and extracted text X",
+      "transformation": "provider-specific strict JSON parser\u2192one supported text result; NFC; reported usage fields only",
+      "guards": [
+        "request/profile binding rechecked",
+        "finish reason/output shape",
+        "raw digest",
+        "normalized result equality with authenticated recomputation"
+      ],
+      "state_effect": "DISPATCHING\u2192CAPTURED/FAILED/REFUSED/UNKNOWN",
+      "loss_or_multiplicity": "NFC can alter byte representation; original W retained independently.",
+      "claim_limit": "CAPTURED is complete supported transport output, not truth or permission.",
+      "evidence_status": "STATIC_SOURCE_PATH; WITNESS_NOT_EXECUTED",
+      "claim_ids": [
+        "C019"
+      ]
+    },
+    {
+      "id": "D09",
+      "owner": "governed projection owner",
+      "input": "terminal capture+admission+profile",
+      "output": "policy assessment or analysis branch",
+      "transformation": "record v4 business assessment, then inspect analysis mode/provider terminal state",
+      "guards": [
+        "original immutable profile",
+        "actual response or explicit unavailable context"
+      ],
+      "state_effect": "CAPTURE_ONLY emits optional analysis NOT_EXECUTED; CAPTURED+JOINED can continue",
+      "loss_or_multiplicity": "Failed/unknown model responses do not get fictional native candidates.",
+      "claim_limit": "Assessment error is ERROR, not NOT_APPLICABLE or COMPLIES.",
+      "evidence_status": "STATIC_SOURCE_PATH; WITNESS_NOT_EXECUTED",
+      "claim_ids": [
+        "C027",
+        "C028"
+      ]
+    },
+    {
+      "id": "D10",
+      "owner": "governed semantic bridge",
+      "input": "normalized text X and G",
+      "output": "semantic JSON C",
+      "transformation": "NFC+line ending normalization; paragraph/line spans; first exact source segment match; exact byte/codepoint offsets; uncertainty=1.0",
+      "guards": [
+        "exact request/native/source bindings",
+        "nonblank complete text"
+      ],
+      "state_effect": "derived semantic candidate ready",
+      "loss_or_multiplicity": "C has own hash; raw in downstream captured adapter means C, not W. Claim is paragraph/line span, not semantic atom.",
+      "claim_limit": "SUPPORTS is candidate exact-quote proposal, not entailment or truth.",
+      "evidence_status": "STATIC_SOURCE_PATH; WITNESS_NOT_EXECUTED",
+      "claim_ids": [
+        "C020",
+        "C021"
+      ]
+    },
+    {
+      "id": "D11",
+      "owner": "CoherenceLattice core",
+      "input": "N,G,C",
+      "output": "quarantine receipt,candidate,claim map,UCM,projection,AHA,counterexamples,aperture,PMR receipt,TEL prefix",
+      "transformation": "deterministic typed file transformations; with separately specified transformations",
+      "guards": [
+        "schemas and exact bindings",
+        "grounding/citation integrity",
+        "structural and uncertainty gates"
+      ],
+      "state_effect": "core ends before Sophia and Atlas",
+      "loss_or_multiplicity": "Information may be selected/projected; each derivative has distinct identity.",
+      "claim_limit": "Default no PMR consent, no provider call by this phase.",
+      "evidence_status": "STATIC_SOURCE_PATH; WITNESS_NOT_EXECUTED",
+      "claim_ids": [
+        "C022",
+        "C024",
+        "C025",
+        "C029",
+        "C031",
+        "C032"
+      ]
+    },
+    {
+      "id": "D12",
+      "owner": "custody publication",
+      "input": "allowlisted core files+governed context",
+      "output": "evaluator manifest M and published input bundle",
+      "transformation": "raw-free file inventory with bytes/hash; immutable publication boundary",
+      "guards": [
+        "<=32MiB native input inventory",
+        "safe paths",
+        "native publication ownership"
+      ],
+      "state_effect": "evaluations READY",
+      "loss_or_multiplicity": "Raw-free excludes quarantine/provider W, but normalized source/answer remain sensitive content.",
+      "claim_limit": "Not anonymization or arbitrary release.",
+      "evidence_status": "STATIC_SOURCE_PATH; WITNESS_NOT_EXECUTED",
+      "claim_ids": [
+        "C035"
+      ]
+    },
+    {
+      "id": "D13",
+      "owner": "separate Sophia evaluator",
+      "input": "M and claimed input files",
+      "output": "native audit and governed evaluation V",
+      "transformation": "independent algorithm recomputes file/input associations; source/claim/structural audit",
+      "guards": [
+        "evaluator credential",
+        "claim nonce/actor",
+        "manifest digest",
+        "algorithm identities",
+        "observed peer when applicable"
+      ],
+      "state_effect": "READY\u2192CLAIMED\u2192COMPLETE only after custody acceptance",
+      "loss_or_multiplicity": "Different process role does not establish statistical epistemic independence.",
+      "claim_limit": "Sophia does not rerun UCC policy predicates.",
+      "evidence_status": "STATIC_SOURCE_PATH; WITNESS_NOT_EXECUTED",
+      "claim_ids": [
+        "C033"
+      ]
+    },
+    {
+      "id": "D14",
+      "owner": "Atlas+TEL+seal owner",
+      "input": "committed V and native artifacts",
+      "output": "posture,HTML,final TEL,sealed manifests,joined route",
+      "transformation": "validate parent bindings, derive posture, finalize logical stage chain, seal/reopen exact existing artifacts",
+      "guards": [
+        "native evaluation digest",
+        "current input manifest",
+        "no rewrite of existing seal"
+      ],
+      "state_effect": "retained projection committed",
+      "loss_or_multiplicity": "Presentation exposes selected facts but original bound artifacts remain separate.",
+      "claim_limit": "Atlas posture is not deployment, business or professional authority.",
+      "evidence_status": "STATIC_SOURCE_PATH; WITNESS_NOT_EXECUTED",
+      "claim_ids": [
+        "C034",
+        "C035",
+        "C065"
+      ]
+    },
+    {
+      "id": "D15",
+      "owner": "authorized user/reviewer",
+      "input": "record projection and retained original",
+      "output": "visible reply+assessment and separate decision",
+      "transformation": "inspection retrieves exact record; REVIEW records version-bound rationale and origin",
+      "guards": [
+        "actor/role and record access",
+        "fresh decision version/hash",
+        "separate explicit review intent"
+      ],
+      "state_effect": "INSPECT audit access; decision remains pending until actual review",
+      "loss_or_multiplicity": "Inspection causes access-row writes; display is not release.",
+      "claim_limit": "SCRIPTED is not human action; v4 review is not adopted business conclusion.",
+      "evidence_status": "STATIC_SOURCE_PATH; WITNESS_NOT_EXECUTED",
+      "claim_ids": [
+        "C067"
+      ]
+    },
+    {
+      "id": "D16",
+      "owner": "custody export owner",
+      "input": "selected records+source ledger+all authorized derived members",
+      "output": "ZIP+external trusted reference",
+      "transformation": "recount and hash every member; deterministic ZIP metadata; separate digest reference",
+      "guards": [
+        "scope and current peer rights",
+        "archive/member bounds",
+        "safe member names",
+        "external reference supplied outside archive"
+      ],
+      "state_effect": "private retained export publication",
+      "loss_or_multiplicity": "Export creates another controlled copy with independent lifecycle.",
+      "claim_limit": "No digital signature/independent administrator claim; selected export is not complete global ledger.",
+      "evidence_status": "STATIC_SOURCE_PATH; WITNESS_NOT_EXECUTED",
+      "claim_ids": [
+        "C060"
+      ]
+    },
+    {
+      "id": "D17",
+      "owner": "paired artifact receiver",
+      "input": "archive+reference+offer",
+      "output": "retained peer artifact and independent verification record",
+      "transformation": "fresh pairing/grant and content-bound finite transfer then peer-owned verifier",
+      "guards": [
+        "TLS and token+exact route",
+        "current pairing",
+        "original deadline",
+        "archive/ref/offer hashes"
+      ],
+      "state_effect": "separate receiving/verification custody",
+      "loss_or_multiplicity": "A completed artifact is transferred, not shared model activations.",
+      "claim_limit": "Verified artifact identity is not independent semantic corroboration.",
+      "evidence_status": "STATIC_SOURCE_PATH; WITNESS_NOT_EXECUTED",
+      "claim_ids": [
+        "C060"
+      ]
+    },
+    {
+      "id": "D18",
+      "owner": "optional peer model seam",
+      "input": "typed peer Challenge frame",
+      "output": "receiver native request/reservation and UNREVIEWED result",
+      "transformation": "default-off sender/receiver schemas connect retained native custody through injected authenticator/owner",
+      "guards": [
+        "bounded frame<=65536",
+        "original job<=120000ms",
+        "exact source/control/provider/pairing grants",
+        "fresh native execution and result rights",
+        "returned text<=32768 UTF-8 bytes; complete canonical result frame<=65536 bytes",
+        "declared max output<=4096 tokens; not a measured tokenizer trace"
+      ],
+      "state_effect": "source seam available; maintained transport/native-owner installation unestablished",
+      "loss_or_multiplicity": "The inspected maintained transport does not yet establish the model-specific distributed route; no three-node execution asserted.",
+      "claim_limit": "Do not describe schema or injected test as live swarm. Readable content is available to authorized compute endpoints and retaining hosts; transit TLS does not establish endpoint secrecy or remote-retention guarantees. Native owner is required for execution; legacy intake may retain an ownerless held receipt, while structured intake rejects ownerless admission.",
+      "evidence_status": "INSPECTED_DEFAULT_OFF_SOURCE_SEAM; END_TO_END_INTEGRATION_UNESTABLISHED; NOT_EXECUTED",
+      "claim_ids": [
+        "C061",
+        "C062"
+      ]
+    },
+    {
+      "id": "D19",
+      "owner": "local external-contribution custody",
+      "input": "origin manifest+peer request/status/result",
+      "output": "deduplicated payload rows and separate delivery observations",
+      "transformation": "verify exact root/Analyst/Challenge lineage; current authorized view for synthesis",
+      "guards": [
+        "role/policy/current sharing uses",
+        "root+prior+pair identity",
+        "no silent pair truncation"
+      ],
+      "state_effect": "retained external Challenge, later separately consented Synthesis",
+      "loss_or_multiplicity": "Duplicate bytes may share storage but distinct deliveries remain attributable.",
+      "claim_limit": "External contribution stays UNREVIEWED; receipt alone never authorizes reuse.",
+      "evidence_status": "STATIC_SOURCE_PATH; WITNESS_NOT_EXECUTED",
+      "claim_ids": [
+        "C063"
+      ]
+    },
+    {
+      "id": "D20",
+      "owner": "custody retention owner",
+      "input": "terminal records+policy retention/current holds",
+      "output": "scoped payload deletion+tombstones",
+      "transformation": "delete selected core files/exchange/BLOBs/derivatives; compact DB; preserve events",
+      "guards": [
+        "exact confirmation",
+        "expired retention",
+        "no legal hold",
+        "stopped/resolved evaluator",
+        "peer contribution holds"
+      ],
+      "state_effect": "EXPIRED only within scoped payload semantics",
+      "loss_or_multiplicity": "ATTEMPT_REGISTERED request_b64 remains in append-only event ledger; provider-normalized text and effective messages can remain in events.",
+      "claim_limit": "No total erasure, third-party deletion, or automatic claim falsity.",
+      "evidence_status": "STATIC_SOURCE_PATH; WITNESS_NOT_EXECUTED",
+      "claim_ids": [
+        "C071"
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "from": "D00",
+      "to": "D01",
+      "relation": "INSPECTED_CALL",
+      "evidence_classes": [
+        "S",
+        "C"
+      ],
+      "condition": "User submits a bounded task through the authenticated application.",
+      "claim_ids": [
+        "C006",
+        "C007"
+      ]
+    },
+    {
+      "from": "D01",
+      "to": "D02",
+      "relation": "INSPECTED_CALL",
+      "evidence_classes": [
+        "S",
+        "C"
+      ],
+      "condition": "Gateway authentication/readiness/body checks pass.",
+      "claim_ids": [
+        "C007"
+      ]
+    },
+    {
+      "from": "D02",
+      "to": "D03",
+      "relation": "INSPECTED_CALL",
+      "evidence_classes": [
+        "S",
+        "C"
+      ],
+      "condition": "Registered attempt reaches admission; rejection remains a retained alternative.",
+      "claim_ids": [
+        "C007",
+        "C008",
+        "C009"
+      ]
+    },
+    {
+      "from": "D03",
+      "to": "D04",
+      "relation": "CONDITIONAL_INSPECTED_CALL",
+      "evidence_classes": [
+        "S",
+        "C"
+      ],
+      "condition": "Admitted model task is QUEUED and exact configured dispatch authorization is obtained; not NON_MODEL_EVENT.",
+      "claim_ids": [
+        "C010",
+        "C028"
+      ]
+    },
+    {
+      "from": "D04",
+      "to": "D05",
+      "relation": "CONDITIONAL_INSPECTED_CALL",
+      "evidence_classes": [
+        "S",
+        "C"
+      ],
+      "condition": "Transactional claim/reservation succeeds with current bindings.",
+      "claim_ids": [
+        "C010",
+        "C015"
+      ]
+    },
+    {
+      "from": "D05",
+      "to": "D06",
+      "relation": "EXTERNAL_DISPATCH_BOUNDARY",
+      "evidence_classes": [
+        "S",
+        "U"
+      ],
+      "condition": "A supported live provider route is selected and invoked; model internals and this study execution are unobserved.",
+      "claim_ids": [
+        "C015",
+        "C018"
+      ]
+    },
+    {
+      "from": "D06",
+      "to": "D07",
+      "relation": "EXTERNAL_RESPONSE_BOUNDARY",
+      "evidence_classes": [
+        "S",
+        "U"
+      ],
+      "condition": "An application response arrives or a transport failure is observed; no internal runtime execution trace inferred.",
+      "claim_ids": [
+        "C016",
+        "C017",
+        "C018"
+      ]
+    },
+    {
+      "from": "D07",
+      "to": "D08",
+      "relation": "INSPECTED_CALL",
+      "evidence_classes": [
+        "S",
+        "C"
+      ],
+      "condition": "Bounded capture observations are submitted for authenticated normalization.",
+      "claim_ids": [
+        "C017",
+        "C019"
+      ]
+    },
+    {
+      "from": "D08",
+      "to": "D09",
+      "relation": "CONDITIONAL_INSPECTED_CALL",
+      "evidence_classes": [
+        "S",
+        "C"
+      ],
+      "condition": "Custody has a terminal capture observation and applicable retained profile; UNKNOWN/FAILED/REFUSED do not imply a candidate.",
+      "claim_ids": [
+        "C019",
+        "C028"
+      ]
+    },
+    {
+      "from": "D09",
+      "to": "D10",
+      "relation": "CONDITIONAL_INSPECTED_CALL",
+      "evidence_classes": [
+        "S",
+        "C"
+      ],
+      "condition": "Only CAPTURED provider state AND JOINED analysis mode; CAPTURE_ONLY bypasses D10 and later native analysis.",
+      "claim_ids": [
+        "C027",
+        "C028"
+      ]
+    },
+    {
+      "from": "D10",
+      "to": "D11",
+      "relation": "CONDITIONAL_INSPECTED_CALL",
+      "evidence_classes": [
+        "S",
+        "C"
+      ],
+      "condition": "Derived semantic capture and native input bindings validate.",
+      "claim_ids": [
+        "C020",
+        "C021",
+        "C027"
+      ]
+    },
+    {
+      "from": "D11",
+      "to": "D12",
+      "relation": "CONDITIONAL_INSPECTED_CALL",
+      "evidence_classes": [
+        "S",
+        "C"
+      ],
+      "condition": "Core artifacts are successfully built even when their epistemic disposition is REFUSE; input inventory validates.",
+      "claim_ids": [
+        "C032",
+        "C033",
+        "C035"
+      ]
+    },
+    {
+      "from": "D12",
+      "to": "D13",
+      "relation": "CONDITIONAL_INSPECTED_CALL",
+      "evidence_classes": [
+        "S",
+        "C"
+      ],
+      "condition": "A separately authorized evaluator claims the published raw-free manifest.",
+      "claim_ids": [
+        "C033"
+      ]
+    },
+    {
+      "from": "D13",
+      "to": "D14",
+      "relation": "CONDITIONAL_INSPECTED_CALL",
+      "evidence_classes": [
+        "S",
+        "C"
+      ],
+      "condition": "Actual completed evaluator artifacts and accepted parent bindings are available.",
+      "claim_ids": [
+        "C034",
+        "C035",
+        "C065"
+      ]
+    },
+    {
+      "from": "D14",
+      "to": "D15",
+      "relation": "CONDITIONAL_INSPECTION",
+      "evidence_classes": [
+        "S",
+        "C"
+      ],
+      "condition": "Authorized inspection accesses retained projection; separate review intent is needed for a decision.",
+      "claim_ids": [
+        "C034",
+        "C067"
+      ]
+    },
+    {
+      "from": "D15",
+      "to": "D16",
+      "relation": "OPTIONAL_SEPARATELY_AUTHORIZED_EXPORT",
+      "evidence_classes": [
+        "S",
+        "C"
+      ],
+      "condition": "Exact export scope and current rights are authorized; inspection alone does not authorize export.",
+      "claim_ids": [
+        "C060",
+        "C067"
+      ]
+    }
+  ],
+  "branch_edges": [
+    {
+      "from": "D16",
+      "to": "D17",
+      "relation": "OPTIONAL_AUTHENTICATED_ARTIFACT_TRANSFER",
+      "evidence_classes": [
+        "S",
+        "C"
+      ],
+      "condition": "Explicit transfer is authorized; current pairing/grant, deadline and exact archive/reference/offer verify.",
+      "claim_ids": [
+        "C060"
+      ]
+    },
+    {
+      "from": "D15",
+      "to": "D18",
+      "relation": "CONCEPTUAL_UNESTABLISHED_INTEGRATION",
+      "evidence_classes": [
+        "P",
+        "U"
+      ],
+      "condition": "Requires separately authorized peer model use plus installed transport/native-owner joins not established in this closure.",
+      "claim_ids": [
+        "C061",
+        "C062"
+      ]
+    },
+    {
+      "from": "D18",
+      "to": "D19",
+      "relation": "CONCEPTUAL_UNESTABLISHED_INTEGRATION",
+      "evidence_classes": [
+        "P",
+        "U"
+      ],
+      "condition": "A matching peer result and authorized local retention would be needed; no maintained end-to-end sender/receiver production path established.",
+      "claim_ids": [
+        "C061",
+        "C062",
+        "C063"
+      ]
+    },
+    {
+      "from": "D15",
+      "to": "D19",
+      "relation": "OPTIONAL_SEPARATELY_AUTHORIZED_CONTRIBUTION_USE",
+      "evidence_classes": [
+        "S",
+        "C"
+      ],
+      "condition": "A separately obtained contribution has exact lineage and current rights; inspection alone does not authorize retention or synthesis.",
+      "claim_ids": [
+        "C063",
+        "C067"
+      ]
+    },
+    {
+      "from": "D02",
+      "to": "D20",
+      "relation": "SCOPED_LIFECYCLE_RELATION",
+      "evidence_classes": [
+        "S"
+      ],
+      "condition": "Only terminal eligible records after retention expiry, exact confirmation and hold checks; attempt event content can remain.",
+      "claim_ids": [
+        "C071"
+      ]
+    },
+    {
+      "from": "D19",
+      "to": "D20",
+      "relation": "SCOPED_LIFECYCLE_RELATION",
+      "evidence_classes": [
+        "S"
+      ],
+      "condition": "Contribution-specific retention and assisted-chain holds resolve; external copies remain separate.",
+      "claim_ids": [
+        "C063",
+        "C071"
+      ]
+    }
+  ],
+  "external_references": [
+    {
+      "id": "reference:P01",
+      "title": "RFC9293: Transmission Control Protocol",
+      "url": "https://www.rfc-editor.org/rfc/rfc9293.html",
+      "source_date": "2022-08",
+      "observed_date": "2026-11-03",
+      "use": "Transport byte stream versus application/claim units; not product network capture."
+    },
+    {
+      "id": "reference:P02",
+      "title": "RFC9112: HTTP/1.1",
+      "url": "https://www.rfc-editor.org/rfc/rfc9112.html",
+      "source_date": "2022-06",
+      "observed_date": "2026-11-03",
+      "use": "Message framing versus retained response body."
+    },
+    {
+      "id": "reference:P03",
+      "title": "RFC8446: TLS1.3",
+      "url": "https://www.rfc-editor.org/rfc/rfc8446.html",
+      "source_date": "2018-08",
+      "observed_date": "2026-11-03",
+      "use": "Channel security background; current product permitsTLS1.2+ so no specific negotiation claimed."
+    },
+    {
+      "id": "reference:P04",
+      "title": "W3C PROV-DM",
+      "url": "https://www.w3.org/TR/prov-dm/",
+      "source_date": "2013-04-30",
+      "observed_date": "2026-11-03",
+      "use": "Entity/activity/agent provenance vocabulary; no product conformance claim."
+    },
+    {
+      "id": "reference:P05",
+      "title": "Attention Is All You Need",
+      "url": "https://arxiv.org/abs/1706.03762v7",
+      "source_date": "2017-06-12",
+      "latest_listed_revision": "2023-08-02",
+      "observed_date": "2026-11-03",
+      "use": "Conditional transformer background; not private model/internal execution evidence."
+    }
+  ],
+  "cautions": [
+    "No provider calls or product execution in reconstruction.",
+    "No private runtime identifiers, repository locations, credentials or user examples in this draft.",
+    "Publication requires independent code, mathematical, security/privacy, scientific and prose/data reviews.",
+    "A machine-readable contract is not a promise every AI can interpret it correctly."
+  ],
+  "publication_status": "LOCAL_SUCCESSOR_NOT_PUBLISHED",
+  "research_extension_nodes": [
+    {
+      "id": "proposal:shared_grammar",
+      "operation": "versioned shared-reference expansion",
+      "evidence_classes": [
+        "P"
+      ],
+      "claim_ids": [
+        "C068"
+      ]
+    },
+    {
+      "id": "proposal:retrosynthesis",
+      "operation": "general dependency-directed retrosynthesis",
+      "evidence_classes": [
+        "P",
+        "D"
+      ],
+      "claim_ids": [
+        "C069",
+        "C070"
+      ]
+    },
+    {
+      "id": "proposal:three_node_qualification",
+      "operation": "qualified live three-node model pilot",
+      "evidence_classes": [
+        "P",
+        "U"
+      ],
+      "claim_ids": [
+        "C062",
+        "C073"
+      ]
+    },
+    {
+      "id": "proposal:discovery_spiral",
+      "operation": "user-selected bounded exploration from unresolved evidence toward novel AHA candidates",
+      "evidence_classes": [
+        "P",
+        "H"
+      ],
+      "claim_ids": [
+        "C077"
+      ]
+    }
+  ],
+  "research_extension_edges": [
+    {
+      "from": "D15",
+      "to": "proposal:shared_grammar",
+      "relation": "PROPOSED_NOT_ESTABLISHED_CURRENT_CALL",
+      "evidence_classes": [
+        "P",
+        "U"
+      ],
+      "condition": "Research extension requires additional implementation and qualification; no current call or execution is asserted.",
+      "claim_ids": [
+        "C068"
+      ]
+    },
+    {
+      "from": "D14",
+      "to": "proposal:retrosynthesis",
+      "relation": "PROPOSED_NOT_ESTABLISHED_CURRENT_CALL",
+      "evidence_classes": [
+        "P",
+        "U"
+      ],
+      "condition": "Research extension requires additional implementation and qualification; no current call or execution is asserted.",
+      "claim_ids": [
+        "C069",
+        "C070"
+      ]
+    },
+    {
+      "from": "D18",
+      "to": "proposal:three_node_qualification",
+      "relation": "REQUIRES_UNESTABLISHED_END_TO_END_QUALIFICATION",
+      "evidence_classes": [
+        "P",
+        "U"
+      ],
+      "condition": "Research extension requires additional implementation and qualification; no current call or execution is asserted.",
+      "claim_ids": [
+        "C062",
+        "C073"
+      ]
+    },
+    {
+      "from": "D11",
+      "to": "proposal:discovery_spiral",
+      "relation": "PROPOSED_USER_SELECTED_EXPLORATION_NOT_AUTOMATIC_CALL",
+      "evidence_classes": [
+        "P",
+        "H"
+      ],
+      "condition": "The user selects a bounded inquiry and its permitted data/budget; unresolved native evidence alone triggers no call, authority or verdict promotion.",
+      "claim_ids": [
+        "C027",
+        "C077"
+      ]
+    }
+  ],
+  "version": "release-1.2-candidate",
+  "as_of": "2026-11-03",
+  "coverage": "SELECTED_CONDITIONAL_RELATIONSHIPS_NOT_EXECUTION_SEQUENCE_OR_EXHAUSTIVE_CONTROL_FLOW",
+  "reference_coverage": "SELECTED_SUBSET_OF_MANUSCRIPT_REFERENCES",
+  "edge_semantics": "Every edge is a conditional relation, not an observed execution. Evaluate its condition and evidence class; absent evidence never grants traversal or authority. Error/terminal/bypass outputs are described by nodes but not exhaustively drawn."
+}
