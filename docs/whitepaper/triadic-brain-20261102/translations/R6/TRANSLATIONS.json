@@ -1,0 +1,69 @@
+{
+  "schema_version": 1,
+  "document_type": "source_bound_translation_documentation_not_runtime_schema",
+  "edition": "2026-11-03.R6-translations.1",
+  "source": {
+    "language": "en",
+    "edition": "2026-11-03.R6",
+    "url": "https://github.com/pdxvoiceteacher/control-anchor-reviewer-demo/blob/7c40bb33c64017f7b11a5b83a272cf87424c73e1/docs/whitepaper/triadic-brain-20261102/R6/WHITEPAPER.en.md",
+    "sha256": "f7e5ef46c6ac203e61d6b353f4295af0f3270b01db197c55e941b9a7c9fffe3d",
+    "commit": "7c40bb33c64017f7b11a5b83a272cf87424c73e1"
+  },
+  "scope": "Complete main whitepaper only: narrative, compact 86-entry mixed-kind registry, both appendices and references.",
+  "english_only_supplements": [
+    "FAMILY_GUIDE.en.md",
+    "TERMS.en.md",
+    "PUBLIC_CONCEPTS.json",
+    "STANDARDS_RESEARCH_CROSSWALK.en.md",
+    "STANDARDS_RESEARCH_CROSSWALK.json"
+  ],
+  "technical_manuscript_translated": false,
+  "visual_assets_translated": false,
+  "translation_method": "AI-assisted translation with separate AI-assisted whole-text language and technical fidelity review; not fluent-human certification.",
+  "review": {
+    "outcome": "passed_after_bounded_repairs",
+    "scope": [
+      "Complete main-text comparison with frozen English R6, including carried-over text.",
+      "Final repaired-byte comparison and source binding.",
+      "Registry identifiers and kinds, section anchors, exact mathematical blocks and preserved source-link destinations.",
+      "Public-repository target and fragment checks against authenticated retained source snapshots.",
+      "Visible privacy, attribution, rights and unsupported-claim checks."
+    ],
+    "fluent_human_certification": false,
+    "rendered_accessibility_certification": false,
+    "primary_external_references_revalidated": false,
+    "runtime_or_empirical_qualification": false
+  },
+  "translations": [
+    {
+      "path": "fr/WHITEPAPER.fr.md",
+      "bytes": 136263,
+      "sha256": "f2afba1408e07539218f7772890abbc19de3c28da968f7a5dff50b402bb7511c",
+      "git_blob": "30546db3c7311a9e7e18b080576e05fde275c664",
+      "language": "fr",
+      "display_name": "français",
+      "direction": "ltr",
+      "completeness": "complete_main_text",
+      "source_sha256": "f7e5ef46c6ac203e61d6b353f4295af0f3270b01db197c55e941b9a7c9fffe3d"
+    },
+    {
+      "path": "es/WHITEPAPER.es.md",
+      "bytes": 130238,
+      "sha256": "8ec6862c1d7472f9deec338ad74eaad4a57cf5c7d394441905f11a91fd9b9c9f",
+      "git_blob": "2ae0fd0b60999c90f41ade1b2ca46815e51c62d2",
+      "language": "es",
+      "display_name": "español",
+      "direction": "ltr",
+      "completeness": "complete_main_text",
+      "source_sha256": "f7e5ef46c6ac203e61d6b353f4295af0f3270b01db197c55e941b9a7c9fffe3d"
+    }
+  ],
+  "navigation": {
+    "path": "README.md",
+    "bytes": 2883,
+    "sha256": "08a0dae33f7adb08fa6ba92dfb47fe71b279df35615c4c9560d96bf3264908c1",
+    "git_blob": "933005521967641afccec476371f68d505320bdc"
+  },
+  "rights": "Existing rights and attribution preserved; no new blanket prose or media license grant.",
+  "authority": "Documentation only; no operational permissions are granted."
+}

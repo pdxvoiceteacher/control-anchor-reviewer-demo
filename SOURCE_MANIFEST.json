@@ -1158,8 +1158,8 @@
       "modifications": "Frozen R4 source-aligned English design or contribution documentation, or original navigation. Descriptive data only; no new runtime evidence, channel activation or execution authority.",
       "license": "Existing rights and notices preserved; no new media/prose license grant.",
       "publication_review": "OWNER_REQUESTED_PUBLIC_DOCUMENTATION_EXISTING_RIGHTS_PRESERVED",
-      "candidate_sha256": "f85986693a454c456f73680b01cfd175896030254ef2da3957bdfb9af5207079",
-      "bytes": 9886
+      "candidate_sha256": "1d06673abedc5703726e4020c6ad0849ce40549d05d8c1d8d824b5939f68b449",
+      "bytes": 10188
     },
     {
       "path": "docs/whitepaper/triadic-brain-20261102/contribute/CONTRIBUTION_CHANNELS.en.md",
@@ -2200,6 +2200,46 @@
       "publication_review": "SCOPED_DOCUMENTATION_CONSERVATION_AND_REDTEAM_REVIEW_NO_RUNTIME_OR_EMPIRICAL_QUALIFICATION",
       "candidate_sha256": "cd3ac13b8abc634cfeb53743e1fff07d4c9ba3fc92d0d73fec2a5d940fd43e00",
       "bytes": 5644
+    },
+    {
+      "path": "docs/whitepaper/triadic-brain-20261102/translations/R6/README.md",
+      "origin": "NEW_PUBLIC_TRANSLATION_NAVIGATION_AND_BINDING",
+      "source_basis_paths": [],
+      "modifications": "French/Spanish full-main R6 translation package, bound to the published English R6 source. English supplements, earlier editions and technical manuscript remain unchanged. Exact scope and review limits are recorded in the translation index.",
+      "license": "Existing rights and notices preserved; no new blanket prose/media license grant. Cited sources retain their attribution.",
+      "publication_review": "WHOLE_MAIN_TEXT_LANGUAGE_AND_TECHNICAL_FIDELITY_REVIEW_WITH_BOUNDED_REPAIRS_NO_HUMAN_ACCESSIBILITY_RUNTIME_OR_EMPIRICAL_CERTIFICATION",
+      "candidate_sha256": "08a0dae33f7adb08fa6ba92dfb47fe71b279df35615c4c9560d96bf3264908c1",
+      "bytes": 2883
+    },
+    {
+      "path": "docs/whitepaper/triadic-brain-20261102/translations/R6/TRANSLATIONS.json",
+      "origin": "NEW_PUBLIC_TRANSLATION_NAVIGATION_AND_BINDING",
+      "source_basis_paths": [],
+      "modifications": "French/Spanish full-main R6 translation package, bound to the published English R6 source. English supplements, earlier editions and technical manuscript remain unchanged. Exact scope and review limits are recorded in the translation index.",
+      "license": "Existing rights and notices preserved; no new blanket prose/media license grant. Cited sources retain their attribution.",
+      "publication_review": "WHOLE_MAIN_TEXT_LANGUAGE_AND_TECHNICAL_FIDELITY_REVIEW_WITH_BOUNDED_REPAIRS_NO_HUMAN_ACCESSIBILITY_RUNTIME_OR_EMPIRICAL_CERTIFICATION",
+      "candidate_sha256": "d032f1d0756b194c19260b67e7df52fda95ab36a8d61e69cc2f6c4ba7536a97c",
+      "bytes": 3129
+    },
+    {
+      "path": "docs/whitepaper/triadic-brain-20261102/translations/R6/fr/WHITEPAPER.fr.md",
+      "origin": "NEW_PUBLIC_SOURCE_BOUND_TRANSLATION",
+      "source_basis_paths": [],
+      "modifications": "French/Spanish full-main R6 translation package, bound to the published English R6 source. English supplements, earlier editions and technical manuscript remain unchanged. Exact scope and review limits are recorded in the translation index.",
+      "license": "Existing rights and notices preserved; no new blanket prose/media license grant. Cited sources retain their attribution.",
+      "publication_review": "WHOLE_MAIN_TEXT_LANGUAGE_AND_TECHNICAL_FIDELITY_REVIEW_WITH_BOUNDED_REPAIRS_NO_HUMAN_ACCESSIBILITY_RUNTIME_OR_EMPIRICAL_CERTIFICATION",
+      "candidate_sha256": "f2afba1408e07539218f7772890abbc19de3c28da968f7a5dff50b402bb7511c",
+      "bytes": 136263
+    },
+    {
+      "path": "docs/whitepaper/triadic-brain-20261102/translations/R6/es/WHITEPAPER.es.md",
+      "origin": "NEW_PUBLIC_SOURCE_BOUND_TRANSLATION",
+      "source_basis_paths": [],
+      "modifications": "French/Spanish full-main R6 translation package, bound to the published English R6 source. English supplements, earlier editions and technical manuscript remain unchanged. Exact scope and review limits are recorded in the translation index.",
+      "license": "Existing rights and notices preserved; no new blanket prose/media license grant. Cited sources retain their attribution.",
+      "publication_review": "WHOLE_MAIN_TEXT_LANGUAGE_AND_TECHNICAL_FIDELITY_REVIEW_WITH_BOUNDED_REPAIRS_NO_HUMAN_ACCESSIBILITY_RUNTIME_OR_EMPIRICAL_CERTIFICATION",
+      "candidate_sha256": "8ec6862c1d7472f9deec338ad74eaad4a57cf5c7d394441905f11a91fd9b9c9f",
+      "bytes": 130238
     }
   ],
   "dependency_closure": {
