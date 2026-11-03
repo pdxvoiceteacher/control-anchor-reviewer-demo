@@ -21,12 +21,13 @@ license grant has been authorized. No Creative Commons license is added by this
 publication. The source-access approval preserves applicable existing rights and
 notices; it does not extend the code license to these files or grant a new license.
 
-This extraction does not include the Unicode-derived range tables, TIAIP public
-profile, upstream dependencies, or their packages. The bounded UCC adaptation
-added on 3 November 2026 is identified in THIRD_PARTY_NOTICES.md; other separate
-component code remains excluded. Their
-upstream license exceptions are not silently reassigned to this material. See
-THIRD_PARTY_NOTICES.md for the scoped inclusion and exclusion boundary.
+The bounded UCC adaptation and exact Coherence/Sophia dependency slice added on
+3 November 2026 are identified in THIRD_PARTY_NOTICES.md. Two included modules
+contain Unicode-derived range tables under Unicode License V3; its exact text is
+preserved in licenses/Unicode-3.0.txt. Those ranges are not reassigned to MPL-2.0.
+Other component source, the TIAIP public profile and third-party dependency
+packages remain excluded. Optional dependencies retain their own licenses and are
+installed separately. See THIRD_PARTY_NOTICES.md for the path-specific boundary.
 
 AI assistance and a service contract do not alone establish copyrightability,
 authorship, non-infringement or third-party title. Project values and governance

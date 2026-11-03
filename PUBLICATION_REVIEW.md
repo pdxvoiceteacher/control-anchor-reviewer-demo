@@ -1,5 +1,31 @@
 # Source publication review
 
+## Complete retrosynthesis dependency projection: 3 November 2026
+
+A second bounded promotion selects the accepted retrosynthesis comparison leaf
+and its unchanged tests, with the actual import closure rather than a two-file
+copy. The source pin is the same accepted development main as the UCC promotion.
+All 45 production Python files (three already public), original test, three
+packaged schemas and three source-parity copies retain exact source bytes. The
+Unicode V3 license is preserved alongside existing MPL-2.0 attribution.
+
+Independent closure and rights inspection found no identified conflicting notice
+or obvious private content in these selected files. The legacy rights matrix is
+not treated as a complete current-source clearance; each path is explicitly bound
+in SOURCE_MANIFEST.json. Missing independent title proof and formal-release HOLD
+status are not represented as cleared. No private Git history, runtime records,
+credentials, provider, installer, model or dependency wheel is included.
+
+The optional public demo uses real Coherence grounding and Sophia reconstruction.
+The ordinary package initializers and original positive/adverse tests remain.
+Pinned optional dependencies and tests extend the existing bounded public CI job;
+no private CI workflow, service, paid runner or deployment is created. The
+original standard-library entry points remain available without those packages.
+Test results and initial preparation/manifest-guard failures are recorded in
+[VALIDATION.md](VALIDATION.md#retrosynthesis-public-extraction-3-november-2026).
+This does not qualify durable memory, actual grants, installed use or the entire
+functionality of the support modules included to satisfy imports.
+
 ## Bounded UCC code promotion: 3 November 2026
 
 The owner requested public promotion of completed vetted subsystems and delegated

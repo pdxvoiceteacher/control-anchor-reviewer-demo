@@ -5,10 +5,10 @@
 ![Techno brain with nine numbered function families; equivalent descriptions and links follow.](brain-map.svg)
 
 **Reviewed 2026-11-03.** Public component code and dated public descriptions only. Not a whole-product completion score or a live development tracker.
-Public source baseline: `63237965917e0a996fd45e5423dbc3c8c5648f10`. Development descriptions retain their own dated evidence; this date does not requalify them.
+Public source baseline: `51e5275f14d3b05e01cb0ee69be5819d6b9a611c`. Development descriptions retain their own dated evidence; this date does not requalify them.
 
 - **CODED · public main:** bounded implementation in this offline synthetic repository, not the whole Brain.
-- **DEVELOPMENT · reported:** described development components or integration work; private source is not republished or independently qualified here.
+- **DEVELOPMENT · reported:** broader components or integration work; any bounded public subcomponent is identified separately below.
 - **PROPOSED · design / research:** broader intended behavior, even where smaller foundations exist.
 - **UNKNOWN:** missing or uninspected proof stays unknown. No status implies production readiness.
 
@@ -82,10 +82,13 @@ Scripted review decisions, a separate repair child, export/reopen and one interr
 
 **DEVELOPMENT · reported**
 
-Full CoherenceLattice grounding and claim/evidence relationships remain development components. The separate bounded UCC predicate engine is now public under Controls & authority.
+The public retrosynthesis component runs bounded CoherenceLattice source grounding, proposal validation and supplied-prior comparison. Broader grounding and cognitive analysis remain development components.
 
-**Boundary:** This map does not qualify full CoherenceLattice execution or current installed integration. UCC predicates over supplied fields are narrower than source-grounded cognitive analysis.
+**Boundary:** This is a synthetic component demonstration, not qualification of all bundled support modules, full CoherenceLattice execution or installed integration. Supplied data is not an independently established source of truth.
 
+- [Code: bounded source grounding](../../components/CoherenceLattice/python/src/coherence/totality/grounding.py)
+- [Run the retrosynthesis component](../../retrosynthesis_demo.py)
+- [Runtime and qualification scope](../../docs/RETROSYNTHESIS_COMPONENT.md)
 - [Responsibilities and role boundaries](../../docs/PRODUCT_MAP.md#local-workbench-workflow-and-role-boundaries)
 - [Connections and proof obligations](../../docs/DEVELOPMENT_UPDATE_2026-10-30.md#provisional-connection-map)
 
@@ -97,10 +100,12 @@ Full CoherenceLattice grounding and claim/evidence relationships remain developm
 
 **DEVELOPMENT · reported**
 
-Sophia evaluation and Atlas explanation have distinct responsibilities in the broader development architecture.
+The public retrosynthesis demo invokes Sophia reconstruction checking against actual CoherenceLattice output. Full Sophia governed evaluation and Atlas explanation retain broader development responsibilities.
 
-**Boundary:** Named records in this demo do not prove those components ran. Agreement alone is not independent corroboration; no current whole-system pass is claimed.
+**Boundary:** Reconstruction checking is a narrow executed path, not a complete Sophia evaluation. Included import dependencies are not blanket behavioral qualification; no whole-system or installed-runtime pass is claimed.
 
+- [Code: Sophia reconstruction check](../../components/Sophia/python/src/sophia/triadic/governed_evaluation.py)
+- [Executed scope and limits](../../docs/RETROSYNTHESIS_COMPONENT.md)
 - [Roles and limits](../../docs/PRODUCT_MAP.md#local-workbench-workflow-and-role-boundaries)
 - [Whole-product vision](../../docs/TRIADIC_BRAIN_VISION.md)
 
@@ -128,10 +133,12 @@ Control Anchor interfaces, authenticated task intake, provider selection and ret
 
 **PROPOSED · design / research**
 
-Eligible retrieval, purpose-limited reuse and restart-aware continuity are design goals. Existing retained history is a foundation, not proof of this broader capability.
+Opt-in comparison against explicitly supplied prior hypotheses is now public. Eligible retrieval, durable memory and restart-aware continuity remain broader design goals.
 
-**Boundary:** Optional memory and adaptive reuse require their own implementation and evidence. Retention is not training consent; a successor must not inherit unearned authority.
+**Boundary:** The comparison performs no prior lookup, retention, provider dispatch or context delivery and grants no authority. Synthetic permits do not establish authenticated authorization; retention is not training consent.
 
+- [Code: supplied-prior comparison](../../src/triadicbrain/assurance/retrosynthesis_reuse.py)
+- [Run and inspect the comparison](../../docs/RETROSYNTHESIS_COMPONENT.md)
 - [Memory and continuity connections](../../docs/DEVELOPMENT_UPDATE_2026-10-30.md#provisional-connection-map)
 - [Privacy-aware lifecycle design](../../docs/design-notes/2026-11-03-refinements.en.md)
 

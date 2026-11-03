@@ -11,6 +11,7 @@ the complete installed workflow is qualified.
 | --- | --- | --- | --- |
 | Evidence, custody and review | [demo.py](../demo.py) | Synthetic capture, scripted review, linked correction, export/reopen, adverse integrity checks and recovery | No model or separate cognitive component executes |
 | Bounded UCC plan engine | [ucc_demo.py](../ucc_demo.py) | Declared deterministic procedures over supplied canonical data, with input bindings and explicit PASS/FAIL/HOLD/NOT_EXECUTED results | No source-truth, compliance, human approval, provider or installed-integration claim |
+| Retained-hypothesis comparison | [retrosynthesis_demo.py](../retrosynthesis_demo.py) | Source-bound declared hypotheses, five comparison dispositions and real Sophia reconstruction | Synthetic permits; no authenticated grant, durable memory, context delivery or full cognitive-loop claim |
 
 The UCC extraction adds two exact runtime modules from accepted development main:
 [ucc_plan.py](../src/triadicbrain/assurance/ucc_plan.py) and
@@ -78,6 +79,15 @@ promotions follow the same existing PR and manifest mechanism. Private drafts fo
 cognitive exploration, hypothesis retention, AHA and provider/service integration
 are not included merely because they have code or isolated test evidence. The
 broader [function map](brain-map/README.md) keeps development and proposals visible.
+
+## Additional retrosynthesis projection
+
+The [retrosynthesis component guide](RETROSYNTHESIS_COMPONENT.md) records the full
+ordinary import closure, three schema pairs, optional pinned dependency and
+original focused tests. Its support modules are dependency coverage, not blanket
+qualification of every Coherence, AEGIS, AHA or Sophia capability. Native custody
+and installed memory remain separate. The same accepted development source pin
+and existing promotion workflow apply.
 
 ## Source and rights
 
