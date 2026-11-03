@@ -552,14 +552,14 @@
     },
     {
       "path": "README.md",
-      "candidate_sha256": "994d19ee74e22c7aec432be0c4ab5ea296cfee457b89742159735f89529384a6",
+      "candidate_sha256": "cc1fd389a98b40498390d9c24a752a87f17454c427a6d6e116d76d2651f49a17",
       "origin": "ADAPTED",
       "source_basis_paths": [],
       "modifications": "New reviewer explanation based on maintained architecture; limits bound to extracted implementation. Added link to a source-attributed methods appendix and its bounded teaching claims. Added self-contained Mermaid responsibility diagram separating intended product integration, observed synthetic offline demo and future peer network; no runtime or validation-result changes.",
       "license": "MPL-2.0 to extent rights exist and covered",
       "publication_review": "OWNER_APPROVED_PUBLIC_SOURCE_ACCESS_EXISTING_RIGHTS_PRESERVED_NO_NEW_LICENSE",
       "historical_publication_review": "FINAL_CONTENT_DECISION_PENDING",
-      "bytes": 30757,
+      "bytes": 30809,
       "cooperative_ethos_clarification_2026_11_02": "Owner-directed freedom, local ownership, voluntary mutual aid and practical exit; informed higher overhead may be legitimate. Existing capability limits, rights and public contribution route preserved. No runtime change or new operational evidence.",
       "whitepaper_navigation_2026_11_02": "Added one English design-edition and contribution navigation link, with translations-pending and unchanged-demo scope. No runtime or rights change."
     },

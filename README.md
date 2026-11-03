@@ -1,5 +1,7 @@
 # Control Anchor
 
+## Compute cooperatives: be the solution you seek.
+
 **Triadic Brain design edition:** [English whitepaper, visual atlas, companion guides and contribution information](docs/whitepaper/triadic-brain-20261102/README.md). Main-paper translations are planned; this documentation does not expand the runnable demo's capabilities.
 
 **An offline, synthetic Python reviewer demo for evidence-linked review and correction history.** No model calls or networked compute run here. The broader Triadic Brain / Control Anchor vision proposes local-first cognitive middleware and voluntary, decentralized cooperation; those are design goals, not deployed capabilities of this repository.
