@@ -23,6 +23,10 @@ The corrected R5.1 edition and its source-bound visual atlas are the current rea
 
 **Edition:** 2 November 2026, R5.1. This corrected edition distinguishes record kinds, preserves historical provenance and includes selected Knowledge Waters mathematics with explicit source, proof and producer/consumer limits. It retains sourced bridges to conventional scientific and engineering vocabulary while preserving project responsibilities and unresolved distinctions. It does not assert that a whole family is equivalent to a standard mechanism, that every term is novel, or that an external mechanism is implemented. Documentation review is separate from independent human assurance, product qualification, linguistic certification and rendered-accessibility inspection.
 
+## Continuing design updates
+
+Read the [3 November design refinements](../../design-notes/2026-11-03-refinements.en.md) for clarifications on recursive review, independent target evidence, metric lineage, current-use checks and privacy-aware pruning. This supplement leaves the frozen R5.1 edition unchanged. The whitepaper will be updated frequently as the design, evidence and implementation develop. Proposed checks remain **UNRUN**; these design refinements do not establish implemented or installed behavior, scientific validity or human benefit.
+
 ## Language availability
 
 **English is available in this packet. Other main-whitepaper editions are not yet published.** The planned set contains 19 editions including English, not 19 additional translations. Planned entries below are not download links and are not claims that translations exist or have been reviewed.
