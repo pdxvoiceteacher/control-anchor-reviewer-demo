@@ -2726,8 +2726,8 @@
       "modifications": "Maintained public-source function map and accessible navigation, with public code, dated reported development and proposed design kept distinct. No runtime qualification or private source publication.",
       "license": "Existing rights and notices preserved; no new media/prose license grant.",
       "publication_review": "OWNER_REQUESTED_PUBLIC_DOCUMENTATION_EXISTING_RIGHTS_PRESERVED",
-      "candidate_sha256": "80cae8744559f259f35943bf7694d72895a05f42329a627b7590465b50940046",
-      "bytes": 6146
+      "candidate_sha256": "381c4feab2a458af2240b77d576434b6c3d44cf0ecd70922db28793727a190ec",
+      "bytes": 9030
     },
     {
       "path": "docs/brain-map/brain-map.svg",
@@ -2746,8 +2746,8 @@
       "modifications": "Maintained public-source function map and accessible navigation, with public code, dated reported development and proposed design kept distinct. No runtime qualification or private source publication.",
       "license": "Existing rights and notices preserved; no new media/prose license grant.",
       "publication_review": "OWNER_REQUESTED_PUBLIC_DOCUMENTATION_EXISTING_RIGHTS_PRESERVED",
-      "candidate_sha256": "d6cdb3a457286ad9ce71d4f4e2a3221e8d17a3e8dbe93c03e7711867b7047d43",
-      "bytes": 9077
+      "candidate_sha256": "a6ad186ddcf9f87bfd52a4b20885bbe102e4da94e855e9c98b07b7233b5da7a4",
+      "bytes": 9935
     },
     {
       "path": "docs/brain-map/explorer.html",
@@ -2756,8 +2756,8 @@
       "modifications": "Maintained public-source function map and accessible navigation, with public code, dated reported development and proposed design kept distinct. No runtime qualification or private source publication.",
       "license": "Existing rights and notices preserved; no new media/prose license grant.",
       "publication_review": "OWNER_REQUESTED_PUBLIC_DOCUMENTATION_EXISTING_RIGHTS_PRESERVED",
-      "candidate_sha256": "aaa30d6164fc3451a6d80bd1bd578c0c23ea8a0bac6079d26b34f3bc26008536",
-      "bytes": 19900
+      "candidate_sha256": "a26842f19148315de4e43a236a3076027d42a5fafd182fdb24e929022bac3116",
+      "bytes": 21651
     },
     {
       "path": "tools/build_brain_map.py",
@@ -2766,8 +2766,8 @@
       "modifications": "Maintained public-source function map and accessible navigation, with public code, dated reported development and proposed design kept distinct. No runtime qualification or private source publication.",
       "license": "Existing rights and notices preserved; no new media/prose license grant.",
       "publication_review": "OWNER_REQUESTED_PUBLIC_DOCUMENTATION_EXISTING_RIGHTS_PRESERVED",
-      "candidate_sha256": "63a93c2b38040f377c63ee2d67075df3feb5b479b8f39680a5a3433ea4544e57",
-      "bytes": 10134
+      "candidate_sha256": "0d19a2cf2800b4d179295528677d085199b34dbd1f6f21a346c4a5e9dba4cadf",
+      "bytes": 10150
     },
     {
       "path": "tests/test_brain_map.py",
