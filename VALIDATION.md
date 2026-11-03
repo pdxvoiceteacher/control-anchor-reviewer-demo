@@ -364,3 +364,7 @@ The existing bounded public CI job separately installs the optional pinned test
 requirements and executes this suite and demonstration on its Linux/Windows
 matrix. Consult exact commit CI for its outcome; local source results are not
 represented as installed or cross-platform proof before those checks finish.
+
+### Public CI workflow parsing correction
+
+The first public candidate at `70c257b8f3f723402e4dd18eace48cd50cc38027` failed before starting any demo jobs: [workflow run 41733828844](https://github.com/pdxvoiceteacher/control-anchor-reviewer-demo/actions/runs/41733828844). A local YAML parser reproduced the syntax error at the unquoted colon-space sequence in the pip `--only-binary=:all:` command. The correction expresses that unchanged command as a YAML block scalar. This failed attempt is not a test pass. Exact-successor CI must run the Ubuntu and Windows suites before merge.

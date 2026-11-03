@@ -1254,14 +1254,14 @@
     },
     {
       "path": "VALIDATION.md",
-      "candidate_sha256": "1edf9cdf93b5140cffd3edcfb1f6781ce5344461c468223d15d44c2b9eb16916",
+      "candidate_sha256": "1301c658c6f1f3772308572c4de73567b1e067ddac3682bd98accc89513a040d",
       "origin": "NEW",
       "source_basis_paths": [],
       "modifications": "New demo preparation material; AI-assisted under human commissioning.",
       "license": "MPL-2.0 to extent rights exist and covered",
       "publication_review": "OWNER_APPROVED_PUBLIC_SOURCE_ACCESS_EXISTING_RIGHTS_PRESERVED_NO_NEW_LICENSE",
       "historical_publication_review": "FINAL_CONTENT_DECISION_PENDING",
-      "bytes": 22928
+      "bytes": 23512
     },
     {
       "path": "docs/METHODS_APPENDIX.md",
@@ -1537,8 +1537,8 @@
       "modifications": "Public-only bounded CI, offline consistency checks and their synthetic positive/adverse fixtures; no extracted runtime change.",
       "license": "MPL-2.0 to extent rights exist and covered",
       "publication_review": "OWNER_APPROVED_PUBLIC_CI_AND_EXISTING_RIGHTS_PRESERVED",
-      "candidate_sha256": "164f8d679dda836fde3635abdf165be5d1f06e408c714fa10c2cc04a6d3835f6",
-      "bytes": 1623
+      "candidate_sha256": "e8947595d58f3745ca9a89419812dbced991ed22df19fc656bdc6834cab31c85",
+      "bytes": 1636
     },
     {
       "path": ".github/workflows/integrity.yml",

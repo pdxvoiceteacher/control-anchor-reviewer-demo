@@ -39,7 +39,8 @@ jobs:
       - name: Build synthetic demo packages and reports
         run: python -S -B demo.py --output demo-output-ci
       - name: Prepare optional retrosynthesis test dependencies
-        run: python -m pip install --disable-pip-version-check --only-binary=:all: -r requirements-retrosynthesis-tests.txt
+        run: >-
+          python -m pip install --disable-pip-version-check --only-binary=:all: -r requirements-retrosynthesis-tests.txt
       - name: Test exact retrosynthesis extraction and module origins
         env:
           PYTEST_DISABLE_PLUGIN_AUTOLOAD: '1'
