@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1600" height="760" viewBox="0 0 1600 760" role="img" aria-labelledby="title desc"><title id="title">Historical provenance is not a capability backlog</title><desc id="desc">F02 preserves historical integration repository lineage. F79 preserves the owner-corrected TCHES historical testing document. Both remain in the stable registry and outside the capability diagrams. There is no replacement function and no requirement to implement a heat-exchange system.</desc>
+<rect width="1600" height="760" fill="white"/>
+<defs>
+<marker id="arrow-data" markerWidth="9" markerHeight="9" refX="8" refY="4.5" orient="auto"><path d="M0,0 L9,4.5 L0,9 Z" fill="#087f8c"/></marker>
+<marker id="arrow-control" markerWidth="9" markerHeight="9" refX="8" refY="4.5" orient="auto"><path d="M0,0 L9,4.5 L0,9 Z" fill="#9a5b06"/></marker>
+<marker id="arrow-provenance" markerWidth="9" markerHeight="9" refX="8" refY="4.5" orient="auto"><path d="M0,0 L9,4.5 L0,9 Z" fill="#7451a8"/></marker>
+<marker id="arrow-association" markerWidth="9" markerHeight="9" refX="8" refY="4.5" orient="auto"><path d="M0,0 L9,4.5 L0,9 Z" fill="#71808b"/></marker>
+</defs><g font-family="DejaVu Sans, sans-serif">
+<text x="44" y="40" font-size="15" fill="#087f8c" text-anchor="start" font-weight="700">M10 · HISTORY OUTSIDE CAPABILITY DIAGRAMS</text>
+<text x="44" y="86" font-size="32" fill="#172b3a" text-anchor="start" font-weight="700">Preserve the record without inventing a function</text>
+<text x="44" y="122.0" font-size="18" fill="#465b6c" text-anchor="start">Stable IDs conserve provenance. A historical repository or testing document is not automatically a missing runtime module.</text>
+<rect x="44" y="240" width="712" height="280" rx="10" fill="#f4f6f8" stroke="#94a5b1" stroke-width="1.5"/>
+<text x="66" y="280" font-size="18" fill="#465b6c" text-anchor="start" font-weight="700">F02 · HISTORICAL INTEGRATION LINEAGE</text>
+<text x="66" y="327" font-size="26" fill="#172b3a" text-anchor="start" font-weight="700">Historical integration lineage</text>
+<text x="66" y="374.0" font-size="20" fill="#172b3a" text-anchor="start">Retain the earlier baseline, source tuple and successor</text>
+<text x="66" y="401.0" font-size="20" fill="#172b3a" text-anchor="start">relationships. Historical canonical wording does not</text>
+<text x="66" y="428.0" font-size="20" fill="#172b3a" text-anchor="start">override the current product.</text>
+<text x="66" y="491" font-size="19" fill="#172b3a" text-anchor="start" font-weight="700">No separate current Brain organ is inferred.</text>
+<rect x="844" y="240" width="712" height="280" rx="10" fill="#f4f6f8" stroke="#94a5b1" stroke-width="1.5"/>
+<text x="866" y="280" font-size="18" fill="#465b6c" text-anchor="start" font-weight="700">F79 · HISTORICAL TEST DOCUMENT</text>
+<text x="866" y="327" font-size="25" fill="#172b3a" text-anchor="start" font-weight="700">TCHES testing-document provenance</text>
+<text x="866" y="374.0" font-size="20" fill="#172b3a" text-anchor="start">Retain the document and its corrected classification.</text>
+<text x="866" y="401.0" font-size="20" fill="#172b3a" text-anchor="start">It is not a Brain capability, a future heat-system</text>
+<text x="866" y="428.0" font-size="20" fill="#172b3a" text-anchor="start">implementation or validated physical behavior.</text>
+<text x="866" y="491" font-size="19" fill="#172b3a" text-anchor="start" font-weight="700">No replacement function is invented to keep a count.</text>
+<text x="44" y="591" font-size="19" fill="#172b3a" text-anchor="start" font-weight="700">The registry contains mixed kinds: capability, scope, profile, extension, contract, research, crosscutting duty and history.</text>
+<text x="44" y="636" font-size="18" fill="#465b6c" text-anchor="start">Every ID has one primary editorial home. This is conservation of meaning—not a completion score or a count of active modules.</text>
+<text x="44" y="704" font-size="17" fill="#172b3a" text-anchor="start" font-weight="700">No operational arrows connect these history records to the cognitive path. Source provenance remains available separately.</text>
+</g></svg>

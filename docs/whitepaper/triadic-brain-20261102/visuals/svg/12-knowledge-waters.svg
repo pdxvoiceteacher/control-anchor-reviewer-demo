@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1600" height="1230" viewBox="0 0 1600 1230" role="img" aria-labelledby="title desc"><title id="title">Knowledge waters: a research model for revisable inquiry</title><desc id="desc">Conceptual research relationship: corridors represent admissible lines of inquiry; braids compare related evidence and preserve disagreement; rivers represent sustained research trajectories and support contributions; terraces are provisional scoped reproducible understanding. New evidence or failed assumptions reopen inquiry with linked revisions. Apparent stability may conceal shared assumptions, suppressed novelty, excluded evidence or shifted burden. This is not a literal fluid law, required runtime pipeline or new Brain organ.</desc>
+<rect width="1600" height="1230" fill="white"/>
+<defs>
+<marker id="arrow-data" markerWidth="9" markerHeight="9" refX="8" refY="4.5" orient="auto"><path d="M0,0 L9,4.5 L0,9 Z" fill="#087f8c"/></marker>
+<marker id="arrow-control" markerWidth="9" markerHeight="9" refX="8" refY="4.5" orient="auto"><path d="M0,0 L9,4.5 L0,9 Z" fill="#9a5b06"/></marker>
+<marker id="arrow-provenance" markerWidth="9" markerHeight="9" refX="8" refY="4.5" orient="auto"><path d="M0,0 L9,4.5 L0,9 Z" fill="#7451a8"/></marker>
+<marker id="arrow-association" markerWidth="9" markerHeight="9" refX="8" refY="4.5" orient="auto"><path d="M0,0 L9,4.5 L0,9 Z" fill="#71808b"/></marker>
+</defs><g font-family="DejaVu Sans, sans-serif">
+<text x="44" y="40" font-size="15" fill="#087f8c" text-anchor="start" font-weight="700">RESEARCH OVERLAY · NO NEW FUNCTION OR RUNTIME ORGAN</text>
+<text x="44" y="86" font-size="32" fill="#172b3a" text-anchor="start" font-weight="700">Knowledge waters: revisable inquiry</text>
+<text x="44" y="122.0" font-size="18" fill="#465b6c" text-anchor="start">A source-grounded conceptual model. Uniform dashed arrows express research relationships, not measured flows or guaranteed progress.</text>
+<rect x="44" y="249" width="312" height="190" rx="10" fill="#edf7f7" stroke="#8bb5b8" stroke-width="1.5" stroke-dasharray="7 5"/>
+<text x="62" y="287" font-size="25" fill="#172b3a" text-anchor="start" font-weight="700">Corridors</text>
+<text x="62" y="328" font-size="19" fill="#172b3a" text-anchor="start">Explicit questions and</text>
+<text x="62" y="355" font-size="19" fill="#172b3a" text-anchor="start">alternative lines of</text>
+<text x="62" y="382" font-size="19" fill="#172b3a" text-anchor="start">inquiry</text>
+<path d="M364,342 L434,342" fill="none" stroke="#087f8c" stroke-width="2.7" stroke-linejoin="round" stroke-dasharray="8 6" marker-end="url(#arrow-data)"/>
+<rect x="444" y="249" width="312" height="190" rx="10" fill="#edf7f7" stroke="#8bb5b8" stroke-width="1.5" stroke-dasharray="7 5"/>
+<text x="462" y="287" font-size="25" fill="#172b3a" text-anchor="start" font-weight="700">Braids</text>
+<text x="462" y="328" font-size="19" fill="#172b3a" text-anchor="start">Compare support,</text>
+<text x="462" y="355" font-size="19" fill="#172b3a" text-anchor="start">conflict and shared</text>
+<text x="462" y="382" font-size="19" fill="#172b3a" text-anchor="start">assumptions</text>
+<path d="M764,342 L834,342" fill="none" stroke="#087f8c" stroke-width="2.7" stroke-linejoin="round" stroke-dasharray="8 6" marker-end="url(#arrow-data)"/>
+<rect x="844" y="249" width="312" height="190" rx="10" fill="#edf7f7" stroke="#8bb5b8" stroke-width="1.5" stroke-dasharray="7 5"/>
+<text x="862" y="287" font-size="25" fill="#172b3a" text-anchor="start" font-weight="700">Rivers</text>
+<text x="862" y="328" font-size="19" fill="#172b3a" text-anchor="start">Sustained inquiry with</text>
+<text x="862" y="355" font-size="19" fill="#172b3a" text-anchor="start">visible plural</text>
+<text x="862" y="382" font-size="19" fill="#172b3a" text-anchor="start">contributions</text>
+<path d="M1164,342 L1234,342" fill="none" stroke="#087f8c" stroke-width="2.7" stroke-linejoin="round" stroke-dasharray="8 6" marker-end="url(#arrow-data)"/>
+<rect x="1244" y="249" width="312" height="190" rx="10" fill="#edf7f7" stroke="#8bb5b8" stroke-width="1.5" stroke-dasharray="7 5"/>
+<text x="1262" y="287" font-size="25" fill="#172b3a" text-anchor="start" font-weight="700">Terraces</text>
+<text x="1262" y="328" font-size="19" fill="#172b3a" text-anchor="start">Provisional, scoped and</text>
+<text x="1262" y="355" font-size="19" fill="#172b3a" text-anchor="start">reproducible</text>
+<text x="1262" y="382" font-size="19" fill="#172b3a" text-anchor="start">understanding</text>
+<path d="M1400,445 L1400,516 L200,516 L200,445" fill="none" stroke="#087f8c" stroke-width="2.7" stroke-linejoin="round" stroke-dasharray="8 6" marker-end="url(#arrow-data)"/>
+<text x="384" y="503" font-size="19" fill="#087f8c" text-anchor="start" font-weight="700">new evidence / failed assumption → reopen → linked revision</text>
+<rect x="44" y="585" width="712" height="181" rx="10" fill="#f3f6f9" stroke="#becbd3" stroke-width="1.5"/>
+<text x="66" y="621" font-size="22" fill="#172b3a" text-anchor="start" font-weight="700">Support tributaries stay visible</text>
+<text x="66" y="662.0" font-size="20" fill="#172b3a" text-anchor="start">Repair · explanation and teaching · calibration ·</text>
+<text x="66" y="689.0" font-size="20" fill="#172b3a" text-anchor="start">stewardship. Preserve plural contributions, not only</text>
+<text x="66" y="716.0" font-size="20" fill="#172b3a" text-anchor="start">headline discoveries.</text>
+<path d="M756,662 L1060,662 L1060,449" fill="none" stroke="#7451a8" stroke-width="2.7" stroke-linejoin="round" stroke-dasharray="8 6" marker-end="url(#arrow-provenance)"/>
+<text x="775" y="612.0" font-size="16" fill="#7451a8" text-anchor="start">support with source</text>
+<text x="775" y="633.6" font-size="16" fill="#7451a8" text-anchor="start">/ limits</text>
+<rect x="1100" y="585" width="456" height="181" rx="10" fill="#fff6e9" stroke="#c4a067" stroke-width="1.5"/>
+<text x="1120" y="621" font-size="21" fill="#9a5b06" text-anchor="start" font-weight="700">False stability is possible</text>
+<text x="1120" y="658.0" font-size="18" fill="#172b3a" text-anchor="start">Shared assumptions, excluded evidence</text>
+<text x="1120" y="682.3" font-size="18" fill="#172b3a" text-anchor="start">or suppressed novelty can mimic</text>
+<text x="1120" y="706.6" font-size="18" fill="#172b3a" text-anchor="start">convergence.</text>
+<rect x="44" y="815" width="1512" height="230" rx="10" fill="#f8f8fa" stroke="#becbd3" stroke-width="1.5"/>
+<text x="66" y="851" font-size="20" fill="#172b3a" text-anchor="start" font-weight="700">One source-defined graph model · research specification, not measured telemetry</text>
+<text x="66" y="897" font-size="23" fill="#172b3a" text-anchor="start">F_ij = w_ij ((C_i + C_j) / 2) (Θ_j − Θ_i)</text>
+<text x="66" y="936" font-size="23" fill="#172b3a" text-anchor="start">A_i = |Σ_j F_ij| / (Σ_j |F_ij| + ε)</text>
+<text x="825" y="891.0" font-size="18" fill="#172b3a" text-anchor="start">C: declared corridor density; Θ: declared potential; w: graph</text>
+<text x="825" y="915.3" font-size="18" fill="#172b3a" text-anchor="start">weight; A: alignment ratio. Domains, estimators, versions and</text>
+<text x="825" y="939.6" font-size="18" fill="#172b3a" text-anchor="start">parameters need explicit evidence.</text>
+<text x="66" y="1018" font-size="17" fill="#465b6c" text-anchor="start" font-weight="700">No water pressure, volume, hydraulic conservation, truth probability or permission is inferred from these symbols.</text>
+<text x="44" y="1094" font-size="17" fill="#172b3a" text-anchor="start" font-weight="700">Existing cross-references: F53 / F86 mathematics and parity · F07 / F09 construction and review · F10 / F11 presentation</text>
+<text x="44" y="1127" font-size="17" fill="#465b6c" text-anchor="start">F63 / F66 evidence channels and revision lineage · F55 proposed transfer evaluation. These are associations, not equivalences.</text>
+<text x="44" y="1180" font-size="17" fill="#172b3a" text-anchor="start" font-weight="700">Receptive / structuring / continuity operations may span components. Do not force them into one-to-one Sonya / Sophia / Atlas identities.</text>
+</g></svg>

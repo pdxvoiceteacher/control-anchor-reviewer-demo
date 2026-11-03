@@ -1,0 +1,2385 @@
+{
+  "schema_id": "triadic-brain.focus-flow-proposal.v1",
+  "scope": "Public-safe diagram source for intended reference flows; not a runtime contract.",
+  "basis": "R4 declared functional descriptions plus owner correction excluding F79. No runtime execution, tests, live peer work or external research performed.",
+  "global_semantics": {
+    "arrows": "Declared intended data, control or provenance flows; not implemented API specifications or execution evidence.",
+    "edge_status": "declared_intended_not_implemented does not assert that no related component exists; it only rejects treating this drawn join as implementation proof.",
+    "records": "Diagram roles can group several family records; they do not introduce new function IDs or duplicate primary placements.",
+    "node_status": "Per-family source maturity is preserved independently from record kind and diagram placement."
+  },
+  "diagrams": [
+    {
+      "id": "focus-cognitive-loop",
+      "title": "One governed cognitive loop — intended flow",
+      "caption": "A task can move from human intent through bounded planning, grounded candidates, fixed-candidate review and understandable results. The feedback path is another authorized revision, not automatic authority.",
+      "node_count": 9,
+      "nodes": [
+        {
+          "id": "human",
+          "label": "Human intent and visible result",
+          "family_ids": [
+            "F03"
+          ],
+          "node_kind": "diagram_role_group_not_new_capability",
+          "role": "human interface",
+          "notes": "Interface state is not native enforcement.",
+          "owner": "Human and authoritative native services",
+          "source_refs": [
+            {
+              "family_id": "F03",
+              "field": "functional_contract",
+              "source_anchor": "FAMILY_GUIDE.en.md#F03",
+              "structured_source_anchor": "PUBLIC_CONCEPTS.json#/entries/2/functional_contract"
+            }
+          ],
+          "reported_family_statuses": {
+            "F03": {
+              "label": "bounded_evidence",
+              "scope": "Selected Home and native interface paths have bounded evidence; complete installed user interaction remains unproved."
+            }
+          },
+          "implementation_status": "declared_intended_not_implemented"
+        },
+        {
+          "id": "ingress",
+          "label": "Sonya: preserve and bound input",
+          "family_ids": [
+            "F04"
+          ],
+          "node_kind": "diagram_role_group_not_new_capability",
+          "role": "task ingress",
+          "notes": "Untrusted content and discovered applications grant no rights.",
+          "owner": null,
+          "source_refs": [
+            {
+              "family_id": "F04",
+              "field": "functional_contract",
+              "source_anchor": "FAMILY_GUIDE.en.md#F04",
+              "structured_source_anchor": "PUBLIC_CONCEPTS.json#/entries/3/functional_contract"
+            }
+          ],
+          "reported_family_statuses": {
+            "F04": {
+              "label": "source_components",
+              "scope": "Selected current or historical source mechanisms exist; full current integration and user benefit are not established for this family."
+            }
+          },
+          "implementation_status": "declared_intended_not_implemented"
+        },
+        {
+          "id": "plan",
+          "label": "Executive: finite plan and role work",
+          "family_ids": [
+            "F19",
+            "F47",
+            "F20"
+          ],
+          "node_kind": "diagram_role_group_not_new_capability",
+          "role": "delegated planning and contribution",
+          "notes": "Role labels do not establish identity or independent review.",
+          "owner": null,
+          "source_refs": [
+            {
+              "family_id": "F19",
+              "field": "functional_contract",
+              "source_anchor": "FAMILY_GUIDE.en.md#F19",
+              "structured_source_anchor": "PUBLIC_CONCEPTS.json#/entries/18/functional_contract"
+            },
+            {
+              "family_id": "F47",
+              "field": "functional_contract",
+              "source_anchor": "FAMILY_GUIDE.en.md#F47",
+              "structured_source_anchor": "PUBLIC_CONCEPTS.json#/entries/46/functional_contract"
+            },
+            {
+              "family_id": "F20",
+              "field": "functional_contract",
+              "source_anchor": "FAMILY_GUIDE.en.md#F20",
+              "structured_source_anchor": "PUBLIC_CONCEPTS.json#/entries/19/functional_contract"
+            }
+          ],
+          "reported_family_statuses": {
+            "F19": {
+              "label": "source_components",
+              "scope": "Selected current or historical source mechanisms exist; full current integration and user benefit are not established for this family."
+            },
+            "F47": {
+              "label": "source_components",
+              "scope": "Selected current or historical source mechanisms exist; full current integration and user benefit are not established for this family."
+            },
+            "F20": {
+              "label": "bounded_evidence",
+              "scope": "Selected cognitive-role cases have bounded evidence, not a complete live independent-model workflow."
+            }
+          },
+          "implementation_status": "declared_intended_not_implemented"
+        },
+        {
+          "id": "candidate",
+          "label": "CoherenceLattice: fixed candidate",
+          "family_ids": [
+            "F07"
+          ],
+          "node_kind": "diagram_role_group_not_new_capability",
+          "role": "grounded candidate construction",
+          "notes": "Candidate is not truth certification or action authorization.",
+          "owner": null,
+          "source_refs": [
+            {
+              "family_id": "F07",
+              "field": "functional_contract",
+              "source_anchor": "FAMILY_GUIDE.en.md#F07",
+              "structured_source_anchor": "PUBLIC_CONCEPTS.json#/entries/6/functional_contract"
+            }
+          ],
+          "reported_family_statuses": {
+            "F07": {
+              "label": "bounded_evidence",
+              "scope": "Structural and bounded conformance mechanisms exist; general semantic usefulness and the complete consumer loop remain unproved."
+            }
+          },
+          "implementation_status": "declared_intended_not_implemented"
+        },
+        {
+          "id": "review",
+          "label": "Sophia: attributable findings",
+          "family_ids": [
+            "F09"
+          ],
+          "node_kind": "diagram_role_group_not_new_capability",
+          "role": "fixed-candidate evaluation",
+          "notes": "Review cannot rewrite the candidate or grant authority.",
+          "owner": null,
+          "source_refs": [
+            {
+              "family_id": "F09",
+              "field": "functional_contract",
+              "source_anchor": "FAMILY_GUIDE.en.md#F09",
+              "structured_source_anchor": "PUBLIC_CONCEPTS.json#/entries/8/functional_contract"
+            }
+          ],
+          "reported_family_statuses": {
+            "F09": {
+              "label": "bounded_evidence",
+              "scope": "Selected evaluator connections have bounded evidence; live usefulness, independence and distributed review remain unproved."
+            }
+          },
+          "implementation_status": "declared_intended_not_implemented"
+        },
+        {
+          "id": "orient",
+          "label": "Atlas: explain result and dissent",
+          "family_ids": [
+            "F10"
+          ],
+          "node_kind": "diagram_role_group_not_new_capability",
+          "role": "orientation",
+          "notes": "No automatic memory write.",
+          "owner": null,
+          "source_refs": [
+            {
+              "family_id": "F10",
+              "field": "functional_contract",
+              "source_anchor": "FAMILY_GUIDE.en.md#F10",
+              "structured_source_anchor": "PUBLIC_CONCEPTS.json#/entries/9/functional_contract"
+            }
+          ],
+          "reported_family_statuses": {
+            "F10": {
+              "label": "source_components",
+              "scope": "Selected current or historical source mechanisms exist; full current integration and user benefit are not established for this family."
+            }
+          },
+          "implementation_status": "declared_intended_not_implemented"
+        },
+        {
+          "id": "stop",
+          "label": "Stop / redirect recommendation",
+          "family_ids": [
+            "F83"
+          ],
+          "node_kind": "diagram_role_group_not_new_capability",
+          "role": "bounded stopping recommendation",
+          "notes": "Actual executive termination/resource owner must enforce the decision.",
+          "owner": null,
+          "source_refs": [
+            {
+              "family_id": "F83",
+              "field": "functional_contract",
+              "source_anchor": "FAMILY_GUIDE.en.md#F83",
+              "structured_source_anchor": "PUBLIC_CONCEPTS.json#/entries/82/functional_contract"
+            }
+          ],
+          "reported_family_statuses": {
+            "F83": {
+              "label": "source_components",
+              "scope": "Selected current or historical source mechanisms exist; full current integration and user benefit are not established for this family."
+            }
+          },
+          "implementation_status": "declared_intended_not_implemented"
+        },
+        {
+          "id": "custody",
+          "label": "Custody: minimized outcomes and unknowns",
+          "family_ids": [
+            "F35"
+          ],
+          "node_kind": "diagram_role_group_not_new_capability",
+          "role": "authoritative observed history",
+          "notes": "Capture boundary, retention and deletion remain explicit.",
+          "owner": null,
+          "source_refs": [
+            {
+              "family_id": "F35",
+              "field": "functional_contract",
+              "source_anchor": "FAMILY_GUIDE.en.md#F35",
+              "structured_source_anchor": "PUBLIC_CONCEPTS.json#/entries/34/functional_contract"
+            }
+          ],
+          "reported_family_statuses": {
+            "F35": {
+              "label": "bounded_evidence",
+              "scope": "Selected native and portable custody paths have bounded evidence; full protected installed ownership remains separate."
+            }
+          },
+          "implementation_status": "declared_intended_not_implemented"
+        },
+        {
+          "id": "tel",
+          "label": "TEL: navigable stage history",
+          "family_ids": [
+            "F28"
+          ],
+          "node_kind": "diagram_role_group_not_new_capability",
+          "role": "event and evidence navigation",
+          "notes": "Not hidden chain-of-thought capture; not a replacement for custody.",
+          "owner": null,
+          "source_refs": [
+            {
+              "family_id": "F28",
+              "field": "functional_contract",
+              "source_anchor": "FAMILY_GUIDE.en.md#F28",
+              "structured_source_anchor": "PUBLIC_CONCEPTS.json#/entries/27/functional_contract"
+            }
+          ],
+          "reported_family_statuses": {
+            "F28": {
+              "label": "source_components",
+              "scope": "Selected current or historical source mechanisms exist; full current integration and user benefit are not established for this family."
+            }
+          },
+          "implementation_status": "declared_intended_not_implemented"
+        }
+      ],
+      "edges": [
+        {
+          "from": "human",
+          "to": "ingress",
+          "label": "task and context",
+          "type": "data",
+          "source_refs": [
+            {
+              "family_id": "F03",
+              "field": "functional_contract.output",
+              "source_anchor": "FAMILY_GUIDE.en.md#F03",
+              "structured_source_anchor": "PUBLIC_CONCEPTS.json#/entries/2/functional_contract/output"
+            },
+            {
+              "family_id": "F04",
+              "field": "functional_contract.input",
+              "source_anchor": "FAMILY_GUIDE.en.md#F04",
+              "structured_source_anchor": "PUBLIC_CONCEPTS.json#/entries/3/functional_contract/input"
+            }
+          ],
+          "implementation_status": "declared_intended_not_implemented",
+          "join_basis": "editorial mapping of declared input/output and owner responsibilities, not a demonstrated runtime connection",
+          "condition": null
+        },
+        {
+          "from": "ingress",
+          "to": "plan",
+          "label": "attributable bounded request",
+          "type": "data",
+          "source_refs": [
+            {
+              "family_id": "F04",
+              "field": "functional_contract.output",
+              "source_anchor": "FAMILY_GUIDE.en.md#F04",
+              "structured_source_anchor": "PUBLIC_CONCEPTS.json#/entries/3/functional_contract/output"
+            },
+            {
+              "family_id": "F19",
+              "field": "functional_contract.input",
+              "source_anchor": "FAMILY_GUIDE.en.md#F19",
+              "structured_source_anchor": "PUBLIC_CONCEPTS.json#/entries/18/functional_contract/input"
+            }
+          ],
+          "implementation_status": "declared_intended_not_implemented",
+          "join_basis": "editorial mapping of declared input/output and owner responsibilities, not a demonstrated runtime connection",
+          "condition": "Only after the actual supported admission owner accepts the request."
+        },
+        {
+          "from": "plan",
+          "to": "candidate",
+          "label": "admitted task evidence and role outputs",
+          "type": "data",
+          "source_refs": [
+            {
+              "family_id": "F20",
+              "field": "functional_contract.input",
+              "source_anchor": "FAMILY_GUIDE.en.md#F20",
+              "structured_source_anchor": "PUBLIC_CONCEPTS.json#/entries/19/functional_contract/input"
+            },
+            {
+              "family_id": "F20",
+              "field": "functional_contract.output",
+              "source_anchor": "FAMILY_GUIDE.en.md#F20",
+              "structured_source_anchor": "PUBLIC_CONCEPTS.json#/entries/19/functional_contract/output"
+            },
+            {
+              "family_id": "F07",
+              "field": "functional_contract.input",
+              "source_anchor": "FAMILY_GUIDE.en.md#F07",
+              "structured_source_anchor": "PUBLIC_CONCEPTS.json#/entries/6/functional_contract/input"
+            }
+          ],
+          "implementation_status": "declared_intended_not_implemented",
+          "join_basis": "editorial mapping of declared input/output and owner responsibilities, not a demonstrated runtime connection",
+          "condition": null
+        },
+        {
+          "from": "candidate",
+          "to": "review",
+          "label": "fixed candidate, evidence, residuals",
+          "type": "data",
+          "source_refs": [
+            {
+              "family_id": "F07",
+              "field": "functional_contract.intended_consumer",
+              "source_anchor": "FAMILY_GUIDE.en.md#F07",
+              "structured_source_anchor": "PUBLIC_CONCEPTS.json#/entries/6/functional_contract/intended_consumer"
+            },
+            {
+              "family_id": "F09",
+              "field": "functional_contract.input",
+              "source_anchor": "FAMILY_GUIDE.en.md#F09",
+              "structured_source_anchor": "PUBLIC_CONCEPTS.json#/entries/8/functional_contract/input"
+            }
+          ],
+          "implementation_status": "declared_intended_not_implemented",
+          "join_basis": "editorial mapping of declared input/output and owner responsibilities, not a demonstrated runtime connection",
+          "condition": null
+        },
+        {
+          "from": "review",
+          "to": "orient",
+          "label": "findings, limits and dissent",
+          "type": "data",
+          "source_refs": [
+            {
+              "family_id": "F09",
+              "field": "functional_contract.output",
+              "source_anchor": "FAMILY_GUIDE.en.md#F09",
+              "structured_source_anchor": "PUBLIC_CONCEPTS.json#/entries/8/functional_contract/output"
+            },
+            {
+              "family_id": "F10",
+              "field": "functional_contract.input",
+              "source_anchor": "FAMILY_GUIDE.en.md#F10",
+              "structured_source_anchor": "PUBLIC_CONCEPTS.json#/entries/9/functional_contract/input"
+            }
+          ],
+          "implementation_status": "declared_intended_not_implemented",
+          "join_basis": "editorial mapping of declared input/output and owner responsibilities, not a demonstrated runtime connection",
+          "condition": null
+        },
+        {
+          "from": "orient",
+          "to": "human",
+          "label": "presentation; human decision remains separate",
+          "type": "data",
+          "source_refs": [
+            {
+              "family_id": "F10",
+              "field": "functional_contract.output",
+              "source_anchor": "FAMILY_GUIDE.en.md#F10",
+              "structured_source_anchor": "PUBLIC_CONCEPTS.json#/entries/9/functional_contract/output"
+            },
+            {
+              "family_id": "F10",
+              "field": "functional_contract.intended_consumer",
+              "source_anchor": "FAMILY_GUIDE.en.md#F10",
+              "structured_source_anchor": "PUBLIC_CONCEPTS.json#/entries/9/functional_contract/intended_consumer"
+            }
+          ],
+          "implementation_status": "declared_intended_not_implemented",
+          "join_basis": "editorial mapping of declared input/output and owner responsibilities, not a demonstrated runtime connection",
+          "condition": null
+        },
+        {
+          "from": "review",
+          "to": "plan",
+          "label": "findings for a separately authorized revision",
+          "type": "data",
+          "source_refs": [
+            {
+              "family_id": "F09",
+              "field": "functional_contract.intended_consumer",
+              "source_anchor": "FAMILY_GUIDE.en.md#F09",
+              "structured_source_anchor": "PUBLIC_CONCEPTS.json#/entries/8/functional_contract/intended_consumer"
+            },
+            {
+              "family_id": "F47",
+              "field": "functional_contract.input",
+              "source_anchor": "FAMILY_GUIDE.en.md#F47",
+              "structured_source_anchor": "PUBLIC_CONCEPTS.json#/entries/46/functional_contract/input"
+            }
+          ],
+          "implementation_status": "declared_intended_not_implemented",
+          "join_basis": "editorial mapping of declared input/output and owner responsibilities, not a demonstrated runtime connection",
+          "condition": "Finite existing delegation or a new authorized task; no authority expansion."
+        },
+        {
+          "from": "plan",
+          "to": "stop",
+          "label": "risk, remaining budget and task signals",
+          "type": "data",
+          "source_refs": [
+            {
+              "family_id": "F47",
+              "field": "functional_contract.output",
+              "source_anchor": "FAMILY_GUIDE.en.md#F47",
+              "structured_source_anchor": "PUBLIC_CONCEPTS.json#/entries/46/functional_contract/output"
+            },
+            {
+              "family_id": "F83",
+              "field": "functional_contract.input",
+              "source_anchor": "FAMILY_GUIDE.en.md#F83",
+              "structured_source_anchor": "PUBLIC_CONCEPTS.json#/entries/82/functional_contract/input"
+            }
+          ],
+          "implementation_status": "declared_intended_not_implemented",
+          "join_basis": "editorial mapping of declared input/output and owner responsibilities, not a demonstrated runtime connection",
+          "condition": null
+        },
+        {
+          "from": "stop",
+          "to": "plan",
+          "label": "halt / redirect / continue recommendation",
+          "type": "control",
+          "source_refs": [
+            {
+              "family_id": "F83",
+              "field": "functional_contract.output",
+              "source_anchor": "FAMILY_GUIDE.en.md#F83",
+              "structured_source_anchor": "PUBLIC_CONCEPTS.json#/entries/82/functional_contract/output"
+            },
+            {
+              "family_id": "F83",
+              "field": "functional_contract.intended_consumer",
+              "source_anchor": "FAMILY_GUIDE.en.md#F83",
+              "structured_source_anchor": "PUBLIC_CONCEPTS.json#/entries/82/functional_contract/intended_consumer"
+            }
+          ],
+          "implementation_status": "declared_intended_not_implemented",
+          "join_basis": "editorial mapping of declared input/output and owner responsibilities, not a demonstrated runtime connection",
+          "condition": "The actual executive/resource owner decides and enforces the resulting transition."
+        },
+        {
+          "from": "plan",
+          "to": "custody",
+          "label": "observed attempts and outcomes",
+          "type": "provenance",
+          "source_refs": [
+            {
+              "family_id": "F47",
+              "field": "functional_contract.intended_consumer",
+              "source_anchor": "FAMILY_GUIDE.en.md#F47",
+              "structured_source_anchor": "PUBLIC_CONCEPTS.json#/entries/46/functional_contract/intended_consumer"
+            },
+            {
+              "family_id": "F35",
+              "field": "functional_contract.input",
+              "source_anchor": "FAMILY_GUIDE.en.md#F35",
+              "structured_source_anchor": "PUBLIC_CONCEPTS.json#/entries/34/functional_contract/input"
+            }
+          ],
+          "implementation_status": "declared_intended_not_implemented",
+          "join_basis": "editorial mapping of declared input/output and owner responsibilities, not a demonstrated runtime connection",
+          "condition": null
+        },
+        {
+          "from": "review",
+          "to": "custody",
+          "label": "observed review lifecycle and identity",
+          "type": "provenance",
+          "source_refs": [
+            {
+              "family_id": "F09",
+              "field": "purpose",
+              "source_anchor": "FAMILY_GUIDE.en.md#F09",
+              "structured_source_anchor": "PUBLIC_CONCEPTS.json#/entries/8/purpose"
+            },
+            {
+              "family_id": "F35",
+              "field": "functional_contract.input",
+              "source_anchor": "FAMILY_GUIDE.en.md#F35",
+              "structured_source_anchor": "PUBLIC_CONCEPTS.json#/entries/34/functional_contract/input"
+            }
+          ],
+          "implementation_status": "declared_intended_not_implemented",
+          "join_basis": "editorial mapping of declared input/output and owner responsibilities, not a demonstrated runtime connection",
+          "condition": null
+        },
+        {
+          "from": "custody",
+          "to": "tel",
+          "label": "permitted supported events for navigation",
+          "type": "provenance",
+          "source_refs": [
+            {
+              "family_id": "F35",
+              "field": "functional_contract.intended_consumer",
+              "source_anchor": "FAMILY_GUIDE.en.md#F35",
+              "structured_source_anchor": "PUBLIC_CONCEPTS.json#/entries/34/functional_contract/intended_consumer"
+            },
+            {
+              "family_id": "F28",
+              "field": "functional_contract.input",
+              "source_anchor": "FAMILY_GUIDE.en.md#F28",
+              "structured_source_anchor": "PUBLIC_CONCEPTS.json#/entries/27/functional_contract/input"
+            }
+          ],
+          "implementation_status": "declared_intended_not_implemented",
+          "join_basis": "editorial mapping of declared input/output and owner responsibilities, not a demonstrated runtime connection",
+          "condition": null
+        },
+        {
+          "from": "tel",
+          "to": "orient",
+          "label": "ordered stage/evidence chronology",
+          "type": "provenance",
+          "source_refs": [
+            {
+              "family_id": "F28",
+              "field": "functional_contract.intended_consumer",
+              "source_anchor": "FAMILY_GUIDE.en.md#F28",
+              "structured_source_anchor": "PUBLIC_CONCEPTS.json#/entries/27/functional_contract/intended_consumer"
+            },
+            {
+              "family_id": "F10",
+              "field": "purpose",
+              "source_anchor": "FAMILY_GUIDE.en.md#F10",
+              "structured_source_anchor": "PUBLIC_CONCEPTS.json#/entries/9/purpose"
+            }
+          ],
+          "implementation_status": "declared_intended_not_implemented",
+          "join_basis": "editorial mapping of declared input/output and owner responsibilities, not a demonstrated runtime connection",
+          "condition": null
+        }
+      ],
+      "notes": [
+        "All arrows describe declared intended joins; the whole installed cognitive loop is not established by the source edition.",
+        "Controls bind every actual deciding consumer; omitted control-plane arrows are not an exemption. See authority/revocation flow.",
+        "Optional prior use and retention are not prerequisites for this local loop; see memory lifecycle.",
+        "A repair creates attributable successor work rather than rewriting a finalized candidate or original outcome."
+      ],
+      "rendering_hint": "Keep node family IDs visible; labels are references to primary module placements, not additional primary instances. Use data/control/provenance styles plus text labels; do not encode implementation maturity by edge color."
+    },
+    {
+      "id": "focus-authority-revocation",
+      "title": "Authority stays with the deciding owner",
+      "caption": "Human choices become effective only through an authenticated adoption/decision owner. Advisory business assessments are a separate branch, not a gate on ordinary prompts or replies.",
+      "node_count": 9,
+      "nodes": [
+        {
+          "id": "human",
+          "label": "Human selection, stop or revocation",
+          "family_ids": [
+            "F03"
+          ],
+          "node_kind": "diagram_role_group_not_new_capability",
+          "role": "control interface",
+          "notes": "UI selection alone is not enforcement.",
+          "owner": null,
+          "source_refs": [
+            {
+              "family_id": "F03",
+              "field": "functional_contract",
+              "source_anchor": "FAMILY_GUIDE.en.md#F03",
+              "structured_source_anchor": "PUBLIC_CONCEPTS.json#/entries/2/functional_contract"
+            }
+          ],
+          "reported_family_statuses": {
+            "F03": {
+              "label": "bounded_evidence",
+              "scope": "Selected Home and native interface paths have bounded evidence; complete installed user interaction remains unproved."
+            }
+          },
+          "implementation_status": "declared_intended_not_implemented"
+        },
+        {
+          "id": "draft",
+          "label": "Source-faithful draft and preview",
+          "family_ids": [
+            "F59"
+          ],
+          "node_kind": "diagram_role_group_not_new_capability",
+          "role": "control interpretation proposal",
+          "notes": "Generated control interpretation cannot activate policy.",
+          "owner": null,
+          "source_refs": [
+            {
+              "family_id": "F59",
+              "field": "functional_contract",
+              "source_anchor": "FAMILY_GUIDE.en.md#F59",
+              "structured_source_anchor": "PUBLIC_CONCEPTS.json#/entries/58/functional_contract"
+            }
+          ],
+          "reported_family_statuses": {
+            "F59": {
+              "label": "research_or_unresolved",
+              "scope": "A preserved research, optional or incompletely reconciled responsibility; exact current implementation and benefit remain unresolved."
+            }
+          },
+          "implementation_status": "declared_intended_not_implemented"
+        },
+        {
+          "id": "adopt",
+          "label": "Authorized adoption: current policy version",
+          "family_ids": [
+            "F45"
+          ],
+          "node_kind": "diagram_role_group_not_new_capability",
+          "role": "authenticated adoption owner",
+          "notes": "Affected peers keep their own authority.",
+          "owner": "Authorized policy-adoption owner",
+          "source_refs": [
+            {
+              "family_id": "F45",
+              "field": "functional_contract",
+              "source_anchor": "FAMILY_GUIDE.en.md#F45",
+              "structured_source_anchor": "PUBLIC_CONCEPTS.json#/entries/44/functional_contract"
+            }
+          ],
+          "reported_family_statuses": {
+            "F45": {
+              "label": "source_components",
+              "scope": "Selected current or historical source mechanisms exist; full current integration and user benefit are not established for this family."
+            }
+          },
+          "implementation_status": "declared_intended_not_implemented"
+        },
+        {
+          "id": "business",
+          "label": "UCC advisory business findings",
+          "family_ids": [
+            "F22"
+          ],
+          "node_kind": "diagram_role_group_not_new_capability",
+          "role": "advisory branch",
+          "notes": "No prompt veto, withheld reply or external business-action authority.",
+          "owner": null,
+          "source_refs": [
+            {
+              "family_id": "F22",
+              "field": "functional_contract",
+              "source_anchor": "FAMILY_GUIDE.en.md#F22",
+              "structured_source_anchor": "PUBLIC_CONCEPTS.json#/entries/21/functional_contract"
+            }
+          ],
+          "reported_family_statuses": {
+            "F22": {
+              "label": "source_components",
+              "scope": "Selected current or historical source mechanisms exist; full current integration and user benefit are not established for this family."
+            }
+          },
+          "implementation_status": "declared_intended_not_implemented"
+        },
+        {
+          "id": "screen",
+          "label": "Non-authorizing admission screen",
+          "family_ids": [
+            "F29"
+          ],
+          "node_kind": "diagram_role_group_not_new_capability",
+          "role": "screen recommendation",
+          "notes": "PASS_SCREEN is not an execution grant.",
+          "owner": null,
+          "source_refs": [
+            {
+              "family_id": "F29",
+              "field": "functional_contract",
+              "source_anchor": "FAMILY_GUIDE.en.md#F29",
+              "structured_source_anchor": "PUBLIC_CONCEPTS.json#/entries/28/functional_contract"
+            }
+          ],
+          "reported_family_statuses": {
+            "F29": {
+              "label": "source_components",
+              "scope": "Selected current or historical source mechanisms exist; full current integration and user benefit are not established for this family."
+            }
+          },
+          "implementation_status": "declared_intended_not_implemented"
+        },
+        {
+          "id": "admit",
+          "label": "Actual admission / protective owner",
+          "family_ids": [
+            "F23"
+          ],
+          "node_kind": "diagram_role_group_not_new_capability",
+          "role": "technical enforcement boundary",
+          "notes": "Preauthorized scope, expiry, appeal and restoration remain required.",
+          "owner": null,
+          "source_refs": [
+            {
+              "family_id": "F23",
+              "field": "functional_contract",
+              "source_anchor": "FAMILY_GUIDE.en.md#F23",
+              "structured_source_anchor": "PUBLIC_CONCEPTS.json#/entries/22/functional_contract"
+            }
+          ],
+          "reported_family_statuses": {
+            "F23": {
+              "label": "source_components",
+              "scope": "Selected current or historical source mechanisms exist; full current integration and user benefit are not established for this family."
+            }
+          },
+          "implementation_status": "declared_intended_not_implemented"
+        },
+        {
+          "id": "effect",
+          "label": "Each actual action / resource / memory owner",
+          "family_ids": [
+            "F45",
+            "F36",
+            "F13"
+          ],
+          "node_kind": "diagram_role_group_not_new_capability",
+          "role": "current-use and effect boundary",
+          "notes": "Current permission must hold at the deciding consumer. No remote grant replaces local authority.",
+          "owner": null,
+          "source_refs": [
+            {
+              "family_id": "F45",
+              "field": "functional_contract",
+              "source_anchor": "FAMILY_GUIDE.en.md#F45",
+              "structured_source_anchor": "PUBLIC_CONCEPTS.json#/entries/44/functional_contract"
+            },
+            {
+              "family_id": "F36",
+              "field": "functional_contract",
+              "source_anchor": "FAMILY_GUIDE.en.md#F36",
+              "structured_source_anchor": "PUBLIC_CONCEPTS.json#/entries/35/functional_contract"
+            },
+            {
+              "family_id": "F13",
+              "field": "functional_contract",
+              "source_anchor": "FAMILY_GUIDE.en.md#F13",
+              "structured_source_anchor": "PUBLIC_CONCEPTS.json#/entries/12/functional_contract"
+            }
+          ],
+          "reported_family_statuses": {
+            "F45": {
+              "label": "source_components",
+              "scope": "Selected current or historical source mechanisms exist; full current integration and user benefit are not established for this family."
+            },
+            "F36": {
+              "label": "bounded_evidence",
+              "scope": "Selected synthetic peer components have bounded evidence; actual two-node exchange and three-node Wi-Fi cognition remain unproved."
+            },
+            "F13": {
+              "label": "source_components",
+              "scope": "Reference and bounded lifecycle components exist; authenticated durable native retention and reuse remain in implementation."
+            }
+          },
+          "implementation_status": "declared_intended_not_implemented"
+        },
+        {
+          "id": "history",
+          "label": "Custody: original outcome plus correction",
+          "family_ids": [
+            "F35"
+          ],
+          "node_kind": "diagram_role_group_not_new_capability",
+          "role": "authoritative event history",
+          "notes": "Revocation changes permitted future action; it does not rewrite observations.",
+          "owner": null,
+          "source_refs": [
+            {
+              "family_id": "F35",
+              "field": "functional_contract",
+              "source_anchor": "FAMILY_GUIDE.en.md#F35",
+              "structured_source_anchor": "PUBLIC_CONCEPTS.json#/entries/34/functional_contract"
+            }
+          ],
+          "reported_family_statuses": {
+            "F35": {
+              "label": "bounded_evidence",
+              "scope": "Selected native and portable custody paths have bounded evidence; full protected installed ownership remains separate."
+            }
+          },
+          "implementation_status": "declared_intended_not_implemented"
+        },
+        {
+          "id": "recover",
+          "label": "Current session owner: resume or hold",
+          "family_ids": [
+            "F62"
+          ],
+          "node_kind": "diagram_role_group_not_new_capability",
+          "role": "recovery and stale-owner fencing",
+          "notes": "Restart is not renewed authority; reject obsolete worker commits.",
+          "owner": null,
+          "source_refs": [
+            {
+              "family_id": "F62",
+              "field": "functional_contract",
+              "source_anchor": "FAMILY_GUIDE.en.md#F62",
+              "structured_source_anchor": "PUBLIC_CONCEPTS.json#/entries/61/functional_contract"
+            }
+          ],
+          "reported_family_statuses": {
+            "F62": {
+              "label": "source_components",
+              "scope": "Selected current or historical source mechanisms exist; full current integration and user benefit are not established for this family."
+            }
+          },
+          "implementation_status": "declared_intended_not_implemented"
+        }
+      ],
+      "edges": [
+        {
+          "from": "human",
+          "to": "draft",
+          "label": "source controls and requested interpretation",
+          "type": "data",
+          "source_refs": [
+            {
+              "family_id": "F59",
+              "field": "functional_contract.input",
+              "source_anchor": "FAMILY_GUIDE.en.md#F59",
+              "structured_source_anchor": "PUBLIC_CONCEPTS.json#/entries/58/functional_contract/input"
+            }
+          ],
+          "implementation_status": "declared_intended_not_implemented",
+          "join_basis": "editorial mapping of declared input/output and owner responsibilities, not a demonstrated runtime connection",
+          "condition": null
+        },
+        {
+          "from": "draft",
+          "to": "adopt",
+          "label": "proposed mapping and preview, not activation",
+          "type": "data",
+          "source_refs": [
+            {
+              "family_id": "F59",
+              "field": "functional_contract.output",
+              "source_anchor": "FAMILY_GUIDE.en.md#F59",
+              "structured_source_anchor": "PUBLIC_CONCEPTS.json#/entries/58/functional_contract/output"
+            },
+            {
+              "family_id": "F59",
+              "field": "controlling_owner",
+              "source_anchor": "FAMILY_GUIDE.en.md#F59",
+              "structured_source_anchor": "PUBLIC_CONCEPTS.json#/entries/58/controlling_owner"
+            }
+          ],
+          "implementation_status": "declared_intended_not_implemented",
+          "join_basis": "editorial mapping of declared input/output and owner responsibilities, not a demonstrated runtime connection",
+          "condition": null
+        },
+        {
+          "from": "human",
+          "to": "adopt",
+          "label": "explicit adoption or changed permission",
+          "type": "control",
+          "source_refs": [
+            {
+              "family_id": "F03",
+              "field": "functional_contract.intended_consumer",
+              "source_anchor": "FAMILY_GUIDE.en.md#F03",
+              "structured_source_anchor": "PUBLIC_CONCEPTS.json#/entries/2/functional_contract/intended_consumer"
+            },
+            {
+              "family_id": "F45",
+              "field": "functional_contract.input",
+              "source_anchor": "FAMILY_GUIDE.en.md#F45",
+              "structured_source_anchor": "PUBLIC_CONCEPTS.json#/entries/44/functional_contract/input"
+            }
+          ],
+          "implementation_status": "declared_intended_not_implemented",
+          "join_basis": "editorial mapping of declared input/output and owner responsibilities, not a demonstrated runtime connection",
+          "condition": null
+        },
+        {
+          "from": "adopt",
+          "to": "business",
+          "label": "accepted advisory procedure profile",
+          "type": "control",
+          "source_refs": [
+            {
+              "family_id": "F22",
+              "field": "functional_contract.input",
+              "source_anchor": "FAMILY_GUIDE.en.md#F22",
+              "structured_source_anchor": "PUBLIC_CONCEPTS.json#/entries/21/functional_contract/input"
+            },
+            {
+              "family_id": "F22",
+              "field": "authority_boundary",
+              "source_anchor": "FAMILY_GUIDE.en.md#F22",
+              "structured_source_anchor": "PUBLIC_CONCEPTS.json#/entries/21/authority_boundary"
+            }
+          ],
+          "implementation_status": "declared_intended_not_implemented",
+          "join_basis": "editorial mapping of declared input/output and owner responsibilities, not a demonstrated runtime connection",
+          "condition": null
+        },
+        {
+          "from": "business",
+          "to": "human",
+          "label": "advisory finding accompanies actual reply",
+          "type": "data",
+          "source_refs": [
+            {
+              "family_id": "F22",
+              "field": "functional_contract.intended_consumer",
+              "source_anchor": "FAMILY_GUIDE.en.md#F22",
+              "structured_source_anchor": "PUBLIC_CONCEPTS.json#/entries/21/functional_contract/intended_consumer"
+            },
+            {
+              "family_id": "F22",
+              "field": "authority_boundary",
+              "source_anchor": "FAMILY_GUIDE.en.md#F22",
+              "structured_source_anchor": "PUBLIC_CONCEPTS.json#/entries/21/authority_boundary"
+            }
+          ],
+          "implementation_status": "declared_intended_not_implemented",
+          "join_basis": "editorial mapping of declared input/output and owner responsibilities, not a demonstrated runtime connection",
+          "condition": null
+        },
+        {
+          "from": "adopt",
+          "to": "screen",
+          "label": "current consent / privacy / context conditions",
+          "type": "control",
+          "source_refs": [
+            {
+              "family_id": "F45",
+              "field": "functional_contract.intended_consumer",
+              "source_anchor": "FAMILY_GUIDE.en.md#F45",
+              "structured_source_anchor": "PUBLIC_CONCEPTS.json#/entries/44/functional_contract/intended_consumer"
+            },
+            {
+              "family_id": "F29",
+              "field": "functional_contract.input",
+              "source_anchor": "FAMILY_GUIDE.en.md#F29",
+              "structured_source_anchor": "PUBLIC_CONCEPTS.json#/entries/28/functional_contract/input"
+            }
+          ],
+          "implementation_status": "declared_intended_not_implemented",
+          "join_basis": "editorial mapping of declared input/output and owner responsibilities, not a demonstrated runtime connection",
+          "condition": null
+        },
+        {
+          "from": "screen",
+          "to": "admit",
+          "label": "screen result; owner still decides",
+          "type": "data",
+          "source_refs": [
+            {
+              "family_id": "F29",
+              "field": "functional_contract.output",
+              "source_anchor": "FAMILY_GUIDE.en.md#F29",
+              "structured_source_anchor": "PUBLIC_CONCEPTS.json#/entries/28/functional_contract/output"
+            },
+            {
+              "family_id": "F29",
+              "field": "functional_contract.intended_consumer",
+              "source_anchor": "FAMILY_GUIDE.en.md#F29",
+              "structured_source_anchor": "PUBLIC_CONCEPTS.json#/entries/28/functional_contract/intended_consumer"
+            }
+          ],
+          "implementation_status": "declared_intended_not_implemented",
+          "join_basis": "editorial mapping of declared input/output and owner responsibilities, not a demonstrated runtime connection",
+          "condition": null
+        },
+        {
+          "from": "admit",
+          "to": "effect",
+          "label": "admit / hold / refuse within owned scope",
+          "type": "control",
+          "source_refs": [
+            {
+              "family_id": "F23",
+              "field": "functional_contract.output",
+              "source_anchor": "FAMILY_GUIDE.en.md#F23",
+              "structured_source_anchor": "PUBLIC_CONCEPTS.json#/entries/22/functional_contract/output"
+            },
+            {
+              "family_id": "F23",
+              "field": "controlling_owner",
+              "source_anchor": "FAMILY_GUIDE.en.md#F23",
+              "structured_source_anchor": "PUBLIC_CONCEPTS.json#/entries/22/controlling_owner"
+            }
+          ],
+          "implementation_status": "declared_intended_not_implemented",
+          "join_basis": "editorial mapping of declared input/output and owner responsibilities, not a demonstrated runtime connection",
+          "condition": "Only supported protections and effects within the actual owner authority."
+        },
+        {
+          "from": "adopt",
+          "to": "effect",
+          "label": "current version; changed or revoked permission",
+          "type": "control",
+          "source_refs": [
+            {
+              "family_id": "F45",
+              "field": "functional_contract.output",
+              "source_anchor": "FAMILY_GUIDE.en.md#F45",
+              "structured_source_anchor": "PUBLIC_CONCEPTS.json#/entries/44/functional_contract/output"
+            },
+            {
+              "family_id": "F45",
+              "field": "functional_contract.intended_consumer",
+              "source_anchor": "FAMILY_GUIDE.en.md#F45",
+              "structured_source_anchor": "PUBLIC_CONCEPTS.json#/entries/44/functional_contract/intended_consumer"
+            },
+            {
+              "family_id": "F45",
+              "field": "remaining_join",
+              "source_anchor": "FAMILY_GUIDE.en.md#F45",
+              "structured_source_anchor": "PUBLIC_CONCEPTS.json#/entries/44/remaining_join"
+            }
+          ],
+          "implementation_status": "declared_intended_not_implemented",
+          "join_basis": "editorial mapping of declared input/output and owner responsibilities, not a demonstrated runtime connection",
+          "condition": null
+        },
+        {
+          "from": "effect",
+          "to": "history",
+          "label": "record actual outcome, version and unknowns",
+          "type": "provenance",
+          "source_refs": [
+            {
+              "family_id": "F35",
+              "field": "functional_contract.input",
+              "source_anchor": "FAMILY_GUIDE.en.md#F35",
+              "structured_source_anchor": "PUBLIC_CONCEPTS.json#/entries/34/functional_contract/input"
+            },
+            {
+              "family_id": "F35",
+              "field": "functional_contract.output",
+              "source_anchor": "FAMILY_GUIDE.en.md#F35",
+              "structured_source_anchor": "PUBLIC_CONCEPTS.json#/entries/34/functional_contract/output"
+            }
+          ],
+          "implementation_status": "declared_intended_not_implemented",
+          "join_basis": "editorial mapping of declared input/output and owner responsibilities, not a demonstrated runtime connection",
+          "condition": null
+        },
+        {
+          "from": "history",
+          "to": "recover",
+          "label": "checkpoint, owner version and outcome ledger",
+          "type": "provenance",
+          "source_refs": [
+            {
+              "family_id": "F62",
+              "field": "functional_contract.input",
+              "source_anchor": "FAMILY_GUIDE.en.md#F62",
+              "structured_source_anchor": "PUBLIC_CONCEPTS.json#/entries/61/functional_contract/input"
+            }
+          ],
+          "implementation_status": "declared_intended_not_implemented",
+          "join_basis": "editorial mapping of declared input/output and owner responsibilities, not a demonstrated runtime connection",
+          "condition": null
+        },
+        {
+          "from": "adopt",
+          "to": "recover",
+          "label": "revalidate current context, scope and consent",
+          "type": "control",
+          "source_refs": [
+            {
+              "family_id": "F62",
+              "field": "purpose",
+              "source_anchor": "FAMILY_GUIDE.en.md#F62",
+              "structured_source_anchor": "PUBLIC_CONCEPTS.json#/entries/61/purpose"
+            },
+            {
+              "family_id": "F45",
+              "field": "functional_contract.intended_consumer",
+              "source_anchor": "FAMILY_GUIDE.en.md#F45",
+              "structured_source_anchor": "PUBLIC_CONCEPTS.json#/entries/44/functional_contract/intended_consumer"
+            }
+          ],
+          "implementation_status": "declared_intended_not_implemented",
+          "join_basis": "editorial mapping of declared input/output and owner responsibilities, not a demonstrated runtime connection",
+          "condition": null
+        },
+        {
+          "from": "recover",
+          "to": "effect",
+          "label": "current owner resumes or holds; stale rejected",
+          "type": "control",
+          "source_refs": [
+            {
+              "family_id": "F62",
+              "field": "functional_contract.output",
+              "source_anchor": "FAMILY_GUIDE.en.md#F62",
+              "structured_source_anchor": "PUBLIC_CONCEPTS.json#/entries/61/functional_contract/output"
+            },
+            {
+              "family_id": "F62",
+              "field": "controlling_owner",
+              "source_anchor": "FAMILY_GUIDE.en.md#F62",
+              "structured_source_anchor": "PUBLIC_CONCEPTS.json#/entries/61/controlling_owner"
+            }
+          ],
+          "implementation_status": "declared_intended_not_implemented",
+          "join_basis": "editorial mapping of declared input/output and owner responsibilities, not a demonstrated runtime connection",
+          "condition": null
+        }
+      ],
+      "notes": [
+        "Technical restrictions remain independently enforceable; UCC business labels do not become a universal manual gate.",
+        "No model, score, UI state or screen result can manufacture action authority.",
+        "Revocation must reach actual deciding consumers; this diagram is a required design relationship, not evidence that propagation is implemented.",
+        "Already disclosed copies may not be erasable; memory and confidential release have their own exact owner boundaries."
+      ],
+      "rendering_hint": "Keep node family IDs visible; labels are references to primary module placements, not additional primary instances. Use data/control/provenance styles plus text labels; do not encode implementation maturity by edge color."
+    },
+    {
+      "id": "focus-memory-lifecycle",
+      "title": "Memory has separate decisions — not one write arrow",
+      "caption": "Required minimized custody, optional retention, retrieval and current use are different operations. A recommendation or retrieved packet is not a storage transaction or permission to inject context.",
+      "node_count": 10,
+      "nodes": [
+        {
+          "id": "material",
+          "label": "Task observations and memory candidates",
+          "family_ids": [
+            "F48"
+          ],
+          "node_kind": "diagram_role_group_not_new_capability",
+          "role": "purpose-separated candidate material",
+          "notes": "Working, episodic, semantic, procedural and prospective roles remain distinct research responsibilities.",
+          "owner": null,
+          "source_refs": [
+            {
+              "family_id": "F48",
+              "field": "functional_contract",
+              "source_anchor": "FAMILY_GUIDE.en.md#F48",
+              "structured_source_anchor": "PUBLIC_CONCEPTS.json#/entries/47/functional_contract"
+            }
+          ],
+          "reported_family_statuses": {
+            "F48": {
+              "label": "research_or_unresolved",
+              "scope": "A preserved research, optional or incompletely reconciled responsibility; exact current implementation and benefit remain unresolved."
+            }
+          },
+          "implementation_status": "declared_intended_not_implemented"
+        },
+        {
+          "id": "custody",
+          "label": "Required minimized custody",
+          "family_ids": [
+            "F35"
+          ],
+          "node_kind": "diagram_role_group_not_new_capability",
+          "role": "bounded authoritative history",
+          "notes": "Not permanent capture of every payload and not optional PMR admission.",
+          "owner": null,
+          "source_refs": [
+            {
+              "family_id": "F35",
+              "field": "functional_contract",
+              "source_anchor": "FAMILY_GUIDE.en.md#F35",
+              "structured_source_anchor": "PUBLIC_CONCEPTS.json#/entries/34/functional_contract"
+            }
+          ],
+          "reported_family_statuses": {
+            "F35": {
+              "label": "bounded_evidence",
+              "scope": "Selected native and portable custody paths have bounded evidence; full protected installed ownership remains separate."
+            }
+          },
+          "implementation_status": "declared_intended_not_implemented"
+        },
+        {
+          "id": "posture",
+          "label": "Memory-intent review posture",
+          "family_ids": [
+            "F85"
+          ],
+          "node_kind": "diagram_role_group_not_new_capability",
+          "role": "recommendation only",
+          "notes": "Pending / candidate / quarantine / reject / more evidence; no storage action.",
+          "owner": null,
+          "source_refs": [
+            {
+              "family_id": "F85",
+              "field": "functional_contract",
+              "source_anchor": "FAMILY_GUIDE.en.md#F85",
+              "structured_source_anchor": "PUBLIC_CONCEPTS.json#/entries/84/functional_contract"
+            }
+          ],
+          "reported_family_statuses": {
+            "F85": {
+              "label": "source_components",
+              "scope": "Selected current or historical source mechanisms exist; full current integration and user benefit are not established for this family."
+            }
+          },
+          "implementation_status": "declared_intended_not_implemented"
+        },
+        {
+          "id": "owner",
+          "label": "Authenticated retention / disposition owner",
+          "family_ids": [
+            "F13"
+          ],
+          "node_kind": "diagram_role_group_not_new_capability",
+          "role": "optional storage and lifecycle decision",
+          "notes": "Separate permission from retrieval, current use and training.",
+          "owner": "Authenticated native retention/current-use owner",
+          "source_refs": [
+            {
+              "family_id": "F13",
+              "field": "functional_contract",
+              "source_anchor": "FAMILY_GUIDE.en.md#F13",
+              "structured_source_anchor": "PUBLIC_CONCEPTS.json#/entries/12/functional_contract"
+            }
+          ],
+          "reported_family_statuses": {
+            "F13": {
+              "label": "source_components",
+              "scope": "Reference and bounded lifecycle components exist; authenticated durable native retention and reuse remain in implementation."
+            }
+          },
+          "implementation_status": "declared_intended_not_implemented"
+        },
+        {
+          "id": "index",
+          "label": "Eligible lineage query and dependencies",
+          "family_ids": [
+            "F68",
+            "F66"
+          ],
+          "node_kind": "diagram_role_group_not_new_capability",
+          "role": "query and recommendation",
+          "notes": "Utility and a graph edge are not permission or deletion authority.",
+          "owner": null,
+          "source_refs": [
+            {
+              "family_id": "F68",
+              "field": "functional_contract",
+              "source_anchor": "FAMILY_GUIDE.en.md#F68",
+              "structured_source_anchor": "PUBLIC_CONCEPTS.json#/entries/67/functional_contract"
+            },
+            {
+              "family_id": "F66",
+              "field": "functional_contract",
+              "source_anchor": "FAMILY_GUIDE.en.md#F66",
+              "structured_source_anchor": "PUBLIC_CONCEPTS.json#/entries/65/functional_contract"
+            }
+          ],
+          "reported_family_statuses": {
+            "F68": {
+              "label": "source_components",
+              "scope": "Selected current or historical source mechanisms exist; full current integration and user benefit are not established for this family."
+            },
+            "F66": {
+              "label": "research_or_unresolved",
+              "scope": "A preserved research, optional or incompletely reconciled responsibility; exact current implementation and benefit remain unresolved."
+            }
+          },
+          "implementation_status": "declared_intended_not_implemented"
+        },
+        {
+          "id": "retrieve",
+          "label": "Eligible prior candidate packet",
+          "family_ids": [
+            "F84"
+          ],
+          "node_kind": "diagram_role_group_not_new_capability",
+          "role": "scope-aware retrieval",
+          "notes": "Returned bytes do not authorize their use.",
+          "owner": null,
+          "source_refs": [
+            {
+              "family_id": "F84",
+              "field": "functional_contract",
+              "source_anchor": "FAMILY_GUIDE.en.md#F84",
+              "structured_source_anchor": "PUBLIC_CONCEPTS.json#/entries/83/functional_contract"
+            }
+          ],
+          "reported_family_statuses": {
+            "F84": {
+              "label": "source_components",
+              "scope": "Selected current or historical source mechanisms exist; full current integration and user benefit are not established for this family."
+            }
+          },
+          "implementation_status": "declared_intended_not_implemented"
+        },
+        {
+          "id": "use",
+          "label": "Current-use owner + scope-limited posture",
+          "family_ids": [
+            "F81"
+          ],
+          "node_kind": "diagram_role_group_not_new_capability",
+          "role": "current-task use boundary",
+          "notes": "Background-only material must not silently become answer support.",
+          "owner": null,
+          "source_refs": [
+            {
+              "family_id": "F81",
+              "field": "functional_contract",
+              "source_anchor": "FAMILY_GUIDE.en.md#F81",
+              "structured_source_anchor": "PUBLIC_CONCEPTS.json#/entries/80/functional_contract"
+            }
+          ],
+          "reported_family_statuses": {
+            "F81": {
+              "label": "source_components",
+              "scope": "Selected current or historical source mechanisms exist; full current integration and user benefit are not established for this family."
+            }
+          },
+          "implementation_status": "declared_intended_not_implemented"
+        },
+        {
+          "id": "consumer",
+          "label": "Atlas / exact authorized answer consumer",
+          "family_ids": [
+            "F10",
+            "F81"
+          ],
+          "node_kind": "diagram_role_group_not_new_capability",
+          "role": "purpose-bound consumption",
+          "notes": "No automatic retention or broader rights.",
+          "owner": null,
+          "source_refs": [
+            {
+              "family_id": "F10",
+              "field": "functional_contract",
+              "source_anchor": "FAMILY_GUIDE.en.md#F10",
+              "structured_source_anchor": "PUBLIC_CONCEPTS.json#/entries/9/functional_contract"
+            },
+            {
+              "family_id": "F81",
+              "field": "functional_contract",
+              "source_anchor": "FAMILY_GUIDE.en.md#F81",
+              "structured_source_anchor": "PUBLIC_CONCEPTS.json#/entries/80/functional_contract"
+            }
+          ],
+          "reported_family_statuses": {
+            "F10": {
+              "label": "source_components",
+              "scope": "Selected current or historical source mechanisms exist; full current integration and user benefit are not established for this family."
+            },
+            "F81": {
+              "label": "source_components",
+              "scope": "Selected current or historical source mechanisms exist; full current integration and user benefit are not established for this family."
+            }
+          },
+          "implementation_status": "declared_intended_not_implemented"
+        },
+        {
+          "id": "influence",
+          "label": "Post-use influence review",
+          "family_ids": [
+            "F82"
+          ],
+          "node_kind": "diagram_role_group_not_new_capability",
+          "role": "attributable review",
+          "notes": "Lexical overlap is not causal proof.",
+          "owner": null,
+          "source_refs": [
+            {
+              "family_id": "F82",
+              "field": "functional_contract",
+              "source_anchor": "FAMILY_GUIDE.en.md#F82",
+              "structured_source_anchor": "PUBLIC_CONCEPTS.json#/entries/81/functional_contract"
+            }
+          ],
+          "reported_family_statuses": {
+            "F82": {
+              "label": "source_components",
+              "scope": "Selected current or historical source mechanisms exist; full current integration and user benefit are not established for this family."
+            }
+          },
+          "implementation_status": "declared_intended_not_implemented"
+        },
+        {
+          "id": "lifecycle",
+          "label": "Dependency-aware lifecycle proposal",
+          "family_ids": [
+            "F69"
+          ],
+          "node_kind": "diagram_role_group_not_new_capability",
+          "role": "prune / compress / archive / quarantine / revoke",
+          "notes": "Actual owner applies effects; preserve ancestry and truthful replay limits.",
+          "owner": null,
+          "source_refs": [
+            {
+              "family_id": "F69",
+              "field": "functional_contract",
+              "source_anchor": "FAMILY_GUIDE.en.md#F69",
+              "structured_source_anchor": "PUBLIC_CONCEPTS.json#/entries/68/functional_contract"
+            }
+          ],
+          "reported_family_statuses": {
+            "F69": {
+              "label": "research_or_unresolved",
+              "scope": "A preserved research, optional or incompletely reconciled responsibility; exact current implementation and benefit remain unresolved."
+            }
+          },
+          "implementation_status": "declared_intended_not_implemented"
+        }
+      ],
+      "edges": [
+        {
+          "from": "material",
+          "to": "custody",
+          "label": "minimized observed task events, not every payload",
+          "type": "provenance",
+          "source_refs": [
+            {
+              "family_id": "F35",
+              "field": "functional_contract.input",
+              "source_anchor": "FAMILY_GUIDE.en.md#F35",
+              "structured_source_anchor": "PUBLIC_CONCEPTS.json#/entries/34/functional_contract/input"
+            },
+            {
+              "family_id": "F35",
+              "field": "authority_boundary",
+              "source_anchor": "FAMILY_GUIDE.en.md#F35",
+              "structured_source_anchor": "PUBLIC_CONCEPTS.json#/entries/34/authority_boundary"
+            }
+          ],
+          "implementation_status": "declared_intended_not_implemented",
+          "join_basis": "editorial mapping of declared input/output and owner responsibilities, not a demonstrated runtime connection",
+          "condition": null
+        },
+        {
+          "from": "material",
+          "to": "posture",
+          "label": "proposed memory intent and review evidence",
+          "type": "data",
+          "source_refs": [
+            {
+              "family_id": "F48",
+              "field": "functional_contract.output",
+              "source_anchor": "FAMILY_GUIDE.en.md#F48",
+              "structured_source_anchor": "PUBLIC_CONCEPTS.json#/entries/47/functional_contract/output"
+            },
+            {
+              "family_id": "F85",
+              "field": "functional_contract.input",
+              "source_anchor": "FAMILY_GUIDE.en.md#F85",
+              "structured_source_anchor": "PUBLIC_CONCEPTS.json#/entries/84/functional_contract/input"
+            }
+          ],
+          "implementation_status": "declared_intended_not_implemented",
+          "join_basis": "editorial mapping of declared input/output and owner responsibilities, not a demonstrated runtime connection",
+          "condition": null
+        },
+        {
+          "from": "posture",
+          "to": "owner",
+          "label": "candidate posture; separate transaction decision",
+          "type": "data",
+          "source_refs": [
+            {
+              "family_id": "F85",
+              "field": "functional_contract.intended_consumer",
+              "source_anchor": "FAMILY_GUIDE.en.md#F85",
+              "structured_source_anchor": "PUBLIC_CONCEPTS.json#/entries/84/functional_contract/intended_consumer"
+            },
+            {
+              "family_id": "F85",
+              "field": "controlling_owner",
+              "source_anchor": "FAMILY_GUIDE.en.md#F85",
+              "structured_source_anchor": "PUBLIC_CONCEPTS.json#/entries/84/controlling_owner"
+            }
+          ],
+          "implementation_status": "declared_intended_not_implemented",
+          "join_basis": "editorial mapping of declared input/output and owner responsibilities, not a demonstrated runtime connection",
+          "condition": null
+        },
+        {
+          "from": "owner",
+          "to": "index",
+          "label": "only eligible retained lineage and query scope",
+          "type": "data",
+          "source_refs": [
+            {
+              "family_id": "F13",
+              "field": "functional_contract.output",
+              "source_anchor": "FAMILY_GUIDE.en.md#F13",
+              "structured_source_anchor": "PUBLIC_CONCEPTS.json#/entries/12/functional_contract/output"
+            },
+            {
+              "family_id": "F68",
+              "field": "functional_contract.input",
+              "source_anchor": "FAMILY_GUIDE.en.md#F68",
+              "structured_source_anchor": "PUBLIC_CONCEPTS.json#/entries/67/functional_contract/input"
+            }
+          ],
+          "implementation_status": "declared_intended_not_implemented",
+          "join_basis": "editorial mapping of declared input/output and owner responsibilities, not a demonstrated runtime connection",
+          "condition": null
+        },
+        {
+          "from": "index",
+          "to": "retrieve",
+          "label": "eligible provenance / candidates / reasons",
+          "type": "data",
+          "source_refs": [
+            {
+              "family_id": "F68",
+              "field": "functional_contract.intended_consumer",
+              "source_anchor": "FAMILY_GUIDE.en.md#F68",
+              "structured_source_anchor": "PUBLIC_CONCEPTS.json#/entries/67/functional_contract/intended_consumer"
+            },
+            {
+              "family_id": "F84",
+              "field": "functional_contract.input",
+              "source_anchor": "FAMILY_GUIDE.en.md#F84",
+              "structured_source_anchor": "PUBLIC_CONCEPTS.json#/entries/83/functional_contract/input"
+            }
+          ],
+          "implementation_status": "declared_intended_not_implemented",
+          "join_basis": "editorial mapping of declared input/output and owner responsibilities, not a demonstrated runtime connection",
+          "condition": null
+        },
+        {
+          "from": "retrieve",
+          "to": "use",
+          "label": "candidate packet and proposed-use trace",
+          "type": "data",
+          "source_refs": [
+            {
+              "family_id": "F84",
+              "field": "functional_contract.output",
+              "source_anchor": "FAMILY_GUIDE.en.md#F84",
+              "structured_source_anchor": "PUBLIC_CONCEPTS.json#/entries/83/functional_contract/output"
+            },
+            {
+              "family_id": "F81",
+              "field": "functional_contract.input",
+              "source_anchor": "FAMILY_GUIDE.en.md#F81",
+              "structured_source_anchor": "PUBLIC_CONCEPTS.json#/entries/80/functional_contract/input"
+            }
+          ],
+          "implementation_status": "declared_intended_not_implemented",
+          "join_basis": "editorial mapping of declared input/output and owner responsibilities, not a demonstrated runtime connection",
+          "condition": null
+        },
+        {
+          "from": "use",
+          "to": "consumer",
+          "label": "only currently authorized purpose-bound use",
+          "type": "control",
+          "source_refs": [
+            {
+              "family_id": "F81",
+              "field": "functional_contract.intended_consumer",
+              "source_anchor": "FAMILY_GUIDE.en.md#F81",
+              "structured_source_anchor": "PUBLIC_CONCEPTS.json#/entries/80/functional_contract/intended_consumer"
+            },
+            {
+              "family_id": "F81",
+              "field": "controlling_owner",
+              "source_anchor": "FAMILY_GUIDE.en.md#F81",
+              "structured_source_anchor": "PUBLIC_CONCEPTS.json#/entries/80/controlling_owner"
+            }
+          ],
+          "implementation_status": "declared_intended_not_implemented",
+          "join_basis": "editorial mapping of declared input/output and owner responsibilities, not a demonstrated runtime connection",
+          "condition": null
+        },
+        {
+          "from": "consumer",
+          "to": "influence",
+          "label": "returned identity and declared use evidence",
+          "type": "provenance",
+          "source_refs": [
+            {
+              "family_id": "F82",
+              "field": "functional_contract.input",
+              "source_anchor": "FAMILY_GUIDE.en.md#F82",
+              "structured_source_anchor": "PUBLIC_CONCEPTS.json#/entries/81/functional_contract/input"
+            }
+          ],
+          "implementation_status": "declared_intended_not_implemented",
+          "join_basis": "editorial mapping of declared input/output and owner responsibilities, not a demonstrated runtime connection",
+          "condition": null
+        },
+        {
+          "from": "influence",
+          "to": "posture",
+          "label": "findings for separately authorized correction",
+          "type": "data",
+          "source_refs": [
+            {
+              "family_id": "F82",
+              "field": "functional_contract.intended_consumer",
+              "source_anchor": "FAMILY_GUIDE.en.md#F82",
+              "structured_source_anchor": "PUBLIC_CONCEPTS.json#/entries/81/functional_contract/intended_consumer"
+            },
+            {
+              "family_id": "F85",
+              "field": "functional_contract.input",
+              "source_anchor": "FAMILY_GUIDE.en.md#F85",
+              "structured_source_anchor": "PUBLIC_CONCEPTS.json#/entries/84/functional_contract/input"
+            }
+          ],
+          "implementation_status": "declared_intended_not_implemented",
+          "join_basis": "editorial mapping of declared input/output and owner responsibilities, not a demonstrated runtime connection",
+          "condition": "Correction is a new governed proposal, not an automatic memory update."
+        },
+        {
+          "from": "index",
+          "to": "lifecycle",
+          "label": "retained graph, dependencies and recommendation",
+          "type": "data",
+          "source_refs": [
+            {
+              "family_id": "F68",
+              "field": "functional_contract.output",
+              "source_anchor": "FAMILY_GUIDE.en.md#F68",
+              "structured_source_anchor": "PUBLIC_CONCEPTS.json#/entries/67/functional_contract/output"
+            },
+            {
+              "family_id": "F69",
+              "field": "functional_contract.input",
+              "source_anchor": "FAMILY_GUIDE.en.md#F69",
+              "structured_source_anchor": "PUBLIC_CONCEPTS.json#/entries/68/functional_contract/input"
+            }
+          ],
+          "implementation_status": "declared_intended_not_implemented",
+          "join_basis": "editorial mapping of declared input/output and owner responsibilities, not a demonstrated runtime connection",
+          "condition": null
+        },
+        {
+          "from": "lifecycle",
+          "to": "owner",
+          "label": "lifecycle plan; owner decides actual effect",
+          "type": "data",
+          "source_refs": [
+            {
+              "family_id": "F69",
+              "field": "functional_contract.output",
+              "source_anchor": "FAMILY_GUIDE.en.md#F69",
+              "structured_source_anchor": "PUBLIC_CONCEPTS.json#/entries/68/functional_contract/output"
+            },
+            {
+              "family_id": "F69",
+              "field": "controlling_owner",
+              "source_anchor": "FAMILY_GUIDE.en.md#F69",
+              "structured_source_anchor": "PUBLIC_CONCEPTS.json#/entries/68/controlling_owner"
+            }
+          ],
+          "implementation_status": "declared_intended_not_implemented",
+          "join_basis": "editorial mapping of declared input/output and owner responsibilities, not a demonstrated runtime connection",
+          "condition": null
+        },
+        {
+          "from": "owner",
+          "to": "use",
+          "label": "expiry / revocation and changed current permission",
+          "type": "control",
+          "source_refs": [
+            {
+              "family_id": "F13",
+              "field": "functional_contract.output",
+              "source_anchor": "FAMILY_GUIDE.en.md#F13",
+              "structured_source_anchor": "PUBLIC_CONCEPTS.json#/entries/12/functional_contract/output"
+            },
+            {
+              "family_id": "F69",
+              "field": "functional_contract.intended_consumer",
+              "source_anchor": "FAMILY_GUIDE.en.md#F69",
+              "structured_source_anchor": "PUBLIC_CONCEPTS.json#/entries/68/functional_contract/intended_consumer"
+            },
+            {
+              "family_id": "F81",
+              "field": "controlling_owner",
+              "source_anchor": "FAMILY_GUIDE.en.md#F81",
+              "structured_source_anchor": "PUBLIC_CONCEPTS.json#/entries/80/controlling_owner"
+            }
+          ],
+          "implementation_status": "declared_intended_not_implemented",
+          "join_basis": "editorial mapping of declared input/output and owner responsibilities, not a demonstrated runtime connection",
+          "condition": null
+        },
+        {
+          "from": "owner",
+          "to": "custody",
+          "label": "record permitted effects and unknowns",
+          "type": "provenance",
+          "source_refs": [
+            {
+              "family_id": "F69",
+              "field": "functional_contract.output",
+              "source_anchor": "FAMILY_GUIDE.en.md#F69",
+              "structured_source_anchor": "PUBLIC_CONCEPTS.json#/entries/68/functional_contract/output"
+            },
+            {
+              "family_id": "F35",
+              "field": "functional_contract.input",
+              "source_anchor": "FAMILY_GUIDE.en.md#F35",
+              "structured_source_anchor": "PUBLIC_CONCEPTS.json#/entries/34/functional_contract/input"
+            }
+          ],
+          "implementation_status": "declared_intended_not_implemented",
+          "join_basis": "editorial mapping of declared input/output and owner responsibilities, not a demonstrated runtime connection",
+          "condition": null
+        }
+      ],
+      "notes": [
+        "No edge from custody directly to optional memory exists: custody does not supply blanket PMR, context-injection or training permission.",
+        "Training and persistent model/profile updates are outside this flow and need separate authorization.",
+        "Native durable retention and complete dependency-aware lifecycle integration are not established by the source edition.",
+        "Revocation cannot guarantee erasure of already disclosed copies; a hash-only record cannot replay missing content."
+      ],
+      "rendering_hint": "Keep node family IDs visible; labels are references to primary module placements, not additional primary instances. Use data/control/provenance styles plus text labels; do not encode implementation maturity by edge color."
+    },
+    {
+      "id": "focus-three-node",
+      "title": "Three owners cooperating — intended example, not deployed proof",
+      "caption": "An illustrative requester, candidate contributor and reviewer cooperate through separate owner decisions. Roles are illustrative; no node is a sovereign global evaluator and no shared global memory is implied.",
+      "node_count": 9,
+      "nodes": [
+        {
+          "id": "a_request",
+          "label": "Node A: requester and bounded executive",
+          "family_ids": [
+            "F05",
+            "F19"
+          ],
+          "node_kind": "diagram_role_group_not_new_capability",
+          "role": "independently governed requesting node",
+          "notes": "Coordinates only within its delegation.",
+          "owner": "Node A owner",
+          "source_refs": [
+            {
+              "family_id": "F05",
+              "field": "functional_contract",
+              "source_anchor": "FAMILY_GUIDE.en.md#F05",
+              "structured_source_anchor": "PUBLIC_CONCEPTS.json#/entries/4/functional_contract"
+            },
+            {
+              "family_id": "F19",
+              "field": "functional_contract",
+              "source_anchor": "FAMILY_GUIDE.en.md#F19",
+              "structured_source_anchor": "PUBLIC_CONCEPTS.json#/entries/18/functional_contract"
+            }
+          ],
+          "reported_family_statuses": {
+            "F05": {
+              "label": "source_components",
+              "scope": "Selected current or historical source mechanisms exist; full current integration and user benefit are not established for this family."
+            },
+            "F19": {
+              "label": "source_components",
+              "scope": "Selected current or historical source mechanisms exist; full current integration and user benefit are not established for this family."
+            }
+          },
+          "implementation_status": "declared_intended_not_implemented"
+        },
+        {
+          "id": "a_release",
+          "label": "Node A: approve exact packet and audience",
+          "family_ids": [
+            "F37",
+            "F36"
+          ],
+          "node_kind": "diagram_role_group_not_new_capability",
+          "role": "requester disclosure decision",
+          "notes": "Confidential key release, if selected, has the additional F38 design boundary.",
+          "owner": "Node A disclosure/rightsholder boundary",
+          "source_refs": [
+            {
+              "family_id": "F37",
+              "field": "functional_contract",
+              "source_anchor": "FAMILY_GUIDE.en.md#F37",
+              "structured_source_anchor": "PUBLIC_CONCEPTS.json#/entries/36/functional_contract"
+            },
+            {
+              "family_id": "F36",
+              "field": "functional_contract",
+              "source_anchor": "FAMILY_GUIDE.en.md#F36",
+              "structured_source_anchor": "PUBLIC_CONCEPTS.json#/entries/35/functional_contract"
+            }
+          ],
+          "reported_family_statuses": {
+            "F37": {
+              "label": "source_components",
+              "scope": "Selected current or historical source mechanisms exist; full current integration and user benefit are not established for this family."
+            },
+            "F36": {
+              "label": "bounded_evidence",
+              "scope": "Selected synthetic peer components have bounded evidence; actual two-node exchange and three-node Wi-Fi cognition remain unproved."
+            }
+          },
+          "implementation_status": "declared_intended_not_implemented"
+        },
+        {
+          "id": "b_admit",
+          "label": "Node B: owner admission and reservation",
+          "family_ids": [
+            "F05",
+            "F36"
+          ],
+          "node_kind": "diagram_role_group_not_new_capability",
+          "role": "independent donor decision",
+          "notes": "May refuse, bound resources or stop under its own current policy.",
+          "owner": "Node B resource owner",
+          "source_refs": [
+            {
+              "family_id": "F05",
+              "field": "functional_contract",
+              "source_anchor": "FAMILY_GUIDE.en.md#F05",
+              "structured_source_anchor": "PUBLIC_CONCEPTS.json#/entries/4/functional_contract"
+            },
+            {
+              "family_id": "F36",
+              "field": "functional_contract",
+              "source_anchor": "FAMILY_GUIDE.en.md#F36",
+              "structured_source_anchor": "PUBLIC_CONCEPTS.json#/entries/35/functional_contract"
+            }
+          ],
+          "reported_family_statuses": {
+            "F05": {
+              "label": "source_components",
+              "scope": "Selected current or historical source mechanisms exist; full current integration and user benefit are not established for this family."
+            },
+            "F36": {
+              "label": "bounded_evidence",
+              "scope": "Selected synthetic peer components have bounded evidence; actual two-node exchange and three-node Wi-Fi cognition remain unproved."
+            }
+          },
+          "implementation_status": "declared_intended_not_implemented"
+        },
+        {
+          "id": "b_work",
+          "label": "Node B: bounded candidate contribution",
+          "family_ids": [
+            "F07",
+            "F20"
+          ],
+          "node_kind": "diagram_role_group_not_new_capability",
+          "role": "illustrative candidate worker",
+          "notes": "Only admitted task; structured result and limitations.",
+          "owner": null,
+          "source_refs": [
+            {
+              "family_id": "F07",
+              "field": "functional_contract",
+              "source_anchor": "FAMILY_GUIDE.en.md#F07",
+              "structured_source_anchor": "PUBLIC_CONCEPTS.json#/entries/6/functional_contract"
+            },
+            {
+              "family_id": "F20",
+              "field": "functional_contract",
+              "source_anchor": "FAMILY_GUIDE.en.md#F20",
+              "structured_source_anchor": "PUBLIC_CONCEPTS.json#/entries/19/functional_contract"
+            }
+          ],
+          "reported_family_statuses": {
+            "F07": {
+              "label": "bounded_evidence",
+              "scope": "Structural and bounded conformance mechanisms exist; general semantic usefulness and the complete consumer loop remain unproved."
+            },
+            "F20": {
+              "label": "bounded_evidence",
+              "scope": "Selected cognitive-role cases have bounded evidence, not a complete live independent-model workflow."
+            }
+          },
+          "implementation_status": "declared_intended_not_implemented"
+        },
+        {
+          "id": "c_admit",
+          "label": "Node C: owner admission and reservation",
+          "family_ids": [
+            "F05",
+            "F36"
+          ],
+          "node_kind": "diagram_role_group_not_new_capability",
+          "role": "independent reviewer-node decision",
+          "notes": "Reviewer policy and resource limits remain local.",
+          "owner": "Node C resource owner",
+          "source_refs": [
+            {
+              "family_id": "F05",
+              "field": "functional_contract",
+              "source_anchor": "FAMILY_GUIDE.en.md#F05",
+              "structured_source_anchor": "PUBLIC_CONCEPTS.json#/entries/4/functional_contract"
+            },
+            {
+              "family_id": "F36",
+              "field": "functional_contract",
+              "source_anchor": "FAMILY_GUIDE.en.md#F36",
+              "structured_source_anchor": "PUBLIC_CONCEPTS.json#/entries/35/functional_contract"
+            }
+          ],
+          "reported_family_statuses": {
+            "F05": {
+              "label": "source_components",
+              "scope": "Selected current or historical source mechanisms exist; full current integration and user benefit are not established for this family."
+            },
+            "F36": {
+              "label": "bounded_evidence",
+              "scope": "Selected synthetic peer components have bounded evidence; actual two-node exchange and three-node Wi-Fi cognition remain unproved."
+            }
+          },
+          "implementation_status": "declared_intended_not_implemented"
+        },
+        {
+          "id": "c_review",
+          "label": "Node C: review the fixed candidate",
+          "family_ids": [
+            "F09"
+          ],
+          "node_kind": "diagram_role_group_not_new_capability",
+          "role": "illustrative attributable review worker",
+          "notes": "A role label alone does not prove reviewer independence.",
+          "owner": null,
+          "source_refs": [
+            {
+              "family_id": "F09",
+              "field": "functional_contract",
+              "source_anchor": "FAMILY_GUIDE.en.md#F09",
+              "structured_source_anchor": "PUBLIC_CONCEPTS.json#/entries/8/functional_contract"
+            }
+          ],
+          "reported_family_statuses": {
+            "F09": {
+              "label": "bounded_evidence",
+              "scope": "Selected evaluator connections have bounded evidence; live usefulness, independence and distributed review remain unproved."
+            }
+          },
+          "implementation_status": "declared_intended_not_implemented"
+        },
+        {
+          "id": "a_use",
+          "label": "Node A: current-use admission of peer data",
+          "family_ids": [
+            "F21"
+          ],
+          "node_kind": "diagram_role_group_not_new_capability",
+          "role": "local receiving decision",
+          "notes": "Remote grant is not local current-use authority; reject ineligible input.",
+          "owner": "Node A receiving/current-use owner",
+          "source_refs": [
+            {
+              "family_id": "F21",
+              "field": "functional_contract",
+              "source_anchor": "FAMILY_GUIDE.en.md#F21",
+              "structured_source_anchor": "PUBLIC_CONCEPTS.json#/entries/20/functional_contract"
+            }
+          ],
+          "reported_family_statuses": {
+            "F21": {
+              "label": "source_components",
+              "scope": "Scoped contribution components exist; a real physical-peer workflow still requires demonstration."
+            }
+          },
+          "implementation_status": "declared_intended_not_implemented"
+        },
+        {
+          "id": "a_result",
+          "label": "Node A: synthesis and Atlas orientation",
+          "family_ids": [
+            "F20",
+            "F10"
+          ],
+          "node_kind": "diagram_role_group_not_new_capability",
+          "role": "local result delivery",
+          "notes": "No automatic publication, cross-task retention or new external action.",
+          "owner": null,
+          "source_refs": [
+            {
+              "family_id": "F20",
+              "field": "functional_contract",
+              "source_anchor": "FAMILY_GUIDE.en.md#F20",
+              "structured_source_anchor": "PUBLIC_CONCEPTS.json#/entries/19/functional_contract"
+            },
+            {
+              "family_id": "F10",
+              "field": "functional_contract",
+              "source_anchor": "FAMILY_GUIDE.en.md#F10",
+              "structured_source_anchor": "PUBLIC_CONCEPTS.json#/entries/9/functional_contract"
+            }
+          ],
+          "reported_family_statuses": {
+            "F20": {
+              "label": "bounded_evidence",
+              "scope": "Selected cognitive-role cases have bounded evidence, not a complete live independent-model workflow."
+            },
+            "F10": {
+              "label": "source_components",
+              "scope": "Selected current or historical source mechanisms exist; full current integration and user benefit are not established for this family."
+            }
+          },
+          "implementation_status": "declared_intended_not_implemented"
+        },
+        {
+          "id": "histories",
+          "label": "Each node: local custody and reconciliation",
+          "family_ids": [
+            "F35",
+            "F60"
+          ],
+          "node_kind": "diagram_role_group_not_new_capability",
+          "role": "separate owner histories; scoped reconciliation",
+          "notes": "Not one central unrestricted journal; retain missing and unknown outcomes.",
+          "owner": null,
+          "source_refs": [
+            {
+              "family_id": "F35",
+              "field": "functional_contract",
+              "source_anchor": "FAMILY_GUIDE.en.md#F35",
+              "structured_source_anchor": "PUBLIC_CONCEPTS.json#/entries/34/functional_contract"
+            },
+            {
+              "family_id": "F60",
+              "field": "functional_contract",
+              "source_anchor": "FAMILY_GUIDE.en.md#F60",
+              "structured_source_anchor": "PUBLIC_CONCEPTS.json#/entries/59/functional_contract"
+            }
+          ],
+          "reported_family_statuses": {
+            "F35": {
+              "label": "bounded_evidence",
+              "scope": "Selected native and portable custody paths have bounded evidence; full protected installed ownership remains separate."
+            },
+            "F60": {
+              "label": "research_or_unresolved",
+              "scope": "A preserved research, optional or incompletely reconciled responsibility; exact current implementation and benefit remain unresolved."
+            }
+          },
+          "implementation_status": "declared_intended_not_implemented"
+        }
+      ],
+      "edges": [
+        {
+          "from": "a_request",
+          "to": "a_release",
+          "label": "finite task and proposed disclosure",
+          "type": "data",
+          "source_refs": [
+            {
+              "family_id": "F19",
+              "field": "functional_contract.output",
+              "source_anchor": "FAMILY_GUIDE.en.md#F19",
+              "structured_source_anchor": "PUBLIC_CONCEPTS.json#/entries/18/functional_contract/output"
+            },
+            {
+              "family_id": "F36",
+              "field": "functional_contract.input",
+              "source_anchor": "FAMILY_GUIDE.en.md#F36",
+              "structured_source_anchor": "PUBLIC_CONCEPTS.json#/entries/35/functional_contract/input"
+            },
+            {
+              "family_id": "F37",
+              "field": "functional_contract.input",
+              "source_anchor": "FAMILY_GUIDE.en.md#F37",
+              "structured_source_anchor": "PUBLIC_CONCEPTS.json#/entries/36/functional_contract/input"
+            }
+          ],
+          "implementation_status": "declared_intended_not_implemented",
+          "join_basis": "editorial mapping of declared input/output and owner responsibilities, not a demonstrated runtime connection",
+          "condition": null
+        },
+        {
+          "from": "a_release",
+          "to": "b_admit",
+          "label": "approved bounded request to Node B",
+          "type": "data",
+          "source_refs": [
+            {
+              "family_id": "F36",
+              "field": "functional_contract.input",
+              "source_anchor": "FAMILY_GUIDE.en.md#F36",
+              "structured_source_anchor": "PUBLIC_CONCEPTS.json#/entries/35/functional_contract/input"
+            },
+            {
+              "family_id": "F36",
+              "field": "controlling_owner",
+              "source_anchor": "FAMILY_GUIDE.en.md#F36",
+              "structured_source_anchor": "PUBLIC_CONCEPTS.json#/entries/35/controlling_owner"
+            },
+            {
+              "family_id": "F37",
+              "field": "controlling_owner",
+              "source_anchor": "FAMILY_GUIDE.en.md#F37",
+              "structured_source_anchor": "PUBLIC_CONCEPTS.json#/entries/36/controlling_owner"
+            }
+          ],
+          "implementation_status": "declared_intended_not_implemented",
+          "join_basis": "editorial mapping of declared input/output and owner responsibilities, not a demonstrated runtime connection",
+          "condition": null
+        },
+        {
+          "from": "b_admit",
+          "to": "b_work",
+          "label": "Node B admits and reserves its own resources",
+          "type": "control",
+          "source_refs": [
+            {
+              "family_id": "F36",
+              "field": "controlling_owner",
+              "source_anchor": "FAMILY_GUIDE.en.md#F36",
+              "structured_source_anchor": "PUBLIC_CONCEPTS.json#/entries/35/controlling_owner"
+            },
+            {
+              "family_id": "F05",
+              "field": "functional_contract.output",
+              "source_anchor": "FAMILY_GUIDE.en.md#F05",
+              "structured_source_anchor": "PUBLIC_CONCEPTS.json#/entries/4/functional_contract/output"
+            }
+          ],
+          "implementation_status": "declared_intended_not_implemented",
+          "join_basis": "editorial mapping of declared input/output and owner responsibilities, not a demonstrated runtime connection",
+          "condition": null
+        },
+        {
+          "from": "b_work",
+          "to": "a_use",
+          "label": "permitted candidate packet and native proof",
+          "type": "data",
+          "source_refs": [
+            {
+              "family_id": "F36",
+              "field": "functional_contract.output",
+              "source_anchor": "FAMILY_GUIDE.en.md#F36",
+              "structured_source_anchor": "PUBLIC_CONCEPTS.json#/entries/35/functional_contract/output"
+            },
+            {
+              "family_id": "F21",
+              "field": "functional_contract.input",
+              "source_anchor": "FAMILY_GUIDE.en.md#F21",
+              "structured_source_anchor": "PUBLIC_CONCEPTS.json#/entries/20/functional_contract/input"
+            }
+          ],
+          "implementation_status": "declared_intended_not_implemented",
+          "join_basis": "editorial mapping of declared input/output and owner responsibilities, not a demonstrated runtime connection",
+          "condition": null
+        },
+        {
+          "from": "a_use",
+          "to": "a_release",
+          "label": "eligible fixed candidate for separate review release",
+          "type": "data",
+          "source_refs": [
+            {
+              "family_id": "F21",
+              "field": "functional_contract.output",
+              "source_anchor": "FAMILY_GUIDE.en.md#F21",
+              "structured_source_anchor": "PUBLIC_CONCEPTS.json#/entries/20/functional_contract/output"
+            },
+            {
+              "family_id": "F37",
+              "field": "functional_contract.input",
+              "source_anchor": "FAMILY_GUIDE.en.md#F37",
+              "structured_source_anchor": "PUBLIC_CONCEPTS.json#/entries/36/functional_contract/input"
+            }
+          ],
+          "implementation_status": "declared_intended_not_implemented",
+          "join_basis": "editorial mapping of declared input/output and owner responsibilities, not a demonstrated runtime connection",
+          "condition": "Node A independently authorizes a new exact audience/purpose release; reception is not release permission."
+        },
+        {
+          "from": "a_release",
+          "to": "c_admit",
+          "label": "separately approved fixed-candidate review packet",
+          "type": "data",
+          "source_refs": [
+            {
+              "family_id": "F37",
+              "field": "functional_contract.input",
+              "source_anchor": "FAMILY_GUIDE.en.md#F37",
+              "structured_source_anchor": "PUBLIC_CONCEPTS.json#/entries/36/functional_contract/input"
+            },
+            {
+              "family_id": "F09",
+              "field": "functional_contract.input",
+              "source_anchor": "FAMILY_GUIDE.en.md#F09",
+              "structured_source_anchor": "PUBLIC_CONCEPTS.json#/entries/8/functional_contract/input"
+            },
+            {
+              "family_id": "F36",
+              "field": "controlling_owner",
+              "source_anchor": "FAMILY_GUIDE.en.md#F36",
+              "structured_source_anchor": "PUBLIC_CONCEPTS.json#/entries/35/controlling_owner"
+            }
+          ],
+          "implementation_status": "declared_intended_not_implemented",
+          "join_basis": "editorial mapping of declared input/output and owner responsibilities, not a demonstrated runtime connection",
+          "condition": null
+        },
+        {
+          "from": "c_admit",
+          "to": "c_review",
+          "label": "Node C admits review within local limits",
+          "type": "control",
+          "source_refs": [
+            {
+              "family_id": "F36",
+              "field": "controlling_owner",
+              "source_anchor": "FAMILY_GUIDE.en.md#F36",
+              "structured_source_anchor": "PUBLIC_CONCEPTS.json#/entries/35/controlling_owner"
+            },
+            {
+              "family_id": "F05",
+              "field": "functional_contract.output",
+              "source_anchor": "FAMILY_GUIDE.en.md#F05",
+              "structured_source_anchor": "PUBLIC_CONCEPTS.json#/entries/4/functional_contract/output"
+            }
+          ],
+          "implementation_status": "declared_intended_not_implemented",
+          "join_basis": "editorial mapping of declared input/output and owner responsibilities, not a demonstrated runtime connection",
+          "condition": null
+        },
+        {
+          "from": "c_review",
+          "to": "a_use",
+          "label": "permitted attributed findings and limitations",
+          "type": "data",
+          "source_refs": [
+            {
+              "family_id": "F09",
+              "field": "functional_contract.output",
+              "source_anchor": "FAMILY_GUIDE.en.md#F09",
+              "structured_source_anchor": "PUBLIC_CONCEPTS.json#/entries/8/functional_contract/output"
+            },
+            {
+              "family_id": "F21",
+              "field": "functional_contract.input",
+              "source_anchor": "FAMILY_GUIDE.en.md#F21",
+              "structured_source_anchor": "PUBLIC_CONCEPTS.json#/entries/20/functional_contract/input"
+            }
+          ],
+          "implementation_status": "declared_intended_not_implemented",
+          "join_basis": "editorial mapping of declared input/output and owner responsibilities, not a demonstrated runtime connection",
+          "condition": null
+        },
+        {
+          "from": "a_use",
+          "to": "a_result",
+          "label": "only locally admitted contributions",
+          "type": "data",
+          "source_refs": [
+            {
+              "family_id": "F21",
+              "field": "functional_contract.intended_consumer",
+              "source_anchor": "FAMILY_GUIDE.en.md#F21",
+              "structured_source_anchor": "PUBLIC_CONCEPTS.json#/entries/20/functional_contract/intended_consumer"
+            },
+            {
+              "family_id": "F20",
+              "field": "functional_contract.input",
+              "source_anchor": "FAMILY_GUIDE.en.md#F20",
+              "structured_source_anchor": "PUBLIC_CONCEPTS.json#/entries/19/functional_contract/input"
+            },
+            {
+              "family_id": "F10",
+              "field": "functional_contract.input",
+              "source_anchor": "FAMILY_GUIDE.en.md#F10",
+              "structured_source_anchor": "PUBLIC_CONCEPTS.json#/entries/9/functional_contract/input"
+            }
+          ],
+          "implementation_status": "declared_intended_not_implemented",
+          "join_basis": "editorial mapping of declared input/output and owner responsibilities, not a demonstrated runtime connection",
+          "condition": null
+        },
+        {
+          "from": "b_admit",
+          "to": "histories",
+          "label": "Node B observed decisions and outcomes",
+          "type": "provenance",
+          "source_refs": [
+            {
+              "family_id": "F35",
+              "field": "functional_contract.input",
+              "source_anchor": "FAMILY_GUIDE.en.md#F35",
+              "structured_source_anchor": "PUBLIC_CONCEPTS.json#/entries/34/functional_contract/input"
+            },
+            {
+              "family_id": "F60",
+              "field": "functional_contract.input",
+              "source_anchor": "FAMILY_GUIDE.en.md#F60",
+              "structured_source_anchor": "PUBLIC_CONCEPTS.json#/entries/59/functional_contract/input"
+            }
+          ],
+          "implementation_status": "declared_intended_not_implemented",
+          "join_basis": "editorial mapping of declared input/output and owner responsibilities, not a demonstrated runtime connection",
+          "condition": null
+        },
+        {
+          "from": "c_admit",
+          "to": "histories",
+          "label": "Node C observed decisions and outcomes",
+          "type": "provenance",
+          "source_refs": [
+            {
+              "family_id": "F35",
+              "field": "functional_contract.input",
+              "source_anchor": "FAMILY_GUIDE.en.md#F35",
+              "structured_source_anchor": "PUBLIC_CONCEPTS.json#/entries/34/functional_contract/input"
+            },
+            {
+              "family_id": "F60",
+              "field": "functional_contract.input",
+              "source_anchor": "FAMILY_GUIDE.en.md#F60",
+              "structured_source_anchor": "PUBLIC_CONCEPTS.json#/entries/59/functional_contract/input"
+            }
+          ],
+          "implementation_status": "declared_intended_not_implemented",
+          "join_basis": "editorial mapping of declared input/output and owner responsibilities, not a demonstrated runtime connection",
+          "condition": null
+        },
+        {
+          "from": "a_use",
+          "to": "histories",
+          "label": "Node A admitted/rejected/unknown outcomes",
+          "type": "provenance",
+          "source_refs": [
+            {
+              "family_id": "F35",
+              "field": "functional_contract.input",
+              "source_anchor": "FAMILY_GUIDE.en.md#F35",
+              "structured_source_anchor": "PUBLIC_CONCEPTS.json#/entries/34/functional_contract/input"
+            },
+            {
+              "family_id": "F60",
+              "field": "functional_contract.output",
+              "source_anchor": "FAMILY_GUIDE.en.md#F60",
+              "structured_source_anchor": "PUBLIC_CONCEPTS.json#/entries/59/functional_contract/output"
+            }
+          ],
+          "implementation_status": "declared_intended_not_implemented",
+          "join_basis": "editorial mapping of declared input/output and owner responsibilities, not a demonstrated runtime connection",
+          "condition": null
+        }
+      ],
+      "notes": [
+        "Actual two-node exchange and three-node Wi-Fi cognition remain unproved in the source edition; synthetic peer components do not establish this deployment.",
+        "Each node retains local control, resources, custody and permitted disclosure; no shared account, unlimited global RAM or universally writable drive is implied.",
+        "Cognitive roles may be placed differently; A/B/C placement is an explicitly illustrative architecture proposal, not a mandated deployment or proof of physical independence.",
+        "F38 confidential release is optional design work with a specific key-owner/hardware boundary; ordinary transport security is not proof against a hostile privileged host.",
+        "No direct Node B-to-Node C transfer is shown: the candidate is admitted locally and separately authorized for the reviewer audience.",
+        "F79 is absent: it is a historical testing document, not a Brain capability or a heat-system implementation roadmap."
+      ],
+      "rendering_hint": "Keep node family IDs visible; labels are references to primary module placements, not additional primary instances. Use data/control/provenance styles plus text labels; do not encode implementation maturity by edge color."
+    }
+  ]
+}

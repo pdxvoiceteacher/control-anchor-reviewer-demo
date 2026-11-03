@@ -1,0 +1,2009 @@
+{
+  "schema_id": "triadic-brain.module-flow-edges.v1",
+  "edges": [
+    {
+      "id": "01-sonya-L1-E1",
+      "diagram": "01-sonya",
+      "from": "Human",
+      "to": "F03",
+      "label": "gestures / settings",
+      "type": "data",
+      "status": "declared_intended_not_implementation_evidence",
+      "placement_or_sequence_status": "proposed editorial composition; exact adapter/current consumer may remain unresolved",
+      "source_refs": [
+        {
+          "id": "F03",
+          "public_anchor": "FAMILY_GUIDE.en.md#F03",
+          "fields": [
+            "functional_contract",
+            "authority_boundary",
+            "remaining_join"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "01-sonya-L1-E2",
+      "diagram": "01-sonya",
+      "from": "F03",
+      "to": "F04",
+      "label": "bounded request",
+      "type": "data",
+      "status": "declared_intended_not_implementation_evidence",
+      "placement_or_sequence_status": "proposed editorial composition; exact adapter/current consumer may remain unresolved",
+      "source_refs": [
+        {
+          "id": "F03",
+          "public_anchor": "FAMILY_GUIDE.en.md#F03",
+          "fields": [
+            "functional_contract",
+            "authority_boundary",
+            "remaining_join"
+          ]
+        },
+        {
+          "id": "F04",
+          "public_anchor": "FAMILY_GUIDE.en.md#F04",
+          "fields": [
+            "functional_contract",
+            "authority_boundary",
+            "remaining_join"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "01-sonya-L2-E1",
+      "diagram": "01-sonya",
+      "from": "F05",
+      "to": "F23",
+      "label": "owner scope",
+      "type": "control",
+      "status": "declared_intended_not_implementation_evidence",
+      "placement_or_sequence_status": "proposed editorial composition; exact adapter/current consumer may remain unresolved",
+      "source_refs": [
+        {
+          "id": "F05",
+          "public_anchor": "FAMILY_GUIDE.en.md#F05",
+          "fields": [
+            "functional_contract",
+            "authority_boundary",
+            "remaining_join"
+          ]
+        },
+        {
+          "id": "F23",
+          "public_anchor": "FAMILY_GUIDE.en.md#F23",
+          "fields": [
+            "functional_contract",
+            "authority_boundary",
+            "remaining_join"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "01-sonya-L2-E2",
+      "diagram": "01-sonya",
+      "from": "F23",
+      "to": "F19",
+      "label": "permitted scope",
+      "type": "control",
+      "status": "declared_intended_not_implementation_evidence",
+      "placement_or_sequence_status": "proposed editorial composition; exact adapter/current consumer may remain unresolved",
+      "source_refs": [
+        {
+          "id": "F23",
+          "public_anchor": "FAMILY_GUIDE.en.md#F23",
+          "fields": [
+            "functional_contract",
+            "authority_boundary",
+            "remaining_join"
+          ]
+        },
+        {
+          "id": "F19",
+          "public_anchor": "FAMILY_GUIDE.en.md#F19",
+          "fields": [
+            "functional_contract",
+            "authority_boundary",
+            "remaining_join"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "01-sonya-L3-E1",
+      "diagram": "01-sonya",
+      "from": "F35",
+      "to": "F67",
+      "label": "bounded observations",
+      "type": "provenance",
+      "status": "declared_intended_not_implementation_evidence",
+      "placement_or_sequence_status": "proposed editorial composition; exact adapter/current consumer may remain unresolved",
+      "source_refs": [
+        {
+          "id": "F35",
+          "public_anchor": "FAMILY_GUIDE.en.md#F35",
+          "fields": [
+            "functional_contract",
+            "authority_boundary",
+            "remaining_join"
+          ]
+        },
+        {
+          "id": "F67",
+          "public_anchor": "FAMILY_GUIDE.en.md#F67",
+          "fields": [
+            "functional_contract",
+            "authority_boundary",
+            "remaining_join"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "01-sonya-L3-E2",
+      "diagram": "01-sonya",
+      "from": "F67",
+      "to": "Human",
+      "label": "inspect / correct / exit",
+      "type": "data",
+      "status": "declared_intended_not_implementation_evidence",
+      "placement_or_sequence_status": "proposed editorial composition; exact adapter/current consumer may remain unresolved",
+      "source_refs": [
+        {
+          "id": "F67",
+          "public_anchor": "FAMILY_GUIDE.en.md#F67",
+          "fields": [
+            "functional_contract",
+            "authority_boundary",
+            "remaining_join"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "02-executive-L1-E1",
+      "diagram": "02-executive",
+      "from": "F19",
+      "to": "F47",
+      "label": "authorized goal",
+      "type": "data",
+      "status": "declared_intended_not_implementation_evidence",
+      "placement_or_sequence_status": "proposed editorial composition; exact adapter/current consumer may remain unresolved",
+      "source_refs": [
+        {
+          "id": "F19",
+          "public_anchor": "FAMILY_GUIDE.en.md#F19",
+          "fields": [
+            "functional_contract",
+            "authority_boundary",
+            "remaining_join"
+          ]
+        },
+        {
+          "id": "F47",
+          "public_anchor": "FAMILY_GUIDE.en.md#F47",
+          "fields": [
+            "functional_contract",
+            "authority_boundary",
+            "remaining_join"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "02-executive-L1-E2",
+      "diagram": "02-executive",
+      "from": "F47",
+      "to": "F20",
+      "label": "finite plan / context",
+      "type": "data",
+      "status": "declared_intended_not_implementation_evidence",
+      "placement_or_sequence_status": "proposed editorial composition; exact adapter/current consumer may remain unresolved",
+      "source_refs": [
+        {
+          "id": "F47",
+          "public_anchor": "FAMILY_GUIDE.en.md#F47",
+          "fields": [
+            "functional_contract",
+            "authority_boundary",
+            "remaining_join"
+          ]
+        },
+        {
+          "id": "F20",
+          "public_anchor": "FAMILY_GUIDE.en.md#F20",
+          "fields": [
+            "functional_contract",
+            "authority_boundary",
+            "remaining_join"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "02-executive-L2-E1",
+      "diagram": "02-executive",
+      "from": "F64",
+      "to": "F39",
+      "label": "capability limits",
+      "type": "control",
+      "status": "declared_intended_not_implementation_evidence",
+      "placement_or_sequence_status": "proposed editorial composition; exact adapter/current consumer may remain unresolved",
+      "source_refs": [
+        {
+          "id": "F64",
+          "public_anchor": "FAMILY_GUIDE.en.md#F64",
+          "fields": [
+            "functional_contract",
+            "authority_boundary",
+            "remaining_join"
+          ]
+        },
+        {
+          "id": "F39",
+          "public_anchor": "FAMILY_GUIDE.en.md#F39",
+          "fields": [
+            "functional_contract",
+            "authority_boundary",
+            "remaining_join"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "02-executive-L2-E2",
+      "diagram": "02-executive",
+      "from": "F39",
+      "to": "F83",
+      "label": "budgeted proposal",
+      "type": "data",
+      "status": "declared_intended_not_implementation_evidence",
+      "placement_or_sequence_status": "proposed editorial composition; exact adapter/current consumer may remain unresolved",
+      "source_refs": [
+        {
+          "id": "F39",
+          "public_anchor": "FAMILY_GUIDE.en.md#F39",
+          "fields": [
+            "functional_contract",
+            "authority_boundary",
+            "remaining_join"
+          ]
+        },
+        {
+          "id": "F83",
+          "public_anchor": "FAMILY_GUIDE.en.md#F83",
+          "fields": [
+            "functional_contract",
+            "authority_boundary",
+            "remaining_join"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "02-executive-L3-E1",
+      "diagram": "02-executive",
+      "from": "F56",
+      "to": "F47",
+      "label": "state hypothesis",
+      "type": "data",
+      "status": "declared_intended_not_implementation_evidence",
+      "placement_or_sequence_status": "proposed editorial composition; exact adapter/current consumer may remain unresolved",
+      "source_refs": [
+        {
+          "id": "F56",
+          "public_anchor": "FAMILY_GUIDE.en.md#F56",
+          "fields": [
+            "functional_contract",
+            "authority_boundary",
+            "remaining_join"
+          ]
+        },
+        {
+          "id": "F47",
+          "public_anchor": "FAMILY_GUIDE.en.md#F47",
+          "fields": [
+            "functional_contract",
+            "authority_boundary",
+            "remaining_join"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "02-executive-L3-E2",
+      "diagram": "02-executive",
+      "from": "F47",
+      "to": "F35",
+      "label": "versions / pending effects",
+      "type": "provenance",
+      "status": "declared_intended_not_implementation_evidence",
+      "placement_or_sequence_status": "proposed editorial composition; exact adapter/current consumer may remain unresolved",
+      "source_refs": [
+        {
+          "id": "F47",
+          "public_anchor": "FAMILY_GUIDE.en.md#F47",
+          "fields": [
+            "functional_contract",
+            "authority_boundary",
+            "remaining_join"
+          ]
+        },
+        {
+          "id": "F35",
+          "public_anchor": "FAMILY_GUIDE.en.md#F35",
+          "fields": [
+            "functional_contract",
+            "authority_boundary",
+            "remaining_join"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "03-coherence-L1-E1",
+      "diagram": "03-coherence",
+      "from": "F15",
+      "to": "F16",
+      "label": "typed native view",
+      "type": "data",
+      "status": "declared_intended_not_implementation_evidence",
+      "placement_or_sequence_status": "proposed editorial composition; exact adapter/current consumer may remain unresolved",
+      "source_refs": [
+        {
+          "id": "F15",
+          "public_anchor": "FAMILY_GUIDE.en.md#F15",
+          "fields": [
+            "functional_contract",
+            "authority_boundary",
+            "remaining_join"
+          ]
+        },
+        {
+          "id": "F16",
+          "public_anchor": "FAMILY_GUIDE.en.md#F16",
+          "fields": [
+            "functional_contract",
+            "authority_boundary",
+            "remaining_join"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "03-coherence-L1-E2",
+      "diagram": "03-coherence",
+      "from": "F16",
+      "to": "F07",
+      "label": "projection / residual",
+      "type": "data",
+      "status": "declared_intended_not_implementation_evidence",
+      "placement_or_sequence_status": "proposed editorial composition; exact adapter/current consumer may remain unresolved",
+      "source_refs": [
+        {
+          "id": "F16",
+          "public_anchor": "FAMILY_GUIDE.en.md#F16",
+          "fields": [
+            "functional_contract",
+            "authority_boundary",
+            "remaining_join"
+          ]
+        },
+        {
+          "id": "F07",
+          "public_anchor": "FAMILY_GUIDE.en.md#F07",
+          "fields": [
+            "functional_contract",
+            "authority_boundary",
+            "remaining_join"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "03-coherence-L2-E1",
+      "diagram": "03-coherence",
+      "from": "F17",
+      "to": "F18",
+      "label": "proposed bridge",
+      "type": "data",
+      "status": "declared_intended_not_implementation_evidence",
+      "placement_or_sequence_status": "proposed editorial composition; exact adapter/current consumer may remain unresolved",
+      "source_refs": [
+        {
+          "id": "F17",
+          "public_anchor": "FAMILY_GUIDE.en.md#F17",
+          "fields": [
+            "functional_contract",
+            "authority_boundary",
+            "remaining_join"
+          ]
+        },
+        {
+          "id": "F18",
+          "public_anchor": "FAMILY_GUIDE.en.md#F18",
+          "fields": [
+            "functional_contract",
+            "authority_boundary",
+            "remaining_join"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "03-coherence-L2-E2",
+      "diagram": "03-coherence",
+      "from": "F18",
+      "to": "F55",
+      "label": "target checks / evidence",
+      "type": "data",
+      "status": "declared_intended_not_implementation_evidence",
+      "placement_or_sequence_status": "proposed editorial composition; exact adapter/current consumer may remain unresolved",
+      "source_refs": [
+        {
+          "id": "F18",
+          "public_anchor": "FAMILY_GUIDE.en.md#F18",
+          "fields": [
+            "functional_contract",
+            "authority_boundary",
+            "remaining_join"
+          ]
+        },
+        {
+          "id": "F55",
+          "public_anchor": "FAMILY_GUIDE.en.md#F55",
+          "fields": [
+            "functional_contract",
+            "authority_boundary",
+            "remaining_join"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "03-coherence-L3-E1",
+      "diagram": "03-coherence",
+      "from": "F08",
+      "to": "F70",
+      "label": "bounded alternatives",
+      "type": "data",
+      "status": "declared_intended_not_implementation_evidence",
+      "placement_or_sequence_status": "proposed editorial composition; exact adapter/current consumer may remain unresolved",
+      "source_refs": [
+        {
+          "id": "F08",
+          "public_anchor": "FAMILY_GUIDE.en.md#F08",
+          "fields": [
+            "functional_contract",
+            "authority_boundary",
+            "remaining_join"
+          ]
+        },
+        {
+          "id": "F70",
+          "public_anchor": "FAMILY_GUIDE.en.md#F70",
+          "fields": [
+            "functional_contract",
+            "authority_boundary",
+            "remaining_join"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "03-coherence-L3-E2",
+      "diagram": "03-coherence",
+      "from": "F70",
+      "to": "F09",
+      "label": "relevant candidate",
+      "type": "data",
+      "status": "declared_intended_not_implementation_evidence",
+      "placement_or_sequence_status": "proposed editorial composition; exact adapter/current consumer may remain unresolved",
+      "source_refs": [
+        {
+          "id": "F70",
+          "public_anchor": "FAMILY_GUIDE.en.md#F70",
+          "fields": [
+            "functional_contract",
+            "authority_boundary",
+            "remaining_join"
+          ]
+        },
+        {
+          "id": "F09",
+          "public_anchor": "FAMILY_GUIDE.en.md#F09",
+          "fields": [
+            "functional_contract",
+            "authority_boundary",
+            "remaining_join"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "03-coherence-L4-E1",
+      "diagram": "03-coherence",
+      "from": "F53",
+      "to": "F49",
+      "label": "source-typed meaning",
+      "type": "control",
+      "status": "declared_intended_not_implementation_evidence",
+      "placement_or_sequence_status": "proposed editorial composition; exact adapter/current consumer may remain unresolved",
+      "source_refs": [
+        {
+          "id": "F53",
+          "public_anchor": "FAMILY_GUIDE.en.md#F53",
+          "fields": [
+            "functional_contract",
+            "authority_boundary",
+            "remaining_join"
+          ]
+        },
+        {
+          "id": "F49",
+          "public_anchor": "FAMILY_GUIDE.en.md#F49",
+          "fields": [
+            "functional_contract",
+            "authority_boundary",
+            "remaining_join"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "03-coherence-L4-E2",
+      "diagram": "03-coherence",
+      "from": "F49",
+      "to": "F50",
+      "label": "distinct limit findings",
+      "type": "data",
+      "status": "declared_intended_not_implementation_evidence",
+      "placement_or_sequence_status": "proposed editorial composition; exact adapter/current consumer may remain unresolved",
+      "source_refs": [
+        {
+          "id": "F49",
+          "public_anchor": "FAMILY_GUIDE.en.md#F49",
+          "fields": [
+            "functional_contract",
+            "authority_boundary",
+            "remaining_join"
+          ]
+        },
+        {
+          "id": "F50",
+          "public_anchor": "FAMILY_GUIDE.en.md#F50",
+          "fields": [
+            "functional_contract",
+            "authority_boundary",
+            "remaining_join"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "04-sophia-L1-E1",
+      "diagram": "04-sophia",
+      "from": "F74",
+      "to": "F09",
+      "label": "source-linked packet",
+      "type": "data",
+      "status": "declared_intended_not_implementation_evidence",
+      "placement_or_sequence_status": "proposed editorial composition; exact adapter/current consumer may remain unresolved",
+      "source_refs": [
+        {
+          "id": "F74",
+          "public_anchor": "FAMILY_GUIDE.en.md#F74",
+          "fields": [
+            "functional_contract",
+            "authority_boundary",
+            "remaining_join"
+          ]
+        },
+        {
+          "id": "F09",
+          "public_anchor": "FAMILY_GUIDE.en.md#F09",
+          "fields": [
+            "functional_contract",
+            "authority_boundary",
+            "remaining_join"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "04-sophia-L1-E2",
+      "diagram": "04-sophia",
+      "from": "F09",
+      "to": "F33",
+      "label": "attributable findings",
+      "type": "data",
+      "status": "declared_intended_not_implementation_evidence",
+      "placement_or_sequence_status": "proposed editorial composition; exact adapter/current consumer may remain unresolved",
+      "source_refs": [
+        {
+          "id": "F09",
+          "public_anchor": "FAMILY_GUIDE.en.md#F09",
+          "fields": [
+            "functional_contract",
+            "authority_boundary",
+            "remaining_join"
+          ]
+        },
+        {
+          "id": "F33",
+          "public_anchor": "FAMILY_GUIDE.en.md#F33",
+          "fields": [
+            "functional_contract",
+            "authority_boundary",
+            "remaining_join"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "04-sophia-L2-E1",
+      "diagram": "04-sophia",
+      "from": "F80",
+      "to": "F81",
+      "label": "question / scope limits",
+      "type": "control",
+      "status": "declared_intended_not_implementation_evidence",
+      "placement_or_sequence_status": "proposed editorial composition; exact adapter/current consumer may remain unresolved",
+      "source_refs": [
+        {
+          "id": "F80",
+          "public_anchor": "FAMILY_GUIDE.en.md#F80",
+          "fields": [
+            "functional_contract",
+            "authority_boundary",
+            "remaining_join"
+          ]
+        },
+        {
+          "id": "F81",
+          "public_anchor": "FAMILY_GUIDE.en.md#F81",
+          "fields": [
+            "functional_contract",
+            "authority_boundary",
+            "remaining_join"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "04-sophia-L2-E2",
+      "diagram": "04-sophia",
+      "from": "F81",
+      "to": "F82",
+      "label": "declared use evidence",
+      "type": "provenance",
+      "status": "declared_intended_not_implementation_evidence",
+      "placement_or_sequence_status": "proposed editorial composition; exact adapter/current consumer may remain unresolved",
+      "source_refs": [
+        {
+          "id": "F81",
+          "public_anchor": "FAMILY_GUIDE.en.md#F81",
+          "fields": [
+            "functional_contract",
+            "authority_boundary",
+            "remaining_join"
+          ]
+        },
+        {
+          "id": "F82",
+          "public_anchor": "FAMILY_GUIDE.en.md#F82",
+          "fields": [
+            "functional_contract",
+            "authority_boundary",
+            "remaining_join"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "04-sophia-L3-E1",
+      "diagram": "04-sophia",
+      "from": "F32",
+      "to": "F33",
+      "label": "selected profile only",
+      "type": "control",
+      "status": "declared_intended_not_implementation_evidence",
+      "placement_or_sequence_status": "proposed editorial composition; exact adapter/current consumer may remain unresolved",
+      "source_refs": [
+        {
+          "id": "F32",
+          "public_anchor": "FAMILY_GUIDE.en.md#F32",
+          "fields": [
+            "functional_contract",
+            "authority_boundary",
+            "remaining_join"
+          ]
+        },
+        {
+          "id": "F33",
+          "public_anchor": "FAMILY_GUIDE.en.md#F33",
+          "fields": [
+            "functional_contract",
+            "authority_boundary",
+            "remaining_join"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "04-sophia-L4-E1",
+      "diagram": "04-sophia",
+      "from": "F27",
+      "to": "F24",
+      "label": "separate findings",
+      "type": "data",
+      "status": "declared_intended_not_implementation_evidence",
+      "placement_or_sequence_status": "proposed editorial composition; exact adapter/current consumer may remain unresolved",
+      "source_refs": [
+        {
+          "id": "F27",
+          "public_anchor": "FAMILY_GUIDE.en.md#F27",
+          "fields": [
+            "functional_contract",
+            "authority_boundary",
+            "remaining_join"
+          ]
+        },
+        {
+          "id": "F24",
+          "public_anchor": "FAMILY_GUIDE.en.md#F24",
+          "fields": [
+            "functional_contract",
+            "authority_boundary",
+            "remaining_join"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "04-sophia-L5-E1",
+      "diagram": "04-sophia",
+      "from": "F34",
+      "to": "F58",
+      "label": "lens / counterpoints",
+      "type": "data",
+      "status": "declared_intended_not_implementation_evidence",
+      "placement_or_sequence_status": "proposed editorial composition; exact adapter/current consumer may remain unresolved",
+      "source_refs": [
+        {
+          "id": "F34",
+          "public_anchor": "FAMILY_GUIDE.en.md#F34",
+          "fields": [
+            "functional_contract",
+            "authority_boundary",
+            "remaining_join"
+          ]
+        },
+        {
+          "id": "F58",
+          "public_anchor": "FAMILY_GUIDE.en.md#F58",
+          "fields": [
+            "functional_contract",
+            "authority_boundary",
+            "remaining_join"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "04-sophia-L5-E2",
+      "diagram": "04-sophia",
+      "from": "F58",
+      "to": "F33",
+      "label": "attributable findings",
+      "type": "data",
+      "status": "declared_intended_not_implementation_evidence",
+      "placement_or_sequence_status": "proposed editorial composition; exact adapter/current consumer may remain unresolved",
+      "source_refs": [
+        {
+          "id": "F58",
+          "public_anchor": "FAMILY_GUIDE.en.md#F58",
+          "fields": [
+            "functional_contract",
+            "authority_boundary",
+            "remaining_join"
+          ]
+        },
+        {
+          "id": "F33",
+          "public_anchor": "FAMILY_GUIDE.en.md#F33",
+          "fields": [
+            "functional_contract",
+            "authority_boundary",
+            "remaining_join"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "05-atlas-L1-E1",
+      "diagram": "05-atlas",
+      "from": "F14",
+      "to": "F10",
+      "label": "bounded comparison",
+      "type": "data",
+      "status": "declared_intended_not_implementation_evidence",
+      "placement_or_sequence_status": "proposed editorial composition; exact adapter/current consumer may remain unresolved",
+      "source_refs": [
+        {
+          "id": "F14",
+          "public_anchor": "FAMILY_GUIDE.en.md#F14",
+          "fields": [
+            "functional_contract",
+            "authority_boundary",
+            "remaining_join"
+          ]
+        },
+        {
+          "id": "F10",
+          "public_anchor": "FAMILY_GUIDE.en.md#F10",
+          "fields": [
+            "functional_contract",
+            "authority_boundary",
+            "remaining_join"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "05-atlas-L1-E2",
+      "diagram": "05-atlas",
+      "from": "F10",
+      "to": "F11",
+      "label": "evaluated orientation",
+      "type": "data",
+      "status": "declared_intended_not_implementation_evidence",
+      "placement_or_sequence_status": "proposed editorial composition; exact adapter/current consumer may remain unresolved",
+      "source_refs": [
+        {
+          "id": "F10",
+          "public_anchor": "FAMILY_GUIDE.en.md#F10",
+          "fields": [
+            "functional_contract",
+            "authority_boundary",
+            "remaining_join"
+          ]
+        },
+        {
+          "id": "F11",
+          "public_anchor": "FAMILY_GUIDE.en.md#F11",
+          "fields": [
+            "functional_contract",
+            "authority_boundary",
+            "remaining_join"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "05-atlas-L2-E1",
+      "diagram": "05-atlas",
+      "from": "F13",
+      "to": "F68",
+      "label": "eligible retained records",
+      "type": "data",
+      "status": "declared_intended_not_implementation_evidence",
+      "placement_or_sequence_status": "proposed editorial composition; exact adapter/current consumer may remain unresolved",
+      "source_refs": [
+        {
+          "id": "F13",
+          "public_anchor": "FAMILY_GUIDE.en.md#F13",
+          "fields": [
+            "functional_contract",
+            "authority_boundary",
+            "remaining_join"
+          ]
+        },
+        {
+          "id": "F68",
+          "public_anchor": "FAMILY_GUIDE.en.md#F68",
+          "fields": [
+            "functional_contract",
+            "authority_boundary",
+            "remaining_join"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "05-atlas-L2-E2",
+      "diagram": "05-atlas",
+      "from": "F68",
+      "to": "F84",
+      "label": "purpose-bound query",
+      "type": "data",
+      "status": "declared_intended_not_implementation_evidence",
+      "placement_or_sequence_status": "proposed editorial composition; exact adapter/current consumer may remain unresolved",
+      "source_refs": [
+        {
+          "id": "F68",
+          "public_anchor": "FAMILY_GUIDE.en.md#F68",
+          "fields": [
+            "functional_contract",
+            "authority_boundary",
+            "remaining_join"
+          ]
+        },
+        {
+          "id": "F84",
+          "public_anchor": "FAMILY_GUIDE.en.md#F84",
+          "fields": [
+            "functional_contract",
+            "authority_boundary",
+            "remaining_join"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "05-atlas-L3-E1",
+      "diagram": "05-atlas",
+      "from": "F48",
+      "to": "F85",
+      "label": "role-specific candidate",
+      "type": "data",
+      "status": "declared_intended_not_implementation_evidence",
+      "placement_or_sequence_status": "proposed editorial composition; exact adapter/current consumer may remain unresolved",
+      "source_refs": [
+        {
+          "id": "F48",
+          "public_anchor": "FAMILY_GUIDE.en.md#F48",
+          "fields": [
+            "functional_contract",
+            "authority_boundary",
+            "remaining_join"
+          ]
+        },
+        {
+          "id": "F85",
+          "public_anchor": "FAMILY_GUIDE.en.md#F85",
+          "fields": [
+            "functional_contract",
+            "authority_boundary",
+            "remaining_join"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "05-atlas-L3-E2",
+      "diagram": "05-atlas",
+      "from": "F85",
+      "to": "F69",
+      "label": "review posture only",
+      "type": "data",
+      "status": "declared_intended_not_implementation_evidence",
+      "placement_or_sequence_status": "proposed editorial composition; exact adapter/current consumer may remain unresolved",
+      "source_refs": [
+        {
+          "id": "F85",
+          "public_anchor": "FAMILY_GUIDE.en.md#F85",
+          "fields": [
+            "functional_contract",
+            "authority_boundary",
+            "remaining_join"
+          ]
+        },
+        {
+          "id": "F69",
+          "public_anchor": "FAMILY_GUIDE.en.md#F69",
+          "fields": [
+            "functional_contract",
+            "authority_boundary",
+            "remaining_join"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "05-atlas-L4-E1",
+      "diagram": "05-atlas",
+      "from": "F12",
+      "to": "F10",
+      "label": "versioned reading",
+      "type": "data",
+      "status": "declared_intended_not_implementation_evidence",
+      "placement_or_sequence_status": "proposed editorial composition; exact adapter/current consumer may remain unresolved",
+      "source_refs": [
+        {
+          "id": "F12",
+          "public_anchor": "FAMILY_GUIDE.en.md#F12",
+          "fields": [
+            "functional_contract",
+            "authority_boundary",
+            "remaining_join"
+          ]
+        },
+        {
+          "id": "F10",
+          "public_anchor": "FAMILY_GUIDE.en.md#F10",
+          "fields": [
+            "functional_contract",
+            "authority_boundary",
+            "remaining_join"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "05-atlas-L5-E1",
+      "diagram": "05-atlas",
+      "from": "F57",
+      "to": "F11",
+      "label": "evidence-tier discipline",
+      "type": "control",
+      "status": "declared_intended_not_implementation_evidence",
+      "placement_or_sequence_status": "proposed editorial composition; exact adapter/current consumer may remain unresolved",
+      "source_refs": [
+        {
+          "id": "F57",
+          "public_anchor": "FAMILY_GUIDE.en.md#F57",
+          "fields": [
+            "functional_contract",
+            "authority_boundary",
+            "remaining_join"
+          ]
+        },
+        {
+          "id": "F11",
+          "public_anchor": "FAMILY_GUIDE.en.md#F11",
+          "fields": [
+            "functional_contract",
+            "authority_boundary",
+            "remaining_join"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "06-tel-tac-L1-E1",
+      "diagram": "06-tel-tac",
+      "from": "F61",
+      "to": "F63",
+      "label": "attributed observations",
+      "type": "provenance",
+      "status": "declared_intended_not_implementation_evidence",
+      "placement_or_sequence_status": "proposed editorial composition; exact adapter/current consumer may remain unresolved",
+      "source_refs": [
+        {
+          "id": "F61",
+          "public_anchor": "FAMILY_GUIDE.en.md#F61",
+          "fields": [
+            "functional_contract",
+            "authority_boundary",
+            "remaining_join"
+          ]
+        },
+        {
+          "id": "F63",
+          "public_anchor": "FAMILY_GUIDE.en.md#F63",
+          "fields": [
+            "functional_contract",
+            "authority_boundary",
+            "remaining_join"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "06-tel-tac-L1-E2",
+      "diagram": "06-tel-tac",
+      "from": "F63",
+      "to": "F60",
+      "label": "typed evidence limits",
+      "type": "provenance",
+      "status": "declared_intended_not_implementation_evidence",
+      "placement_or_sequence_status": "proposed editorial composition; exact adapter/current consumer may remain unresolved",
+      "source_refs": [
+        {
+          "id": "F63",
+          "public_anchor": "FAMILY_GUIDE.en.md#F63",
+          "fields": [
+            "functional_contract",
+            "authority_boundary",
+            "remaining_join"
+          ]
+        },
+        {
+          "id": "F60",
+          "public_anchor": "FAMILY_GUIDE.en.md#F60",
+          "fields": [
+            "functional_contract",
+            "authority_boundary",
+            "remaining_join"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "06-tel-tac-L2-E1",
+      "diagram": "06-tel-tac",
+      "from": "F30",
+      "to": "F35",
+      "label": "capture constraints",
+      "type": "control",
+      "status": "declared_intended_not_implementation_evidence",
+      "placement_or_sequence_status": "proposed editorial composition; exact adapter/current consumer may remain unresolved",
+      "source_refs": [
+        {
+          "id": "F30",
+          "public_anchor": "FAMILY_GUIDE.en.md#F30",
+          "fields": [
+            "functional_contract",
+            "authority_boundary",
+            "remaining_join"
+          ]
+        },
+        {
+          "id": "F35",
+          "public_anchor": "FAMILY_GUIDE.en.md#F35",
+          "fields": [
+            "functional_contract",
+            "authority_boundary",
+            "remaining_join"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "06-tel-tac-L2-E2",
+      "diagram": "06-tel-tac",
+      "from": "F35",
+      "to": "F28",
+      "label": "explicit event history",
+      "type": "provenance",
+      "status": "declared_intended_not_implementation_evidence",
+      "placement_or_sequence_status": "proposed editorial composition; exact adapter/current consumer may remain unresolved",
+      "source_refs": [
+        {
+          "id": "F35",
+          "public_anchor": "FAMILY_GUIDE.en.md#F35",
+          "fields": [
+            "functional_contract",
+            "authority_boundary",
+            "remaining_join"
+          ]
+        },
+        {
+          "id": "F28",
+          "public_anchor": "FAMILY_GUIDE.en.md#F28",
+          "fields": [
+            "functional_contract",
+            "authority_boundary",
+            "remaining_join"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "06-tel-tac-L3-E1",
+      "diagram": "06-tel-tac",
+      "from": "F42",
+      "to": "F66",
+      "label": "artifact integrity",
+      "type": "provenance",
+      "status": "declared_intended_not_implementation_evidence",
+      "placement_or_sequence_status": "proposed editorial composition; exact adapter/current consumer may remain unresolved",
+      "source_refs": [
+        {
+          "id": "F42",
+          "public_anchor": "FAMILY_GUIDE.en.md#F42",
+          "fields": [
+            "functional_contract",
+            "authority_boundary",
+            "remaining_join"
+          ]
+        },
+        {
+          "id": "F66",
+          "public_anchor": "FAMILY_GUIDE.en.md#F66",
+          "fields": [
+            "functional_contract",
+            "authority_boundary",
+            "remaining_join"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "06-tel-tac-L3-E2",
+      "diagram": "06-tel-tac",
+      "from": "F66",
+      "to": "F75",
+      "label": "versions / dependencies",
+      "type": "provenance",
+      "status": "declared_intended_not_implementation_evidence",
+      "placement_or_sequence_status": "proposed editorial composition; exact adapter/current consumer may remain unresolved",
+      "source_refs": [
+        {
+          "id": "F66",
+          "public_anchor": "FAMILY_GUIDE.en.md#F66",
+          "fields": [
+            "functional_contract",
+            "authority_boundary",
+            "remaining_join"
+          ]
+        },
+        {
+          "id": "F75",
+          "public_anchor": "FAMILY_GUIDE.en.md#F75",
+          "fields": [
+            "functional_contract",
+            "authority_boundary",
+            "remaining_join"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "06-tel-tac-L4-E1",
+      "diagram": "06-tel-tac",
+      "from": "F65",
+      "to": "F62",
+      "label": "continuity evidence",
+      "type": "provenance",
+      "status": "declared_intended_not_implementation_evidence",
+      "placement_or_sequence_status": "proposed editorial composition; exact adapter/current consumer may remain unresolved",
+      "source_refs": [
+        {
+          "id": "F65",
+          "public_anchor": "FAMILY_GUIDE.en.md#F65",
+          "fields": [
+            "functional_contract",
+            "authority_boundary",
+            "remaining_join"
+          ]
+        },
+        {
+          "id": "F62",
+          "public_anchor": "FAMILY_GUIDE.en.md#F62",
+          "fields": [
+            "functional_contract",
+            "authority_boundary",
+            "remaining_join"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "06-tel-tac-L4-E2",
+      "diagram": "06-tel-tac",
+      "from": "F62",
+      "to": "F35",
+      "label": "resume or hold",
+      "type": "control",
+      "status": "declared_intended_not_implementation_evidence",
+      "placement_or_sequence_status": "proposed editorial composition; exact adapter/current consumer may remain unresolved",
+      "source_refs": [
+        {
+          "id": "F62",
+          "public_anchor": "FAMILY_GUIDE.en.md#F62",
+          "fields": [
+            "functional_contract",
+            "authority_boundary",
+            "remaining_join"
+          ]
+        },
+        {
+          "id": "F35",
+          "public_anchor": "FAMILY_GUIDE.en.md#F35",
+          "fields": [
+            "functional_contract",
+            "authority_boundary",
+            "remaining_join"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "07-controls-L1-E1",
+      "diagram": "07-controls",
+      "from": "F59",
+      "to": "F45",
+      "label": "draft; owner adoption",
+      "type": "control",
+      "status": "declared_intended_not_implementation_evidence",
+      "placement_or_sequence_status": "proposed editorial composition; exact adapter/current consumer may remain unresolved",
+      "source_refs": [
+        {
+          "id": "F59",
+          "public_anchor": "FAMILY_GUIDE.en.md#F59",
+          "fields": [
+            "functional_contract",
+            "authority_boundary",
+            "remaining_join"
+          ]
+        },
+        {
+          "id": "F45",
+          "public_anchor": "FAMILY_GUIDE.en.md#F45",
+          "fields": [
+            "functional_contract",
+            "authority_boundary",
+            "remaining_join"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "07-controls-L1-E2",
+      "diagram": "07-controls",
+      "from": "F45",
+      "to": "F22",
+      "label": "effective control version",
+      "type": "control",
+      "status": "declared_intended_not_implementation_evidence",
+      "placement_or_sequence_status": "proposed editorial composition; exact adapter/current consumer may remain unresolved",
+      "source_refs": [
+        {
+          "id": "F45",
+          "public_anchor": "FAMILY_GUIDE.en.md#F45",
+          "fields": [
+            "functional_contract",
+            "authority_boundary",
+            "remaining_join"
+          ]
+        },
+        {
+          "id": "F22",
+          "public_anchor": "FAMILY_GUIDE.en.md#F22",
+          "fields": [
+            "functional_contract",
+            "authority_boundary",
+            "remaining_join"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "07-controls-L2-E1",
+      "diagram": "07-controls",
+      "from": "F29",
+      "to": "F23",
+      "label": "screen finding only",
+      "type": "data",
+      "status": "declared_intended_not_implementation_evidence",
+      "placement_or_sequence_status": "proposed editorial composition; exact adapter/current consumer may remain unresolved",
+      "source_refs": [
+        {
+          "id": "F29",
+          "public_anchor": "FAMILY_GUIDE.en.md#F29",
+          "fields": [
+            "functional_contract",
+            "authority_boundary",
+            "remaining_join"
+          ]
+        },
+        {
+          "id": "F23",
+          "public_anchor": "FAMILY_GUIDE.en.md#F23",
+          "fields": [
+            "functional_contract",
+            "authority_boundary",
+            "remaining_join"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "07-controls-L2-E2",
+      "diagram": "07-controls",
+      "from": "F23",
+      "to": "F05",
+      "label": "bounded admit / hold",
+      "type": "control",
+      "status": "declared_intended_not_implementation_evidence",
+      "placement_or_sequence_status": "proposed editorial composition; exact adapter/current consumer may remain unresolved",
+      "source_refs": [
+        {
+          "id": "F23",
+          "public_anchor": "FAMILY_GUIDE.en.md#F23",
+          "fields": [
+            "functional_contract",
+            "authority_boundary",
+            "remaining_join"
+          ]
+        },
+        {
+          "id": "F05",
+          "public_anchor": "FAMILY_GUIDE.en.md#F05",
+          "fields": [
+            "functional_contract",
+            "authority_boundary",
+            "remaining_join"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "07-controls-L3-E1",
+      "diagram": "07-controls",
+      "from": "F24",
+      "to": "F26",
+      "label": "profile / proposal",
+      "type": "data",
+      "status": "declared_intended_not_implementation_evidence",
+      "placement_or_sequence_status": "proposed editorial composition; exact adapter/current consumer may remain unresolved",
+      "source_refs": [
+        {
+          "id": "F24",
+          "public_anchor": "FAMILY_GUIDE.en.md#F24",
+          "fields": [
+            "functional_contract",
+            "authority_boundary",
+            "remaining_join"
+          ]
+        },
+        {
+          "id": "F26",
+          "public_anchor": "FAMILY_GUIDE.en.md#F26",
+          "fields": [
+            "functional_contract",
+            "authority_boundary",
+            "remaining_join"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "07-controls-L3-E2",
+      "diagram": "07-controls",
+      "from": "F26",
+      "to": "F25",
+      "label": "attributed stage evidence",
+      "type": "data",
+      "status": "declared_intended_not_implementation_evidence",
+      "placement_or_sequence_status": "proposed editorial composition; exact adapter/current consumer may remain unresolved",
+      "source_refs": [
+        {
+          "id": "F26",
+          "public_anchor": "FAMILY_GUIDE.en.md#F26",
+          "fields": [
+            "functional_contract",
+            "authority_boundary",
+            "remaining_join"
+          ]
+        },
+        {
+          "id": "F25",
+          "public_anchor": "FAMILY_GUIDE.en.md#F25",
+          "fields": [
+            "functional_contract",
+            "authority_boundary",
+            "remaining_join"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "07-controls-L4-E1",
+      "diagram": "07-controls",
+      "from": "F31",
+      "to": "F24",
+      "label": "rights-floor findings",
+      "type": "data",
+      "status": "declared_intended_not_implementation_evidence",
+      "placement_or_sequence_status": "proposed editorial composition; exact adapter/current consumer may remain unresolved",
+      "source_refs": [
+        {
+          "id": "F31",
+          "public_anchor": "FAMILY_GUIDE.en.md#F31",
+          "fields": [
+            "functional_contract",
+            "authority_boundary",
+            "remaining_join"
+          ]
+        },
+        {
+          "id": "F24",
+          "public_anchor": "FAMILY_GUIDE.en.md#F24",
+          "fields": [
+            "functional_contract",
+            "authority_boundary",
+            "remaining_join"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "07-controls-L5-E1",
+      "diagram": "07-controls",
+      "from": "F77",
+      "to": "F03",
+      "label": "scoped findings",
+      "type": "data",
+      "status": "declared_intended_not_implementation_evidence",
+      "placement_or_sequence_status": "proposed editorial composition; exact adapter/current consumer may remain unresolved",
+      "source_refs": [
+        {
+          "id": "F77",
+          "public_anchor": "FAMILY_GUIDE.en.md#F77",
+          "fields": [
+            "functional_contract",
+            "authority_boundary",
+            "remaining_join"
+          ]
+        },
+        {
+          "id": "F03",
+          "public_anchor": "FAMILY_GUIDE.en.md#F03",
+          "fields": [
+            "functional_contract",
+            "authority_boundary",
+            "remaining_join"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "08-cooperation-L1-E1",
+      "diagram": "08-cooperation",
+      "from": "F06",
+      "to": "F36",
+      "label": "eligible peer / task",
+      "type": "data",
+      "status": "declared_intended_not_implementation_evidence",
+      "placement_or_sequence_status": "proposed editorial composition; exact adapter/current consumer may remain unresolved",
+      "source_refs": [
+        {
+          "id": "F06",
+          "public_anchor": "FAMILY_GUIDE.en.md#F06",
+          "fields": [
+            "functional_contract",
+            "authority_boundary",
+            "remaining_join"
+          ]
+        },
+        {
+          "id": "F36",
+          "public_anchor": "FAMILY_GUIDE.en.md#F36",
+          "fields": [
+            "functional_contract",
+            "authority_boundary",
+            "remaining_join"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "08-cooperation-L1-E2",
+      "diagram": "08-cooperation",
+      "from": "F36",
+      "to": "F21",
+      "label": "permitted result",
+      "type": "data",
+      "status": "declared_intended_not_implementation_evidence",
+      "placement_or_sequence_status": "proposed editorial composition; exact adapter/current consumer may remain unresolved",
+      "source_refs": [
+        {
+          "id": "F36",
+          "public_anchor": "FAMILY_GUIDE.en.md#F36",
+          "fields": [
+            "functional_contract",
+            "authority_boundary",
+            "remaining_join"
+          ]
+        },
+        {
+          "id": "F21",
+          "public_anchor": "FAMILY_GUIDE.en.md#F21",
+          "fields": [
+            "functional_contract",
+            "authority_boundary",
+            "remaining_join"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "08-cooperation-L2-E1",
+      "diagram": "08-cooperation",
+      "from": "F38",
+      "to": "F37",
+      "label": "selected protected release",
+      "type": "control",
+      "status": "declared_intended_not_implementation_evidence",
+      "placement_or_sequence_status": "proposed editorial composition; exact adapter/current consumer may remain unresolved",
+      "source_refs": [
+        {
+          "id": "F38",
+          "public_anchor": "FAMILY_GUIDE.en.md#F38",
+          "fields": [
+            "functional_contract",
+            "authority_boundary",
+            "remaining_join"
+          ]
+        },
+        {
+          "id": "F37",
+          "public_anchor": "FAMILY_GUIDE.en.md#F37",
+          "fields": [
+            "functional_contract",
+            "authority_boundary",
+            "remaining_join"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "08-cooperation-L2-E2",
+      "diagram": "08-cooperation",
+      "from": "F37",
+      "to": "F04",
+      "label": "verified artifact bytes",
+      "type": "data",
+      "status": "declared_intended_not_implementation_evidence",
+      "placement_or_sequence_status": "proposed editorial composition; exact adapter/current consumer may remain unresolved",
+      "source_refs": [
+        {
+          "id": "F37",
+          "public_anchor": "FAMILY_GUIDE.en.md#F37",
+          "fields": [
+            "functional_contract",
+            "authority_boundary",
+            "remaining_join"
+          ]
+        },
+        {
+          "id": "F04",
+          "public_anchor": "FAMILY_GUIDE.en.md#F04",
+          "fields": [
+            "functional_contract",
+            "authority_boundary",
+            "remaining_join"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "08-cooperation-L3-E1",
+      "diagram": "08-cooperation",
+      "from": "F73",
+      "to": "F19",
+      "label": "qualified substitute only",
+      "type": "control",
+      "status": "declared_intended_not_implementation_evidence",
+      "placement_or_sequence_status": "proposed editorial composition; exact adapter/current consumer may remain unresolved",
+      "source_refs": [
+        {
+          "id": "F73",
+          "public_anchor": "FAMILY_GUIDE.en.md#F73",
+          "fields": [
+            "functional_contract",
+            "authority_boundary",
+            "remaining_join"
+          ]
+        },
+        {
+          "id": "F19",
+          "public_anchor": "FAMILY_GUIDE.en.md#F19",
+          "fields": [
+            "functional_contract",
+            "authority_boundary",
+            "remaining_join"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "08-cooperation-L4-E1",
+      "diagram": "08-cooperation",
+      "from": "F72",
+      "to": "F05",
+      "label": "local-first / explicit transfer",
+      "type": "control",
+      "status": "declared_intended_not_implementation_evidence",
+      "placement_or_sequence_status": "proposed editorial composition; exact adapter/current consumer may remain unresolved",
+      "source_refs": [
+        {
+          "id": "F72",
+          "public_anchor": "FAMILY_GUIDE.en.md#F72",
+          "fields": [
+            "functional_contract",
+            "authority_boundary",
+            "remaining_join"
+          ]
+        },
+        {
+          "id": "F05",
+          "public_anchor": "FAMILY_GUIDE.en.md#F05",
+          "fields": [
+            "functional_contract",
+            "authority_boundary",
+            "remaining_join"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "09a-quality-research-L1-E1",
+      "diagram": "09a-quality-research",
+      "from": "F43",
+      "to": "F46",
+      "label": "scoped codec accounting",
+      "type": "data",
+      "status": "declared_intended_not_implementation_evidence",
+      "placement_or_sequence_status": "proposed editorial composition; exact adapter/current consumer may remain unresolved",
+      "source_refs": [
+        {
+          "id": "F43",
+          "public_anchor": "FAMILY_GUIDE.en.md#F43",
+          "fields": [
+            "functional_contract",
+            "authority_boundary",
+            "remaining_join"
+          ]
+        },
+        {
+          "id": "F46",
+          "public_anchor": "FAMILY_GUIDE.en.md#F46",
+          "fields": [
+            "functional_contract",
+            "authority_boundary",
+            "remaining_join"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "09a-quality-research-L1-E2",
+      "diagram": "09a-quality-research",
+      "from": "F46",
+      "to": "F40",
+      "label": "bounded diagnostics",
+      "type": "data",
+      "status": "declared_intended_not_implementation_evidence",
+      "placement_or_sequence_status": "proposed editorial composition; exact adapter/current consumer may remain unresolved",
+      "source_refs": [
+        {
+          "id": "F46",
+          "public_anchor": "FAMILY_GUIDE.en.md#F46",
+          "fields": [
+            "functional_contract",
+            "authority_boundary",
+            "remaining_join"
+          ]
+        },
+        {
+          "id": "F40",
+          "public_anchor": "FAMILY_GUIDE.en.md#F40",
+          "fields": [
+            "functional_contract",
+            "authority_boundary",
+            "remaining_join"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "09a-quality-research-L2-E1",
+      "diagram": "09a-quality-research",
+      "from": "F54",
+      "to": "F86",
+      "label": "formula / consumer map",
+      "type": "provenance",
+      "status": "declared_intended_not_implementation_evidence",
+      "placement_or_sequence_status": "proposed editorial composition; exact adapter/current consumer may remain unresolved",
+      "source_refs": [
+        {
+          "id": "F54",
+          "public_anchor": "FAMILY_GUIDE.en.md#F54",
+          "fields": [
+            "functional_contract",
+            "authority_boundary",
+            "remaining_join"
+          ]
+        },
+        {
+          "id": "F86",
+          "public_anchor": "FAMILY_GUIDE.en.md#F86",
+          "fields": [
+            "functional_contract",
+            "authority_boundary",
+            "remaining_join"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "09a-quality-research-L2-E2",
+      "diagram": "09a-quality-research",
+      "from": "F86",
+      "to": "F78",
+      "label": "scoped claims / limits",
+      "type": "data",
+      "status": "declared_intended_not_implementation_evidence",
+      "placement_or_sequence_status": "proposed editorial composition; exact adapter/current consumer may remain unresolved",
+      "source_refs": [
+        {
+          "id": "F86",
+          "public_anchor": "FAMILY_GUIDE.en.md#F86",
+          "fields": [
+            "functional_contract",
+            "authority_boundary",
+            "remaining_join"
+          ]
+        },
+        {
+          "id": "F78",
+          "public_anchor": "FAMILY_GUIDE.en.md#F78",
+          "fields": [
+            "functional_contract",
+            "authority_boundary",
+            "remaining_join"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "09b-optional-quality-L1-E1",
+      "diagram": "09b-optional-quality",
+      "from": "F51",
+      "to": "F52",
+      "label": "typed distributions / limits",
+      "type": "data",
+      "status": "declared_intended_not_implementation_evidence",
+      "placement_or_sequence_status": "proposed editorial composition; exact adapter/current consumer may remain unresolved",
+      "source_refs": [
+        {
+          "id": "F51",
+          "public_anchor": "FAMILY_GUIDE.en.md#F51",
+          "fields": [
+            "functional_contract",
+            "authority_boundary",
+            "remaining_join"
+          ]
+        },
+        {
+          "id": "F52",
+          "public_anchor": "FAMILY_GUIDE.en.md#F52",
+          "fields": [
+            "functional_contract",
+            "authority_boundary",
+            "remaining_join"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "09b-optional-quality-L1-E2",
+      "diagram": "09b-optional-quality",
+      "from": "F52",
+      "to": "F10",
+      "label": "declared contextual view",
+      "type": "data",
+      "status": "declared_intended_not_implementation_evidence",
+      "placement_or_sequence_status": "proposed editorial composition; exact adapter/current consumer may remain unresolved",
+      "source_refs": [
+        {
+          "id": "F52",
+          "public_anchor": "FAMILY_GUIDE.en.md#F52",
+          "fields": [
+            "functional_contract",
+            "authority_boundary",
+            "remaining_join"
+          ]
+        },
+        {
+          "id": "F10",
+          "public_anchor": "FAMILY_GUIDE.en.md#F10",
+          "fields": [
+            "functional_contract",
+            "authority_boundary",
+            "remaining_join"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "09b-optional-quality-L2-E1",
+      "diagram": "09b-optional-quality",
+      "from": "F41",
+      "to": "F33",
+      "label": "proposed research artifact",
+      "type": "data",
+      "status": "declared_intended_not_implementation_evidence",
+      "placement_or_sequence_status": "proposed editorial composition; exact adapter/current consumer may remain unresolved",
+      "source_refs": [
+        {
+          "id": "F41",
+          "public_anchor": "FAMILY_GUIDE.en.md#F41",
+          "fields": [
+            "functional_contract",
+            "authority_boundary",
+            "remaining_join"
+          ]
+        },
+        {
+          "id": "F33",
+          "public_anchor": "FAMILY_GUIDE.en.md#F33",
+          "fields": [
+            "functional_contract",
+            "authority_boundary",
+            "remaining_join"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "09b-optional-quality-L3-E1",
+      "diagram": "09b-optional-quality",
+      "from": "ActualOwner",
+      "to": "F71",
+      "label": "separate authorization",
+      "type": "control",
+      "status": "declared_intended_not_implementation_evidence",
+      "placement_or_sequence_status": "proposed editorial composition; exact adapter/current consumer may remain unresolved",
+      "source_refs": [
+        {
+          "id": "F71",
+          "public_anchor": "FAMILY_GUIDE.en.md#F71",
+          "fields": [
+            "functional_contract",
+            "authority_boundary",
+            "remaining_join"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "09b-optional-quality-L4-E1",
+      "diagram": "09b-optional-quality",
+      "from": "F44",
+      "to": "F76",
+      "label": "failures / scoped repairs",
+      "type": "provenance",
+      "status": "declared_intended_not_implementation_evidence",
+      "placement_or_sequence_status": "proposed editorial composition; exact adapter/current consumer may remain unresolved",
+      "source_refs": [
+        {
+          "id": "F44",
+          "public_anchor": "FAMILY_GUIDE.en.md#F44",
+          "fields": [
+            "functional_contract",
+            "authority_boundary",
+            "remaining_join"
+          ]
+        },
+        {
+          "id": "F76",
+          "public_anchor": "FAMILY_GUIDE.en.md#F76",
+          "fields": [
+            "functional_contract",
+            "authority_boundary",
+            "remaining_join"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "09b-optional-quality-L4-E2",
+      "diagram": "09b-optional-quality",
+      "from": "F76",
+      "to": "Maintainers",
+      "label": "claims versus evidence",
+      "type": "data",
+      "status": "declared_intended_not_implementation_evidence",
+      "placement_or_sequence_status": "proposed editorial composition; exact adapter/current consumer may remain unresolved",
+      "source_refs": [
+        {
+          "id": "F76",
+          "public_anchor": "FAMILY_GUIDE.en.md#F76",
+          "fields": [
+            "functional_contract",
+            "authority_boundary",
+            "remaining_join"
+          ]
+        }
+      ]
+    }
+  ]
+}

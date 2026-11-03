@@ -1,7 +1,7 @@
 {
   "document_type": "public_contribution_invitation",
   "schema_id": "uvlm.public_contribution_invitation.v1",
-  "document_version": "2026-11-02.R4",
+  "document_version": "2026-11-02.R5.1",
   "language": "en",
   "status": "REVIEWED_DOCUMENTATION_INVITATION",
   "publication_gate": "Reviewed documentation invitation prepared for publication with the completed whitepaper package. Preparation does not establish remote publication. This documentation changes no settings and authorizes no repository jobs or spending.",
@@ -14,7 +14,7 @@
   "invitation": "People and operator-authorized AI-assisted contributors are welcome to offer one bounded, reviewable public contribution. Challenge, negative results and independent adaptations are welcome.",
   "scope": {
     "kind": "documentation_and_public_proposals_only",
-    "source_context": "English whitepaper and concept-map edition 2026-11-02.R4; source edition status is separate from this invitation. The concept map is structured documentation, not an executable runtime schema.",
+    "source_context": "English whitepaper and concept-map edition 2026-11-02.R5.1; source edition status is separate from this invitation. The concept map is structured documentation, not an executable runtime schema.",
     "guide": "CONTRIBUTION_CHANNELS.en.md",
     "proposal_schema": "CONTRIBUTION_PROPOSAL.schema.json",
     "fictional_example": "CONTRIBUTION_PROPOSAL.example.json",
@@ -23,7 +23,7 @@
     "initial_submission_route": "public_issues",
     "initial_submission_instruction": "Use Issues for initial discussion-only proposals. This invitation does not authorize repository jobs or spending.",
     "separately_authorized_work": "This invitation supplies no new execution permission and does not prohibit contributors’ independently authorized development or testing under their own operator, host, rights and resource limits. No new project-owner approval is required merely because AI assists. Existing authority over the project repository and its resources remains necessary for effects there.",
-    "whitepaper": "../R4/WHITEPAPER.en.md"
+    "whitepaper": "../R5.1/WHITEPAPER.en.md"
   },
   "channel_observation": {
     "checked_at_utc": "2026-11-02T20:40:47Z",

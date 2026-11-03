@@ -552,14 +552,14 @@
     },
     {
       "path": "README.md",
-      "candidate_sha256": "4347f95fb501474300bde2d47b48b0db44910088094f18975bd434c1b1f42b14",
+      "candidate_sha256": "994d19ee74e22c7aec432be0c4ab5ea296cfee457b89742159735f89529384a6",
       "origin": "ADAPTED",
       "source_basis_paths": [],
       "modifications": "New reviewer explanation based on maintained architecture; limits bound to extracted implementation. Added link to a source-attributed methods appendix and its bounded teaching claims. Added self-contained Mermaid responsibility diagram separating intended product integration, observed synthetic offline demo and future peer network; no runtime or validation-result changes.",
       "license": "MPL-2.0 to extent rights exist and covered",
       "publication_review": "OWNER_APPROVED_PUBLIC_SOURCE_ACCESS_EXISTING_RIGHTS_PRESERVED_NO_NEW_LICENSE",
       "historical_publication_review": "FINAL_CONTENT_DECISION_PENDING",
-      "bytes": 30606,
+      "bytes": 30757,
       "cooperative_ethos_clarification_2026_11_02": "Owner-directed freedom, local ownership, voluntary mutual aid and practical exit; informed higher overhead may be legitimate. Existing capability limits, rights and public contribution route preserved. No runtime change or new operational evidence.",
       "whitepaper_navigation_2026_11_02": "Added one English design-edition and contribution navigation link, with translations-pending and unchanged-demo scope. No runtime or rights change."
     },
@@ -1150,8 +1150,8 @@
       "modifications": "Frozen R4 source-aligned English design or contribution documentation, or original navigation. Descriptive data only; no new runtime evidence, channel activation or execution authority.",
       "license": "Existing rights and notices preserved; no new media/prose license grant.",
       "publication_review": "OWNER_REQUESTED_PUBLIC_DOCUMENTATION_EXISTING_RIGHTS_PRESERVED",
-      "candidate_sha256": "c29b2cb164cf52a77f1fc99fcc21bd99b8ef273d59a13c6598dd4b46e8164d8d",
-      "bytes": 5087
+      "candidate_sha256": "d52376569c707cf69da7983572dc2018f243fbec7b157be6dbfb149c677d55ce",
+      "bytes": 8486
     },
     {
       "path": "docs/whitepaper/triadic-brain-20261102/contribute/CONTRIBUTION_CHANNELS.en.md",
@@ -1160,8 +1160,8 @@
       "modifications": "Frozen R4 source-aligned English design or contribution documentation, or original navigation. Descriptive data only; no new runtime evidence, channel activation or execution authority.",
       "license": "Existing rights and notices preserved; no new media/prose license grant.",
       "publication_review": "OWNER_REQUESTED_PUBLIC_DOCUMENTATION_EXISTING_RIGHTS_PRESERVED",
-      "candidate_sha256": "c3117b9d43fced76ae8b749c86a8ef20884caa35b31e5c1ce4ef593d55fe26a4",
-      "bytes": 8514
+      "candidate_sha256": "9c3b74ed3dc3885d16d71c4b482797cacb5fd7f457f1ed9948e5f3d0aceee9c2",
+      "bytes": 8518
     },
     {
       "path": "docs/whitepaper/triadic-brain-20261102/contribute/CONTRIBUTION_INVITATION.json",
@@ -1170,8 +1170,8 @@
       "modifications": "Frozen R4 source-aligned English design or contribution documentation, or original navigation. Descriptive data only; no new runtime evidence, channel activation or execution authority.",
       "license": "Existing rights and notices preserved; no new media/prose license grant.",
       "publication_review": "OWNER_REQUESTED_PUBLIC_DOCUMENTATION_EXISTING_RIGHTS_PRESERVED",
-      "candidate_sha256": "b62aac805dffc0620258d16b33c0d0b663b31f36e8752f67b9f99ba767d47d4f",
-      "bytes": 13602
+      "candidate_sha256": "8a78208a0c12226aaa11bfb240acc4937b74b212c252447b735220f0bb5ef0be",
+      "bytes": 13608
     },
     {
       "path": "docs/whitepaper/triadic-brain-20261102/contribute/CONTRIBUTION_PROPOSAL.example.json",
@@ -1192,6 +1192,746 @@
       "publication_review": "OWNER_REQUESTED_PUBLIC_DOCUMENTATION_EXISTING_RIGHTS_PRESERVED",
       "candidate_sha256": "c0b4bce53c2b082011d6e36a6bc815b1d2e2e0171729612ef8575279586c750a",
       "bytes": 7484
+    },
+    {
+      "path": "docs/whitepaper/triadic-brain-20261102/R5.1/FAMILY_GUIDE.en.md",
+      "origin": "NEW_PUBLIC_REVIEWED_DESIGN_DOCUMENTATION",
+      "source_basis_paths": [],
+      "modifications": "Exact corrected R5.1 English documentation; mixed-kind registry and historical-testing classification. No new runtime qualification.",
+      "license": "Existing rights and notices preserved; no new media/prose license grant.",
+      "publication_review": "OWNER_REQUESTED_REVIEWED_DOCUMENTATION_EXISTING_RIGHTS_PRESERVED",
+      "candidate_sha256": "183efc5d85ffcfbe3b69d6d7989ff9b8fd130de7504d6e46d34e2f53d5827ee0",
+      "bytes": 150167
+    },
+    {
+      "path": "docs/whitepaper/triadic-brain-20261102/R5.1/PUBLIC_BUNDLE_MANIFEST.json",
+      "origin": "NEW_PUBLIC_REVIEWED_DESIGN_DOCUMENTATION",
+      "source_basis_paths": [],
+      "modifications": "Exact corrected R5.1 English documentation; mixed-kind registry and historical-testing classification. No new runtime qualification.",
+      "license": "Existing rights and notices preserved; no new media/prose license grant.",
+      "publication_review": "OWNER_REQUESTED_REVIEWED_DOCUMENTATION_EXISTING_RIGHTS_PRESERVED",
+      "candidate_sha256": "d02676dd1f5a7b44fa4aed7d1f060f245e1211aa73fef8edb21dca20891f5f9b",
+      "bytes": 3875
+    },
+    {
+      "path": "docs/whitepaper/triadic-brain-20261102/R5.1/PUBLIC_CONCEPTS.json",
+      "origin": "NEW_PUBLIC_REVIEWED_DESIGN_DOCUMENTATION",
+      "source_basis_paths": [],
+      "modifications": "Exact corrected R5.1 English documentation; mixed-kind registry and historical-testing classification. No new runtime qualification.",
+      "license": "Existing rights and notices preserved; no new media/prose license grant.",
+      "publication_review": "OWNER_REQUESTED_REVIEWED_DOCUMENTATION_EXISTING_RIGHTS_PRESERVED",
+      "candidate_sha256": "2b44ccd14c107b8b430e6f3c8139ea84ca1962cc4ac53ddb4ad6805b3f4893e6",
+      "bytes": 439128
+    },
+    {
+      "path": "docs/whitepaper/triadic-brain-20261102/R5.1/STANDARDS_RESEARCH_CROSSWALK.en.md",
+      "origin": "NEW_PUBLIC_REVIEWED_DESIGN_DOCUMENTATION",
+      "source_basis_paths": [],
+      "modifications": "Exact corrected R5.1 English documentation; mixed-kind registry and historical-testing classification. No new runtime qualification.",
+      "license": "Existing rights and notices preserved; no new media/prose license grant.",
+      "publication_review": "OWNER_REQUESTED_REVIEWED_DOCUMENTATION_EXISTING_RIGHTS_PRESERVED",
+      "candidate_sha256": "60cdfaee8e52fdc6763e4132baef9fcacf5ca084d8b640cd6a7a23e3b3feeb43",
+      "bytes": 117559
+    },
+    {
+      "path": "docs/whitepaper/triadic-brain-20261102/R5.1/STANDARDS_RESEARCH_CROSSWALK.json",
+      "origin": "NEW_PUBLIC_REVIEWED_DESIGN_DOCUMENTATION",
+      "source_basis_paths": [],
+      "modifications": "Exact corrected R5.1 English documentation; mixed-kind registry and historical-testing classification. No new runtime qualification.",
+      "license": "Existing rights and notices preserved; no new media/prose license grant.",
+      "publication_review": "OWNER_REQUESTED_REVIEWED_DOCUMENTATION_EXISTING_RIGHTS_PRESERVED",
+      "candidate_sha256": "941246cfc6190d4cb313e8a570178f64db83bb90054f8f7a06fc2f1c712aca7e",
+      "bytes": 216688
+    },
+    {
+      "path": "docs/whitepaper/triadic-brain-20261102/R5.1/TERMS.en.md",
+      "origin": "NEW_PUBLIC_REVIEWED_DESIGN_DOCUMENTATION",
+      "source_basis_paths": [],
+      "modifications": "Exact corrected R5.1 English documentation; mixed-kind registry and historical-testing classification. No new runtime qualification.",
+      "license": "Existing rights and notices preserved; no new media/prose license grant.",
+      "publication_review": "OWNER_REQUESTED_REVIEWED_DOCUMENTATION_EXISTING_RIGHTS_PRESERVED",
+      "candidate_sha256": "e24f3594aec115577036808688ca807b5b28cb10795decdc20c919be8ab1bf7e",
+      "bytes": 21054
+    },
+    {
+      "path": "docs/whitepaper/triadic-brain-20261102/R5.1/WHITEPAPER.en.md",
+      "origin": "NEW_PUBLIC_REVIEWED_DESIGN_DOCUMENTATION",
+      "source_basis_paths": [],
+      "modifications": "Exact corrected R5.1 English documentation; mixed-kind registry and historical-testing classification. No new runtime qualification.",
+      "license": "Existing rights and notices preserved; no new media/prose license grant.",
+      "publication_review": "OWNER_REQUESTED_REVIEWED_DOCUMENTATION_EXISTING_RIGHTS_PRESERVED",
+      "candidate_sha256": "cfd8e64fb8aa447d17f2f4d57df2ab62f622f10a3c4dbdb47ca4cc9e220336d8",
+      "bytes": 76239
+    },
+    {
+      "path": "docs/whitepaper/triadic-brain-20261102/visuals/BUILD.md",
+      "origin": "NEW_PUBLIC_REVIEWED_VISUAL_DOCUMENTATION",
+      "source_basis_paths": [],
+      "modifications": "Exact R5.1-source-bound visual atlas, text alternatives and local editable rendering sources. Intended design and static source relationships remain distinct; no new runtime qualification.",
+      "license": "Existing rights and notices preserved; no new media/prose license grant.",
+      "publication_review": "OWNER_REQUESTED_REVIEWED_DOCUMENTATION_EXISTING_RIGHTS_PRESERVED",
+      "candidate_sha256": "8b3951e597203d6caa047ea14812336481357696455fb08b0579f0be77d3d258",
+      "bytes": 1590
+    },
+    {
+      "path": "docs/whitepaper/triadic-brain-20261102/visuals/PLACEMENT_LEDGER.md",
+      "origin": "NEW_PUBLIC_REVIEWED_VISUAL_DOCUMENTATION",
+      "source_basis_paths": [],
+      "modifications": "Exact R5.1-source-bound visual atlas, text alternatives and local editable rendering sources. Intended design and static source relationships remain distinct; no new runtime qualification.",
+      "license": "Existing rights and notices preserved; no new media/prose license grant.",
+      "publication_review": "OWNER_REQUESTED_REVIEWED_DOCUMENTATION_EXISTING_RIGHTS_PRESERVED",
+      "candidate_sha256": "99f4ee2eca49566fc4f5b57714ab7b48b2cd6d0016e64dbc24830ff5d91ad193",
+      "bytes": 20314
+    },
+    {
+      "path": "docs/whitepaper/triadic-brain-20261102/visuals/PROVENANCE_REGISTER.md",
+      "origin": "NEW_PUBLIC_REVIEWED_VISUAL_DOCUMENTATION",
+      "source_basis_paths": [],
+      "modifications": "Exact R5.1-source-bound visual atlas, text alternatives and local editable rendering sources. Intended design and static source relationships remain distinct; no new runtime qualification.",
+      "license": "Existing rights and notices preserved; no new media/prose license grant.",
+      "publication_review": "OWNER_REQUESTED_REVIEWED_DOCUMENTATION_EXISTING_RIGHTS_PRESERVED",
+      "candidate_sha256": "ce6d62eabfe5e3a180b89add079a4cd52de28017142bc60564b71370b05d3b68",
+      "bytes": 909
+    },
+    {
+      "path": "docs/whitepaper/triadic-brain-20261102/visuals/README.md",
+      "origin": "NEW_PUBLIC_REVIEWED_VISUAL_DOCUMENTATION",
+      "source_basis_paths": [],
+      "modifications": "Exact R5.1-source-bound visual atlas, text alternatives and local editable rendering sources. Intended design and static source relationships remain distinct; no new runtime qualification.",
+      "license": "Existing rights and notices preserved; no new media/prose license grant.",
+      "publication_review": "OWNER_REQUESTED_REVIEWED_DOCUMENTATION_EXISTING_RIGHTS_PRESERVED",
+      "candidate_sha256": "7b15cbba502d9e1ee644dc91ecf2ed52647a219795ffae26c24b909db15b27bb",
+      "bytes": 6151
+    },
+    {
+      "path": "docs/whitepaper/triadic-brain-20261102/visuals/TEXT_ALTERNATIVES.md",
+      "origin": "NEW_PUBLIC_REVIEWED_VISUAL_DOCUMENTATION",
+      "source_basis_paths": [],
+      "modifications": "Exact R5.1-source-bound visual atlas, text alternatives and local editable rendering sources. Intended design and static source relationships remain distinct; no new runtime qualification.",
+      "license": "Existing rights and notices preserved; no new media/prose license grant.",
+      "publication_review": "OWNER_REQUESTED_REVIEWED_DOCUMENTATION_EXISTING_RIGHTS_PRESERVED",
+      "candidate_sha256": "27dc7b5ce4e794b2428afffca4a4672c03e400cab3a771cb640b3a7c768cea6d",
+      "bytes": 47661
+    },
+    {
+      "path": "docs/whitepaper/triadic-brain-20261102/visuals/modules/M00.md",
+      "origin": "NEW_PUBLIC_REVIEWED_VISUAL_DOCUMENTATION",
+      "source_basis_paths": [],
+      "modifications": "Exact R5.1-source-bound visual atlas, text alternatives and local editable rendering sources. Intended design and static source relationships remain distinct; no new runtime qualification.",
+      "license": "Existing rights and notices preserved; no new media/prose license grant.",
+      "publication_review": "OWNER_REQUESTED_REVIEWED_DOCUMENTATION_EXISTING_RIGHTS_PRESERVED",
+      "candidate_sha256": "338a6c223eacc33b0db1fa78c25e552c11eee51d60741b8860a2cde8f7a2ffe6",
+      "bytes": 2495
+    },
+    {
+      "path": "docs/whitepaper/triadic-brain-20261102/visuals/modules/M01.md",
+      "origin": "NEW_PUBLIC_REVIEWED_VISUAL_DOCUMENTATION",
+      "source_basis_paths": [],
+      "modifications": "Exact R5.1-source-bound visual atlas, text alternatives and local editable rendering sources. Intended design and static source relationships remain distinct; no new runtime qualification.",
+      "license": "Existing rights and notices preserved; no new media/prose license grant.",
+      "publication_review": "OWNER_REQUESTED_REVIEWED_DOCUMENTATION_EXISTING_RIGHTS_PRESERVED",
+      "candidate_sha256": "23cea0bf7c766aa19f452bc41d06b46406dd17f16828178b66288fd244846199",
+      "bytes": 8768
+    },
+    {
+      "path": "docs/whitepaper/triadic-brain-20261102/visuals/modules/M02.md",
+      "origin": "NEW_PUBLIC_REVIEWED_VISUAL_DOCUMENTATION",
+      "source_basis_paths": [],
+      "modifications": "Exact R5.1-source-bound visual atlas, text alternatives and local editable rendering sources. Intended design and static source relationships remain distinct; no new runtime qualification.",
+      "license": "Existing rights and notices preserved; no new media/prose license grant.",
+      "publication_review": "OWNER_REQUESTED_REVIEWED_DOCUMENTATION_EXISTING_RIGHTS_PRESERVED",
+      "candidate_sha256": "842a4645e09575ea1f0b8fb4c46172e7ed8951af876a3fb1c3a18a63830577b2",
+      "bytes": 16076
+    },
+    {
+      "path": "docs/whitepaper/triadic-brain-20261102/visuals/modules/M03.md",
+      "origin": "NEW_PUBLIC_REVIEWED_VISUAL_DOCUMENTATION",
+      "source_basis_paths": [],
+      "modifications": "Exact R5.1-source-bound visual atlas, text alternatives and local editable rendering sources. Intended design and static source relationships remain distinct; no new runtime qualification.",
+      "license": "Existing rights and notices preserved; no new media/prose license grant.",
+      "publication_review": "OWNER_REQUESTED_REVIEWED_DOCUMENTATION_EXISTING_RIGHTS_PRESERVED",
+      "candidate_sha256": "ff3b69605afa6e5940b981b02a35ab0011f2e368016b3f8a75de2ad82f0e9b83",
+      "bytes": 25415
+    },
+    {
+      "path": "docs/whitepaper/triadic-brain-20261102/visuals/modules/M04.md",
+      "origin": "NEW_PUBLIC_REVIEWED_VISUAL_DOCUMENTATION",
+      "source_basis_paths": [],
+      "modifications": "Exact R5.1-source-bound visual atlas, text alternatives and local editable rendering sources. Intended design and static source relationships remain distinct; no new runtime qualification.",
+      "license": "Existing rights and notices preserved; no new media/prose license grant.",
+      "publication_review": "OWNER_REQUESTED_REVIEWED_DOCUMENTATION_EXISTING_RIGHTS_PRESERVED",
+      "candidate_sha256": "ebdfe81d6114871d20064318b53f689db787bdc47c07c9e7c08b55a8bc221844",
+      "bytes": 22031
+    },
+    {
+      "path": "docs/whitepaper/triadic-brain-20261102/visuals/modules/M05.md",
+      "origin": "NEW_PUBLIC_REVIEWED_VISUAL_DOCUMENTATION",
+      "source_basis_paths": [],
+      "modifications": "Exact R5.1-source-bound visual atlas, text alternatives and local editable rendering sources. Intended design and static source relationships remain distinct; no new runtime qualification.",
+      "license": "Existing rights and notices preserved; no new media/prose license grant.",
+      "publication_review": "OWNER_REQUESTED_REVIEWED_DOCUMENTATION_EXISTING_RIGHTS_PRESERVED",
+      "candidate_sha256": "590e79be34db091c8b370f2da94cebe5dbcc72535c1b0c542ce8b0047e77565b",
+      "bytes": 25109
+    },
+    {
+      "path": "docs/whitepaper/triadic-brain-20261102/visuals/modules/M06.md",
+      "origin": "NEW_PUBLIC_REVIEWED_VISUAL_DOCUMENTATION",
+      "source_basis_paths": [],
+      "modifications": "Exact R5.1-source-bound visual atlas, text alternatives and local editable rendering sources. Intended design and static source relationships remain distinct; no new runtime qualification.",
+      "license": "Existing rights and notices preserved; no new media/prose license grant.",
+      "publication_review": "OWNER_REQUESTED_REVIEWED_DOCUMENTATION_EXISTING_RIGHTS_PRESERVED",
+      "candidate_sha256": "b03e47482ec08789033c59a2d6b49267aeee66dffc20c2e8c960512448f1025e",
+      "bytes": 25859
+    },
+    {
+      "path": "docs/whitepaper/triadic-brain-20261102/visuals/modules/M07.md",
+      "origin": "NEW_PUBLIC_REVIEWED_VISUAL_DOCUMENTATION",
+      "source_basis_paths": [],
+      "modifications": "Exact R5.1-source-bound visual atlas, text alternatives and local editable rendering sources. Intended design and static source relationships remain distinct; no new runtime qualification.",
+      "license": "Existing rights and notices preserved; no new media/prose license grant.",
+      "publication_review": "OWNER_REQUESTED_REVIEWED_DOCUMENTATION_EXISTING_RIGHTS_PRESERVED",
+      "candidate_sha256": "66ac7b4b4497609a8d9bdb840c9b20fb88cb4ea604a82c8e2e7a3c7da6090a5f",
+      "bytes": 22835
+    },
+    {
+      "path": "docs/whitepaper/triadic-brain-20261102/visuals/modules/M08.md",
+      "origin": "NEW_PUBLIC_REVIEWED_VISUAL_DOCUMENTATION",
+      "source_basis_paths": [],
+      "modifications": "Exact R5.1-source-bound visual atlas, text alternatives and local editable rendering sources. Intended design and static source relationships remain distinct; no new runtime qualification.",
+      "license": "Existing rights and notices preserved; no new media/prose license grant.",
+      "publication_review": "OWNER_REQUESTED_REVIEWED_DOCUMENTATION_EXISTING_RIGHTS_PRESERVED",
+      "candidate_sha256": "b8cafcad848d56a374aeb372e790f8e40a2e9d07888e050a3b5f62a55176c21b",
+      "bytes": 15207
+    },
+    {
+      "path": "docs/whitepaper/triadic-brain-20261102/visuals/modules/M09.md",
+      "origin": "NEW_PUBLIC_REVIEWED_VISUAL_DOCUMENTATION",
+      "source_basis_paths": [],
+      "modifications": "Exact R5.1-source-bound visual atlas, text alternatives and local editable rendering sources. Intended design and static source relationships remain distinct; no new runtime qualification.",
+      "license": "Existing rights and notices preserved; no new media/prose license grant.",
+      "publication_review": "OWNER_REQUESTED_REVIEWED_DOCUMENTATION_EXISTING_RIGHTS_PRESERVED",
+      "candidate_sha256": "7123809e4bc2ed5b82df001a6a7b511c049b249f012a6c9d17c5a90b0bd18163",
+      "bytes": 28961
+    },
+    {
+      "path": "docs/whitepaper/triadic-brain-20261102/visuals/modules/M10.md",
+      "origin": "NEW_PUBLIC_REVIEWED_VISUAL_DOCUMENTATION",
+      "source_basis_paths": [],
+      "modifications": "Exact R5.1-source-bound visual atlas, text alternatives and local editable rendering sources. Intended design and static source relationships remain distinct; no new runtime qualification.",
+      "license": "Existing rights and notices preserved; no new media/prose license grant.",
+      "publication_review": "OWNER_REQUESTED_REVIEWED_DOCUMENTATION_EXISTING_RIGHTS_PRESERVED",
+      "candidate_sha256": "e10bd763c18c63d24d2367ea27dd785072adc93ed808b94a3972a4b55be48114",
+      "bytes": 5023
+    },
+    {
+      "path": "docs/whitepaper/triadic-brain-20261102/visuals/png/00-overview.png",
+      "origin": "NEW_PUBLIC_REVIEWED_VISUAL_DOCUMENTATION",
+      "source_basis_paths": [],
+      "modifications": "Exact R5.1-source-bound visual atlas, text alternatives and local editable rendering sources. Intended design and static source relationships remain distinct; no new runtime qualification.",
+      "license": "Existing rights and notices preserved; no new media/prose license grant.",
+      "publication_review": "OWNER_REQUESTED_REVIEWED_DOCUMENTATION_EXISTING_RIGHTS_PRESERVED",
+      "candidate_sha256": "92d296181962b54b3064016af57af9c064fc5c5fe74bbe5cbc08593b9520dab5",
+      "bytes": 450351
+    },
+    {
+      "path": "docs/whitepaper/triadic-brain-20261102/visuals/png/01-sonya.png",
+      "origin": "NEW_PUBLIC_REVIEWED_VISUAL_DOCUMENTATION",
+      "source_basis_paths": [],
+      "modifications": "Exact R5.1-source-bound visual atlas, text alternatives and local editable rendering sources. Intended design and static source relationships remain distinct; no new runtime qualification.",
+      "license": "Existing rights and notices preserved; no new media/prose license grant.",
+      "publication_review": "OWNER_REQUESTED_REVIEWED_DOCUMENTATION_EXISTING_RIGHTS_PRESERVED",
+      "candidate_sha256": "781e625aa02d2a46ea49e49b81c388d108dde97892470ab4565c4c52658f1dcb",
+      "bytes": 298703
+    },
+    {
+      "path": "docs/whitepaper/triadic-brain-20261102/visuals/png/02-executive.png",
+      "origin": "NEW_PUBLIC_REVIEWED_VISUAL_DOCUMENTATION",
+      "source_basis_paths": [],
+      "modifications": "Exact R5.1-source-bound visual atlas, text alternatives and local editable rendering sources. Intended design and static source relationships remain distinct; no new runtime qualification.",
+      "license": "Existing rights and notices preserved; no new media/prose license grant.",
+      "publication_review": "OWNER_REQUESTED_REVIEWED_DOCUMENTATION_EXISTING_RIGHTS_PRESERVED",
+      "candidate_sha256": "a0774fadb23d9b5c0b13197d8c86e5504715d936cc0abfc4e44519ec7af7b144",
+      "bytes": 327075
+    },
+    {
+      "path": "docs/whitepaper/triadic-brain-20261102/visuals/png/03-coherence.png",
+      "origin": "NEW_PUBLIC_REVIEWED_VISUAL_DOCUMENTATION",
+      "source_basis_paths": [],
+      "modifications": "Exact R5.1-source-bound visual atlas, text alternatives and local editable rendering sources. Intended design and static source relationships remain distinct; no new runtime qualification.",
+      "license": "Existing rights and notices preserved; no new media/prose license grant.",
+      "publication_review": "OWNER_REQUESTED_REVIEWED_DOCUMENTATION_EXISTING_RIGHTS_PRESERVED",
+      "candidate_sha256": "ae74708579db2f7650cb1e9b966d2a74e21c857768941882330fb00a2ff9f661",
+      "bytes": 401245
+    },
+    {
+      "path": "docs/whitepaper/triadic-brain-20261102/visuals/png/04-sophia.png",
+      "origin": "NEW_PUBLIC_REVIEWED_VISUAL_DOCUMENTATION",
+      "source_basis_paths": [],
+      "modifications": "Exact R5.1-source-bound visual atlas, text alternatives and local editable rendering sources. Intended design and static source relationships remain distinct; no new runtime qualification.",
+      "license": "Existing rights and notices preserved; no new media/prose license grant.",
+      "publication_review": "OWNER_REQUESTED_REVIEWED_DOCUMENTATION_EXISTING_RIGHTS_PRESERVED",
+      "candidate_sha256": "12bd798125066271636290d62fd2f9ba20d01e8ac93fcc155a0fb349e77c30e1",
+      "bytes": 397020
+    },
+    {
+      "path": "docs/whitepaper/triadic-brain-20261102/visuals/png/05-atlas.png",
+      "origin": "NEW_PUBLIC_REVIEWED_VISUAL_DOCUMENTATION",
+      "source_basis_paths": [],
+      "modifications": "Exact R5.1-source-bound visual atlas, text alternatives and local editable rendering sources. Intended design and static source relationships remain distinct; no new runtime qualification.",
+      "license": "Existing rights and notices preserved; no new media/prose license grant.",
+      "publication_review": "OWNER_REQUESTED_REVIEWED_DOCUMENTATION_EXISTING_RIGHTS_PRESERVED",
+      "candidate_sha256": "c6c6f87a886150c3815f47b7447df0cf23f74e3674f7b2b924f8b6904a0cea61",
+      "bytes": 422864
+    },
+    {
+      "path": "docs/whitepaper/triadic-brain-20261102/visuals/png/06-tel-tac.png",
+      "origin": "NEW_PUBLIC_REVIEWED_VISUAL_DOCUMENTATION",
+      "source_basis_paths": [],
+      "modifications": "Exact R5.1-source-bound visual atlas, text alternatives and local editable rendering sources. Intended design and static source relationships remain distinct; no new runtime qualification.",
+      "license": "Existing rights and notices preserved; no new media/prose license grant.",
+      "publication_review": "OWNER_REQUESTED_REVIEWED_DOCUMENTATION_EXISTING_RIGHTS_PRESERVED",
+      "candidate_sha256": "88a883fc2fdda641b72e8b5ee02052efee62cbc31c2504239dd3e44e39bfcd24",
+      "bytes": 390610
+    },
+    {
+      "path": "docs/whitepaper/triadic-brain-20261102/visuals/png/07-controls.png",
+      "origin": "NEW_PUBLIC_REVIEWED_VISUAL_DOCUMENTATION",
+      "source_basis_paths": [],
+      "modifications": "Exact R5.1-source-bound visual atlas, text alternatives and local editable rendering sources. Intended design and static source relationships remain distinct; no new runtime qualification.",
+      "license": "Existing rights and notices preserved; no new media/prose license grant.",
+      "publication_review": "OWNER_REQUESTED_REVIEWED_DOCUMENTATION_EXISTING_RIGHTS_PRESERVED",
+      "candidate_sha256": "ab2939e7a33419c9e0b1b60c1f877dfd6c6de3d1e43d69c9b894251d9dc98666",
+      "bytes": 427661
+    },
+    {
+      "path": "docs/whitepaper/triadic-brain-20261102/visuals/png/08-cooperation.png",
+      "origin": "NEW_PUBLIC_REVIEWED_VISUAL_DOCUMENTATION",
+      "source_basis_paths": [],
+      "modifications": "Exact R5.1-source-bound visual atlas, text alternatives and local editable rendering sources. Intended design and static source relationships remain distinct; no new runtime qualification.",
+      "license": "Existing rights and notices preserved; no new media/prose license grant.",
+      "publication_review": "OWNER_REQUESTED_REVIEWED_DOCUMENTATION_EXISTING_RIGHTS_PRESERVED",
+      "candidate_sha256": "06780a85bd38dff3b7049f2d7a1d3c37de06721eabb810e74bf7b11ab165aff8",
+      "bytes": 396509
+    },
+    {
+      "path": "docs/whitepaper/triadic-brain-20261102/visuals/png/09a-quality-research.png",
+      "origin": "NEW_PUBLIC_REVIEWED_VISUAL_DOCUMENTATION",
+      "source_basis_paths": [],
+      "modifications": "Exact R5.1-source-bound visual atlas, text alternatives and local editable rendering sources. Intended design and static source relationships remain distinct; no new runtime qualification.",
+      "license": "Existing rights and notices preserved; no new media/prose license grant.",
+      "publication_review": "OWNER_REQUESTED_REVIEWED_DOCUMENTATION_EXISTING_RIGHTS_PRESERVED",
+      "candidate_sha256": "c68b9c21a649b4b9f529bb1d5ab10cec53feda3dec4043dd3398ba8d287c46e7",
+      "bytes": 303121
+    },
+    {
+      "path": "docs/whitepaper/triadic-brain-20261102/visuals/png/09b-optional-quality.png",
+      "origin": "NEW_PUBLIC_REVIEWED_VISUAL_DOCUMENTATION",
+      "source_basis_paths": [],
+      "modifications": "Exact R5.1-source-bound visual atlas, text alternatives and local editable rendering sources. Intended design and static source relationships remain distinct; no new runtime qualification.",
+      "license": "Existing rights and notices preserved; no new media/prose license grant.",
+      "publication_review": "OWNER_REQUESTED_REVIEWED_DOCUMENTATION_EXISTING_RIGHTS_PRESERVED",
+      "candidate_sha256": "f3cab09e61112df61df0243f89fee42ab57b7c6b02bfc3012cb6ab8bb5c7b6f7",
+      "bytes": 399405
+    },
+    {
+      "path": "docs/whitepaper/triadic-brain-20261102/visuals/png/10-source-connected-cognitive-route.png",
+      "origin": "NEW_PUBLIC_REVIEWED_VISUAL_DOCUMENTATION",
+      "source_basis_paths": [],
+      "modifications": "Exact R5.1-source-bound visual atlas, text alternatives and local editable rendering sources. Intended design and static source relationships remain distinct; no new runtime qualification.",
+      "license": "Existing rights and notices preserved; no new media/prose license grant.",
+      "publication_review": "OWNER_REQUESTED_REVIEWED_DOCUMENTATION_EXISTING_RIGHTS_PRESERVED",
+      "candidate_sha256": "fcf2c3fdc0c8b65c984b8c7ae71fee7ebd0818626a541dd7677dda547d4535a9",
+      "bytes": 477790
+    },
+    {
+      "path": "docs/whitepaper/triadic-brain-20261102/visuals/png/11-comparison-boundary.png",
+      "origin": "NEW_PUBLIC_REVIEWED_VISUAL_DOCUMENTATION",
+      "source_basis_paths": [],
+      "modifications": "Exact R5.1-source-bound visual atlas, text alternatives and local editable rendering sources. Intended design and static source relationships remain distinct; no new runtime qualification.",
+      "license": "Existing rights and notices preserved; no new media/prose license grant.",
+      "publication_review": "OWNER_REQUESTED_REVIEWED_DOCUMENTATION_EXISTING_RIGHTS_PRESERVED",
+      "candidate_sha256": "3b3df6d977054312af4664ada15f9178716c2ff65e11a99e5b587cafce7ad825",
+      "bytes": 221385
+    },
+    {
+      "path": "docs/whitepaper/triadic-brain-20261102/visuals/png/12-knowledge-waters.png",
+      "origin": "NEW_PUBLIC_REVIEWED_VISUAL_DOCUMENTATION",
+      "source_basis_paths": [],
+      "modifications": "Exact R5.1-source-bound visual atlas, text alternatives and local editable rendering sources. Intended design and static source relationships remain distinct; no new runtime qualification.",
+      "license": "Existing rights and notices preserved; no new media/prose license grant.",
+      "publication_review": "OWNER_REQUESTED_REVIEWED_DOCUMENTATION_EXISTING_RIGHTS_PRESERVED",
+      "candidate_sha256": "2c640ac00dc94a1d27dba82b3a594ac90ed5945148ffb0d71067c9eaba94848e",
+      "bytes": 328842
+    },
+    {
+      "path": "docs/whitepaper/triadic-brain-20261102/visuals/png/13-provenance-register.png",
+      "origin": "NEW_PUBLIC_REVIEWED_VISUAL_DOCUMENTATION",
+      "source_basis_paths": [],
+      "modifications": "Exact R5.1-source-bound visual atlas, text alternatives and local editable rendering sources. Intended design and static source relationships remain distinct; no new runtime qualification.",
+      "license": "Existing rights and notices preserved; no new media/prose license grant.",
+      "publication_review": "OWNER_REQUESTED_REVIEWED_DOCUMENTATION_EXISTING_RIGHTS_PRESERVED",
+      "candidate_sha256": "c04de8441e0191b44f97ed9a2da38738450955351302361217576466db38a1ec",
+      "bytes": 213249
+    },
+    {
+      "path": "docs/whitepaper/triadic-brain-20261102/visuals/png/focus-authority-revocation.png",
+      "origin": "NEW_PUBLIC_REVIEWED_VISUAL_DOCUMENTATION",
+      "source_basis_paths": [],
+      "modifications": "Exact R5.1-source-bound visual atlas, text alternatives and local editable rendering sources. Intended design and static source relationships remain distinct; no new runtime qualification.",
+      "license": "Existing rights and notices preserved; no new media/prose license grant.",
+      "publication_review": "OWNER_REQUESTED_REVIEWED_DOCUMENTATION_EXISTING_RIGHTS_PRESERVED",
+      "candidate_sha256": "08e77bd07966e722022fd0094a588526a005ec8fd37be0e1bb8308eac1682f06",
+      "bytes": 265725
+    },
+    {
+      "path": "docs/whitepaper/triadic-brain-20261102/visuals/png/focus-cognitive-loop.png",
+      "origin": "NEW_PUBLIC_REVIEWED_VISUAL_DOCUMENTATION",
+      "source_basis_paths": [],
+      "modifications": "Exact R5.1-source-bound visual atlas, text alternatives and local editable rendering sources. Intended design and static source relationships remain distinct; no new runtime qualification.",
+      "license": "Existing rights and notices preserved; no new media/prose license grant.",
+      "publication_review": "OWNER_REQUESTED_REVIEWED_DOCUMENTATION_EXISTING_RIGHTS_PRESERVED",
+      "candidate_sha256": "b5f9c05a62d7bd90051feea47db80405d84f1fc4ff801482275a5fd22e950024",
+      "bytes": 247686
+    },
+    {
+      "path": "docs/whitepaper/triadic-brain-20261102/visuals/png/focus-memory-lifecycle.png",
+      "origin": "NEW_PUBLIC_REVIEWED_VISUAL_DOCUMENTATION",
+      "source_basis_paths": [],
+      "modifications": "Exact R5.1-source-bound visual atlas, text alternatives and local editable rendering sources. Intended design and static source relationships remain distinct; no new runtime qualification.",
+      "license": "Existing rights and notices preserved; no new media/prose license grant.",
+      "publication_review": "OWNER_REQUESTED_REVIEWED_DOCUMENTATION_EXISTING_RIGHTS_PRESERVED",
+      "candidate_sha256": "9c031bcdb86d0f39bf7fdbd4d754ef6c35ed57f55df57eb02f4dfb8e099500bd",
+      "bytes": 274239
+    },
+    {
+      "path": "docs/whitepaper/triadic-brain-20261102/visuals/png/focus-three-node.png",
+      "origin": "NEW_PUBLIC_REVIEWED_VISUAL_DOCUMENTATION",
+      "source_basis_paths": [],
+      "modifications": "Exact R5.1-source-bound visual atlas, text alternatives and local editable rendering sources. Intended design and static source relationships remain distinct; no new runtime qualification.",
+      "license": "Existing rights and notices preserved; no new media/prose license grant.",
+      "publication_review": "OWNER_REQUESTED_REVIEWED_DOCUMENTATION_EXISTING_RIGHTS_PRESERVED",
+      "candidate_sha256": "9d7c71fcd86c735a792b0cd58502c80af2afd1ce84fbf2a4a73c854d896eec27",
+      "bytes": 352797
+    },
+    {
+      "path": "docs/whitepaper/triadic-brain-20261102/visuals/source/architecture-data.json",
+      "origin": "NEW_PUBLIC_REVIEWED_VISUAL_DOCUMENTATION",
+      "source_basis_paths": [],
+      "modifications": "Exact R5.1-source-bound visual atlas, text alternatives and local editable rendering sources. Intended design and static source relationships remain distinct; no new runtime qualification.",
+      "license": "Existing rights and notices preserved; no new media/prose license grant.",
+      "publication_review": "OWNER_REQUESTED_REVIEWED_DOCUMENTATION_EXISTING_RIGHTS_PRESERVED",
+      "candidate_sha256": "dac556f055577e12c44991e5f75019317f141536e3def5bad37450c40fed14a9",
+      "bytes": 429837
+    },
+    {
+      "path": "docs/whitepaper/triadic-brain-20261102/visuals/source/build_index.py",
+      "origin": "NEW_PUBLIC_REVIEWED_VISUAL_DOCUMENTATION",
+      "source_basis_paths": [],
+      "modifications": "Exact R5.1-source-bound visual atlas, text alternatives and local editable rendering sources. Intended design and static source relationships remain distinct; no new runtime qualification.",
+      "license": "Existing rights and notices preserved; no new media/prose license grant.",
+      "publication_review": "OWNER_REQUESTED_REVIEWED_DOCUMENTATION_EXISTING_RIGHTS_PRESERVED",
+      "candidate_sha256": "1c5b72164377b506d3295815dc57181c1c9aaaa53fcd6e1e6527dc04e6db0aac",
+      "bytes": 16863
+    },
+    {
+      "path": "docs/whitepaper/triadic-brain-20261102/visuals/source/diagram-recipes.json",
+      "origin": "NEW_PUBLIC_REVIEWED_VISUAL_DOCUMENTATION",
+      "source_basis_paths": [],
+      "modifications": "Exact R5.1-source-bound visual atlas, text alternatives and local editable rendering sources. Intended design and static source relationships remain distinct; no new runtime qualification.",
+      "license": "Existing rights and notices preserved; no new media/prose license grant.",
+      "publication_review": "OWNER_REQUESTED_REVIEWED_DOCUMENTATION_EXISTING_RIGHTS_PRESERVED",
+      "candidate_sha256": "3b506b857ba8a4296f5cfc2990e8592daa05a35133330de5c40110756771dce2",
+      "bytes": 27300
+    },
+    {
+      "path": "docs/whitepaper/triadic-brain-20261102/visuals/source/focus-authority-revocation.dot",
+      "origin": "NEW_PUBLIC_REVIEWED_VISUAL_DOCUMENTATION",
+      "source_basis_paths": [],
+      "modifications": "Exact R5.1-source-bound visual atlas, text alternatives and local editable rendering sources. Intended design and static source relationships remain distinct; no new runtime qualification.",
+      "license": "Existing rights and notices preserved; no new media/prose license grant.",
+      "publication_review": "OWNER_REQUESTED_REVIEWED_DOCUMENTATION_EXISTING_RIGHTS_PRESERVED",
+      "candidate_sha256": "0594ec74dc74f98fecb247f87bca8c410787aa7515f518ec99155bc203eb2383",
+      "bytes": 2852
+    },
+    {
+      "path": "docs/whitepaper/triadic-brain-20261102/visuals/source/focus-cognitive-loop.dot",
+      "origin": "NEW_PUBLIC_REVIEWED_VISUAL_DOCUMENTATION",
+      "source_basis_paths": [],
+      "modifications": "Exact R5.1-source-bound visual atlas, text alternatives and local editable rendering sources. Intended design and static source relationships remain distinct; no new runtime qualification.",
+      "license": "Existing rights and notices preserved; no new media/prose license grant.",
+      "publication_review": "OWNER_REQUESTED_REVIEWED_DOCUMENTATION_EXISTING_RIGHTS_PRESERVED",
+      "candidate_sha256": "2b00a9bb3bd63352b6da27a062e6907f64fc2559ba52b20a30a21c763bb26a36",
+      "bytes": 2713
+    },
+    {
+      "path": "docs/whitepaper/triadic-brain-20261102/visuals/source/focus-memory-lifecycle.dot",
+      "origin": "NEW_PUBLIC_REVIEWED_VISUAL_DOCUMENTATION",
+      "source_basis_paths": [],
+      "modifications": "Exact R5.1-source-bound visual atlas, text alternatives and local editable rendering sources. Intended design and static source relationships remain distinct; no new runtime qualification.",
+      "license": "Existing rights and notices preserved; no new media/prose license grant.",
+      "publication_review": "OWNER_REQUESTED_REVIEWED_DOCUMENTATION_EXISTING_RIGHTS_PRESERVED",
+      "candidate_sha256": "faff35663d2b308fe6b0793f82130751b5ba328e2d94ce43986b9b08a2fa5216",
+      "bytes": 2979
+    },
+    {
+      "path": "docs/whitepaper/triadic-brain-20261102/visuals/source/focus-three-node.dot",
+      "origin": "NEW_PUBLIC_REVIEWED_VISUAL_DOCUMENTATION",
+      "source_basis_paths": [],
+      "modifications": "Exact R5.1-source-bound visual atlas, text alternatives and local editable rendering sources. Intended design and static source relationships remain distinct; no new runtime qualification.",
+      "license": "Existing rights and notices preserved; no new media/prose license grant.",
+      "publication_review": "OWNER_REQUESTED_REVIEWED_DOCUMENTATION_EXISTING_RIGHTS_PRESERVED",
+      "candidate_sha256": "7358c0ac2df2b5d043bd0fe028b09e56b5ce3e3bc3350e2ce8310522c9a84991",
+      "bytes": 2881
+    },
+    {
+      "path": "docs/whitepaper/triadic-brain-20261102/visuals/source/focused-flows.json",
+      "origin": "NEW_PUBLIC_REVIEWED_VISUAL_DOCUMENTATION",
+      "source_basis_paths": [],
+      "modifications": "Exact R5.1-source-bound visual atlas, text alternatives and local editable rendering sources. Intended design and static source relationships remain distinct; no new runtime qualification.",
+      "license": "Existing rights and notices preserved; no new media/prose license grant.",
+      "publication_review": "OWNER_REQUESTED_REVIEWED_DOCUMENTATION_EXISTING_RIGHTS_PRESERVED",
+      "candidate_sha256": "b7899f09175cf4a45140be38490aff52ba7245ee118777a728cfeefb2651737f",
+      "bytes": 104013
+    },
+    {
+      "path": "docs/whitepaper/triadic-brain-20261102/visuals/source/module-flow-edges.json",
+      "origin": "NEW_PUBLIC_REVIEWED_VISUAL_DOCUMENTATION",
+      "source_basis_paths": [],
+      "modifications": "Exact R5.1-source-bound visual atlas, text alternatives and local editable rendering sources. Intended design and static source relationships remain distinct; no new runtime qualification.",
+      "license": "Existing rights and notices preserved; no new media/prose license grant.",
+      "publication_review": "OWNER_REQUESTED_REVIEWED_DOCUMENTATION_EXISTING_RIGHTS_PRESERVED",
+      "candidate_sha256": "c27c07bf6abe23cdc35828269ccfa2719aa164b8fe4fe8666450ea18149f29c8",
+      "bytes": 57788
+    },
+    {
+      "path": "docs/whitepaper/triadic-brain-20261102/visuals/source/render_atlas.py",
+      "origin": "NEW_PUBLIC_REVIEWED_VISUAL_DOCUMENTATION",
+      "source_basis_paths": [],
+      "modifications": "Exact R5.1-source-bound visual atlas, text alternatives and local editable rendering sources. Intended design and static source relationships remain distinct; no new runtime qualification.",
+      "license": "Existing rights and notices preserved; no new media/prose license grant.",
+      "publication_review": "OWNER_REQUESTED_REVIEWED_DOCUMENTATION_EXISTING_RIGHTS_PRESERVED",
+      "candidate_sha256": "33557aba87593d32e800d4415a90a03711c577b545652439661a5664fa75cacb",
+      "bytes": 13668
+    },
+    {
+      "path": "docs/whitepaper/triadic-brain-20261102/visuals/source/render_focus.py",
+      "origin": "NEW_PUBLIC_REVIEWED_VISUAL_DOCUMENTATION",
+      "source_basis_paths": [],
+      "modifications": "Exact R5.1-source-bound visual atlas, text alternatives and local editable rendering sources. Intended design and static source relationships remain distinct; no new runtime qualification.",
+      "license": "Existing rights and notices preserved; no new media/prose license grant.",
+      "publication_review": "OWNER_REQUESTED_REVIEWED_DOCUMENTATION_EXISTING_RIGHTS_PRESERVED",
+      "candidate_sha256": "1120b42bef83752572605cd301da451c8e455b6937b7b1b9deaa5a0783d0af29",
+      "bytes": 4798
+    },
+    {
+      "path": "docs/whitepaper/triadic-brain-20261102/visuals/source/render_special.py",
+      "origin": "NEW_PUBLIC_REVIEWED_VISUAL_DOCUMENTATION",
+      "source_basis_paths": [],
+      "modifications": "Exact R5.1-source-bound visual atlas, text alternatives and local editable rendering sources. Intended design and static source relationships remain distinct; no new runtime qualification.",
+      "license": "Existing rights and notices preserved; no new media/prose license grant.",
+      "publication_review": "OWNER_REQUESTED_REVIEWED_DOCUMENTATION_EXISTING_RIGHTS_PRESERVED",
+      "candidate_sha256": "c8433c64bc7424667a0865677c86839a20f958846f6e3cb88e93db9321718678",
+      "bytes": 12293
+    },
+    {
+      "path": "docs/whitepaper/triadic-brain-20261102/visuals/source/source-connected-edges.json",
+      "origin": "NEW_PUBLIC_REVIEWED_VISUAL_DOCUMENTATION",
+      "source_basis_paths": [],
+      "modifications": "Exact R5.1-source-bound visual atlas, text alternatives and local editable rendering sources. Intended design and static source relationships remain distinct; no new runtime qualification.",
+      "license": "Existing rights and notices preserved; no new media/prose license grant.",
+      "publication_review": "OWNER_REQUESTED_REVIEWED_DOCUMENTATION_EXISTING_RIGHTS_PRESERVED",
+      "candidate_sha256": "24718aa0d340a0a6e20af905b05940f596f54b177779321ae8f6b5d733a3f793",
+      "bytes": 6868
+    },
+    {
+      "path": "docs/whitepaper/triadic-brain-20261102/visuals/svg/00-overview.svg",
+      "origin": "NEW_PUBLIC_REVIEWED_VISUAL_DOCUMENTATION",
+      "source_basis_paths": [],
+      "modifications": "Exact R5.1-source-bound visual atlas, text alternatives and local editable rendering sources. Intended design and static source relationships remain distinct; no new runtime qualification.",
+      "license": "Existing rights and notices preserved; no new media/prose license grant.",
+      "publication_review": "OWNER_REQUESTED_REVIEWED_DOCUMENTATION_EXISTING_RIGHTS_PRESERVED",
+      "candidate_sha256": "e62a6dbaa0829f23aa1a48a4ff1c2d3d10a8de72111e05c151791030846da532",
+      "bytes": 12607
+    },
+    {
+      "path": "docs/whitepaper/triadic-brain-20261102/visuals/svg/01-sonya.svg",
+      "origin": "NEW_PUBLIC_REVIEWED_VISUAL_DOCUMENTATION",
+      "source_basis_paths": [],
+      "modifications": "Exact R5.1-source-bound visual atlas, text alternatives and local editable rendering sources. Intended design and static source relationships remain distinct; no new runtime qualification.",
+      "license": "Existing rights and notices preserved; no new media/prose license grant.",
+      "publication_review": "OWNER_REQUESTED_REVIEWED_DOCUMENTATION_EXISTING_RIGHTS_PRESERVED",
+      "candidate_sha256": "c5d5ed8372cdec98447c202c14a9b638e3d5dda31d12e4981d26ba7981e2b142",
+      "bytes": 10781
+    },
+    {
+      "path": "docs/whitepaper/triadic-brain-20261102/visuals/svg/02-executive.svg",
+      "origin": "NEW_PUBLIC_REVIEWED_VISUAL_DOCUMENTATION",
+      "source_basis_paths": [],
+      "modifications": "Exact R5.1-source-bound visual atlas, text alternatives and local editable rendering sources. Intended design and static source relationships remain distinct; no new runtime qualification.",
+      "license": "Existing rights and notices preserved; no new media/prose license grant.",
+      "publication_review": "OWNER_REQUESTED_REVIEWED_DOCUMENTATION_EXISTING_RIGHTS_PRESERVED",
+      "candidate_sha256": "4dfa5d6faa92a8452647436380020102d9d65d1e3447ac3f23fb0d72ee9171f6",
+      "bytes": 11539
+    },
+    {
+      "path": "docs/whitepaper/triadic-brain-20261102/visuals/svg/03-coherence.svg",
+      "origin": "NEW_PUBLIC_REVIEWED_VISUAL_DOCUMENTATION",
+      "source_basis_paths": [],
+      "modifications": "Exact R5.1-source-bound visual atlas, text alternatives and local editable rendering sources. Intended design and static source relationships remain distinct; no new runtime qualification.",
+      "license": "Existing rights and notices preserved; no new media/prose license grant.",
+      "publication_review": "OWNER_REQUESTED_REVIEWED_DOCUMENTATION_EXISTING_RIGHTS_PRESERVED",
+      "candidate_sha256": "4fad760b652cccef2a83516723a81a4a9dabf1366360554be28981c20d44a7b9",
+      "bytes": 14382
+    },
+    {
+      "path": "docs/whitepaper/triadic-brain-20261102/visuals/svg/04-sophia.svg",
+      "origin": "NEW_PUBLIC_REVIEWED_VISUAL_DOCUMENTATION",
+      "source_basis_paths": [],
+      "modifications": "Exact R5.1-source-bound visual atlas, text alternatives and local editable rendering sources. Intended design and static source relationships remain distinct; no new runtime qualification.",
+      "license": "Existing rights and notices preserved; no new media/prose license grant.",
+      "publication_review": "OWNER_REQUESTED_REVIEWED_DOCUMENTATION_EXISTING_RIGHTS_PRESERVED",
+      "candidate_sha256": "2c2a3d54671061e102e8d62563aedc0e51135c29d460c3e99cfc8051024c9ebe",
+      "bytes": 14659
+    },
+    {
+      "path": "docs/whitepaper/triadic-brain-20261102/visuals/svg/05-atlas.svg",
+      "origin": "NEW_PUBLIC_REVIEWED_VISUAL_DOCUMENTATION",
+      "source_basis_paths": [],
+      "modifications": "Exact R5.1-source-bound visual atlas, text alternatives and local editable rendering sources. Intended design and static source relationships remain distinct; no new runtime qualification.",
+      "license": "Existing rights and notices preserved; no new media/prose license grant.",
+      "publication_review": "OWNER_REQUESTED_REVIEWED_DOCUMENTATION_EXISTING_RIGHTS_PRESERVED",
+      "candidate_sha256": "0d8c689017f52b484d18d6abb6dba9d92e6d2ea84c2fa98e6d765724833dd464",
+      "bytes": 15477
+    },
+    {
+      "path": "docs/whitepaper/triadic-brain-20261102/visuals/svg/06-tel-tac.svg",
+      "origin": "NEW_PUBLIC_REVIEWED_VISUAL_DOCUMENTATION",
+      "source_basis_paths": [],
+      "modifications": "Exact R5.1-source-bound visual atlas, text alternatives and local editable rendering sources. Intended design and static source relationships remain distinct; no new runtime qualification.",
+      "license": "Existing rights and notices preserved; no new media/prose license grant.",
+      "publication_review": "OWNER_REQUESTED_REVIEWED_DOCUMENTATION_EXISTING_RIGHTS_PRESERVED",
+      "candidate_sha256": "a58a2ff8a4b59fc1d0858c679fa8cd4960bd9601bbcad3c94f145fae0a9b0f5d",
+      "bytes": 14120
+    },
+    {
+      "path": "docs/whitepaper/triadic-brain-20261102/visuals/svg/07-controls.svg",
+      "origin": "NEW_PUBLIC_REVIEWED_VISUAL_DOCUMENTATION",
+      "source_basis_paths": [],
+      "modifications": "Exact R5.1-source-bound visual atlas, text alternatives and local editable rendering sources. Intended design and static source relationships remain distinct; no new runtime qualification.",
+      "license": "Existing rights and notices preserved; no new media/prose license grant.",
+      "publication_review": "OWNER_REQUESTED_REVIEWED_DOCUMENTATION_EXISTING_RIGHTS_PRESERVED",
+      "candidate_sha256": "0d5049467618d2876d6626404f1ebbe25daa47fb961db68c956f595517a11d8e",
+      "bytes": 15057
+    },
+    {
+      "path": "docs/whitepaper/triadic-brain-20261102/visuals/svg/08-cooperation.svg",
+      "origin": "NEW_PUBLIC_REVIEWED_VISUAL_DOCUMENTATION",
+      "source_basis_paths": [],
+      "modifications": "Exact R5.1-source-bound visual atlas, text alternatives and local editable rendering sources. Intended design and static source relationships remain distinct; no new runtime qualification.",
+      "license": "Existing rights and notices preserved; no new media/prose license grant.",
+      "publication_review": "OWNER_REQUESTED_REVIEWED_DOCUMENTATION_EXISTING_RIGHTS_PRESERVED",
+      "candidate_sha256": "5f24993bf8b247f282b454a37e496d1f94cfe9b906d5f4a6fb01449ae96029e7",
+      "bytes": 13313
+    },
+    {
+      "path": "docs/whitepaper/triadic-brain-20261102/visuals/svg/09a-quality-research.svg",
+      "origin": "NEW_PUBLIC_REVIEWED_VISUAL_DOCUMENTATION",
+      "source_basis_paths": [],
+      "modifications": "Exact R5.1-source-bound visual atlas, text alternatives and local editable rendering sources. Intended design and static source relationships remain distinct; no new runtime qualification.",
+      "license": "Existing rights and notices preserved; no new media/prose license grant.",
+      "publication_review": "OWNER_REQUESTED_REVIEWED_DOCUMENTATION_EXISTING_RIGHTS_PRESERVED",
+      "candidate_sha256": "b853e783f4725662be3e1e2d0239df9fbbbcf195b4c3ec646ba4abb68c3fad40",
+      "bytes": 9239
+    },
+    {
+      "path": "docs/whitepaper/triadic-brain-20261102/visuals/svg/09b-optional-quality.svg",
+      "origin": "NEW_PUBLIC_REVIEWED_VISUAL_DOCUMENTATION",
+      "source_basis_paths": [],
+      "modifications": "Exact R5.1-source-bound visual atlas, text alternatives and local editable rendering sources. Intended design and static source relationships remain distinct; no new runtime qualification.",
+      "license": "Existing rights and notices preserved; no new media/prose license grant.",
+      "publication_review": "OWNER_REQUESTED_REVIEWED_DOCUMENTATION_EXISTING_RIGHTS_PRESERVED",
+      "candidate_sha256": "56af70649e4d1380a7aa2c6d75052759057eae3a591fc42479dd65f758d01aa9",
+      "bytes": 13084
+    },
+    {
+      "path": "docs/whitepaper/triadic-brain-20261102/visuals/svg/10-source-connected-cognitive-route.svg",
+      "origin": "NEW_PUBLIC_REVIEWED_VISUAL_DOCUMENTATION",
+      "source_basis_paths": [],
+      "modifications": "Exact R5.1-source-bound visual atlas, text alternatives and local editable rendering sources. Intended design and static source relationships remain distinct; no new runtime qualification.",
+      "license": "Existing rights and notices preserved; no new media/prose license grant.",
+      "publication_review": "OWNER_REQUESTED_REVIEWED_DOCUMENTATION_EXISTING_RIGHTS_PRESERVED",
+      "candidate_sha256": "71201b054232486d4d308ed7d4f135f22fedb1d4fc41c4cb4bcb56443e93c07f",
+      "bytes": 15319
+    },
+    {
+      "path": "docs/whitepaper/triadic-brain-20261102/visuals/svg/11-comparison-boundary.svg",
+      "origin": "NEW_PUBLIC_REVIEWED_VISUAL_DOCUMENTATION",
+      "source_basis_paths": [],
+      "modifications": "Exact R5.1-source-bound visual atlas, text alternatives and local editable rendering sources. Intended design and static source relationships remain distinct; no new runtime qualification.",
+      "license": "Existing rights and notices preserved; no new media/prose license grant.",
+      "publication_review": "OWNER_REQUESTED_REVIEWED_DOCUMENTATION_EXISTING_RIGHTS_PRESERVED",
+      "candidate_sha256": "179555091aa81935580d8e6c4a831e174b3cf3520d1c85c3156fe052965e0632",
+      "bytes": 5807
+    },
+    {
+      "path": "docs/whitepaper/triadic-brain-20261102/visuals/svg/12-knowledge-waters.svg",
+      "origin": "NEW_PUBLIC_REVIEWED_VISUAL_DOCUMENTATION",
+      "source_basis_paths": [],
+      "modifications": "Exact R5.1-source-bound visual atlas, text alternatives and local editable rendering sources. Intended design and static source relationships remain distinct; no new runtime qualification.",
+      "license": "Existing rights and notices preserved; no new media/prose license grant.",
+      "publication_review": "OWNER_REQUESTED_REVIEWED_DOCUMENTATION_EXISTING_RIGHTS_PRESERVED",
+      "candidate_sha256": "9c5e471550371e5ae64731cf314e9673582e506300be76ceefc8105aa77856e8",
+      "bytes": 8258
+    },
+    {
+      "path": "docs/whitepaper/triadic-brain-20261102/visuals/svg/13-provenance-register.svg",
+      "origin": "NEW_PUBLIC_REVIEWED_VISUAL_DOCUMENTATION",
+      "source_basis_paths": [],
+      "modifications": "Exact R5.1-source-bound visual atlas, text alternatives and local editable rendering sources. Intended design and static source relationships remain distinct; no new runtime qualification.",
+      "license": "Existing rights and notices preserved; no new media/prose license grant.",
+      "publication_review": "OWNER_REQUESTED_REVIEWED_DOCUMENTATION_EXISTING_RIGHTS_PRESERVED",
+      "candidate_sha256": "a72a3e1df9918aad6bc4f572f43260249915db683c81aed08355c2e2a84e18ee",
+      "bytes": 4203
+    },
+    {
+      "path": "docs/whitepaper/triadic-brain-20261102/visuals/svg/focus-authority-revocation.svg",
+      "origin": "NEW_PUBLIC_REVIEWED_VISUAL_DOCUMENTATION",
+      "source_basis_paths": [],
+      "modifications": "Exact R5.1-source-bound visual atlas, text alternatives and local editable rendering sources. Intended design and static source relationships remain distinct; no new runtime qualification.",
+      "license": "Existing rights and notices preserved; no new media/prose license grant.",
+      "publication_review": "OWNER_REQUESTED_REVIEWED_DOCUMENTATION_EXISTING_RIGHTS_PRESERVED",
+      "candidate_sha256": "f2a0fb14d11dfec47e9657f44f727b0cc1e9875fdeb02a7672b385184c43413d",
+      "bytes": 19077
+    },
+    {
+      "path": "docs/whitepaper/triadic-brain-20261102/visuals/svg/focus-cognitive-loop.svg",
+      "origin": "NEW_PUBLIC_REVIEWED_VISUAL_DOCUMENTATION",
+      "source_basis_paths": [],
+      "modifications": "Exact R5.1-source-bound visual atlas, text alternatives and local editable rendering sources. Intended design and static source relationships remain distinct; no new runtime qualification.",
+      "license": "Existing rights and notices preserved; no new media/prose license grant.",
+      "publication_review": "OWNER_REQUESTED_REVIEWED_DOCUMENTATION_EXISTING_RIGHTS_PRESERVED",
+      "candidate_sha256": "67a977dc57308942273bb043e816c1bc0b9d701809c9be6fcf9b585eb6ed5219",
+      "bytes": 18536
+    },
+    {
+      "path": "docs/whitepaper/triadic-brain-20261102/visuals/svg/focus-memory-lifecycle.svg",
+      "origin": "NEW_PUBLIC_REVIEWED_VISUAL_DOCUMENTATION",
+      "source_basis_paths": [],
+      "modifications": "Exact R5.1-source-bound visual atlas, text alternatives and local editable rendering sources. Intended design and static source relationships remain distinct; no new runtime qualification.",
+      "license": "Existing rights and notices preserved; no new media/prose license grant.",
+      "publication_review": "OWNER_REQUESTED_REVIEWED_DOCUMENTATION_EXISTING_RIGHTS_PRESERVED",
+      "candidate_sha256": "d3113abeaebd21400af27f3a6c08a4baeb20bc591b8701381ff04239cbd936eb",
+      "bytes": 19856
+    },
+    {
+      "path": "docs/whitepaper/triadic-brain-20261102/visuals/svg/focus-three-node.svg",
+      "origin": "NEW_PUBLIC_REVIEWED_VISUAL_DOCUMENTATION",
+      "source_basis_paths": [],
+      "modifications": "Exact R5.1-source-bound visual atlas, text alternatives and local editable rendering sources. Intended design and static source relationships remain distinct; no new runtime qualification.",
+      "license": "Existing rights and notices preserved; no new media/prose license grant.",
+      "publication_review": "OWNER_REQUESTED_REVIEWED_DOCUMENTATION_EXISTING_RIGHTS_PRESERVED",
+      "candidate_sha256": "ff9aa2e19e83a4ab807a38b3659b619403514324d39bc27aebcacedc125bbaad",
+      "bytes": 17262
     }
   ],
   "dependency_closure": {

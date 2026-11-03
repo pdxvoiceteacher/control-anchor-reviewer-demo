@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1600" height="1184" viewBox="0 0 1600 1184" role="img" aria-labelledby="title desc"><title id="title">Executive, finite planning and roles</title><desc id="desc">The executive proposes and coordinates within a real delegation; it cannot broaden that delegation. Role names do not prove identity, independent review, capability or rights. Stopping recommendations require the actual executive/resource owner to act. Adaptive selection and operational self-model usefulness need their own evidence. Lane Goal to attributable candidate: F19 User designated executive; F47 Bounded cognitive planning; F20 Analyst Challenge and Synthesis Lane Bounded selection and stopping: F64 Role and capability contracts; F39 Role and effort selection; F83 Bounded exploration and stopping Lane Research feedback, not subjective experience: F56 Operational self model; Planning / calibration; Custody / recovery</desc>
+<rect width="1600" height="1184" fill="white"/>
+<defs>
+<marker id="arrow-data" markerWidth="9" markerHeight="9" refX="8" refY="4.5" orient="auto"><path d="M0,0 L9,4.5 L0,9 Z" fill="#087f8c"/></marker>
+<marker id="arrow-control" markerWidth="9" markerHeight="9" refX="8" refY="4.5" orient="auto"><path d="M0,0 L9,4.5 L0,9 Z" fill="#9a5b06"/></marker>
+<marker id="arrow-provenance" markerWidth="9" markerHeight="9" refX="8" refY="4.5" orient="auto"><path d="M0,0 L9,4.5 L0,9 Z" fill="#7451a8"/></marker>
+<marker id="arrow-association" markerWidth="9" markerHeight="9" refX="8" refY="4.5" orient="auto"><path d="M0,0 L9,4.5 L0,9 Z" fill="#71808b"/></marker>
+</defs><g font-family="DejaVu Sans, sans-serif">
+<text x="44" y="40" font-size="15" fill="#087f8c" text-anchor="start" font-weight="700">M02 · PROPOSED RESPONSIBILITY GROUPING</text>
+<text x="44" y="86" font-size="32" fill="#172b3a" text-anchor="start" font-weight="700">Executive, finite planning and roles</text>
+<text x="44" y="122.0" font-size="18" fill="#465b6c" text-anchor="start">The executive proposes and coordinates within a real delegation; it cannot broaden that delegation.</text>
+<text x="44" y="180" font-size="16" fill="#465b6c" text-anchor="start">Arrows: intended data (teal) · control / constraints (amber) · provenance (purple). REF boxes are secondary references.</text>
+<text x="44" y="220" font-size="18" fill="#172b3a" text-anchor="start" font-weight="700">Goal to attributable candidate</text>
+<a xlink:href="../modules/M02.md#F19">
+<rect x="44" y="244" width="392" height="146" rx="10" fill="#eef7f7" stroke="#becbd3" stroke-width="1.5"/>
+<text x="62" y="270" font-size="13" fill="#465b6c" text-anchor="start" font-weight="700">F19 · RESPONSIBILITY · C</text>
+<text x="62" y="307.0" font-size="22" fill="#172b3a" text-anchor="start" font-weight="700">User-designated executive</text>
+<text x="62" y="374" font-size="14" fill="#465b6c" text-anchor="start">Primary home M02 · source scope in index</text>
+</a>
+<a xlink:href="../modules/M02.md#F47">
+<rect x="574" y="244" width="392" height="146" rx="10" fill="#eef7f7" stroke="#becbd3" stroke-width="1.5"/>
+<text x="592" y="270" font-size="13" fill="#465b6c" text-anchor="start" font-weight="700">F47 · RESPONSIBILITY · C</text>
+<text x="592" y="307.0" font-size="22" fill="#172b3a" text-anchor="start" font-weight="700">Bounded cognitive planning</text>
+<text x="592" y="374" font-size="14" fill="#465b6c" text-anchor="start">Primary home M02 · source scope in index</text>
+</a>
+<a xlink:href="../modules/M02.md#F20">
+<rect x="1104" y="244" width="392" height="146" rx="10" fill="#eef7f7" stroke="#becbd3" stroke-width="1.5"/>
+<text x="1122" y="270" font-size="13" fill="#465b6c" text-anchor="start" font-weight="700">F20 · RESPONSIBILITY · B</text>
+<text x="1122" y="307.0" font-size="22" fill="#172b3a" text-anchor="start" font-weight="700">Analyst / Challenge /</text>
+<text x="1122" y="336.7" font-size="22" fill="#172b3a" text-anchor="start" font-weight="700">Synthesis</text>
+<text x="1122" y="374" font-size="14" fill="#465b6c" text-anchor="start">Primary home M02 · source scope in index</text>
+</a>
+<path d="M442,344 L564,344" fill="none" stroke="#087f8c" stroke-width="2.7" stroke-linejoin="round" stroke-dasharray="8 6" marker-end="url(#arrow-data)"/>
+<text x="454" y="278" font-size="14" fill="#087f8c" text-anchor="start">authorized</text>
+<text x="454" y="296" font-size="14" fill="#087f8c" text-anchor="start">goal</text>
+<path d="M972,344 L1094,344" fill="none" stroke="#087f8c" stroke-width="2.7" stroke-linejoin="round" stroke-dasharray="8 6" marker-end="url(#arrow-data)"/>
+<text x="984" y="278" font-size="14" fill="#087f8c" text-anchor="start">finite plan /</text>
+<text x="984" y="296" font-size="14" fill="#087f8c" text-anchor="start">context</text>
+<text x="44" y="438" font-size="18" fill="#172b3a" text-anchor="start" font-weight="700">Bounded selection and stopping</text>
+<a xlink:href="../modules/M02.md#F64">
+<rect x="44" y="462" width="392" height="146" rx="10" fill="#f3f5f8" stroke="#becbd3" stroke-width="1.5"/>
+<text x="62" y="488" font-size="13" fill="#465b6c" text-anchor="start" font-weight="700">F64 · ROLE CONTRACT · C</text>
+<text x="62" y="525.0" font-size="22" fill="#172b3a" text-anchor="start" font-weight="700">Role / capability</text>
+<text x="62" y="554.7" font-size="22" fill="#172b3a" text-anchor="start" font-weight="700">contracts</text>
+<text x="62" y="592" font-size="14" fill="#465b6c" text-anchor="start">Primary home M02 · source scope in index</text>
+</a>
+<a xlink:href="../modules/M02.md#F39">
+<rect x="574" y="462" width="392" height="146" rx="10" fill="#fff8ed" stroke="#becbd3" stroke-width="1.5" stroke-dasharray="7 5"/>
+<text x="592" y="488" font-size="13" fill="#465b6c" text-anchor="start" font-weight="700">F39 · RESPONSIBILITY · D</text>
+<text x="592" y="525.0" font-size="22" fill="#172b3a" text-anchor="start" font-weight="700">Role / effort selection</text>
+<text x="592" y="592" font-size="14" fill="#465b6c" text-anchor="start">Primary home M02 · source scope in index</text>
+</a>
+<a xlink:href="../modules/M02.md#F83">
+<rect x="1104" y="462" width="392" height="146" rx="10" fill="#eef7f7" stroke="#becbd3" stroke-width="1.5"/>
+<text x="1122" y="488" font-size="13" fill="#465b6c" text-anchor="start" font-weight="700">F83 · RESPONSIBILITY · C</text>
+<text x="1122" y="525.0" font-size="22" fill="#172b3a" text-anchor="start" font-weight="700">Bounded exploration /</text>
+<text x="1122" y="554.7" font-size="22" fill="#172b3a" text-anchor="start" font-weight="700">stopping</text>
+<text x="1122" y="592" font-size="14" fill="#465b6c" text-anchor="start">Primary home M02 · source scope in index</text>
+</a>
+<path d="M442,562 L564,562" fill="none" stroke="#9a5b06" stroke-width="2.7" stroke-linejoin="round" stroke-dasharray="8 6" marker-end="url(#arrow-control)"/>
+<text x="454" y="496" font-size="14" fill="#9a5b06" text-anchor="start">capability</text>
+<text x="454" y="514" font-size="14" fill="#9a5b06" text-anchor="start">limits</text>
+<path d="M972,562 L1094,562" fill="none" stroke="#087f8c" stroke-width="2.7" stroke-linejoin="round" stroke-dasharray="8 6" marker-end="url(#arrow-data)"/>
+<text x="984" y="496" font-size="14" fill="#087f8c" text-anchor="start">budgeted</text>
+<text x="984" y="514" font-size="14" fill="#087f8c" text-anchor="start">proposal</text>
+<text x="44" y="656" font-size="18" fill="#172b3a" text-anchor="start" font-weight="700">Research feedback, not subjective experience</text>
+<a xlink:href="../modules/M02.md#F56">
+<rect x="44" y="680" width="392" height="146" rx="10" fill="#fff8ed" stroke="#becbd3" stroke-width="1.5" stroke-dasharray="7 5"/>
+<text x="62" y="706" font-size="13" fill="#465b6c" text-anchor="start" font-weight="700">F56 · RESEARCH · R</text>
+<text x="62" y="743.0" font-size="22" fill="#172b3a" text-anchor="start" font-weight="700">Operational self-model</text>
+<text x="62" y="772.7" font-size="22" fill="#172b3a" text-anchor="start" font-weight="700">research</text>
+<text x="62" y="810" font-size="14" fill="#465b6c" text-anchor="start">Primary home M02 · source scope in index</text>
+</a>
+<rect x="574" y="680" width="392" height="146" rx="10" fill="#ffffff" stroke="#8c9eaa" stroke-width="1.5" stroke-dasharray="6 5"/>
+<text x="592" y="706" font-size="14" fill="#465b6c" text-anchor="start" font-weight="700">REFERENCE · M02</text>
+<text x="592" y="742.0" font-size="22" fill="#172b3a" text-anchor="start" font-weight="700">Planning / calibration</text>
+<text x="592" y="810" font-size="14" fill="#465b6c" text-anchor="start">F47</text>
+<rect x="1104" y="680" width="392" height="146" rx="10" fill="#ffffff" stroke="#8c9eaa" stroke-width="1.5" stroke-dasharray="6 5"/>
+<text x="1122" y="706" font-size="14" fill="#465b6c" text-anchor="start" font-weight="700">REFERENCE · M06</text>
+<text x="1122" y="742.0" font-size="22" fill="#172b3a" text-anchor="start" font-weight="700">Custody / recovery</text>
+<text x="1122" y="810" font-size="14" fill="#465b6c" text-anchor="start">F35</text>
+<path d="M442,780 L564,780" fill="none" stroke="#087f8c" stroke-width="2.7" stroke-linejoin="round" stroke-dasharray="8 6" marker-end="url(#arrow-data)"/>
+<text x="454" y="714" font-size="14" fill="#087f8c" text-anchor="start">state</text>
+<text x="454" y="732" font-size="14" fill="#087f8c" text-anchor="start">hypothesis</text>
+<path d="M972,780 L1094,780" fill="none" stroke="#7451a8" stroke-width="2.7" stroke-linejoin="round" stroke-dasharray="8 6" marker-end="url(#arrow-provenance)"/>
+<text x="984" y="714" font-size="14" fill="#7451a8" text-anchor="start">versions /</text>
+<text x="984" y="732" font-size="14" fill="#7451a8" text-anchor="start">pending</text>
+<text x="984" y="750" font-size="14" fill="#7451a8" text-anchor="start">effects</text>
+<text x="44" y="878" font-size="16" fill="#087f8c" text-anchor="start" font-weight="700">SECONDARY MODULE CONNECTIONS</text>
+<text x="44" y="911" font-size="17" fill="#087f8c" text-anchor="start" font-weight="700">M07 → M02</text>
+<text x="180" y="911" font-size="17" fill="#465b6c" text-anchor="start">current delegation, privacy and resource constraints</text>
+<text x="44" y="943" font-size="17" fill="#087f8c" text-anchor="start" font-weight="700">M02 → M03</text>
+<text x="180" y="943" font-size="17" fill="#465b6c" text-anchor="start">admitted analysis task and context</text>
+<text x="44" y="975" font-size="17" fill="#087f8c" text-anchor="start" font-weight="700">M02 → M08</text>
+<text x="180" y="975" font-size="17" fill="#465b6c" text-anchor="start">qualified, separately admitted model or peer route</text>
+<text x="44" y="1027" font-size="17" fill="#465b6c" text-anchor="start">• Role names do not prove identity, independent review, capability or rights.</text>
+<text x="44" y="1055" font-size="17" fill="#465b6c" text-anchor="start">• Stopping recommendations require the actual executive/resource owner to act.</text>
+<text x="44" y="1083" font-size="17" fill="#465b6c" text-anchor="start">• Adaptive selection and operational self-model usefulness need their own evidence.</text>
+<text x="44" y="1134" font-size="15" fill="#465b6c" text-anchor="start">B bounded components · C source components · D design · R research / unresolved · P human process</text>
+<text x="44" y="1159" font-size="15" fill="#465b6c" text-anchor="start">Record kind ≠ maturity. No whole-family integration or permission is implied. Open the index for source scope and missing joins.</text>
+</g></svg>

@@ -1,0 +1,147 @@
+{
+  "title": "Maintained cognitive route: sanitized source status",
+  "as_of": "2026-11-02",
+  "scope": "Static source inspection; no execution, installation, provider or model claim",
+  "status_legend": {
+    "source_connected": "A real caller/accepting consumer is present in inspected maintained source.",
+    "selected_evidence": "Separate earlier source-bound selected test evidence exists; not a current installed qualification.",
+    "draft_join": "Authored but unmerged and unqualified native connection.",
+    "not_established": "Not established by this inspection; not necessarily missing code."
+  },
+  "edges": [
+    {
+      "from": "Control Anchor Home",
+      "to": "Sonya explicit task/turn",
+      "status": "source_connected",
+      "data": "User prompt, source/evidence, declared context and explicit consent",
+      "boundary": "Submission is not dispatch authorization or review."
+    },
+    {
+      "from": "Sonya task/turn",
+      "to": "Authenticated custody admission",
+      "status": "source_connected",
+      "data": "Canonical request and exact explicit parent binding",
+      "boundary": "Untrusted content supplies no authority; no implicit memory."
+    },
+    {
+      "from": "Custody admission",
+      "to": "AEGIS / configured UCC",
+      "status": "source_connected",
+      "data": "Native request, grounded source and effective procedure profile",
+      "boundary": "Technical eligibility enforced; business observations are advisory."
+    },
+    {
+      "from": "Separate exact-request dispatch authorization",
+      "to": "Configured provider/model adapter",
+      "status": "source_connected",
+      "data": "Frozen request, provider selection and operating bounds",
+      "boundary": "Authorization belongs to authenticated roles, not candidate text."
+    },
+    {
+      "from": "Configured provider/model adapter",
+      "to": "Raw capture / normalized text",
+      "status": "source_connected",
+      "data": "Response/error bytes and separate normalization",
+      "boundary": "Synthetic test capture is not live inference; UNKNOWN does not authorize replay."
+    },
+    {
+      "from": "Complete retained capture",
+      "to": "Sonya captured adapter",
+      "status": "source_connected",
+      "data": "Derived semantic text with exact span/quotation candidates",
+      "boundary": "Provider wire bytes remain separately retained."
+    },
+    {
+      "from": "Sonya captured adapter",
+      "to": "CoherenceLattice",
+      "status": "source_connected",
+      "data": "Candidate → claim map → UCM/projector → structural AHA/counterexamples → aperture",
+      "boundary": "Structural checks are not calibrated truth or demonstrated general understanding."
+    },
+    {
+      "from": "CoherenceLattice",
+      "to": "Evaluator publication / claim",
+      "status": "source_connected",
+      "data": "Allowlisted derived artifacts and nonce-bound manifest",
+      "boundary": "Core stops before Sophia/Atlas; no raw provider body in evaluator contract."
+    },
+    {
+      "from": "Evaluator publication / claim",
+      "to": "Sophia independent file audit",
+      "status": "source_connected",
+      "data": "Manifested candidate, grounding and analytical artifacts",
+      "boundary": "No provider call, memory write or human decision; independent procedure is not statistical independence."
+    },
+    {
+      "from": "Sophia result",
+      "to": "Custody result acceptance",
+      "status": "source_connected",
+      "data": "Exact claim, actor, input and algorithm bindings",
+      "boundary": "Unperformed, changed or substituted results reject."
+    },
+    {
+      "from": "Accepted Sophia result",
+      "to": "Atlas explanation/posture",
+      "status": "source_connected",
+      "data": "Bounded disposition and missing work",
+      "boundary": "Human review stays separate; no automatic publication, action or memory authority."
+    },
+    {
+      "from": "Atlas / accepted results",
+      "to": "TEL stage links + sealed retained projection",
+      "status": "source_connected",
+      "data": "Performed logical stage relationships and preserved artifact bindings",
+      "boundary": "TEL is not custody or another decision maker."
+    },
+    {
+      "from": "Retained projection/capture",
+      "to": "Home inspection / separate review",
+      "status": "source_connected",
+      "data": "Saved source, capture, analysis, profile and review state",
+      "boundary": "Reopen inspects, not resend; inspection is access-audited; SCRIPTED selection is not human acceptance."
+    },
+    {
+      "from": "Capture-only profile",
+      "to": "Retained capture and supported policy evidence",
+      "status": "source_connected",
+      "data": "Explicit optional-analysis NOT_EXECUTED record",
+      "boundary": "Does not claim Coherence, Sophia, Atlas or TEL ran."
+    },
+    {
+      "from": "Declared reconstruction",
+      "to": "Governed evaluation and Atlas display",
+      "status": "source_connected",
+      "data": "Exact repair parent and competing declared explanations",
+      "boundary": "No hidden-thought recovery or demonstrated interpretation."
+    },
+    {
+      "from": "Exact same-root Analyst/Challenge pair",
+      "to": "Selected synthesis",
+      "status": "source_connected",
+      "data": "Frozen role records, original root, policy and artifact bindings",
+      "boundary": "Not general cross-task memory or independent corroboration."
+    },
+    {
+      "from": "Explicitly supplied prior declarations",
+      "to": "Pure comparison result",
+      "status": "source_connected",
+      "data": "Bounded duplicate/related/conflict/unknown/needs-test comparison",
+      "boundary": "No lookup, retention, credential authentication, context injection or dispatch."
+    },
+    {
+      "from": "Pure comparison result",
+      "to": "Native same-custody authorized retention/use",
+      "status": "draft_join",
+      "data": "Current grants/audits, original/producer/target bindings and retained operation",
+      "boundary": "Unmerged unqualified draft, disabled by default; do not portray as installed."
+    }
+  ],
+  "guardrails": [
+    "Current application/component/test source matches the frozen source baseline; no runtime change was made.",
+    "Ordinary governed route passes no PMR consent; required custody retention is not optional cognitive memory.",
+    "PMR reference examples are no-write or in-memory, not durable memory service proof.",
+    "Portable Home/evaluator selected tests used synthetic capture and injected OS/transport boundaries.",
+    "Full installed Windows backend/phase/provider behavior and actual human acceptance remain separate evidence boundaries."
+  ],
+  "next_join": "Complete the already-owned native same-custody comparison consumer and its discriminating provenance/current-rights checks; do not add a parallel controller or replace the existing core."
+}

@@ -1,6 +1,6 @@
 # Contributing to Triadic Brain
 
-Reviewed documentation invitation dated 2 November 2026. Companion to the [English whitepaper](../R4/WHITEPAPER.en.md), edition 2026-11-02.R4. This documentation does not activate a new service or change repository settings.
+Reviewed documentation invitation dated 2 November 2026. Companion to the [English whitepaper](../R5.1/WHITEPAPER.en.md), edition 2026-11-02.R5.1. This documentation does not activate a new service or change repository settings.
 
 We welcome people and AI-assisted contributors who can help make cooperative human and AI cognition useful, inspectable and correctable. Start with one concrete question, correction or proposal. Challenge and negative results are welcome; participation does not require agreement with the project’s ambitions.
 

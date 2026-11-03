@@ -1,6 +1,6 @@
 # Control Anchor
 
-**Triadic Brain design edition:** [English whitepaper, companion guides and contribution information](docs/whitepaper/triadic-brain-20261102/README.md). Main-paper translations are planned; this documentation does not expand the runnable demo's capabilities.
+**Triadic Brain design edition:** [English whitepaper, visual atlas, companion guides and contribution information](docs/whitepaper/triadic-brain-20261102/README.md). Main-paper translations are planned; this documentation does not expand the runnable demo's capabilities.
 
 **An offline, synthetic Python reviewer demo for evidence-linked review and correction history.** No model calls or networked compute run here. The broader Triadic Brain / Control Anchor vision proposes local-first cognitive middleware and voluntary, decentralized cooperation; those are design goals, not deployed capabilities of this repository.
 
@@ -22,11 +22,11 @@ The proposed distributed virtual computer would bring that vision into everyday 
 
 What if your rules traveled with the task, even when the model changed? What if a correction strengthened the record instead of erasing the mistake? And what if useful knowledge could move between people and organizations without requiring them to surrender authority over their own information?
 
-**UVLM is building toward Control Anchor: a local-first AI workbench that connects human intent, enforceable permissions, evidence-linked work and accountable decisions.** The Triadic Brain supplies the broader architecture. Our ambition is a practical foundation for increasingly capable AI: understandable enough to govern, structured enough to challenge and useful enough to earn a place in everyday work.
+**UVLM is building the Triadic Brain: a proposed local-first cognitive system connecting human intent, enforceable permissions, evidence-linked work and accountable decisions.** Control Anchor is the intended user interface of a user-controlled Sonya node, not a separate product replacing the Brain. Our ambition is a practical foundation for increasingly capable AI: understandable enough to govern, structured enough to challenge and useful enough to earn a place in everyday work.
 
 [Read the Grand Vision](docs/GRAND_VISION.md) · [Meet Thomas Prislac](docs/THOMAS_PRISLAC_CV.md) · [Inspect the evidence](VALIDATION.md) · [Run the demo](#run-on-windows--powershell)
 
-**This repository contains an offline, synthetic reviewer component; the product vision below describes the full workbench we intend to build.**
+**This repository contains an offline, synthetic reviewer component; the product vision below describes the full Triadic Brain system we intend to build.**
 
 **30 October development update:** [Fifteen provisional connection families and the next authenticated-selection join](docs/DEVELOPMENT_UPDATE_2026-10-30.md). Separates implementation work, missing proof and optional research; this public demo's runtime remains unchanged.
 
@@ -45,7 +45,7 @@ Our product hypothesis starts with evidence-heavy workflows: a small business re
 
 ## The product we intend to deliver
 
-Control Anchor would let a user define a goal, select permitted sources, choose supported local or remote models and set action and resource limits. A bounded coordinator would organize the work, retain unresolved questions and stop when evidence, authority or budget is missing. The user could inspect the result, request a correction and return later to a preserved history.
+Through its Control Anchor interface, the proposed Triadic Brain would let a user define a goal, select permitted sources, choose supported local or remote models and set action and resource limits. A bounded coordinator would organize the work, retain unresolved questions and stop when evidence, authority or budget is missing. The user could inspect the result, request a correction and return later to a preserved history.
 
 Bring-your-own-model support would make models replaceable workers within a governed workflow. Local-first design would preserve local decision authority and useful work without mandatory network participation. When a user selects a remote provider, the product must disclose the corresponding data transfer rather than imply that everything stays offline.
 

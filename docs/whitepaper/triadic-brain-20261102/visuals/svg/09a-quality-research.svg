@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1600" height="966" viewBox="0 0 1600 966" role="img" aria-labelledby="title desc"><title id="title">Research and quality: comparison, not scores as authority</title><desc id="desc">Preserve canonical objectives, narrower proxies and empirical outcomes as different evidence types. This is a proposed research-evidence route, not a measured energy/performance result. A codec&#x27;s reconstruction success does not prove semantic transfer or energy reduction. Passing algebra, thresholds or proxy scores cannot override consent, evidence or rights floors. Lane Representation accounting to declared comparison: F43 DeltaSyn compression research; F46 TAF objective and diagnostics; F40 Pilot evidence comparator Lane Assumptions and independent outcome checks: F54 Formula to implementation crosswalk; F86 Formal assumptions and consumer parity; F78 Metric gaming controls</desc>
+<rect width="1600" height="966" fill="white"/>
+<defs>
+<marker id="arrow-data" markerWidth="9" markerHeight="9" refX="8" refY="4.5" orient="auto"><path d="M0,0 L9,4.5 L0,9 Z" fill="#087f8c"/></marker>
+<marker id="arrow-control" markerWidth="9" markerHeight="9" refX="8" refY="4.5" orient="auto"><path d="M0,0 L9,4.5 L0,9 Z" fill="#9a5b06"/></marker>
+<marker id="arrow-provenance" markerWidth="9" markerHeight="9" refX="8" refY="4.5" orient="auto"><path d="M0,0 L9,4.5 L0,9 Z" fill="#7451a8"/></marker>
+<marker id="arrow-association" markerWidth="9" markerHeight="9" refX="8" refY="4.5" orient="auto"><path d="M0,0 L9,4.5 L0,9 Z" fill="#71808b"/></marker>
+</defs><g font-family="DejaVu Sans, sans-serif">
+<text x="44" y="40" font-size="15" fill="#087f8c" text-anchor="start" font-weight="700">M09 · PROPOSED RESPONSIBILITY GROUPING</text>
+<text x="44" y="86" font-size="32" fill="#172b3a" text-anchor="start" font-weight="700">Research and quality: comparison, not scores as authority</text>
+<text x="44" y="122.0" font-size="18" fill="#465b6c" text-anchor="start">Preserve canonical objectives, narrower proxies and empirical outcomes as different evidence types.</text>
+<text x="44" y="180" font-size="16" fill="#465b6c" text-anchor="start">Arrows: intended data (teal) · control / constraints (amber) · provenance (purple). REF boxes are secondary references.</text>
+<text x="44" y="220" font-size="18" fill="#172b3a" text-anchor="start" font-weight="700">Representation accounting to declared comparison</text>
+<a xlink:href="../modules/M09.md#F43">
+<rect x="44" y="244" width="392" height="146" rx="10" fill="#fff8ed" stroke="#becbd3" stroke-width="1.5" stroke-dasharray="7 5"/>
+<text x="62" y="270" font-size="13" fill="#465b6c" text-anchor="start" font-weight="700">F43 · CODEC / RESEARCH · C</text>
+<text x="62" y="307.0" font-size="22" fill="#172b3a" text-anchor="start" font-weight="700">DeltaSyn codec / research</text>
+<text x="62" y="374" font-size="14" fill="#465b6c" text-anchor="start">Primary home M09 · source scope in index</text>
+</a>
+<a xlink:href="../modules/M09.md#F46">
+<rect x="574" y="244" width="392" height="146" rx="10" fill="#fff8ed" stroke="#becbd3" stroke-width="1.5" stroke-dasharray="7 5"/>
+<text x="592" y="270" font-size="13" fill="#465b6c" text-anchor="start" font-weight="700">F46 · OBJECTIVE / PROXY · C</text>
+<text x="592" y="307.0" font-size="22" fill="#172b3a" text-anchor="start" font-weight="700">TAF objective /</text>
+<text x="592" y="336.7" font-size="22" fill="#172b3a" text-anchor="start" font-weight="700">diagnostics</text>
+<text x="592" y="374" font-size="14" fill="#465b6c" text-anchor="start">Primary home M09 · source scope in index</text>
+</a>
+<a xlink:href="../modules/M09.md#F40">
+<rect x="1104" y="244" width="392" height="146" rx="10" fill="#f3f5f8" stroke="#becbd3" stroke-width="1.5"/>
+<text x="1122" y="270" font-size="13" fill="#465b6c" text-anchor="start" font-weight="700">F40 · RESPONSIBILITY · D</text>
+<text x="1122" y="307.0" font-size="22" fill="#172b3a" text-anchor="start" font-weight="700">Pilot evidence comparator</text>
+<text x="1122" y="374" font-size="14" fill="#465b6c" text-anchor="start">Primary home M09 · source scope in index</text>
+</a>
+<path d="M442,344 L564,344" fill="none" stroke="#087f8c" stroke-width="2.7" stroke-linejoin="round" stroke-dasharray="8 6" marker-end="url(#arrow-data)"/>
+<text x="454" y="278" font-size="14" fill="#087f8c" text-anchor="start">scoped codec</text>
+<text x="454" y="296" font-size="14" fill="#087f8c" text-anchor="start">accounting</text>
+<path d="M972,344 L1094,344" fill="none" stroke="#087f8c" stroke-width="2.7" stroke-linejoin="round" stroke-dasharray="8 6" marker-end="url(#arrow-data)"/>
+<text x="984" y="278" font-size="14" fill="#087f8c" text-anchor="start">bounded</text>
+<text x="984" y="296" font-size="14" fill="#087f8c" text-anchor="start">diagnostics</text>
+<text x="44" y="438" font-size="18" fill="#172b3a" text-anchor="start" font-weight="700">Assumptions and independent outcome checks</text>
+<a xlink:href="../modules/M09.md#F54">
+<rect x="44" y="462" width="392" height="146" rx="10" fill="#f3f5f8" stroke="#becbd3" stroke-width="1.5"/>
+<text x="62" y="488" font-size="13" fill="#465b6c" text-anchor="start" font-weight="700">F54 · EVIDENCE CROSSWALK · R</text>
+<text x="62" y="525.0" font-size="22" fill="#172b3a" text-anchor="start" font-weight="700">Formula / implementation</text>
+<text x="62" y="554.7" font-size="22" fill="#172b3a" text-anchor="start" font-weight="700">crosswalk</text>
+<text x="62" y="592" font-size="14" fill="#465b6c" text-anchor="start">Primary home M09 · source scope in index</text>
+</a>
+<a xlink:href="../modules/M09.md#F86">
+<rect x="574" y="462" width="392" height="146" rx="10" fill="#f3f5f8" stroke="#becbd3" stroke-width="1.5"/>
+<text x="592" y="488" font-size="13" fill="#465b6c" text-anchor="start" font-weight="700">F86 · FORMAL CROSSWALK · C</text>
+<text x="592" y="525.0" font-size="22" fill="#172b3a" text-anchor="start" font-weight="700">Formal assumptions /</text>
+<text x="592" y="554.7" font-size="22" fill="#172b3a" text-anchor="start" font-weight="700">consumer parity</text>
+<text x="592" y="592" font-size="14" fill="#465b6c" text-anchor="start">Primary home M09 · source scope in index</text>
+</a>
+<a xlink:href="../modules/M09.md#F78">
+<rect x="1104" y="462" width="392" height="146" rx="10" fill="#f3f5f8" stroke="#becbd3" stroke-width="1.5"/>
+<text x="1122" y="488" font-size="13" fill="#465b6c" text-anchor="start" font-weight="700">F78 · RESPONSIBILITY · R</text>
+<text x="1122" y="525.0" font-size="22" fill="#172b3a" text-anchor="start" font-weight="700">Metric gaming controls</text>
+<text x="1122" y="592" font-size="14" fill="#465b6c" text-anchor="start">Primary home M09 · source scope in index</text>
+</a>
+<path d="M442,562 L564,562" fill="none" stroke="#7451a8" stroke-width="2.7" stroke-linejoin="round" stroke-dasharray="8 6" marker-end="url(#arrow-provenance)"/>
+<text x="454" y="496" font-size="14" fill="#7451a8" text-anchor="start">formula /</text>
+<text x="454" y="514" font-size="14" fill="#7451a8" text-anchor="start">consumer map</text>
+<path d="M972,562 L1094,562" fill="none" stroke="#087f8c" stroke-width="2.7" stroke-linejoin="round" stroke-dasharray="8 6" marker-end="url(#arrow-data)"/>
+<text x="984" y="496" font-size="14" fill="#087f8c" text-anchor="start">scoped claims</text>
+<text x="984" y="514" font-size="14" fill="#087f8c" text-anchor="start">/ limits</text>
+<text x="44" y="660" font-size="16" fill="#087f8c" text-anchor="start" font-weight="700">SECONDARY MODULE CONNECTIONS</text>
+<text x="44" y="693" font-size="17" fill="#087f8c" text-anchor="start" font-weight="700">M09 → M02</text>
+<text x="180" y="693" font-size="17" fill="#465b6c" text-anchor="start">bounded comparisons for role/effort proposals</text>
+<text x="44" y="725" font-size="17" fill="#087f8c" text-anchor="start" font-weight="700">M09 → M03</text>
+<text x="180" y="725" font-size="17" fill="#465b6c" text-anchor="start">formal assumptions and transfer-test evidence</text>
+<text x="44" y="757" font-size="17" fill="#087f8c" text-anchor="start" font-weight="700">M09 → M05</text>
+<text x="180" y="757" font-size="17" fill="#465b6c" text-anchor="start">pure compression/lifecycle recommendation; native owner decides</text>
+<text x="44" y="809" font-size="17" fill="#465b6c" text-anchor="start">• This is a proposed research-evidence route, not a measured energy/performance result.</text>
+<text x="44" y="837" font-size="17" fill="#465b6c" text-anchor="start">• A codec&#x27;s reconstruction success does not prove semantic transfer or energy reduction.</text>
+<text x="44" y="865" font-size="17" fill="#465b6c" text-anchor="start">• Passing algebra, thresholds or proxy scores cannot override consent, evidence or rights floors.</text>
+<text x="44" y="916" font-size="15" fill="#465b6c" text-anchor="start">B bounded components · C source components · D design · R research / unresolved · P human process</text>
+<text x="44" y="941" font-size="15" fill="#465b6c" text-anchor="start">Record kind ≠ maturity. No whole-family integration or permission is implied. Open the index for source scope and missing joins.</text>
+</g></svg>
