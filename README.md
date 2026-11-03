@@ -11,9 +11,9 @@
 
 ## Compute cooperatives: be the solution you seek.
 
-**Technical manuscript:** [Triadic Brain from Byte Identity to Revisable Knowledge, edition 1.2, and machine-readable companion](docs/papers/triadic-brain-micro-spectrum/README.md). Source reconstruction and a research agenda; distinct from the runnable demo and earlier whitepaper.
+**Technical manuscript:** [Triadic Brain from Byte Identity to Revisable Knowledge, edition 1.2, and machine-readable companion](docs/papers/triadic-brain-micro-spectrum/README.md), with [French, Simplified Chinese (written Mandarin), Hindi and Hebrew main-text translations](docs/papers/triadic-brain-micro-spectrum/translations/edition-1.2/README.md). Source reconstruction and a research agenda; distinct from the runnable demo and earlier whitepaper.
 
-**Triadic Brain design edition:** [English whitepaper, visual atlas, companion guides and contribution information](docs/whitepaper/triadic-brain-20261102/README.md). Main-paper translations are planned; this documentation does not expand the runnable demo's capabilities.
+**Triadic Brain design edition:** [English R6 whitepaper, visual atlas, companion guides and contribution information](docs/whitepaper/triadic-brain-20261102/README.md). [Five source-bound main-text translations](docs/whitepaper/triadic-brain-20261102/translations/R6/README.md) are available; this documentation does not expand the runnable demo's capabilities.
 
 **An offline, synthetic Python reviewer demo for evidence-linked review and correction history.** No model calls or networked compute run here. The broader Triadic Brain / Control Anchor vision proposes local-first cognitive middleware and voluntary, decentralized cooperation; those are design goals, not deployed capabilities of this repository.
 
