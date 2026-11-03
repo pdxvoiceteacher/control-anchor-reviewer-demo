@@ -1150,8 +1150,8 @@
       "modifications": "Frozen R4 source-aligned English design or contribution documentation, or original navigation. Descriptive data only; no new runtime evidence, channel activation or execution authority.",
       "license": "Existing rights and notices preserved; no new media/prose license grant.",
       "publication_review": "OWNER_REQUESTED_PUBLIC_DOCUMENTATION_EXISTING_RIGHTS_PRESERVED",
-      "candidate_sha256": "d52376569c707cf69da7983572dc2018f243fbec7b157be6dbfb149c677d55ce",
-      "bytes": 8486
+      "candidate_sha256": "ba477446172e7b5e0e39e77368b39b8799aa6d985d784aff7b8b7e8b61ff5c82",
+      "bytes": 9039
     },
     {
       "path": "docs/whitepaper/triadic-brain-20261102/contribute/CONTRIBUTION_CHANNELS.en.md",
@@ -1932,6 +1932,16 @@
       "publication_review": "OWNER_REQUESTED_REVIEWED_DOCUMENTATION_EXISTING_RIGHTS_PRESERVED",
       "candidate_sha256": "ff9aa2e19e83a4ab807a38b3659b619403514324d39bc27aebcacedc125bbaad",
       "bytes": 17262
+    },
+    {
+      "path": "docs/design-notes/2026-11-03-refinements.en.md",
+      "origin": "NEW_PUBLIC_HIGH_LEVEL_DESIGN_DOCUMENTATION",
+      "source_basis_paths": [],
+      "modifications": "High-level design supplement for recursive review, analogy target evidence, distinct measurement families, current-use permission and privacy-aware record lifecycle. Proposed behavior and unrun checks remain explicit; no runtime or scientific qualification.",
+      "license": "Existing rights and notices preserved; no new media/prose license grant.",
+      "publication_review": "OWNER_REQUESTED_PUBLIC_DOCUMENTATION_EXISTING_RIGHTS_PRESERVED",
+      "candidate_sha256": "0f33d49a6200a6a36074375d6cae6486883224a068fb8b9c3a88527f8dfb7ebf",
+      "bytes": 8014
     }
   ],
   "dependency_closure": {
