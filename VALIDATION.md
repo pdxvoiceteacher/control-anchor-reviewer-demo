@@ -319,3 +319,48 @@ Decimal exponent limits or traps. Focused success establishes supplied-field
 behavior, not source truth, human acceptance, installed Windows behavior,
 performance, full-product integration or a formal assurance opinion. No private
 run evidence or history is published. Public CI reports its own exact-head results.
+
+## Retrosynthesis public extraction: 3 November 2026
+
+This second projection starts from public main e33da6cb. The accepted private
+source pin remains ad4a0e94972a5fa12965cd2f394cce504655d78b. The leaf blob is
+e9854000b7ed113028fd626458698cdea42070ee; exact upstream test blob is
+4331aa4fb31ea59aac436f94c9f783c3b3a27ee1. The complete ordinary import closure,
+schema pairs and Unicode license are bound in SOURCE_MANIFEST.json, not replaced
+by stubs or satisfied by a private sibling installation.
+
+Preparation history is retained distinctly: an initial materialization attempt
+lacked the three source-parity schema files and stopped. The subsequent attempted
+pytest command found no relocated test file and ran zero tests. Exact missing
+schema bytes were fetched and identity-checked before successful qualification.
+After the module-origin hook was added, one independent run executed all 74 cases
+but failed at session finish because new source-manifest entries were not yet
+finalized. That guard failure is not counted as a successful run. The completed
+manifest and final identity-checked run below supersede those preparation gaps.
+
+Local qualification uses existing Python 3.12.14, jsonschema4.26.0 and pytest9.1.1
+on Linux, without package installation, live model/provider/network invocation,
+native service or paid spending. The unchanged 73 upstream cases passed before
+the public demo was added. The demo adds one test, yielding 74 selected cases.
+The final focused command is `python -B -s -m pytest -q -p no:cacheprovider tests/upstream_retrosynthesis`
+with plugin autoload disabled. Imported project-module identities are checked
+against the public manifest at session finish. Final result: **74 passed**, including all 73 unchanged upstream cases, and
+**29 imported project modules** matched the public manifest. The existing
+standard-library suite separately passed all **26 tests**. These counts cover
+different selected paths; they do not imply whole-product qualification.
+Exact final output is retained in
+[the extraction log](validation/2026-11-03-retrosynthesis-pytest.log).
+
+The synthetic demonstration exercises the real Coherence grounding/proposal
+validator and Sophia reconstruction consumer, returning all five comparison
+dispositions with authority NONE, human decision PENDING, interpretation
+NOT_ESTABLISHED, and no lookup, retention, context delivery or dispatch.
+Permits/reports remain synthetic. This does not establish full Sophia evaluation,
+actual grants, native COMPARE custody, durable memory, installed behavior, source
+truth or full cognitive-loop acceptance. Support modules included for ordinary
+imports are not all behaviorally qualified by these selected tests.
+
+The existing bounded public CI job separately installs the optional pinned test
+requirements and executes this suite and demonstration on its Linux/Windows
+matrix. Consult exact commit CI for its outcome; local source results are not
+represented as installed or cross-platform proof before those checks finish.

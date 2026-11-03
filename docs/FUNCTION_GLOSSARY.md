@@ -1,5 +1,12 @@
 # Triadic Brain: a public guide to the functions and names
 
+**Public component update, 3 November 2026:** the [subsystem guide](PUBLIC_SUBSYSTEMS.md)
+now links runnable bounded UCC procedures and [retrosynthesis comparison](RETROSYNTHESIS_COMPONENT.md)
+with real Coherence grounding and Sophia reconstruction. Earlier captured-output
+crosswalks below retain their original demo scope; those additions do not establish
+installed or whole-system completion.
+
+
 **Design overview · 2 November 2026**
 
 The **Triadic Brain**, or **Brain**, is the product we are working toward: a cooperative cognition system that keeps people in control of their tasks, data and participation. **Control Anchor is the intended everyday interface for a Sonya node**, not a replacement name for every part of the Brain. A Sonya node is a locally governed participant; a cooperative network connects such participants without giving one coordinator ownership of everyone else's work.

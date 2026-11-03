@@ -11,6 +11,8 @@
 
 ## Public subsystems
 
+**New: [retained-hypothesis comparison](docs/RETROSYNTHESIS_COMPONENT.md)** includes the real Coherence grounding and Sophia reconstruction consumers, their complete import closure and exact tests. The optional synthetic demo requires jsonschema 4.26.0; it performs no memory write, grant authentication or model call.
+
 **New: [bounded UCC procedures](docs/PUBLIC_SUBSYSTEMS.md)** are now inspectable and runnable alongside the existing evidence/review demo. Run `python -S -B ucc_demo.py` for synthetic totals, missing-input handling and explicit human-procedure boundaries. See [what is included and how vetted source is promoted](docs/PUBLIC_SUBSYSTEMS.md). This is component source, not the full installed product.
 
 ## Compute cooperatives: be the solution you seek.

@@ -1,5 +1,12 @@
 # Product map and reviewer crosswalk
 
+**Public component update, 3 November 2026:** the [subsystem guide](PUBLIC_SUBSYSTEMS.md)
+now links runnable bounded UCC procedures and [retrosynthesis comparison](RETROSYNTHESIS_COMPONENT.md)
+with real Coherence grounding and Sophia reconstruction. Earlier captured-output
+crosswalks below retain their original demo scope; those additions do not establish
+installed or whole-system completion.
+
+
 Control Anchor is the intended local workbench; the Triadic Brain is its governed
 cognition architecture. The whole product combines substantive analysis, challenge,
 correction and continuity with controls and retained evidence. This repository

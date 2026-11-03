@@ -1,7 +1,13 @@
 # Known limitations
 
-This is an OFFLINE EVIDENCE AND REVIEW COMPONENT DEMONSTRATION. Public source
-access, including this review repository's history, was approved on 19 October 2026.
+Public source access, including this review repository's history, was approved on
+19 October 2026. Later scoped component promotions are recorded in
+[PUBLICATION_REVIEW.md](PUBLICATION_REVIEW.md).
+
+## Original captured-output evidence and review demo
+
+The following limits apply to `demo.py`, whose source and synthetic fixture route
+remain unchanged by the UCC and retrosynthesis additions.
 
 - The source, prompt, settings, candidates, advisory finding, reviewer identity,
   review decisions and logical timestamps are scripted synthetic inputs. No
@@ -56,3 +62,19 @@ access, including this review repository's history, was approved on 19 October 2
   source is not a formal release, hosted service, funding submission, deployment
   approval or qualification of the full product. The development repository
   remains private.
+
+## Optional UCC and retrosynthesis components
+
+The [bounded UCC engine](docs/PUBLIC_SUBSYSTEMS.md) checks supplied fields; its PASS
+result does not establish source truth, semantic adequacy or professional compliance.
+Human procedures remain NOT_EXECUTED.
+
+The [retrosynthesis comparison](docs/RETROSYNTHESIS_COMPONENT.md) separately runs
+real Coherence grounding/proposal validation and a Sophia reconstruction check.
+Its permits, hypotheses and source statements are synthetic. It performs no grant
+authentication, lookup, retention, provider-context delivery, model dispatch or
+full Sophia evaluation. The support-module import closure is included intact,
+but this selected test does not qualify all functionality in those modules.
+The optional component requires separately installed jsonschema4.26.0; original
+evidence/UCC demos remain standard-library-only. Native custody, durable memory,
+installed use and the full cognitive loop remain outside this public qualification.

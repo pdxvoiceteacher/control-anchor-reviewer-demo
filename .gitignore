@@ -4,3 +4,4 @@ __pycache__/
 demo-output*/
 .venv/
 *.egg-info/
+.venv-retrosynthesis/
