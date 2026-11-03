@@ -1,0 +1,580 @@
+{
+  "schema_id": "triadic-brain-paper-quantity-catalog.v1",
+  "publication_status": "LOCAL_SUCCESSOR_NOT_PUBLISHED",
+  "schema_status": "EXPLANATORY_NOT_PRODUCT_API",
+  "quantities": [
+    {
+      "id": "Q01",
+      "namespace": "native.UCM.E_cpl",
+      "formula": "r=(claims-unsupported)/max(1,claims)",
+      "units": "dimensionless",
+      "domain": "[0,1]",
+      "producer": "native default axis producer",
+      "consumer": "UCM and waveform",
+      "limits": "Not empirical coupling",
+      "claim_ids": [
+        "C024"
+      ],
+      "formula_version": "estimator:q01:paper-v2",
+      "estimator_kind": "SOURCE_BOUND",
+      "evidence_classes": [
+        "S"
+      ],
+      "input_domain": "claim count and unsupported count under native validated candidate",
+      "missingness": {
+        "kind": "DECLARED_DENOMINATOR_GUARD",
+        "behavior": "r uses max(1,claims); valid candidate schema otherwise constrains population"
+      },
+      "clipping_and_rounding": "no explicit rounding in axis formula; bounded state validation"
+    },
+    {
+      "id": "Q02",
+      "namespace": "native.UCM.uncertainty",
+      "formula": "u=1.0 on ordinary captured-model JOINED bridge",
+      "units": "dimensionless",
+      "domain": "[0,1]",
+      "producer": "semantic bridge",
+      "consumer": "UCM and aperture",
+      "limits": "Unmeasured conservative maximum; not empirical error probability",
+      "claim_ids": [
+        "C027"
+      ],
+      "formula_version": "estimator:q02:paper-v2",
+      "estimator_kind": "SOURCE_BOUND",
+      "evidence_classes": [
+        "S",
+        "C"
+      ],
+      "input_domain": "successful ordinary CAPTURED+JOINED semantic capture",
+      "missingness": {
+        "kind": "CONSERVATIVE_CONSTANT",
+        "behavior": "always 1.0 on this bridge; not typed empirical missingness"
+      },
+      "clipping_and_rounding": "constant; [0,1] native validation"
+    },
+    {
+      "id": "Q03",
+      "namespace": "native.UCM.psi_CL",
+      "formula": "E_cpl*T_tr",
+      "units": "dimensionless",
+      "domain": "[0,1]",
+      "producer": "UCM",
+      "consumer": "screen and artifact presentation",
+      "limits": "Structural product, not universal GUFT scalar",
+      "claim_ids": [
+        "C024",
+        "C037"
+      ],
+      "formula_version": "estimator:q03:paper-v2",
+      "estimator_kind": "SOURCE_BOUND",
+      "evidence_classes": [
+        "S"
+      ],
+      "input_domain": "finite bounded E_cpl and T_tr",
+      "missingness": {
+        "kind": "INPUT_VALIDATION",
+        "behavior": "requires valid supplied/default axes; no numeric imputation asserted here"
+      },
+      "clipping_and_rounding": "product of bounded operands; artifact formatting separate"
+    },
+    {
+      "id": "Q04",
+      "namespace": "native.UCM.softmax_mass",
+      "formula": "exp(s_i-max(s))/sum(exp(s_j-max(s)))",
+      "units": "dimensionless",
+      "domain": "[0,1]",
+      "producer": "finite caller scores",
+      "consumer": "equivalence-group projection",
+      "limits": "Normalized mass, not calibrated correctness",
+      "claim_ids": [
+        "C025",
+        "C026"
+      ],
+      "formula_version": "estimator:q04:paper-v2",
+      "estimator_kind": "SOURCE_BOUND",
+      "evidence_classes": [
+        "S"
+      ],
+      "input_domain": "nonempty finite real scores and declared group partition",
+      "missingness": {
+        "kind": "DEFAULT_HYPOTHESIS",
+        "behavior": "native empty supplied collection falls back to default singleton; this does not establish truth"
+      },
+      "clipping_and_rounding": "stable max-subtraction; no top-k renormalization"
+    },
+    {
+      "id": "Q05",
+      "namespace": "native.waveform.energy",
+      "formula": "round12(mean(x_j^2)); x_j=round12(sum(a_k*sin(2*pi*k*j/N))/5)",
+      "units": "dimensionless",
+      "domain": "nonnegative",
+      "producer": "five-axis synthetic codec",
+      "consumer": "reference artifact and audit",
+      "limits": "No physical frequency or measured energy",
+      "claim_ids": [
+        "C029",
+        "C030"
+      ],
+      "formula_version": "estimator:q05:paper-v2",
+      "estimator_kind": "SOURCE_BOUND",
+      "evidence_classes": [
+        "S"
+      ],
+      "input_domain": "five ordered [0,1] axes; integer N=16..4096; j=0..N-1",
+      "missingness": {
+        "kind": "INPUT_VALIDATION",
+        "behavior": "requires validated axes and sample count; no missing-to-zero rule asserted"
+      },
+      "clipping_and_rounding": "round each sample to 12 decimals, then round mean square to 12 decimals"
+    },
+    {
+      "id": "Q06",
+      "namespace": "research.local.Psi",
+      "formula": "E*T",
+      "units": "dimensionless if declared bounded operands",
+      "domain": "[0,1] under stated domains",
+      "producer": "research definition/proof terms",
+      "consumer": "source-specific research constructs",
+      "limits": "Algebra does not calibrate operand meaning",
+      "claim_ids": [
+        "C037"
+      ],
+      "formula_version": "estimator:q06:paper-v2",
+      "estimator_kind": "FORMAL_DEFINITION",
+      "evidence_classes": [
+        "H",
+        "D"
+      ],
+      "input_domain": "declared E,T in [0,1]",
+      "missingness": {
+        "kind": "UNSPECIFIED_IN_FORMAL_MODEL",
+        "behavior": "missing operands make evaluation unavailable here, not zero"
+      },
+      "clipping_and_rounding": "no clipping needed for stated bounded-product theorem"
+    },
+    {
+      "id": "Q07",
+      "namespace": "research.stability.Psi",
+      "formula": "E*T*E_s*Lambda_lock/(DeltaS+D+epsilon)",
+      "units": "unresolved composite",
+      "domain": "not necessarily [0,1]",
+      "producer": "research definition",
+      "consumer": "proposed stability interpretation",
+      "limits": "Nonzero denominator required; epsilon insufficient for signed sum",
+      "claim_ids": [
+        "C038"
+      ],
+      "formula_version": "estimator:q07:paper-v2",
+      "estimator_kind": "FORMAL_DEFINITION",
+      "evidence_classes": [
+        "H",
+        "D"
+      ],
+      "input_domain": "compatible E,T,E_s,Lambda_lock,DeltaS,D,epsilon with nonzero denominator",
+      "missingness": {
+        "kind": "UNSPECIFIED_IN_FORMAL_MODEL",
+        "behavior": "undefined for zero denominator; empirical missingness producer unestablished"
+      },
+      "clipping_and_rounding": "not asserted bounded or clipped"
+    },
+    {
+      "id": "Q08",
+      "namespace": "research.Omega_FoR",
+      "formula": null,
+      "units": "UNAVAILABLE",
+      "domain": "UNAVAILABLE",
+      "producer": "original defining equation not recovered",
+      "consumer": "none asserted",
+      "limits": "Never reconstruct from label or fragments",
+      "claim_ids": [
+        "C039"
+      ],
+      "formula_version": "estimator:q08:paper-v2",
+      "estimator_kind": "UNAVAILABLE",
+      "evidence_classes": [
+        "U"
+      ],
+      "input_domain": "UNAVAILABLE: complete original formula not recovered",
+      "missingness": {
+        "kind": "UNAVAILABLE",
+        "behavior": "do not impute or reconstruct"
+      },
+      "clipping_and_rounding": "UNAVAILABLE"
+    },
+    {
+      "id": "Q09",
+      "namespace": "historical.benchmark.E",
+      "formula": "clip(exp(-mean(log(1+abs(x)))/80),0,1)",
+      "units": "dimensionless transform",
+      "domain": "[0,1]",
+      "producer": "bounded benchmark numeric extraction",
+      "consumer": "track telemetry",
+      "limits": "Missing numbers return E=1, p=0, count=0",
+      "claim_ids": [
+        "C040",
+        "C042"
+      ],
+      "formula_version": "estimator:q09:paper-v2",
+      "estimator_kind": "SOURCE_BOUND",
+      "evidence_classes": [
+        "S"
+      ],
+      "input_domain": "finite regex numeric substrings; first 10000 magnitudes; integer-like >1000 filtering with fallback; first 4000 selected values in mean",
+      "missingness": {
+        "kind": "FAVORABLE_DEFAULT",
+        "behavior": "no numbers -> E=1,p=0,count=0; count_values refers retained-filter population"
+      },
+      "clipping_and_rounding": "exp transform clipped to [0,1]; divisor80 is design scaling for gate compatibility"
+    },
+    {
+      "id": "Q10",
+      "namespace": "historical.rerun.DeltaS",
+      "formula": "mean(||v_i-v_0||_1/4)",
+      "units": "dimensionless proxy",
+      "domain": "nonnegative",
+      "producer": "rerun summary",
+      "consumer": "navigation potential/integrity",
+      "limits": "No reruns returns zero; not entropy",
+      "claim_ids": [
+        "C041"
+      ],
+      "formula_version": "estimator:q10:paper-v2",
+      "estimator_kind": "SOURCE_BOUND",
+      "evidence_classes": [
+        "S"
+      ],
+      "input_domain": "baseline and rerun vectors each (E,T,Psi,E_s)",
+      "missingness": {
+        "kind": "EMPTY_RERUN_ZERO",
+        "behavior": "no reruns ->0; absence of perturbation is not stability evidence"
+      },
+      "clipping_and_rounding": "L1/4 then mean; no clipping specified by this summary"
+    },
+    {
+      "id": "Q11",
+      "namespace": "historical.rerun.Lambda",
+      "formula": "max(||v_i-v_0||_1/4)",
+      "units": "dimensionless proxy",
+      "domain": "nonnegative",
+      "producer": "rerun summary",
+      "consumer": "navigation potential/integrity",
+      "limits": "No reruns returns zero; not phase lock or physical criticality",
+      "claim_ids": [
+        "C041"
+      ],
+      "formula_version": "estimator:q11:paper-v2",
+      "estimator_kind": "SOURCE_BOUND",
+      "evidence_classes": [
+        "S"
+      ],
+      "input_domain": "same baseline/rerun vectors as Q10",
+      "missingness": {
+        "kind": "EMPTY_RERUN_ZERO",
+        "behavior": "no reruns ->0"
+      },
+      "clipping_and_rounding": "L1/4 then maximum"
+    },
+    {
+      "id": "Q12",
+      "namespace": "historical.navigation.P",
+      "formula": "3*Psi+1.5*E+1.5*T+1.2*E_s-2*DeltaS-Lambda+2*b_diversity",
+      "units": "heuristic composite",
+      "domain": "not probability",
+      "producer": "navigation score",
+      "consumer": "navigation track comparison",
+      "limits": "Distinct adoption-multiplier helper not silently substituted",
+      "claim_ids": [
+        "C043"
+      ],
+      "formula_version": "estimator:q12:paper-v2",
+      "estimator_kind": "SOURCE_BOUND",
+      "evidence_classes": [
+        "S"
+      ],
+      "input_domain": "declared track telemetry and diversity bonus",
+      "missingness": {
+        "kind": "ADAPTER_DEFAULTS",
+        "behavior": "TriadicState defaults E,T,E_s,DeltaS and Lambda to zero; missing Psi defaults to E*T; diversity attribute defaults to zero. coherence_potential consumes the resulting state."
+      },
+      "clipping_and_rounding": "weighted sum; not a probability or universal range"
+    },
+    {
+      "id": "Q13",
+      "namespace": "generic.finite_sequence.net_flux",
+      "formula": "sum(s_i-s_(i-1))=s_last-s_first",
+      "units": "same units as declared signal s; normalized historical variants are dimensionless",
+      "domain": "signed",
+      "producer": "generic mathematical identity; no single preprocessing estimator implied",
+      "consumer": "versioned historical diagnostics when applied to their declared s",
+      "limits": "Generic telescoping identity; preprocessing variants are separately identified and not interchangeable; no elapsed-time division.",
+      "claim_ids": [
+        "C044"
+      ],
+      "formula_version": "estimator:q13:paper-v2",
+      "estimator_kind": "GENERIC_IDENTITY",
+      "evidence_classes": [
+        "D"
+      ],
+      "input_domain": "declared finite sequence s_1..s_n, n>=1, with named preprocessing variant",
+      "missingness": {
+        "kind": "DOMAIN_RESTRICTION",
+        "behavior": "n=0 outside stated identity; no unavailable value replaced with zero"
+      },
+      "clipping_and_rounding": "no clipping/rounding in telescoping identity; preprocessing separately specified",
+      "preprocessing_variants": [
+        {
+          "id": "preprocess:march-positive-log",
+          "definition": "timestamp-sorted all-positive input uses log differences",
+          "evidence_classes": [
+            "H",
+            "R"
+          ],
+          "source_group": "I11"
+        },
+        {
+          "id": "preprocess:march-signed-diffstd",
+          "definition": "signed/zero input uses first differences divided by input standard deviation with max-absolute-or-one fallback and nonfinite replacement",
+          "evidence_classes": [
+            "H",
+            "R"
+          ],
+          "source_group": "I11"
+        },
+        {
+          "id": "preprocess:later-diffstd",
+          "definition": "later helper uses difference/std for all inputs; not the same estimator as positive-log variant",
+          "evidence_classes": [
+            "S"
+          ],
+          "source_group": "I11"
+        }
+      ]
+    },
+    {
+      "id": "Q14",
+      "namespace": "research.phase.C_plus",
+      "formula": "Psi*(1+cos(delta_phi))/2",
+      "units": "source-specific donor units",
+      "domain": "source-specific",
+      "producer": "research phase analogy",
+      "consumer": "proposed transfer interpretation",
+      "limits": "Not native reference waveform C_plus and C_minus sum to Psi; Q_perp is separate, not an additive energy share. Physical power interpretation needs signal/averaging model.",
+      "claim_ids": [
+        "C045"
+      ],
+      "formula_version": "estimator:q14:paper-v2",
+      "estimator_kind": "FORMAL_DEFINITION",
+      "evidence_classes": [
+        "H",
+        "D"
+      ],
+      "input_domain": "chosen Psi and phase difference in radians under explicit donor interpretation",
+      "missingness": {
+        "kind": "UNSPECIFIED_IN_FORMAL_MODEL",
+        "behavior": "requires chosen Psi/phase; no empirical missing-value rule"
+      },
+      "clipping_and_rounding": "trigonometric diagnostic; no extra clipping declared"
+    },
+    {
+      "id": "Q15",
+      "namespace": "reduced.river.R",
+      "formula": "clip01(R+h*(D_r*L*R+alpha*g-beta*R))",
+      "units": "unestablished model density",
+      "domain": "[0,1] with clipping",
+      "producer": "reduced graph kernel",
+      "consumer": "evolution and terrace step",
+      "limits": "Kernel default h=.05; caller h=1.0; not full PDE",
+      "claim_ids": [
+        "C046",
+        "C047"
+      ],
+      "formula_version": "estimator:q15:paper-v2",
+      "estimator_kind": "SOURCE_BOUND",
+      "evidence_classes": [
+        "S",
+        "C"
+      ],
+      "input_domain": "finite graph fields R,Psi and undirected edge list; actual code does not enforce all analysis assumptions",
+      "missingness": {
+        "kind": "ZERO_INITIALIZATION",
+        "behavior": "missing RiverDensity initializes zeros in inspected reduced kernel"
+      },
+      "clipping_and_rounding": "optional clip01; caller step1 versus kernel default.05"
+    },
+    {
+      "id": "Q16",
+      "namespace": "reduced.river.g",
+      "formula": "sum(w_ij*(Psi_j-Psi_i)^2)/sum(w_ij)",
+      "units": "squared Psi units if defined",
+      "domain": "nonnegative under nonnegative weights",
+      "producer": "reduced graph kernel",
+      "consumer": "river forcing and terrace penalty",
+      "limits": "Nonpositive denominator returns zero; fixed-Psi analysis is conditional",
+      "claim_ids": [
+        "C048"
+      ],
+      "formula_version": "estimator:q16:paper-v2",
+      "estimator_kind": "SOURCE_BOUND",
+      "evidence_classes": [
+        "S"
+      ],
+      "input_domain": "edge-weighted squared differences in declared Psi",
+      "missingness": {
+        "kind": "NONPOSITIVE_DENOMINATOR_ZERO",
+        "behavior": "g=0 when weighted-degree denominator<=0"
+      },
+      "clipping_and_rounding": "degree normalization; no extra rounding declared"
+    },
+    {
+      "id": "Q17",
+      "namespace": "reduced.terrace.T",
+      "formula": "clip01(T_n+h*(kappa*R_(n+1)-mu*g(Psi_n)-nu*T_n))",
+      "units": "unestablished model density",
+      "domain": "[0,1] with clipping",
+      "producer": "reduced terrace kernel",
+      "consumer": "evolution records",
+      "limits": "Default h=.1; caller h=1.0; no empirical knowledge mapping Caller uses newly updated clipped river field, with g recomputed from unchanged Psi.",
+      "claim_ids": [
+        "C046",
+        "C047"
+      ],
+      "formula_version": "estimator:q17:paper-v2",
+      "estimator_kind": "SOURCE_BOUND",
+      "evidence_classes": [
+        "S",
+        "C"
+      ],
+      "input_domain": "supplied T, newly produced R_(n+1), unchanged Psi for g, parameters and caller mode",
+      "missingness": {
+        "kind": "MODE_SPECIFIC_UNRECOVERED",
+        "behavior": "list/dictionary modes differ; no universal missing-key imputation asserted here"
+      },
+      "clipping_and_rounding": "optional clip01; caller step1 versus kernel default.1"
+    },
+    {
+      "id": "Q18",
+      "namespace": "AHA.P_epi",
+      "formula": "ordinal NOT_SCORABLE",
+      "units": "ordinal",
+      "domain": "not probability",
+      "producer": "structural AHA evaluator",
+      "consumer": "reviewable case output",
+      "limits": "No target experiment observed",
+      "claim_ids": [
+        "C055"
+      ],
+      "formula_version": "estimator:q18:paper-v2",
+      "estimator_kind": "SOURCE_BOUND",
+      "evidence_classes": [
+        "S"
+      ],
+      "input_domain": "accepted supplied structural AHA case",
+      "missingness": {
+        "kind": "NO_CASE_UNAVAILABLE",
+        "behavior": "native absent case -> UNAVAILABLE rather than numeric zero"
+      },
+      "clipping_and_rounding": "ordinal NOT_SCORABLE; no numeric clipping"
+    },
+    {
+      "id": "Q19",
+      "namespace": "AHA.Q_AHA",
+      "formula": "fixed attention rank 1",
+      "units": "rank",
+      "domain": "1",
+      "producer": "structural AHA evaluator",
+      "consumer": "attention ordering",
+      "limits": "Explicitly nonprobabilistic",
+      "claim_ids": [
+        "C055"
+      ],
+      "formula_version": "estimator:q19:paper-v2",
+      "estimator_kind": "SOURCE_BOUND",
+      "evidence_classes": [
+        "S"
+      ],
+      "input_domain": "accepted supplied structural AHA case",
+      "missingness": {
+        "kind": "NO_CASE_UNAVAILABLE",
+        "behavior": "native absent case -> UNAVAILABLE; rank1 applies to existing evaluation"
+      },
+      "clipping_and_rounding": "fixed nonprobabilistic attention rank; no rounding"
+    },
+    {
+      "id": "Q20",
+      "namespace": "TEL.logical_time",
+      "formula": "T+ followed by local stage sequence",
+      "units": "ordinal event label",
+      "domain": "positive sequence",
+      "producer": "native TEL",
+      "consumer": "route/audit identity continuity",
+      "limits": "Not seconds, UTC or distributed causal clock",
+      "claim_ids": [
+        "C065"
+      ],
+      "formula_version": "estimator:q20:paper-v2",
+      "estimator_kind": "SOURCE_BOUND",
+      "evidence_classes": [
+        "S",
+        "C"
+      ],
+      "input_domain": "valid local native event sequence",
+      "missingness": {
+        "kind": "STAGE_NOT_EXECUTED",
+        "behavior": "external stages not fabricated before actual artifacts; absence is not elapsed zero"
+      },
+      "clipping_and_rounding": "ordinal formatting only; not measured clock"
+    },
+    {
+      "id": "Q21",
+      "namespace": "TAF_A.retained_response_bytes",
+      "formula": "logical retained provider-response byte count",
+      "units": "byte",
+      "domain": "nonnegative integer or UNAVAILABLE",
+      "producer": "retained-parent observation",
+      "consumer": "bounded burden profile",
+      "limits": "Missing unavailable, not zero; not device storage or energy",
+      "claim_ids": [
+        "C066"
+      ],
+      "formula_version": "estimator:q21:paper-v2",
+      "estimator_kind": "SOURCE_BOUND",
+      "evidence_classes": [
+        "S"
+      ],
+      "input_domain": "authenticated retained parent response capture",
+      "missingness": {
+        "kind": "UNAVAILABLE_IF_MISSING",
+        "behavior": "missing payload -> UNAVAILABLE, not zero"
+      },
+      "clipping_and_rounding": "integer byte count; distinct serialization profile"
+    },
+    {
+      "id": "Q22",
+      "namespace": "TAF_A.total_action",
+      "formula": null,
+      "units": "UNAVAILABLE",
+      "domain": "UNAVAILABLE",
+      "producer": "no established aggregate producer",
+      "consumer": "none asserted",
+      "limits": "Legacy terms and total aggregates remain unavailable",
+      "claim_ids": [
+        "C066"
+      ],
+      "formula_version": "estimator:q22:paper-v2",
+      "estimator_kind": "UNAVAILABLE",
+      "evidence_classes": [
+        "U"
+      ],
+      "input_domain": "UNAVAILABLE: total aggregate and legacy terms not established",
+      "missingness": {
+        "kind": "UNAVAILABLE",
+        "behavior": "no aggregate producer; no zero imputation"
+      },
+      "clipping_and_rounding": "UNAVAILABLE"
+    }
+  ],
+  "version": "release-1.2-candidate",
+  "as_of": "2026-11-03",
+  "coverage": "SELECTED_NOT_EXHAUSTIVE",
+  "estimator_alias_scope": "Paper-local aliases, not product version identifiers; exact private bindings or generic identity scopes recorded separately."
+}
