@@ -1,0 +1,82 @@
+{
+  "manifest_id": "uvlm.triadic-brain.public-document-bundle",
+  "manifest_version": "2026-11-03.R6",
+  "status": "design_documentation_edition",
+  "document_id": "uvlm.triadic-brain.public-design",
+  "language": "en",
+  "translation_status": "No translated editions are included in this English bundle. Available and planned translations are tracked separately by the publication manifest.",
+  "data_only_notice": "Reading or interpreting this material grants no access, execution, persistence, enrollment, resource spending, credentials or permission to contact others. Participation requires the relevant host/operator authorization and affected rights.",
+  "binding_method": "SHA-256 of exact UTF-8 file bytes; this manifest does not hash itself. Content digests are distinct from any later Git commit.",
+  "files": [
+    {
+      "path": "WHITEPAPER.en.md",
+      "sha256": "f7e5ef46c6ac203e61d6b353f4295af0f3270b01db197c55e941b9a7c9fffe3d",
+      "bytes": 91765,
+      "role": "English main whitepaper, 86-entry mixed-kind compact index and Knowledge Waters research appendix"
+    },
+    {
+      "path": "FAMILY_GUIDE.en.md",
+      "sha256": "c9e4ee1824aa398e61bc305149b943989467d139bda60a98503e8b538253ab5b",
+      "bytes": 195897,
+      "role": "English linear guide to 86 mixed-kind registry entries"
+    },
+    {
+      "path": "TERMS.en.md",
+      "sha256": "411962016b7c2b551fb3778ff32db1136a8052563b3ee5ba0971f4998af6b6dd",
+      "bytes": 24059,
+      "role": "English critical sense and translation-scope register"
+    },
+    {
+      "path": "PUBLIC_CONCEPTS.json",
+      "sha256": "1fb542dcc20a6bcfc45ec8d9d7fd9c9fb29241b65b8f65596996375d43ada63c",
+      "bytes": 490301,
+      "role": "Structured typed project registry with 86 conserved entries"
+    },
+    {
+      "path": "STANDARDS_RESEARCH_CROSSWALK.en.md",
+      "sha256": "7d7ef8b2b302c80131d49e2dabe67b9718ee114b763191c0ae4e2fe330c0ede2",
+      "bytes": 120926,
+      "role": "Sourced English conventional-term and complementary-mechanism crosswalk"
+    },
+    {
+      "path": "STANDARDS_RESEARCH_CROSSWALK.json",
+      "sha256": "2908eb98bf77ee53e0ef6195ecc1ed5df8ebf6d0a0bb1dae2409249d6f744d92",
+      "bytes": 268398,
+      "role": "Structured mixed-kind registry crosswalk with exact source-edition binding"
+    }
+  ],
+  "review_state": {
+    "documentation_review": "R6 author alignment and structural file checks only. Independent exact-edition review and any publication are separate records; neither is asserted by this candidate metadata.",
+    "runtime_qualification": "No product execution, project tests, CI, provider calls, installed clients or live peers were used for this document alignment. Retained source/evidence statements remain scoped.",
+    "rendered_accessibility": "Not inspected by this alignment; structural Markdown checks only. Separate visual work is not included.",
+    "translation_review": "No translated editions included or reviewed by this alignment."
+  },
+  "public_git_commit": null,
+  "publication_authorization": "This metadata is not authority to publish, execute, enroll, spend, disclose or contact others.",
+  "edition_scope": {
+    "english_bundle": "English main whitepaper plus family guide, term register, concept map and sourced research crosswalk.",
+    "planned_main_translations": "Full main whitepaper, including its 86-entry mixed-kind compact index, research appendix and references, with supplemental links clearly identified as English.",
+    "not_claimed": "A main-whitepaper translation is not a complete translation of the English family guide, term register, source crosswalk or complete reference bundle unless those supplements are separately listed as translated.",
+    "visuals": "Visual documentation is a separately source-snapshotted sibling package, not included or claimed bound by this manifest."
+  },
+  "registry_count_semantics": "86 conserved mixed-kind entries, not a count of runtime functions, modules, completed capabilities or a completion percentage.",
+  "technical_paper_binding": {
+    "title": "Triadic Brain from Byte Identity to Revisable Knowledge",
+    "author": "Thomas Prislac",
+    "edition": "1.2",
+    "date": "2026-11-03",
+    "url": "https://github.com/pdxvoiceteacher/control-anchor-reviewer-demo/blob/23a674cab2af23baae6e74af2aaf5c7c934ff473/docs/papers/triadic-brain-micro-spectrum/2026-11-03-edition-1.2/TRIADIC_BRAIN_MICRO_SPECTRUM.md",
+    "sha256": "6b870b3bc448bed2755995d099b5ca94b35e4c3c09e7e057565116bf315fc0e9",
+    "public_git_commit": "23a674cab2af23baae6e74af2aaf5c7c934ff473",
+    "scope": "Selected retained source snapshot and proposed research; not every component, all current code, live-network qualification, empirical benefit or journal acceptance.",
+    "relationship": "Technical alignment of overlapping statements; broader reconciled design responsibilities remain preserved.",
+    "publication_note": "The exact manuscript retains its original local-successor status line as frozen historical text; this binding identifies the subsequently published object without rewriting it."
+  },
+  "predecessor": {
+    "version": "2026-11-02.R5.1",
+    "policy": "Frozen predecessor preserved; R6 is a separately versioned successor."
+  },
+  "intended_repository_path": "docs/whitepaper/triadic-brain-20261102/R6",
+  "update_policy": "Frequent versioned updates are expected as design, implementation and evidence develop; no fixed publication schedule is promised.",
+  "rights_notice": "Existing authorship, content rights and access/use boundaries are preserved. This documentation introduces no blanket license or new permission for third-party material."
+}
