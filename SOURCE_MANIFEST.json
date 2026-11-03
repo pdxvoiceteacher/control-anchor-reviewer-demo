@@ -2126,8 +2126,8 @@
       "modifications": "Maintained public-source function map and accessible navigation, with public code, dated reported development and proposed design kept distinct. No runtime qualification or private source publication.",
       "license": "Existing rights and notices preserved; no new media/prose license grant.",
       "publication_review": "OWNER_REQUESTED_PUBLIC_DOCUMENTATION_EXISTING_RIGHTS_PRESERVED",
-      "candidate_sha256": "24ca47cd51eff2226130ea09640e396b80a3e0d6ecf28ddf980dc3842d62ef6b",
-      "bytes": 5831
+      "candidate_sha256": "80cae8744559f259f35943bf7694d72895a05f42329a627b7590465b50940046",
+      "bytes": 6146
     },
     {
       "path": "docs/brain-map/brain-map.svg",
@@ -2146,8 +2146,8 @@
       "modifications": "Maintained public-source function map and accessible navigation, with public code, dated reported development and proposed design kept distinct. No runtime qualification or private source publication.",
       "license": "Existing rights and notices preserved; no new media/prose license grant.",
       "publication_review": "OWNER_REQUESTED_PUBLIC_DOCUMENTATION_EXISTING_RIGHTS_PRESERVED",
-      "candidate_sha256": "79f4dae715cf802805591bcfea309c5101b908b13d756eadcff4fb0804060085",
-      "bytes": 8747
+      "candidate_sha256": "d6cdb3a457286ad9ce71d4f4e2a3221e8d17a3e8dbe93c03e7711867b7047d43",
+      "bytes": 9077
     },
     {
       "path": "docs/brain-map/explorer.html",
@@ -2156,8 +2156,8 @@
       "modifications": "Maintained public-source function map and accessible navigation, with public code, dated reported development and proposed design kept distinct. No runtime qualification or private source publication.",
       "license": "Existing rights and notices preserved; no new media/prose license grant.",
       "publication_review": "OWNER_REQUESTED_PUBLIC_DOCUMENTATION_EXISTING_RIGHTS_PRESERVED",
-      "candidate_sha256": "683f9063c8fbbf32fadb44df72d5a6f04bb02a09fd07b5e4b0415372364b702d",
-      "bytes": 19199
+      "candidate_sha256": "aaa30d6164fc3451a6d80bd1bd578c0c23ea8a0bac6079d26b34f3bc26008536",
+      "bytes": 19900
     },
     {
       "path": "tools/build_brain_map.py",

@@ -4,8 +4,8 @@
 
 ![Techno brain with nine numbered function families; equivalent descriptions and links follow.](brain-map.svg)
 
-**Reviewed 2026-11-03.** Public reviewer-demo code and dated public descriptions only. Not a whole-product completion score or a live development tracker.
-Public source baseline: `23a674cab2af23baae6e74af2aaf5c7c934ff473`. Development descriptions retain their own dated evidence; this date does not requalify them.
+**Reviewed 2026-11-03.** Public component code and dated public descriptions only. Not a whole-product completion score or a live development tracker.
+Public source baseline: `63237965917e0a996fd45e5423dbc3c8c5648f10`. Development descriptions retain their own dated evidence; this date does not requalify them.
 
 - **CODED · public main:** bounded implementation in this offline synthetic repository, not the whole Brain.
 - **DEVELOPMENT · reported:** described development components or integration work; private source is not republished or independently qualified here.
@@ -46,13 +46,16 @@ Retain captured inputs, canonical records and a hash-linked history in the offli
 
 **CODED · public main**
 
-Deterministic evidence controls and logical actor/action authorization are included on public main.
+Logical authority checks and the bounded UCC plan engine are public. UCC runs declared predicates over supplied data and retains PASS, FAIL, HOLD and NOT_EXECUTED distinctions.
 
-**Boundary:** This does not establish general policy interpretation, OS isolation or an installed enforcement boundary. The standard review profile has no semantic finding rules.
+**Boundary:** Supplied-field checks do not establish source truth or professional compliance. Human procedures remain unexecuted; no operating-system enforcement or installed integration is claimed here.
 
 - [Code: controls](../../src/triadicbrain/assurance/controls.py)
 - [Code: authorization](../../src/triadicbrain/assurance/authorization.py)
 - [Code: review policy](../../src/triadicbrain/assurance/review_policy.py)
+- [Code: bounded UCC plans](../../src/triadicbrain/assurance/ucc_plan.py)
+- [Run the UCC component](../../ucc_demo.py)
+- [Vetted subsystem promotion](../../docs/PUBLIC_SUBSYSTEMS.md)
 
 [Back to family directory](#choose-a-family)
 
@@ -79,9 +82,9 @@ Scripted review decisions, a separate repair child, export/reopen and one interr
 
 **DEVELOPMENT · reported**
 
-CoherenceLattice grounding, claim/evidence relationships and supported UCC procedures are described as development components.
+Full CoherenceLattice grounding and claim/evidence relationships remain development components. The separate bounded UCC predicate engine is now public under Controls & authority.
 
-**Boundary:** Reported development, not code shipped in this reviewer demo. Current installed integration is unverified by this map; deterministic demo checks are not full CoherenceLattice execution.
+**Boundary:** This map does not qualify full CoherenceLattice execution or current installed integration. UCC predicates over supplied fields are narrower than source-grounded cognitive analysis.
 
 - [Responsibilities and role boundaries](../../docs/PRODUCT_MAP.md#local-workbench-workflow-and-role-boundaries)
 - [Connections and proof obligations](../../docs/DEVELOPMENT_UPDATE_2026-10-30.md#provisional-connection-map)
