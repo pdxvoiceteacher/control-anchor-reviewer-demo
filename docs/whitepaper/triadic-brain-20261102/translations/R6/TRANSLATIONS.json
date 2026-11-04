@@ -94,9 +94,9 @@
   ],
   "navigation": {
     "path": "README.md",
-    "bytes": 4881,
-    "sha256": "8256317e0132fa1e5ff2a73251ff72502c7fc2fb5240ef124179dcc2bdf01ffd",
-    "git_blob": "9ddd1370999e2940d05d1623f4a281dbb2a49df3"
+    "bytes": 5165,
+    "sha256": "2a39ccf1d22d03ad3f5395f0ef9383bc6cd344000a59346ec7889acb800468e7",
+    "git_blob": "a9137abbd096350152ca32311e38dec1efe8a130"
   },
   "rights": "Existing rights and attribution preserved; no new blanket prose or media license grant.",
   "authority": "Documentation only; no operational permissions are granted.",
@@ -120,6 +120,18 @@
       "translation_path": "ar/WHITEPAPER.ar.md",
       "record_path": "ar/TRANSLATION.json",
       "navigation_path": "ar/README.md"
+    },
+    {
+      "language": "ru",
+      "translation_path": "ru/WHITEPAPER.ru.md",
+      "record_path": "ru/TRANSLATION.json",
+      "navigation_path": "ru/README.md"
+    },
+    {
+      "language": "pl",
+      "translation_path": "pl/WHITEPAPER.pl.md",
+      "record_path": "pl/TRANSLATION.json",
+      "navigation_path": "pl/README.md"
     }
   ],
   "additional_editions_note": "Separately published editions; source bindings and review scope are defined by each language record, not the original package review."

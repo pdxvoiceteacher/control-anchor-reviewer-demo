@@ -11,8 +11,8 @@
   "files": [
     {
       "path": "README.md",
-      "bytes": 4082,
-      "sha256": "62927dcb9da397b8d5bf4aa0a42b6cabbe46bcca87ee2a00f1f0b6c9a422ab1c"
+      "bytes": 4402,
+      "sha256": "87230fba759871f0901a96d3fc8963997c1a2b41a253dc297bbef8f1aa6868ae"
     },
     {
       "path": "TRANSLATION_REVIEW.json",
@@ -59,6 +59,18 @@
       "translation_path": "ar/TRIADIC_BRAIN_MICRO_SPECTRUM.ar.md",
       "record_path": "ar/TRANSLATION.json",
       "navigation_path": "ar/README.md"
+    },
+    {
+      "language": "ru",
+      "translation_path": "ru/TRIADIC_BRAIN_MICRO_SPECTRUM.ru.md",
+      "record_path": "ru/TRANSLATION.json",
+      "navigation_path": "ru/README.md"
+    },
+    {
+      "language": "pl",
+      "translation_path": "pl/TRIADIC_BRAIN_MICRO_SPECTRUM.pl.md",
+      "record_path": "pl/TRANSLATION.json",
+      "navigation_path": "pl/README.md"
     }
   ],
   "additional_editions_note": "Separately published editions; source bindings and review scope are defined by each language record, not the original package review."
