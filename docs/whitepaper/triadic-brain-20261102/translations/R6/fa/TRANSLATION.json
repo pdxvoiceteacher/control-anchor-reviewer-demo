@@ -1,0 +1,45 @@
+{
+  "language": "fa",
+  "language_name": "Persian (Farsi)",
+  "direction": "rtl",
+  "source_commit": "c308f3b990a2e0523c166d6f90a1dcafdbf7ff9a",
+  "source_path": "docs/whitepaper/triadic-brain-20261102/R6/WHITEPAPER.en.md",
+  "translation_path": "docs/whitepaper/triadic-brain-20261102/translations/R6/fa/WHITEPAPER.fa.md",
+  "review_date": "2026-11-04",
+  "review": "AI translation plus separate substantive AI review; no fluent-human certification",
+  "scope": "Front matter, reading paths, summary, sections 1–14, all tables, the 86-entry registry, historical note, Knowledge Waters appendix and references. A separate AI reviewer compared the full text against English and corrected grounding, retention, authorization and registry terminology.",
+  "limits": {
+    "native_speaker_signoff": false,
+    "browser_render_review": false,
+    "accessibility_qualification": false,
+    "product_execution": false,
+    "hosted_ci": false
+  },
+  "integrity": {
+    "code_blocks": {
+      "count": 2,
+      "identical": true
+    },
+    "display_math": {
+      "count": 0,
+      "identical": true
+    },
+    "inline_math": {
+      "count": 0,
+      "identical": true
+    },
+    "stable_anchors": {
+      "count": 19,
+      "identical": true
+    },
+    "evidence_citations": {
+      "count": 0,
+      "identical": true
+    },
+    "source_links_retained": 153,
+    "heading_count": 28,
+    "registry_rows": 86,
+    "source_sha256": "f7e5ef46c6ac203e61d6b353f4295af0f3270b01db197c55e941b9a7c9fffe3d",
+    "translation_sha256": "a1b36fe0f5f81fce435c837f061cd83dd99b012eac62398c663b159434d48d14"
+  }
+}
