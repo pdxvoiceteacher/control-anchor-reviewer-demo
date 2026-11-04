@@ -3218,6 +3218,16 @@
       "publication_review": "AUTHOR_SEPARATED_AI_LANGUAGE_AND_TECHNICAL_REVIEW_WITH_DISCLOSED_LIMITS",
       "candidate_sha256": "6154c7361b57d9e8823c0f17c76193d8a7ae0ffce7fc028c4388b3fd1ffdb878",
       "bytes": 2357
+    },
+    {
+      "path": "docs/translations/QUECHUA_DINE_REVIEW_INVITATION.md",
+      "origin": "NEW_PUBLIC_TRANSLATION_REVIEW_INVITATION",
+      "source_basis_paths": [],
+      "modifications": "Source-pinned invitation for Quechua and Dine Bizaad translation help. Preparation only; no translation or fluent-human review claimed. AI assistance and future draft disclaimer explicitly scoped.",
+      "license": "Existing rights and notices preserved; no new blanket prose/media license grant.",
+      "publication_review": "DOCUMENTATION_REVIEW_REQUIRED",
+      "candidate_sha256": "30ce2a1168c9021abba4a08e6d2bc9bc0b930e830ea185213e075ae2b728490b",
+      "bytes": 7251
     }
   ],
   "dependency_closure": {
