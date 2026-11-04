@@ -1200,14 +1200,14 @@
     },
     {
       "path": "README.md",
-      "candidate_sha256": "fc0c8bfef576cff609e71544b14516946961a6a4b12299ac9ac63108c2c8b1bb",
+      "candidate_sha256": "26c4a129d950aab4d62686baf52544c2e0264523a177556a7983ef5e7922d417",
       "origin": "ADAPTED",
       "source_basis_paths": [],
       "modifications": "New reviewer explanation based on maintained architecture; limits bound to extracted implementation. Added link to a source-attributed methods appendix and its bounded teaching claims. Added self-contained Mermaid responsibility diagram separating intended product integration, observed synthetic offline demo and future peer network; no runtime or validation-result changes.",
       "license": "MPL-2.0 to extent rights exist and covered",
       "publication_review": "OWNER_APPROVED_PUBLIC_SOURCE_ACCESS_EXISTING_RIGHTS_PRESERVED_NO_NEW_LICENSE",
       "historical_publication_review": "FINAL_CONTENT_DECISION_PENDING",
-      "bytes": 33801,
+      "bytes": 34174,
       "cooperative_ethos_clarification_2026_11_02": "Owner-directed freedom, local ownership, voluntary mutual aid and practical exit; informed higher overhead may be legitimate. Existing capability limits, rights and public contribution route preserved. No runtime change or new operational evidence.",
       "whitepaper_navigation_2026_11_02": "Added one English design-edition and contribution navigation link, with translations-pending and unchanged-demo scope. No runtime or rights change.",
       "brain_map_revision_history": [
@@ -3036,8 +3036,8 @@
       "modifications": "Complete main-manuscript translations and public translation-review records for the unchanged English technical manuscript edition 1.2. Equations, citations, technical distinctions and source identity are preserved. Machine-readable companions remain English; no new empirical or product qualification is asserted.",
       "license": "Existing rights and notices preserved; no new blanket prose/media license grant. Cited sources retain their attribution.",
       "publication_review": "FULL_MAIN_MANUSCRIPT_LANGUAGE_AND_TECHNICAL_FIDELITY_REVIEW_WITH_DISCLOSED_LIMITATIONS_NO_FLUENT_HUMAN_RENDERED_ACCESSIBILITY_OR_EMPIRICAL_CERTIFICATION",
-      "candidate_sha256": "87230fba759871f0901a96d3fc8963997c1a2b41a253dc297bbef8f1aa6868ae",
-      "bytes": 4402
+      "candidate_sha256": "eed6b208f85b9eb7369e8e65d43e38b026b7cc53989e62354c2d878ab5c9c31c",
+      "bytes": 4560
     },
     {
       "path": "docs/papers/triadic-brain-micro-spectrum/translations/edition-1.2/TRANSLATION_MANIFEST.json",
@@ -3046,8 +3046,8 @@
       "modifications": "Complete main-manuscript translations and public translation-review records for the unchanged English technical manuscript edition 1.2. Equations, citations, technical distinctions and source identity are preserved. Machine-readable companions remain English; no new empirical or product qualification is asserted.",
       "license": "Existing rights and notices preserved; no new blanket prose/media license grant. Cited sources retain their attribution.",
       "publication_review": "FULL_MAIN_MANUSCRIPT_LANGUAGE_AND_TECHNICAL_FIDELITY_REVIEW_WITH_DISCLOSED_LIMITATIONS_NO_FLUENT_HUMAN_RENDERED_ACCESSIBILITY_OR_EMPIRICAL_CERTIFICATION",
-      "candidate_sha256": "5c95896652c6271d729744da24453030326ae33d247caf48a834f83eb439ed11",
-      "bytes": 2709
+      "candidate_sha256": "05403a4193716e10b8d58d04619321825ede09ffb9b96d5a90b988e116548714",
+      "bytes": 2897
     },
     {
       "path": "docs/papers/triadic-brain-micro-spectrum/translations/edition-1.2/TRANSLATION_REVIEW.json",
@@ -3468,6 +3468,54 @@
       "publication_review": "AI_DRAFT_WITH_EXPLICIT_UNRESOLVED_PASSAGES",
       "candidate_sha256": "1fef3d04c462d22e5e9226f6c1bb71b71065055e8c7a90474f5c589aa7201b3d",
       "bytes": 4693
+    },
+    {
+      "path": "docs/papers/triadic-brain-micro-spectrum/translations/edition-1.2/es/AI_REVIEW.md",
+      "origin": "NEW_PUBLIC_SOURCE_BOUND_TRANSLATION",
+      "source_basis_paths": [
+        "docs/papers/triadic-brain-micro-spectrum/2026-11-03-edition-1.2/TRIADIC_BRAIN_MICRO_SPECTRUM.md"
+      ],
+      "modifications": "Complete Spanish academic manuscript translation, bounded independent AI review, provenance or navigation. Frozen English and existing editions unchanged.",
+      "license": "Existing rights and notices preserved; no new blanket prose/media license grant.",
+      "publication_review": "BOUNDED_AI_TRANSLATION_REVIEW_NOT_HUMAN_CERTIFICATION",
+      "candidate_sha256": "487ae6fbf0780d984f5bb7e2f8d4a4b703d548e36d22e14a6cfddfb997137a72",
+      "bytes": 3707
+    },
+    {
+      "path": "docs/papers/triadic-brain-micro-spectrum/translations/edition-1.2/es/README.md",
+      "origin": "NEW_PUBLIC_SOURCE_BOUND_TRANSLATION",
+      "source_basis_paths": [
+        "docs/papers/triadic-brain-micro-spectrum/2026-11-03-edition-1.2/TRIADIC_BRAIN_MICRO_SPECTRUM.md"
+      ],
+      "modifications": "Complete Spanish academic manuscript translation, bounded independent AI review, provenance or navigation. Frozen English and existing editions unchanged.",
+      "license": "Existing rights and notices preserved; no new blanket prose/media license grant.",
+      "publication_review": "BOUNDED_AI_TRANSLATION_REVIEW_NOT_HUMAN_CERTIFICATION",
+      "candidate_sha256": "997660de025e504ffff175e927743681a4b2bef981978764e052deaacb07c943",
+      "bytes": 2113
+    },
+    {
+      "path": "docs/papers/triadic-brain-micro-spectrum/translations/edition-1.2/es/TRANSLATION.json",
+      "origin": "NEW_PUBLIC_SOURCE_BOUND_TRANSLATION",
+      "source_basis_paths": [
+        "docs/papers/triadic-brain-micro-spectrum/2026-11-03-edition-1.2/TRIADIC_BRAIN_MICRO_SPECTRUM.md"
+      ],
+      "modifications": "Complete Spanish academic manuscript translation, bounded independent AI review, provenance or navigation. Frozen English and existing editions unchanged.",
+      "license": "Existing rights and notices preserved; no new blanket prose/media license grant.",
+      "publication_review": "BOUNDED_AI_TRANSLATION_REVIEW_NOT_HUMAN_CERTIFICATION",
+      "candidate_sha256": "b478233e4e22ac5e79f7941187d62fdc2b8b6a58d7672bd2bd103f51da9425b6",
+      "bytes": 2350
+    },
+    {
+      "path": "docs/papers/triadic-brain-micro-spectrum/translations/edition-1.2/es/TRIADIC_BRAIN_MICRO_SPECTRUM.es.md",
+      "origin": "NEW_PUBLIC_SOURCE_BOUND_TRANSLATION",
+      "source_basis_paths": [
+        "docs/papers/triadic-brain-micro-spectrum/2026-11-03-edition-1.2/TRIADIC_BRAIN_MICRO_SPECTRUM.md"
+      ],
+      "modifications": "Complete Spanish academic manuscript translation, bounded independent AI review, provenance or navigation. Frozen English and existing editions unchanged.",
+      "license": "Existing rights and notices preserved; no new blanket prose/media license grant.",
+      "publication_review": "BOUNDED_AI_TRANSLATION_REVIEW_NOT_HUMAN_CERTIFICATION",
+      "candidate_sha256": "98197e5eac7c5faf7219d8533be9d4e02af2116d9ac16144c3ac45f1dc347adb",
+      "bytes": 113852
     }
   ],
   "dependency_closure": {

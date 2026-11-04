@@ -1,0 +1,70 @@
+{
+  "language": "es",
+  "language_name": "Español",
+  "direction": "ltr",
+  "source_commit": "94b4f206a40f44cf54a731b74c6913ee1539fbda",
+  "source_path": "docs/papers/triadic-brain-micro-spectrum/2026-11-03-edition-1.2/TRIADIC_BRAIN_MICRO_SPECTRUM.md",
+  "source_sha256": "6b870b3bc448bed2755995d099b5ca94b35e4c3c09e7e057565116bf315fc0e9",
+  "translation_path": "docs/papers/triadic-brain-micro-spectrum/translations/edition-1.2/es/TRIADIC_BRAIN_MICRO_SPECTRUM.es.md",
+  "translation_sha256": "98197e5eac7c5faf7219d8533be9d4e02af2116d9ac16144c3ac45f1dc347adb",
+  "translation_bytes": 113852,
+  "review_date": "2026-11-04",
+  "translation_method": "AI-assisted; not human-certified",
+  "scope": "Complete main manuscript including title, all 17 sections, references, evidence index and both appendices; English supplements and machine-readable companions unchanged",
+  "review_record": "AI_REVIEW.md",
+  "checks": {
+    "inline_math": {
+      "source_count": 112,
+      "translation_count": 112,
+      "exact_sequence_match": true
+    },
+    "display_math": {
+      "source_count": 29,
+      "translation_count": 29,
+      "exact_sequence_match": true
+    },
+    "urls": {
+      "source_count": 41,
+      "translation_count": 41,
+      "exact_sequence_match": true
+    },
+    "citations": {
+      "source_count": 83,
+      "translation_count": 83,
+      "exact_sequence_match": true
+    },
+    "inline_code": {
+      "source_count": 20,
+      "translation_count": 20,
+      "exact_sequence_match": true
+    },
+    "fenced_code": {
+      "source_count": 3,
+      "translation_count": 3,
+      "exact_sequence_match": true
+    },
+    "numbered_sections": {
+      "source_count": 17,
+      "translation_count": 17,
+      "exact_sequence_match": true
+    },
+    "numbered_subsections": {
+      "source_count": 26,
+      "translation_count": 26,
+      "exact_sequence_match": true
+    },
+    "equation_tags": {
+      "source_count": 29,
+      "translation_count": 29,
+      "exact_sequence_match": true
+    }
+  },
+  "limits": {
+    "human_linguistic_certification": false,
+    "runtime_qualification": false,
+    "new_empirical_validation": false,
+    "external_reference_revalidation": false,
+    "browser_accessibility_certification": false
+  },
+  "rights": "Existing attribution and rights preserved; no new blanket license or operational authority"
+}
