@@ -19,6 +19,8 @@
 
 **Technical manuscript:** [Triadic Brain from Byte Identity to Revisable Knowledge, edition 1.2, and machine-readable companion](docs/papers/triadic-brain-micro-spectrum/README.md), with [Source-bound main-text translations](docs/papers/triadic-brain-micro-spectrum/translations/edition-1.2/README.md). Source reconstruction and a research agenda; distinct from the runnable demo and earlier whitepaper.
 
+**Network academic supplement:** [Representation, protocol and execution boundaries, 4 November 2026](docs/papers/triadic-brain-micro-spectrum/2026-11-04-network-supplement/README.md). Microscopic source-bound treatment, formal models and proposed evaluation; no new deployed-network or empirical-performance claim.
+
 **Triadic Brain design edition:** [English R6 whitepaper, visual atlas, companion guides and contribution information](docs/whitepaper/triadic-brain-20261102/README.md). [Source-bound main-text translations](docs/whitepaper/triadic-brain-20261102/translations/R6/README.md) are available; this documentation does not expand the runnable demo's capabilities.
 
 **Translation access:** Persian (Farsi), Kiswahili, Modern Standard Arabic, Russian and Polish editions of both papers are linked from the indexes above alongside the earlier editions. Each language retains its own source and AI-assisted review record; no fluent-human certification is claimed. [Quechua and Diné Bizaad reviewer invitation](docs/translations/QUECHUA_DINE_REVIEW_INVITATION.md) seeks community-led review and language decisions, not completed translations or community endorsement.
