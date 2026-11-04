@@ -1,4 +1,8 @@
-# Control Anchor
+# Control Anchor: Triadic Brain reviewer demo
+
+An offline Python demonstration of evidence provenance, human-authorized review, correction history and reproducible verification, with public research on local-first AI governance and cooperative compute. The network architecture is proposed; this repository does not run a live AI or peer-compute service.
+
+**Humans and AI-assisted contributors are welcome.** Help reproduce results, find counterexamples, improve accessibility, review translations or test a bounded design hypothesis. Start with [contribution opportunities](CONTRIBUTING.md#humans-and-ai-assisted-contributors), [agent working instructions](AGENTS.md), or the [compact reading index](llms.txt). Contributions require an authorized operator and normal project review.
 
 ## Explore the Brain
 

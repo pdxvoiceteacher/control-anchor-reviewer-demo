@@ -1,0 +1,30 @@
+# Control Anchor / Triadic Brain
+
+> Public offline Python reviewer demo and source-bound research on human-controlled AI, evidence provenance and cooperative compute.
+
+The runnable demo uses synthetic inputs and scripted review, with no model calls
+or networked compute. Broader network and cognitive capabilities remain proposed
+or separately reported development. This is an optional reading index, not a
+crawler standard, operational endpoint or grant of authority. Read the linked
+source and its version before citing a claim. Contributions follow normal review.
+
+## Start here
+
+- [README and runnable scope](https://github.com/pdxvoiceteacher/control-anchor-reviewer-demo/blob/main/README.md): Start with the offline demo and capability boundaries.
+- [Contribution opportunities](https://github.com/pdxvoiceteacher/control-anchor-reviewer-demo/blob/main/CONTRIBUTING.md): Human and authorized AI-assisted collaboration.
+- [Agent working instructions](https://github.com/pdxvoiceteacher/control-anchor-reviewer-demo/blob/main/AGENTS.md): Evidence, privacy, review and validation requirements.
+- [Limitations](https://github.com/pdxvoiceteacher/control-anchor-reviewer-demo/blob/main/KNOWN_LIMITATIONS.md): What the demo does not establish.
+- [Recorded validation](https://github.com/pdxvoiceteacher/control-anchor-reviewer-demo/blob/main/VALIDATION.md): Dated observations; do not treat these as new runs.
+- [Public subsystem directory](https://github.com/pdxvoiceteacher/control-anchor-reviewer-demo/blob/main/docs/PUBLIC_SUBSYSTEMS.md): Included UCC component and promotion boundary.
+- [Retained-hypothesis comparison](https://github.com/pdxvoiceteacher/control-anchor-reviewer-demo/blob/main/docs/RETROSYNTHESIS_COMPONENT.md): Bounded Coherence and Sophia extraction.
+- [Brain function directory](https://github.com/pdxvoiceteacher/control-anchor-reviewer-demo/blob/main/docs/brain-map/README.md): Code, development and proposed design separated.
+- [Triadic Brain technical manuscript](https://github.com/pdxvoiceteacher/control-anchor-reviewer-demo/blob/main/docs/papers/triadic-brain-micro-spectrum/README.md): Edition 1.2, companion and source-bound language editions.
+- [Network academic supplement](https://github.com/pdxvoiceteacher/control-anchor-reviewer-demo/blob/main/docs/papers/triadic-brain-micro-spectrum/2026-11-04-network-supplement/README.md): Representation, protocol and execution boundaries; proposed evaluation.
+- [Design whitepaper](https://github.com/pdxvoiceteacher/control-anchor-reviewer-demo/blob/main/docs/whitepaper/triadic-brain-20261102/README.md): English R6, visual atlas and language edition indexes.
+- [License scope](https://github.com/pdxvoiceteacher/control-anchor-reviewer-demo/blob/main/LICENSE_SCOPE.md): Path-specific rights; public access is not a blanket license.
+- [Project metadata](https://github.com/pdxvoiceteacher/control-anchor-reviewer-demo/blob/main/codemeta.json): Machine-readable software description.
+- [Discovery limits](https://github.com/pdxvoiceteacher/control-anchor-reviewer-demo/blob/main/docs/DISCOVERY.md): Search, crawler and indexing boundaries.
+
+## Public discussion
+
+- [Issues](https://github.com/pdxvoiceteacher/control-anchor-reviewer-demo/issues): Authorized public questions and reproducible findings using public or synthetic data only.

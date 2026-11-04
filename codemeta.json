@@ -1,7 +1,7 @@
 {
   "@context": "https://w3id.org/codemeta/4.0",
   "@type": "SoftwareSourceCode",
-  "name": "Control Anchor reviewer demo",
+  "name": "Control Anchor / Triadic Brain reviewer demo",
   "codeRepository": "https://github.com/pdxvoiceteacher/control-anchor-reviewer-demo",
   "description": "Offline synthetic Python demo of evidence-linked review, correction history, export verification and interrupted-decision recovery. No model calls or networked compute. The broader local-first cognitive middleware and decentralized cooperative network are proposed designs, not capabilities delivered here.",
   "programmingLanguage": "Python",
@@ -23,6 +23,9 @@
     "https://github.com/pdxvoiceteacher/control-anchor-reviewer-demo/blob/main/NOTICE",
     "https://github.com/pdxvoiceteacher/control-anchor-reviewer-demo/blob/main/THIRD_PARTY_NOTICES.md",
     "https://github.com/pdxvoiceteacher/control-anchor-reviewer-demo/blob/main/CONTRIBUTING.md",
-    "https://github.com/pdxvoiceteacher/control-anchor-reviewer-demo/blob/main/docs/COMMUNITY_COMPUTE_VISION.md"
+    "https://github.com/pdxvoiceteacher/control-anchor-reviewer-demo/blob/main/docs/COMMUNITY_COMPUTE_VISION.md",
+    "https://github.com/pdxvoiceteacher/control-anchor-reviewer-demo/blob/main/AGENTS.md",
+    "https://github.com/pdxvoiceteacher/control-anchor-reviewer-demo/blob/main/llms.txt",
+    "https://github.com/pdxvoiceteacher/control-anchor-reviewer-demo/blob/main/docs/DISCOVERY.md"
   ]
 }
