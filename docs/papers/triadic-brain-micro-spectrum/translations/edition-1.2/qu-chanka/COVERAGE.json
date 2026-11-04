@@ -1,0 +1,64 @@
+{
+  "status": "PARTIAL_AI_DRAFT_NOT_HUMAN_REVIEWED",
+  "language": "Quechua",
+  "proposed_written_variety": "Southern Quechua, Chanka/Ayacucho-oriented, three-vowel convention; not verified",
+  "source_commit": "23a674cab2af23baae6e74af2aaf5c7c934ff473",
+  "source_path": "docs/papers/triadic-brain-micro-spectrum/2026-11-03-edition-1.2/TRIADIC_BRAIN_MICRO_SPECTRUM.md",
+  "source_sha256": "6b870b3bc448bed2755995d099b5ca94b35e4c3c09e7e057565116bf315fc0e9",
+  "coverage": [
+    {
+      "id": "T01",
+      "source_location": "Abstract, sentence 1",
+      "english": "Triadic Brain is examined as an architecture for attributable, bounded and revisable inquiry.",
+      "ai_draft": "Triadic Brainqa maskay tapukuykunapaq huk ⟦architecture⟧ nisqa hinam qawarisqa kachkan: maymanta, pimanta hamusqanta riqsiy atinapaq, saywachasqa kanapaq, hinaspa yapamanta qawaspa allichay atinapaq.",
+      "uncertainty_note": null
+    },
+    {
+      "id": "T02",
+      "source_location": "Section 1, paragraph 1, sentence 1",
+      "english": "What happens to a small piece of data when it enters Triadic Brain, and what additional warrant exists when the system later presents a useful result?",
+      "ai_draft": "Huk huchuy willakuy Triadic Brainman yaykuptin, imataq pasan; hinaspa llika qipaman allin lluqsisqata rikuchiptin, ima yapasqa ⟦warrant⟧ nisqataq kan?",
+      "uncertainty_note": null
+    },
+    {
+      "id": "T03",
+      "source_location": "Section 1, paragraph 1, sentence 2",
+      "english": "Answering requires separating three questions: what representation was transformed, what procedure actually consumed it, and what inference the resulting evidence supports.",
+      "ai_draft": "Kutichinapaqqa kimsa tapukuykunata rakina: ima ⟦representation⟧ nisqataq tikrasqa karqa, ima ⟦procedure⟧ nisqataq chiqapta chayta llamkachirqa, hinaspa lluqsimuq ⟦evidence⟧ nisqaqa ima ⟦inference⟧ nisqatataq yanapan.",
+      "uncertainty_note": "UNRESOLVED: Consumed describes actual processing or use of the representation, not destruction."
+    },
+    {
+      "id": "T04",
+      "source_location": "Section 1, paragraph 1, sentence 3",
+      "english": "A source digest can establish an identity relationship without establishing factual truth.",
+      "ai_draft": "Huk ⟦source digest⟧ nisqaqa ⟦identity relationship⟧ nisqata takyachiyta atin, ichaqa manam chaywan willakusqan chiqap kasqanta takyachinchu.",
+      "uncertainty_note": null
+    },
+    {
+      "id": "T05",
+      "source_location": "Section 1, paragraph 1, sentence 4",
+      "english": "A schema-valid analogy can preserve a relation without validating transfer to a new domain.",
+      "ai_draft": "Huk ⟦schema-valid analogy⟧ nisqaqa tinkuyta waqaychayta atin, ichaqa manam chaywan musuq ⟦domain⟧ nisqaman apay allin kasqanta chiqapchanchu.",
+      "uncertainty_note": "UNRESOLVED: The relation preserved by the analogy need not be a meeting or connection; tinkuy is not a validated technical equivalent."
+    },
+    {
+      "id": "T06",
+      "source_location": "Section 1, paragraph 1, sentence 5",
+      "english": "A reviewed candidate can still lack permission for a consequential use.",
+      "ai_draft": "Qawasqaña ⟦candidate⟧ nisqapas hatun tikraykunata apamuq llamkachinapaq mana saqillayniyuq kanmanraq.",
+      "uncertainty_note": "UNRESOLVED: Permission and consequential use require specialist and fluent review; wording about large changes may narrow the source meaning, and saqillayniyuq is unverified. Review does not itself authorize consequential use; consequential does not mean only harmful."
+    },
+    {
+      "id": "T07",
+      "source_location": "Section 2.1, paragraph 2, sentence 1",
+      "english": "No product module was imported, no project test or CI job was run, no provider was called, and no installed client or live peer was exercised for this study.",
+      "ai_draft": "Kay yachay maskaypaq manam ima ⟦product module⟧ nisqapas yaykuchisqachu karqa; manam proyectopa ima pruebanpas nitaq ⟦CI job⟧ nisqapas purichisqachu karqa; manam ima ⟦provider⟧ nisqapas waqyasqachu karqa; manataq churakusqa ⟦client⟧ nisqapas nitaq llamkachkaq ⟦peer⟧ nisqapas pruebasqachu karqa.",
+      "uncertainty_note": null
+    }
+  ],
+  "untranslated_scope": "All source passages not explicitly listed; all tables, equations, appendices, references and separate companions; bracketed technical terms inside draft passages.",
+  "human_review_performed": false,
+  "technical_or_language_certification": false,
+  "draft_file": "TRIADIC_BRAIN_MICRO_SPECTRUM.qu.partial.md",
+  "draft_sha256": "2d0c1ab6f7ee2085a56ce0d4567a19b855e2b93ec0d714229517a2972efadae2"
+}
