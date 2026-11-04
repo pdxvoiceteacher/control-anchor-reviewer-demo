@@ -1200,14 +1200,14 @@
     },
     {
       "path": "README.md",
-      "candidate_sha256": "e4da7f46f27eaed7dfbf0770d88f31e3f1de8e38acfebcaa98b1d8f4be88e783",
+      "candidate_sha256": "6aee3436685d59918ca7c1723008dd5b69e628a9326d0f597dc98971ede125d9",
       "origin": "ADAPTED",
       "source_basis_paths": [],
       "modifications": "New reviewer explanation based on maintained architecture; limits bound to extracted implementation. Added link to a source-attributed methods appendix and its bounded teaching claims. Added self-contained Mermaid responsibility diagram separating intended product integration, observed synthetic offline demo and future peer network; no runtime or validation-result changes.",
       "license": "MPL-2.0 to extent rights exist and covered",
       "publication_review": "OWNER_APPROVED_PUBLIC_SOURCE_ACCESS_EXISTING_RIGHTS_PRESERVED_NO_NEW_LICENSE",
       "historical_publication_review": "FINAL_CONTENT_DECISION_PENDING",
-      "bytes": 34491,
+      "bytes": 35258,
       "cooperative_ethos_clarification_2026_11_02": "Owner-directed freedom, local ownership, voluntary mutual aid and practical exit; informed higher overhead may be legitimate. Existing capability limits, rights and public contribution route preserved. No runtime change or new operational evidence.",
       "whitepaper_navigation_2026_11_02": "Added one English design-edition and contribution navigation link, with translations-pending and unchanged-demo scope. No runtime or rights change.",
       "brain_map_revision_history": [
@@ -1709,16 +1709,16 @@
       "origin": "NEW_PUBLIC_PROJECT_DOCUMENTATION",
       "license": "Existing rights and notices preserved; see LICENSE_SCOPE.md.",
       "publication_review": "OWNER_AUTHORIZED_PUBLIC_DISCOVERABILITY_DOCUMENTATION",
-      "candidate_sha256": "16202ba6af1976117cc3c2a55b703d705c6d5137325fe4c78a36e10000051b5c",
-      "bytes": 3214
+      "candidate_sha256": "b704dab0984f13dbbd12ea2af6df6bedbb57b5c47d6a35c0cf032c48842960bd",
+      "bytes": 4633
     },
     {
       "path": "codemeta.json",
       "origin": "NEW_PUBLIC_PROJECT_DOCUMENTATION",
       "license": "Existing rights and notices preserved; see LICENSE_SCOPE.md.",
       "publication_review": "OWNER_AUTHORIZED_PUBLIC_DISCOVERABILITY_DOCUMENTATION",
-      "candidate_sha256": "74e3a05d73c5398b628321404722c749563a2939513778aa37c1e15f70ebb6b4",
-      "bytes": 1632
+      "candidate_sha256": "251ee72e0795914348daee4780e4227c8d85d9af26879d9ea3cc9d177c4a000f",
+      "bytes": 1928
     },
     {
       "path": "docs/FUNCTION_GLOSSARY.md",
@@ -3537,6 +3537,27 @@
       "bytes": 3497,
       "description": "Owner-approved source-bound academic network supplement; sanitized scholarly text or presentation/navigation derivative. No private implementation source or operational records.",
       "license": "Existing repository rights and notices; no new blanket prose/media license."
+    },
+    {
+      "path": "AGENTS.md",
+      "description": "Public contributor navigation and accurate discovery guidance; no runtime or access changes.",
+      "license": "Existing repository rights and notices; no new blanket prose/media license.",
+      "candidate_sha256": "b077d6e552f0a3af0bf60375795f23dd213ed9c13c03800fc8891738a4367df0",
+      "bytes": 3034
+    },
+    {
+      "path": "llms.txt",
+      "description": "Public contributor navigation and accurate discovery guidance; no runtime or access changes.",
+      "license": "Existing repository rights and notices; no new blanket prose/media license.",
+      "candidate_sha256": "7ccd9bfa7404899b715b8ef9088a4ae5ea5bd876b901515d2dc577483f5b0177",
+      "bytes": 3319
+    },
+    {
+      "path": "docs/DISCOVERY.md",
+      "description": "Public contributor navigation and accurate discovery guidance; no runtime or access changes.",
+      "license": "Existing repository rights and notices; no new blanket prose/media license.",
+      "candidate_sha256": "ec30f842fa237e015bc169cca0c30e2d0f85d9ad1778d5c809022ab0c4fbcca5",
+      "bytes": 3831
     }
   ],
   "dependency_closure": {

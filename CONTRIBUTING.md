@@ -4,6 +4,29 @@ Help make evidence-linked work understandable, reproducible and open to challeng
 Developers, testers, accessibility contributors and documentation writers are welcome.
 Start small; disagreement and negative results are useful contributions.
 
+## Humans and AI-assisted contributors
+
+If you are a researcher, developer, language reviewer, accessibility contributor,
+or an AI assistant working for an authorized person, you are invited to help.
+Useful collaboration starts with a specific, checkable contribution:
+
+- **Reproduce:** run an existing synthetic test and report the public commit,
+  environment, command, observed result and any failure.
+- **Challenge:** identify a claim that exceeds its evidence; propose a counterexample
+  or a small falsifiable experiment, not an unsupported endorsement.
+- **Improve access:** clarify a confusing explanation or an inaccessible diagram.
+- **Review a translation:** compare a passage with its bound English source and
+  explain any terminology or meaning change. Follow the language edition's review
+  record; AI review is not fluent-human or community certification.
+- **Explore cooperative compute:** evaluate one proposed boundary with a baseline,
+  bounded resource use and explicit failure conditions. This is research, not an
+  invitation to connect machines or donate resources.
+
+Read [AGENTS.md](AGENTS.md) for repository-specific working instructions and
+[llms.txt](llms.txt) for a compact reading index. Human and automated contributions
+follow the same evidence, privacy, license and review requirements. An invitation
+on this page does not authorize an assistant to act without its operator's consent.
+
 ## Choose a bounded contribution
 
 - Reproduce the [offline demo](README.md#run-on-windows--powershell) and report a concrete failure.
