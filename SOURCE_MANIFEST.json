@@ -3290,6 +3290,66 @@
       "bytes": 7251
     },
     {
+      "path": "docs/papers/triadic-brain-micro-spectrum/translations/edition-1.2/ru/README.md",
+      "origin": "NEW_PUBLIC_SOURCE_BOUND_TRANSLATION",
+      "source_basis_paths": [],
+      "modifications": "Full Russian main-paper translation or exact source/review record. AI-only review scope and limitations disclosed. Frozen English and existing editions unchanged.",
+      "license": "Existing rights and notices preserved; no new blanket prose/media license grant.",
+      "publication_review": "AI_LANGUAGE_AND_TECHNICAL_REVIEW_WITH_DISCLOSED_COVERAGE_AND_LIMITS",
+      "candidate_sha256": "39aaef4ae85c88cd95c47c7c8fd8cbc703438d02c97dedc519a305a144c0bed6",
+      "bytes": 1715
+    },
+    {
+      "path": "docs/papers/triadic-brain-micro-spectrum/translations/edition-1.2/ru/TRANSLATION.json",
+      "origin": "NEW_PUBLIC_SOURCE_BOUND_TRANSLATION",
+      "source_basis_paths": [],
+      "modifications": "Full Russian main-paper translation or exact source/review record. AI-only review scope and limitations disclosed. Frozen English and existing editions unchanged.",
+      "license": "Existing rights and notices preserved; no new blanket prose/media license grant.",
+      "publication_review": "AI_LANGUAGE_AND_TECHNICAL_REVIEW_WITH_DISCLOSED_COVERAGE_AND_LIMITS",
+      "candidate_sha256": "b6c3e59a176133f4952375a3902b81cd2450189ce729eb259140f40a22a83485",
+      "bytes": 2646
+    },
+    {
+      "path": "docs/papers/triadic-brain-micro-spectrum/translations/edition-1.2/ru/TRIADIC_BRAIN_MICRO_SPECTRUM.ru.md",
+      "origin": "NEW_PUBLIC_SOURCE_BOUND_TRANSLATION",
+      "source_basis_paths": [],
+      "modifications": "Full Russian main-paper translation or exact source/review record. AI-only review scope and limitations disclosed. Frozen English and existing editions unchanged.",
+      "license": "Existing rights and notices preserved; no new blanket prose/media license grant.",
+      "publication_review": "AI_LANGUAGE_AND_TECHNICAL_REVIEW_WITH_DISCLOSED_COVERAGE_AND_LIMITS",
+      "candidate_sha256": "e91bbc71351908ad0e7ed6e44b9d46ab076c2e55de8e57410ed30f78dd9f46b7",
+      "bytes": 183303
+    },
+    {
+      "path": "docs/whitepaper/triadic-brain-20261102/translations/R6/ru/README.md",
+      "origin": "NEW_PUBLIC_SOURCE_BOUND_TRANSLATION",
+      "source_basis_paths": [],
+      "modifications": "Full Russian main-paper translation or exact source/review record. AI-only review scope and limitations disclosed. Frozen English and existing editions unchanged.",
+      "license": "Existing rights and notices preserved; no new blanket prose/media license grant.",
+      "publication_review": "AI_LANGUAGE_AND_TECHNICAL_REVIEW_WITH_DISCLOSED_COVERAGE_AND_LIMITS",
+      "candidate_sha256": "6ac0b9e183dd815d2044ea921aa1bd56075423452eacdde9f484d0c03afc54e3",
+      "bytes": 1613
+    },
+    {
+      "path": "docs/whitepaper/triadic-brain-20261102/translations/R6/ru/TRANSLATION.json",
+      "origin": "NEW_PUBLIC_SOURCE_BOUND_TRANSLATION",
+      "source_basis_paths": [],
+      "modifications": "Full Russian main-paper translation or exact source/review record. AI-only review scope and limitations disclosed. Frozen English and existing editions unchanged.",
+      "license": "Existing rights and notices preserved; no new blanket prose/media license grant.",
+      "publication_review": "AI_LANGUAGE_AND_TECHNICAL_REVIEW_WITH_DISCLOSED_COVERAGE_AND_LIMITS",
+      "candidate_sha256": "da0fc5e0819915e5e68923c1e814da4983a6eae4ecd3bdea0a9d42422872b596",
+      "bytes": 5154
+    },
+    {
+      "path": "docs/whitepaper/triadic-brain-20261102/translations/R6/ru/WHITEPAPER.ru.md",
+      "origin": "NEW_PUBLIC_SOURCE_BOUND_TRANSLATION",
+      "source_basis_paths": [],
+      "modifications": "Full Russian main-paper translation or exact source/review record. AI-only review scope and limitations disclosed. Frozen English and existing editions unchanged.",
+      "license": "Existing rights and notices preserved; no new blanket prose/media license grant.",
+      "publication_review": "AI_LANGUAGE_AND_TECHNICAL_REVIEW_WITH_DISCLOSED_COVERAGE_AND_LIMITS",
+      "candidate_sha256": "1a34f394c4e6fd9ebacfa17d8c0f5116868ff82f51928b1bd6396f13285e1ca7",
+      "bytes": 183988
+    },
+    {
       "path": "docs/papers/triadic-brain-micro-spectrum/translations/edition-1.2/pl/AI_REVIEW.md",
       "origin": "NEW_PUBLIC_SOURCE_BOUND_TRANSLATION",
       "source_basis_paths": [],
