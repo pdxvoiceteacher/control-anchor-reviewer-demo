@@ -1,0 +1,78 @@
+{
+  "status": "PARTIAL_AI_DRAFT_NOT_HUMAN_REVIEWED",
+  "language": "Quechua",
+  "proposed_written_variety": "Southern Quechua, Chanka/Ayacucho-oriented, three-vowel convention; not verified",
+  "source_commit": "7c40bb33c64017f7b11a5b83a272cf87424c73e1",
+  "source_path": "docs/whitepaper/triadic-brain-20261102/R6/WHITEPAPER.en.md",
+  "source_sha256": "f7e5ef46c6ac203e61d6b353f4295af0f3270b01db197c55e941b9a7c9fffe3d",
+  "coverage": [
+    {
+      "id": "W01",
+      "source_location": "Summary, paragraph 1, sentence 1",
+      "english": "Triadic Brain is being designed to help people think, learn and work together while retaining meaningful control over their computers, information and AI assistance.",
+      "ai_draft": "Triadic Brainqa runakuna yuyaymananankupaq, yachanankupaq, kuska llamkanankupaq yanapananpaqmi wakichisqa kachkan; chaywanpas runakunaqa paykunapa ⟦computers⟧ nisqankunata, willakuyninkunata, ⟦AI assistance⟧ nisqatapas chiqapta kamachiyta atinanmi.",
+      "uncertainty_note": "UNRESOLVED: This wording has not been verified to preserve continued meaningful control, rather than merely an ability to command."
+    },
+    {
+      "id": "W02",
+      "source_location": "Summary, paragraph 1, sentence 2",
+      "english": "Its intended home is a user-owned node that can work locally and cooperate with other independently governed nodes when their owners agree.",
+      "ai_draft": "Paypa kananpaq munasqanqa llamkachiq runapa ⟦node⟧ nisqanmi: kaypi kikillan llamkayta atinman, hinaspa hukkunapa sapakama kamachisqan ⟦nodes⟧ nisqakunawan kuska llamkayta atinman, chaykunayuq runakuna arí niptinku.",
+      "uncertainty_note": "UNRESOLVED: Local operation means computation on the user's node, not merely being here or working alone; independent governance and owner agreement require review."
+    },
+    {
+      "id": "W03",
+      "source_location": "Summary, paragraph 1, sentence 3",
+      "english": "Control Anchor is the human interface for that node.",
+      "ai_draft": "Control Anchorqa chay ⟦node⟧ nisqawan runapa llamkananpaq ⟦interface⟧ nisqanmi.",
+      "uncertainty_note": null
+    },
+    {
+      "id": "W04",
+      "source_location": "Summary, paragraph 1, sentence 4",
+      "english": "The product is the connected Brain: its task intake, analytical work, evaluation, memory, controls, evidence and cooperation.",
+      "ai_draft": "Rurasqa kaqqa tinkusqa Brainmi: ruranakunata chaskisqan, hamutaspa llamkasqan, chaninchasqan, yuyaynin, kamachiykuna, ⟦evidence⟧ nisqa, kuska llamkay ima.",
+      "uncertainty_note": "UNRESOLVED: yuyaynin and kamachiykuna are not validated equivalents for technical memory and controls."
+    },
+    {
+      "id": "W05",
+      "source_location": "Summary, paragraph 2, sentence 1",
+      "english": "The practical goal is useful, inspectable help for working people and under-resourced institutions.",
+      "ai_draft": "Ruraypi munasqanqa llamkaq runakunapaq, pisi yanapakunallayuq ⟦institutions⟧ nisqakunapaqpas allin yanapaymi; chay yanapayqa qawasqa, maskasqa kayta atinanmi.",
+      "uncertainty_note": "UNRESOLVED: Under-resourced includes resources beyond assistance; inspectable means open to examination, not merely visible or searchable."
+    },
+    {
+      "id": "W06",
+      "source_location": "Summary, paragraph 2, sentence 2",
+      "english": "A community should be able to choose its models, understand where its data goes, set its own resource limits, preserve knowledge it is entitled to keep, and leave a provider or network without abandoning its work.",
+      "ai_draft": "Huk aylluqa ⟦models⟧ nisqankunata akllayta, willakuyninkuna mayman risqanta yachayta, paypa yanapakunanpa tukunan saywakunata churayta, waqaychaypaq derechoyuq yachayninta waqaychayta, hinaspa llamkayninta mana saqispa huk ⟦provider⟧ nisqamanta utaq llikamanta lluqsiyta atinanmi.",
+      "uncertainty_note": "UNRESOLVED: ayllu may narrow community; wording for resource limits and entitlement to retain knowledge is unverified. Resource limits must include resources such as compute, storage, time or money, not merely a boundary on help or helpers."
+    },
+    {
+      "id": "W07",
+      "source_location": "Summary, paragraph 2, sentence 3",
+      "english": "Better-equipped participants could contribute bounded compute.",
+      "ai_draft": "Aswan allin llamkana nisqayuq yanapakuqkunaqa saywachasqa ⟦compute⟧ nisqawan yanapakunmanku.",
+      "uncertainty_note": null
+    },
+    {
+      "id": "W08",
+      "source_location": "Summary, paragraph 2, sentence 4",
+      "english": "Others could contribute expertise, corrections, reusable methods, accessible explanations or useful negative results.",
+      "ai_draft": "Hukkunataq yachayninkuwan, allichaykunawan, yapamanta llamkachina ruray ñankunawan, mana sasalla hamutana sutichaykunawan, utaq manam nisqa kutichiyniyuq allin lluqsisqakunawan yanapakunmanku.",
+      "uncertainty_note": "UNRESOLVED: Useful negative results must not be reduced to answers saying no. Negative findings can be useful evidence; they are not necessarily useless or missing results."
+    },
+    {
+      "id": "W09",
+      "source_location": "Summary, paragraph 2, sentence 5",
+      "english": "Participation should not require surrendering private records or accepting a donor's conclusions.",
+      "ai_draft": "Yanapakuyqa manam sapallanpaq waqaychasqa qillqakunata qunanta, nitaq yanapakuqpa tukuchispa nisqankunata chaskinanta mañananmanchu.",
+      "uncertainty_note": "UNRESOLVED: A donor is not necessarily any helper; conclusions are not simply final statements, and private records are not limited to written papers. Participation must not be made conditional on accepting a donor's conclusions."
+    }
+  ],
+  "untranslated_scope": "All source passages not explicitly listed; all tables, equations, appendices, references and separate companions; bracketed technical terms inside draft passages.",
+  "human_review_performed": false,
+  "technical_or_language_certification": false,
+  "draft_file": "WHITEPAPER.qu.partial.md",
+  "draft_sha256": "0bea14a9a1e711b36a2b0ecf2737aa2b765f9e895f4fbdba6b9c4aa75e685a5a"
+}

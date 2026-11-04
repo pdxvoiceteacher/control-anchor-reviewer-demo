@@ -3283,11 +3283,11 @@
       "path": "docs/translations/QUECHUA_DINE_REVIEW_INVITATION.md",
       "origin": "NEW_PUBLIC_TRANSLATION_REVIEW_INVITATION",
       "source_basis_paths": [],
-      "modifications": "Source-pinned invitation for Quechua and Dine Bizaad translation help. Preparation only; no translation or fluent-human review claimed. AI assistance and future draft disclaimer explicitly scoped.",
+      "modifications": "Partial Southern Quechua AI draft or exact coverage record; unreviewed by fluent humans, unresolved terms and passages explicitly marked. Invitation updated to distinguish actual partial Quechua drafts from unavailable Dine Bizaad text. No full-paper completion claimed.",
       "license": "Existing rights and notices preserved; no new blanket prose/media license grant.",
-      "publication_review": "INDEPENDENT_DOCUMENTATION_REVIEW_COMPLETED_WITH_DISCLOSED_LIMITS",
-      "candidate_sha256": "30ce2a1168c9021abba4a08e6d2bc9bc0b930e830ea185213e075ae2b728490b",
-      "bytes": 7251
+      "publication_review": "AI_DRAFT_WITH_EXPLICIT_UNRESOLVED_PASSAGES",
+      "candidate_sha256": "c0e074bfc6f01c215dd55416b1df22d93c2c7c36bf10c2a697aa4d19b82f905b",
+      "bytes": 8413
     },
     {
       "path": "docs/papers/triadic-brain-micro-spectrum/translations/edition-1.2/ru/README.md",
@@ -3428,6 +3428,46 @@
       "publication_review": "BOUNDED_AI_TRANSLATION_REVIEW_NOT_HUMAN_CERTIFICATION",
       "candidate_sha256": "fcca7157ebc5f56d483c2add8fb55aaef2879300326d3c7883dc2a9282c6ca25",
       "bytes": 106434
+    },
+    {
+      "path": "docs/whitepaper/triadic-brain-20261102/translations/R6/qu-chanka/WHITEPAPER.qu.partial.md",
+      "origin": "NEW_PUBLIC_PARTIAL_TRANSLATION_DRAFT",
+      "source_basis_paths": [],
+      "modifications": "Partial Southern Quechua AI draft or exact coverage record; unreviewed by fluent humans, unresolved terms and passages explicitly marked. Invitation updated to distinguish actual partial Quechua drafts from unavailable Dine Bizaad text. No full-paper completion claimed.",
+      "license": "Existing rights and notices preserved; no new blanket prose/media license grant.",
+      "publication_review": "AI_DRAFT_WITH_EXPLICIT_UNRESOLVED_PASSAGES",
+      "candidate_sha256": "0bea14a9a1e711b36a2b0ecf2737aa2b765f9e895f4fbdba6b9c4aa75e685a5a",
+      "bytes": 9143
+    },
+    {
+      "path": "docs/whitepaper/triadic-brain-20261102/translations/R6/qu-chanka/COVERAGE.json",
+      "origin": "NEW_PUBLIC_PARTIAL_TRANSLATION_DRAFT",
+      "source_basis_paths": [],
+      "modifications": "Partial Southern Quechua AI draft or exact coverage record; unreviewed by fluent humans, unresolved terms and passages explicitly marked. Invitation updated to distinguish actual partial Quechua drafts from unavailable Dine Bizaad text. No full-paper completion claimed.",
+      "license": "Existing rights and notices preserved; no new blanket prose/media license grant.",
+      "publication_review": "AI_DRAFT_WITH_EXPLICIT_UNRESOLVED_PASSAGES",
+      "candidate_sha256": "8990afe601b3c8e607f7d56516b3cbe9e65fc3859ac1f725f8bd171c90038400",
+      "bytes": 6174
+    },
+    {
+      "path": "docs/papers/triadic-brain-micro-spectrum/translations/edition-1.2/qu-chanka/TRIADIC_BRAIN_MICRO_SPECTRUM.qu.partial.md",
+      "origin": "NEW_PUBLIC_PARTIAL_TRANSLATION_DRAFT",
+      "source_basis_paths": [],
+      "modifications": "Partial Southern Quechua AI draft or exact coverage record; unreviewed by fluent humans, unresolved terms and passages explicitly marked. Invitation updated to distinguish actual partial Quechua drafts from unavailable Dine Bizaad text. No full-paper completion claimed.",
+      "license": "Existing rights and notices preserved; no new blanket prose/media license grant.",
+      "publication_review": "AI_DRAFT_WITH_EXPLICIT_UNRESOLVED_PASSAGES",
+      "candidate_sha256": "2d0c1ab6f7ee2085a56ce0d4567a19b855e2b93ec0d714229517a2972efadae2",
+      "bytes": 7724
+    },
+    {
+      "path": "docs/papers/triadic-brain-micro-spectrum/translations/edition-1.2/qu-chanka/COVERAGE.json",
+      "origin": "NEW_PUBLIC_PARTIAL_TRANSLATION_DRAFT",
+      "source_basis_paths": [],
+      "modifications": "Partial Southern Quechua AI draft or exact coverage record; unreviewed by fluent humans, unresolved terms and passages explicitly marked. Invitation updated to distinguish actual partial Quechua drafts from unavailable Dine Bizaad text. No full-paper completion claimed.",
+      "license": "Existing rights and notices preserved; no new blanket prose/media license grant.",
+      "publication_review": "AI_DRAFT_WITH_EXPLICIT_UNRESOLVED_PASSAGES",
+      "candidate_sha256": "1fef3d04c462d22e5e9226f6c1bb71b71065055e8c7a90474f5c589aa7201b3d",
+      "bytes": 4693
     }
   ],
   "dependency_closure": {
