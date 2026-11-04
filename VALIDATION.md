@@ -289,3 +289,82 @@ SHA, platform/job outcome and logs; failed, cancelled, skipped and unrun jobs do
 not become PASS. Historical results above and all extracted source identities
 are preserved. CI neither installs the full product nor resolves the unperformed
 packet inspection, rendered demo QA or live-provider/human-acceptance limits.
+
+## UCC public extraction: 3 November 2026
+
+The exact two runtime modules and two tests are copied from accepted development
+main `ad4a0e94972a5fa12965cd2f394cce504655d78b`. Git blob identities were verified:
+`ucc_plan.py` ac943825f6acfa104520ba703442bbce932a8d3f;
+`ucc_primitives.py` ab85ef3dc4cea040fe26bc821be0add9795580d8;
+upstream plan tests 4ac806d0b7546f5aca0a7e93efcb9d5c1af4f8b0;
+precision tests c11a61bfc742e4e84d07c418987d7c6e30442b1a.
+The existing canonical dependency is unchanged and matches development main.
+
+Executed in a Linux Python 3.12.14 public checkout, without installation,
+provider/model contact or paid spending:
+
+- `python -S -B ucc_demo.py`: completed; synthetic total and sections PASS,
+  wrong total FAIL, absent total HOLD, human review NOT_EXECUTED.
+- `python -S -B -m unittest discover -s tests -v`: **26 tests passed**,
+  including the previous component/navigation/integrity tests and four UCC
+  test methods. [Retained output](validation/2026-11-03-ucc-unittest.log).
+- Existing approved pytest 9.1.1 environment, plugin autoload and cache disabled,
+  PYTHONPATH set to this checkout's src: `python -B -s -m pytest -q -p no:cacheprovider tests/upstream_ucc/test_ucc_plan.py tests/test_ucc_amount_precision.py`:
+  **46 tests and 77 subtests passed**, exit 0. These overlap the precision methods
+  above and must not be added to the 26 as independent coverage.
+
+The precision oracle covers 72 valid comparisons across three precisions and
+three rounding modes, plus five invalid inputs. It does not normalize arbitrary
+Decimal exponent limits or traps. Focused success establishes supplied-field
+behavior, not source truth, human acceptance, installed Windows behavior,
+performance, full-product integration or a formal assurance opinion. No private
+run evidence or history is published. Public CI reports its own exact-head results.
+
+## Retrosynthesis public extraction: 3 November 2026
+
+This second projection starts from public main e33da6cb. The accepted private
+source pin remains ad4a0e94972a5fa12965cd2f394cce504655d78b. The leaf blob is
+e9854000b7ed113028fd626458698cdea42070ee; exact upstream test blob is
+4331aa4fb31ea59aac436f94c9f783c3b3a27ee1. The complete ordinary import closure,
+schema pairs and Unicode license are bound in SOURCE_MANIFEST.json, not replaced
+by stubs or satisfied by a private sibling installation.
+
+Preparation history is retained distinctly: an initial materialization attempt
+lacked the three source-parity schema files and stopped. The subsequent attempted
+pytest command found no relocated test file and ran zero tests. Exact missing
+schema bytes were fetched and identity-checked before successful qualification.
+After the module-origin hook was added, one independent run executed all 74 cases
+but failed at session finish because new source-manifest entries were not yet
+finalized. That guard failure is not counted as a successful run. The completed
+manifest and final identity-checked run below supersede those preparation gaps.
+
+Local qualification uses existing Python 3.12.14, jsonschema4.26.0 and pytest9.1.1
+on Linux, without package installation, live model/provider/network invocation,
+native service or paid spending. The unchanged 73 upstream cases passed before
+the public demo was added. The demo adds one test, yielding 74 selected cases.
+The final focused command is `python -B -s -m pytest -q -p no:cacheprovider tests/upstream_retrosynthesis`
+with plugin autoload disabled. Imported project-module identities are checked
+against the public manifest at session finish. Final result: **74 passed**, including all 73 unchanged upstream cases, and
+**29 imported project modules** matched the public manifest. The existing
+standard-library suite separately passed all **26 tests**. These counts cover
+different selected paths; they do not imply whole-product qualification.
+Exact final output is retained in
+[the extraction log](validation/2026-11-03-retrosynthesis-pytest.log).
+
+The synthetic demonstration exercises the real Coherence grounding/proposal
+validator and Sophia reconstruction consumer, returning all five comparison
+dispositions with authority NONE, human decision PENDING, interpretation
+NOT_ESTABLISHED, and no lookup, retention, context delivery or dispatch.
+Permits/reports remain synthetic. This does not establish full Sophia evaluation,
+actual grants, native COMPARE custody, durable memory, installed behavior, source
+truth or full cognitive-loop acceptance. Support modules included for ordinary
+imports are not all behaviorally qualified by these selected tests.
+
+The existing bounded public CI job separately installs the optional pinned test
+requirements and executes this suite and demonstration on its Linux/Windows
+matrix. Consult exact commit CI for its outcome; local source results are not
+represented as installed or cross-platform proof before those checks finish.
+
+### Public CI workflow parsing correction
+
+The first public candidate at `70c257b8f3f723402e4dd18eace48cd50cc38027` failed before starting any demo jobs: [workflow run 41733828844](https://github.com/pdxvoiceteacher/control-anchor-reviewer-demo/actions/runs/41733828844). A local YAML parser reproduced the syntax error at the unquoted colon-space sequence in the pip `--only-binary=:all:` command. The correction expresses that unchanged command as a YAML block scalar. This failed attempt is not a test pass. Exact-successor CI must run the Ubuntu and Windows suites before merge.

@@ -4,11 +4,11 @@
 
 ![Techno brain with nine numbered function families; equivalent descriptions and links follow.](brain-map.svg)
 
-**Reviewed 2026-11-03.** Public reviewer-demo code and dated public descriptions only. Not a whole-product completion score or a live development tracker.
-Public source baseline: `23a674cab2af23baae6e74af2aaf5c7c934ff473`. Development descriptions retain their own dated evidence; this date does not requalify them.
+**Reviewed 2026-11-03.** Public component code and dated public descriptions only. Not a whole-product completion score or a live development tracker.
+Public source baseline: `51e5275f14d3b05e01cb0ee69be5819d6b9a611c`. Development descriptions retain their own dated evidence; this date does not requalify them.
 
 - **CODED · public main:** bounded implementation in this offline synthetic repository, not the whole Brain.
-- **DEVELOPMENT · reported:** described development components or integration work; private source is not republished or independently qualified here.
+- **DEVELOPMENT · reported:** broader components or integration work; any bounded public subcomponent is identified separately below.
 - **PROPOSED · design / research:** broader intended behavior, even where smaller foundations exist.
 - **UNKNOWN:** missing or uninspected proof stays unknown. No status implies production readiness.
 
@@ -46,13 +46,16 @@ Retain captured inputs, canonical records and a hash-linked history in the offli
 
 **CODED · public main**
 
-Deterministic evidence controls and logical actor/action authorization are included on public main.
+Logical authority checks and the bounded UCC plan engine are public. UCC runs declared predicates over supplied data and retains PASS, FAIL, HOLD and NOT_EXECUTED distinctions.
 
-**Boundary:** This does not establish general policy interpretation, OS isolation or an installed enforcement boundary. The standard review profile has no semantic finding rules.
+**Boundary:** Supplied-field checks do not establish source truth or professional compliance. Human procedures remain unexecuted; no operating-system enforcement or installed integration is claimed here.
 
 - [Code: controls](../../src/triadicbrain/assurance/controls.py)
 - [Code: authorization](../../src/triadicbrain/assurance/authorization.py)
 - [Code: review policy](../../src/triadicbrain/assurance/review_policy.py)
+- [Code: bounded UCC plans](../../src/triadicbrain/assurance/ucc_plan.py)
+- [Run the UCC component](../../ucc_demo.py)
+- [Vetted subsystem promotion](../../docs/PUBLIC_SUBSYSTEMS.md)
 
 [Back to family directory](#choose-a-family)
 
@@ -79,10 +82,13 @@ Scripted review decisions, a separate repair child, export/reopen and one interr
 
 **DEVELOPMENT · reported**
 
-CoherenceLattice grounding, claim/evidence relationships and supported UCC procedures are described as development components.
+The public retrosynthesis component runs bounded CoherenceLattice source grounding, proposal validation and supplied-prior comparison. Broader grounding and cognitive analysis remain development components.
 
-**Boundary:** Reported development, not code shipped in this reviewer demo. Current installed integration is unverified by this map; deterministic demo checks are not full CoherenceLattice execution.
+**Boundary:** This is a synthetic component demonstration, not qualification of all bundled support modules, full CoherenceLattice execution or installed integration. Supplied data is not an independently established source of truth.
 
+- [Code: bounded source grounding](../../components/CoherenceLattice/python/src/coherence/totality/grounding.py)
+- [Run the retrosynthesis component](../../retrosynthesis_demo.py)
+- [Runtime and qualification scope](../../docs/RETROSYNTHESIS_COMPONENT.md)
 - [Responsibilities and role boundaries](../../docs/PRODUCT_MAP.md#local-workbench-workflow-and-role-boundaries)
 - [Connections and proof obligations](../../docs/DEVELOPMENT_UPDATE_2026-10-30.md#provisional-connection-map)
 
@@ -94,10 +100,12 @@ CoherenceLattice grounding, claim/evidence relationships and supported UCC proce
 
 **DEVELOPMENT · reported**
 
-Sophia evaluation and Atlas explanation have distinct responsibilities in the broader development architecture.
+The public retrosynthesis demo invokes Sophia reconstruction checking against actual CoherenceLattice output. Full Sophia governed evaluation and Atlas explanation retain broader development responsibilities.
 
-**Boundary:** Named records in this demo do not prove those components ran. Agreement alone is not independent corroboration; no current whole-system pass is claimed.
+**Boundary:** Reconstruction checking is a narrow executed path, not a complete Sophia evaluation. Included import dependencies are not blanket behavioral qualification; no whole-system or installed-runtime pass is claimed.
 
+- [Code: Sophia reconstruction check](../../components/Sophia/python/src/sophia/triadic/governed_evaluation.py)
+- [Executed scope and limits](../../docs/RETROSYNTHESIS_COMPONENT.md)
 - [Roles and limits](../../docs/PRODUCT_MAP.md#local-workbench-workflow-and-role-boundaries)
 - [Whole-product vision](../../docs/TRIADIC_BRAIN_VISION.md)
 
@@ -125,10 +133,12 @@ Control Anchor interfaces, authenticated task intake, provider selection and ret
 
 **PROPOSED · design / research**
 
-Eligible retrieval, purpose-limited reuse and restart-aware continuity are design goals. Existing retained history is a foundation, not proof of this broader capability.
+Opt-in comparison against explicitly supplied prior hypotheses is now public. Eligible retrieval, durable memory and restart-aware continuity remain broader design goals.
 
-**Boundary:** Optional memory and adaptive reuse require their own implementation and evidence. Retention is not training consent; a successor must not inherit unearned authority.
+**Boundary:** The comparison performs no prior lookup, retention, provider dispatch or context delivery and grants no authority. Synthetic permits do not establish authenticated authorization; retention is not training consent.
 
+- [Code: supplied-prior comparison](../../src/triadicbrain/assurance/retrosynthesis_reuse.py)
+- [Run and inspect the comparison](../../docs/RETROSYNTHESIS_COMPONENT.md)
 - [Memory and continuity connections](../../docs/DEVELOPMENT_UPDATE_2026-10-30.md#provisional-connection-map)
 - [Privacy-aware lifecycle design](../../docs/design-notes/2026-11-03-refinements.en.md)
 

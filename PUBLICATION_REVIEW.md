@@ -1,4 +1,55 @@
-# Source publication review - 19 October 2026
+# Source publication review
+
+## Complete retrosynthesis dependency projection: 3 November 2026
+
+A second bounded promotion selects the accepted retrosynthesis comparison leaf
+and its unchanged tests, with the actual import closure rather than a two-file
+copy. The source pin is the same accepted development main as the UCC promotion.
+All 45 production Python files (three already public), original test, three
+packaged schemas and three source-parity copies retain exact source bytes. The
+Unicode V3 license is preserved alongside existing MPL-2.0 attribution.
+
+Independent closure and rights inspection found no identified conflicting notice
+or obvious private content in these selected files. The legacy rights matrix is
+not treated as a complete current-source clearance; each path is explicitly bound
+in SOURCE_MANIFEST.json. Missing independent title proof and formal-release HOLD
+status are not represented as cleared. No private Git history, runtime records,
+credentials, provider, installer, model or dependency wheel is included.
+
+The optional public demo uses real Coherence grounding and Sophia reconstruction.
+The ordinary package initializers and original positive/adverse tests remain.
+Pinned optional dependencies and tests extend the existing bounded public CI job;
+no private CI workflow, service, paid runner or deployment is created. The
+original standard-library entry points remain available without those packages.
+Test results and initial preparation/manifest-guard failures are recorded in
+[VALIDATION.md](VALIDATION.md#retrosynthesis-public-extraction-3-november-2026).
+This does not qualify durable memory, actual grants, installed use or the entire
+functionality of the support modules included to satisfy imports.
+
+## Bounded UCC code promotion: 3 November 2026
+
+The owner requested public promotion of completed vetted subsystems and delegated
+public-repository merge authority. This scoped extraction selects the two UCC
+runtime modules and two exact tests from accepted development main
+`ad4a0e94972a5fa12965cd2f394cce504655d78b`, including the reviewed amount-precision
+repair merged before extraction. It adds a synthetic public entry point and
+standard-library entry-point tests. The prior 33 extracted files, licenses,
+fixtures and historical results are unchanged.
+
+Independent review identified no rights/privacy blocker in the selected files.
+The reviewer inspected donor attribution and license absence, existing project
+MPL scope and current publication authorization. This is a bounded review, not
+independent title proof or donor-wide relicensing. THIRD_PARTY_NOTICES.md records
+the precise adaptation rather than retaining an inaccurate blanket exclusion.
+No private history, operational evidence, personal data, credentials, installed
+service, provider configuration, model or dependency package is included.
+
+Focused tests run on the extracted public candidate, not merely on the private
+source. Exact results and limits are in [VALIDATION.md](VALIDATION.md#ucc-public-extraction-3-november-2026).
+The public guide describes existing PR/manifest review steps for later promotions;
+no unattended export system, formal release, deployment or paid spend is created.
+Older publication decisions below retain their dated scope.
+
 
 ## Documentation scope — 29 October 2026
 

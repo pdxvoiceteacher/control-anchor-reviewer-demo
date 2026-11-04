@@ -366,6 +366,654 @@
       "modifications": "NONE; exact bytes",
       "license": "MPL-2.0",
       "publication_review": "HOLD"
+    },
+    {
+      "path": "src/triadicbrain/assurance/ucc_plan.py",
+      "original_path": "src/triadicbrain/assurance/ucc_plan.py",
+      "source_commit": "ad4a0e94972a5fa12965cd2f394cce504655d78b",
+      "original_git_blob": "ac943825f6acfa104520ba703442bbce932a8d3f",
+      "original_sha256": "24c33151e5fc0edffd949094670320b4149a81f3c699f089193d0cf35aef71c9",
+      "candidate_sha256": "24c33151e5fc0edffd949094670320b4149a81f3c699f089193d0cf35aef71c9",
+      "bytes": 15786,
+      "modifications": "NONE; exact bytes; test location differs where recorded",
+      "license": "MPL-2.0 to extent rights exist and covered",
+      "publication_review": "OWNER_AUTHORIZED_BOUNDED_SUBSYSTEM_PROMOTION_EXISTING_RIGHTS_PRESERVED"
+    },
+    {
+      "path": "src/triadicbrain/assurance/ucc_primitives.py",
+      "original_path": "src/triadicbrain/assurance/ucc_primitives.py",
+      "source_commit": "ad4a0e94972a5fa12965cd2f394cce504655d78b",
+      "original_git_blob": "ab85ef3dc4cea040fe26bc821be0add9795580d8",
+      "original_sha256": "dc16531cb2d1b32de57076101850604338d7467d23c3268c9acbd0053e0e70b9",
+      "candidate_sha256": "dc16531cb2d1b32de57076101850604338d7467d23c3268c9acbd0053e0e70b9",
+      "bytes": 1351,
+      "modifications": "NONE; exact bytes; test location differs where recorded",
+      "license": "MPL-2.0 to extent rights exist and covered",
+      "publication_review": "OWNER_AUTHORIZED_BOUNDED_SUBSYSTEM_PROMOTION_EXISTING_RIGHTS_PRESERVED"
+    },
+    {
+      "path": "tests/upstream_ucc/test_ucc_plan.py",
+      "original_path": "tests/test_ucc_plan.py",
+      "source_commit": "ad4a0e94972a5fa12965cd2f394cce504655d78b",
+      "original_git_blob": "4ac806d0b7546f5aca0a7e93efcb9d5c1af4f8b0",
+      "original_sha256": "f7956cbe7a7dced118dd647d26a22b969e7291c3da522fadf9631b2a8463ac40",
+      "candidate_sha256": "f7956cbe7a7dced118dd647d26a22b969e7291c3da522fadf9631b2a8463ac40",
+      "bytes": 7930,
+      "modifications": "NONE; exact bytes; test location differs where recorded",
+      "license": "MPL-2.0 to extent rights exist and covered",
+      "publication_review": "OWNER_AUTHORIZED_BOUNDED_SUBSYSTEM_PROMOTION_EXISTING_RIGHTS_PRESERVED"
+    },
+    {
+      "path": "tests/test_ucc_amount_precision.py",
+      "original_path": "tests/test_ucc_amount_precision.py",
+      "source_commit": "ad4a0e94972a5fa12965cd2f394cce504655d78b",
+      "original_git_blob": "c11a61bfc742e4e84d07c418987d7c6e30442b1a",
+      "original_sha256": "611621dba0dfe787fc91f2f06e84e3637d7f042a42a018f6698699885c712dd7",
+      "candidate_sha256": "611621dba0dfe787fc91f2f06e84e3637d7f042a42a018f6698699885c712dd7",
+      "bytes": 2887,
+      "modifications": "NONE; exact bytes; test location differs where recorded",
+      "license": "MPL-2.0 to extent rights exist and covered",
+      "publication_review": "OWNER_AUTHORIZED_BOUNDED_SUBSYSTEM_PROMOTION_EXISTING_RIGHTS_PRESERVED"
+    },
+    {
+      "path": "components/CoherenceLattice/python/src/coherence/__init__.py",
+      "original_path": "components/CoherenceLattice/python/src/coherence/__init__.py",
+      "source_commit": "ad4a0e94972a5fa12965cd2f394cce504655d78b",
+      "original_git_blob": "134759c657bf5cb41618c1d1862f147c00794830",
+      "original_sha256": "810685e2a03d746c7200dba90dcc828aaba667ffa72647f52a13edd8029b59af",
+      "candidate_sha256": "810685e2a03d746c7200dba90dcc828aaba667ffa72647f52a13edd8029b59af",
+      "bytes": 361,
+      "modifications": "NONE; exact bytes; original test location differs where recorded",
+      "license": "MPL-2.0 to extent rights exist and covered",
+      "publication_review": "OWNER_AUTHORIZED_SCOPED_PROJECTION_EXISTING_RIGHTS_PRESERVED_NOT_FORMAL_TITLE_CLEARANCE"
+    },
+    {
+      "path": "components/CoherenceLattice/python/src/coherence/aegis/__init__.py",
+      "original_path": "components/CoherenceLattice/python/src/coherence/aegis/__init__.py",
+      "source_commit": "ad4a0e94972a5fa12965cd2f394cce504655d78b",
+      "original_git_blob": "b7523c6c1f7394612234201fd0d2b6f4dcd2fdf6",
+      "original_sha256": "bd9d82ae17d1736fe39c222bd15338263c8a52e98d11c56a3a67fd28fe148aa8",
+      "candidate_sha256": "bd9d82ae17d1736fe39c222bd15338263c8a52e98d11c56a3a67fd28fe148aa8",
+      "bytes": 1887,
+      "modifications": "NONE; exact bytes; original test location differs where recorded",
+      "license": "MPL-2.0 to extent rights exist and covered",
+      "publication_review": "OWNER_AUTHORIZED_SCOPED_PROJECTION_EXISTING_RIGHTS_PRESERVED_NOT_FORMAL_TITLE_CLEARANCE"
+    },
+    {
+      "path": "components/CoherenceLattice/python/src/coherence/aegis/action_firewall.py",
+      "original_path": "components/CoherenceLattice/python/src/coherence/aegis/action_firewall.py",
+      "source_commit": "ad4a0e94972a5fa12965cd2f394cce504655d78b",
+      "original_git_blob": "35c06fe958d105df873954f9c6d1c101f37b57b6",
+      "original_sha256": "37bf9d5371267afbf4378d3d13f70f8d8f9b00b41df1785e19cdc6ad6cfd4001",
+      "candidate_sha256": "37bf9d5371267afbf4378d3d13f70f8d8f9b00b41df1785e19cdc6ad6cfd4001",
+      "bytes": 9228,
+      "modifications": "NONE; exact bytes; original test location differs where recorded",
+      "license": "MPL-2.0 to extent rights exist and covered",
+      "publication_review": "OWNER_AUTHORIZED_SCOPED_PROJECTION_EXISTING_RIGHTS_PRESERVED_NOT_FORMAL_TITLE_CLEARANCE"
+    },
+    {
+      "path": "components/CoherenceLattice/python/src/coherence/aegis/admission.py",
+      "original_path": "components/CoherenceLattice/python/src/coherence/aegis/admission.py",
+      "source_commit": "ad4a0e94972a5fa12965cd2f394cce504655d78b",
+      "original_git_blob": "5a5cbac1ee52b3e316a9b2d59acf2cdfbe24e491",
+      "original_sha256": "aed764a9952173a85a69b21fa25211e854cf12e495a1a7afe9e7cba60ae23edd",
+      "candidate_sha256": "aed764a9952173a85a69b21fa25211e854cf12e495a1a7afe9e7cba60ae23edd",
+      "bytes": 15627,
+      "modifications": "NONE; exact bytes; original test location differs where recorded",
+      "license": "MPL-2.0 to extent rights exist and covered",
+      "publication_review": "OWNER_AUTHORIZED_SCOPED_PROJECTION_EXISTING_RIGHTS_PRESERVED_NOT_FORMAL_TITLE_CLEARANCE"
+    },
+    {
+      "path": "components/CoherenceLattice/python/src/coherence/aegis/consent_check.py",
+      "original_path": "components/CoherenceLattice/python/src/coherence/aegis/consent_check.py",
+      "source_commit": "ad4a0e94972a5fa12965cd2f394cce504655d78b",
+      "original_git_blob": "ef1e8afa4754650ca92721657eb2eaa5adc546cd",
+      "original_sha256": "552d4a945c933aadc69d54d61affa4e027c12977918b5d72e426c5ea93ab10e1",
+      "candidate_sha256": "552d4a945c933aadc69d54d61affa4e027c12977918b5d72e426c5ea93ab10e1",
+      "bytes": 4166,
+      "modifications": "NONE; exact bytes; original test location differs where recorded",
+      "license": "MPL-2.0 to extent rights exist and covered",
+      "publication_review": "OWNER_AUTHORIZED_SCOPED_PROJECTION_EXISTING_RIGHTS_PRESERVED_NOT_FORMAL_TITLE_CLEARANCE"
+    },
+    {
+      "path": "components/CoherenceLattice/python/src/coherence/aegis/failure_receipt.py",
+      "original_path": "components/CoherenceLattice/python/src/coherence/aegis/failure_receipt.py",
+      "source_commit": "ad4a0e94972a5fa12965cd2f394cce504655d78b",
+      "original_git_blob": "8cf37e2000854be6fd2f6d3897de30e1b13374a4",
+      "original_sha256": "75b1e30cd119471a7b6a5610840b409e62ff5f6b2cb10f0c088764758a9bdd37",
+      "candidate_sha256": "75b1e30cd119471a7b6a5610840b409e62ff5f6b2cb10f0c088764758a9bdd37",
+      "bytes": 1010,
+      "modifications": "NONE; exact bytes; original test location differs where recorded",
+      "license": "MPL-2.0 to extent rights exist and covered",
+      "publication_review": "OWNER_AUTHORIZED_SCOPED_PROJECTION_EXISTING_RIGHTS_PRESERVED_NOT_FORMAL_TITLE_CLEARANCE"
+    },
+    {
+      "path": "components/CoherenceLattice/python/src/coherence/aegis/grounding_binding.py",
+      "original_path": "components/CoherenceLattice/python/src/coherence/aegis/grounding_binding.py",
+      "source_commit": "ad4a0e94972a5fa12965cd2f394cce504655d78b",
+      "original_git_blob": "61cb4d56cc8245bdcad70768a5fda75569cb06f3",
+      "original_sha256": "9595fc44cf4caf515502f1fe1d8c117df93a6aa3fe77c13216121ee18b246e47",
+      "candidate_sha256": "9595fc44cf4caf515502f1fe1d8c117df93a6aa3fe77c13216121ee18b246e47",
+      "bytes": 8082,
+      "modifications": "NONE; exact bytes; original test location differs where recorded",
+      "license": "MPL-2.0 to extent rights exist and covered",
+      "publication_review": "OWNER_AUTHORIZED_SCOPED_PROJECTION_EXISTING_RIGHTS_PRESERVED_NOT_FORMAL_TITLE_CLEARANCE"
+    },
+    {
+      "path": "components/CoherenceLattice/python/src/coherence/aegis/instruction_quarantine.py",
+      "original_path": "components/CoherenceLattice/python/src/coherence/aegis/instruction_quarantine.py",
+      "source_commit": "ad4a0e94972a5fa12965cd2f394cce504655d78b",
+      "original_git_blob": "6e1e9e4b94b3ff98272eabf1f12a9ff51db495ae",
+      "original_sha256": "206131ded5b28e9da992d24441d4fd16a2c01c19af436e9d5f6abb785a67d0da",
+      "candidate_sha256": "206131ded5b28e9da992d24441d4fd16a2c01c19af436e9d5f6abb785a67d0da",
+      "bytes": 9826,
+      "modifications": "NONE; exact bytes; original test location differs where recorded",
+      "license": "MPL-2.0 to extent rights exist and covered",
+      "publication_review": "OWNER_AUTHORIZED_SCOPED_PROJECTION_EXISTING_RIGHTS_PRESERVED_NOT_FORMAL_TITLE_CLEARANCE"
+    },
+    {
+      "path": "components/CoherenceLattice/python/src/coherence/aegis/local_runtime_enforcement_adapter.py",
+      "original_path": "components/CoherenceLattice/python/src/coherence/aegis/local_runtime_enforcement_adapter.py",
+      "source_commit": "ad4a0e94972a5fa12965cd2f394cce504655d78b",
+      "original_git_blob": "8ed2fe653c8ee361a0dc1a5cc5b245dc15be181b",
+      "original_sha256": "574973e2d32b2f8f4ea5ef2450e551a866fa9e123a285cf60510caccaf421a19",
+      "candidate_sha256": "574973e2d32b2f8f4ea5ef2450e551a866fa9e123a285cf60510caccaf421a19",
+      "bytes": 12289,
+      "modifications": "NONE; exact bytes; original test location differs where recorded",
+      "license": "MPL-2.0 to extent rights exist and covered",
+      "publication_review": "OWNER_AUTHORIZED_SCOPED_PROJECTION_EXISTING_RIGHTS_PRESERVED_NOT_FORMAL_TITLE_CLEARANCE"
+    },
+    {
+      "path": "components/CoherenceLattice/python/src/coherence/aegis/model_candidate_gate.py",
+      "original_path": "components/CoherenceLattice/python/src/coherence/aegis/model_candidate_gate.py",
+      "source_commit": "ad4a0e94972a5fa12965cd2f394cce504655d78b",
+      "original_git_blob": "ae2a303bb0dfa6a0d59fe7c3f06a3f97cae2321c",
+      "original_sha256": "b7d21ef86e27e4bff54148363a0388aa5e37098250ed429ff03be74ab6227733",
+      "candidate_sha256": "b7d21ef86e27e4bff54148363a0388aa5e37098250ed429ff03be74ab6227733",
+      "bytes": 10809,
+      "modifications": "NONE; exact bytes; original test location differs where recorded",
+      "license": "MPL-2.0 to extent rights exist and covered",
+      "publication_review": "OWNER_AUTHORIZED_SCOPED_PROJECTION_EXISTING_RIGHTS_PRESERVED_NOT_FORMAL_TITLE_CLEARANCE"
+    },
+    {
+      "path": "components/CoherenceLattice/python/src/coherence/aegis/policy.py",
+      "original_path": "components/CoherenceLattice/python/src/coherence/aegis/policy.py",
+      "source_commit": "ad4a0e94972a5fa12965cd2f394cce504655d78b",
+      "original_git_blob": "7cf890b890be3b63a8e5655dafe4460fcffc753b",
+      "original_sha256": "d19eb7085a5dea5344d4302e0c310b48036100f70a067e5ddb4f9576652f48dc",
+      "candidate_sha256": "d19eb7085a5dea5344d4302e0c310b48036100f70a067e5ddb4f9576652f48dc",
+      "bytes": 51694,
+      "modifications": "NONE; exact bytes; original test location differs where recorded",
+      "license": "MPL-2.0 to extent rights exist and covered",
+      "publication_review": "OWNER_AUTHORIZED_SCOPED_PROJECTION_EXISTING_RIGHTS_PRESERVED_NOT_FORMAL_TITLE_CLEARANCE"
+    },
+    {
+      "path": "components/CoherenceLattice/python/src/coherence/aegis/receipt_chain_export.py",
+      "original_path": "components/CoherenceLattice/python/src/coherence/aegis/receipt_chain_export.py",
+      "source_commit": "ad4a0e94972a5fa12965cd2f394cce504655d78b",
+      "original_git_blob": "78719f023bd98f3422c9a06039490bdd6dc8f38f",
+      "original_sha256": "476a0261329c77990bdb8297c5cbc67c2fcea485e7996770304ffff83a8613f7",
+      "candidate_sha256": "476a0261329c77990bdb8297c5cbc67c2fcea485e7996770304ffff83a8613f7",
+      "bytes": 10343,
+      "modifications": "NONE; exact bytes; original test location differs where recorded",
+      "license": "MPL-2.0 to extent rights exist and covered",
+      "publication_review": "OWNER_AUTHORIZED_SCOPED_PROJECTION_EXISTING_RIGHTS_PRESERVED_NOT_FORMAL_TITLE_CLEARANCE"
+    },
+    {
+      "path": "components/CoherenceLattice/python/src/coherence/aegis/source_scope.py",
+      "original_path": "components/CoherenceLattice/python/src/coherence/aegis/source_scope.py",
+      "source_commit": "ad4a0e94972a5fa12965cd2f394cce504655d78b",
+      "original_git_blob": "a3ab63a9bc0ffa4768368f70f99312221a7a7ca3",
+      "original_sha256": "0120a8a6fde102b64616c305aeec7d2f456e8ac017a123c85f89c80ccc75f6f3",
+      "candidate_sha256": "0120a8a6fde102b64616c305aeec7d2f456e8ac017a123c85f89c80ccc75f6f3",
+      "bytes": 6193,
+      "modifications": "NONE; exact bytes; original test location differs where recorded",
+      "license": "MPL-2.0 to extent rights exist and covered",
+      "publication_review": "OWNER_AUTHORIZED_SCOPED_PROJECTION_EXISTING_RIGHTS_PRESERVED_NOT_FORMAL_TITLE_CLEARANCE"
+    },
+    {
+      "path": "components/CoherenceLattice/python/src/coherence/aegis/totality_admission.py",
+      "original_path": "components/CoherenceLattice/python/src/coherence/aegis/totality_admission.py",
+      "source_commit": "ad4a0e94972a5fa12965cd2f394cce504655d78b",
+      "original_git_blob": "b320a37f741611467d24073576f33a07e99a0c1a",
+      "original_sha256": "02fcd90ae8df386bdde9b8c3234dd023164344445441bd4f4e81c3776683d4ad",
+      "candidate_sha256": "02fcd90ae8df386bdde9b8c3234dd023164344445441bd4f4e81c3776683d4ad",
+      "bytes": 11399,
+      "modifications": "NONE; exact bytes; original test location differs where recorded",
+      "license": "MPL-2.0 to extent rights exist and covered",
+      "publication_review": "OWNER_AUTHORIZED_SCOPED_PROJECTION_EXISTING_RIGHTS_PRESERVED_NOT_FORMAL_TITLE_CLEARANCE"
+    },
+    {
+      "path": "components/CoherenceLattice/python/src/coherence/aegis/types.py",
+      "original_path": "components/CoherenceLattice/python/src/coherence/aegis/types.py",
+      "source_commit": "ad4a0e94972a5fa12965cd2f394cce504655d78b",
+      "original_git_blob": "e1cc7aef7a2c1de82d1949aa9220e3cfeba4860b",
+      "original_sha256": "fa40b35f08a33c06901db161b1350e21d22a421a99ae9e35c8f507854d0b8040",
+      "candidate_sha256": "fa40b35f08a33c06901db161b1350e21d22a421a99ae9e35c8f507854d0b8040",
+      "bytes": 597,
+      "modifications": "NONE; exact bytes; original test location differs where recorded",
+      "license": "MPL-2.0 to extent rights exist and covered",
+      "publication_review": "OWNER_AUTHORIZED_SCOPED_PROJECTION_EXISTING_RIGHTS_PRESERVED_NOT_FORMAL_TITLE_CLEARANCE"
+    },
+    {
+      "path": "components/CoherenceLattice/python/src/coherence/aegis/ui_preflight_status_surface.py",
+      "original_path": "components/CoherenceLattice/python/src/coherence/aegis/ui_preflight_status_surface.py",
+      "source_commit": "ad4a0e94972a5fa12965cd2f394cce504655d78b",
+      "original_git_blob": "0d8fc44388ab3d3eee95cacbffb34a3f9c0b69be",
+      "original_sha256": "752ae5c33ef329a9de85949cda51866d0758ffb555b5cf586c8eeec094a07549",
+      "candidate_sha256": "752ae5c33ef329a9de85949cda51866d0758ffb555b5cf586c8eeec094a07549",
+      "bytes": 17112,
+      "modifications": "NONE; exact bytes; original test location differs where recorded",
+      "license": "MPL-2.0 to extent rights exist and covered",
+      "publication_review": "OWNER_AUTHORIZED_SCOPED_PROJECTION_EXISTING_RIGHTS_PRESERVED_NOT_FORMAL_TITLE_CLEARANCE"
+    },
+    {
+      "path": "components/CoherenceLattice/python/src/coherence/aha/__init__.py",
+      "original_path": "components/CoherenceLattice/python/src/coherence/aha/__init__.py",
+      "source_commit": "ad4a0e94972a5fa12965cd2f394cce504655d78b",
+      "original_git_blob": "29e9e990a82b558ed9abe676ca188457ffe1a416",
+      "original_sha256": "32b31d0484a2488cf01141a2403d7b8497f1675e713aa8a835540a6c8401093e",
+      "candidate_sha256": "32b31d0484a2488cf01141a2403d7b8497f1675e713aa8a835540a6c8401093e",
+      "bytes": 207,
+      "modifications": "NONE; exact bytes; original test location differs where recorded",
+      "license": "MPL-2.0 to extent rights exist and covered",
+      "publication_review": "OWNER_AUTHORIZED_SCOPED_PROJECTION_EXISTING_RIGHTS_PRESERVED_NOT_FORMAL_TITLE_CLEARANCE"
+    },
+    {
+      "path": "components/CoherenceLattice/python/src/coherence/aha/engine.py",
+      "original_path": "components/CoherenceLattice/python/src/coherence/aha/engine.py",
+      "source_commit": "ad4a0e94972a5fa12965cd2f394cce504655d78b",
+      "original_git_blob": "0b9745427ef4fe687b5fb3b64e67ee91737da42e",
+      "original_sha256": "a8c6c87f4124025e343caf27c31efaa25959c5d6e08766baa594fa0a03ce4f96",
+      "candidate_sha256": "a8c6c87f4124025e343caf27c31efaa25959c5d6e08766baa594fa0a03ce4f96",
+      "bytes": 7059,
+      "modifications": "NONE; exact bytes; original test location differs where recorded",
+      "license": "MPL-2.0 to extent rights exist and covered",
+      "publication_review": "OWNER_AUTHORIZED_SCOPED_PROJECTION_EXISTING_RIGHTS_PRESERVED_NOT_FORMAL_TITLE_CLEARANCE"
+    },
+    {
+      "path": "components/CoherenceLattice/python/src/coherence/aha/models.py",
+      "original_path": "components/CoherenceLattice/python/src/coherence/aha/models.py",
+      "source_commit": "ad4a0e94972a5fa12965cd2f394cce504655d78b",
+      "original_git_blob": "e05510dc3539b88f519deb7a340fb5a5f5f9823b",
+      "original_sha256": "a046e3edc204cc82520356c031368ea5c1dc9bd436cc647d2743fd2535e2e1c8",
+      "candidate_sha256": "a046e3edc204cc82520356c031368ea5c1dc9bd436cc647d2743fd2535e2e1c8",
+      "bytes": 6891,
+      "modifications": "NONE; exact bytes; original test location differs where recorded",
+      "license": "MPL-2.0 to extent rights exist and covered",
+      "publication_review": "OWNER_AUTHORIZED_SCOPED_PROJECTION_EXISTING_RIGHTS_PRESERVED_NOT_FORMAL_TITLE_CLEARANCE"
+    },
+    {
+      "path": "components/CoherenceLattice/python/src/coherence/totality/__init__.py",
+      "original_path": "components/CoherenceLattice/python/src/coherence/totality/__init__.py",
+      "source_commit": "ad4a0e94972a5fa12965cd2f394cce504655d78b",
+      "original_git_blob": "807aba33b5516566da9355fc9d98bf445caf5eed",
+      "original_sha256": "fe45d53baf3caf5166bd96189e9ec20cd8baa80285668219bda20d6895546dd5",
+      "candidate_sha256": "fe45d53baf3caf5166bd96189e9ec20cd8baa80285668219bda20d6895546dd5",
+      "bytes": 1750,
+      "modifications": "NONE; exact bytes; original test location differs where recorded",
+      "license": "MPL-2.0 to extent rights exist and covered",
+      "publication_review": "OWNER_AUTHORIZED_SCOPED_PROJECTION_EXISTING_RIGHTS_PRESERVED_NOT_FORMAL_TITLE_CLEARANCE"
+    },
+    {
+      "path": "components/CoherenceLattice/python/src/coherence/totality/adapter.py",
+      "original_path": "components/CoherenceLattice/python/src/coherence/totality/adapter.py",
+      "source_commit": "ad4a0e94972a5fa12965cd2f394cce504655d78b",
+      "original_git_blob": "e58998ac08d8f849fe8130e18c074a443f2e52f0",
+      "original_sha256": "06f53ab424daf330a33cf2b7a4d1b45ee240e81caac6c6accd7665e7179a628c",
+      "candidate_sha256": "06f53ab424daf330a33cf2b7a4d1b45ee240e81caac6c6accd7665e7179a628c",
+      "bytes": 23895,
+      "modifications": "NONE; exact bytes; original test location differs where recorded",
+      "license": "MPL-2.0 to extent rights exist and covered",
+      "publication_review": "OWNER_AUTHORIZED_SCOPED_PROJECTION_EXISTING_RIGHTS_PRESERVED_NOT_FORMAL_TITLE_CLEARANCE"
+    },
+    {
+      "path": "components/CoherenceLattice/python/src/coherence/totality/aha.py",
+      "original_path": "components/CoherenceLattice/python/src/coherence/totality/aha.py",
+      "source_commit": "ad4a0e94972a5fa12965cd2f394cce504655d78b",
+      "original_git_blob": "75ec9bffda76e205b24a6c82534b04af81558206",
+      "original_sha256": "9aff48cbb2a5613165a56b56e1ae0bee5120af2a1125f59c824ccc3b6bda2f1f",
+      "candidate_sha256": "9aff48cbb2a5613165a56b56e1ae0bee5120af2a1125f59c824ccc3b6bda2f1f",
+      "bytes": 9358,
+      "modifications": "NONE; exact bytes; original test location differs where recorded",
+      "license": "MPL-2.0 to extent rights exist and covered",
+      "publication_review": "OWNER_AUTHORIZED_SCOPED_PROJECTION_EXISTING_RIGHTS_PRESERVED_NOT_FORMAL_TITLE_CLEARANCE"
+    },
+    {
+      "path": "components/CoherenceLattice/python/src/coherence/totality/aperture.py",
+      "original_path": "components/CoherenceLattice/python/src/coherence/totality/aperture.py",
+      "source_commit": "ad4a0e94972a5fa12965cd2f394cce504655d78b",
+      "original_git_blob": "55980d95a4ef348c57a55fc185191436ff68bd7b",
+      "original_sha256": "89e3a0578c9ae4f86b764ceb101bc714245774fc631b06216a4444ce62fb20a0",
+      "candidate_sha256": "89e3a0578c9ae4f86b764ceb101bc714245774fc631b06216a4444ce62fb20a0",
+      "bytes": 3776,
+      "modifications": "NONE; exact bytes; original test location differs where recorded",
+      "license": "MPL-2.0 to extent rights exist and covered",
+      "publication_review": "OWNER_AUTHORIZED_SCOPED_PROJECTION_EXISTING_RIGHTS_PRESERVED_NOT_FORMAL_TITLE_CLEARANCE"
+    },
+    {
+      "path": "components/CoherenceLattice/python/src/coherence/totality/atlas_contract.py",
+      "original_path": "components/CoherenceLattice/python/src/coherence/totality/atlas_contract.py",
+      "source_commit": "ad4a0e94972a5fa12965cd2f394cce504655d78b",
+      "original_git_blob": "b3d59f8c081a7ea7aa6cb60820c45f7870aef134",
+      "original_sha256": "86242bec3a6f86542cf62cac246ded363455e2f56f6a1bbac43bd7dcdd6b3c03",
+      "candidate_sha256": "86242bec3a6f86542cf62cac246ded363455e2f56f6a1bbac43bd7dcdd6b3c03",
+      "bytes": 5788,
+      "modifications": "NONE; exact bytes; original test location differs where recorded",
+      "license": "MPL-2.0 to extent rights exist and covered",
+      "publication_review": "OWNER_AUTHORIZED_SCOPED_PROJECTION_EXISTING_RIGHTS_PRESERVED_NOT_FORMAL_TITLE_CLEARANCE"
+    },
+    {
+      "path": "components/CoherenceLattice/python/src/coherence/totality/canonical.py",
+      "original_path": "components/CoherenceLattice/python/src/coherence/totality/canonical.py",
+      "source_commit": "ad4a0e94972a5fa12965cd2f394cce504655d78b",
+      "original_git_blob": "5d3d1bf11cc04108a2ae0ea3616beaf1162267a8",
+      "original_sha256": "21865be2f04951870710dec4e36d0c3c93378e4e32711c2de7adcf8eb090dcd7",
+      "candidate_sha256": "21865be2f04951870710dec4e36d0c3c93378e4e32711c2de7adcf8eb090dcd7",
+      "bytes": 10903,
+      "modifications": "NONE; exact bytes; original test location differs where recorded",
+      "license": "MPL-2.0 AND Unicode-3.0 (derived range data)",
+      "publication_review": "OWNER_AUTHORIZED_SCOPED_PROJECTION_EXISTING_RIGHTS_PRESERVED_NOT_FORMAL_TITLE_CLEARANCE"
+    },
+    {
+      "path": "components/CoherenceLattice/python/src/coherence/totality/claims.py",
+      "original_path": "components/CoherenceLattice/python/src/coherence/totality/claims.py",
+      "source_commit": "ad4a0e94972a5fa12965cd2f394cce504655d78b",
+      "original_git_blob": "1e41e074c1dffec5cb0f5a3431bc98d346b31da3",
+      "original_sha256": "8a6e2e3fa03da565995d6fe410088547ef0ec7adf9aca90d2a4b5f75c375f5b5",
+      "candidate_sha256": "8a6e2e3fa03da565995d6fe410088547ef0ec7adf9aca90d2a4b5f75c375f5b5",
+      "bytes": 8497,
+      "modifications": "NONE; exact bytes; original test location differs where recorded",
+      "license": "MPL-2.0 to extent rights exist and covered",
+      "publication_review": "OWNER_AUTHORIZED_SCOPED_PROJECTION_EXISTING_RIGHTS_PRESERVED_NOT_FORMAL_TITLE_CLEARANCE"
+    },
+    {
+      "path": "components/CoherenceLattice/python/src/coherence/totality/counterexamples.py",
+      "original_path": "components/CoherenceLattice/python/src/coherence/totality/counterexamples.py",
+      "source_commit": "ad4a0e94972a5fa12965cd2f394cce504655d78b",
+      "original_git_blob": "1efcfb9b3cd91906eea5e316c5a5aff9ab05758e",
+      "original_sha256": "25ed844e89b70cad752798bd754d0a48aab0efa9a1bb7f9fb69979863198dd93",
+      "candidate_sha256": "25ed844e89b70cad752798bd754d0a48aab0efa9a1bb7f9fb69979863198dd93",
+      "bytes": 3384,
+      "modifications": "NONE; exact bytes; original test location differs where recorded",
+      "license": "MPL-2.0 to extent rights exist and covered",
+      "publication_review": "OWNER_AUTHORIZED_SCOPED_PROJECTION_EXISTING_RIGHTS_PRESERVED_NOT_FORMAL_TITLE_CLEARANCE"
+    },
+    {
+      "path": "components/CoherenceLattice/python/src/coherence/totality/errors.py",
+      "original_path": "components/CoherenceLattice/python/src/coherence/totality/errors.py",
+      "source_commit": "ad4a0e94972a5fa12965cd2f394cce504655d78b",
+      "original_git_blob": "1917e7fe5277cdbed000d64392d9a0befb635c8b",
+      "original_sha256": "df194b16f83bf2f080805266ed11367e231634a6e7146886bea250dc7a765455",
+      "candidate_sha256": "df194b16f83bf2f080805266ed11367e231634a6e7146886bea250dc7a765455",
+      "bytes": 425,
+      "modifications": "NONE; exact bytes; original test location differs where recorded",
+      "license": "MPL-2.0 to extent rights exist and covered",
+      "publication_review": "OWNER_AUTHORIZED_SCOPED_PROJECTION_EXISTING_RIGHTS_PRESERVED_NOT_FORMAL_TITLE_CLEARANCE"
+    },
+    {
+      "path": "components/CoherenceLattice/python/src/coherence/totality/grounding.py",
+      "original_path": "components/CoherenceLattice/python/src/coherence/totality/grounding.py",
+      "source_commit": "ad4a0e94972a5fa12965cd2f394cce504655d78b",
+      "original_git_blob": "2fcb7b00b977e9c7919927a91bd82f05f36332c1",
+      "original_sha256": "16a35f99a1142980ef670e1a5255d345f493fdfd1c74e21138213d0387d8211b",
+      "candidate_sha256": "16a35f99a1142980ef670e1a5255d345f493fdfd1c74e21138213d0387d8211b",
+      "bytes": 12457,
+      "modifications": "NONE; exact bytes; original test location differs where recorded",
+      "license": "MPL-2.0 to extent rights exist and covered",
+      "publication_review": "OWNER_AUTHORIZED_SCOPED_PROJECTION_EXISTING_RIGHTS_PRESERVED_NOT_FORMAL_TITLE_CLEARANCE"
+    },
+    {
+      "path": "components/CoherenceLattice/python/src/coherence/totality/plugins.py",
+      "original_path": "components/CoherenceLattice/python/src/coherence/totality/plugins.py",
+      "source_commit": "ad4a0e94972a5fa12965cd2f394cce504655d78b",
+      "original_git_blob": "edce49eecd93aca301cdef3e625fd17b5a79b2a0",
+      "original_sha256": "227d30057b5f0a999f70d7552192c8e9a3ec8854cb41cf24e45244b67eda15be",
+      "candidate_sha256": "227d30057b5f0a999f70d7552192c8e9a3ec8854cb41cf24e45244b67eda15be",
+      "bytes": 5189,
+      "modifications": "NONE; exact bytes; original test location differs where recorded",
+      "license": "MPL-2.0 to extent rights exist and covered",
+      "publication_review": "OWNER_AUTHORIZED_SCOPED_PROJECTION_EXISTING_RIGHTS_PRESERVED_NOT_FORMAL_TITLE_CLEARANCE"
+    },
+    {
+      "path": "components/CoherenceLattice/python/src/coherence/totality/pmr.py",
+      "original_path": "components/CoherenceLattice/python/src/coherence/totality/pmr.py",
+      "source_commit": "ad4a0e94972a5fa12965cd2f394cce504655d78b",
+      "original_git_blob": "2c76365ae8b1def1a4aeb1157d70560cf955d4db",
+      "original_sha256": "f0b190ccf2b377e543da1008b1958d021bdc1a86bccc89e5361758e69228ede2",
+      "candidate_sha256": "f0b190ccf2b377e543da1008b1958d021bdc1a86bccc89e5361758e69228ede2",
+      "bytes": 24936,
+      "modifications": "NONE; exact bytes; original test location differs where recorded",
+      "license": "MPL-2.0 to extent rights exist and covered",
+      "publication_review": "OWNER_AUTHORIZED_SCOPED_PROJECTION_EXISTING_RIGHTS_PRESERVED_NOT_FORMAL_TITLE_CLEARANCE"
+    },
+    {
+      "path": "components/CoherenceLattice/python/src/coherence/totality/request.py",
+      "original_path": "components/CoherenceLattice/python/src/coherence/totality/request.py",
+      "source_commit": "ad4a0e94972a5fa12965cd2f394cce504655d78b",
+      "original_git_blob": "83bf85ec5c69ece1d392c27c0fb243abfd392956",
+      "original_sha256": "1d39ed6b6260e35a97c6ea6d8e2c84d512cbf68cbb0b1cf10ce0a8d1a9c85dfd",
+      "candidate_sha256": "1d39ed6b6260e35a97c6ea6d8e2c84d512cbf68cbb0b1cf10ce0a8d1a9c85dfd",
+      "bytes": 9760,
+      "modifications": "NONE; exact bytes; original test location differs where recorded",
+      "license": "MPL-2.0 to extent rights exist and covered",
+      "publication_review": "OWNER_AUTHORIZED_SCOPED_PROJECTION_EXISTING_RIGHTS_PRESERVED_NOT_FORMAL_TITLE_CLEARANCE"
+    },
+    {
+      "path": "components/CoherenceLattice/python/src/coherence/totality/retrosynthesis.py",
+      "original_path": "components/CoherenceLattice/python/src/coherence/totality/retrosynthesis.py",
+      "source_commit": "ad4a0e94972a5fa12965cd2f394cce504655d78b",
+      "original_git_blob": "9d506dc793f4ee977405ace335acb75b61cfd98a",
+      "original_sha256": "59cef7789dc7fec709b74dc696a9376d1dcabd45ba8849efd4c96bcde8e62ec5",
+      "candidate_sha256": "59cef7789dc7fec709b74dc696a9376d1dcabd45ba8849efd4c96bcde8e62ec5",
+      "bytes": 4524,
+      "modifications": "NONE; exact bytes; original test location differs where recorded",
+      "license": "MPL-2.0 to extent rights exist and covered",
+      "publication_review": "OWNER_AUTHORIZED_SCOPED_PROJECTION_EXISTING_RIGHTS_PRESERVED_NOT_FORMAL_TITLE_CLEARANCE"
+    },
+    {
+      "path": "components/CoherenceLattice/python/src/coherence/totality/schema_runtime.py",
+      "original_path": "components/CoherenceLattice/python/src/coherence/totality/schema_runtime.py",
+      "source_commit": "ad4a0e94972a5fa12965cd2f394cce504655d78b",
+      "original_git_blob": "cb4560aac978812a24da373185f3c92e1597ca47",
+      "original_sha256": "61f39fc78ae67d8b4136d7a3d458ccfa387a87b5a7f1aa46752da7f09adbb1e8",
+      "candidate_sha256": "61f39fc78ae67d8b4136d7a3d458ccfa387a87b5a7f1aa46752da7f09adbb1e8",
+      "bytes": 3716,
+      "modifications": "NONE; exact bytes; original test location differs where recorded",
+      "license": "MPL-2.0 to extent rights exist and covered",
+      "publication_review": "OWNER_AUTHORIZED_SCOPED_PROJECTION_EXISTING_RIGHTS_PRESERVED_NOT_FORMAL_TITLE_CLEARANCE"
+    },
+    {
+      "path": "components/CoherenceLattice/python/src/coherence/totality/seal.py",
+      "original_path": "components/CoherenceLattice/python/src/coherence/totality/seal.py",
+      "source_commit": "ad4a0e94972a5fa12965cd2f394cce504655d78b",
+      "original_git_blob": "f4875fea4e5474c68aaec9096a4611bc2b0647a5",
+      "original_sha256": "6363ffac9183c05b5f3ca8aa5d452e6b95d3e59872b481f09ade77d9f3a905ec",
+      "candidate_sha256": "6363ffac9183c05b5f3ca8aa5d452e6b95d3e59872b481f09ade77d9f3a905ec",
+      "bytes": 37788,
+      "modifications": "NONE; exact bytes; original test location differs where recorded",
+      "license": "MPL-2.0 to extent rights exist and covered",
+      "publication_review": "OWNER_AUTHORIZED_SCOPED_PROJECTION_EXISTING_RIGHTS_PRESERVED_NOT_FORMAL_TITLE_CLEARANCE"
+    },
+    {
+      "path": "components/CoherenceLattice/python/src/coherence/totality/tel.py",
+      "original_path": "components/CoherenceLattice/python/src/coherence/totality/tel.py",
+      "source_commit": "ad4a0e94972a5fa12965cd2f394cce504655d78b",
+      "original_git_blob": "31593026e40566be4802f2209c4f5a0d6de7eed2",
+      "original_sha256": "a7945761e8ec86f641b85e666466a7ce9e99f7d6bd214525d2cd8490f835beaf",
+      "candidate_sha256": "a7945761e8ec86f641b85e666466a7ce9e99f7d6bd214525d2cd8490f835beaf",
+      "bytes": 10777,
+      "modifications": "NONE; exact bytes; original test location differs where recorded",
+      "license": "MPL-2.0 to extent rights exist and covered",
+      "publication_review": "OWNER_AUTHORIZED_SCOPED_PROJECTION_EXISTING_RIGHTS_PRESERVED_NOT_FORMAL_TITLE_CLEARANCE"
+    },
+    {
+      "path": "components/CoherenceLattice/python/src/coherence/totality/ucm.py",
+      "original_path": "components/CoherenceLattice/python/src/coherence/totality/ucm.py",
+      "source_commit": "ad4a0e94972a5fa12965cd2f394cce504655d78b",
+      "original_git_blob": "b14321d1ee62b52aece82a7d400a63c5599213ce",
+      "original_sha256": "8efe62f8bc9e3c08fd43f02ee87be48471ffe26d374451c83fea122f24a2f329",
+      "candidate_sha256": "8efe62f8bc9e3c08fd43f02ee87be48471ffe26d374451c83fea122f24a2f329",
+      "bytes": 11538,
+      "modifications": "NONE; exact bytes; original test location differs where recorded",
+      "license": "MPL-2.0 to extent rights exist and covered",
+      "publication_review": "OWNER_AUTHORIZED_SCOPED_PROJECTION_EXISTING_RIGHTS_PRESERVED_NOT_FORMAL_TITLE_CLEARANCE"
+    },
+    {
+      "path": "components/Sophia/python/src/sophia/__init__.py",
+      "original_path": "components/Sophia/python/src/sophia/__init__.py",
+      "source_commit": "ad4a0e94972a5fa12965cd2f394cce504655d78b",
+      "original_git_blob": "a89a8559e34f40bf5e914e2d300523f897652bf8",
+      "original_sha256": "812b7ecdb4fea0a1a98c148825ee1c6c6150652694a76b41333b216031f17d56",
+      "candidate_sha256": "812b7ecdb4fea0a1a98c148825ee1c6c6150652694a76b41333b216031f17d56",
+      "bytes": 32,
+      "modifications": "NONE; exact bytes; original test location differs where recorded",
+      "license": "MPL-2.0 to extent rights exist and covered",
+      "publication_review": "OWNER_AUTHORIZED_SCOPED_PROJECTION_EXISTING_RIGHTS_PRESERVED_NOT_FORMAL_TITLE_CLEARANCE"
+    },
+    {
+      "path": "components/Sophia/python/src/sophia/triadic/__init__.py",
+      "original_path": "components/Sophia/python/src/sophia/triadic/__init__.py",
+      "source_commit": "ad4a0e94972a5fa12965cd2f394cce504655d78b",
+      "original_git_blob": "bc45563e64094bec401d79aa15e5ac26666abe64",
+      "original_sha256": "d20755dd9130f58874c2aaaab95e105b57787610a3e88e7327823690902dfcc6",
+      "candidate_sha256": "d20755dd9130f58874c2aaaab95e105b57787610a3e88e7327823690902dfcc6",
+      "bytes": 55,
+      "modifications": "NONE; exact bytes; original test location differs where recorded",
+      "license": "MPL-2.0 to extent rights exist and covered",
+      "publication_review": "OWNER_AUTHORIZED_SCOPED_PROJECTION_EXISTING_RIGHTS_PRESERVED_NOT_FORMAL_TITLE_CLEARANCE"
+    },
+    {
+      "path": "components/Sophia/python/src/sophia/triadic/governed_evaluation.py",
+      "original_path": "components/Sophia/python/src/sophia/triadic/governed_evaluation.py",
+      "source_commit": "ad4a0e94972a5fa12965cd2f394cce504655d78b",
+      "original_git_blob": "fdc68a51b5650969deeb2de21724db58ad82a3b5",
+      "original_sha256": "76d009ef6859bcee2077c6162e811841877eaa15200445fcbbbfea2139fb6396",
+      "candidate_sha256": "76d009ef6859bcee2077c6162e811841877eaa15200445fcbbbfea2139fb6396",
+      "bytes": 32790,
+      "modifications": "NONE; exact bytes; original test location differs where recorded",
+      "license": "MPL-2.0 to extent rights exist and covered",
+      "publication_review": "OWNER_AUTHORIZED_SCOPED_PROJECTION_EXISTING_RIGHTS_PRESERVED_NOT_FORMAL_TITLE_CLEARANCE"
+    },
+    {
+      "path": "components/Sophia/python/src/sophia/triadic/totality_audit.py",
+      "original_path": "components/Sophia/python/src/sophia/triadic/totality_audit.py",
+      "source_commit": "ad4a0e94972a5fa12965cd2f394cce504655d78b",
+      "original_git_blob": "0e529130d95df837f030b01d8f024a32145627ff",
+      "original_sha256": "41cf7a50d7d3eb341ed95f0f58c343ca8f500d5fa7a2a587e222540c110718d6",
+      "candidate_sha256": "41cf7a50d7d3eb341ed95f0f58c343ca8f500d5fa7a2a587e222540c110718d6",
+      "bytes": 133586,
+      "modifications": "NONE; exact bytes; original test location differs where recorded",
+      "license": "MPL-2.0 AND Unicode-3.0 (derived range data)",
+      "publication_review": "OWNER_AUTHORIZED_SCOPED_PROJECTION_EXISTING_RIGHTS_PRESERVED_NOT_FORMAL_TITLE_CLEARANCE"
+    },
+    {
+      "path": "src/triadicbrain/assurance/retrosynthesis_reuse.py",
+      "original_path": "src/triadicbrain/assurance/retrosynthesis_reuse.py",
+      "source_commit": "ad4a0e94972a5fa12965cd2f394cce504655d78b",
+      "original_git_blob": "e9854000b7ed113028fd626458698cdea42070ee",
+      "original_sha256": "66493f8948e8351e99632e4ab57766099715a5a73bff07f9b5787896139c83d1",
+      "candidate_sha256": "66493f8948e8351e99632e4ab57766099715a5a73bff07f9b5787896139c83d1",
+      "bytes": 15845,
+      "modifications": "NONE; exact bytes; original test location differs where recorded",
+      "license": "MPL-2.0 to extent rights exist and covered",
+      "publication_review": "OWNER_AUTHORIZED_SCOPED_PROJECTION_EXISTING_RIGHTS_PRESERVED_NOT_FORMAL_TITLE_CLEARANCE"
+    },
+    {
+      "path": "tests/upstream_retrosynthesis/test_retrosynthesis_reuse.py",
+      "original_path": "tests/test_retrosynthesis_reuse.py",
+      "source_commit": "ad4a0e94972a5fa12965cd2f394cce504655d78b",
+      "original_git_blob": "4331aa4fb31ea59aac436f94c9f783c3b3a27ee1",
+      "original_sha256": "a54ae75124573fdd843850c62f31e942a27218c072aa495cb0fa9d362a5befaa",
+      "candidate_sha256": "a54ae75124573fdd843850c62f31e942a27218c072aa495cb0fa9d362a5befaa",
+      "bytes": 18544,
+      "modifications": "NONE; exact bytes; original test location differs where recorded",
+      "license": "MPL-2.0 to extent rights exist and covered",
+      "publication_review": "OWNER_AUTHORIZED_SCOPED_PROJECTION_EXISTING_RIGHTS_PRESERVED_NOT_FORMAL_TITLE_CLEARANCE"
+    },
+    {
+      "path": "components/CoherenceLattice/python/src/coherence/totality/schemas/request_envelope.v1.schema.json",
+      "original_path": "components/CoherenceLattice/python/src/coherence/totality/schemas/request_envelope.v1.schema.json",
+      "source_commit": "ad4a0e94972a5fa12965cd2f394cce504655d78b",
+      "original_git_blob": "c547346be0295587c6c33063b0d3a8e085e8ca91",
+      "original_sha256": "efc6b63c4603307762096dcd201ad023a40f5421a00b75b64973c9a8d4ee2d3b",
+      "candidate_sha256": "efc6b63c4603307762096dcd201ad023a40f5421a00b75b64973c9a8d4ee2d3b",
+      "bytes": 4132,
+      "modifications": "NONE; exact bytes; original test location differs where recorded",
+      "license": "MPL-2.0 to extent rights exist and covered",
+      "publication_review": "OWNER_AUTHORIZED_SCOPED_PROJECTION_EXISTING_RIGHTS_PRESERVED_NOT_FORMAL_TITLE_CLEARANCE"
+    },
+    {
+      "path": "components/CoherenceLattice/python/src/coherence/totality/schemas/grounding_bundle.v1.schema.json",
+      "original_path": "components/CoherenceLattice/python/src/coherence/totality/schemas/grounding_bundle.v1.schema.json",
+      "source_commit": "ad4a0e94972a5fa12965cd2f394cce504655d78b",
+      "original_git_blob": "28a85dfc8adf220dd018373c333bb51b14be92fe",
+      "original_sha256": "9b87fd3c57bd2f6d1b4e1c2256d1740958fc2eb9024fe52ffeeab43d019996a2",
+      "candidate_sha256": "9b87fd3c57bd2f6d1b4e1c2256d1740958fc2eb9024fe52ffeeab43d019996a2",
+      "bytes": 1662,
+      "modifications": "NONE; exact bytes; original test location differs where recorded",
+      "license": "MPL-2.0 to extent rights exist and covered",
+      "publication_review": "OWNER_AUTHORIZED_SCOPED_PROJECTION_EXISTING_RIGHTS_PRESERVED_NOT_FORMAL_TITLE_CLEARANCE"
+    },
+    {
+      "path": "components/CoherenceLattice/python/src/coherence/totality/schemas/candidate_packet.v1.schema.json",
+      "original_path": "components/CoherenceLattice/python/src/coherence/totality/schemas/candidate_packet.v1.schema.json",
+      "source_commit": "ad4a0e94972a5fa12965cd2f394cce504655d78b",
+      "original_git_blob": "0b942ecf675a94897ed7b1cafabfc3affe6c776e",
+      "original_sha256": "c704337a1886f776898af7b84e1239aae9085323e2594da8b204507bf414733b",
+      "candidate_sha256": "c704337a1886f776898af7b84e1239aae9085323e2594da8b204507bf414733b",
+      "bytes": 4491,
+      "modifications": "NONE; exact bytes; original test location differs where recorded",
+      "license": "MPL-2.0 to extent rights exist and covered",
+      "publication_review": "OWNER_AUTHORIZED_SCOPED_PROJECTION_EXISTING_RIGHTS_PRESERVED_NOT_FORMAL_TITLE_CLEARANCE"
+    },
+    {
+      "path": "components/CoherenceLattice/schema/totality/request_envelope.v1.schema.json",
+      "original_path": "components/CoherenceLattice/schema/totality/request_envelope.v1.schema.json",
+      "source_commit": "ad4a0e94972a5fa12965cd2f394cce504655d78b",
+      "original_git_blob": "c547346be0295587c6c33063b0d3a8e085e8ca91",
+      "original_sha256": "efc6b63c4603307762096dcd201ad023a40f5421a00b75b64973c9a8d4ee2d3b",
+      "candidate_sha256": "efc6b63c4603307762096dcd201ad023a40f5421a00b75b64973c9a8d4ee2d3b",
+      "bytes": 4132,
+      "modifications": "NONE; exact bytes; original test location differs where recorded",
+      "license": "MPL-2.0 to extent rights exist and covered",
+      "publication_review": "OWNER_AUTHORIZED_SCOPED_PROJECTION_EXISTING_RIGHTS_PRESERVED_NOT_FORMAL_TITLE_CLEARANCE"
+    },
+    {
+      "path": "components/CoherenceLattice/schema/totality/grounding_bundle.v1.schema.json",
+      "original_path": "components/CoherenceLattice/schema/totality/grounding_bundle.v1.schema.json",
+      "source_commit": "ad4a0e94972a5fa12965cd2f394cce504655d78b",
+      "original_git_blob": "28a85dfc8adf220dd018373c333bb51b14be92fe",
+      "original_sha256": "9b87fd3c57bd2f6d1b4e1c2256d1740958fc2eb9024fe52ffeeab43d019996a2",
+      "candidate_sha256": "9b87fd3c57bd2f6d1b4e1c2256d1740958fc2eb9024fe52ffeeab43d019996a2",
+      "bytes": 1662,
+      "modifications": "NONE; exact bytes; original test location differs where recorded",
+      "license": "MPL-2.0 to extent rights exist and covered",
+      "publication_review": "OWNER_AUTHORIZED_SCOPED_PROJECTION_EXISTING_RIGHTS_PRESERVED_NOT_FORMAL_TITLE_CLEARANCE"
+    },
+    {
+      "path": "components/CoherenceLattice/schema/totality/candidate_packet.v1.schema.json",
+      "original_path": "components/CoherenceLattice/schema/totality/candidate_packet.v1.schema.json",
+      "source_commit": "ad4a0e94972a5fa12965cd2f394cce504655d78b",
+      "original_git_blob": "0b942ecf675a94897ed7b1cafabfc3affe6c776e",
+      "original_sha256": "c704337a1886f776898af7b84e1239aae9085323e2594da8b204507bf414733b",
+      "candidate_sha256": "c704337a1886f776898af7b84e1239aae9085323e2594da8b204507bf414733b",
+      "bytes": 4491,
+      "modifications": "NONE; exact bytes; original test location differs where recorded",
+      "license": "MPL-2.0 to extent rights exist and covered",
+      "publication_review": "OWNER_AUTHORIZED_SCOPED_PROJECTION_EXISTING_RIGHTS_PRESERVED_NOT_FORMAL_TITLE_CLEARANCE"
+    },
+    {
+      "path": "licenses/Unicode-3.0.txt",
+      "original_path": "licenses/Unicode-3.0.txt",
+      "source_commit": "ad4a0e94972a5fa12965cd2f394cce504655d78b",
+      "original_git_blob": "56da58912807030b451a4700687d5bd02c72d6ed",
+      "original_sha256": "e7a93b009565cfce55919a381437ac4db883e9da2126fa28b91d12732bc53d96",
+      "candidate_sha256": "e7a93b009565cfce55919a381437ac4db883e9da2126fa28b91d12732bc53d96",
+      "bytes": 1995,
+      "modifications": "NONE; exact bytes; original test location differs where recorded",
+      "license": "Unicode-3.0",
+      "publication_review": "OWNER_AUTHORIZED_SCOPED_PROJECTION_EXISTING_RIGHTS_PRESERVED_NOT_FORMAL_TITLE_CLEARANCE"
     }
   ],
   "new_or_adapted_files": [
@@ -381,7 +1029,7 @@
     },
     {
       "path": ".gitignore",
-      "candidate_sha256": "2d338daae3ee027d9da94a254938c4e30d2ee253bbf99095f03a72dff976c663",
+      "candidate_sha256": "5de55a4c0f7fe73bb3db97de2e7350b08ae32164ed98c491cc0fcd0be472d734",
       "origin": "NEW",
       "source_basis_paths": [],
       "modifications": "New demo preparation material; AI-assisted under human commissioning.",
@@ -506,18 +1154,18 @@
     },
     {
       "path": "KNOWN_LIMITATIONS.md",
-      "candidate_sha256": "5f5ede7c817d19d663eafb26e6d61cca1df5ec4a6f11705f30ff60de63723d83",
+      "candidate_sha256": "0144157ce4e7ae79d46750ae72fd4d4f2fbf472b98d49549347e71fc8d8e3b40",
       "origin": "ADAPTED",
       "source_basis_paths": [],
       "modifications": "New reviewer explanation based on maintained architecture; limits bound to extracted implementation.",
       "license": "MPL-2.0 to extent rights exist and covered",
       "publication_review": "OWNER_APPROVED_PUBLIC_SOURCE_ACCESS_EXISTING_RIGHTS_PRESERVED_NO_NEW_LICENSE",
       "historical_publication_review": "HOLD",
-      "bytes": 4210
+      "bytes": 5420
     },
     {
       "path": "LICENSE_SCOPE.md",
-      "candidate_sha256": "57daf4a01dd59745b1c702f2fb0b55fe6e73336ffad3dde47661c59d421c81a8",
+      "candidate_sha256": "3c89cc73e5aef8252e8b588e643232e042d068abd6c49ed368aa4725389a63ff",
       "origin": "ADAPTED",
       "source_basis_paths": [
         "LICENSE_SCOPE.md"
@@ -529,7 +1177,7 @@
     },
     {
       "path": "NOTICE",
-      "candidate_sha256": "bca4f8f99364b3ec596bbd46c09158847b75c4ff6d870aef4a437fd3a81b97a6",
+      "candidate_sha256": "8b40e476acb304df50fa9fbb6511477c3eac74cb729fa6050de9f1085b74b41a",
       "origin": "ADAPTED",
       "source_basis_paths": [
         "NOTICE"
@@ -541,25 +1189,25 @@
     },
     {
       "path": "PUBLICATION_REVIEW.md",
-      "candidate_sha256": "bcbb3b18151da9cfe983bce337293816126a47e3843b3ed6fe71a67f6020c518",
+      "candidate_sha256": "0aa5757f76fe0826d57b7d52c06028397dadfc08c0f70f5d94635467f705e93b",
       "origin": "NEW",
       "source_basis_paths": [],
       "modifications": "New demo preparation material; AI-assisted under human commissioning.",
       "license": "MPL-2.0 to extent rights exist and covered",
       "publication_review": "OWNER_APPROVED_PUBLIC_SOURCE_ACCESS_EXISTING_RIGHTS_PRESERVED_NO_NEW_LICENSE",
       "historical_publication_review": "FINAL_CONTENT_DECISION_PENDING",
-      "bytes": 11048
+      "bytes": 14272
     },
     {
       "path": "README.md",
-      "candidate_sha256": "34e9031b279f6e9a63c5edbead67521b098a55e2bf927a5f759b08209fdbef9a",
+      "candidate_sha256": "c82b5b9bb1d8ec5f96af453911a856086b6ce4dc4abe1ef7cb7b90db34de175b",
       "origin": "ADAPTED",
       "source_basis_paths": [],
       "modifications": "New reviewer explanation based on maintained architecture; limits bound to extracted implementation. Added link to a source-attributed methods appendix and its bounded teaching claims. Added self-contained Mermaid responsibility diagram separating intended product integration, observed synthetic offline demo and future peer network; no runtime or validation-result changes.",
       "license": "MPL-2.0 to extent rights exist and covered",
       "publication_review": "OWNER_APPROVED_PUBLIC_SOURCE_ACCESS_EXISTING_RIGHTS_PRESERVED_NO_NEW_LICENSE",
       "historical_publication_review": "FINAL_CONTENT_DECISION_PENDING",
-      "bytes": 32615,
+      "bytes": 33357,
       "cooperative_ethos_clarification_2026_11_02": "Owner-directed freedom, local ownership, voluntary mutual aid and practical exit; informed higher overhead may be legitimate. Existing capability limits, rights and public contribution route preserved. No runtime change or new operational evidence.",
       "whitepaper_navigation_2026_11_02": "Added one English design-edition and contribution navigation link, with translations-pending and unchanged-demo scope. No runtime or rights change.",
       "brain_map_revision_history": [
@@ -584,7 +1232,7 @@
     },
     {
       "path": "THIRD_PARTY_NOTICES.md",
-      "candidate_sha256": "4a8b8179b0d74bd7375f74aa3cf88284f66f110349dc68ab79bcb1d778e824b3",
+      "candidate_sha256": "61666c0c46be3466708ae101c02aef149791f1a786fc15d44367625ee935fc93",
       "origin": "ADAPTED",
       "source_basis_paths": [
         "THIRD_PARTY_NOTICES.md"
@@ -606,14 +1254,14 @@
     },
     {
       "path": "VALIDATION.md",
-      "candidate_sha256": "6bd0430fd1b5a92182b50fbd1a8d5b2ae591d340d62257ed3c48534bdd9d7c22",
+      "candidate_sha256": "1301c658c6f1f3772308572c4de73567b1e067ddac3682bd98accc89513a040d",
       "origin": "NEW",
       "source_basis_paths": [],
       "modifications": "New demo preparation material; AI-assisted under human commissioning.",
       "license": "MPL-2.0 to extent rights exist and covered",
       "publication_review": "OWNER_APPROVED_PUBLIC_SOURCE_ACCESS_EXISTING_RIGHTS_PRESERVED_NO_NEW_LICENSE",
       "historical_publication_review": "FINAL_CONTENT_DECISION_PENDING",
-      "bytes": 18038
+      "bytes": 23512
     },
     {
       "path": "docs/METHODS_APPENDIX.md",
@@ -628,7 +1276,7 @@
     },
     {
       "path": "docs/PRODUCT_MAP.md",
-      "candidate_sha256": "8cd957b8562dbf60841d42075bf821e76e0bc4bb5125c1bc80219eca213cf4de",
+      "candidate_sha256": "e5fbac585160737944cbed1a850a70ac43f86e47c0ea30a35329eef487a66df6",
       "origin": "ADAPTED",
       "source_basis_paths": [],
       "modifications": "Compact new whole-product map and customer-function crosswalk adapted from specified README sections and process maps; both interface directions, HERE/ELSEWHERE/PROPOSED statuses and actual relative function/file links; no full inventory or historical readiness tables copied.",
@@ -636,7 +1284,7 @@
       "license": "MPL-2.0 to extent rights exist and covered",
       "publication_review": "OWNER_APPROVED_PUBLIC_SOURCE_ACCESS_EXISTING_RIGHTS_PRESERVED_NO_NEW_LICENSE",
       "historical_publication_review": "FINAL_CONTENT_DECISION_PENDING",
-      "bytes": 23599
+      "bytes": 23997
     },
     {
       "path": "media/Control_Anchor_Introduction_Teleprompter_Reviewer_Update.txt",
@@ -889,8 +1537,8 @@
       "modifications": "Public-only bounded CI, offline consistency checks and their synthetic positive/adverse fixtures; no extracted runtime change.",
       "license": "MPL-2.0 to extent rights exist and covered",
       "publication_review": "OWNER_APPROVED_PUBLIC_CI_AND_EXISTING_RIGHTS_PRESERVED",
-      "candidate_sha256": "de670e27817e84ff6f624ec28d2b768589b52744fffacb83d58ff2cdb07d349f",
-      "bytes": 1082
+      "candidate_sha256": "e8947595d58f3745ca9a89419812dbced991ed22df19fc656bdc6834cab31c85",
+      "bytes": 1636
     },
     {
       "path": ".github/workflows/integrity.yml",
@@ -1061,8 +1709,8 @@
       "origin": "NEW_PUBLIC_PROJECT_DOCUMENTATION",
       "license": "Existing rights and notices preserved; see LICENSE_SCOPE.md.",
       "publication_review": "OWNER_AUTHORIZED_PUBLIC_DISCOVERABILITY_DOCUMENTATION",
-      "candidate_sha256": "3e0d0dba53c4dbdb81ff54441f3ec59b64cc3d4d83904377d001cace1d223f6b",
-      "bytes": 2827
+      "candidate_sha256": "16202ba6af1976117cc3c2a55b703d705c6d5137325fe4c78a36e10000051b5c",
+      "bytes": 3214
     },
     {
       "path": "codemeta.json",
@@ -1075,8 +1723,8 @@
     {
       "path": "docs/FUNCTION_GLOSSARY.md",
       "origin": "NEW_PUBLIC_HIGH_LEVEL_DESIGN_OVERVIEW",
-      "candidate_sha256": "678ab6a43aed2713bb7601bdd949d5c4d5707149545e7d7e5303bb7538692923",
-      "bytes": 10645,
+      "candidate_sha256": "8255444dae1a4d3afcf0d5a1e1ffaeb8c639ec8b6ce7cfc3e5eee1ba5e628811",
+      "bytes": 11043,
       "modifications": "Selective functional architecture and proposed clarifying names; offline demo scope separated from future design. No runtime or original source changes.",
       "license": "Existing rights and notices preserved; see LICENSE_SCOPE.md.",
       "publication_review": "OWNER_AUTHORIZED_PUBLIC_HIGH_LEVEL_DESIGN_CONTENT_REVIEW_NO_MATERIAL_FINDING"
@@ -2078,8 +2726,8 @@
       "modifications": "Maintained public-source function map and accessible navigation, with public code, dated reported development and proposed design kept distinct. No runtime qualification or private source publication.",
       "license": "Existing rights and notices preserved; no new media/prose license grant.",
       "publication_review": "OWNER_REQUESTED_PUBLIC_DOCUMENTATION_EXISTING_RIGHTS_PRESERVED",
-      "candidate_sha256": "24ca47cd51eff2226130ea09640e396b80a3e0d6ecf28ddf980dc3842d62ef6b",
-      "bytes": 5831
+      "candidate_sha256": "381c4feab2a458af2240b77d576434b6c3d44cf0ecd70922db28793727a190ec",
+      "bytes": 9030
     },
     {
       "path": "docs/brain-map/brain-map.svg",
@@ -2098,8 +2746,8 @@
       "modifications": "Maintained public-source function map and accessible navigation, with public code, dated reported development and proposed design kept distinct. No runtime qualification or private source publication.",
       "license": "Existing rights and notices preserved; no new media/prose license grant.",
       "publication_review": "OWNER_REQUESTED_PUBLIC_DOCUMENTATION_EXISTING_RIGHTS_PRESERVED",
-      "candidate_sha256": "79f4dae715cf802805591bcfea309c5101b908b13d756eadcff4fb0804060085",
-      "bytes": 8747
+      "candidate_sha256": "a6ad186ddcf9f87bfd52a4b20885bbe102e4da94e855e9c98b07b7233b5da7a4",
+      "bytes": 9935
     },
     {
       "path": "docs/brain-map/explorer.html",
@@ -2108,8 +2756,8 @@
       "modifications": "Maintained public-source function map and accessible navigation, with public code, dated reported development and proposed design kept distinct. No runtime qualification or private source publication.",
       "license": "Existing rights and notices preserved; no new media/prose license grant.",
       "publication_review": "OWNER_REQUESTED_PUBLIC_DOCUMENTATION_EXISTING_RIGHTS_PRESERVED",
-      "candidate_sha256": "683f9063c8fbbf32fadb44df72d5a6f04bb02a09fd07b5e4b0415372364b702d",
-      "bytes": 19199
+      "candidate_sha256": "a26842f19148315de4e43a236a3076027d42a5fafd182fdb24e929022bac3116",
+      "bytes": 21651
     },
     {
       "path": "tools/build_brain_map.py",
@@ -2118,8 +2766,8 @@
       "modifications": "Maintained public-source function map and accessible navigation, with public code, dated reported development and proposed design kept distinct. No runtime qualification or private source publication.",
       "license": "Existing rights and notices preserved; no new media/prose license grant.",
       "publication_review": "OWNER_REQUESTED_PUBLIC_DOCUMENTATION_EXISTING_RIGHTS_PRESERVED",
-      "candidate_sha256": "63a93c2b38040f377c63ee2d67075df3feb5b479b8f39680a5a3433ea4544e57",
-      "bytes": 10134
+      "candidate_sha256": "0d19a2cf2800b4d179295528677d085199b34dbd1f6f21a346c4a5e9dba4cadf",
+      "bytes": 10150
     },
     {
       "path": "tests/test_brain_map.py",
@@ -2242,6 +2890,116 @@
       "bytes": 130238
     },
     {
+      "path": "docs/PUBLIC_SUBSYSTEMS.md",
+      "candidate_sha256": "dac6343bbf842168d49be8c0a0bbfd45410094fe58e3d67bbc33dcbb62e6f166",
+      "bytes": 6396,
+      "origin": "NEW",
+      "source_basis_paths": [],
+      "modifications": "Bounded UCC public extraction: synthetic demonstration, focused tests, promotion guidance or public-only qualification evidence. AI-assisted under owner instruction.",
+      "license": "MPL-2.0 to extent rights exist and covered",
+      "publication_review": "OWNER_AUTHORIZED_BOUNDED_SUBSYSTEM_PROMOTION_EXISTING_RIGHTS_PRESERVED"
+    },
+    {
+      "path": "tests/test_ucc_public.py",
+      "candidate_sha256": "a1e6f95017ddf8cc2775dce96462999552e033a574bb59a53993693940850903",
+      "bytes": 1541,
+      "origin": "NEW",
+      "source_basis_paths": [],
+      "modifications": "Bounded UCC public extraction: synthetic demonstration, focused tests, promotion guidance or public-only qualification evidence. AI-assisted under owner instruction.",
+      "license": "MPL-2.0 to extent rights exist and covered",
+      "publication_review": "OWNER_AUTHORIZED_BOUNDED_SUBSYSTEM_PROMOTION_EXISTING_RIGHTS_PRESERVED"
+    },
+    {
+      "path": "ucc_demo.py",
+      "candidate_sha256": "99c5db9fc8f491a64d44c82894bfc770bd773294cfe0651d0706f51bbaf69af5",
+      "bytes": 2057,
+      "origin": "NEW",
+      "source_basis_paths": [],
+      "modifications": "Bounded UCC public extraction: synthetic demonstration, focused tests, promotion guidance or public-only qualification evidence. AI-assisted under owner instruction.",
+      "license": "MPL-2.0 to extent rights exist and covered",
+      "publication_review": "OWNER_AUTHORIZED_BOUNDED_SUBSYSTEM_PROMOTION_EXISTING_RIGHTS_PRESERVED"
+    },
+    {
+      "path": "validation/2026-11-03-ucc-unittest.log",
+      "candidate_sha256": "6c29c5f5d27c50e6dbd5a7603cc9b0e46945a69e7c8e776c1cc00dfde27dccc8",
+      "bytes": 3757,
+      "origin": "NEW",
+      "source_basis_paths": [],
+      "modifications": "Bounded UCC public extraction: synthetic demonstration, focused tests, promotion guidance or public-only qualification evidence. AI-assisted under owner instruction.",
+      "license": "MPL-2.0 to extent rights exist and covered",
+      "publication_review": "OWNER_AUTHORIZED_BOUNDED_SUBSYSTEM_PROMOTION_EXISTING_RIGHTS_PRESERVED"
+    },
+    {
+      "path": "docs/RETROSYNTHESIS_COMPONENT.md",
+      "candidate_sha256": "503199fd73e723ff4da5b7f714d3b47a0beb6cbce3898db06a248ec3347120dd",
+      "bytes": 5363,
+      "origin": "NEW",
+      "source_basis_paths": [],
+      "modifications": "Bounded retrosynthesis public projection: synthetic demo, focused test/identity guard, optional dependency requirement, scope documentation or public-only validation. AI-assisted under owner instruction.",
+      "license": "MPL-2.0 to extent rights exist and covered",
+      "publication_review": "OWNER_AUTHORIZED_SCOPED_PROJECTION_EXISTING_RIGHTS_PRESERVED_NOT_FORMAL_TITLE_CLEARANCE"
+    },
+    {
+      "path": "requirements-retrosynthesis-tests.txt",
+      "candidate_sha256": "375fe0f3eea64fecdefb93ebe3b50498b90451fe5c0d496b4aaf6efceb3ede33",
+      "bytes": 49,
+      "origin": "NEW",
+      "source_basis_paths": [],
+      "modifications": "Bounded retrosynthesis public projection: synthetic demo, focused test/identity guard, optional dependency requirement, scope documentation or public-only validation. AI-assisted under owner instruction.",
+      "license": "MPL-2.0 to extent rights exist and covered",
+      "publication_review": "OWNER_AUTHORIZED_SCOPED_PROJECTION_EXISTING_RIGHTS_PRESERVED_NOT_FORMAL_TITLE_CLEARANCE"
+    },
+    {
+      "path": "requirements-retrosynthesis.txt",
+      "candidate_sha256": "da8ae5d848fb770f906ff7c389bda590f41a984dcc9ad2b4188f5d5ec8ba2a8c",
+      "bytes": 152,
+      "origin": "NEW",
+      "source_basis_paths": [],
+      "modifications": "Bounded retrosynthesis public projection: synthetic demo, focused test/identity guard, optional dependency requirement, scope documentation or public-only validation. AI-assisted under owner instruction.",
+      "license": "MPL-2.0 to extent rights exist and covered",
+      "publication_review": "OWNER_AUTHORIZED_SCOPED_PROJECTION_EXISTING_RIGHTS_PRESERVED_NOT_FORMAL_TITLE_CLEARANCE"
+    },
+    {
+      "path": "retrosynthesis_demo.py",
+      "candidate_sha256": "4d33dcc908d37c1ce188b59639412c5f0a59884f5a886e38f5438d4db88d6fe5",
+      "bytes": 5191,
+      "origin": "NEW",
+      "source_basis_paths": [],
+      "modifications": "Bounded retrosynthesis public projection: synthetic demo, focused test/identity guard, optional dependency requirement, scope documentation or public-only validation. AI-assisted under owner instruction.",
+      "license": "MPL-2.0 to extent rights exist and covered",
+      "publication_review": "OWNER_AUTHORIZED_SCOPED_PROJECTION_EXISTING_RIGHTS_PRESERVED_NOT_FORMAL_TITLE_CLEARANCE"
+    },
+    {
+      "path": "tests/upstream_retrosynthesis/conftest.py",
+      "candidate_sha256": "20d358cf9b99c64dea94144a6f4c2c0807ba60f0d334fe76ee3aa2505010accf",
+      "bytes": 1785,
+      "origin": "NEW",
+      "source_basis_paths": [],
+      "modifications": "Bounded retrosynthesis public projection: synthetic demo, focused test/identity guard, optional dependency requirement, scope documentation or public-only validation. AI-assisted under owner instruction.",
+      "license": "MPL-2.0 to extent rights exist and covered",
+      "publication_review": "OWNER_AUTHORIZED_SCOPED_PROJECTION_EXISTING_RIGHTS_PRESERVED_NOT_FORMAL_TITLE_CLEARANCE"
+    },
+    {
+      "path": "tests/upstream_retrosynthesis/test_retrosynthesis_demo.py",
+      "candidate_sha256": "2698dca21b00cca0f9491247912743a66db5f4547c8ccd2e488f0c990674d01c",
+      "bytes": 1344,
+      "origin": "NEW",
+      "source_basis_paths": [],
+      "modifications": "Bounded retrosynthesis public projection: synthetic demo, focused test/identity guard, optional dependency requirement, scope documentation or public-only validation. AI-assisted under owner instruction.",
+      "license": "MPL-2.0 to extent rights exist and covered",
+      "publication_review": "OWNER_AUTHORIZED_SCOPED_PROJECTION_EXISTING_RIGHTS_PRESERVED_NOT_FORMAL_TITLE_CLEARANCE"
+    },
+    {
+      "path": "validation/2026-11-03-retrosynthesis-pytest.log",
+      "candidate_sha256": "f4279bb7ccd189aa71b76d80bafec70f067bbef46e190a84a14ab753678e3232",
+      "bytes": 253,
+      "origin": "NEW",
+      "source_basis_paths": [],
+      "modifications": "Bounded retrosynthesis public projection: synthetic demo, focused test/identity guard, optional dependency requirement, scope documentation or public-only validation. AI-assisted under owner instruction.",
+      "license": "MPL-2.0 to extent rights exist and covered",
+      "publication_review": "OWNER_AUTHORIZED_SCOPED_PROJECTION_EXISTING_RIGHTS_PRESERVED_NOT_FORMAL_TITLE_CLEARANCE"
+    },
+    {
       "path": "docs/whitepaper/triadic-brain-20261102/translations/R6/zh-Hans/WHITEPAPER.zh-Hans.md",
       "origin": "NEW_PUBLIC_SOURCE_BOUND_TRANSLATION",
       "source_basis_paths": [],
@@ -2343,16 +3101,21 @@
     }
   ],
   "dependency_closure": {
-    "python_modules": 20,
+    "python_modules": 64,
     "schema_files": 12,
     "entrypoint": "src/triadicbrain/assurance/production_cli.py",
     "relative_import_edges": {
       "src/triadicbrain/__init__.py": [],
-      "src/triadicbrain/assurance/__init__.py": [],
+      "src/triadicbrain/assurance/__init__.py": [
+        "src/triadicbrain/__init__.py"
+      ],
       "src/triadicbrain/assurance/authorization.py": [
         "src/triadicbrain/assurance/models.py"
       ],
-      "src/triadicbrain/assurance/canonical.py": [],
+      "src/triadicbrain/assurance/canonical.py": [
+        "src/triadicbrain/__init__.py",
+        "src/triadicbrain/assurance/__init__.py"
+      ],
       "src/triadicbrain/assurance/claims.py": [
         "src/triadicbrain/assurance/canonical.py"
       ],
@@ -2436,19 +3199,283 @@
         "src/triadicbrain/assurance/reporting.py",
         "src/triadicbrain/assurance/transaction.py",
         "src/triadicbrain/assurance/verification.py"
+      ],
+      "src/triadicbrain/assurance/ucc_plan.py": [
+        "src/triadicbrain/assurance/canonical.py",
+        "src/triadicbrain/assurance/ucc_primitives.py"
+      ],
+      "src/triadicbrain/assurance/ucc_primitives.py": [],
+      "components/CoherenceLattice/python/src/coherence/totality/pmr.py": [
+        "components/CoherenceLattice/python/src/coherence/__init__.py",
+        "components/CoherenceLattice/python/src/coherence/totality/__init__.py",
+        "components/CoherenceLattice/python/src/coherence/totality/canonical.py",
+        "components/CoherenceLattice/python/src/coherence/totality/errors.py"
+      ],
+      "components/CoherenceLattice/python/src/coherence/totality/canonical.py": [
+        "components/CoherenceLattice/python/src/coherence/__init__.py",
+        "components/CoherenceLattice/python/src/coherence/totality/__init__.py",
+        "components/CoherenceLattice/python/src/coherence/totality/errors.py"
+      ],
+      "components/CoherenceLattice/python/src/coherence/totality/errors.py": [
+        "components/CoherenceLattice/python/src/coherence/__init__.py",
+        "components/CoherenceLattice/python/src/coherence/totality/__init__.py"
+      ],
+      "components/CoherenceLattice/python/src/coherence/totality/__init__.py": [
+        "components/CoherenceLattice/python/src/coherence/__init__.py",
+        "components/CoherenceLattice/python/src/coherence/totality/adapter.py",
+        "components/CoherenceLattice/python/src/coherence/totality/aha.py",
+        "components/CoherenceLattice/python/src/coherence/totality/aperture.py",
+        "components/CoherenceLattice/python/src/coherence/totality/canonical.py",
+        "components/CoherenceLattice/python/src/coherence/totality/claims.py",
+        "components/CoherenceLattice/python/src/coherence/totality/counterexamples.py",
+        "components/CoherenceLattice/python/src/coherence/totality/grounding.py",
+        "components/CoherenceLattice/python/src/coherence/totality/pmr.py",
+        "components/CoherenceLattice/python/src/coherence/totality/request.py",
+        "components/CoherenceLattice/python/src/coherence/totality/seal.py",
+        "components/CoherenceLattice/python/src/coherence/totality/tel.py",
+        "components/CoherenceLattice/python/src/coherence/totality/ucm.py"
+      ],
+      "components/CoherenceLattice/python/src/coherence/totality/request.py": [
+        "components/CoherenceLattice/python/src/coherence/__init__.py",
+        "components/CoherenceLattice/python/src/coherence/totality/__init__.py",
+        "components/CoherenceLattice/python/src/coherence/totality/canonical.py",
+        "components/CoherenceLattice/python/src/coherence/totality/errors.py",
+        "components/CoherenceLattice/python/src/coherence/totality/schema_runtime.py"
+      ],
+      "components/CoherenceLattice/python/src/coherence/__init__.py": [],
+      "components/CoherenceLattice/python/src/coherence/totality/schema_runtime.py": [
+        "components/CoherenceLattice/python/src/coherence/__init__.py",
+        "components/CoherenceLattice/python/src/coherence/totality/__init__.py",
+        "components/CoherenceLattice/python/src/coherence/totality/errors.py"
+      ],
+      "components/CoherenceLattice/python/src/coherence/totality/seal.py": [
+        "components/CoherenceLattice/python/src/coherence/__init__.py",
+        "components/CoherenceLattice/python/src/coherence/aegis/totality_admission.py",
+        "components/CoherenceLattice/python/src/coherence/totality/__init__.py",
+        "components/CoherenceLattice/python/src/coherence/totality/atlas_contract.py",
+        "components/CoherenceLattice/python/src/coherence/totality/canonical.py",
+        "components/CoherenceLattice/python/src/coherence/totality/errors.py",
+        "components/CoherenceLattice/python/src/coherence/totality/grounding.py",
+        "components/CoherenceLattice/python/src/coherence/totality/plugins.py",
+        "components/CoherenceLattice/python/src/coherence/totality/tel.py"
+      ],
+      "components/CoherenceLattice/python/src/coherence/totality/atlas_contract.py": [
+        "components/CoherenceLattice/python/src/coherence/__init__.py",
+        "components/CoherenceLattice/python/src/coherence/totality/__init__.py",
+        "components/CoherenceLattice/python/src/coherence/totality/canonical.py",
+        "components/CoherenceLattice/python/src/coherence/totality/errors.py"
+      ],
+      "components/CoherenceLattice/python/src/coherence/totality/grounding.py": [
+        "components/CoherenceLattice/python/src/coherence/__init__.py",
+        "components/CoherenceLattice/python/src/coherence/totality/__init__.py",
+        "components/CoherenceLattice/python/src/coherence/totality/canonical.py",
+        "components/CoherenceLattice/python/src/coherence/totality/errors.py",
+        "components/CoherenceLattice/python/src/coherence/totality/schema_runtime.py"
+      ],
+      "components/CoherenceLattice/python/src/coherence/totality/tel.py": [
+        "components/CoherenceLattice/python/src/coherence/__init__.py",
+        "components/CoherenceLattice/python/src/coherence/totality/__init__.py",
+        "components/CoherenceLattice/python/src/coherence/totality/canonical.py",
+        "components/CoherenceLattice/python/src/coherence/totality/errors.py"
+      ],
+      "components/CoherenceLattice/python/src/coherence/aegis/totality_admission.py": [
+        "components/CoherenceLattice/python/src/coherence/__init__.py",
+        "components/CoherenceLattice/python/src/coherence/aegis/__init__.py",
+        "components/CoherenceLattice/python/src/coherence/totality/canonical.py",
+        "components/CoherenceLattice/python/src/coherence/totality/errors.py",
+        "components/CoherenceLattice/python/src/coherence/totality/grounding.py",
+        "components/CoherenceLattice/python/src/coherence/totality/request.py"
+      ],
+      "components/CoherenceLattice/python/src/coherence/aegis/__init__.py": [
+        "components/CoherenceLattice/python/src/coherence/__init__.py",
+        "components/CoherenceLattice/python/src/coherence/aegis/action_firewall.py",
+        "components/CoherenceLattice/python/src/coherence/aegis/admission.py",
+        "components/CoherenceLattice/python/src/coherence/aegis/consent_check.py",
+        "components/CoherenceLattice/python/src/coherence/aegis/grounding_binding.py",
+        "components/CoherenceLattice/python/src/coherence/aegis/instruction_quarantine.py",
+        "components/CoherenceLattice/python/src/coherence/aegis/local_runtime_enforcement_adapter.py",
+        "components/CoherenceLattice/python/src/coherence/aegis/model_candidate_gate.py",
+        "components/CoherenceLattice/python/src/coherence/aegis/receipt_chain_export.py",
+        "components/CoherenceLattice/python/src/coherence/aegis/source_scope.py",
+        "components/CoherenceLattice/python/src/coherence/aegis/totality_admission.py",
+        "components/CoherenceLattice/python/src/coherence/aegis/ui_preflight_status_surface.py"
+      ],
+      "components/CoherenceLattice/python/src/coherence/aegis/local_runtime_enforcement_adapter.py": [
+        "components/CoherenceLattice/python/src/coherence/__init__.py",
+        "components/CoherenceLattice/python/src/coherence/aegis/__init__.py",
+        "components/CoherenceLattice/python/src/coherence/aegis/policy.py"
+      ],
+      "components/CoherenceLattice/python/src/coherence/aegis/policy.py": [
+        "components/CoherenceLattice/python/src/coherence/__init__.py",
+        "components/CoherenceLattice/python/src/coherence/aegis/__init__.py",
+        "components/CoherenceLattice/python/src/coherence/aegis/types.py"
+      ],
+      "components/CoherenceLattice/python/src/coherence/aegis/types.py": [
+        "components/CoherenceLattice/python/src/coherence/__init__.py",
+        "components/CoherenceLattice/python/src/coherence/aegis/__init__.py"
+      ],
+      "components/CoherenceLattice/python/src/coherence/aegis/admission.py": [
+        "components/CoherenceLattice/python/src/coherence/__init__.py",
+        "components/CoherenceLattice/python/src/coherence/aegis/__init__.py",
+        "components/CoherenceLattice/python/src/coherence/aegis/action_firewall.py",
+        "components/CoherenceLattice/python/src/coherence/aegis/consent_check.py",
+        "components/CoherenceLattice/python/src/coherence/aegis/failure_receipt.py",
+        "components/CoherenceLattice/python/src/coherence/aegis/grounding_binding.py",
+        "components/CoherenceLattice/python/src/coherence/aegis/instruction_quarantine.py",
+        "components/CoherenceLattice/python/src/coherence/aegis/model_candidate_gate.py",
+        "components/CoherenceLattice/python/src/coherence/aegis/policy.py",
+        "components/CoherenceLattice/python/src/coherence/aegis/receipt_chain_export.py",
+        "components/CoherenceLattice/python/src/coherence/aegis/source_scope.py"
+      ],
+      "components/CoherenceLattice/python/src/coherence/aegis/failure_receipt.py": [
+        "components/CoherenceLattice/python/src/coherence/__init__.py",
+        "components/CoherenceLattice/python/src/coherence/aegis/__init__.py",
+        "components/CoherenceLattice/python/src/coherence/aegis/policy.py",
+        "components/CoherenceLattice/python/src/coherence/aegis/types.py"
+      ],
+      "components/CoherenceLattice/python/src/coherence/aegis/consent_check.py": [
+        "components/CoherenceLattice/python/src/coherence/__init__.py",
+        "components/CoherenceLattice/python/src/coherence/aegis/__init__.py",
+        "components/CoherenceLattice/python/src/coherence/aegis/policy.py"
+      ],
+      "components/CoherenceLattice/python/src/coherence/aegis/receipt_chain_export.py": [
+        "components/CoherenceLattice/python/src/coherence/__init__.py",
+        "components/CoherenceLattice/python/src/coherence/aegis/__init__.py",
+        "components/CoherenceLattice/python/src/coherence/aegis/policy.py"
+      ],
+      "components/CoherenceLattice/python/src/coherence/aegis/model_candidate_gate.py": [
+        "components/CoherenceLattice/python/src/coherence/__init__.py",
+        "components/CoherenceLattice/python/src/coherence/aegis/__init__.py",
+        "components/CoherenceLattice/python/src/coherence/aegis/policy.py"
+      ],
+      "components/CoherenceLattice/python/src/coherence/aegis/action_firewall.py": [
+        "components/CoherenceLattice/python/src/coherence/__init__.py",
+        "components/CoherenceLattice/python/src/coherence/aegis/__init__.py",
+        "components/CoherenceLattice/python/src/coherence/aegis/policy.py"
+      ],
+      "components/CoherenceLattice/python/src/coherence/aegis/instruction_quarantine.py": [
+        "components/CoherenceLattice/python/src/coherence/__init__.py",
+        "components/CoherenceLattice/python/src/coherence/aegis/__init__.py",
+        "components/CoherenceLattice/python/src/coherence/aegis/policy.py"
+      ],
+      "components/CoherenceLattice/python/src/coherence/aegis/source_scope.py": [
+        "components/CoherenceLattice/python/src/coherence/__init__.py",
+        "components/CoherenceLattice/python/src/coherence/aegis/__init__.py",
+        "components/CoherenceLattice/python/src/coherence/aegis/policy.py"
+      ],
+      "components/CoherenceLattice/python/src/coherence/aegis/grounding_binding.py": [
+        "components/CoherenceLattice/python/src/coherence/__init__.py",
+        "components/CoherenceLattice/python/src/coherence/aegis/__init__.py",
+        "components/CoherenceLattice/python/src/coherence/aegis/policy.py"
+      ],
+      "components/CoherenceLattice/python/src/coherence/aegis/ui_preflight_status_surface.py": [
+        "components/CoherenceLattice/python/src/coherence/__init__.py",
+        "components/CoherenceLattice/python/src/coherence/aegis/__init__.py",
+        "components/CoherenceLattice/python/src/coherence/aegis/policy.py"
+      ],
+      "components/CoherenceLattice/python/src/coherence/totality/plugins.py": [
+        "components/CoherenceLattice/python/src/coherence/__init__.py",
+        "components/CoherenceLattice/python/src/coherence/totality/__init__.py",
+        "components/CoherenceLattice/python/src/coherence/totality/canonical.py",
+        "components/CoherenceLattice/python/src/coherence/totality/errors.py"
+      ],
+      "components/CoherenceLattice/python/src/coherence/totality/ucm.py": [
+        "components/CoherenceLattice/python/src/coherence/__init__.py",
+        "components/CoherenceLattice/python/src/coherence/totality/__init__.py",
+        "components/CoherenceLattice/python/src/coherence/totality/canonical.py",
+        "components/CoherenceLattice/python/src/coherence/totality/errors.py"
+      ],
+      "components/CoherenceLattice/python/src/coherence/totality/aperture.py": [
+        "components/CoherenceLattice/python/src/coherence/__init__.py",
+        "components/CoherenceLattice/python/src/coherence/totality/__init__.py",
+        "components/CoherenceLattice/python/src/coherence/totality/canonical.py",
+        "components/CoherenceLattice/python/src/coherence/totality/errors.py"
+      ],
+      "components/CoherenceLattice/python/src/coherence/totality/adapter.py": [
+        "components/CoherenceLattice/python/src/coherence/__init__.py",
+        "components/CoherenceLattice/python/src/coherence/totality/__init__.py",
+        "components/CoherenceLattice/python/src/coherence/totality/canonical.py",
+        "components/CoherenceLattice/python/src/coherence/totality/errors.py",
+        "components/CoherenceLattice/python/src/coherence/totality/schema_runtime.py"
+      ],
+      "components/CoherenceLattice/python/src/coherence/totality/claims.py": [
+        "components/CoherenceLattice/python/src/coherence/__init__.py",
+        "components/CoherenceLattice/python/src/coherence/totality/__init__.py",
+        "components/CoherenceLattice/python/src/coherence/totality/adapter.py",
+        "components/CoherenceLattice/python/src/coherence/totality/canonical.py",
+        "components/CoherenceLattice/python/src/coherence/totality/errors.py",
+        "components/CoherenceLattice/python/src/coherence/totality/grounding.py"
+      ],
+      "components/CoherenceLattice/python/src/coherence/totality/counterexamples.py": [
+        "components/CoherenceLattice/python/src/coherence/__init__.py",
+        "components/CoherenceLattice/python/src/coherence/totality/__init__.py",
+        "components/CoherenceLattice/python/src/coherence/totality/canonical.py",
+        "components/CoherenceLattice/python/src/coherence/totality/errors.py",
+        "components/CoherenceLattice/python/src/coherence/totality/grounding.py"
+      ],
+      "components/CoherenceLattice/python/src/coherence/totality/aha.py": [
+        "components/CoherenceLattice/python/src/coherence/__init__.py",
+        "components/CoherenceLattice/python/src/coherence/aha/engine.py",
+        "components/CoherenceLattice/python/src/coherence/aha/models.py",
+        "components/CoherenceLattice/python/src/coherence/totality/__init__.py",
+        "components/CoherenceLattice/python/src/coherence/totality/canonical.py",
+        "components/CoherenceLattice/python/src/coherence/totality/errors.py",
+        "components/CoherenceLattice/python/src/coherence/totality/grounding.py"
+      ],
+      "components/CoherenceLattice/python/src/coherence/aha/models.py": [
+        "components/CoherenceLattice/python/src/coherence/__init__.py",
+        "components/CoherenceLattice/python/src/coherence/aha/__init__.py"
+      ],
+      "components/CoherenceLattice/python/src/coherence/aha/__init__.py": [
+        "components/CoherenceLattice/python/src/coherence/__init__.py",
+        "components/CoherenceLattice/python/src/coherence/aha/engine.py"
+      ],
+      "components/CoherenceLattice/python/src/coherence/aha/engine.py": [
+        "components/CoherenceLattice/python/src/coherence/__init__.py",
+        "components/CoherenceLattice/python/src/coherence/aha/__init__.py",
+        "components/CoherenceLattice/python/src/coherence/aha/models.py"
+      ],
+      "components/Sophia/python/src/sophia/triadic/governed_evaluation.py": [
+        "components/Sophia/python/src/sophia/__init__.py",
+        "components/Sophia/python/src/sophia/triadic/__init__.py",
+        "components/Sophia/python/src/sophia/triadic/totality_audit.py"
+      ],
+      "components/Sophia/python/src/sophia/triadic/totality_audit.py": [
+        "components/Sophia/python/src/sophia/__init__.py",
+        "components/Sophia/python/src/sophia/triadic/__init__.py"
+      ],
+      "components/Sophia/python/src/sophia/triadic/__init__.py": [
+        "components/Sophia/python/src/sophia/__init__.py"
+      ],
+      "components/Sophia/python/src/sophia/__init__.py": [],
+      "components/CoherenceLattice/python/src/coherence/totality/retrosynthesis.py": [
+        "components/CoherenceLattice/python/src/coherence/__init__.py",
+        "components/CoherenceLattice/python/src/coherence/totality/__init__.py",
+        "components/CoherenceLattice/python/src/coherence/totality/canonical.py",
+        "components/CoherenceLattice/python/src/coherence/totality/errors.py",
+        "components/CoherenceLattice/python/src/coherence/totality/grounding.py"
+      ],
+      "src/triadicbrain/assurance/retrosynthesis_reuse.py": [
+        "components/CoherenceLattice/python/src/coherence/totality/retrosynthesis.py",
+        "src/triadicbrain/__init__.py",
+        "src/triadicbrain/assurance/__init__.py",
+        "src/triadicbrain/assurance/canonical.py"
       ]
     },
     "standard_library_import_roots": [
       "__future__",
       "argparse",
       "base64",
+      "bisect",
       "collections",
       "contextlib",
       "copy",
       "csv",
       "dataclasses",
       "datetime",
+      "decimal",
       "enum",
+      "functools",
       "hashlib",
       "html",
       "http",
@@ -2461,9 +3488,11 @@
       "pkgutil",
       "re",
       "secrets",
+      "shutil",
       "socket",
       "stat",
       "sys",
+      "tempfile",
       "time",
       "types",
       "typing",
@@ -2471,9 +3500,85 @@
       "urllib",
       "zipfile"
     ],
-    "optional_excluded_runtime_dependency": "jsonschema: only imported for explicit engine=jsonschema; not selected in demo",
+    "optional_excluded_runtime_dependency": "jsonschema is not bundled: optional in original assurance engine, required at version4.26.0 for optional retrosynthesis component",
     "dynamic_import_boundary": "STANDARD has no plugin/evaluator; optional review-policy plugin discovery is not invoked",
-    "resource_boundary": "schema_validation.py owns the closed 12-schema filename/hash registry; no external resources selected"
+    "resource_boundary": "schema_validation.py owns the closed 12-schema filename/hash registry; no external resources selected",
+    "additional_entrypoints": [
+      "ucc_demo.py",
+      "retrosynthesis_demo.py"
+    ],
+    "optional_test_dependency": "pytest9.1.1 for exact upstream UCC and retrosynthesis suites; not bundled or required by original evidence/UCC runtime or stdlib discovery",
+    "retrosynthesis": {
+      "production_python_files": 45,
+      "already_public_python_files": 3,
+      "source_commit": "ad4a0e94972a5fa12965cd2f394cce504655d78b",
+      "import_roots": [
+        "src",
+        "components/CoherenceLattice/python/src",
+        "components/Sophia/python/src"
+      ],
+      "source_paths": [
+        "components/CoherenceLattice/python/src/coherence/__init__.py",
+        "components/CoherenceLattice/python/src/coherence/aegis/__init__.py",
+        "components/CoherenceLattice/python/src/coherence/aegis/action_firewall.py",
+        "components/CoherenceLattice/python/src/coherence/aegis/admission.py",
+        "components/CoherenceLattice/python/src/coherence/aegis/consent_check.py",
+        "components/CoherenceLattice/python/src/coherence/aegis/failure_receipt.py",
+        "components/CoherenceLattice/python/src/coherence/aegis/grounding_binding.py",
+        "components/CoherenceLattice/python/src/coherence/aegis/instruction_quarantine.py",
+        "components/CoherenceLattice/python/src/coherence/aegis/local_runtime_enforcement_adapter.py",
+        "components/CoherenceLattice/python/src/coherence/aegis/model_candidate_gate.py",
+        "components/CoherenceLattice/python/src/coherence/aegis/policy.py",
+        "components/CoherenceLattice/python/src/coherence/aegis/receipt_chain_export.py",
+        "components/CoherenceLattice/python/src/coherence/aegis/source_scope.py",
+        "components/CoherenceLattice/python/src/coherence/aegis/totality_admission.py",
+        "components/CoherenceLattice/python/src/coherence/aegis/types.py",
+        "components/CoherenceLattice/python/src/coherence/aegis/ui_preflight_status_surface.py",
+        "components/CoherenceLattice/python/src/coherence/aha/__init__.py",
+        "components/CoherenceLattice/python/src/coherence/aha/engine.py",
+        "components/CoherenceLattice/python/src/coherence/aha/models.py",
+        "components/CoherenceLattice/python/src/coherence/totality/__init__.py",
+        "components/CoherenceLattice/python/src/coherence/totality/adapter.py",
+        "components/CoherenceLattice/python/src/coherence/totality/aha.py",
+        "components/CoherenceLattice/python/src/coherence/totality/aperture.py",
+        "components/CoherenceLattice/python/src/coherence/totality/atlas_contract.py",
+        "components/CoherenceLattice/python/src/coherence/totality/canonical.py",
+        "components/CoherenceLattice/python/src/coherence/totality/claims.py",
+        "components/CoherenceLattice/python/src/coherence/totality/counterexamples.py",
+        "components/CoherenceLattice/python/src/coherence/totality/errors.py",
+        "components/CoherenceLattice/python/src/coherence/totality/grounding.py",
+        "components/CoherenceLattice/python/src/coherence/totality/plugins.py",
+        "components/CoherenceLattice/python/src/coherence/totality/pmr.py",
+        "components/CoherenceLattice/python/src/coherence/totality/request.py",
+        "components/CoherenceLattice/python/src/coherence/totality/retrosynthesis.py",
+        "components/CoherenceLattice/python/src/coherence/totality/schema_runtime.py",
+        "components/CoherenceLattice/python/src/coherence/totality/seal.py",
+        "components/CoherenceLattice/python/src/coherence/totality/tel.py",
+        "components/CoherenceLattice/python/src/coherence/totality/ucm.py",
+        "components/Sophia/python/src/sophia/__init__.py",
+        "components/Sophia/python/src/sophia/triadic/__init__.py",
+        "components/Sophia/python/src/sophia/triadic/governed_evaluation.py",
+        "components/Sophia/python/src/sophia/triadic/totality_audit.py",
+        "src/triadicbrain/__init__.py",
+        "src/triadicbrain/assurance/__init__.py",
+        "src/triadicbrain/assurance/canonical.py",
+        "src/triadicbrain/assurance/retrosynthesis_reuse.py"
+      ],
+      "exact_upstream_test": "tests/upstream_retrosynthesis/test_retrosynthesis_reuse.py",
+      "packaged_schemas": [
+        "components/CoherenceLattice/python/src/coherence/totality/schemas/request_envelope.v1.schema.json",
+        "components/CoherenceLattice/python/src/coherence/totality/schemas/grounding_bundle.v1.schema.json",
+        "components/CoherenceLattice/python/src/coherence/totality/schemas/candidate_packet.v1.schema.json"
+      ],
+      "source_parity_schemas": [
+        "components/CoherenceLattice/schema/totality/request_envelope.v1.schema.json",
+        "components/CoherenceLattice/schema/totality/grounding_bundle.v1.schema.json",
+        "components/CoherenceLattice/schema/totality/candidate_packet.v1.schema.json"
+      ],
+      "runtime_requirement": "jsonschema==4.26.0",
+      "test_requirement": "pytest==9.1.1",
+      "qualification_scope": "Supplied-prior comparison, source grounding and Sophia reconstruction; support-module import closure is not blanket qualification of all exported functionality."
+    }
   },
   "manifest_self_hash": "Omitted to avoid self-reference; final Git commit binds this manifest.",
   "exclusions": [
@@ -2482,7 +3587,7 @@
     "person-specific records",
     "installation machinery",
     "GitHub workflows",
-    "separate component implementations",
+    "unselected component implementations; selected UCC and retrosynthesis dependency files are enumerated",
     "Unicode range tables",
     "TIAIP public profile",
     "dependencies/model weights",

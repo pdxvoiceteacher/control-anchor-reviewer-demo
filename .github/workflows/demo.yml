@@ -38,3 +38,13 @@ jobs:
         run: python -S -B -m unittest discover -s tests -v
       - name: Build synthetic demo packages and reports
         run: python -S -B demo.py --output demo-output-ci
+      - name: Prepare optional retrosynthesis test dependencies
+        run: >-
+          python -m pip install --disable-pip-version-check --only-binary=:all: -r requirements-retrosynthesis-tests.txt
+      - name: Test exact retrosynthesis extraction and module origins
+        env:
+          PYTEST_DISABLE_PLUGIN_AUTOLOAD: '1'
+          PYTHONNOUSERSITE: '1'
+        run: python -B -s -m pytest -q -p no:cacheprovider tests/upstream_retrosynthesis
+      - name: Run synthetic retrosynthesis comparison
+        run: python -B -s retrosynthesis_demo.py

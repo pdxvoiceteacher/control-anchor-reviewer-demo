@@ -15,9 +15,10 @@ components or adaptations included in this demo. See THIRD_PARTY_NOTICES.md.
 "Aggregation Station" is not adopted as a current rightsholder. AI systems are
 not represented as contributors, owners, officers or rightsholders.
 
-This notice is scoped from the upstream notice; attribution is preserved. The Unicode
-tables and separate public-alpha component/profile files described in the full
-upstream notice are excluded from this exact extraction.
+This notice is scoped from the upstream notice; attribution is preserved. Two
+Unicode-derived tables are now included in the bounded retrosynthesis dependency
+slice, under Unicode V3. Unselected public-alpha component/profile files remain
+excluded. THIRD_PARTY_NOTICES.md records the exact current boundary.
 
 The Project Lead approved public source access to this reviewer repository,
 including its history, on 19 October 2026, preserving existing licenses and adding
@@ -26,3 +27,16 @@ Inherited HOLD labels are historical metadata, not a newly discovered
 third-party claim against this extraction. This source publication is
 not a release, hosted service, deployment, assurance opinion, legal compliance
 attestation, production-readiness claim or truth certification.
+
+The bounded UCC plan engine and focused tests added on 3 November 2026 are
+extracted from development main ad4a0e94972a5fa12965cd2f394cce504655d78b.
+The owner requested public promotion of completed vetted subsystems. Its narrow
+CoherenceLattice adaptation and existing rights scope are identified in
+THIRD_PARTY_NOTICES.md. No donor-wide relicensing or formal release is implied.
+
+The bounded retrosynthesis comparison and real Coherence/Sophia dependency slice
+are exact files from accepted development main ad4a0e94972a5fa12965cd2f394cce504655d78b,
+published under the same 3 November 2026 owner instruction. Existing MPL-2.0
+attribution remains; included Unicode-derived data retains Unicode License V3
+as recorded in THIRD_PARTY_NOTICES.md and licenses/Unicode-3.0.txt. No dependency
+package, model, private operational evidence or native service is included.
