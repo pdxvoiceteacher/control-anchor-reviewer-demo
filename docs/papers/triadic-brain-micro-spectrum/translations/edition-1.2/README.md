@@ -13,6 +13,7 @@ These translations cover the full main manuscript **Triadic Brain from Byte Iden
 
 These separately published full main-text editions retain their own source bindings and review records. The original package review below is not a substitute for those language-specific records.
 
+- [Español — Spanish](es/TRIADIC_BRAIN_MICRO_SPECTRUM.es.md) · [Scope and review limits](es/README.md) · [Source and review record](es/TRANSLATION.json)
 - [فارسی — Persian (Farsi)](fa/TRIADIC_BRAIN_MICRO_SPECTRUM.fa.md) · [Scope and review limits](fa/README.md) · [Source and review record](fa/TRANSLATION.json)
 - [Kiswahili](sw/TRIADIC_BRAIN_MICRO_SPECTRUM.sw.md) · [Scope and review limits](sw/README.md) · [Source and review record](sw/TRANSLATION.json)
 - [العربية — Modern Standard Arabic](ar/TRIADIC_BRAIN_MICRO_SPECTRUM.ar.md) · [Scope and review limits](ar/README.md) · [Source and review record](ar/TRANSLATION.json)

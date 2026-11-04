@@ -23,6 +23,8 @@
 
 **Translation access:** Persian (Farsi), Kiswahili, Modern Standard Arabic, Russian and Polish editions of both papers are linked from the indexes above alongside the earlier editions. Each language retains its own source and AI-assisted review record; no fluent-human certification is claimed. [Quechua and Diné Bizaad reviewer invitation](docs/translations/QUECHUA_DINE_REVIEW_INVITATION.md) seeks community-led review and language decisions, not completed translations or community endorsement.
 
+The [full Spanish academic manuscript](docs/papers/triadic-brain-micro-spectrum/translations/edition-1.2/es/TRIADIC_BRAIN_MICRO_SPECTRUM.es.md) complements the existing Spanish whitepaper. Its separate source binding and AI-review limits are recorded in the [Spanish academic edition notes](docs/papers/triadic-brain-micro-spectrum/translations/edition-1.2/es/README.md).
+
 **An offline, synthetic Python reviewer demo for evidence-linked review and correction history.** No model calls or networked compute run here. The broader Triadic Brain / Control Anchor vision proposes local-first cognitive middleware and voluntary, decentralized cooperation; those are design goals, not deployed capabilities of this repository.
 
 **Start here:** [What runs today](#what-this-repository-demonstrates-today) · [Run locally](#run-on-windows--powershell) · [Evidence and limitations](KNOWN_LIMITATIONS.md) · [Design ethos](docs/COMMUNITY_COMPUTE_VISION.md#design-ethos-freedom-cooperation-and-practical-exit) · [Function glossary](docs/FUNCTION_GLOSSARY.md) · [Contribute](CONTRIBUTING.md) · [Project metadata](codemeta.json)

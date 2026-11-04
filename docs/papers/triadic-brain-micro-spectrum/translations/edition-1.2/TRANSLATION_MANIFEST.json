@@ -11,8 +11,8 @@
   "files": [
     {
       "path": "README.md",
-      "bytes": 4402,
-      "sha256": "87230fba759871f0901a96d3fc8963997c1a2b41a253dc297bbef8f1aa6868ae"
+      "bytes": 4560,
+      "sha256": "eed6b208f85b9eb7369e8e65d43e38b026b7cc53989e62354c2d878ab5c9c31c"
     },
     {
       "path": "TRANSLATION_REVIEW.json",
@@ -71,6 +71,12 @@
       "translation_path": "pl/TRIADIC_BRAIN_MICRO_SPECTRUM.pl.md",
       "record_path": "pl/TRANSLATION.json",
       "navigation_path": "pl/README.md"
+    },
+    {
+      "language": "es",
+      "translation_path": "es/TRIADIC_BRAIN_MICRO_SPECTRUM.es.md",
+      "record_path": "es/TRANSLATION.json",
+      "navigation_path": "es/README.md"
     }
   ],
   "additional_editions_note": "Separately published editions; source bindings and review scope are defined by each language record, not the original package review."
