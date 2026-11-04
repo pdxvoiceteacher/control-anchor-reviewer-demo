@@ -94,12 +94,33 @@
   ],
   "navigation": {
     "path": "README.md",
-    "bytes": 3640,
-    "sha256": "23d521309c1e342bdea3f9ab55b989777d387c658b401c053d072dc9acaf5e53",
-    "git_blob": "d85fb086df2d1ee4d3b159abb9c5d64a400f5b9f"
+    "bytes": 4881,
+    "sha256": "8256317e0132fa1e5ff2a73251ff72502c7fc2fb5240ef124179dcc2bdf01ffd",
+    "git_blob": "9ddd1370999e2940d05d1623f4a281dbb2a49df3"
   },
   "rights": "Existing rights and attribution preserved; no new blanket prose or media license grant.",
   "authority": "Documentation only; no operational permissions are granted.",
   "package_scope_note": "The translated/not-translated fields describe this whitepaper package only, not the availability of independently published academic editions.",
-  "previous_index_url": "https://github.com/pdxvoiceteacher/control-anchor-reviewer-demo/blob/4e0e0edf2511ddf73c5b91b3634fa048cf763562/docs/whitepaper/triadic-brain-20261102/translations/R6/README.md"
+  "previous_index_url": "https://github.com/pdxvoiceteacher/control-anchor-reviewer-demo/blob/4e0e0edf2511ddf73c5b91b3634fa048cf763562/docs/whitepaper/triadic-brain-20261102/translations/R6/README.md",
+  "additional_editions": [
+    {
+      "language": "fa",
+      "translation_path": "fa/WHITEPAPER.fa.md",
+      "record_path": "fa/TRANSLATION.json",
+      "navigation_path": "fa/README.md"
+    },
+    {
+      "language": "sw",
+      "translation_path": "sw/WHITEPAPER.sw.md",
+      "record_path": "sw/TRANSLATION.json",
+      "navigation_path": "sw/README.md"
+    },
+    {
+      "language": "ar",
+      "translation_path": "ar/WHITEPAPER.ar.md",
+      "record_path": "ar/TRANSLATION.json",
+      "navigation_path": "ar/README.md"
+    }
+  ],
+  "additional_editions_note": "Separately published editions; source bindings and review scope are defined by each language record, not the original package review."
 }
