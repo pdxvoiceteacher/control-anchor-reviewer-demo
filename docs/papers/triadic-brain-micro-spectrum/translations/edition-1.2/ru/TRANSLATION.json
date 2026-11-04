@@ -1,0 +1,66 @@
+{
+  "language": "ru",
+  "language_name": "Русский",
+  "direction": "ltr",
+  "source_commit": "d605904e5ef24712718efc3e4b935b8e3f907a7f",
+  "source_path": "docs/papers/triadic-brain-micro-spectrum/2026-11-03-edition-1.2/TRIADIC_BRAIN_MICRO_SPECTRUM.md",
+  "source_sha256": "6b870b3bc448bed2755995d099b5ca94b35e4c3c09e7e057565116bf315fc0e9",
+  "translation_path": "docs/papers/triadic-brain-micro-spectrum/translations/edition-1.2/ru/TRIADIC_BRAIN_MICRO_SPECTRUM.ru.md",
+  "translation_sha256": "e91bbc71351908ad0e7ed6e44b9d46ab076c2e55de8e57410ed30f78dd9f46b7",
+  "translation_bytes": 183303,
+  "review_date": "2026-11-04",
+  "translation_method": "AI-assisted; not human-certified",
+  "review_evidence": {
+    "language": "ru",
+    "source_edition": "1.2",
+    "source_sha256": "6b870b3bc448bed2755995d099b5ca94b35e4c3c09e7e057565116bf315fc0e9",
+    "translation_sha256": "e91bbc71351908ad0e7ed6e44b9d46ab076c2e55de8e57410ed30f78dd9f46b7",
+    "translation_bytes": 183303,
+    "scope": "Full manuscript, title through Appendix B; no summary substitution",
+    "ai_assisted": true,
+    "human_certified": false,
+    "checks": {
+      "inline_math": {
+        "source_count": 112,
+        "translation_count": 112,
+        "exact_sequence_match": true
+      },
+      "display_math": {
+        "source_count": 29,
+        "translation_count": 29,
+        "exact_sequence_match": true
+      },
+      "urls": {
+        "source_count": 41,
+        "translation_count": 41,
+        "exact_sequence_match": true
+      },
+      "citations": {
+        "source_count": 84,
+        "translation_count": 84,
+        "exact_sequence_match": true
+      },
+      "inline_code": {
+        "source_count": 20,
+        "translation_count": 20,
+        "exact_sequence_match": true
+      }
+    },
+    "review": "Separate AI review of head; translator cross-review of tail; corrected non-vacuity terminology, diagram claim wording, public address resolution wording and two tail substring-replacement corruptions. Harmonized braid terminology to переплетение."
+  },
+  "publication_checks": {
+    "display_math": true,
+    "inline_math": true,
+    "links_exact": true,
+    "inline_code_exact": true
+  },
+  "scope": "Complete main paper; English supplements and machine-readable companions remain unchanged",
+  "limits": {
+    "human_linguistic_certification": false,
+    "runtime_qualification": false,
+    "new_empirical_validation": false,
+    "external_reference_revalidation": false,
+    "browser_accessibility_certification": false
+  },
+  "rights": "Existing attribution and rights preserved; no new blanket license or operational authority"
+}
