@@ -1,0 +1,56 @@
+{
+  "language": "pl",
+  "language_name": "Polski",
+  "direction": "ltr",
+  "source_commit": "55fcddc424bdb773b4e4a1a9fab1b22133c86b01",
+  "source_path": "docs/papers/triadic-brain-micro-spectrum/2026-11-03-edition-1.2/TRIADIC_BRAIN_MICRO_SPECTRUM.md",
+  "source_sha256": "6b870b3bc448bed2755995d099b5ca94b35e4c3c09e7e057565116bf315fc0e9",
+  "translation_path": "docs/papers/triadic-brain-micro-spectrum/translations/edition-1.2/pl/TRIADIC_BRAIN_MICRO_SPECTRUM.pl.md",
+  "translation_sha256": "1a4cdb6be6f2dfa1cc6e2d7392adcff35510ff19f12b256387089d29f90a666f",
+  "reviewed_translation_sha256": "1a4cdb6be6f2dfa1cc6e2d7392adcff35510ff19f12b256387089d29f90a666f",
+  "review_date": "2026-11-04",
+  "translation_method": "AI-assisted; not human-certified",
+  "review_report": "AI_REVIEW.md",
+  "review_report_sha256": "f490cadfc1356e538488314d9944507ce3e9550b1ff4ab785547f8b61cd4e706",
+  "reviewed_input_validation": {
+    "source_sha256": "6b870b3bc448bed2755995d099b5ca94b35e4c3c09e7e057565116bf315fc0e9",
+    "translation_sha256": "1a4cdb6be6f2dfa1cc6e2d7392adcff35510ff19f12b256387089d29f90a666f",
+    "ordered_urls_equal": true,
+    "display_equations_equal": true,
+    "inline_equations_equal": true,
+    "ordered_source_citations_equal": true,
+    "heading_count_source": 50,
+    "heading_count_translation": 50,
+    "equations": 29,
+    "urls": 41,
+    "placeholder_count": 0,
+    "full_sha256_strings_equal": true,
+    "json_example_equal": true,
+    "ai_assistance_notice": true,
+    "no_human_certification_notice": true,
+    "notes": [
+      "Full manuscript translation, not a summary.",
+      "Original reference titles and technical identifiers retained.",
+      "Diagram labels and pseudocode comment translated; pseudocode operations retained.",
+      "Independent full bilingual AI review and affected re-review completed. All six bounded wording findings closed; no unresolved material translation defect identified. Not human certification or publication authorization."
+    ],
+    "pseudocode_operations_equal": true,
+    "source_lines": 764,
+    "translation_lines": 766,
+    "source_words": 11814,
+    "translation_words": 11742,
+    "review_report": "MANUSCRIPT.pl.AI_REVIEW.md"
+  },
+  "publication_changes": {
+    "scope": "Only relative Markdown destination normalization for the publication directory; no prose or other bytes changed. Inverse mapping reconstructs exact independently reviewed translation.",
+    "relative_destination_mapping": {},
+    "inverse_mapping_recovers_reviewed_bytes": true
+  },
+  "limits": {
+    "human_linguistic_certification": false,
+    "runtime_qualification": false,
+    "external_reference_revalidation": false,
+    "browser_render_and_accessibility_certification": false
+  },
+  "rights": "Existing attribution and rights preserved; no new blanket license or operational authority"
+}
