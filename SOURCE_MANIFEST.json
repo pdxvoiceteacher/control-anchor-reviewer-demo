@@ -3098,6 +3098,66 @@
       "publication_review": "FULL_MAIN_MANUSCRIPT_LANGUAGE_AND_TECHNICAL_FIDELITY_REVIEW_WITH_DISCLOSED_LIMITATIONS_NO_FLUENT_HUMAN_RENDERED_ACCESSIBILITY_OR_EMPIRICAL_CERTIFICATION",
       "candidate_sha256": "f0e56af1debd71d7bd0e3f4e2012e31b8e2bbc1e2d2a3123de2a65f2b815d854",
       "bytes": 86374
+    },
+    {
+      "path": "docs/whitepaper/triadic-brain-20261102/translations/R6/fa/README.md",
+      "origin": "NEW_PUBLIC_SOURCE_BOUND_TRANSLATION",
+      "source_basis_paths": [],
+      "modifications": "Complete Persian main-text translation or accompanying source/review record. English source, mathematical blocks, citations, evidence boundaries and existing editions preserved. Separate substantive AI review; no fluent-human, rendering, accessibility, runtime or empirical certification.",
+      "license": "Existing rights and notices preserved; no new blanket prose/media license grant. Cited sources retain their attribution.",
+      "publication_review": "SUBSTANTIVE_AI_LANGUAGE_AND_TECHNICAL_REVIEW_WITH_DISCLOSED_LIMITATIONS",
+      "candidate_sha256": "2fd2edde94e1daa98b07e03c87f83c1099e99c142e77ab312fe630cb13e0967b",
+      "bytes": 2438
+    },
+    {
+      "path": "docs/whitepaper/triadic-brain-20261102/translations/R6/fa/TRANSLATION.json",
+      "origin": "NEW_PUBLIC_SOURCE_BOUND_TRANSLATION",
+      "source_basis_paths": [],
+      "modifications": "Complete Persian main-text translation or accompanying source/review record. English source, mathematical blocks, citations, evidence boundaries and existing editions preserved. Separate substantive AI review; no fluent-human, rendering, accessibility, runtime or empirical certification.",
+      "license": "Existing rights and notices preserved; no new blanket prose/media license grant. Cited sources retain their attribution.",
+      "publication_review": "SUBSTANTIVE_AI_LANGUAGE_AND_TECHNICAL_REVIEW_WITH_DISCLOSED_LIMITATIONS",
+      "candidate_sha256": "07f663d84071055ad86ad34c88ff5567b9cf24ed87e8611ab8bb304b35a72bbf",
+      "bytes": 1593
+    },
+    {
+      "path": "docs/whitepaper/triadic-brain-20261102/translations/R6/fa/WHITEPAPER.fa.md",
+      "origin": "NEW_PUBLIC_SOURCE_BOUND_TRANSLATION",
+      "source_basis_paths": [],
+      "modifications": "Complete Persian main-text translation or accompanying source/review record. English source, mathematical blocks, citations, evidence boundaries and existing editions preserved. Separate substantive AI review; no fluent-human, rendering, accessibility, runtime or empirical certification.",
+      "license": "Existing rights and notices preserved; no new blanket prose/media license grant. Cited sources retain their attribution.",
+      "publication_review": "SUBSTANTIVE_AI_LANGUAGE_AND_TECHNICAL_REVIEW_WITH_DISCLOSED_LIMITATIONS",
+      "candidate_sha256": "a1b36fe0f5f81fce435c837f061cd83dd99b012eac62398c663b159434d48d14",
+      "bytes": 155209
+    },
+    {
+      "path": "docs/papers/triadic-brain-micro-spectrum/translations/edition-1.2/fa/README.md",
+      "origin": "NEW_PUBLIC_SOURCE_BOUND_TRANSLATION",
+      "source_basis_paths": [],
+      "modifications": "Complete Persian main-text translation or accompanying source/review record. English source, mathematical blocks, citations, evidence boundaries and existing editions preserved. Separate substantive AI review; no fluent-human, rendering, accessibility, runtime or empirical certification.",
+      "license": "Existing rights and notices preserved; no new blanket prose/media license grant. Cited sources retain their attribution.",
+      "publication_review": "SUBSTANTIVE_AI_LANGUAGE_AND_TECHNICAL_REVIEW_WITH_DISCLOSED_LIMITATIONS",
+      "candidate_sha256": "6c116cd9762132250c3a2b9ace93f7a26291fbb51d7dba766b469121d9cb7c8b",
+      "bytes": 2760
+    },
+    {
+      "path": "docs/papers/triadic-brain-micro-spectrum/translations/edition-1.2/fa/TRANSLATION.json",
+      "origin": "NEW_PUBLIC_SOURCE_BOUND_TRANSLATION",
+      "source_basis_paths": [],
+      "modifications": "Complete Persian main-text translation or accompanying source/review record. English source, mathematical blocks, citations, evidence boundaries and existing editions preserved. Separate substantive AI review; no fluent-human, rendering, accessibility, runtime or empirical certification.",
+      "license": "Existing rights and notices preserved; no new blanket prose/media license grant. Cited sources retain their attribution.",
+      "publication_review": "SUBSTANTIVE_AI_LANGUAGE_AND_TECHNICAL_REVIEW_WITH_DISCLOSED_LIMITATIONS",
+      "candidate_sha256": "79e756fbb9252f7ad0795dcab6caf721340a8739240caf3ad97b50d5c93db5c6",
+      "bytes": 1766
+    },
+    {
+      "path": "docs/papers/triadic-brain-micro-spectrum/translations/edition-1.2/fa/TRIADIC_BRAIN_MICRO_SPECTRUM.fa.md",
+      "origin": "NEW_PUBLIC_SOURCE_BOUND_TRANSLATION",
+      "source_basis_paths": [],
+      "modifications": "Complete Persian main-text translation or accompanying source/review record. English source, mathematical blocks, citations, evidence boundaries and existing editions preserved. Separate substantive AI review; no fluent-human, rendering, accessibility, runtime or empirical certification.",
+      "license": "Existing rights and notices preserved; no new blanket prose/media license grant. Cited sources retain their attribution.",
+      "publication_review": "SUBSTANTIVE_AI_LANGUAGE_AND_TECHNICAL_REVIEW_WITH_DISCLOSED_LIMITATIONS",
+      "candidate_sha256": "b517e5fb1caf637d1d976657ffb1b2e299da9a0d44bf0b2539c3e5e3b31a7512",
+      "bytes": 153354
     }
   ],
   "dependency_closure": {
