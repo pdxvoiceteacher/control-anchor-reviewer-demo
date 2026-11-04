@@ -30,7 +30,7 @@ Read the [3 November design refinements](../../design-notes/2026-11-03-refinemen
 
 ## Language availability
 
-**English R6 and source-bound French and Spanish main-whitepaper translations are available in this packet.** See the [translation scope and review record](translations/R6/README.md). The planned set contains 19 editions including English, not 19 additional translations. The table tracks R6 availability here; other planned entries are not download links or claims of completed translation or review. Earlier source-bound drafts do not automatically inherit R6 alignment.
+**English R6 and source-bound French, Spanish, Simplified Chinese (written Mandarin), Hindi and Hebrew main-whitepaper translations are available in this packet.** See the [translation scope and review record](translations/R6/README.md). The planned set now contains 20 editions including English, with Hebrew added; this is not 20 additional translations. The table tracks R6 availability here; other planned entries are not download links or claims of completed translation or review. Earlier source-bound drafts do not automatically inherit R6 alignment.
 
 | Language | Main whitepaper status |
 |---|---|
@@ -39,11 +39,11 @@ Read the [3 November design refinements](../../design-notes/2026-11-03-refinemen
 | español — Spanish | [Full R6 main-text translation](translations/R6/es/WHITEPAPER.es.md) |
 | français — French | [Full R6 main-text translation](translations/R6/fr/WHITEPAPER.fr.md) |
 | русский — Russian | Planned |
-| 简体中文 — Simplified Chinese | Planned |
+| 简体中文 — Simplified Chinese | [Full R6 main-text translation](translations/R6/zh-Hans/WHITEPAPER.zh-Hans.md) |
 | 繁體中文 — Traditional Chinese | Planned |
 | português (Brasil) — Brazilian Portuguese | Planned |
 | português (Portugal) — European Portuguese | Planned |
-| हिन्दी — Hindi | Planned |
+| हिन्दी — Hindi | [Full R6 main-text translation](translations/R6/hi/WHITEPAPER.hi.md) |
 | বাংলা — Bengali | Planned |
 | اردو — Urdu | Planned |
 | Bahasa Indonesia — Indonesian | Planned |
@@ -53,10 +53,11 @@ Read the [3 November design refinements](../../design-notes/2026-11-03-refinemen
 | 한국어 — Korean | Planned |
 | Türkçe — Turkish | Planned |
 | Tiếng Việt — Vietnamese | Planned |
+| <span dir="rtl" lang="he">עברית</span> — Hebrew | [Full R6 main-text translation](translations/R6/he/WHITEPAPER.he.md) |
 
 A full main-whitepaper translation includes its compact 86-entry mixed-kind index, research appendix and references. It is **not** a translation of the separate detailed family guide, term register or entire reference bundle. Those supplements and the research crosswalk are currently English only and must be labeled accordingly wherever linked.
 
-Each available translation identifies its exact English source version, completeness, translation method and actual review state. A translated summary is not a full main-whitepaper edition. French and Spanish received separate AI-assisted language and technical fidelity reviews; fluent-human certification and rendered-accessibility certification are not claimed.
+Each available translation identifies its exact English source version, completeness, translation method and actual review state. A translated summary is not a full main-whitepaper edition. The available translations received separate AI-assisted language and technical fidelity reviews. Hebrew uses right-to-left document formatting and left-to-right mathematical blocks; fluent-human certification and rendered-accessibility certification are not claimed.
 
 ## Community ethos
 

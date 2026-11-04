@@ -1200,14 +1200,14 @@
     },
     {
       "path": "README.md",
-      "candidate_sha256": "7a1eb4df5645e57fed6bd3b45df2fcb64b5344de2b1f5d691c62dd428d2570ae",
+      "candidate_sha256": "c82b5b9bb1d8ec5f96af453911a856086b6ce4dc4abe1ef7cb7b90db34de175b",
       "origin": "ADAPTED",
       "source_basis_paths": [],
       "modifications": "New reviewer explanation based on maintained architecture; limits bound to extracted implementation. Added link to a source-attributed methods appendix and its bounded teaching claims. Added self-contained Mermaid responsibility diagram separating intended product integration, observed synthetic offline demo and future peer network; no runtime or validation-result changes.",
       "license": "MPL-2.0 to extent rights exist and covered",
       "publication_review": "OWNER_APPROVED_PUBLIC_SOURCE_ACCESS_EXISTING_RIGHTS_PRESERVED_NO_NEW_LICENSE",
       "historical_publication_review": "FINAL_CONTENT_DECISION_PENDING",
-      "bytes": 33095,
+      "bytes": 33357,
       "cooperative_ethos_clarification_2026_11_02": "Owner-directed freedom, local ownership, voluntary mutual aid and practical exit; informed higher overhead may be legitimate. Existing capability limits, rights and public contribution route preserved. No runtime change or new operational evidence.",
       "whitepaper_navigation_2026_11_02": "Added one English design-edition and contribution navigation link, with translations-pending and unchanged-demo scope. No runtime or rights change.",
       "brain_map_revision_history": [
@@ -1806,8 +1806,8 @@
       "modifications": "Frozen R4 source-aligned English design or contribution documentation, or original navigation. Descriptive data only; no new runtime evidence, channel activation or execution authority.",
       "license": "Existing rights and notices preserved; no new media/prose license grant.",
       "publication_review": "OWNER_REQUESTED_PUBLIC_DOCUMENTATION_EXISTING_RIGHTS_PRESERVED",
-      "candidate_sha256": "1d06673abedc5703726e4020c6ad0849ce40549d05d8c1d8d824b5939f68b449",
-      "bytes": 10188
+      "candidate_sha256": "0e3e42ea87858d1b23ffef1723547f646e27e1726dff68a3775d725c0ade6449",
+      "bytes": 10628
     },
     {
       "path": "docs/whitepaper/triadic-brain-20261102/contribute/CONTRIBUTION_CHANNELS.en.md",
@@ -2716,8 +2716,8 @@
       "modifications": "Edition 1.2 manuscript snapshot and explanatory companion, or separate navigation. Selected source reconstruction, analytic deductions and proposed evaluation remain distinguished from empirical findings.",
       "license": "Existing rights and notices preserved; no new blanket prose/media license grant. Primary scholarly works are cited, not redistributed.",
       "publication_review": "SCOPED_MANUSCRIPT_AND_PACKAGING_REVIEW_RECORDS_RETAINED_SEPARATELY_NO_EMPIRICAL_QUALIFICATION",
-      "candidate_sha256": "3c84c41ba319d65aa5fae9edf82fb3c84fcca16cff80d200de43e70b1a9edbf7",
-      "bytes": 2626
+      "candidate_sha256": "f3f5bb7796bf315afe1e0751ed70da0d3c55b948dc1c3579999d5f530a70b881",
+      "bytes": 2835
     },
     {
       "path": "docs/brain-map/map.json",
@@ -2856,8 +2856,8 @@
       "modifications": "French/Spanish full-main R6 translation package, bound to the published English R6 source. English supplements, earlier editions and technical manuscript remain unchanged. Exact scope and review limits are recorded in the translation index.",
       "license": "Existing rights and notices preserved; no new blanket prose/media license grant. Cited sources retain their attribution.",
       "publication_review": "WHOLE_MAIN_TEXT_LANGUAGE_AND_TECHNICAL_FIDELITY_REVIEW_WITH_BOUNDED_REPAIRS_NO_HUMAN_ACCESSIBILITY_RUNTIME_OR_EMPIRICAL_CERTIFICATION",
-      "candidate_sha256": "08a0dae33f7adb08fa6ba92dfb47fe71b279df35615c4c9560d96bf3264908c1",
-      "bytes": 2883
+      "candidate_sha256": "23d521309c1e342bdea3f9ab55b989777d387c658b401c053d072dc9acaf5e53",
+      "bytes": 3640
     },
     {
       "path": "docs/whitepaper/triadic-brain-20261102/translations/R6/TRANSLATIONS.json",
@@ -2866,8 +2866,8 @@
       "modifications": "French/Spanish full-main R6 translation package, bound to the published English R6 source. English supplements, earlier editions and technical manuscript remain unchanged. Exact scope and review limits are recorded in the translation index.",
       "license": "Existing rights and notices preserved; no new blanket prose/media license grant. Cited sources retain their attribution.",
       "publication_review": "WHOLE_MAIN_TEXT_LANGUAGE_AND_TECHNICAL_FIDELITY_REVIEW_WITH_BOUNDED_REPAIRS_NO_HUMAN_ACCESSIBILITY_RUNTIME_OR_EMPIRICAL_CERTIFICATION",
-      "candidate_sha256": "d032f1d0756b194c19260b67e7df52fda95ab36a8d61e69cc2f6c4ba7536a97c",
-      "bytes": 3129
+      "candidate_sha256": "d90fa2885c8253a3ffbd5be11ef561ae47c253cb10ba667bbd3236666f478431",
+      "bytes": 5004
     },
     {
       "path": "docs/whitepaper/triadic-brain-20261102/translations/R6/fr/WHITEPAPER.fr.md",
@@ -2998,6 +2998,106 @@
       "modifications": "Bounded retrosynthesis public projection: synthetic demo, focused test/identity guard, optional dependency requirement, scope documentation or public-only validation. AI-assisted under owner instruction.",
       "license": "MPL-2.0 to extent rights exist and covered",
       "publication_review": "OWNER_AUTHORIZED_SCOPED_PROJECTION_EXISTING_RIGHTS_PRESERVED_NOT_FORMAL_TITLE_CLEARANCE"
+    },
+    {
+      "path": "docs/whitepaper/triadic-brain-20261102/translations/R6/zh-Hans/WHITEPAPER.zh-Hans.md",
+      "origin": "NEW_PUBLIC_SOURCE_BOUND_TRANSLATION",
+      "source_basis_paths": [],
+      "modifications": "Complete R6 main-whitepaper translation bound to the published English source. All 86 mixed-kind records, appendices, formulas and references are preserved. English supplements and previous editions remain unchanged. Translation method and bounded review limits are recorded in the accompanying index.",
+      "license": "Existing rights and notices preserved; no new blanket prose/media license grant. Cited sources retain their attribution.",
+      "publication_review": "WHOLE_MAIN_TEXT_LANGUAGE_AND_TECHNICAL_FIDELITY_REVIEW_NO_FLUENT_HUMAN_ACCESSIBILITY_RUNTIME_OR_EMPIRICAL_CERTIFICATION",
+      "candidate_sha256": "400377da0e14f454122a7c6b317b0fce8fd8fe16a9befcc86fbc1816809f4a60",
+      "bytes": 102393
+    },
+    {
+      "path": "docs/whitepaper/triadic-brain-20261102/translations/R6/hi/WHITEPAPER.hi.md",
+      "origin": "NEW_PUBLIC_SOURCE_BOUND_TRANSLATION",
+      "source_basis_paths": [],
+      "modifications": "Complete R6 main-whitepaper translation bound to the published English source. All 86 mixed-kind records, appendices, formulas and references are preserved. English supplements and previous editions remain unchanged. Translation method and bounded review limits are recorded in the accompanying index.",
+      "license": "Existing rights and notices preserved; no new blanket prose/media license grant. Cited sources retain their attribution.",
+      "publication_review": "WHOLE_MAIN_TEXT_LANGUAGE_AND_TECHNICAL_FIDELITY_REVIEW_NO_FLUENT_HUMAN_ACCESSIBILITY_RUNTIME_OR_EMPIRICAL_CERTIFICATION",
+      "candidate_sha256": "2d771aafb81d549a0ae5b5c48b794ab9d8a80868436a5998360c68507cb005f7",
+      "bytes": 236738
+    },
+    {
+      "path": "docs/whitepaper/triadic-brain-20261102/translations/R6/he/WHITEPAPER.he.md",
+      "origin": "NEW_PUBLIC_SOURCE_BOUND_TRANSLATION",
+      "source_basis_paths": [],
+      "modifications": "Complete R6 main-whitepaper translation bound to the published English source. All 86 mixed-kind records, appendices, formulas and references are preserved. English supplements and previous editions remain unchanged. Translation method and bounded review limits are recorded in the accompanying index.",
+      "license": "Existing rights and notices preserved; no new blanket prose/media license grant. Cited sources retain their attribution.",
+      "publication_review": "WHOLE_MAIN_TEXT_LANGUAGE_AND_TECHNICAL_FIDELITY_REVIEW_NO_FLUENT_HUMAN_ACCESSIBILITY_RUNTIME_OR_EMPIRICAL_CERTIFICATION",
+      "candidate_sha256": "d5cb67b30ed9edfafc538e466e79e151e00a2fcc146fd7bf23555587afc5ccdc",
+      "bytes": 153164
+    },
+    {
+      "path": "docs/papers/triadic-brain-micro-spectrum/translations/edition-1.2/README.md",
+      "origin": "NEW_PUBLIC_TRANSLATION_NAVIGATION_AND_BINDING",
+      "source_basis_paths": [],
+      "modifications": "Complete main-manuscript translations and public translation-review records for the unchanged English technical manuscript edition 1.2. Equations, citations, technical distinctions and source identity are preserved. Machine-readable companions remain English; no new empirical or product qualification is asserted.",
+      "license": "Existing rights and notices preserved; no new blanket prose/media license grant. Cited sources retain their attribution.",
+      "publication_review": "FULL_MAIN_MANUSCRIPT_LANGUAGE_AND_TECHNICAL_FIDELITY_REVIEW_WITH_DISCLOSED_LIMITATIONS_NO_FLUENT_HUMAN_RENDERED_ACCESSIBILITY_OR_EMPIRICAL_CERTIFICATION",
+      "candidate_sha256": "ccd2bf3b867cb846a7b9254d291f02ee2836ad5ada7aec6d1f7dcc838cf35ccc",
+      "bytes": 2752
+    },
+    {
+      "path": "docs/papers/triadic-brain-micro-spectrum/translations/edition-1.2/TRANSLATION_MANIFEST.json",
+      "origin": "NEW_PUBLIC_TRANSLATION_NAVIGATION_AND_BINDING",
+      "source_basis_paths": [],
+      "modifications": "Complete main-manuscript translations and public translation-review records for the unchanged English technical manuscript edition 1.2. Equations, citations, technical distinctions and source identity are preserved. Machine-readable companions remain English; no new empirical or product qualification is asserted.",
+      "license": "Existing rights and notices preserved; no new blanket prose/media license grant. Cited sources retain their attribution.",
+      "publication_review": "FULL_MAIN_MANUSCRIPT_LANGUAGE_AND_TECHNICAL_FIDELITY_REVIEW_WITH_DISCLOSED_LIMITATIONS_NO_FLUENT_HUMAN_RENDERED_ACCESSIBILITY_OR_EMPIRICAL_CERTIFICATION",
+      "candidate_sha256": "d408eafd9e876be387fd4184d15c72350fb8d76c4a7cda1a8264c641244861dd",
+      "bytes": 1571
+    },
+    {
+      "path": "docs/papers/triadic-brain-micro-spectrum/translations/edition-1.2/TRANSLATION_REVIEW.json",
+      "origin": "NEW_PUBLIC_TRANSLATION_NAVIGATION_AND_BINDING",
+      "source_basis_paths": [],
+      "modifications": "Complete main-manuscript translations and public translation-review records for the unchanged English technical manuscript edition 1.2. Equations, citations, technical distinctions and source identity are preserved. Machine-readable companions remain English; no new empirical or product qualification is asserted.",
+      "license": "Existing rights and notices preserved; no new blanket prose/media license grant. Cited sources retain their attribution.",
+      "publication_review": "FULL_MAIN_MANUSCRIPT_LANGUAGE_AND_TECHNICAL_FIDELITY_REVIEW_WITH_DISCLOSED_LIMITATIONS_NO_FLUENT_HUMAN_RENDERED_ACCESSIBILITY_OR_EMPIRICAL_CERTIFICATION",
+      "candidate_sha256": "527c7c479b3b179ae157812875ca1f952646107c8304d77c24810b67db360ebf",
+      "bytes": 27522
+    },
+    {
+      "path": "docs/papers/triadic-brain-micro-spectrum/translations/edition-1.2/fr/TRIADIC_BRAIN_MICRO_SPECTRUM.fr.md",
+      "origin": "NEW_PUBLIC_SOURCE_BOUND_TRANSLATION",
+      "source_basis_paths": [],
+      "modifications": "Complete main-manuscript translations and public translation-review records for the unchanged English technical manuscript edition 1.2. Equations, citations, technical distinctions and source identity are preserved. Machine-readable companions remain English; no new empirical or product qualification is asserted.",
+      "license": "Existing rights and notices preserved; no new blanket prose/media license grant. Cited sources retain their attribution.",
+      "publication_review": "FULL_MAIN_MANUSCRIPT_LANGUAGE_AND_TECHNICAL_FIDELITY_REVIEW_WITH_DISCLOSED_LIMITATIONS_NO_FLUENT_HUMAN_RENDERED_ACCESSIBILITY_OR_EMPIRICAL_CERTIFICATION",
+      "candidate_sha256": "37118bae456185f3d28526830f844d7f01f1b39121704a836c59960dd2f4ea69",
+      "bytes": 117844
+    },
+    {
+      "path": "docs/papers/triadic-brain-micro-spectrum/translations/edition-1.2/he/TRIADIC_BRAIN_MICRO_SPECTRUM.he.md",
+      "origin": "NEW_PUBLIC_SOURCE_BOUND_TRANSLATION",
+      "source_basis_paths": [],
+      "modifications": "Complete main-manuscript translations and public translation-review records for the unchanged English technical manuscript edition 1.2. Equations, citations, technical distinctions and source identity are preserved. Machine-readable companions remain English; no new empirical or product qualification is asserted.",
+      "license": "Existing rights and notices preserved; no new blanket prose/media license grant. Cited sources retain their attribution.",
+      "publication_review": "FULL_MAIN_MANUSCRIPT_LANGUAGE_AND_TECHNICAL_FIDELITY_REVIEW_WITH_DISCLOSED_LIMITATIONS_NO_FLUENT_HUMAN_RENDERED_ACCESSIBILITY_OR_EMPIRICAL_CERTIFICATION",
+      "candidate_sha256": "7297a600ea7b67ae4af7d10b6757ee52d001f0a654edb87594f7fe2446628ff6",
+      "bytes": 131970
+    },
+    {
+      "path": "docs/papers/triadic-brain-micro-spectrum/translations/edition-1.2/hi/TRIADIC_BRAIN_MICRO_SPECTRUM.hi.md",
+      "origin": "NEW_PUBLIC_SOURCE_BOUND_TRANSLATION",
+      "source_basis_paths": [],
+      "modifications": "Complete main-manuscript translations and public translation-review records for the unchanged English technical manuscript edition 1.2. Equations, citations, technical distinctions and source identity are preserved. Machine-readable companions remain English; no new empirical or product qualification is asserted.",
+      "license": "Existing rights and notices preserved; no new blanket prose/media license grant. Cited sources retain their attribution.",
+      "publication_review": "FULL_MAIN_MANUSCRIPT_LANGUAGE_AND_TECHNICAL_FIDELITY_REVIEW_WITH_DISCLOSED_LIMITATIONS_NO_FLUENT_HUMAN_RENDERED_ACCESSIBILITY_OR_EMPIRICAL_CERTIFICATION",
+      "candidate_sha256": "633cd8eeaa0c4abe457132bf477b7466b89fece617710425381dceffbc4bea59",
+      "bytes": 212522
+    },
+    {
+      "path": "docs/papers/triadic-brain-micro-spectrum/translations/edition-1.2/zh-Hans/TRIADIC_BRAIN_MICRO_SPECTRUM.zh-Hans.md",
+      "origin": "NEW_PUBLIC_SOURCE_BOUND_TRANSLATION",
+      "source_basis_paths": [],
+      "modifications": "Complete main-manuscript translations and public translation-review records for the unchanged English technical manuscript edition 1.2. Equations, citations, technical distinctions and source identity are preserved. Machine-readable companions remain English; no new empirical or product qualification is asserted.",
+      "license": "Existing rights and notices preserved; no new blanket prose/media license grant. Cited sources retain their attribution.",
+      "publication_review": "FULL_MAIN_MANUSCRIPT_LANGUAGE_AND_TECHNICAL_FIDELITY_REVIEW_WITH_DISCLOSED_LIMITATIONS_NO_FLUENT_HUMAN_RENDERED_ACCESSIBILITY_OR_EMPIRICAL_CERTIFICATION",
+      "candidate_sha256": "f0e56af1debd71d7bd0e3f4e2012e31b8e2bbc1e2d2a3123de2a65f2b815d854",
+      "bytes": 86374
     }
   ],
   "dependency_closure": {

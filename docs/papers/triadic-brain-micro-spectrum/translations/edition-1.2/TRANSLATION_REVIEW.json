@@ -1,0 +1,538 @@
+{
+  "source_sha256": "6b870b3bc448bed2755995d099b5ca94b35e4c3c09e7e057565116bf315fc0e9",
+  "scope": "Full main manuscript translations; machine companions remain English. No new scientific or product qualification.",
+  "review_method": "Full target-language prose comparison against frozen English source, with exact technical-string checks and author-separated correction review. AI-assisted only; not fluent-human certification.",
+  "translations": [
+    {
+      "language": "fr",
+      "reviewed_file": "fr/TRIADIC_BRAIN_MICRO_SPECTRUM.fr.md",
+      "sha256": "37118bae456185f3d28526830f844d7f01f1b39121704a836c59960dd2f4ea69",
+      "scope": "Full main manuscript prose, headings, tables, evidence index and appendices, compared with frozen English source; exact invariant checks cover code, math, citations and links.",
+      "result": "PASS_WITH_DISCLOSED_LIMITATIONS",
+      "review": "Independent author-separated AI-assisted language and technical review",
+      "findings": [
+        {
+          "id": "FR-001",
+          "location": "front note and section 4 numerical bounds",
+          "finding": "English comma-thousands strings can be read as decimal separators in French.",
+          "status": "closed; body unchanged verified",
+          "correction": "Added explicit English numerical-notation convention to front note, keeping source literals unchanged."
+        },
+        {
+          "id": "FR-002",
+          "location": "sections 7.4 and 15",
+          "finding": "Literal rendering of raw-free as sans données brutes could suggest broader content exclusion than the source guarantees.",
+          "status": "closed; exact source scope and privacy limitations rechecked",
+          "correction": "Retained raw-free with a bounded-exclusion gloss at first occurrence; section15 retains residual-identifying-content caveats."
+        }
+      ],
+      "limitations": [
+        "AI-assisted review, no fluent-human certification",
+        "Code, diagrams, formula operator labels and bibliography intentionally retain English",
+        "Main manuscript only; machine companions remain English",
+        "No browser rendering certification"
+      ],
+      "invariants": {
+        "fenced_blocks": {
+          "pass": true,
+          "source_count": 3,
+          "target_count": 3
+        },
+        "display_math": {
+          "pass": true,
+          "source_count": 29,
+          "target_count": 29
+        },
+        "inline_math": {
+          "pass": true,
+          "source_count": 112,
+          "target_count": 112,
+          "ordered_equal": true,
+          "note": "Reordering requires semantic review of operand roles."
+        },
+        "inline_code": {
+          "pass": true,
+          "source_count": 20,
+          "target_count": 21,
+          "missing": {}
+        },
+        "urls": {
+          "pass": true,
+          "source_count": 41,
+          "target_count": 42,
+          "missing": {}
+        },
+        "evidence_citations": {
+          "pass": true,
+          "source_count": 84,
+          "target_count": 84
+        },
+        "heading_levels": {
+          "pass": true,
+          "source_count": 50,
+          "target_count": 50
+        },
+        "numbered_headings": {
+          "pass": true,
+          "source_count": 43,
+          "target_count": 43
+        }
+      }
+    },
+    {
+      "language": "zh-Hans",
+      "reviewed_file": "zh-Hans/TRIADIC_BRAIN_MICRO_SPECTRUM.zh-Hans.md",
+      "sha256": "f0e56af1debd71d7bd0e3f4e2012e31b8e2bbc1e2d2a3123de2a65f2b815d854",
+      "scope": "Complete title/front note, abstract, all main-manuscript paragraphs, headings, tables, all 18 references, I01–I20 source evidence index, and both appendices compared paragraph by paragraph with the frozen English manuscript. Machine companions were not translated or independently audited in this review.",
+      "result": "PASS_WITH_DISCLOSED_LIMITATIONS",
+      "review": "Independent author-separated AI-assisted language and technical review",
+      "findings": [
+        {
+          "id": "ZH-001",
+          "location": "section 2.2",
+          "finding": "Separate historical qualification should not imply evidential independence.",
+          "status": "closed_corrected_and_verified",
+          "correction": "一项独立的三案例配套验证 → 一项单独的三案例配套验证"
+        },
+        {
+          "id": "ZH-002",
+          "location": "section 4",
+          "finding": "Accounting reservation was narrowed to billing allowance; preserve generic accounting scope.",
+          "status": "closed_corrected_and_verified",
+          "correction": "并预留计费额度 → 并预留核算额度"
+        },
+        {
+          "id": "ZH-003",
+          "location": "section 7.1",
+          "finding": "Unique lexical token types means distinct types after deduplication, not a sole token type.",
+          "status": "closed_corrected_and_verified",
+          "correction": "其唯一 token 类型覆盖率 → 其去重后的 token 类型覆盖率"
+        },
+        {
+          "id": "ZH-004",
+          "location": "section 7.4 and 15",
+          "finding": "Raw-free was phrased as absence of original content, risking a stronger privacy claim than excluding specified raw bytes from review input.",
+          "status": "closed_corrected_and_verified",
+          "correction": "读取不含原始内容的核验回执 → 读取 raw-free（不纳入特定原始字节）的核验回执; 将不含原始内容的包称为匿名 → 将 raw-free 包称为匿名; 不含原始内容的回执是一种省略边界 → raw-free 回执是一种省略边界"
+        },
+        {
+          "id": "ZH-005",
+          "location": "section 9.2",
+          "finding": "Graph spectrum was rendered by a word that can denote a graph/map rather than the eigenvalue spectrum.",
+          "status": "closed_corrected_and_verified",
+          "correction": "任何实际图谱或运行 → 任何实际图的谱或运行"
+        },
+        {
+          "id": "ZH-006",
+          "location": "section 10",
+          "finding": "Tested shelf was interpreted as a reserve component, adding a concrete component meaning not specified by the English source.",
+          "status": "closed_corrected_and_verified",
+          "correction": "已测试的储备组件 → 已测试的 shelf"
+        },
+        {
+          "id": "ZH-007",
+          "location": "section 10.1",
+          "finding": "Separate lineage was rendered as independent lineage, although lineage separation alone does not establish independent origins.",
+          "status": "closed_corrected_and_verified",
+          "correction": "在保持各自独立谱系的同时 → 在保留各自谱系的同时"
+        },
+        {
+          "id": "ZH-008",
+          "location": "section 14.3",
+          "finding": "Accepted quality was rendered as acceptable quality; comparison must concern quality of accepted outputs, not merely an acceptability threshold.",
+          "status": "closed_corrected_and_verified",
+          "correction": "在可接受质量与覆盖程度相当的条件下 → 在已接受输出的质量与覆盖程度相当的条件下; 等效服务的节省要求可接受质量与覆盖程度具有可比性 → 等效服务的节省要求已接受输出的质量与覆盖程度具有可比性"
+        }
+      ],
+      "limitations": [
+        "AI-assisted review only. It is not fluent-human certification, certified translation, journal peer review or empirical replication.",
+        "Technical readability was reviewed, but specialist fluent-human editorial review may still improve idiom and regional terminology.",
+        "Code, diagrams, formulas and their internal text/operator labels, identifiers and bibliography intentionally remain English to preserve exact bindings.",
+        "The source-specific shelf term is retained rather than interpreted as an implemented component; raw-free is retained with a bounded exclusion gloss.",
+        "Main manuscript only; machine-readable companions remain authoritative English artifacts and were not translated in this review.",
+        "No browser, GitHub Markdown or visual rendering verification was performed. No product module, product test/CI, provider or live-peer execution was performed.",
+        "Source manuscript claims and cited private evidence were assessed for faithful transfer, not re-established by a fresh repository audit or by reopening every cited external reference."
+      ],
+      "invariants": {
+        "fenced_blocks": {
+          "pass": true,
+          "source_count": 3,
+          "target_count": 3
+        },
+        "display_math": {
+          "pass": true,
+          "source_count": 29,
+          "target_count": 29
+        },
+        "inline_math": {
+          "pass": true,
+          "source_count": 112,
+          "target_count": 112,
+          "ordered_equal": true,
+          "note": "Reordering requires semantic review of operand roles."
+        },
+        "inline_code": {
+          "pass": true,
+          "source_count": 20,
+          "target_count": 21,
+          "missing": {}
+        },
+        "urls": {
+          "pass": true,
+          "source_count": 41,
+          "target_count": 42,
+          "missing": {}
+        },
+        "evidence_citations": {
+          "pass": true,
+          "source_count": 84,
+          "target_count": 84
+        },
+        "heading_levels": {
+          "pass": true,
+          "source_count": 50,
+          "target_count": 50
+        },
+        "numbered_headings": {
+          "pass": true,
+          "source_count": 43,
+          "target_count": 43
+        }
+      }
+    },
+    {
+      "language": "hi",
+      "reviewed_file": "hi/TRIADIC_BRAIN_MICRO_SPECTRUM.hi.md",
+      "sha256": "633cd8eeaa0c4abe457132bf477b7466b89fece617710425381dceffbc4bea59",
+      "scope": "Complete title/front note, abstract, all main-manuscript paragraphs, headings, tables, all 18 references, I01–I20 source evidence index, and both appendices compared paragraph by paragraph with the frozen English manuscript. Machine companions were not translated or independently audited in this review.",
+      "result": "PASS_WITH_DISCLOSED_LIMITATIONS",
+      "review": "Independent author-separated AI-assisted language and technical review",
+      "findings": [
+        {
+          "id": "HI-001",
+          "location": "section 3, 5.2, 6.1, 13.1 and evidence index I04",
+          "finding": "Serialization terminology overlapped with ordinary sorting, especially beside sorted keys; distinguish encoding to bytes from sorting.",
+          "status": "closed_corrected_and_verified",
+          "correction": "अलग बाइटों में क्रमबद्ध हो सकते हैं → अलग बाइट अनुक्रमों में सीरियलाइज़ हो सकते हैं; क्रमबद्धीकरण → सीरियलाइज़ेशन; समान क्रमबद्ध आर्टिफैक्ट → समान सीरियलाइज़ किए गए आर्टिफैक्ट; एक प्रॉम्प्ट स्ट्रिंग में क्रमबद्ध कर सकता है → एक प्रॉम्प्ट स्ट्रिंग में सीरियलाइज़ कर सकता है"
+        },
+        {
+          "id": "HI-002",
+          "location": "section 7.4 and 15",
+          "finding": "Raw-free was rendered as devoid of original material, potentially overstating content exclusion and privacy.",
+          "status": "closed_corrected_and_verified",
+          "correction": "मूल सामग्री से रहित सत्यापन रसीदें → raw-free (कुछ मूल बाइटों को शामिल किए बिना तैयार) सत्यापन रसीदें; मूल सामग्री से रहित बंडल → raw-free बंडल; मूल सामग्री से रहित रसीद → raw-free रसीद"
+        },
+        {
+          "id": "HI-003",
+          "location": "section 8.4",
+          "finding": "The predeclared no-improvement falsification criterion could be read as an improvement declared in advance.",
+          "status": "closed_corrected_and_verified",
+          "correction": "समर्थन में पहले से घोषित सुधार का न मिलना → पूर्वघोषित मानदंड के अनुसार समर्थन में सुधार का अभाव"
+        },
+        {
+          "id": "HI-004",
+          "location": "section 12.1",
+          "finding": "Singular zero-variance boundary was rendered using the grammatical singular-number term.",
+          "status": "closed_corrected_and_verified",
+          "correction": "उसकी एकवचन शून्य-प्रसरण सीमा → उसकी शून्य-प्रसरण वाली सिंगुलर सीमा"
+        },
+        {
+          "id": "HI-005",
+          "location": "section 15",
+          "finding": "Custodian compromise was rendered as an agreement with the custodian instead of a security compromise.",
+          "status": "closed_corrected_and_verified",
+          "correction": "विशेषाधिकारयुक्त अभिरक्षक से समझौता → विशेषाधिकारयुक्त अभिरक्षक की सुरक्षा भंग होना"
+        }
+      ],
+      "limitations": [
+        "AI-assisted review only. It is not fluent-human certification, certified translation, journal peer review or empirical replication.",
+        "Technical readability was reviewed, but specialist fluent-human editorial review may still improve idiom and regional terminology.",
+        "Code, diagrams, formulas and their internal text/operator labels, identifiers and bibliography intentionally remain English to preserve exact bindings.",
+        "The source-specific shelf term is retained rather than interpreted as an implemented component; raw-free is retained with a bounded exclusion gloss.",
+        "Main manuscript only; machine-readable companions remain authoritative English artifacts and were not translated in this review.",
+        "No browser, GitHub Markdown or visual rendering verification was performed. No product module, product test/CI, provider or live-peer execution was performed.",
+        "Source manuscript claims and cited private evidence were assessed for faithful transfer, not re-established by a fresh repository audit or by reopening every cited external reference."
+      ],
+      "invariants": {
+        "fenced_blocks": {
+          "pass": true,
+          "source_count": 3,
+          "target_count": 3
+        },
+        "display_math": {
+          "pass": true,
+          "source_count": 29,
+          "target_count": 29
+        },
+        "inline_math": {
+          "pass": true,
+          "source_count": 112,
+          "target_count": 112,
+          "ordered_equal": false,
+          "note": "Accepted after independent semantic comparison and publication-stage recheck: three within-paragraph expression-order changes follow Hindi syntax and preserve operand roles, quantification and conditions. Exact formula multiset remains unchanged.",
+          "semantic_review": {
+            "result": "PASS",
+            "disposition": "No manuscript change needed; only sentence-order changes.",
+            "comparisons": [
+              {
+                "section": "7.2",
+                "source_order": [
+                  "s_i",
+                  "g"
+                ],
+                "hindi_order": [
+                  "g",
+                  "s_i"
+                ],
+                "verified_meaning": "g still denotes declared equivalence groups partitioning the nonempty population of finite scores s_i."
+              },
+              {
+                "section": "8.1",
+                "source_order": [
+                  "Psi_local=ET",
+                  "E,T in [0,1]"
+                ],
+                "hindi_order": [
+                  "E,T in [0,1]",
+                  "Psi_local=ET"
+                ],
+                "verified_meaning": "The domain restriction applies to the same local product ET, and the bound 0<=ET<=E<=1 is unchanged."
+              },
+              {
+                "section": "9.2",
+                "source_order": [
+                  "h(D_r d_i+beta)<=1",
+                  "d_i"
+                ],
+                "hindi_order": [
+                  "d_i",
+                  "h(D_r d_i+beta)<=1"
+                ],
+                "verified_meaning": "The same sufficient coefficientwise positivity inequality applies to every weighted degree d_i; h=1 still implies d_i<=11.25, distinct from strict spectral decay."
+              }
+            ]
+          }
+        },
+        "inline_code": {
+          "pass": true,
+          "source_count": 20,
+          "target_count": 21,
+          "missing": {}
+        },
+        "urls": {
+          "pass": true,
+          "source_count": 41,
+          "target_count": 42,
+          "missing": {}
+        },
+        "evidence_citations": {
+          "pass": true,
+          "source_count": 84,
+          "target_count": 84
+        },
+        "heading_levels": {
+          "pass": true,
+          "source_count": 50,
+          "target_count": 50
+        },
+        "numbered_headings": {
+          "pass": true,
+          "source_count": 43,
+          "target_count": 43
+        }
+      }
+    },
+    {
+      "language": "he",
+      "reviewed_file": "he/TRIADIC_BRAIN_MICRO_SPECTRUM.he.md",
+      "sha256": "7297a600ea7b67ae4af7d10b6757ee52d001f0a654edb87594f7fe2446628ff6",
+      "scope": {
+        "entire_source_reviewed": true,
+        "source_lines": 764,
+        "source_word_count": 11814,
+        "translated_source_line_entries": 263,
+        "method": "Paragraph-by-paragraph source-to-target reading of title and metadata, abstract, every numbered section 1–17 and subsection, all four tables, full evidence index, references and appendices A/B; exact invariants and mapped numerical tokens independently checked.",
+        "headings": 50,
+        "numbered_headings": 43,
+        "tables": 4,
+        "bibliography_entries": 18,
+        "evidence_index_entries": 20,
+        "headings_reviewed": [
+          "Triadic Brain from Byte Identity to Revisable Knowledge",
+          "A source bound technical account of data transformations controls and distributed inquiry",
+          "Abstract",
+          "1 Research question and contribution",
+          "2 Method and evidence classes",
+          "2.1 Source reconstruction rather than a new execution study",
+          "2.2 Historical qualification and independent review",
+          "3 Representation types and the smallest meaningful unit",
+          "4 The maintained route and its authority boundaries",
+          "5 An exact multibyte witness",
+          "5.1 Bytes and coordinates",
+          "5.2 Expansion and artifact identity",
+          "6 Model processing and what the trace cannot see",
+          "6.1 Adapter and transport semantics",
+          "6.2 Conditional model internals",
+          "6.3 Completion as a product of states",
+          "7 Native transformations from answer text to a reviewed candidate",
+          "7.1 Deterministic claims and evidence binding",
+          "7.2 UCM ranking and the conservative uncertainty invariant",
+          "7.3 Synthetic waveform and bounded counterexample search",
+          "7.4 Aperture review and useful output",
+          "8 GUFT as a typed comparative grammar",
+          "8.1 Preserve namespaces rather than selecting a universal scalar",
+          "8.2 Actual historical benchmark telemetry",
+          "8.3 Time-series and phase families",
+          "8.4 A coherent cancellation donor and a testable target hypothesis",
+          "9 Corridors rivers terraces and numerical consequences",
+          "9.1 Research specification and reduced implementation",
+          "9.2 Stability at the actual caller step",
+          "9.3 Recursive inquiry and representational regimes",
+          "10 AHA and explicit cross domain transformations",
+          "10.1 A discovery spiral from unresolved evidence",
+          "11 Perturbation operators and cognitive change",
+          "12 Local workbench and distributed swarm",
+          "12.1 Roles and dependence",
+          "12.2 Artifact transfer and peer model seams",
+          "13 Telemetry provenance and trust",
+          "13.1 Three different observation domains",
+          "13.2 Provenance composition does not compose truth",
+          "14 Shared grammar and retrospective reconstruction",
+          "14.1 Reference communication with residuals",
+          "14.2 Retrosynthesis as dependency-directed reconstruction",
+          "14.3 Provenance reuse and autonomy in shared work",
+          "15 Security privacy and failure analysis",
+          "16 Research qualification agenda",
+          "17 Discussion and conclusion",
+          "References",
+          "Source evidence index",
+          "Appendix A Call path pseudocode",
+          "Appendix B Machine readable companion"
+        ],
+        "intentionally_preserved_english": "All formula content, code and diagrams, bibliographic entries, identifiers and machine-state literals; manuscript translation only, companions remain authoritative English.",
+        "source_wording_not_recategorized": "Inherited not-published source metadata is preserved and distinguished from the now-published English edition in translation metadata."
+      },
+      "result": "PASS — complete independent AI-assisted language and technical-fidelity review; nine findings corrected; limitations disclosed",
+      "review": "Independent author-separated AI-assisted language and technical review",
+      "findings": [
+        {
+          "id": "HE-01",
+          "location": "Section 2.2; English source line(s) 50",
+          "finding": "Durable inspection is persistent inspectability, not ongoing inspection.",
+          "status": "corrected",
+          "correction": "כולל אפשרות בדיקה הנשענת על שמירה עמידה גם לאחר אובדן אישור קבלה"
+        },
+        {
+          "id": "HE-02",
+          "location": "Section 6.3; English source line(s) 212",
+          "finding": "Complete is a completion state, not perfect quality.",
+          "status": "corrected",
+          "correction": "הרצה היסטורית יכולה להישאר במצב ״הושלמה״"
+        },
+        {
+          "id": "HE-03",
+          "location": "Section 6.3; English source line(s) 212",
+          "finding": "Unacknowledged must mean missing acknowledgement, not missing authorization.",
+          "status": "corrected",
+          "correction": "בקשה שלא התקבל עליה אישור קבלה מעולם לא הורצה"
+        },
+        {
+          "id": "HE-04",
+          "location": "Section 8.4; English source line(s) 370",
+          "finding": "Mean square is not root mean square.",
+          "status": "corrected",
+          "correction": "ממוצע הריבועים של כל אחד"
+        },
+        {
+          "id": "HE-05",
+          "location": "Section 8.4; English source line(s) 370",
+          "finding": "Mean square is not root mean square.",
+          "status": "corrected",
+          "correction": "ממוצע הריבועים של הסכום"
+        },
+        {
+          "id": "HE-06",
+          "location": "Section 12.1; English source line(s) 523",
+          "finding": "Use the explicit positive-semidefinite matrix term.",
+          "status": "corrected",
+          "correction": "מטריצת שונות משותפת קבילה וחיובית חצי־מוגדרת"
+        },
+        {
+          "id": "HE-07",
+          "location": "Section 14.2; English source line(s) 609",
+          "finding": "Accidental vacuous support is unintended, not random.",
+          "status": "corrected",
+          "correction": "תמיכה ריקה המתקבלת שלא במכוון"
+        },
+        {
+          "id": "HE-08",
+          "location": "Section 15; English source line(s) 646",
+          "finding": "Legal hold is a preservation condition, not a generic legal delay.",
+          "status": "corrected",
+          "correction": "לחובת שימור משפטית"
+        },
+        {
+          "id": "HE-09",
+          "location": "Section 2.1, 5.1, 7.2–7.3, 8.1, 9.1–9.3, 10, 12.1, 13.1, 14.3; English source line(s) 46, 136, 152, 267, 269, 284, 321, 414, 443, 445, 474, 482, 521, 534, 552, 619",
+          "finding": "Source plain-text intervals, leading-dot decimals, caller steps and the cost-difference expression lacked explicit LTR isolation in surrounding RTL prose. This is source-level bidi hardening, not a claim of observed browser failure.",
+          "status": "corrected",
+          "correction": "Add explicit LTR spans around unchanged literal expressions; retain all exact formula text, source numerical notation and Markdown structure."
+        }
+      ],
+      "limitations": [
+        "AI-assisted language and technical review only; no fluent-human or professional Hebrew translation certification.",
+        "No browser, GitHub UI, PDF or other visual rendering certification. Directionality and Markdown/math parsing were checked at source/parser level only.",
+        "Pandoc plain GFM preserves the source math delimiters as text. Its GFM reader does not support the optional single-backslash TeX math extension; the alternate supported Markdown reader recognizes all formulas. Renderer-dependent mathematical presentation remains unverified.",
+        "Technical Hebrew terminology and literary polish may benefit from a fluent domain-specialist review despite no unresolved meaning-changing findings in this pass.",
+        "The pinned English main manuscript governs interpretation; this review does not recertify scientific claims, private source evidence, product execution or empirical results.",
+        "This public record binds the final corrected file identified by its recorded SHA-256."
+      ],
+      "invariants": {
+        "fenced_blocks": {
+          "pass": true,
+          "source_count": 3,
+          "target_count": 3
+        },
+        "display_math": {
+          "pass": true,
+          "source_count": 29,
+          "target_count": 29
+        },
+        "inline_math": {
+          "pass": true,
+          "source_count": 112,
+          "target_count": 112,
+          "ordered_equal": true,
+          "note": "Reordering requires semantic review of operand roles."
+        },
+        "inline_code": {
+          "pass": true,
+          "source_count": 20,
+          "target_count": 21,
+          "missing": {}
+        },
+        "urls": {
+          "pass": true,
+          "source_count": 41,
+          "target_count": 42,
+          "missing": {}
+        },
+        "evidence_citations": {
+          "pass": true,
+          "source_count": 84,
+          "target_count": 84
+        },
+        "heading_levels": {
+          "pass": true,
+          "source_count": 50,
+          "target_count": 50
+        },
+        "numbered_headings": {
+          "pass": true,
+          "source_count": 43,
+          "target_count": 43
+        }
+      }
+    }
+  ]
+}

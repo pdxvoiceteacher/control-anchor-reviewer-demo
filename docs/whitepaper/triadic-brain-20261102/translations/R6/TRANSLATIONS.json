@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "document_type": "source_bound_translation_documentation_not_runtime_schema",
-  "edition": "2026-11-03.R6-translations.1",
+  "edition": "2026-11-03.R6-translations.2",
   "source": {
     "language": "en",
     "edition": "2026-11-03.R6",
@@ -21,13 +21,14 @@
   "visual_assets_translated": false,
   "translation_method": "AI-assisted translation with separate AI-assisted whole-text language and technical fidelity review; not fluent-human certification.",
   "review": {
-    "outcome": "passed_after_bounded_repairs",
+    "outcome": "passed_with_findings_and_edition_status_resolved",
     "scope": [
       "Complete main-text comparison with frozen English R6, including carried-over text.",
       "Final repaired-byte comparison and source binding.",
       "Registry identifiers and kinds, section anchors, exact mathematical blocks and preserved source-link destinations.",
       "Public-repository target and fragment checks against authenticated retained source snapshots.",
-      "Visible privacy, attribution, rights and unsupported-claim checks."
+      "Visible privacy, attribution, rights and unsupported-claim checks.",
+      "Hebrew explicit RTL document/LTR equation markup structure; not browser or assistive-technology certification."
     ],
     "fluent_human_certification": false,
     "rendered_accessibility_certification": false,
@@ -56,14 +57,49 @@
       "direction": "ltr",
       "completeness": "complete_main_text",
       "source_sha256": "f7e5ef46c6ac203e61d6b353f4295af0f3270b01db197c55e941b9a7c9fffe3d"
+    },
+    {
+      "path": "zh-Hans/WHITEPAPER.zh-Hans.md",
+      "bytes": 102393,
+      "sha256": "400377da0e14f454122a7c6b317b0fce8fd8fe16a9befcc86fbc1816809f4a60",
+      "git_blob": "ba4beaabfda704618a3a58b0b79a2671c180825a",
+      "language": "zh-Hans",
+      "display_name": "简体中文（书面普通话）",
+      "direction": "ltr",
+      "completeness": "complete_main_text",
+      "source_sha256": "f7e5ef46c6ac203e61d6b353f4295af0f3270b01db197c55e941b9a7c9fffe3d"
+    },
+    {
+      "path": "hi/WHITEPAPER.hi.md",
+      "bytes": 236738,
+      "sha256": "2d771aafb81d549a0ae5b5c48b794ab9d8a80868436a5998360c68507cb005f7",
+      "git_blob": "b9f34ddd6d431de4d26ce25cef1bad095ea7387d",
+      "language": "hi",
+      "display_name": "हिन्दी",
+      "direction": "ltr",
+      "completeness": "complete_main_text",
+      "source_sha256": "f7e5ef46c6ac203e61d6b353f4295af0f3270b01db197c55e941b9a7c9fffe3d"
+    },
+    {
+      "path": "he/WHITEPAPER.he.md",
+      "bytes": 153164,
+      "sha256": "d5cb67b30ed9edfafc538e466e79e151e00a2fcc146fd7bf23555587afc5ccdc",
+      "git_blob": "a3cfc43d2f0a3a452689dc0f6ae2e75d5b6c675b",
+      "language": "he",
+      "display_name": "עברית",
+      "direction": "rtl",
+      "completeness": "complete_main_text",
+      "source_sha256": "f7e5ef46c6ac203e61d6b353f4295af0f3270b01db197c55e941b9a7c9fffe3d"
     }
   ],
   "navigation": {
     "path": "README.md",
-    "bytes": 2883,
-    "sha256": "08a0dae33f7adb08fa6ba92dfb47fe71b279df35615c4c9560d96bf3264908c1",
-    "git_blob": "933005521967641afccec476371f68d505320bdc"
+    "bytes": 3640,
+    "sha256": "23d521309c1e342bdea3f9ab55b989777d387c658b401c053d072dc9acaf5e53",
+    "git_blob": "d85fb086df2d1ee4d3b159abb9c5d64a400f5b9f"
   },
   "rights": "Existing rights and attribution preserved; no new blanket prose or media license grant.",
-  "authority": "Documentation only; no operational permissions are granted."
+  "authority": "Documentation only; no operational permissions are granted.",
+  "package_scope_note": "The translated/not-translated fields describe this whitepaper package only, not the availability of independently published academic editions.",
+  "previous_index_url": "https://github.com/pdxvoiceteacher/control-anchor-reviewer-demo/blob/4e0e0edf2511ddf73c5b91b3634fa048cf763562/docs/whitepaper/triadic-brain-20261102/translations/R6/README.md"
 }

@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "edition": "1.2",
+  "translation_release": "2026-11-03",
+  "source_commit": "23a674cab2af23baae6e74af2aaf5c7c934ff473",
+  "source_path": "docs/papers/triadic-brain-micro-spectrum/2026-11-03-edition-1.2/TRIADIC_BRAIN_MICRO_SPECTRUM.md",
+  "source_sha256": "6b870b3bc448bed2755995d099b5ca94b35e4c3c09e7e057565116bf315fc0e9",
+  "source_unchanged": true,
+  "scope": "Main manuscript only",
+  "review_status": "AI-assisted author-separated review passed with limitations disclosed",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 2752,
+      "sha256": "ccd2bf3b867cb846a7b9254d291f02ee2836ad5ada7aec6d1f7dcc838cf35ccc"
+    },
+    {
+      "path": "TRANSLATION_REVIEW.json",
+      "bytes": 27522,
+      "sha256": "527c7c479b3b179ae157812875ca1f952646107c8304d77c24810b67db360ebf"
+    },
+    {
+      "path": "fr/TRIADIC_BRAIN_MICRO_SPECTRUM.fr.md",
+      "bytes": 117844,
+      "sha256": "37118bae456185f3d28526830f844d7f01f1b39121704a836c59960dd2f4ea69"
+    },
+    {
+      "path": "he/TRIADIC_BRAIN_MICRO_SPECTRUM.he.md",
+      "bytes": 131970,
+      "sha256": "7297a600ea7b67ae4af7d10b6757ee52d001f0a654edb87594f7fe2446628ff6"
+    },
+    {
+      "path": "hi/TRIADIC_BRAIN_MICRO_SPECTRUM.hi.md",
+      "bytes": 212522,
+      "sha256": "633cd8eeaa0c4abe457132bf477b7466b89fece617710425381dceffbc4bea59"
+    },
+    {
+      "path": "zh-Hans/TRIADIC_BRAIN_MICRO_SPECTRUM.zh-Hans.md",
+      "bytes": 86374,
+      "sha256": "f0e56af1debd71d7bd0e3f4e2012e31b8e2bbc1e2d2a3123de2a65f2b815d854"
+    }
+  ],
+  "manifest_self_hash_included": false
+}
