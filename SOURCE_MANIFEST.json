@@ -3158,6 +3158,66 @@
       "publication_review": "SUBSTANTIVE_AI_LANGUAGE_AND_TECHNICAL_REVIEW_WITH_DISCLOSED_LIMITATIONS",
       "candidate_sha256": "b517e5fb1caf637d1d976657ffb1b2e299da9a0d44bf0b2539c3e5e3b31a7512",
       "bytes": 153354
+    },
+    {
+      "path": "docs/whitepaper/triadic-brain-20261102/translations/R6/sw/WHITEPAPER.sw.md",
+      "origin": "NEW_PUBLIC_SOURCE_BOUND_TRANSLATION",
+      "source_basis_paths": [],
+      "modifications": "Full Kiswahili main-text translation or source/review record; independent AI review and affected recheck completed. Frozen English, exact technical expressions and existing editions preserved. No human language, empirical, runtime or rendered-accessibility certification.",
+      "license": "Existing rights and notices preserved; no new blanket prose/media license grant.",
+      "publication_review": "AUTHOR_SEPARATED_AI_LANGUAGE_AND_TECHNICAL_REVIEW_WITH_DISCLOSED_LIMITS",
+      "candidate_sha256": "129698eb491feb5c355891d22749c9ffd16592574a7328377de9eaa97ad952fa",
+      "bytes": 123951
+    },
+    {
+      "path": "docs/whitepaper/triadic-brain-20261102/translations/R6/sw/TRANSLATION.json",
+      "origin": "NEW_PUBLIC_SOURCE_BOUND_TRANSLATION",
+      "source_basis_paths": [],
+      "modifications": "Full Kiswahili main-text translation or source/review record; independent AI review and affected recheck completed. Frozen English, exact technical expressions and existing editions preserved. No human language, empirical, runtime or rendered-accessibility certification.",
+      "license": "Existing rights and notices preserved; no new blanket prose/media license grant.",
+      "publication_review": "AUTHOR_SEPARATED_AI_LANGUAGE_AND_TECHNICAL_REVIEW_WITH_DISCLOSED_LIMITS",
+      "candidate_sha256": "815426126efe5d719d635332efa94da9ed0b04a944e7c06d5958e8510b8e24db",
+      "bytes": 3877
+    },
+    {
+      "path": "docs/whitepaper/triadic-brain-20261102/translations/R6/sw/README.md",
+      "origin": "NEW_PUBLIC_SOURCE_BOUND_TRANSLATION",
+      "source_basis_paths": [],
+      "modifications": "Full Kiswahili main-text translation or source/review record; independent AI review and affected recheck completed. Frozen English, exact technical expressions and existing editions preserved. No human language, empirical, runtime or rendered-accessibility certification.",
+      "license": "Existing rights and notices preserved; no new blanket prose/media license grant.",
+      "publication_review": "AUTHOR_SEPARATED_AI_LANGUAGE_AND_TECHNICAL_REVIEW_WITH_DISCLOSED_LIMITS",
+      "candidate_sha256": "15b693045990135a31fff8dff4afbe0b11f43ff077eddb51c8711fd6ada6f1e1",
+      "bytes": 2126
+    },
+    {
+      "path": "docs/papers/triadic-brain-micro-spectrum/translations/edition-1.2/sw/TRIADIC_BRAIN_MICRO_SPECTRUM.sw.md",
+      "origin": "NEW_PUBLIC_SOURCE_BOUND_TRANSLATION",
+      "source_basis_paths": [],
+      "modifications": "Full Kiswahili main-text translation or source/review record; independent AI review and affected recheck completed. Frozen English, exact technical expressions and existing editions preserved. No human language, empirical, runtime or rendered-accessibility certification.",
+      "license": "Existing rights and notices preserved; no new blanket prose/media license grant.",
+      "publication_review": "AUTHOR_SEPARATED_AI_LANGUAGE_AND_TECHNICAL_REVIEW_WITH_DISCLOSED_LIMITS",
+      "candidate_sha256": "ceb3a6e24f454ae1ee2ea612881e6e549b5fecde240465dd3b1acaef14dfc76e",
+      "bytes": 105728
+    },
+    {
+      "path": "docs/papers/triadic-brain-micro-spectrum/translations/edition-1.2/sw/TRANSLATION.json",
+      "origin": "NEW_PUBLIC_SOURCE_BOUND_TRANSLATION",
+      "source_basis_paths": [],
+      "modifications": "Full Kiswahili main-text translation or source/review record; independent AI review and affected recheck completed. Frozen English, exact technical expressions and existing editions preserved. No human language, empirical, runtime or rendered-accessibility certification.",
+      "license": "Existing rights and notices preserved; no new blanket prose/media license grant.",
+      "publication_review": "AUTHOR_SEPARATED_AI_LANGUAGE_AND_TECHNICAL_REVIEW_WITH_DISCLOSED_LIMITS",
+      "candidate_sha256": "1618cca5d1c1d22e1ea9feb5ee33ef4ed4e4cb05f3199bd68a0d592f2f0db476",
+      "bytes": 6815
+    },
+    {
+      "path": "docs/papers/triadic-brain-micro-spectrum/translations/edition-1.2/sw/README.md",
+      "origin": "NEW_PUBLIC_SOURCE_BOUND_TRANSLATION",
+      "source_basis_paths": [],
+      "modifications": "Full Kiswahili main-text translation or source/review record; independent AI review and affected recheck completed. Frozen English, exact technical expressions and existing editions preserved. No human language, empirical, runtime or rendered-accessibility certification.",
+      "license": "Existing rights and notices preserved; no new blanket prose/media license grant.",
+      "publication_review": "AUTHOR_SEPARATED_AI_LANGUAGE_AND_TECHNICAL_REVIEW_WITH_DISCLOSED_LIMITS",
+      "candidate_sha256": "6154c7361b57d9e8823c0f17c76193d8a7ae0ffce7fc028c4388b3fd1ffdb878",
+      "bytes": 2357
     }
   ],
   "dependency_closure": {
