@@ -1,0 +1,63 @@
+{
+  "language": "ru",
+  "language_name": "Русский",
+  "direction": "ltr",
+  "source_commit": "d605904e5ef24712718efc3e4b935b8e3f907a7f",
+  "source_path": "docs/whitepaper/triadic-brain-20261102/R6/WHITEPAPER.en.md",
+  "source_sha256": "f7e5ef46c6ac203e61d6b353f4295af0f3270b01db197c55e941b9a7c9fffe3d",
+  "translation_path": "docs/whitepaper/triadic-brain-20261102/translations/R6/ru/WHITEPAPER.ru.md",
+  "translation_sha256": "1a34f394c4e6fd9ebacfa17d8c0f5116868ff82f51928b1bd6396f13285e1ca7",
+  "translation_bytes": 183988,
+  "review_date": "2026-11-04",
+  "translation_method": "AI-assisted; not human-certified",
+  "review_evidence": {
+    "review_type": "Independent AI-assisted semantic and structural review; not human fluency certification",
+    "source_sha256": "f7e5ef46c6ac203e61d6b353f4295af0f3270b01db197c55e941b9a7c9fffe3d",
+    "pre_review_sha256": "277f214292fe7d26c0d43400d14cbb68371e7ea0837d1af14e38c144c4f095b6",
+    "final_sha256": "1a34f394c4e6fd9ebacfa17d8c0f5116868ff82f51928b1bd6396f13285e1ca7",
+    "sections_and_anchors_match": true,
+    "registry_entries": 86,
+    "registry_kinds_and_scopes_match": true,
+    "math_blocks_exact": true,
+    "link_sequence_matches_after_declared_source_prefix_and_translation_notice": true,
+    "changes": {
+      "Предварительная взвешенная оценка времени исполнения": "Предварительная взвешенная оценка, вычисляемая во время исполнения,",
+      "согласованное развёртывание между узлами": "согласованное развёртывание ссылочного представления между узлами",
+      "Назначенный пользователем исполнитель предлагает": "Назначенный пользователем исполнительный координатор (Executive) предлагает",
+      "Исполнитель не может расширять собственные полномочия": "Исполнительный координатор не может расширять собственные полномочия",
+      "приостановкой с установленным происхождением исполнитель повторно проверяет": "приостановкой с установленным происхождением исполнительный координатор повторно проверяет",
+      "сетевому исполнителю": "сетевому исполнительному координатору",
+      "| Исполнитель | Поддерживать цели": "| Исполнительный координатор (Executive) | Поддерживать цели",
+      "Сетевой исполнитель не является": "Сетевой исполнительный координатор не является",
+      "Исполнитель может пересмотреть гипотезу": "Исполнительный координатор может пересмотреть гипотезу",
+      "[Назначенный пользователем исполнитель]": "[Назначенный пользователем исполнительный координатор (Executive)]",
+      "Заранее общий донор требует": "Донор, заранее предоставленный обеим сторонам, требует",
+      "Сопоставимые принятое качество и покрытие": "Сопоставимые качество принятых результатов и охват задач",
+      "резервную работу и последующие исправления": "работу при переходе к запасному варианту и последующие исправления",
+      "разрешить точную версионированную ссылку": "найти объект по точной версионированной ссылке",
+      "и отдельные измерения риска": "и отдельные аспекты риска"
+    },
+    "limitations": [
+      "No product execution or external-source fact audit",
+      "No human-language certification",
+      "Publication link destinations require parent validation in intended repository layout"
+    ]
+  },
+  "publication_checks": {
+    "display_math": true,
+    "inline_math": true,
+    "explicit_anchors": true,
+    "fenced_blocks": true,
+    "registry_86": true,
+    "source_links_preserved": true
+  },
+  "scope": "Complete main paper; English supplements and machine-readable companions remain unchanged",
+  "limits": {
+    "human_linguistic_certification": false,
+    "runtime_qualification": false,
+    "new_empirical_validation": false,
+    "external_reference_revalidation": false,
+    "browser_accessibility_certification": false
+  },
+  "rights": "Existing attribution and rights preserved; no new blanket license or operational authority"
+}
