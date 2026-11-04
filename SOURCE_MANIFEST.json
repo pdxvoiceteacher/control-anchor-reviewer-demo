@@ -1200,14 +1200,14 @@
     },
     {
       "path": "README.md",
-      "candidate_sha256": "26c4a129d950aab4d62686baf52544c2e0264523a177556a7983ef5e7922d417",
+      "candidate_sha256": "e4da7f46f27eaed7dfbf0770d88f31e3f1de8e38acfebcaa98b1d8f4be88e783",
       "origin": "ADAPTED",
       "source_basis_paths": [],
       "modifications": "New reviewer explanation based on maintained architecture; limits bound to extracted implementation. Added link to a source-attributed methods appendix and its bounded teaching claims. Added self-contained Mermaid responsibility diagram separating intended product integration, observed synthetic offline demo and future peer network; no runtime or validation-result changes.",
       "license": "MPL-2.0 to extent rights exist and covered",
       "publication_review": "OWNER_APPROVED_PUBLIC_SOURCE_ACCESS_EXISTING_RIGHTS_PRESERVED_NO_NEW_LICENSE",
       "historical_publication_review": "FINAL_CONTENT_DECISION_PENDING",
-      "bytes": 34174,
+      "bytes": 34491,
       "cooperative_ethos_clarification_2026_11_02": "Owner-directed freedom, local ownership, voluntary mutual aid and practical exit; informed higher overhead may be legitimate. Existing capability limits, rights and public contribution route preserved. No runtime change or new operational evidence.",
       "whitepaper_navigation_2026_11_02": "Added one English design-edition and contribution navigation link, with translations-pending and unchanged-demo scope. No runtime or rights change.",
       "brain_map_revision_history": [
@@ -2716,8 +2716,8 @@
       "modifications": "Edition 1.2 manuscript snapshot and explanatory companion, or separate navigation. Selected source reconstruction, analytic deductions and proposed evaluation remain distinguished from empirical findings.",
       "license": "Existing rights and notices preserved; no new blanket prose/media license grant. Primary scholarly works are cited, not redistributed.",
       "publication_review": "SCOPED_MANUSCRIPT_AND_PACKAGING_REVIEW_RECORDS_RETAINED_SEPARATELY_NO_EMPIRICAL_QUALIFICATION",
-      "candidate_sha256": "f3f5bb7796bf315afe1e0751ed70da0d3c55b948dc1c3579999d5f530a70b881",
-      "bytes": 2835
+      "candidate_sha256": "c3d436a59b11cc0789ddbd8547256cfb41b01d7aae1139c045314f49e1ab9700",
+      "bytes": 3469
     },
     {
       "path": "docs/brain-map/map.json",
@@ -3516,6 +3516,27 @@
       "publication_review": "BOUNDED_AI_TRANSLATION_REVIEW_NOT_HUMAN_CERTIFICATION",
       "candidate_sha256": "98197e5eac7c5faf7219d8533be9d4e02af2116d9ac16144c3ac45f1dc347adb",
       "bytes": 113852
+    },
+    {
+      "path": "docs/papers/triadic-brain-micro-spectrum/2026-11-04-network-supplement/NETWORK_SUPPLEMENT.md",
+      "candidate_sha256": "d49059a5f0bc5418f3116e69e9e7383c549101960daa045110cbbc410b87fcb2",
+      "bytes": 204262,
+      "description": "Owner-approved source-bound academic network supplement; sanitized scholarly text or presentation/navigation derivative. No private implementation source or operational records.",
+      "license": "Existing repository rights and notices; no new blanket prose/media license."
+    },
+    {
+      "path": "docs/papers/triadic-brain-micro-spectrum/2026-11-04-network-supplement/NETWORK_SUPPLEMENT.html",
+      "candidate_sha256": "31a2a1c272e1c91e4fc7e57757247df2d05b5f0acd0d5255aca0887e8f7492e6",
+      "bytes": 284117,
+      "description": "Owner-approved source-bound academic network supplement; sanitized scholarly text or presentation/navigation derivative. No private implementation source or operational records.",
+      "license": "Existing repository rights and notices; no new blanket prose/media license."
+    },
+    {
+      "path": "docs/papers/triadic-brain-micro-spectrum/2026-11-04-network-supplement/README.md",
+      "candidate_sha256": "fd7ac18908f01d503046ba2df27048925c8215d8812c5c65c94adcd12ece5a28",
+      "bytes": 3497,
+      "description": "Owner-approved source-bound academic network supplement; sanitized scholarly text or presentation/navigation derivative. No private implementation source or operational records.",
+      "license": "Existing repository rights and notices; no new blanket prose/media license."
     }
   ],
   "dependency_closure": {
