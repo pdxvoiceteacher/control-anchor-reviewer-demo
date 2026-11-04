@@ -3288,6 +3288,86 @@
       "publication_review": "INDEPENDENT_DOCUMENTATION_REVIEW_COMPLETED_WITH_DISCLOSED_LIMITS",
       "candidate_sha256": "30ce2a1168c9021abba4a08e6d2bc9bc0b930e830ea185213e075ae2b728490b",
       "bytes": 7251
+    },
+    {
+      "path": "docs/papers/triadic-brain-micro-spectrum/translations/edition-1.2/pl/AI_REVIEW.md",
+      "origin": "NEW_PUBLIC_SOURCE_BOUND_TRANSLATION",
+      "source_basis_paths": [],
+      "modifications": "Complete Polish main-paper translation, bounded AI review or provenance record. Only declared relative destination normalization after whole-text AI review. Existing editions and frozen English unchanged.",
+      "license": "Existing rights and notices preserved; no new blanket prose/media license grant.",
+      "publication_review": "BOUNDED_AI_TRANSLATION_REVIEW_NOT_HUMAN_CERTIFICATION",
+      "candidate_sha256": "f490cadfc1356e538488314d9944507ce3e9550b1ff4ab785547f8b61cd4e706",
+      "bytes": 6067
+    },
+    {
+      "path": "docs/papers/triadic-brain-micro-spectrum/translations/edition-1.2/pl/README.md",
+      "origin": "NEW_PUBLIC_SOURCE_BOUND_TRANSLATION",
+      "source_basis_paths": [],
+      "modifications": "Complete Polish main-paper translation, bounded AI review or provenance record. Only declared relative destination normalization after whole-text AI review. Existing editions and frozen English unchanged.",
+      "license": "Existing rights and notices preserved; no new blanket prose/media license grant.",
+      "publication_review": "BOUNDED_AI_TRANSLATION_REVIEW_NOT_HUMAN_CERTIFICATION",
+      "candidate_sha256": "a67929a3f1a19c387d986b01cfa7752184d809a301a02168d45ab00642370fed",
+      "bytes": 2065
+    },
+    {
+      "path": "docs/papers/triadic-brain-micro-spectrum/translations/edition-1.2/pl/TRANSLATION.json",
+      "origin": "NEW_PUBLIC_SOURCE_BOUND_TRANSLATION",
+      "source_basis_paths": [],
+      "modifications": "Complete Polish main-paper translation, bounded AI review or provenance record. Only declared relative destination normalization after whole-text AI review. Existing editions and frozen English unchanged.",
+      "license": "Existing rights and notices preserved; no new blanket prose/media license grant.",
+      "publication_review": "BOUNDED_AI_TRANSLATION_REVIEW_NOT_HUMAN_CERTIFICATION",
+      "candidate_sha256": "ca70ca645b03e4476a1652a234a336cef31f4985d2e1e9f28a186813a8a27bab",
+      "bytes": 2840
+    },
+    {
+      "path": "docs/papers/triadic-brain-micro-spectrum/translations/edition-1.2/pl/TRIADIC_BRAIN_MICRO_SPECTRUM.pl.md",
+      "origin": "NEW_PUBLIC_SOURCE_BOUND_TRANSLATION",
+      "source_basis_paths": [],
+      "modifications": "Complete Polish main-paper translation, bounded AI review or provenance record. Only declared relative destination normalization after whole-text AI review. Existing editions and frozen English unchanged.",
+      "license": "Existing rights and notices preserved; no new blanket prose/media license grant.",
+      "publication_review": "BOUNDED_AI_TRANSLATION_REVIEW_NOT_HUMAN_CERTIFICATION",
+      "candidate_sha256": "1a4cdb6be6f2dfa1cc6e2d7392adcff35510ff19f12b256387089d29f90a666f",
+      "bytes": 106507
+    },
+    {
+      "path": "docs/whitepaper/triadic-brain-20261102/translations/R6/pl/AI_REVIEW.md",
+      "origin": "NEW_PUBLIC_SOURCE_BOUND_TRANSLATION",
+      "source_basis_paths": [],
+      "modifications": "Complete Polish main-paper translation, bounded AI review or provenance record. Only declared relative destination normalization after whole-text AI review. Existing editions and frozen English unchanged.",
+      "license": "Existing rights and notices preserved; no new blanket prose/media license grant.",
+      "publication_review": "BOUNDED_AI_TRANSLATION_REVIEW_NOT_HUMAN_CERTIFICATION",
+      "candidate_sha256": "409d8ce26aef132d8ea7c1a0a1aa6eee8f5d9788ea05ba95503ca493f930aa73",
+      "bytes": 5424
+    },
+    {
+      "path": "docs/whitepaper/triadic-brain-20261102/translations/R6/pl/README.md",
+      "origin": "NEW_PUBLIC_SOURCE_BOUND_TRANSLATION",
+      "source_basis_paths": [],
+      "modifications": "Complete Polish main-paper translation, bounded AI review or provenance record. Only declared relative destination normalization after whole-text AI review. Existing editions and frozen English unchanged.",
+      "license": "Existing rights and notices preserved; no new blanket prose/media license grant.",
+      "publication_review": "BOUNDED_AI_TRANSLATION_REVIEW_NOT_HUMAN_CERTIFICATION",
+      "candidate_sha256": "a890ceda22f9864fa93f62cc8d984021d1bd294e00845225bb1c7f2bf881590b",
+      "bytes": 2010
+    },
+    {
+      "path": "docs/whitepaper/triadic-brain-20261102/translations/R6/pl/TRANSLATION.json",
+      "origin": "NEW_PUBLIC_SOURCE_BOUND_TRANSLATION",
+      "source_basis_paths": [],
+      "modifications": "Complete Polish main-paper translation, bounded AI review or provenance record. Only declared relative destination normalization after whole-text AI review. Existing editions and frozen English unchanged.",
+      "license": "Existing rights and notices preserved; no new blanket prose/media license grant.",
+      "publication_review": "BOUNDED_AI_TRANSLATION_REVIEW_NOT_HUMAN_CERTIFICATION",
+      "candidate_sha256": "609f2ad23c8eaed21137e613ca6e28173ba37aaff3e0119a28f10847b47f6963",
+      "bytes": 8431
+    },
+    {
+      "path": "docs/whitepaper/triadic-brain-20261102/translations/R6/pl/WHITEPAPER.pl.md",
+      "origin": "NEW_PUBLIC_SOURCE_BOUND_TRANSLATION",
+      "source_basis_paths": [],
+      "modifications": "Complete Polish main-paper translation, bounded AI review or provenance record. Only declared relative destination normalization after whole-text AI review. Existing editions and frozen English unchanged.",
+      "license": "Existing rights and notices preserved; no new blanket prose/media license grant.",
+      "publication_review": "BOUNDED_AI_TRANSLATION_REVIEW_NOT_HUMAN_CERTIFICATION",
+      "candidate_sha256": "fcca7157ebc5f56d483c2add8fb55aaef2879300326d3c7883dc2a9282c6ca25",
+      "bytes": 106434
     }
   ],
   "dependency_closure": {
