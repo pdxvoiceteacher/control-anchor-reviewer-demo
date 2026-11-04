@@ -3220,12 +3220,72 @@
       "bytes": 2357
     },
     {
+      "path": "docs/whitepaper/triadic-brain-20261102/translations/R6/ar/WHITEPAPER.ar.md",
+      "origin": "NEW_PUBLIC_SOURCE_BOUND_TRANSLATION",
+      "source_basis_paths": [],
+      "modifications": "Full Arabic main-paper translation or source/review record. Independent AI review, corrections and final affected-byte recheck completed. Frozen English and existing editions unchanged. No human language, empirical, runtime or rendered-accessibility certification.",
+      "license": "Existing rights and notices preserved; no new blanket prose/media license grant.",
+      "publication_review": "AUTHOR_SEPARATED_AI_LANGUAGE_AND_TECHNICAL_REVIEW_WITH_DISCLOSED_LIMITS",
+      "candidate_sha256": "43d6c0ba511f2cdf2fc1bcbe021063b8bbe7063073d5a45448b124cbb008138e",
+      "bytes": 149344
+    },
+    {
+      "path": "docs/whitepaper/triadic-brain-20261102/translations/R6/ar/TRANSLATION.json",
+      "origin": "NEW_PUBLIC_SOURCE_BOUND_TRANSLATION",
+      "source_basis_paths": [],
+      "modifications": "Full Arabic main-paper translation or source/review record. Independent AI review, corrections and final affected-byte recheck completed. Frozen English and existing editions unchanged. No human language, empirical, runtime or rendered-accessibility certification.",
+      "license": "Existing rights and notices preserved; no new blanket prose/media license grant.",
+      "publication_review": "AUTHOR_SEPARATED_AI_LANGUAGE_AND_TECHNICAL_REVIEW_WITH_DISCLOSED_LIMITS",
+      "candidate_sha256": "1fe63ee2c2ff55435e3e4f89c27cdf89aee06282fac94a2cc14c97a8bc802732",
+      "bytes": 3581
+    },
+    {
+      "path": "docs/whitepaper/triadic-brain-20261102/translations/R6/ar/README.md",
+      "origin": "NEW_PUBLIC_SOURCE_BOUND_TRANSLATION",
+      "source_basis_paths": [],
+      "modifications": "Full Arabic main-paper translation or source/review record. Independent AI review, corrections and final affected-byte recheck completed. Frozen English and existing editions unchanged. No human language, empirical, runtime or rendered-accessibility certification.",
+      "license": "Existing rights and notices preserved; no new blanket prose/media license grant.",
+      "publication_review": "AUTHOR_SEPARATED_AI_LANGUAGE_AND_TECHNICAL_REVIEW_WITH_DISCLOSED_LIMITS",
+      "candidate_sha256": "af71a3febe4360e80c071d20e97e4b2320f4bd046b983a65d31de2254b7a630f",
+      "bytes": 2168
+    },
+    {
+      "path": "docs/papers/triadic-brain-micro-spectrum/translations/edition-1.2/ar/TRIADIC_BRAIN_MICRO_SPECTRUM.ar.md",
+      "origin": "NEW_PUBLIC_SOURCE_BOUND_TRANSLATION",
+      "source_basis_paths": [],
+      "modifications": "Full Arabic main-paper translation or source/review record. Independent AI review, corrections and final affected-byte recheck completed. Frozen English and existing editions unchanged. No human language, empirical, runtime or rendered-accessibility certification.",
+      "license": "Existing rights and notices preserved; no new blanket prose/media license grant.",
+      "publication_review": "AUTHOR_SEPARATED_AI_LANGUAGE_AND_TECHNICAL_REVIEW_WITH_DISCLOSED_LIMITS",
+      "candidate_sha256": "db72fd26d90634fc24c8d1ad2f83494d8dd0e68d44a699797b86f168844ceb13",
+      "bytes": 138686
+    },
+    {
+      "path": "docs/papers/triadic-brain-micro-spectrum/translations/edition-1.2/ar/TRANSLATION.json",
+      "origin": "NEW_PUBLIC_SOURCE_BOUND_TRANSLATION",
+      "source_basis_paths": [],
+      "modifications": "Full Arabic main-paper translation or source/review record. Independent AI review, corrections and final affected-byte recheck completed. Frozen English and existing editions unchanged. No human language, empirical, runtime or rendered-accessibility certification.",
+      "license": "Existing rights and notices preserved; no new blanket prose/media license grant.",
+      "publication_review": "AUTHOR_SEPARATED_AI_LANGUAGE_AND_TECHNICAL_REVIEW_WITH_DISCLOSED_LIMITS",
+      "candidate_sha256": "70835fc7dc0fa010771ccf0e787eb3d9edc3794dac0b8a787e8ee3b40ba656d5",
+      "bytes": 4583
+    },
+    {
+      "path": "docs/papers/triadic-brain-micro-spectrum/translations/edition-1.2/ar/README.md",
+      "origin": "NEW_PUBLIC_SOURCE_BOUND_TRANSLATION",
+      "source_basis_paths": [],
+      "modifications": "Full Arabic main-paper translation or source/review record. Independent AI review, corrections and final affected-byte recheck completed. Frozen English and existing editions unchanged. No human language, empirical, runtime or rendered-accessibility certification.",
+      "license": "Existing rights and notices preserved; no new blanket prose/media license grant.",
+      "publication_review": "AUTHOR_SEPARATED_AI_LANGUAGE_AND_TECHNICAL_REVIEW_WITH_DISCLOSED_LIMITS",
+      "candidate_sha256": "a50c400885a3fca2bcdd8e1ba542beca827722f060e866b5936c36960fd9e85c",
+      "bytes": 2242
+    },
+    {
       "path": "docs/translations/QUECHUA_DINE_REVIEW_INVITATION.md",
       "origin": "NEW_PUBLIC_TRANSLATION_REVIEW_INVITATION",
       "source_basis_paths": [],
       "modifications": "Source-pinned invitation for Quechua and Dine Bizaad translation help. Preparation only; no translation or fluent-human review claimed. AI assistance and future draft disclaimer explicitly scoped.",
       "license": "Existing rights and notices preserved; no new blanket prose/media license grant.",
-      "publication_review": "DOCUMENTATION_REVIEW_REQUIRED",
+      "publication_review": "INDEPENDENT_DOCUMENTATION_REVIEW_COMPLETED_WITH_DISCLOSED_LIMITS",
       "candidate_sha256": "30ce2a1168c9021abba4a08e6d2bc9bc0b930e830ea185213e075ae2b728490b",
       "bytes": 7251
     }

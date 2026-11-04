@@ -1,0 +1,68 @@
+{
+  "language": "ar",
+  "language_name": "العربية الفصحى",
+  "direction": "rtl",
+  "source_commit": "7c40bb33c64017f7b11a5b83a272cf87424c73e1",
+  "source_path": "docs/whitepaper/triadic-brain-20261102/R6/WHITEPAPER.en.md",
+  "source_sha256": "f7e5ef46c6ac203e61d6b353f4295af0f3270b01db197c55e941b9a7c9fffe3d",
+  "source_git_object_byte_verified": true,
+  "translation_path": "docs/whitepaper/triadic-brain-20261102/translations/R6/ar/WHITEPAPER.ar.md",
+  "translation_sha256": "43d6c0ba511f2cdf2fc1bcbe021063b8bbe7063073d5a45448b124cbb008138e",
+  "translation_bytes": 149344,
+  "publication_packaged_date": "2026-11-04",
+  "method": "AI-assisted translation with separate author-independent AI textual and technical fidelity review; corrections and final affected-byte recheck completed.",
+  "scope": "Complete main paper including references and appendices. Separate supplements and machine-readable companions remain English.",
+  "independent_review": {
+    "review_type": "Independent AI-assisted full-text Arabic fidelity review with corrected-byte recheck",
+    "human_native_certification": false,
+    "rendered_visual_review": false,
+    "file": "WHITEPAPER.ar.md",
+    "sha256": "43d6c0ba511f2cdf2fc1bcbe021063b8bbe7063073d5a45448b124cbb008138e",
+    "source_file": "source/WHITEPAPER.en.md",
+    "source_sha256": "f7e5ef46c6ac203e61d6b353f4295af0f3270b01db197c55e941b9a7c9fffe3d",
+    "outcome": "PASS for the bounded AI-assisted textual review: all raised findings resolved in checked final bytes; no remaining material issue identified in reviewed scope. Not a guarantee of error-free translation, human linguistic approval, accessibility validation, or runtime qualification.",
+    "coverage": [
+      "Full whitepaper narrative and qualifications",
+      "Both appendices and references",
+      "All 86 registry entries, record-kind and maturity mappings",
+      "19 matching anchors",
+      "Both mathematical code blocks exact against source and LTR wrappers present"
+    ],
+    "correction_recheck": {
+      "corrections_verified": 23,
+      "new_text_occurrences_match_log": true,
+      "old_text_absent_outside_replacement_text": true
+    },
+    "limitations": [
+      "AI review, not human native-speaker approval",
+      "No rendered visual RTL or accessibility review",
+      "Source factual accuracy and runtime claims not independently audited"
+    ]
+  },
+  "structural_checks": {
+    "source_sha256": "f7e5ef46c6ac203e61d6b353f4295af0f3270b01db197c55e941b9a7c9fffe3d",
+    "translation_sha256": "43d6c0ba511f2cdf2fc1bcbe021063b8bbe7063073d5a45448b124cbb008138e",
+    "translation_bytes": 149344,
+    "source_lines": 531,
+    "translation_lines": 545,
+    "anchors_preserved": true,
+    "all_86_registry_entries_preserved": true,
+    "equation_blocks_exact": true,
+    "source_link_destinations_preserved_with_relative_supplements_bound_to_source_commit": true,
+    "heading_count_preserved": true,
+    "nonempty_line_type_sequence_exact": true,
+    "nonempty_source_lines": 330,
+    "independent_review": "passed_bounded_ai_textual_fidelity_after_23_corrections",
+    "human_certification": false,
+    "independent_review_report": "WHITEPAPER_FULL_REVIEW.json"
+  },
+  "limits": {
+    "human_language_certification": false,
+    "rendered_visual_review": false,
+    "accessibility_certification": false,
+    "new_runtime_execution": false,
+    "new_empirical_validation": false,
+    "external_references_freshly_fact_checked": false
+  },
+  "rights": "Existing rights and attribution preserved; no new blanket license or operational authority."
+}
