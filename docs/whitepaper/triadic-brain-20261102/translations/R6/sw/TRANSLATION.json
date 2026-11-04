@@ -1,0 +1,73 @@
+{
+  "language": "sw",
+  "language_name": "Kiswahili",
+  "direction": "ltr",
+  "source_commit": "7c40bb33c64017f7b11a5b83a272cf87424c73e1",
+  "source_path": "docs/whitepaper/triadic-brain-20261102/R6/WHITEPAPER.en.md",
+  "source_sha256": "f7e5ef46c6ac203e61d6b353f4295af0f3270b01db197c55e941b9a7c9fffe3d",
+  "source_remote_byte_verified": true,
+  "translation_path": "docs/whitepaper/triadic-brain-20261102/translations/R6/sw/WHITEPAPER.sw.md",
+  "translation_sha256": "129698eb491feb5c355891d22749c9ffd16592574a7328377de9eaa97ad952fa",
+  "review_date": "2026-11-04",
+  "translation_method": "AI-generated",
+  "review_status": "Independent author-separated AI review completed; corrections applied and affected passages rechecked",
+  "human_linguistic_review_performed": false,
+  "scope": "Complete main text including all tables, appendices and references; separate English supplements and machine companions are not translated",
+  "independent_review": {
+    "document": "WHITEPAPER.sw.md",
+    "language": "Kiswahili",
+    "method": "AI-generated translation with author-separated AI review",
+    "scope": "Full main whitepaper including 86-entry mixed-kind registry, research appendix and references",
+    "reviewed_source_sha256": "f7e5ef46c6ac203e61d6b353f4295af0f3270b01db197c55e941b9a7c9fffe3d",
+    "reviewed_translation_sha256": "129698eb491feb5c355891d22749c9ffd16592574a7328377de9eaa97ad952fa",
+    "review_status": "PASS_WITH_CORRECTIONS_APPLIED_AND_AFFECTED_RECHECKED",
+    "review_coverage": [
+      "Complete prose, headings, registry rows, appendices and source references read",
+      "Source/implementation/proposal distinctions and current-source limitations",
+      "Conditional ordinary JOINED uncertainty refusal and lower-level/CAPTURE_ONLY distinction",
+      "PMR versus custody, copy lifecycle and erasure limitations",
+      "AHA structural reviewability versus empirical target validation",
+      "GUFT namespace, projection, uncertainty and scientific-claim boundaries",
+      "Permissions, cancellation, revocation, local ownership and distributed qualification limitations",
+      "Mathematical code blocks, source-bound English supplement links, registry kinds and identifiers"
+    ],
+    "findings_resolved": [
+      {
+        "issue": "Projection terminology could imply estimation",
+        "resolution": "Uses mwonekano wa uwakilishi (projection) and distinguishes additional view from native state"
+      },
+      {
+        "issue": "Cancellation was translated as deletion in lifecycle cost and peer sections",
+        "resolution": "Uses kughairi/zilizoghairiwa for cancel, keeps kufuta for delete/erase"
+      }
+    ],
+    "limits": [
+      "No fluent-human language certification",
+      "No outside scientific endorsement or fresh empirical validation",
+      "Markdown parsed successfully; no browser-specific rendered-accessibility certification"
+    ]
+  },
+  "structural_checks": {
+    "source_sha256": "f7e5ef46c6ac203e61d6b353f4295af0f3270b01db197c55e941b9a7c9fffe3d",
+    "target_sha256": "129698eb491feb5c355891d22749c9ffd16592574a7328377de9eaa97ad952fa",
+    "checks": {
+      "links_ordered": true,
+      "anchors": true,
+      "fenced_math": true,
+      "registry_count_86": true,
+      "headings_28": true
+    },
+    "row_discrepancies": [],
+    "pass": true
+  },
+  "final_review_notice_change": "Only the pending-review notice was updated after review to state completed independent AI review; scientific and human-review limits retained",
+  "limits": {
+    "fluent_human_certification": false,
+    "browser_render_certification": false,
+    "accessibility_certification": false,
+    "fresh_product_execution": false,
+    "new_empirical_validation": false,
+    "external_references_freshly_fact_checked": false
+  },
+  "rights": "Existing rights and attribution preserved; no new blanket license or operational authority"
+}

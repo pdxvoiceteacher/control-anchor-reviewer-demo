@@ -1,0 +1,152 @@
+{
+  "language": "sw",
+  "language_name": "Kiswahili",
+  "direction": "ltr",
+  "source_commit": "23a674cab2af23baae6e74af2aaf5c7c934ff473",
+  "source_path": "docs/papers/triadic-brain-micro-spectrum/2026-11-03-edition-1.2/TRIADIC_BRAIN_MICRO_SPECTRUM.md",
+  "source_sha256": "6b870b3bc448bed2755995d099b5ca94b35e4c3c09e7e057565116bf315fc0e9",
+  "source_remote_byte_verified": true,
+  "translation_path": "docs/papers/triadic-brain-micro-spectrum/translations/edition-1.2/sw/TRIADIC_BRAIN_MICRO_SPECTRUM.sw.md",
+  "translation_sha256": "ceb3a6e24f454ae1ee2ea612881e6e549b5fecde240465dd3b1acaef14dfc76e",
+  "review_date": "2026-11-04",
+  "translation_method": "AI-generated",
+  "review_status": "Independent author-separated AI review completed; corrections applied and affected passages rechecked",
+  "human_linguistic_review_performed": false,
+  "scope": "Complete main text including all tables, appendices and references; separate English supplements and machine companions are not translated",
+  "independent_review": {
+    "document": "TRIADIC_BRAIN_MICRO_SPECTRUM.sw.md",
+    "status": "PASS_WITH_LIMITS",
+    "review_type": "Independent AI technical-fidelity and completeness review, followed by affected-passage rereview",
+    "reviewed_at_utc": "2026-11-04T03:34:00Z",
+    "source_sha256": "6b870b3bc448bed2755995d099b5ca94b35e4c3c09e7e057565116bf315fc0e9",
+    "reviewed_translation_sha256": "05fb060081d513a6cdac94e2505390a69502192636caf17818f9f8e5bd049d49",
+    "reviewed_body_after_abstract_heading_sha256": "450fa8d21edf1a5742cfea84006dcf4ed959615dab3b85634fd060772a4f8d37",
+    "scope": "Full source and translation comparison: title and edition metadata, abstract, all sections 1–17, all subsections, tables, 18 bibliography entries, I01–I20 source evidence index and appendices A–B. All 241 body blocks are retained. Source qualifications, conditional deductions, authority/consent boundaries, retention versus erasure, unknown versus zero, and proposed versus executed status were checked.",
+    "checks": {
+      "display_equations": {
+        "exact_sequence_match": true,
+        "source_count": 29,
+        "translation_count": 29
+      },
+      "inline_math": {
+        "exact_sequence_match": true,
+        "source_count": 112,
+        "translation_count": 112
+      },
+      "code_fences": {
+        "exact_sequence_match": true,
+        "source_count": 3,
+        "translation_count": 3
+      },
+      "inline_code": {
+        "exact_sequence_match": true,
+        "source_count": 20,
+        "translation_count": 20
+      },
+      "evidence_citation_groups": {
+        "exact_sequence_match": true,
+        "source_count": 84,
+        "translation_count": 84
+      },
+      "source_urls": {
+        "exact_sequence_match": true,
+        "source_count": 41,
+        "translation_count": 41
+      },
+      "numeric_tokens": {
+        "same_multiset": true,
+        "source_count": 682,
+        "translation_count": 682,
+        "sequence_exception": "Section 6.1 reorders the same 2018 and 1.3 tokens to say TLS 1.3 specification of 2018 in natural Kiswahili; checked against the source."
+      },
+      "body_blocks": {
+        "source_count": 241,
+        "translation_count": 241
+      },
+      "affected_passages_reread": true,
+      "correction_terms_present": true
+    },
+    "corrected_findings": [
+      "Software artifact terminology corrected from device/equipment to kizalia/vizalia; actual hardware references preserved.",
+      "Compression and compressor terminology corrected to mfinyazo/kifinyazaji.",
+      "Coherence distinguished from actual ratios and correlations in four affected contexts.",
+      "Phase-difference rate, strict decay, coordinate terminology and physical/angular frequency clarified.",
+      "Technical typo corrected.",
+      "Pure comparison leaf distinguished from a clean leaf; the separately fixed evidence/status contract clarified.",
+      "Step refinement clarified as progressively smaller numerical steps.",
+      "Bare answer bytes distinguished from empty bytes.",
+      "Explicitly unestablished cross-domain utility made unambiguous."
+    ],
+    "remaining_findings": [],
+    "limits": [
+      "AI review only; no fluent-human Kiswahili review, native-speaker certification or professional translation certification has been performed.",
+      "This review compares the supplied frozen texts. It is not an audit of source code, a new product execution, empirical validation, journal review or outside endorsement.",
+      "English remains controlling for interpretation; English code blocks, identifiers, equations and bibliography entries remain intentionally preserved.",
+      "The pending-review notice may now be updated to report completed independent AI review. That metadata change requires a new file hash; the reviewed body hash permits precise binding without implying review of unrelated later edits."
+    ]
+  },
+  "structural_checks": {
+    "source_sha256": "6b870b3bc448bed2755995d099b5ca94b35e4c3c09e7e057565116bf315fc0e9",
+    "target_sha256": "ceb3a6e24f454ae1ee2ea612881e6e549b5fecde240465dd3b1acaef14dfc76e",
+    "checks": {
+      "fences": {
+        "pass": true,
+        "source_count": 3,
+        "target_count": 3
+      },
+      "display_math": {
+        "pass": true,
+        "source_count": 29,
+        "target_count": 29
+      },
+      "inline_math": {
+        "pass": true,
+        "source_count": 112,
+        "target_count": 112
+      },
+      "inline_code": {
+        "pass": true,
+        "source_count": 20,
+        "target_count": 20
+      },
+      "urls": {
+        "pass": true,
+        "source_count": 41,
+        "target_count": 41
+      },
+      "evidence_citations": {
+        "pass": true,
+        "source_count": 84,
+        "target_count": 84
+      },
+      "heading_levels": {
+        "pass": true,
+        "source_count": 50,
+        "target_count": 50
+      },
+      "numbered_headings": {
+        "pass": true,
+        "source_count": 43,
+        "target_count": 43
+      },
+      "table_cells": {
+        "pass": true,
+        "source_count": 36,
+        "target_count": 36
+      }
+    },
+    "numeric_line_mismatches": [],
+    "all_pass": true,
+    "review_status": "INDEPENDENT_AI_REVIEW_COMPLETE_FINAL_NOTICE_UPDATED"
+  },
+  "final_review_notice_change": "Only the pending-review notice was updated after review to state completed independent AI review; scientific and human-review limits retained",
+  "limits": {
+    "fluent_human_certification": false,
+    "browser_render_certification": false,
+    "accessibility_certification": false,
+    "fresh_product_execution": false,
+    "new_empirical_validation": false,
+    "external_references_freshly_fact_checked": false
+  },
+  "rights": "Existing rights and attribution preserved; no new blanket license or operational authority"
+}
