@@ -21,7 +21,7 @@
 
 **Triadic Brain design edition:** [English R6 whitepaper, visual atlas, companion guides and contribution information](docs/whitepaper/triadic-brain-20261102/README.md). [Source-bound main-text translations](docs/whitepaper/triadic-brain-20261102/translations/R6/README.md) are available; this documentation does not expand the runnable demo's capabilities.
 
-**Translation access:** Persian (Farsi), Kiswahili and Modern Standard Arabic editions of both papers are linked from the indexes above alongside the earlier editions. Each language retains its own source and AI-assisted review record; no fluent-human certification is claimed. [Quechua and Diné Bizaad reviewer invitation](docs/translations/QUECHUA_DINE_REVIEW_INVITATION.md) seeks community-led review and language decisions, not completed translations or community endorsement.
+**Translation access:** Persian (Farsi), Kiswahili, Modern Standard Arabic, Russian and Polish editions of both papers are linked from the indexes above alongside the earlier editions. Each language retains its own source and AI-assisted review record; no fluent-human certification is claimed. [Quechua and Diné Bizaad reviewer invitation](docs/translations/QUECHUA_DINE_REVIEW_INVITATION.md) seeks community-led review and language decisions, not completed translations or community endorsement.
 
 **An offline, synthetic Python reviewer demo for evidence-linked review and correction history.** No model calls or networked compute run here. The broader Triadic Brain / Control Anchor vision proposes local-first cognitive middleware and voluntary, decentralized cooperation; those are design goals, not deployed capabilities of this repository.
 

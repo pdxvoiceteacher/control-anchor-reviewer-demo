@@ -17,6 +17,9 @@ These separately published full main-text editions retain their own source bindi
 - [Kiswahili](sw/TRIADIC_BRAIN_MICRO_SPECTRUM.sw.md) · [Scope and review limits](sw/README.md) · [Source and review record](sw/TRANSLATION.json)
 - [العربية — Modern Standard Arabic](ar/TRIADIC_BRAIN_MICRO_SPECTRUM.ar.md) · [Scope and review limits](ar/README.md) · [Source and review record](ar/TRANSLATION.json)
 
+- [Русский — Russian](ru/TRIADIC_BRAIN_MICRO_SPECTRUM.ru.md) · [Scope and review limits](ru/README.md) · [Source and review record](ru/TRANSLATION.json)
+- [Polski — Polish](pl/TRIADIC_BRAIN_MICRO_SPECTRUM.pl.md) · [Scope and review limits](pl/README.md) · [Source and review record](pl/TRANSLATION.json)
+
 These editions are AI-assisted, not fluent-human or professional translation certification. Separate English supplements and machine-readable companions remain untranslated. Source and translation bytes are unchanged by this navigation update.
 
 ## Community reviewer invitation
