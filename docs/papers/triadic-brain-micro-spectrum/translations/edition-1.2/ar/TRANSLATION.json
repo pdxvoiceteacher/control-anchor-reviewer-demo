@@ -1,0 +1,105 @@
+{
+  "language": "ar",
+  "language_name": "العربية الفصحى",
+  "direction": "rtl",
+  "source_commit": "23a674cab2af23baae6e74af2aaf5c7c934ff473",
+  "source_path": "docs/papers/triadic-brain-micro-spectrum/2026-11-03-edition-1.2/TRIADIC_BRAIN_MICRO_SPECTRUM.md",
+  "source_sha256": "6b870b3bc448bed2755995d099b5ca94b35e4c3c09e7e057565116bf315fc0e9",
+  "source_git_object_byte_verified": true,
+  "translation_path": "docs/papers/triadic-brain-micro-spectrum/translations/edition-1.2/ar/TRIADIC_BRAIN_MICRO_SPECTRUM.ar.md",
+  "translation_sha256": "db72fd26d90634fc24c8d1ad2f83494d8dd0e68d44a699797b86f168844ceb13",
+  "translation_bytes": 138686,
+  "publication_packaged_date": "2026-11-04",
+  "method": "AI-assisted translation with separate author-independent AI textual and technical fidelity review; corrections and final affected-byte recheck completed.",
+  "scope": "Complete main paper including references and appendices. Separate supplements and machine-readable companions remain English.",
+  "independent_review": {
+    "review_type": "Full independent AI semantic review with final affected-review verification",
+    "reviewer": "Separate author-independent AI reviewer",
+    "human_certification": false,
+    "source_sha256": "6b870b3bc448bed2755995d099b5ca94b35e4c3c09e7e057565116bf315fc0e9",
+    "translation_sha256": "db72fd26d90634fc24c8d1ad2f83494d8dd0e68d44a699797b86f168844ceb13",
+    "translation_bytes": 138686,
+    "result": "PASS",
+    "findings_resolved": [
+      {
+        "section": "3",
+        "clarification": "Explicit parenthetical Unicode scalar values added."
+      },
+      {
+        "section": "16.5",
+        "clarification": "Statistical dependence explicitly rendered الاعتماد الإحصائي."
+      }
+    ],
+    "final_reviewer_report": "Independently read corrected candidate and verified both requested clarifications. Rechecked all 29 display/112 inline equations, 83 citations, all source URLs/inline code and JSON/pseudocode preservation. No remaining substantive semantic defect found.",
+    "limitations": [
+      "AI review is not fluent-human certification.",
+      "No rendered visual or accessibility certification.",
+      "No product execution or empirical validation."
+    ],
+    "supplemental_bounded_review": "MANUSCRIPT_INDEPENDENT_REVIEW.json"
+  },
+  "structural_checks": {
+    "language": "ar",
+    "display_name": "العربية الفصحى",
+    "direction": "rtl",
+    "completeness": "complete_main_text",
+    "source_edition": "1.2",
+    "source_sha256": "6b870b3bc448bed2755995d099b5ca94b35e4c3c09e7e057565116bf315fc0e9",
+    "translation_sha256": "db72fd26d90634fc24c8d1ad2f83494d8dd0e68d44a699797b86f168844ceb13",
+    "translation_bytes": 138686,
+    "source_lines": 764,
+    "translation_lines": 900,
+    "checks": {
+      "display_equations": {
+        "original_count": 29,
+        "translated_count": 29,
+        "missing": [],
+        "passed": true,
+        "extra": []
+      },
+      "inline_math": {
+        "original_count": 112,
+        "translated_count": 112,
+        "missing": [],
+        "passed": true,
+        "extra": []
+      },
+      "source_citations": {
+        "original_count": 83,
+        "translated_count": 83,
+        "missing": [],
+        "passed": true,
+        "extra": []
+      },
+      "source_urls": {
+        "original_count": 41,
+        "translated_count": 42,
+        "missing": [],
+        "passed": true
+      }
+    },
+    "independent_review": "Full independent AI semantic review and final affected-review passed; no unresolved finding. Not human or rendered visual/accessibility certification.",
+    "human_certification": false,
+    "runtime_execution": false,
+    "new_empirical_validation": false,
+    "rendered_accessibility_certification": false,
+    "additional_checks": {
+      "numeric_token_multiset_preserved": true,
+      "heading_levels_and_counts_preserved": true,
+      "uppercase_identifier_occurrence_counts_preserved": true,
+      "json_and_pseudocode_preserved": true,
+      "figure_1_labels_translated_with_topology_retained": true
+    },
+    "review_record": "MANUSCRIPT_FULL_REVIEW.json",
+    "git_blob": "288fb596ccd13093077e0eb3d892da1e59c8406f"
+  },
+  "limits": {
+    "human_language_certification": false,
+    "rendered_visual_review": false,
+    "accessibility_certification": false,
+    "new_runtime_execution": false,
+    "new_empirical_validation": false,
+    "external_references_freshly_fact_checked": false
+  },
+  "rights": "Existing rights and attribution preserved; no new blanket license or operational authority."
+}
