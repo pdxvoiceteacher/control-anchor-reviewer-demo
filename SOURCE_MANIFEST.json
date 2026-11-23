@@ -2890,6 +2890,22 @@
       "bytes": 130238
     },
     {
+      "path": "docs/SMALL_ORG_CONTROL_REVIEW.md",
+      "candidate_sha256": "9c45111b6562c343d689571c19dd51bae7d54188844c860bd2cbd7d6e6bd8950",
+      "bytes": 3816,
+      "origin": "NEW",
+      "source_basis_paths": [
+        "README.md",
+        "VALIDATION.md",
+        "docs/PUBLIC_SUBSYSTEMS.md",
+        "docs/TRIADIC_BRAIN_VISION.md",
+        "approval_control_demo.py"
+      ],
+      "modifications": "AI-assisted local-only reviewer navigation, supplied-field approval example guide, and separately proposed fictional pre-payment exercise. No joined report or new evidence.",
+      "license": "No new license grant; existing rights and notices preserved.",
+      "publication_review": "LOCAL_DRAFT_PENDING_REVIEW_NOT_PUBLISHED"
+    },
+    {
       "path": "docs/PUBLIC_SUBSYSTEMS.md",
       "candidate_sha256": "dac6343bbf842168d49be8c0a0bbfd45410094fe58e3d67bbc33dcbb62e6f166",
       "bytes": 6396,
@@ -2908,6 +2924,26 @@
       "modifications": "Bounded UCC public extraction: synthetic demonstration, focused tests, promotion guidance or public-only qualification evidence. AI-assisted under owner instruction.",
       "license": "MPL-2.0 to extent rights exist and covered",
       "publication_review": "OWNER_AUTHORIZED_BOUNDED_SUBSYSTEM_PROMOTION_EXISTING_RIGHTS_PRESERVED"
+    },
+    {
+      "path": "approval_control_demo.py",
+      "candidate_sha256": "b00261e822176d405e2a6bc447f4bad07881cdb096fe18e5554fcef3d15e2060",
+      "bytes": 2901,
+      "origin": "NEW",
+      "source_basis_paths": [],
+      "modifications": "AI-assisted public-only synthetic approval evidence example using existing UCC; no private materials copied.",
+      "license": "MPL-2.0 to extent rights exist and covered",
+      "publication_review": "PENDING_INDEPENDENT_REVIEW_NOT_PUBLISHED"
+    },
+    {
+      "path": "tests/test_approval_control_demo.py",
+      "candidate_sha256": "ad1e370f7997bce40c93a1038a9ffc0f2b9cfc430be375ca21904f2c8415680b",
+      "bytes": 3551,
+      "origin": "NEW",
+      "source_basis_paths": [],
+      "modifications": "AI-assisted public-only synthetic approval evidence example using existing UCC; no private materials copied.",
+      "license": "MPL-2.0 to extent rights exist and covered",
+      "publication_review": "PENDING_INDEPENDENT_REVIEW_NOT_PUBLISHED"
     },
     {
       "path": "ucc_demo.py",
@@ -3965,6 +4001,7 @@
     "resource_boundary": "schema_validation.py owns the closed 12-schema filename/hash registry; no external resources selected",
     "additional_entrypoints": [
       "ucc_demo.py",
+      "approval_control_demo.py",
       "retrosynthesis_demo.py"
     ],
     "optional_test_dependency": "pytest9.1.1 for exact upstream UCC and retrosynthesis suites; not bundled or required by original evidence/UCC runtime or stdlib discovery",
