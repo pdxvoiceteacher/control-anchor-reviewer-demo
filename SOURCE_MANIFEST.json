@@ -2890,6 +2890,22 @@
       "bytes": 130238
     },
     {
+      "path": "docs/SMALL_ORG_CONTROL_REVIEW.md",
+      "candidate_sha256": "147b15adb763ccc06e25ffd10bfe902778600c5ae0a95347d9f4efa9b5a25e23",
+      "bytes": 5693,
+      "origin": "NEW",
+      "source_basis_paths": [
+        "README.md",
+        "VALIDATION.md",
+        "docs/PUBLIC_SUBSYSTEMS.md",
+        "docs/TRIADIC_BRAIN_VISION.md",
+        "approval_control_demo.py"
+      ],
+      "modifications": "AI-assisted reviewer guide for caller-supplied plan and evidence; proposed pre-payment workflow is not tested.",
+      "license": "No new license grant; existing rights and notices preserved.",
+      "publication_review": "LOCAL_DRAFT_PENDING_REVIEW_NOT_PUBLISHED"
+    },
+    {
       "path": "docs/PUBLIC_SUBSYSTEMS.md",
       "candidate_sha256": "dac6343bbf842168d49be8c0a0bbfd45410094fe58e3d67bbc33dcbb62e6f166",
       "bytes": 6396,
@@ -2908,6 +2924,26 @@
       "modifications": "Bounded UCC public extraction: synthetic demonstration, focused tests, promotion guidance or public-only qualification evidence. AI-assisted under owner instruction.",
       "license": "MPL-2.0 to extent rights exist and covered",
       "publication_review": "OWNER_AUTHORIZED_BOUNDED_SUBSYSTEM_PROMOTION_EXISTING_RIGHTS_PRESERVED"
+    },
+    {
+      "path": "approval_control_demo.py",
+      "candidate_sha256": "68c52d8886ac86d06de32d3e68480fbfb89c245eb5b9c4b38787f738980d3f46",
+      "bytes": 5398,
+      "origin": "NEW",
+      "source_basis_paths": [],
+      "modifications": "AI-assisted public-only example and variable local JSON entrypoint using existing UCC; no private materials copied.",
+      "license": "MPL-2.0 to extent rights exist and covered",
+      "publication_review": "PENDING_INDEPENDENT_REVIEW_NOT_PUBLISHED"
+    },
+    {
+      "path": "tests/test_approval_control_demo.py",
+      "candidate_sha256": "0b99bdab493d38ca0feaa7cd29978621fc5b73dc7722c673d2d0076f20ba76b6",
+      "bytes": 8371,
+      "origin": "NEW",
+      "source_basis_paths": [],
+      "modifications": "AI-assisted offline CLI checks for two caller-authored control plans, differing evidence and malformed input.",
+      "license": "MPL-2.0 to extent rights exist and covered",
+      "publication_review": "PENDING_INDEPENDENT_REVIEW_NOT_PUBLISHED"
     },
     {
       "path": "ucc_demo.py",
@@ -3965,6 +4001,7 @@
     "resource_boundary": "schema_validation.py owns the closed 12-schema filename/hash registry; no external resources selected",
     "additional_entrypoints": [
       "ucc_demo.py",
+      "approval_control_demo.py",
       "retrosynthesis_demo.py"
     ],
     "optional_test_dependency": "pytest9.1.1 for exact upstream UCC and retrosynthesis suites; not bundled or required by original evidence/UCC runtime or stdlib discovery",
