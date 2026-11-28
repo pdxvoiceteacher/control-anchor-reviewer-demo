@@ -1257,14 +1257,14 @@
     },
     {
       "path": "VALIDATION.md",
-      "candidate_sha256": "1301c658c6f1f3772308572c4de73567b1e067ddac3682bd98accc89513a040d",
+      "candidate_sha256": "86de54915879e073670cd9246824cf30821406d29ebaf297bbe69dddde4bc82f",
       "origin": "NEW",
       "source_basis_paths": [],
       "modifications": "New demo preparation material; AI-assisted under human commissioning.",
       "license": "MPL-2.0 to extent rights exist and covered",
       "publication_review": "OWNER_APPROVED_PUBLIC_SOURCE_ACCESS_EXISTING_RIGHTS_PRESERVED_NO_NEW_LICENSE",
       "historical_publication_review": "FINAL_CONTENT_DECISION_PENDING",
-      "bytes": 23512
+      "bytes": 26473
     },
     {
       "path": "docs/METHODS_APPENDIX.md",
