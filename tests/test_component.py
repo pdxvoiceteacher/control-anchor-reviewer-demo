@@ -12,6 +12,7 @@ import zipfile
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 import demo
+from reviewer_output import scratch_parent
 from triadicbrain.assurance.authorization import Action, AuthorizationError, authorize
 from triadicbrain.assurance.models import ActorClass, Plane
 from triadicbrain.assurance.transaction import (
@@ -27,9 +28,9 @@ class ComponentTests(unittest.TestCase):
         # available for inspection; ordinary unittest use remains disposable.
         retained_root = os.environ.get("REVIEWER_TEST_ROOT")
         if retained_root:
-            self.root = Path(tempfile.mkdtemp(prefix=self._testMethodName + "-", dir=retained_root))
+            self.root = Path(tempfile.mkdtemp(prefix=self._testMethodName + "-", dir=scratch_parent(retained_root)))
         else:
-            self.temp = tempfile.TemporaryDirectory()
+            self.temp = tempfile.TemporaryDirectory(dir=scratch_parent())
             self.addCleanup(self.temp.cleanup)
             self.root = Path(self.temp.name)
         self.store = self.root / "store"
@@ -184,6 +185,21 @@ class ComponentTests(unittest.TestCase):
         self.assertIn("Offline demo observations", report)
         self.assertIn("verifier HOLD / exit 3", report)
         self.assertIn("advisory remains OPEN", report)
+        for title in ("What did the software verify?", "Where is the original evidence?",
+                      "What still needs a person's decision?"):
+            self.assertIn(title, report)
+        self.assertIn("SCRIPTED_NOT_THOMAS_APPROVAL", report)
+        self.assertIn("INJECTED_SYNTHETIC_ADVISORY_NOT_AI_DISCOVERED", report)
+        self.assertIn("HOLD: PACKAGE_TOPOLOGY_INVALID", report)
+        self.assertNotIn('href="/transaction/', report)
+        from html.parser import HTMLParser
+        class Links(HTMLParser):
+            def handle_starttag(inner, tag, attrs):
+                if tag == 'a':
+                    target = dict(attrs).get('href')
+                    if target:
+                        self.assertTrue((output / target).exists(), target)
+        Links().feed(report)
         before = demo.file_digests(output)
         with self.assertRaises(FileExistsError):
             demo.run_demo(output)

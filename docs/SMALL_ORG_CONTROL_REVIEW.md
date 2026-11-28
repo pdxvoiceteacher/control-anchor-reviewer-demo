@@ -64,6 +64,7 @@ Save that as `plan.json`. Save your evidence as `context.json`:
 
 ```sh
 python -S -B approval_control_demo.py --plan plan.json --context context.json
+python -S -B approval_control_demo.py --plan plan.json --context context.json --output control-review-1
 ```
 
 Change the return date or the policy inputs, predict the effect, then run the
@@ -77,8 +78,23 @@ plans or invalid files return a CLI error, not a default answer.
 
 The JSON result records the two exact input-file digests, the validated plan
 digest, and each check's result and input bindings. Save a receipt locally
-with shell redirection if desired. Those hashes identify what was supplied;
-they do not authenticate the facts. This is a real local execution of the
+with shell redirection if desired. Optional `--output` retains the exact consumed
+`plan.json` and `context.json`, the existing check results as `result.json`, and a
+read-only `review.html` using the existing report view. It requires a fresh private
+directory under an ordinary parent. Linked input files and linked ancestors are
+rejected by the existing custody reader. An error leaves any partial output for
+inspection and does not overwrite an earlier review.
+
+The page puts software checks, original evidence and the outstanding human
+decision first. Open the saved files directly to review them again without
+executing the check. For another input version use a new output directory, keeping
+the originals. A missing field remains HOLD, a human procedure remains
+NOT_EXECUTED, and the human decision remains NOT_PERFORMED. This simple export is
+not a sealed custody package, authenticated human review or durable Workbench
+history. The separate `demo.py` path exercises retained package verification.
+
+Those hashes identify what was supplied; they do not authenticate the facts.
+This is a real local execution of the
 public control component, not Workbench admission, an approved payment, a
 peer/model run, a persisted audit trail, or evidence of a deployed Brain.
 

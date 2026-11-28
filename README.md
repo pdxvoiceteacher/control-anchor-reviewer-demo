@@ -299,6 +299,11 @@ Use an existing Python 3.12 runtime. No dependency installation or API key is
 needed. The selected runtime uses the standard library, including the source's
 closed local schema validator. `-S` disables site packages.
 
+The evidence demo stores files, JSON/JSONL records and ZIP packages. It does not
+use SQLAlchemy or an ORM. The separate optional retrosynthesis component has its
+own [dependencies](docs/RETROSYNTHESIS_COMPONENT.md); they are not prerequisites
+for `demo.py` or the supplied-input control check.
+
 From this repository directory, if `python` already resolves to Python 3.12:
 
 ```powershell
@@ -323,6 +328,56 @@ restricted sandbox denied this operation; the observed successful run used the
 same Windows user outside that sandbox, without UAC elevation. See
 [VALIDATION.md](VALIDATION.md). A denial is a failed run, not permission to replace
 the publication mechanism or claim success.
+
+## Test scratch paths and normal demo output
+
+These are separate paths. `REVIEWER_TEST_ROOT` affects the component tests only;
+`demo.py` does not read it. Tests create a fresh private scratch directory under
+a checked parent. For the OS-selected temporary parent only, they resolve the
+system alias before checking it (for example macOS `/var` to `/private/var`).
+An explicitly supplied test root or demo output path is checked as supplied:
+symlinks, junctions/reparse points and linked evidence are not made acceptable
+by resolving them first. Existing custody checks remain unchanged.
+
+For retained test fixtures on macOS, an optional explicit parent is:
+
+```sh
+REVIEWER_TEST_ROOT=/private/var/tmp python3 -S -B -m unittest discover -s tests -v
+```
+
+That parent must already exist and pass the checks on the actual machine. Tests
+create separate random subdirectories; they do not write directly into the
+shared parent's filenames. The normal demo instead uses its fresh `--output`
+directory under a checked ordinary parent, with no test-root setting:
+
+```sh
+python3 -S -B demo.py --output demo-output
+```
+
+Use an existing Python 3.12, and a checkout/output parent without linked ancestors.
+Do not use `sudo`, disable custody checks, or treat these instructions as a Mac
+qualification result. **Apple Silicon verification of this revision is pending.**
+On POSIX, newly created output/scratch directories use owner-only mode; this does
+not establish independently enforced Windows custody or hostile-local-owner protection.
+
+## First-time reviewer checklist
+
+1. Record `git rev-parse HEAD` and `python --version`. The demo's historical
+   `summary.source_commit` identifies copied upstream source, not your public
+   checkout; retain both identities and the actual command/log.
+2. Choose fresh output under an ordinary local parent. Use the existing runtime;
+   no SQLAlchemy, API key, model or optional retrosynthesis install is needed.
+3. Open `review.html`: distinguish **software checks**, **original evidence** and
+   **decisions still owed by a person**. Follow the local original-source and
+   receipt links, not just a green hash.
+4. Read the scripted reviewer and injected finding labels. `APPROVE` in this
+   fixture is not your acceptance; an open finding is not resolved by a revision.
+5. Follow [the supplied-input route](docs/SMALL_ORG_CONTROL_REVIEW.md#run-a-control-and-evidence-you-supply).
+   Hold a rule fixed, change one permitted input, then omit required evidence.
+   Inspect PASS, FAIL and HOLD separately and keep each original in a fresh output.
+6. Reopen saved HTML/JSON and verify retained packages with the existing verifier.
+   Reopening is inspection, not another execution or decision. Missing-source
+   copies should be rejected; expected rejection is not package verification PASS.
 
 ## If a quickstart command fails
 

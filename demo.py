@@ -18,6 +18,7 @@ sys.path.insert(0, str(ROOT / "src"))
 from triadicbrain.assurance.production_cli import main as production_main
 from triadicbrain.assurance.authorization import AuthorizationError
 from triadicbrain.assurance.models import ActorClass
+from reviewer_output import private_output, review_questions
 from triadicbrain.assurance.transaction import (
     TransitionInterrupted, recover_pending_transition, register_captured_transaction,
     register_platform_observed_transaction, submit_human_decision, transaction_snapshot,
@@ -233,7 +234,7 @@ def missing_evidence_examples(package: Path, archive: Path, output: Path) -> dic
     return results
 
 
-def add_demo_observations(report: str) -> str:
+def add_demo_observations(report: str, summary: dict) -> str:
     """Add a readable harness section to the existing read-only report."""
     observations = [
         ("Missing evidence", "Directory and ZIP copies each omit source/original.bin: verifier HOLD / exit 3. Expected rejection observed; retained originals PASS."),
@@ -251,13 +252,44 @@ def add_demo_observations(report: str) -> str:
                "<a href='interrupted-decision-journal.json'>Retained interrupted journal</a></p></section>")
     if "<main>" not in report:
         raise AssertionError("Expected report insertion point missing")
-    return report.replace("<main>", "<main>" + section, 1)
+    results = summary["verified_packages"]
+    verified = [(f"{sum(value == 'PASS' for value in results.values())} of {len(results)} "
+                 "retained directory/ZIP checks PASS: member bytes, structure and recorded bindings, not source truth.",
+                 "summary.json")]
+    for kind in ("directory", "zip"):
+        refusal = summary["missing_evidence"][kind]
+        verified.append((f"Missing source ({kind}): {refusal['verifier_result']}; "
+                         f"exit {refusal['exit_code']}. This is a rejection, not a package PASS.",
+                         "summary.json"))
+    originals = [("Original supplied source (synthetic)",
+                  f"store/packages/{CAPTURE}/source/original.bin"),
+                 ("Captured candidate, controls, decisions and custody members",
+                  f"store/packages/{CAPTURE}/18_HUMAN_READABLE_REVIEW.html"),
+                 ("Reopened practitioner records (JSON)", "practitioner.json"),
+                 ("Exact verification receipts and export hashes", "summary.json")]
+    decisions = [(f"Recorded review: {summary['review_decision']}; no actual human acceptance.", None),
+                 (f"Finding origin: {summary['repair_finding']}. Resolved findings: "
+                  f"{summary['resolved_finding_ids']}; the advisory remains OPEN.",
+                  f"store/transactions/{PARENT}/review/findings.jsonl"),
+                 ("A person must assess source truth, sufficiency, the open finding and whether to act. "
+                  "This page grants no authority.", None)]
+    overview = review_questions(verified, originals, decisions)
+    # Standalone local files have no server routes. Keep the existing record view,
+    # but point its transaction drill-through to actual exported local members.
+    report = report.replace('<nav aria-label="Evidence views">' + report.split(
+        '<nav aria-label="Evidence views">', 1)[1].split('</nav>', 1)[0] + '</nav>',
+        '<nav aria-label="Evidence views"><a href="summary.json">Summary</a> '
+        '<a href="practitioner.json">Practitioner records</a></nav>')
+    for txid in (CAPTURE, PARENT, CHILD, RECOVERY):
+        report = report.replace(f'href="/transaction/{txid}"',
+                                f'href="store/transactions/{txid}/"')
+    return report.replace("<main>", "<main>" + overview + section, 1)
 
 
 def run_demo(output: Path) -> dict:
-    output = output.absolute()
-    # Fresh output only: never erase or overwrite a previous run.
-    output.mkdir(parents=False, exist_ok=False)
+    # Check the explicit parent before creating anything; never resolve away a
+    # caller's linked output path. Existing runs are never overwritten.
+    output = private_output(output)
     store = output / "store"
     new_store(store)
     snapshot = register_capture(store)
@@ -321,7 +353,9 @@ def run_demo(output: Path) -> dict:
         raise AssertionError("Original package changed")
     summary = {
         "demonstration": "OFFLINE EVIDENCE AND REVIEW COMPONENT DEMONSTRATION",
-        "source_commit": SOURCE_COMMIT, "provider_invoked": False,
+        "source_commit": SOURCE_COMMIT,
+        "source_commit_kind": "COPIED_UPSTREAM_SOURCE_NOT_PUBLIC_CHECKOUT_ID",
+        "provider_invoked": False,
         "review_decision": "SCRIPTED_NOT_THOMAS_APPROVAL",
         "repair_finding": "INJECTED_SYNTHETIC_ADVISORY_NOT_AI_DISCOVERED",
         "parent_candidate_and_findings_unchanged": True,
@@ -334,7 +368,7 @@ def run_demo(output: Path) -> dict:
         "original_package_after_tamper": "PASS", "public_release_review": "HOLD",
     }
     (output / "summary.json").write_text(json.dumps(summary, indent=2) + "\n", encoding="utf-8")
-    (output / "review.html").write_text(add_demo_observations(report), encoding="utf-8")
+    (output / "review.html").write_text(add_demo_observations(report, summary), encoding="utf-8")
     return summary
 
 
