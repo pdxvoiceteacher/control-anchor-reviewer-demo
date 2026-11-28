@@ -34,6 +34,54 @@ authorized, or produce a joined report or reopen record. It does not execute
 the pre-payment control below. [Recorded validation](../VALIDATION.md) is scoped
 to its dated runs; a rejected adverse case is not a verifier PASS.
 
+## Run a control and evidence you supply
+
+The no-argument command above is a canned illustration. For a variable-input
+run, save both of these as UTF-8 JSON files in a local scratch directory.
+Use fictional data only in this public reviewer exercise.
+
+```json
+{
+  "schema_id": "control-anchor.ucc-plan.v1",
+  "plan_id": "LOAN-RETURN",
+  "version": 1,
+  "steps": [{
+    "id": "DUE",
+    "title": "Check return against approved deadline",
+    "kind": "executable",
+    "phase": "result",
+    "operation": "date_order",
+    "arguments": {"earlier": "/source/returned", "later": "/evidence/deadline"}
+  }]
+}
+```
+
+Save that as `plan.json`. Save your evidence as `context.json`:
+
+```json
+{"source":{"returned":"2027-02-09"},"evidence":{"deadline":"2027-02-09"}}
+```
+
+```sh
+python -S -B approval_control_demo.py --plan plan.json --context context.json
+```
+
+Change the return date or the policy inputs, predict the effect, then run the
+same command. Try a later return and a missing return field. The interpreter
+computes `PASS`, `FAIL` or `HOLD` from the supplied values, not from a named
+scenario. You can also author a different supported result-phase plan, such
+as `number_range` against a quantity; see the
+[bounded UCC implementation](../src/triadicbrain/assurance/ucc_plan.py) for the
+operation set and arguments. Files are bounded to 256 KiB each. Unsupported
+plans or invalid files return a CLI error, not a default answer.
+
+The JSON result records the two exact input-file digests, the validated plan
+digest, and each check's result and input bindings. Save a receipt locally
+with shell redirection if desired. Those hashes identify what was supplied;
+they do not authenticate the facts. This is a real local execution of the
+public control component, not Workbench admission, an approved payment, a
+peer/model run, a persisted audit trail, or evidence of a deployed Brain.
+
 ## Proposed real-runtime exercise: evidence before payment
 
 A fictional community workshop adopts this criterion: before paying a
