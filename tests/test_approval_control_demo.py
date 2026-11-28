@@ -11,6 +11,7 @@ ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT))
 
 from approval_control_demo import evaluate_evidence
+from reviewer_output import scratch_parent
 
 
 class ApprovalControlDemoTests(unittest.TestCase):
@@ -69,7 +70,7 @@ class ApprovalControlDemoTests(unittest.TestCase):
 
 
     def run_supplied(self, plan, context):
-        with TemporaryDirectory() as temp:
+        with TemporaryDirectory(dir=scratch_parent()) as temp:
             plan_path = Path(temp) / "plan.json"
             context_path = Path(temp) / "context.json"
             plan_bytes, context_bytes = (

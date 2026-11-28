@@ -1051,7 +1051,7 @@
     },
     {
       "path": "demo.py",
-      "candidate_sha256": "32f1777ab8e4c1179f9a1c95724c2d979b482892eb71afbe453323743087aeea",
+      "candidate_sha256": "fbb6ac969ebdcea2817f823f2d979c2e178e4b8b0950132718589d8268342df6",
       "origin": "ADAPTED",
       "source_basis_paths": [
         "src/triadicbrain/assurance/production_cli.py"
@@ -1060,7 +1060,8 @@
       "license": "MPL-2.0 to extent rights exist and covered",
       "publication_review": "OWNER_APPROVED_PUBLIC_SOURCE_ACCESS_EXISTING_RIGHTS_PRESERVED_NO_NEW_LICENSE",
       "historical_publication_review": "HOLD",
-      "bytes": 19494
+      "bytes": 22011,
+      "reviewer_experience_2026_11_28": "Checked generated parents; exact supplied input retention; distinct software verification, original evidence and human decision presentation. Extracted engine unchanged."
     },
     {
       "path": "fixtures/advisory.json",
@@ -1200,14 +1201,14 @@
     },
     {
       "path": "README.md",
-      "candidate_sha256": "6aee3436685d59918ca7c1723008dd5b69e628a9326d0f597dc98971ede125d9",
+      "candidate_sha256": "ee93e716ac72bf4ddb3525f86887c3421f0704c5ffdc899221099a848de799ea",
       "origin": "ADAPTED",
       "source_basis_paths": [],
       "modifications": "New reviewer explanation based on maintained architecture; limits bound to extracted implementation. Added link to a source-attributed methods appendix and its bounded teaching claims. Added self-contained Mermaid responsibility diagram separating intended product integration, observed synthetic offline demo and future peer network; no runtime or validation-result changes.",
       "license": "MPL-2.0 to extent rights exist and covered",
       "publication_review": "OWNER_APPROVED_PUBLIC_SOURCE_ACCESS_EXISTING_RIGHTS_PRESERVED_NO_NEW_LICENSE",
       "historical_publication_review": "FINAL_CONTENT_DECISION_PENDING",
-      "bytes": 35258,
+      "bytes": 38370,
       "cooperative_ethos_clarification_2026_11_02": "Owner-directed freedom, local ownership, voluntary mutual aid and practical exit; informed higher overhead may be legitimate. Existing capability limits, rights and public contribution route preserved. No runtime change or new operational evidence.",
       "whitepaper_navigation_2026_11_02": "Added one English design-edition and contribution navigation link, with translations-pending and unchanged-demo scope. No runtime or rights change.",
       "brain_map_revision_history": [
@@ -1217,18 +1218,20 @@
           "bytes": 31093
         }
       ],
-      "brain_map_navigation_2026_11_03": "Prominent static SVG, individual family links and local self-contained explorer. Existing body and historical metadata preserved; no runtime or rights change."
+      "brain_map_navigation_2026_11_03": "Prominent static SVG, individual family links and local self-contained explorer. Existing body and historical metadata preserved; no runtime or rights change.",
+      "reviewer_experience_2026_11_28": "Checked generated parents; exact supplied input retention; distinct software verification, original evidence and human decision presentation. Extracted engine unchanged."
     },
     {
       "path": "tests/test_component.py",
-      "candidate_sha256": "1b27ca5a9cb4024d0f5d34b27ad04a5b78065cc7be7a0033d3cfdf727c65b2b3",
+      "candidate_sha256": "aded74b885ffb89f9814b1bea039955398384e46847a840f6460f867502ef77d",
       "origin": "ADAPTED",
       "source_basis_paths": [],
       "modifications": "Focused positive/adverse cases adapted to stdlib unittest; pytest fixtures/parametrization replaced; synthetic inputs and CLI helpers reused; concurrency, full recovery and full-product cases omitted.",
       "license": "MPL-2.0 to extent rights exist and covered",
       "publication_review": "OWNER_APPROVED_PUBLIC_SOURCE_ACCESS_EXISTING_RIGHTS_PRESERVED_NO_NEW_LICENSE",
       "historical_publication_review": "HOLD",
-      "bytes": 11325
+      "bytes": 12208,
+      "reviewer_experience_2026_11_28": "Checked generated parents; exact supplied input retention; distinct software verification, original evidence and human decision presentation. Extracted engine unchanged."
     },
     {
       "path": "THIRD_PARTY_NOTICES.md",
@@ -1254,14 +1257,14 @@
     },
     {
       "path": "VALIDATION.md",
-      "candidate_sha256": "1301c658c6f1f3772308572c4de73567b1e067ddac3682bd98accc89513a040d",
+      "candidate_sha256": "86de54915879e073670cd9246824cf30821406d29ebaf297bbe69dddde4bc82f",
       "origin": "NEW",
       "source_basis_paths": [],
       "modifications": "New demo preparation material; AI-assisted under human commissioning.",
       "license": "MPL-2.0 to extent rights exist and covered",
       "publication_review": "OWNER_APPROVED_PUBLIC_SOURCE_ACCESS_EXISTING_RIGHTS_PRESERVED_NO_NEW_LICENSE",
       "historical_publication_review": "FINAL_CONTENT_DECISION_PENDING",
-      "bytes": 23512
+      "bytes": 26473
     },
     {
       "path": "docs/METHODS_APPENDIX.md",
@@ -2891,8 +2894,8 @@
     },
     {
       "path": "docs/SMALL_ORG_CONTROL_REVIEW.md",
-      "candidate_sha256": "147b15adb763ccc06e25ffd10bfe902778600c5ae0a95347d9f4efa9b5a25e23",
-      "bytes": 5693,
+      "candidate_sha256": "40fad8bfc6d29db40df8810f8030f3ac76ff3758d89038f984392724fdc7d793",
+      "bytes": 6768,
       "origin": "NEW",
       "source_basis_paths": [
         "README.md",
@@ -2903,7 +2906,8 @@
       ],
       "modifications": "AI-assisted reviewer guide for caller-supplied plan and evidence; proposed pre-payment workflow is not tested.",
       "license": "No new license grant; existing rights and notices preserved.",
-      "publication_review": "LOCAL_DRAFT_PENDING_REVIEW_NOT_PUBLISHED"
+      "publication_review": "LOCAL_DRAFT_PENDING_REVIEW_NOT_PUBLISHED",
+      "reviewer_experience_2026_11_28": "Checked generated parents; exact supplied input retention; distinct software verification, original evidence and human decision presentation. Extracted engine unchanged."
     },
     {
       "path": "docs/PUBLIC_SUBSYSTEMS.md",
@@ -2927,23 +2931,25 @@
     },
     {
       "path": "approval_control_demo.py",
-      "candidate_sha256": "68c52d8886ac86d06de32d3e68480fbfb89c245eb5b9c4b38787f738980d3f46",
-      "bytes": 5398,
+      "candidate_sha256": "d22a8b61cab735b0d00e8d2859637606fd26a16b5e25ec7e52c7c4226d9105b6",
+      "bytes": 7811,
       "origin": "NEW",
       "source_basis_paths": [],
       "modifications": "AI-assisted public-only example and variable local JSON entrypoint using existing UCC; no private materials copied.",
       "license": "MPL-2.0 to extent rights exist and covered",
-      "publication_review": "PENDING_INDEPENDENT_REVIEW_NOT_PUBLISHED"
+      "publication_review": "PENDING_INDEPENDENT_REVIEW_NOT_PUBLISHED",
+      "reviewer_experience_2026_11_28": "Checked generated parents; exact supplied input retention; distinct software verification, original evidence and human decision presentation. Extracted engine unchanged."
     },
     {
       "path": "tests/test_approval_control_demo.py",
-      "candidate_sha256": "0b99bdab493d38ca0feaa7cd29978621fc5b73dc7722c673d2d0076f20ba76b6",
-      "bytes": 8371,
+      "candidate_sha256": "45dcfadbf9269fbb888f7abee8180ab73375f0a53bc86939d0c296244057cd07",
+      "bytes": 8434,
       "origin": "NEW",
       "source_basis_paths": [],
       "modifications": "AI-assisted offline CLI checks for two caller-authored control plans, differing evidence and malformed input.",
       "license": "MPL-2.0 to extent rights exist and covered",
-      "publication_review": "PENDING_INDEPENDENT_REVIEW_NOT_PUBLISHED"
+      "publication_review": "PENDING_INDEPENDENT_REVIEW_NOT_PUBLISHED",
+      "reviewer_experience_2026_11_28": "Checked generated parents; exact supplied input retention; distinct software verification, original evidence and human decision presentation. Extracted engine unchanged."
     },
     {
       "path": "ucc_demo.py",
@@ -3594,6 +3600,28 @@
       "license": "Existing repository rights and notices; no new blanket prose/media license.",
       "candidate_sha256": "ec30f842fa237e015bc169cca0c30e2d0f85d9ad1778d5c809022ab0c4fbcca5",
       "bytes": 3831
+    },
+    {
+      "path": "reviewer_output.py",
+      "origin": "NEW",
+      "source_basis_paths": [],
+      "modifications": "AI-assisted reviewer-only path and presentation adaptation using existing public consumers; no private materials.",
+      "license": "MPL-2.0 to extent rights exist and covered",
+      "publication_review": "OWNER_AUTHORIZED_SCOPED_PUBLIC_PATCH_PENDING_REVIEW",
+      "candidate_sha256": "c9a5bc4df6b090df8942a1aec9e247e9f048f3c197f2bd85c82442c8825d0583",
+      "bytes": 2355,
+      "reviewer_experience_2026_11_28": "Checked generated parents; exact supplied input retention; distinct software verification, original evidence and human decision presentation. Extracted engine unchanged."
+    },
+    {
+      "path": "tests/test_reviewer_experience.py",
+      "origin": "NEW",
+      "source_basis_paths": [],
+      "modifications": "AI-assisted reviewer-only path and presentation adaptation using existing public consumers; no private materials.",
+      "license": "MPL-2.0 to extent rights exist and covered",
+      "publication_review": "OWNER_AUTHORIZED_SCOPED_PUBLIC_PATCH_PENDING_REVIEW",
+      "candidate_sha256": "6e48c0888ebff458dbcdbc4de3f16e33a8fac47a6743c71e54d326ff365ce23c",
+      "bytes": 7684,
+      "reviewer_experience_2026_11_28": "Checked generated parents; exact supplied input retention; distinct software verification, original evidence and human decision presentation. Extracted engine unchanged."
     }
   ],
   "dependency_closure": {

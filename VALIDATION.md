@@ -1,3 +1,50 @@
+# Reviewer first-run and evidence presentation — 28 November 2026
+
+Candidate `1dce1f9c4483219720f1161808d445d76213bad9`, based on public PR48
+`2b7966dcf9e03039c8b7c64b6aa00026a7a0e58c`; current main at inspection was
+`b7a17b9c3dd798ce013529fea72961f44295d303`. No copied engine file changed.
+Windows 11 / AMD64, existing CPython 3.12.14, standard library with `-S -B`,
+no dependency installation, model, hosted runner or paid service.
+
+Exact candidate command (from the checkout, with that existing interpreter):
+
+```sh
+python -S -B -m unittest tests.test_component.ComponentTests.test_complete_demo_surfaces_adverse_evidence_without_network_or_overwrite tests.test_reviewer_experience tests.test_public_integrity -v
+python -I -S -B tools/check_public_integrity.py
+```
+
+The selected unittest run completed with **10 passed, 1 skipped, 0 errors/failures**
+in 18.164 seconds (outer elapsed 18.515 seconds, exit 0). A local subprocess
+supervisor retained stdout/stderr and imposed a 180-second wall deadline with
+process-tree stop on timeout; no timeout or retry occurred in this pinned run.
+The skipped case needs a real symlink; this account returned WinError 1314 when
+creating one. The real hard-link and Windows junction cases passed. The junction
+case also distinguishes resolving the OS-selected scratch parent from rejecting
+an explicitly supplied linked parent. This is not a macOS simulation or an Apple
+Silicon run. **Apple Silicon verification remains pending.**
+
+The complete-demo case invokes the actual `run_demo` path, verifies directory/ZIP
+packages, rejects missing or altered evidence, retains scripted review/injected
+finding labels, checks all local page links, and refuses overwrite. The supplied
+input case invokes the actual CLI for two different controls, each with passing,
+failing and missing inputs. Exact original plan/context bytes and result JSON are
+retained. Re-rendering the saved result with execution prohibited reproduces the
+page without changing saved files. Human procedures remain NOT_EXECUTED and no
+human decision is recorded. The optional supplied-input export is plain local
+files, not a sealed custody package or authenticated decision.
+
+During preparation, the unchanged broader component behaviors passed all 11
+component tests, and all 5 approval-control tests passed. A final presentation
+adjustment was checked by the pinned complete-demo case above, rather than
+rerunning every already-passing family. The manifest checker passed for 342 files;
+copied identities and local Markdown links were checked. Rendered desktop Edge
+inspection of the three-question overview found no clipped text or missing
+columns; all report links are local. This is not accessibility certification.
+
+Original retained evidence was reused for the read-only rendering check. No
+private assessment, personal information, external run logs or private product
+evidence is included here. Historical results below retain their own scope.
+
 # Observed local validation — 18 October 2026
 
 **Current documentation note — 29 October 2026:** the
